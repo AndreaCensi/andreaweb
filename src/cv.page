@@ -1,0 +1,173 @@
+---
+page_class: clear
+orderInfo: 120
+title: Andrea Censi - Curriculum vitae
+linkAttrs:
+   :link_text: CV
+---
+
+{:uni: style="width: 40px"}
+
+<style type="text/css" media="screen">
+	img.uni { width: 60px; float: left; margin-right: 10px;}
+</style>
+
+### Research interests ###
+
+Robotics: all things related to uncertainty (localization,
+estimation, motion planning, communication). 
+I like simple algorithms with solid mathematical properties.
+
+See my [research pages](research/index.html) ([publications](publications.html)).
+
+### Education ###
+
+<table id="table" markdown="1"> <tbody>
+   <tr>
+      <td>2007--?</td>
+	<td> <img src="caltech.gif"  class="uni"/>  California Institute<br/>of Technology 
+		</td>
+      <td> Ph.D., [Control and Dynamical Systems](http://www.cds.caltech.edu). </td>
+    </tr>
+
+    <tr>
+      <td>2005--7</td>
+      <td><img src="sapienza.png" class="uni"/> Università di Roma <br/> *La Sapienza* 
+	</td>
+      <td><em>Laurea Specialistica </em>&nbsp;(~M.Eng) in Control Engineering.  <br/>
+	Thesis: [Robot Motion Planning with Uncertainty](http://purl.org/censi/2007/ppu)<br/>
+	Thesis advisors: Prof. [De Luca] and [Oriolo] 
+	<br/>110/110 *summa cum laude*
+	</td>
+    </tr>
+
+    <tr>
+      <td>2001--5</td>
+      <td><img src="sapienza.png" class="uni"/> Università di Roma <br/> *La Sapienza* </td>
+      <td> *Laurea* (>B.Eng) in Control Engineering. <br/> Thesis: [Scan matching in the Hough Domain](http://purl.org/censi/2006/hsm)<br/>
+	Thesis advisor: Prof. [Nardi]
+	<br/>110/110 *summa cum laude*
+	</td>
+    </tr>
+
+<!--    <tr>
+      <td>2001 </td>
+      <td>  </td>
+      <td> High school: [Liceo Scientifico "Louis Pasteur"][pasteur]  </td>
+    </tr>
+  -->
+  <tr>
+    <td> 2001 </td>
+    <td colspan="3"> [Liceo Scientifico L. Pasteur][pasteur] </td>
+  </tr>
+
+ </tbody></table>
+
+### Experiences (have we met at?...)###
+
+<table id="table" markdown="1"> <tbody>
+
+   <tr>
+      <td> August 2007</td>
+      <td> [The Chaos Communication Camp][ccc] in Berlin.</td>
+   </tr>
+
+   <tr>
+      <td> August 2006</td>
+      <td> [SLAM Summer School] in Oxford. </td>
+    </tr>
+
+   <tr>
+      <td> Fall 2005</td>
+      <td> [Tokyo Institute of Technology][titech] - 
+           [Hirose lab][hirose]
+<!--      <br/>
+     (project covered by NDA)--></td>
+    </tr>
+
+   <tr>
+      <td> August 2005</td>
+      <td> [Summer school on Mathematics](http://www.matapp.unimib.it/smi/index.html) in Perugia.
+      <br/></td>
+    </tr>
+
+    <tr>
+      <td> 2004 --- ... </td>
+      <td> [RoboCup], in the [Robocup Rescue] league, with the [SPQR team].
+	       [Best of 2004] </td>
+    </tr>
+
+    <tr>
+      <td> 2003 </td>
+      <td> [CNR](http://www.cnr.it/):
+	[RoboCare](http://robocare.istc.cnr.it/) project ("back in the days, we only had sonars...")
+ 	</td>
+    </tr>
+
+</tbody></table>
+
+### Professional activities ###
+
+Reviewer for IEEE Transactions on Robotics, ICRA, IROS, IAV, SSRR.  
+IEEE student member. 
+
+
+### Honors and awards ###
+
+<table markdown="1"> <tbody>
+
+   <tr>
+      <td> 2007--8</td>
+      <td> Caltech Institute Fellowship.</td>
+   </tr>
+
+   <tr>
+      <td> 2001--5</td>
+      <td> Student representative. </td>
+    </tr>
+
+</tbody></table>
+
+
+<!--
+### Computer skills ###
+
+I love the [Unix Way][philo]. OS X is a fine Unix. Linux is necessary.
+I'm sorry for you if you still are (voluntarily or not) stuck with Windows. Please buy a Mac.
+
+In the last times, I enjoy programming in plain C. Java is fine since the last additions (generics) and open source; I wish it had more functional idioms.
+
+I know enough C++ to realize that there are only 5 people in the world that actually understand C++, and I'm not really sure if Stroustroup is one of those.
+Ruby is the assembler of OO programming. The other languages I know are not worth mentioning.
+
+This is some code that I have written: 
+
+* [Maruku]: a [Markdown]-superset interpreter written in Ruby.
+* [CSM]: the C(anonical) scan matcher (written in C with Ruby wrappers).
+
+-->
+
+[RoboCup]: http://www.robocup.org/
+[Robocup Rescue]: http://www.robocuprescue.org/
+[SPQR team]: http://sied.dis.uniroma1.it/
+[Best of 2004]: http://purl.org/censi/research/misc/2004-robocup-best_of.pdf
+[SLAM Summer School]: http://www.robots.ox.ac.uk/~SSS06/Website/index.html
+[De Luca]: http://www.dis.uniroma1.it/~labrob/people/deluca/deluca.html
+[Oriolo]: http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html
+[Nardi]:  http://www.dis.uniroma1.it/~nardi/
+[ccc]: http://events.ccc.de/camp/2007/Intro/
+
+[philo]: http://en.wikipedia.org/wiki/Unix_philosophy
+[csm]: http://purl.org/censi/2007/csm
+[maruku]: http://maruku.org/
+[markdown]: http://en.wikipedia.org/wiki/Markdown
+
+[hirose]: http://www-robot.mes.titech.ac.jp/home_e.html
+[titech]: http://www.titech.ac.jp/
+
+
+[pasteur]: http://www.liceopasteur.it/
+[sapienza]: http://www.dis.uniroma1.it/
+[Richard Murray]: http://www.cds.caltech.edu/~murray/
+[Pietro Perona]: http://www.vision.caltech.edu/
+

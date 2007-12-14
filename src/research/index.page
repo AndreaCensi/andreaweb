@@ -1,0 +1,72 @@
+---
+title: Research
+page_class: research_index
+Date: Sep 1 2007
+---
+
+> Ah, la recherche! Du temps perdu[.](http://projecteuclid.org/euclid.em/1062620828)
+{:style="font-style:italic; text-align:center"}
+
+{:icon: style="display: block; float: left; clear: left; width: 64px; height: 64px; margin-right: 15px; margin-left: 15px; margin-top: 5px; margin-bottom: 15px; border: solid 1px black;"}
+
+{:head: style="clear: both"}
+
+{:new: style="margin-bottom: -10px"}
+
+I'm interested in **robotics**, and, in particular, in all things related to uncertainty (localization, estimation, motion planning, communication). I like simple algorithms with solid mathematical properties.
+
+- [Publications](../publications.html) (not including ![new](new.png){:new} drafts) 
+- [Software](sw/index.html)
+{:style="list-style-type: disc"}
+
+
+#### Calibration ####{:head}
+
+* ![icon](../icons/calibration.jpg){:icon} ![new](new.png){:new} [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
+  
+#### Planning ####{:head}
+
+* ![icon](../icons/ppu.jpg){:icon}  ![new](new.png){:new} [On robot motion planning with control and sensing uncertainty][ppu] 
+  
+
+#### Estimation ####{:head}
+
+* ![icon](../icons/accuracy.jpg){:icon}  [On achievable accuracy for range finder localization][aarl]
+
+* ![icon](../icons/icpcov.jpg){:icon} [An accurate closed-form estimate of ICP's covariance][icpcov] 
+
+#### Localization ####{:head}
+
+* ![icon](../icons/ftf.jpg){:icon} ![new](new.png){:new} [Lazy Localization using a Frozen-Time Filter][ftf]
+
+* ![icon](../icons/ghtv.jpg){:icon} [A comparison of algorithms for likelihood approximation in Bayesian localization][ghtv] 
+
+#### Scan matching ####{:head}
+
+* ![icon](../icons/plicp.jpg){:icon} ![new](new.png){:new} [An ICP variant using a point-to-line metric][plicp] 
+
+* ![icon](../icons/hsm.jpg){:icon} [HSM][HSM], which aims at global, complete searches. 
+
+* ![icon](../icons/gpm.jpg){:icon} [GPM][GPM], which tries to make the most of the odometry model.
+
+<!--
+### Indipendent software packages ###{:head}
+
+* ![icon](../icons/csm.jpg){:icon}  [The Canonical Scan Matcher][CSM] in C.
+
+* ![icon](../icons/code.jpg){:icon} ... or only the [source code for solving generic point correspondences][gpc] in C, Matlab, Ruby.
+-->
+
+[csm]: sw/csm.html
+[gpc]: gpc.html
+[icpcov]: icpcov.html
+[aarl]: accuracy.html
+[gpm]: gpm.html
+[hsm]: hsm.html
+[ghtv]: ghtv.html
+[ppu]: ppu/index.html
+[calibration]: calibration.html
+[ftf]: ftf/index.html
+[plicp]: plicp/index.html
+
+

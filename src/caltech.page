@@ -1,0 +1,175 @@
+<html>
+
+<head>
+  <title>index</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <link href="additional.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+	<div id="horizontal-menu" style="clear: left">
+		Jump to:
+		<a href="about.html">About me</a>
+		<a href="research/index.html">Research</a>
+		<a href="software.html">Software</a>
+		<a href="misc/index.html">Misc</a>
+		<a href="contact.html">Contact</a>
+		<a href="pictures.html">Pictures</a>
+		<a href="italiano.html">In italiano</a>
+	</div>
+	<hr>
+
+	<div id="caltech">
+		<!-- <img src="http://farm1.static.flickr.com/29/42775888_9ff5829632_m.jpg"> -->
+	<a href="foto.jpg">	<img style="border:0" src="foto-small.jpg" /> </a>
+	</div>
+
+
+<div id="address">
+	
+<p>	
+	<strong>
+		Andrea Censi
+	</strong>
+	<sup>*</sup> 
+	(<a href="cv.html">CV</a>) (<a href="about.html">about me</a> )
+</p>
+
+<p>
+	First year
+<a href="http://www.phdcomics.com/comics.php?f=864">
+Ph.D.</a> student<br>
+
+
+<a href="http://www.cds.caltech.edu/">Control
+and Dynamical Systems,</a><br>
+
+
+<a href="http://www.caltech.edu/">California
+Institute of
+Technology</a>
+</p>
+
+<p>
+Temporary advisers: <br/><a href="www.cds.caltech.edu/%7Emurray/">Richard Murray</a> and <a href="http://www.vision.caltech.edu">Pietro Perona</a>
+</p>
+
+<p>
+Email: andrea@caltech.edu  <br/>
+(<a href="contact.html">other contact info</a> - <a href="#">GPG key</a>)
+</p>
+
+<!-- Skype: censia<br>
+Office: 1-534-1248-323<br>
+</p>
+
+<p>
+Mail Code&nbsp; ???, <br>
+1200 East California Boulevard, <br>
+Pasadena, CA 91125<br>
+</p> -->
+
+</div>
+
+
+<div id="buttons" > 
+	
+	<a href="http://en.wikipedia.org/wiki/Italy"><img style="border:0;" src="italy.png"></a>
+	<a href="http://en.wikipedia.org/wiki/Pan-European_identity"><img style="border: 0px solid ; width: 60px; height: 40px;" alt="EU Flag" src="eu.png"></a> <br/>
+
+	<div class="stemma">
+		<a href="http://en.wikipedia.org/wiki/Rome"><img id="roma" src="roma.png"></a> 
+		<br/>
+		<span style="font-variant: small-caps;font-stretch: expanded">civis romanvs svm</span>
+	</div>
+
+	<br/>
+
+	<div class="stemma">
+	<a href="http://www.dis.uniroma1.it/" title="Alma mater"><img id="sapienzalogo" src="sapienza.png"></a> 
+	<br/>
+	<span style="font-variant: small-caps;font-stretch: expanded">alma mater</span>
+	</div>
+
+</div>
+
+<div id="buttons2" >
+<a href="http://www.dis.uniroma1.it/"><img id="caltechlogo" src="caltech.gif"/></a>
+	<br/>
+
+</div>
+
+<style type="text/css" media="screen">
+	#horizontal-menu A {
+	 	padding: 0 .5em 0 .5em;
+		border: solid;
+		border-width: 0 1pt 0 0;
+	}
+</style>
+
+<div style="clear: left;">
+	<div style="text-align:center; float:left; color:red; padding: 1em 2em 5em 0;">What's new <br/>
+	 <span style="font-size: 200%">&rArr;</span></div>
+<ul>
+<li> 2007-05-22: Finally, I got my Master's degree.</li>
+<li> 2007-04-15: After [careful]  [thinking], the Big Decision has been made. Next year I'll start a PhD at [Caltech], in the [Control and Dynamical Systems][cds] department, with [Richard Murray] and [Pietro Perona]. </li>
+<li> 2007-04-15</li></ul>
+</div>
+
+
+<div style="clear: both;"></div>
+
+<div style="width: 45%; float:left; padding: 1em">
+<h3>Research Interests</h3>
+<p style="text-align: right">(<a href="research/publications.html">publications</a>)</p>
+
+<ul>
+<li> 
+<p>
+<strong>Robotics</strong>:  all things related to uncertainty (localization,
+estimation, motion planning, comunication).<br>
+I like simple algorithms with solid mathematical
+properties.
+</p>
+<p style="text-align: right">(<a href="research/index.html"><em>more about my research</em></a>)</p>
+</li>
+	<li> 
+<p>
+<strong>Here at Caltech</strong>: world domination
+</p>
+</li>
+
+</div>
+
+<div style="width: 45%; padding: 1em; float: right;">
+<h3>Professional opinions</h3>
+
+<ul>
+	<li> <strong>Cryptography</strong>
+		
+		<p>
+		Robotics: all things related to uncertainty (localization,
+		estimation, motion planning, comunication).<br>
+		I like simple algorithms with solid mathematical
+		properties.
+		</p>
+		
+		</li>
+	<li> <strong>Show me the code!</strong></li>
+	<li> <strong>Free software</strong></li>
+	
+	</ul>
+</div>
+
+<hr style="clear: both; margin-top: 2em"/>
+
+(*) pronunciation: &nbsp;ann-<span style="font-weight: bold;">dray</span>-uh
+<span style="font-weight: bold;">chen</span>-see
+(チェンシ アンドレア)<br>
+
+
+
+</body>
+</html>

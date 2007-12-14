@@ -1,0 +1,54 @@
+---
+title: Hough Scan Matching
+PURL: http://purl.org/censi/2006/hsm
+linkAttrs:
+   :link_text: HSM
+Date: Apr 4 2005
+inMenu: true
+description: "A scan matching algorithm, operating in the Hough Domain, that DOES NOT require line features. Its is provably complete for exact input."
+---
+The research work I did for my bachelor thesis resulted in a novel scan matching
+algorithm called  *Hough Scan Matching*. Its main characteristics are
+the possibilities to do global and multimodal searches, to work in unstructured
+environments and with very noisy sensors. It is *provably complete for exact input*.
+
+<ul>
+	<li>
+	A. Censi,
+		<a href="http://www.dis.uniroma1.it/~iocchi">L. Iocchi</a>,
+		<a href="http://www.informatik.uni-freiburg.de/~grisetti/">G. Grisetti</a>
+		- <em>Scan Matching in the Hough Domain</em> (<a href="http://purl.org/censi/research/2005-icra-hsm.pdf">PDF</a>),
+		presented at <a href="http://www.icra2005.org">ICRA 2005</a>.<br>
+		<pre class="bib">
+@inproceedings{CensiIocchi-hsm,
+     author = {Censi, Andrea and Iocchi, Luca and Grisetti, Giorgio},
+      title = {Scan matching in the Hough domain},
+  booktitle = {Proceedings of the IEEE International Conference 
+               on Robotics and Automation},
+       year = {2005},
+      pages = {2739--2744},
+     address= {Barcelona, Spain},
+        url = { http://purl.org/censi/2006/hsm}
+}</pre>
+	Slides - <a href="http://purl.org/censi/research/2005-icra-hsm-slides.ppt">(PPT, 1.1M)</a>.
+	</li>
+	
+	<li>
+				A Matlab implementation is available (<a href="http://purl.org/censi/research/2005-icra-hsm-matlab.zip">ZIP</a>). 
+				You can see the <a href="http://purl.org/censi/research/2005-icra-hsm-matlab/html-docs/index.html">online docs</a>.
+	</li>
+
+	<li> 
+	My bachelor thesis (extended paper) <a href="http://purl.org/censi/research/2005-thesis-censi-hsm.pdf"> (PDF, 2MB)</a>.
+	<br>
+   Slides, in italian with <a href="http://www.stanford.edu/~haehnel/">movies</a>
+	(<a href="http://purl.org/censi/research/2005-thesis-censi-hsm-slides.zip">zip,ppt+mpg, 17MB</a>), or without
+	<a href="http://purl.org/censi/research/2005-thesis-censi-hsm-slides-small.zip"> without (zip,ppt, 5MB)</a>.
+	</li>
+</ul>
+
+
+
+<img src="paper_hsm_small.png"/>
+
+	

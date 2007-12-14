@@ -1,0 +1,40 @@
+---
+title: A comparison of algorithms for likelihood approximation in Bayesian localization
+linkAttrs:
+   :link_text: GHTV
+PURL: http://purl.org/censi/2006/ghtv
+Date: Apr 4 2006
+inMenu: true
+description: "Among the others, a modification of GHT to take into account visibility constraints."
+---
+
+**Abstract** -- 
+Global localization is the problem of estimating the robot's pose,
+without any previous information, in a world which is known.
+Bayesian filters (either grid- or particle-based), need
+to evaluate  the likelihood of a sensor reading given a pose hypothesis.
+For a laser range finder the computation is expensive and therefore approximations
+to the true likelihood that do not require a ray-tracing are usually employed.
+Nevertheless, these approximations do not satisfy those that in  this paper
+we identify as *orientation* and *visibility*
+constraints. This paper proposes more accurate algorithms which solve, 
+in part or completely, these
+problems and are faster and have better complexity than existing methods.
+
+- A.Censi, "*A comparison of algorithms for likelihood approximation in Bayesian localization*" 
+  ([PDF, 500KB][pdf])
+
+<pre class="bib bib2">
+@CONFERENCE{censi06comparison,
+    author = {Andrea Censi},
+    title = {A comparison of algorithms for likelihood approximation 
+             in Bayesian localization},
+    year = {2006},
+    url = { http://purl.org/censi/2006/ghtv},
+}
+</pre>
+
+<img src="paper_ghtv_big.png"/>
+
+
+[pdf]: http://purl.org/censi/research/2006-draft-acomparison.pdf 

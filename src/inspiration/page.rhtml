@@ -1,0 +1,64 @@
+<html>
+
+<head>
+	<title>Inspirational page</title>
+	<style type="text/css" media="screen">
+		div.insp-box {
+			display: block;
+			float: left;
+			text-align:center;
+			margin: 0.5em;
+			padding: 0.5em;
+			height: 22em;
+			width: 11em;
+		}
+		div.insp-box p.insp-name {
+			color: red;
+		}
+		div.insp-box p.insp-title {
+			font-style: italic;
+		}
+		div.insp-box p.insp-title {
+			font-style: italic;
+		}
+		div.insp-box img.insp-picture {
+			border: solid 1px black;
+			padding: 0.5em;
+			width: 10em;
+		}
+		hr { clear: both;}
+	</style>
+</head>
+
+<body>
+
+	<% i = 0 %>
+	<% for item in list %>
+	<%   i += 1 %>
+	<div class="insp-box">
+		<img class="insp-picture" src="<%= item['picture']%>"/>
+		
+		<p class="insp-name">
+			<% if item['name_url'] %>
+				<a href="<%=item['name_url'] %>">
+				<%= item['name'] %>
+				</a>
+			<% else %>
+				<%= item['name'] %>
+			<% end %>
+			<% if item['killed'] %>
+				<span style="color: red; font-weight:bold">*</span>
+			<% end %>
+		</p>
+		<p class="insp-title"><%= item['title'] %></p>
+		<p class="insp-desc"><%= item['html_desc'] %></p>
+	</div>
+
+	<% end %>
+
+	<hr/>
+	<p>
+	Sources: <a href="db.rb">db.rb</a>,<a href="template.rhtml">template.rhtml</a>, <a href="database.json">database.json</a>
+	</p>
+</body>
+</html>

@@ -1,0 +1,50 @@
+---
+Date: Apr 4 2006
+orderInfo: 130
+---
+
+You can mail me at:
+- *andrea* (at) *cds.caltech.edu*
+- *andrea* (at) *censi.org*
+
+Encrypted and signed email is welcome: enjoy
+[my public key](andrea_censi.asc), or get it from [a trusted keyserver](http://pgp.mit.edu/)).
+
+	pub   1024D/569106B2 2002-10-13
+	      Key fingerprint = D322 1E2D 6C88 01DD 06EB  787A A0F0 3D45 5691 06B2
+	sub   2048g/7233AA54 2002-10-13
+{.gpg}
+
+
+## Chat ##
+
+ Service          | Account
+\------------------|-----------------
+ [Skype](http://www.skype.com) | `censia` |
+ [GTalk](http://www.gmail.com) | `a.censi` |
+ [Jabber] | `andrea.censi@jabber.org` |
+{: style='margin-left: 2em; border: solid 1px black'}
+
+Fingerprints for [OTR messaging]  (I use [Adium]):
+
+	-----BEGIN PGP SIGNED MESSAGE-----
+	Hash: SHA1
+
+	OTR fingerprint for a.censi@gmail.com:
+	  7BB9FA46 671B2A4E ABD7F90C D671DBC0 DAAA70CB
+
+	OTR fingerprint for andrea.censi@jabber.org:
+	  C52E2F00 BEB6BFDD 7A4F7AAF 84BC940E DE958619
+
+	-----BEGIN PGP SIGNATURE-----
+	Version: GnuPG v1.2.4 (Darwin)
+
+	iD8DBQFGjnfroPA9RVaRBrIRAg+/AKCguto5I7pq8X81DlVogrnIhPKfkQCfdeJ8
+	rjNZO/twTGOvB3skw7DL03A=
+	=Dfqs
+	-----END PGP SIGNATURE-----
+{.gpg}
+
+[Adium]: http://www.adiumx.com/ 
+[OTR messaging]: http://www.cypherpunks.ca/otr/
+[Jabber]: http://www.jabber.org/

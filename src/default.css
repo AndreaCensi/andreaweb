@@ -1,0 +1,162 @@
+
+
+#body {
+	position: absolute; left: 0; top: 15px;
+	margin-right: 20px;
+	margin-left: 15.5em;
+	padding-bottom: 2em;
+}
+
+#menu {
+	float: left;
+	width: 14em;
+  padding: 0;
+  padding-top: 3em;
+}
+
+  .left, .right {
+    padding: 0px 1em;
+  }
+
+  .left {
+	float: left;
+	text-align: left;
+  }
+
+  .right {
+	float: right;
+	text-align: right;
+  }
+
+#caltech_logo {
+	text-align: center;
+	margin-top: 2em;
+	margin-right: 2em;
+}
+
+.clear #body { margin-left: 1em; }
+.clear #menu { display: none;}
+.clear table td { padding-right: 1em; padding-bottom: .5em; }
+
+
+body.research_index DIV#body ul,
+body.research_index DIV#body li,
+body.research_index DIV#body h2,
+body.research_index DIV#body h3,
+body.research_index DIV#body h4 { clear: both;}
+
+body.research_index DIV#body ul {
+	list-style-type: none;
+}
+
+body.research_index DIV#body h2,
+body.research_index DIV#body h3,
+body.research_index DIV#body h4 { margin-top: 1em;}
+ 
+/* immagini */
+/* immagini */
+/*
+<div class="flickr">
+<a class="photo" href="<%= photo ['url_photo'] %>">
+<img src="<%= photo['url_medium'] %>" alt="<%= photo['title']%>"/>
+</a>
+<div  class="flipping" href="<%= photo['url_photo']%>">
+<span class="caption"><%= photo['title'] %></span> <br>
+<span class="taken">Taken by <a href="<%= photo['url_creator'] %>">
+	<%= photo['creator']%></a> on <%= photo['taken_friendly']%>.
+</span><br>
+<span class="options">View <a href="<%= photo['url_large']%>">large</a> 
+      or <a href="<%= photo['url_original'] %>">original</a> size.
+</span>
+</div>
+</div>*/
+
+div.flickr {
+	text-align: center;
+  overflow: hidden;
+}
+div.flickr a.photo:hover {
+	background-color: white;
+}
+div.flickr img {
+	border: dashed 1px black;
+	padding: 3px;
+}
+div.flickr span.caption {
+	font-style: italic;	
+}
+div.flickr span.options, div.flickr span.taken  {
+	font-size: smaller;
+}
+div.flickr  div.flipping {
+	visibility: hidden;
+	display: none;
+}
+div.flickr:hover  div.flipping {
+	visibility: visible; 
+	display: block;
+}
+
+
+/* giappone */
+	DIV.frame { text-align: center}
+	DIV.frame A.photo { display: inline; text-align: center; margin: 5px;}
+	DIV.frame A:hover {background-color: #fcc; }
+	DIV.frame A.photo IMG {  ; border: dotted 2px #555; padding:5px; }
+/* page: research */
+	DIV#legoland IMG { width: 80%; border: dashed 1px #555; padding:1px; margin: 4px;}
+	DIV#legoland { text-align:center; }
+	DIV#legoland .caption {
+		font-style: italic;	
+	}
+
+	DIV#quote { border: dotted 2px #555; padding: 5px; margin:2em; }
+
+	DIV.publications {margin-left: 2em;}
+
+
+
+  /* styling the menu */
+	#menu2 {
+		position: fixed;
+		left: 0;
+		top: 0;
+	   width: 10em; /* XXX */
+	   max-width: 10em; /* XXX */
+		
+/*		position: fixed;*/
+	}
+  #menu a,  #menu a:visited {
+	text-decoration: none;
+	 color: #44f;
+  }
+
+  #menu a:hover {
+  }
+
+  #menu .webgen-menu-item-selected {
+	border-left: 5px solid red;
+  }
+
+  #menu .webgen-menu-submenu > A {
+/*	 font-weight: bold; */
+  }
+
+  #menu ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-left: 10px;
+  }
+
+  #menu li > ul {
+
+  }
+
+  #menu li {
+    margin: 0.0em 0px;
+    padding: 2px 0px;
+    padding-left: 5px;
+    border-left: 3px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+
+  }

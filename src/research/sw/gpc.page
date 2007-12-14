@@ -1,0 +1,24 @@
+---
+title: Generalized 2D Point Correspondence solution
+Subject_short: GPC
+PURL: http://purl.org/censi/2007/gpc
+Date: 2007-06-20
+orderInfo: -1
+description: "C, Matlab, and Ruby code to solve the generalized 2D point correspondence problem."
+---
+
+C, Matlab, and Ruby code to solve the generalized 2D point correspondence problem.
+
+<http://www.cds.caltech.edu/~andrea/pub/research/csm/gpc.zip>
+
+See the appendix of [this paper](http://purl.org/censi/2007/plicp)
+for a description of the problem.
+
+You can access the current version on a Subversion repository:
+
+	$ svn checkout https://svn.cds.caltech.edu/subversion/andrea/gpc
+
+Use the username "guest" / password "guest". This gives you read-only access. Mail me if you need write access.
+
+
+

@@ -1,0 +1,70 @@
+---
+title: The C(anonical) Scan Matcher
+linkAttrs:
+   :link_text: C(...) Scan Matcher
+PURL: http://purl.org/censi/2007/csm
+Date: 2007-06-20
+orderInfo: -10
+description: "An open-source scan matching package."
+---
+
+![PL-ICP](sm_plicp_zoom_crop.gif){:style="float: right; margin:1em; width:150px"}
+
+**What is this.** 
+
+
+I created this package:
+
+- To have a well-documented reference implementation of [PL-ICP](http://purl.org/censi/2007/plicp). If you are only interested in the core algorithm of PL-ICP, a [separate concise implementation in C/Matlab/Ruby](http://purl.org/censi/2007/gpc) is available.
+
+- To have a **trustworthy** scan matcher to be used in the experiments for some papers on [ICP covariance](http://purl.org/censi/2006/icpcov), [the Cramer-Rao bound for range finders](http://purl.org/censi/2006/accuracy), and [robot calibration](http://purl.org/censi/2007/calib).  For batch experiments, it's also useful that it's pretty fast.
+
+- To have a collection of utilies for command line (UNIX-style) manipulation of laser data,
+  and creating [beautiful maps][map-example] and animations.
+
+In the package, there is also some other software: a Ruby wrapper for the C library, a Ruby and a Matlab implementation of the same algorithm. These are not usable as of now. Then, it's also my repository for miscellaneous useful scripts.
+
+**What it is NOT**: Note that this is not a full-featured SLAM solution: this only does pairwise scan-matching between scans -- but it's really good at it! 
+
+If you are looking for a more complete SLAM solution, please see the projects listed in the [OpenSLAM](http://www.openslam.org) page; in particular you can have a look at [GMapping]. 
+
+Many pointers to other SLAM software can be found on the pages of the Euron SLAM summer schools: 
+[2002 (Stockholm)](http://www.cas.kth.se/SLAM/),
+[2004 (Toulouse)](http://www.laas.fr/SLAM/),
+[2006 (Oxford)](http://www.robots.ox.ac.uk/~SSS06/Website/index.html).
+Other related projects are [Carmen] and [Stage].
+
+[map-example]: ../plicp/laserazosSM3.log.pdf
+[animations]: inv
+
+[gmapping]: http://www.openslam.org/gmapping.html
+[carmen]: http://carmen.sourceforge.net/
+[stage]: http://playerstage.sourceforge.net/
+
+### Download ###
+
+This is a stable snapshot as of September 2007:
+
+<http://purl.org/censi/research/csm/csm-20070915.zip>
+
+You can access the current version on a Subversion repository:
+
+	$ svn checkout https://svn.cds.caltech.edu/subversion/andrea/csm
+
+Use the username "guest" / password "guest". This gives you read-only access. Mail me if you need write access.
+
+<!--Download the experiments (warning, big files) with:
+
+	$ svn checkout svn://net143-184.mclink.it/csm/experiments
+
+Download both with:
+
+	$ svn checkout svn://net143-184.mclink.it/csm
+
+You should ask Andrea for a username/password if you don't have one.
+-->
+
+### Documentation / getting started ###
+
+Please see the manual contained in the package.
+

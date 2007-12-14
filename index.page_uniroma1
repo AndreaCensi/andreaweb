@@ -1,0 +1,43 @@
+---
+page_class: index
+linkAttrs:
+  :link_text: Home
+inMenu: false
+title: Andrea Censi web site
+description: "Andrea Censi: trying to conquer the world since 1982. The plan involves robots, mind-controlling chips, and a piano-playing monkey."
+---
+
+Hello! This is me in the [Korakuen garden], at [Okayama]  (Summer'05):
+
+![Okayama](okayama.jpg){#okayamaa style="width:700px"}
+
+<!--
+<div style="text-align:center" id="#id" markdown="1">
+
+![laurea](http://farm1.static.flickr.com/222/510672805_fc32580b68.jpg)
+
+</div>
+-->
+
+<div style="text-align:center; float:left; color:red; padding: 1em 2em 5em 0;">What's new <br/>
+ <span style="font-size: 200%">&rArr;</span></div>
+
+* 2007-05-22: Finally, I got my Master's degree.
+* 2007-04-15: After [careful]  [thinking], the Big Decision has been made. Next year I'll start a PhD at [Caltech], in the [Control and Dynamical Systems][cds] department, with [Richard Murray] and [Pietro Perona]. 
+* 2007-04-15: [Slides](http://www.dis.uniroma1.it/~acensi/pub/research/censi-07icra-icpcov-slides.pdf) 
+  for [one of the ICRA papers](research/icpcov.html).
+* 2007-04-01: [CMU Robotics Institute Open House visit][open-house]
+
+[careful]: http://www.phdcomics.com/comics/archive.php?comicid=369
+[thinking]: http://www.phdcomics.com/comics/archive.php?comicid=370
+
+[Richard Murray]: http://www.cds.caltech.edu/~murray/wiki/Main_Page
+[Pietro Perona]: http://www.vision.caltech.edu/Perona.html
+[cds]:  http://www.cds.caltech.edu/
+[caltech]: http://maps.google.com/maps?f=q&hl=en&q=Rome,+Italy+to+California+Institute+of+Technology,+Los+Angeles&layer=&sll=42.032974,-52.734375&sspn=122.61113,225.703125&ie=UTF8&z=2&om=1
+
+[open-house]: http://www.flickr.com/photos/censi/sets/72157600041230210/detail/
+
+[korakuen garden]: http://en.wikipedia.org/wiki/Korakuen_Garden
+[Okayama]: http://en.wikipedia.org/wiki/Okayama,_Okayama 
+

@@ -1,0 +1,78 @@
+@inproceedings{censi07accurate,
+    author = {Andrea Censi},
+    title = {An accurate closed-form estimate of {ICP}'s covariance},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    pages = {3167--3172},
+    year = {2007}, month = apr, 
+    address = {Rome, Italy},
+    doi = {10.1109/ROBOT.2007.363961},
+    ISSN = {1050-4729},
+    url = { http://purl.org/censi/2006/icpcov},
+abstract = {
+ Existing methods for estimating the covariance of the ICP (Iterative Closest/Corresponding Point) algorithm are either inaccurate or are computationally too expensive to be used online. This paper proposes a new method, based on the analysis of the error function being minimized. It considers that the correspondences are not independent (the same measurement being used in more than one correspondence), and explicitly utilizes the covariance matrix of the measurements, which are not assumed to be independent either. The validity of the approach is verified through extensive simulations: it is more accurate than previous methods and its computational load is negligible. The ill-posedness of the surface matching problem is explicitly tackled for under-constrained situations by performing an observability analysis; in the analyzed cases the method still provides a good estimate of the error projected on the observable manifold.
+}
+}
+
+@inproceedings{censi07achievable,
+    author = {Andrea Censi},
+    title = {On achievable accuracy 
+             for range-finder localization},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+               on Robotics and Automation ({ICRA})},
+    address = {Rome, Italy},
+    year = {2007}, month = Apr,
+    pages = {4170--4175},
+    doi = {10.1109/ROBOT.2007.364120},
+    issn = {1050-4729},
+    url = { http://purl.org/censi/2006/accuracy},
+  abstract = { 
+	The covariance of every unbiased estimator is bounded by the Cramer-Rao
+	lower bound, which is the inverse of Fisher's information matrix.
+	This paper shows that, for the case of localization with range-finders,
+	Fisher's matrix is a function of the expected readings and of the
+	orientation of the environment's surfaces at the sensed points. The
+	matrix also offers a mathematically sound way to characterize under-
+	constrained situations as those for which it is singular: in those
+	cases the kernel describes the direction of maximum uncertainty.
+	This paper also introduces a simple model of unstructured environments
+	for which the Cramer-Rao bound is a function of two statistics of
+	the shape of the environment: the average radius and a measure of
+	the irregularity of the surfaces. Although this model is not valid
+	for all environments, it allows for some interesting qualitative
+	considerations. As an experimental validation, this paper reports
+	simulations comparing the bound with the actual performance of the
+	ICP (Iterative Closest/Corresponding Point) algorithm. Finally, it
+	is discussed the difficulty in extending these results to find a
+	lower bound for accuracy in scan matching and SLAM.}
+}
+
+@inproceedings{censi06scan,
+	author = {Andrea Censi},
+	title = {Scan matching in a probabilistic framework},
+	booktitle = {Proceedings of the IEEE International Conference 
+	       on Robotics and Automation (ICRA)},
+	pages = {2291--2296},
+	year = {2006},
+	address = {Orlando, Florida},
+	url = { http://purl.org/censi/2006/gpm}
+}
+
+@misc{censi06comparison,
+    author = {Andrea Censi},
+    title = {A comparison of algorithms for likelihood approximation 
+             in Bayesian localization},
+    year = {2006},
+    url = { http://purl.org/censi/2006/ghtv},
+}
+
+@inproceedings{censi05hough,
+     author = {Censi, Andrea and Iocchi, Luca and Grisetti, Giorgio},
+      title = {Scan matching in the {H}ough domain},
+  booktitle = {Proceedings of the IEEE International Conference 
+               on Robotics and Automation},
+       year = {2005},
+      pages = {2739--2744},
+     address= {Barcelona, Spain},
+        url = { http://purl.org/censi/2006/hsm}
+}

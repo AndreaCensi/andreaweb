@@ -1,0 +1,143 @@
+index.page:
+  inMenu: false
+  page_class: indexcaltech
+  blocks: [[content, html]]
+
+index2.page:
+  inMenu: false
+  page_class: indexcaltech
+  blocks: [[content, html]]
+
+cv.page:
+  page_class: clear
+
+research:
+  orderInfo: 100
+
+misc:
+  title: Misc
+  orderInfo: 220
+
+andrea.page:
+  inMenu: false
+
+italiano.page:
+  title: In italiano
+  orderInfo: 7
+
+research/index.page:
+  inMenu: false
+  page_class: 'normal_page research_index'
+
+research/sw/index.page:
+  inMenu: false
+
+research/index2.page:
+  inMenu: false
+
+research/background.page:
+  inMenu: false
+
+research/csm.page:
+  inMenu: true
+
+research/gpc.page:
+  inMenu: true
+
+research/sw:
+  title: Software
+  orderInfo: 100
+
+caltech.page:
+  inMenu: false
+  blocks: [[content, html]]
+  page_class: indexcaltech
+
+research/ghtv.page:
+  inMenu: false
+
+default.template:
+  inMenu: false
+
+research/ppu:
+  inMenu: false
+
+research/plicp:
+  inMenu: false
+
+misc/index.page:
+  inMenu: false
+
+misc/japan05/index.page:
+  inMenu: false
+
+misc/japan05/japan-1.page:
+  orderInfo: 1
+  title: Jet-lagged adventures
+
+misc/japan05/japan-2.page:
+  orderInfo: 2
+  title: Rule number one
+
+misc/japan05/japan-3.page:
+  orderInfo: 3
+  title: Merry Christmas
+
+misc/japan05/japan-4.page:
+  orderInfo: 4
+  title: Lost in prescription
+
+misc/japan05/japan-5.page:
+  orderInfo: 5
+  title: Tabemono
+
+misc/japan05/japan-6.page:
+  orderInfo: 6
+  title: L'auberge japonaise
+
+misc/japan05/japan-7.page:
+  orderInfo: 7
+  title: Yaguchino Watashi
+
+misc/japan05/japan-8.page:
+  orderInfo: 8
+  title: Manga
+
+misc/japan05/japan-9.page:
+  orderInfo: 9
+  title: Life in the lab
+
+misc/japan05/japan-10.page:
+  orderInfo: 10
+  title: Greetings from 2006
+
+misc/japan05/japan-11.page:
+  orderInfo: 11
+  title: Game over
+
+misc/japan05/japan-12.page:
+  orderInfo: 12
+  title: Gaijin
+
+---
+misc:
+  title: Miscellaneous
+
+misc/japan05:
+  title: My Japanese experience
+
+research/sw:
+  title: Software
+
+research/plicp:
+  title: PL-ICP
+  orderInfo: -50
+
+research/ppu:
+  title: Planning with uncertainty
+  orderInfo: -40
+
+research/ftf:
+  orderInfo: -7
+  title: Frozen-Time Filter
+

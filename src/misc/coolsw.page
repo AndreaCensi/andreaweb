@@ -1,0 +1,91 @@
+---
+title: Software not painful to use
+Subject_short: painless software
+Date: Nov 20 2006
+orderInfo: 9
+---
+
+My own selection of software for painless computing.
+
+### General ###
+
+*  *Operating System* : [Mac OS X][switch]: heaven, after the purgatory of Linux 
+  and the hell of Windows.
+* *Browser*: [Firefox]. On a Mac, [Camino].
+* *Email*: [GMail], "search, don't sort" really works.
+* *Text Editor*: [TextMate], you have to buy it, but it's worth every
+  penny. There are rumours that it's been converting (recovering) Emacs
+  users (addicts). Unfortunately, it's Mac only. An alternative is
+  [jedit]  (GPL, Java).
+
+### Development ###
+
+* *Build system*: [cmake], throw the [autotools] away.
+* *Source code control system*: ditch CVS for [subversion].
+* *Project management*: [Trac] tracks everything.
+* *Scripting language*: [Ruby] is Japanese pragmatism (and has a [poignant] guide). 
+
+
+[acceptable-ruby]: http://web.archive.org/web/20051205034049/http://randomhacks.net/articles/2005/12/03/why-ruby-is-an-acceptable-lisp
+
+[acceptable-lisp]: http://steve-yegge.blogspot.com/2006/04/lisp-is-not-acceptable-lisp.html
+
+[road to lisp]: http://wiki.alu.org/The_Road_to_Lisp_Survey
+
+* *Java IDE*: [JBuilder] is great software and has a free version (IMHO better than Eclipse). Java
+ is not a pain anymore since it gained [generics][java-generics] and got opensourced.
+* *Mark-up language*: HTML is so 2001, why don't you take at look at [Markdown]?
+*	*C++ libraries*: 
+
+	* [QT][qt] for GUIs.
+	* [GSL][gsl] for math.
+	* [Magick++][magick] for manipulating images.
+	* [Cairo][cairo] for creating PDFs.
+	* [Boost][boost] for just about everything else.
+
+
+### Research ###
+
+* *Writing papers*: [LaTeX]   
+* *Writing papers & enjoying the process*: [LyX]   
+* *Handsome figures in your papers*: [xfig]    or, better, [jfig]   .
+* *The occasional presentation with many graphical content*: 
+  [OpenOffice Impress][impress] (using the [OOOlatex plugin]   ); 
+  the alternative is PowerPoint with the [TexPoint] plugin.
+* *Managing BibTeX*: [jabref]: multi-platform, for all your bibtex needs.
+* *IEEExplore and BibTeX*: convert citations using [BibConverter].
+
+
+
+[firefox]:   http://getfirefox.com/
+[gmail]:     http://gmail.com/
+[ruby]:      http://www.ruby-lang.org/
+[poignant]:  http://poignantguide.net/ruby/
+[webgen]:    http://webgen.rubyforge.org/
+[markdown]:  http://daringfireball.net/projects/markdown/
+[latex]:     http://en.wikipedia.org/wiki/LaTeX
+[lyx]:       http://www.lyx.org
+[impress]:   http://www.openoffice.org/product/impress.html
+[OOOlatex plugin]:  http://ooolatex.sourceforge.net/
+[texpoint]:  http://texpoint.necula.org/
+[jabref]:    http://jabref.sourceforge.net/
+[camino]:    http://www.caminobrowser.org/
+[switch]:    http://www.apple.com/getamac/
+[textmate]:  http://www.apple.com/getamac/
+[cmake]:     http://www.cmake.org/
+[xfig]:      http://www.xfig.org/
+[jfig]:         http://tams-www.informatik.uni-hamburg.de/applets/jfig/
+[subversion]:   http://subversion.tigris.org
+[jbuilder]:     http://www.borland.com/us/products/jbuilder/index.html
+[bibconverter]: http://www.bibconverter.net/ieeexplore/
+[autotools]:    http://sources.redhat.com/autobook/
+[jedit]:        http://www.jedit.org/
+[qt]:           http://www.trolltech.no/
+[gsl]:          http://www.gnu.org/software/gsl/
+[magick]:       http://www.imagemagick.org/Magick++/
+[cairo]:        http://cairographics.org/
+[boost]:        http://www.boost.org/
+[markdown]:     http://en.wikipedia.org/wiki/Markdown
+[trac]:         http://trac.edgewall.org/
+[java-generics]: http://java.sun.com/j2se/1.5.0/docs/guide/language/generics.html
+

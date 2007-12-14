@@ -1,0 +1,23 @@
+
+This policy is effective
+
+I threat the email received at these addresses:
+
+     andrea.censi@dis.uniroma1.it
+     andrea@caltech.edu
+
+as WORK email, and possibly public email (for example, they are forwarded to GMail for easy retrieving, they are stored on the university keyservers unencrypted, are sometimes transmitted in clear over the net, and stored unencrypted in my laptop).
+
+The email sent at this address:
+
+    andrea@censi.org
+
+is kept in my own private server and never passed in clear over the net. However, note that traffic to this and go through my registrar servers (andrea)
+
+Plus, consider emailing this:
+
+    crypt@casa.censi.org
+
+Email for this address are encrypted upon reception with my public key (see [this script]). 
+
+upon reception (meaning that, if nobody looked up the traffic, the only way to know that you sent me an email is to have my GPG key)

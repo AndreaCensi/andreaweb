@@ -1,0 +1,45 @@
+---
+title: Scan Matching in a probabilistic framework
+linkAttrs:
+   :link_text: GPM
+PURL: http://purl.org/censi/2006/gpm
+Date: Apr 4 2006
+orderInfo: -1
+description: "A scan matching algorithm employing a particle approximation of the target distribution."
+---
+
+**Abstract** -- 
+ This paper describes an interpretation of scan 
+matching as a probability distribution approximation 
+problem and proposes an algorithm that, employing 
+a particle approximation to the target distribution, can 
+take advantage of the knowledge of the evolution model 
+and provide an estimate of the matching uncertainty. 
+Experiments show it can work in unstructured environments, 
+it is reliable to severe sensor occlusions and it 
+handles under constrained situations gracefully. 
+
+
+<ul>
+<li>
+		A. Censi, <em>"Scan Matching in a probabilistic framework"</em> 
+		(<a href="http://purl.org/censi/research/2006-icra-gpm.pdf"> 
+		PDF, final version</a>).<br>
+		<pre class="bib">@inproceedings{censi06gpm,
+     author = {Censi, Andrea},
+      title = {Scan matching in a probabilistic framework},
+  booktitle = {Proceedings of the IEEE International Conference 
+               on Robotics and Automation (ICRA)},
+      pages = {2291--2296},
+       year = {2006},
+    address = {Orlando, Florida},
+        url = { http://purl.org/censi/2006/gpm}
+}</pre>
+</li>
+<li>slides used at ICRA <a href="http://purl.org/censi/research/2006-icra-gpm-slides.pdf">(PDF, 2MB)</a></li>
+</ul>
+
+
+![picture from paper](paper_gpm_big.png)
+
+

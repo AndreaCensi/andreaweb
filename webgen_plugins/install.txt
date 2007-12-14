@@ -1,0 +1,3 @@
+cp webgen_plugins/*.rb /Volumes/Alter/Ruby/local186/lib/ruby/gems/1.8/gems/webgen-0.4.5/lib/webgen/plugins/tags
+cp webgen_plugins/*.rb /Volumes/Alter/Ruby/local186/lib/ruby/gems/1.8/gems/webgen-0.4.5/lib/webgen/plugins/tags
+

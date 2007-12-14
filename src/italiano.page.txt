@@ -1,0 +1,12 @@
+Subject: In italiano
+Topic: /index_it
+Archive: no
+Lang: it
+Date: Apr 4 2006
+Order: -5
+
+Non c'&egrave; molto qui.
+
+Per adesso l'unica cosa in italiano &egrave;
+	<a href="http://www.dis.uniroma1.it/~acensi/pub/www.viascarpa.it/">una copia di viaScarpa.it</a>,
+	un sito che ho fatto quando ero al primo anno (e avevo pi&ugrave; tempo libero).

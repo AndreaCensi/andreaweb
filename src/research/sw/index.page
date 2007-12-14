@@ -1,0 +1,30 @@
+---
+title: Software related to research
+linkAttrs:
+   :link_text: Software
+Date: Sep 4 2007
+---
+
+*[Software **not** related to research](../../software.html) is elsewhere.*
+
+Most of [my papers](../index.html) come with software attached.
+Software strictly related to a particular paper is in that paper's page.
+On this page, instead, there is a list of re-usable / independent packages.
+
+Packages:
+
+* [The C(anonical) scan matcher](csm.html), used in many of my papers.
+
+Bits and pieces:
+
+* [Solving the generalized 2d point-correspondence problem](gpc.html):
+  the core function of [PL-ICP](http://purl.org/censi/2007/plicp).
+
+* [The eigen-decomposition of a 2x2 matrix](2x2_eigen.html): more difficult than it seems!
+
+
+<!-- * [Calibration](http://purl.org/censi/2007/calibration)
+* [Planning with uncertainty](http://purl.org/censi/2007/ppu)
+* [Global (re)localization](http://purl.org/censi/2007/ftf)
+* [Hough Scan Matching](http://purl.org/censi/2006/hsm) -->
+

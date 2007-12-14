@@ -1,0 +1,34 @@
+---
+title: My Background
+Date: Oct 15 2006
+orderInfo: 100
+---
+
+<div id="legoland" >
+		<img src="legoland.jpg" alt="" /> 
+		<p class="caption" >
+		Me and a <a href="http://www.lego.com">Lego</a>
+		<a href="http://www.starwars.com/databank/droid/r2d2/index.html">R2-D2</a>
+		in <a href="http://www.lego.com/legoland/billund/">Legoland</a>,
+		Billund (Denmark) - summer 2002.
+		</p>
+</div>	
+	
+I'm graduating with a Master's degree in Control Engineering 
+from [University of Rome "La Sapienza"][sapienza].
+
+I worked for my bachelor's thesis with prof. [Nardi][nardi] at the [SIED laboratory][sied], a joint effort with Italian Firemen Dpt. for rescue robotics.
+
+Before, I also worked at <a href="http://www.cnr.it">CNR</a> on 
+the <a href="http://robocare.istc.cnr.it/">RoboCare</a> project.
+
+I participated in the <a href="http://www.robocup.org">Robocup</a> 
+in 2003 (Padua), 2004 [Lisboa][lisboa], [2005 (Osaka)][osaka].
+
+[lisboa]: http://www.dis.uniroma1.it/~acensi/pub/research/Lisbona04-best-of-SPQR.pdf
+[osaka]: http://www.robocup2005.org
+
+[sied]: http://sied.dis.uniroma1.it/
+[sapienza]: http://www.dis.uniroma1.it/
+
+[nardi]: http://www.dis.uniroma1.it/~nardi

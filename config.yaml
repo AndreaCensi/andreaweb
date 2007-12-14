@@ -1,0 +1,19 @@
+# Configuration file for webgen
+# Used to set the parameters of the plugins
+
+File/PageHandler:
+  defaultMetaInfo:
+    blocks: [[content, maruku]]
+    dblocks: [[content, html]]
+    inMenu: true
+    page_class: normal_page
+
+Tag/Flickr:
+  apikey: "6464ed1c7addfb6cf035f165eec1aadc"
+
+File/CopyHandler: 
+  paths: ["**/*.ogg", "**/*.wav", "**/*.css", "**/*.asc", "**/*.js", "**/*.jpg", "**/*.png", "**/*.gif", "**/*.swf", "**/*.html", "**/*.pdf", "**/*.gz", "**/*.log", "**/*.off", "**/*.bz2", "**/*.pdf"]
+
+Tag/Purl:
+  template: "<hr style='clear:both; margin-top:2em;'/><div class='purl'> Please link here using this <a href='http://purl.org'>PURL</a>: <a href='<%= purl %>'><%= purl %></a> </div>"
+

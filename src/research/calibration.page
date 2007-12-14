@@ -1,0 +1,52 @@
+---
+title: Simultaneous maximum-likelihood calibration of robot and sensor parameters
+linkAttrs:
+   :link_text: Calibration
+PURL: http://purl.org/censi/2007/calib
+Date: 2007-08-22
+inMenu: true
+orderInfo: -60
+description: "A method for simultaneous maximum-likelihood calibration of robot and sensor parameters."
+---
+
+- A. Censi, L. Marchionni, [G. Oriolo][oriolo] "*Simultaneous maximum-likelihood calibration of robot and sensor parameters*", submitted to ICRA'08. 
+
+  - [draft version (PDF)][08icra-calib-draft]
+
+  - Video attached to the paper[^1]: [MPG][video-mpg], [DivX][video-divx].
+
+**Abstract** --  For a differential-drive mobile robot equipped with an on-board range sensor, there are six parameters to calibrate: three for the odometry
+(radii and distance between the wheels), and three for the pose of
+the sensor with respect to the robot frame.  
+This paper describes a method for calibrating all six parameters at
+the same time, with no need of external sensors or apparatuses, and
+no need to drive the robot along particular trajectories. We assume
+that the available data are: the measured axes velocities, and the
+range sensor measurements. The maximum-likelihood solution is found
+in closed form.
+
+
+![A team of 5 Khepera robots with an hokuyo](paper_calib.jpg)
+
+### Additional material ###
+
+The software and sensor logs is available for download:
+
+- [README first][readme]
+- [Matlab Source code][matlab] ([zip][matlab_zip])
+- [Sensor logs][logs] ([77MB zip][logs_zip])
+
+[Oriolo]: http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html
+
+[08icra-calib-draft]: http://purl.org/censi/research/2008-icra-calibration-draft.pdf
+[video-mpg]: http://purl.org/censi/research/2008-icra-calibration-video-draft.mpg
+[video-divx]: http://purl.org/censi/research/2008-icra-calibration-video-draft.divx
+
+[readme]: http://purl.org/censi/research/2008-icra-calibration/
+[logs]: http://purl.org/censi/research/2008-icra-calibration/logs/
+[logs_zip]: http://purl.org/censi/research/2008-icra-calibration/logs.zip
+[matlab]: http://purl.org/censi/research/2008-icra-calibration/matlab/
+[matlab_zip]: http://purl.org/censi/research/2008-icra-calibration/matlab.zip
+
+[^1]: Sorry, the MPEG video does not work in QuickTime; while other players, such as VLC, MPlayer, Windows Media Player, should be OK.
+ 

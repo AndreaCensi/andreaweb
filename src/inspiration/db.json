@@ -1,0 +1,133 @@
+[
+	{ 
+		"name": "Edsger Dijkstra",
+		"title": "mathematician",
+		"name_url": "http://en.wikipedia.org/wiki/Edsger_Dijkstra",
+		"picture": "EWDwww.jpg",
+		"desc" : "See its notes [here](http://www.cs.utexas.edu/users/EWD)"
+	},
+
+	{ 
+		"name": "Alan Turing",
+		"killed": "yes",
+		"title": "mathematician",
+		"picture": "turing.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Alan_Turing",
+		"desc": "Victim of prejudice"
+	},
+
+	{ 
+		"name": "Fabrizio de Andr&eacute;",
+		"title": "song writer",
+		"picture": "deandre.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Fabrizio_de_Andr%C3%A9",
+		"desc": ""
+	},
+
+
+	{ 
+		"name": "Martin Luther King",
+		"killed": "yes",
+		"title": "",
+		"picture": "king.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Martin_Luther_King,_Jr.",
+		"desc": ""
+	},
+	
+	{ 
+		"name": "Mahatma Gandhi",
+		"killed": "yes",
+		"title": "",
+		"picture": "gandhi.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Mahatma_Gandhi",
+		"desc": ""
+	},
+
+	{ 
+		"name": "Leonardo da Vinci",
+		"title": "engineer",
+		"picture": "davinci.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+		"desc": ""
+	},
+
+	{ 
+		"name": "Norbert Wiener",
+		"title": "engineer",
+		"picture": "wiener.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Norbert_Wiener",
+		"desc": "Invented the word \"cybernetics\"."
+	},
+	
+	{ 
+		"name": "John Lennon",
+		"killed": "yes",
+		"title": "song writer",
+		"picture": "lennon.jpg",
+		"name_url": "",
+		"desc": ""
+	},
+	
+	{ 
+		"name": "Pier Paolo Pasolini",
+		"killed": "yes",
+		"title": "",
+		"picture": "pasolini.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Pier_Paolo_Pasolini",
+		"desc": ""
+	},
+	
+	{ 
+		"name": "Galileo",
+		"title": "scientist",
+		"picture": "galileo.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Galileo_Galilei",
+		"desc": ""
+	},
+	
+	{ 
+		"name": "Oscar Wilde",
+		"title": "",
+		"picture": "wilde.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Oscar_Wilde",
+		"desc": "Life is too important to be taken seriously"
+	},
+
+
+	{ 
+		"name": "Philip K. Dick",
+		"title": "writer",
+		"picture": "dick.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+		"desc": "Reality is that which, when you stop believing in it, doesn't go away."
+	},
+	
+	{ 
+		"name": "Isaac Asimov",
+		"title": "writer",
+		"picture": "asimov.jpg",
+		"name_url": "http://en.wikipedia.org/wiki/Asimov",
+		"desc": "Invented the word \"robotics\"."
+	},
+	
+
+	{ 
+		"name": "",
+		"title": "",
+		"picture": "",
+		"name_url": "",
+		"desc": ""
+	},
+	
+
+	{ 
+		"name": "",
+		"title": "",
+		"picture": "",
+		"name_url": "",
+		"desc": ""
+	},
+	
+	{}
+]
+

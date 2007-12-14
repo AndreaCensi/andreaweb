@@ -1,0 +1,77 @@
+---
+title: About me
+Date: Jan 10 2006
+---
+
+I was born on [July 11, 1982][july11] and unfortunately, after 24 years, my plans 
+for world domination are nowhere near completion. This delay can be attributed to:
+
+- struggling through university courses:  I'm a Master's student at
+["La Sapienza" University][sapienza] in Rome, Italy 
+(<a href="http://w3.uniroma1.it/automatica/">Control Engineering</a>, 
+with emphasis on robotics and control, and a little bit of AI). **Graduated on 2007-05-22!**
+
+- taking part in <a href="http://sied.dis.uniroma1.it/">some arcane conspirations</a> which
+involve <a href="http://www.flickr.com/photos/censi/70893277/">coffee</a>, 
+<a href="http://flickr.com/photos/censi/42775664/in/set-936677/">robots</a>,
+<a href="http://www.flickr.com/photos/censi/42775888/in/set-936677/">sushi</a>,
+printing lots of PDFs, staring at data plots
+and learning more than I ever wanted to know about
+C++ and various other computer things whose
+name ends with a final X.
+
+**Current favourite quote**:
+
+> There are 10 kinds of people in the world:
+> 1. Those that understand binary numbers;
+> 2. those that don't understand binary numbers; 
+> 3. those that do understand binary numbers, but make too many assumptions.
+
+**Erdos number**:
+My [Erdos number][erdos] is at most 5: P. Erdos - S. Shelah - D. M. Gabbay -
+[L. Carlucci Aiello][aiello] - [D. Nardi][nardi] - A. Censi.
+
+[erdos]: http://en.wikipedia.org/wiki/Erd%C5%91s_number
+[aiello]: http://www.dis.uniroma1.it/~aiello
+[nardi]: http://www.dis.uniroma1.it/~nardi
+
+
+<div style="text-align:center; float: right">
+<img width="236" height="176" src="jojo.gif" alt="Jojo the monkey"/>
+</div>
+
+**Piano**: I am at least as good as a drunken monkey (right).
+
+If you have never seen this particular monkey before, 
+I advise you spend some time on [Monkey Island][mi2].
+
+Thanks to [w3sp] for the piano arrangements.
+
+<table style="clear:both	">
+	<tr>
+		<td>
+			<object type="application/x-shockwave-flash" style="width:266px; height:220px;" data="http://www.youtube.com/v/o6IECWEytIg"><param name="movie" value="http://www.youtube.com/v/o6IECWEytIg" /></object>
+			<br/>
+			<div style="text-align:center">
+				<a href="http://en.wikipedia.org/wiki/Monkey_Island_2%3A_LeChuck%27s_Revenge">Monkey Island II</a> <br/> JoJo the Monkey</div>
+		</td>
+
+		<td>
+<object type="application/x-shockwave-flash" style="width:266px; height:220px;" data="http://www.youtube.com/v/4xNO3CtxPYg"><param name="movie" value="http://www.youtube.com/v/4xNO3CtxPYg" /></object>
+		<br/>
+		<div style="text-align:center">
+			<a href="http://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island">Monkey Island I</a> <br/> The Scumm Bar</div>
+		</td>
+		
+	</tr>
+</table>
+	
+[avi]: http://www.dis.uniroma1.it/~acensi/pub/misc/jojo_the_monkey.avi
+
+[sapienza]: http://www.dis.uniroma1.it/
+[july11]:   http://en.wikipedia.org/wiki/1982_FIFA_World_Cup#Final
+[w3sp]:     http://www.gamemusicthemes.com/
+[mi2]:      http://en.wikipedia.org/wiki/Monkey_Island_2:_LeChuck%27s_Revenge
+[jojo2]:    http://www.scummbar.com/games/index.php?game=2&sub=info
+
+
