@@ -1,0 +1,14 @@
+---
+title: Publications
+Date: Jan 3 2007
+orderInfo: 110
+---
+<!--
+<h4> Submitted </h4>
+
+<p style="text-align: left">
+ None  too busy doing homework!
+</p>-->
+
+<h4> Refereed conference papers </h4>
+
