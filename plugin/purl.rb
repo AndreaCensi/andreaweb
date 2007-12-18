@@ -1,9 +1,8 @@
 load_plugin 'webgen/plugins/tags/tag_processor'
 
 
-module Tags
 
-  class PurlTag < DefaultTag
+  class PurlTag < Tags::DefaultTag
 
 	DefaultTemplate = %q{
 	<div class="purl">
@@ -30,5 +29,3 @@ module Tags
     end
 
   end
-
-end

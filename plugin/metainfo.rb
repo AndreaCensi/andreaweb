@@ -1,9 +1,8 @@
 
 load_plugin 'webgen/plugins/tags/tag_processor'
 
-module Tags
 
-  class MetaInfo < DefaultTag
+  class MetaInfo < Tags::DefaultTag
 
     infos( :name => 'Tag/MetaInfo',
            :author => 'Andrea Censi',
@@ -26,5 +25,3 @@ module Tags
     end
 
   end
-
-end

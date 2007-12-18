@@ -74,9 +74,7 @@ class FlickrExplorer
 	end
 end
 
-module Tags
-
-  class FlickrTag < DefaultTag
+  class FlickrTag < Tags::DefaultTag
 
 	DefaultTemplate = %q{
 	<div class="flickr">
@@ -128,4 +126,3 @@ module Tags
 
   end
 
-end
