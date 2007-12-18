@@ -3,6 +3,12 @@ index.page:
   page_class: indexcaltech
   blocks: [[content, html]]
 
+all.page:
+  inMenu: false
+  page_class: puball
+  blocks: [[content, html]]
+
+
 index2.page:
   inMenu: false
   page_class: indexcaltech
