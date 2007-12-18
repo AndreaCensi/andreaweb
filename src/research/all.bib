@@ -1,20 +1,81 @@
-@inproceedings{censi07accurate,
+@inProceedings{censi08ppu,
+    author = {Andrea Censi and Daniele Calisi and Alessandro De Luca and Giuseppe Oriolo},
+    title = {On Robot Motion Planning with Uncertainty},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    year = {2008}, 
+    month = {May}, 
+    address = {Pasadena, CA},
+    url = { http://purl.org/censi/2007/ppu},
+    notes = {to appear}
+}
+
+@inProceedings{censi08plicp,
+    author = {Andrea Censi},
+    title = {An {ICP} variant using a point-to-line distance},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    year = {2008}, 
+    month = {May}, 
+    address = {Pasadena, CA},
+    url = { http://purl.org/censi/2007/plicp},
+    notes = {to appear}
+}
+
+@inProceedings{censi08ftf,
+    author = {Andrea Censi and Gian Diego Tipaldi},
+    title = {Lazy Localization using a frozen-time filter},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    year = {2008}, 
+    month = {May}, 
+    address = {Pasadena, CA},
+    url = { http://purl.org/censi/2007/ftf},
+    notes = {to appear}
+}
+
+
+@inProceedings{censi08calib,
+    author = {Andrea Censi and Luca Marchionni and Giuseppe Oriolo},
+    title = { Simultaneous maximum-likelihood calibration of robot and sensor parameters},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    year = {2008}, month = {June}, 
+    address = {Pasadena, CA},
+    url = { http://purl.org/censi/2007/calib},
+    notes = {to appear}
+}
+
+@inProceedings{censi07accurate,
     author = {Andrea Censi},
     title = {An accurate closed-form estimate of {ICP}'s covariance},
     booktitle = {Proceedings of the {IEEE} International Conference 
                  on Robotics and Automation ({ICRA})},
     pages = {3167--3172},
-    year = {2007}, month = apr, 
+    year = {2007}, month = {April}, 
     address = {Rome, Italy},
     doi = {10.1109/ROBOT.2007.363961},
     ISSN = {1050-4729},
     url = { http://purl.org/censi/2006/icpcov},
 abstract = {
- Existing methods for estimating the covariance of the ICP (Iterative Closest/Corresponding Point) algorithm are either inaccurate or are computationally too expensive to be used online. This paper proposes a new method, based on the analysis of the error function being minimized. It considers that the correspondences are not independent (the same measurement being used in more than one correspondence), and explicitly utilizes the covariance matrix of the measurements, which are not assumed to be independent either. The validity of the approach is verified through extensive simulations: it is more accurate than previous methods and its computational load is negligible. The ill-posedness of the surface matching problem is explicitly tackled for under-constrained situations by performing an observability analysis; in the analyzed cases the method still provides a good estimate of the error projected on the observable manifold.
+ Existing methods for estimating the covariance of the ICP 
+ (Iterative Closest/Corresponding Point) algorithm are either 
+ inaccurate or are computationally too expensive to be used online. 
+ This paper proposes a new method, based on the analysis of the error
+ function being minimized. It considers that the correspondences are 
+ not independent (the same measurement being used in more than one correspondence),
+ and explicitly utilizes the covariance matrix of the measurements, 
+ which are not assumed to be independent either. The validity of the
+ approach is verified through extensive simulations: it is more accurate 
+than previous methods and its computational load is negligible. 
+The ill-posedness of the surface matching problem is explicitly tackled 
+for under-constrained situations by performing an observability analysis; 
+in the analyzed cases the method still provides a good estimate of the
+ error projected on the observable manifold.
 }
 }
 
-@inproceedings{censi07achievable,
+@inProceedings{censi07achievable,
     author = {Andrea Censi},
     title = {On achievable accuracy 
              for range-finder localization},
@@ -47,7 +108,7 @@ abstract = {
 	lower bound for accuracy in scan matching and SLAM.}
 }
 
-@inproceedings{censi06scan,
+@inProceedings{censi06scan,
 	author = {Andrea Censi},
 	title = {Scan matching in a probabilistic framework},
 	booktitle = {Proceedings of the IEEE International Conference 
@@ -58,7 +119,7 @@ abstract = {
 	url = { http://purl.org/censi/2006/gpm}
 }
 
-@misc{censi06comparison,
+@techReport{censi06comparison,
     author = {Andrea Censi},
     title = {A comparison of algorithms for likelihood approximation 
              in Bayesian localization},
@@ -66,8 +127,8 @@ abstract = {
     url = { http://purl.org/censi/2006/ghtv},
 }
 
-@inproceedings{censi05hough,
-     author = {Censi, Andrea and Iocchi, Luca and Grisetti, Giorgio},
+@inProceedings{censi05hough,
+     author = {Andrea Censi and Luca Iocchi and Giorgio Grisetti},
       title = {Scan matching in the {H}ough domain},
   booktitle = {Proceedings of the IEEE International Conference 
                on Robotics and Automation},
