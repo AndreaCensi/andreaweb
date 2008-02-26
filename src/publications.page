@@ -13,126 +13,160 @@ orderInfo: 110
 <h4> Refereed conference papers </h4>
 
 
+<dl>
 
-
-<p>
-
+<dt>
+<a name="censi08ppu">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>, <a href='http://www.dis.uniroma1.it/~calisi/'><a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a></a>, <a href='http://www.dis.uniroma1.it/~labrob/people/deluca/deluca.html'>Alessandro&nbsp;De Luca</a>, and <a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'><a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'>Giuseppe Oriolo</a></a>.
- On robot motion planning with uncertainty.
- In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
- Accepted for publication.
-[&nbsp;<a href="pub_proc_bib.html#censi08ppu">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/ppu">www:</a>&nbsp;]
+  A Bayesian framework for optimal motion planning with uncertainty.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08ppu">bib</a> | 
+<a href=" http://purl.org/censi/2007/ppu">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-ppu.pdf">.pdf</a> | 
+<a href="./pub_proc_abstracts.html#censi08ppu">Abstract</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi08plicp">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>.
- An ICP variant using a point-to-line metric.
- In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
- Accepted for publication.
-[&nbsp;<a href="pub_proc_bib.html#censi08plicp">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/plicp">www:</a>&nbsp;]
+  An ICP variant using a point-to-line metric.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08plicp">bib</a> | 
+<a href=" http://purl.org/censi/2007/plicp">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-plicp.pdf">.pdf</a> | 
+<a href="./pub_proc_abstracts.html#censi08plicp">Abstract</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi08ftf">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong> and <a href='http://www.dis.uniroma1.it/~tipaldi/'>Gian&nbsp;Diego Tipaldi</a>.
- Lazy localization using a frozen-time filter.
- In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
- Accepted for publication.
-[&nbsp;<a href="pub_proc_bib.html#censi08ftf">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/ftf">www:</a>&nbsp;]
+  Lazy localization using the Frozen-Time Smoother.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08ftf">bib</a> | 
+<a href=" http://purl.org/censi/2007/fts">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-fts.pdf">.pdf</a> | 
+<a href="./pub_proc_abstracts.html#censi08ftf">Abstract</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi08calib">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>, Luca Marchionni, and <a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'><a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'>Giuseppe Oriolo</a></a>.
- Simultaneous maximum-likelihood calibration of robot and sensor
+  Simultaneous maximum-likelihood calibration of robot and sensor
   parameters.
- In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
- Accepted for publication.
-[&nbsp;<a href="pub_proc_bib.html#censi08calib">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/calib">www:</a>&nbsp;]
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08calib">bib</a> | 
+<a href=" http://purl.org/censi/2007/calib">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-calibration.pdf">.pdf</a> | 
+<a href="./pub_proc_abstracts.html#censi08calib">Abstract</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi07accurate">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>.
- An accurate closed-form estimate of ICP's covariance.
- In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, pages 3167-3172, Rome, Italy, April 2007.
-[&nbsp;<a href="pub_proc_bib.html#censi07accurate">bib</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/ROBOT.2007.363961">DOI</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/icpcov">www:</a>&nbsp;| 
-<a href="pub_proc_abstracts.html#censi07accurate">Abstract</a>&nbsp;]
+  An accurate closed-form estimate of ICP's covariance.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, pages 3167-3172, Rome, Italy, April 2007.<br />
+[ <a href="./pub_proc_bib.html#censi07accurate">bib</a> | 
+<a href=" http://purl.org/censi/2006/icpcov">www:</a> | 
+<a href=" http://purl.org/censi/research/2007-icra-icpcov.pdf">.pdf</a> | 
+<a href="./pub_proc_abstracts.html#censi07accurate">Abstract</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi07achievable">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>.
- On achievable accuracy for range-finder localization.
- In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, pages 4170-4175, Rome, Italy, April 2007.
-[&nbsp;<a href="pub_proc_bib.html#censi07achievable">bib</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/ROBOT.2007.364120">DOI</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/accuracy">www:</a>&nbsp;| 
-<a href="pub_proc_abstracts.html#censi07achievable">Abstract</a>&nbsp;]
+  On achievable accuracy for range-finder localization.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, pages 4170-4175, Rome, Italy, April 2007.<br />
+[ <a href="./pub_proc_bib.html#censi07achievable">bib</a> | 
+<a href=" http://purl.org/censi/2006/accuracy">www:</a> | 
+<a href=" http://purl.org/censi/research/2007-icra-accuracy.pdf">.pdf</a> | 
+<a href="./pub_proc_abstracts.html#censi07achievable">Abstract</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi06scan">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>.
- Scan matching in a probabilistic framework.
- In <em>Proceedings of the IEEE International Conference on Robotics
-  and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.
-[&nbsp;<a href="pub_proc_bib.html#censi06scan">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/gpm">www:</a>&nbsp;]
+  Scan matching in a probabilistic framework.
+  In <em>Proceedings of the IEEE International Conference on Robotics
+  and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.<br />
+[ <a href="./pub_proc_bib.html#censi06scan">bib</a> | 
+<a href=" http://purl.org/censi/2006/gpm">www:</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="censi05hough">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>, <a href='http://www.dis.uniroma1.it/~iocchi/'><a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a></a>, and <a href='http://www.informatik.uni-freiburg.de/~grisetti/'><a href='http://www.informatik.uni-freiburg.de/~grisetti/'>Giorgio Grisetti</a></a>.
- Scan matching in the Hough domain.
- In <em>Proceedings of the IEEE International Conference on Robotics
-  and Automation</em>, pages 2739-2744, Barcelona, Spain, 2005.
-[&nbsp;<a href="pub_proc_bib.html#censi05hough">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/hsm">www:</a>&nbsp;]
+  Scan matching in the Hough domain.
+  In <em>Proceedings of the IEEE International Conference on Robotics
+  and Automation (ICRA)</em>, pages 2739-2744, Barcelona, Spain, 2005.<br />
+[ <a href="./pub_proc_bib.html#censi05hough">bib</a> | 
+<a href=" http://purl.org/censi/2006/hsm">www:</a> ]
 
-</p>
+</dd>
+</dl>
 <h4> Unrefereed / technical reports </h4>
+<dl>
 
-
-<p>
-
+<dt>
+<a name="censi06comparison">&nbsp;</a>
+</dt>
+<dd>
 <strong>Andrea Censi</strong>.
- A comparison of algorithms for likelihood approximation in bayesian
+  A comparison of algorithms for likelihood approximation in bayesian
   localization.
- Technical report, 2006.
-[&nbsp;<a href="pub_tr_bib.html#censi06comparison">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/ghtv">www:</a>&nbsp;]
+  Technical report, 2006.<br />
+[ <a href="./pub_tr_bib.html#censi06comparison">bib</a> | 
+<a href=" http://purl.org/censi/2006/ghtv">www:</a> ]
 
-</p>
+</dd>
 
-<p>
 
+<dt>
+<a name="BaCa04">&nbsp;</a>
+</dt>
+<dd>
 S.&nbsp;Bahadori, <a href='http://www.dis.uniroma1.it/~calisi/'>D.&nbsp;Calisi</a>, A.&nbsp;Censi, <a href='http://www.dis.uniroma1.it/~farinell/'>A.&nbsp;Farinelli</a>, <a href='http://www.informatik.uni-freiburg.de/~grisetti/'>G.&nbsp;Grisetti</a>, <a href='http://www.dis.uniroma1.it/~iocchi/'>L.&nbsp;Iocchi</a>, and
   <a href='http://www.dis.uniroma1.it/~nardi/'>D.&nbsp;Nardi</a>.
- Intelligent systems for search and rescue.
- Proc. of IROS Workshop &ldquo;Urban Search and Rescue: from RoboCup to
-  real world applications&rdquo; (IROS), Sendai, Japan, 2004.
-[&nbsp;<a href="pub_tr_bib.html#BaCa04">bib</a>&nbsp;| 
-<a href="http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf">.pdf</a>&nbsp;]
+  Intelligent systems for search and rescue.
+  Proc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to
+  real world applications'' (IROS), Sendai, Japan, 2004.<br />
+[ <a href="./pub_tr_bib.html#BaCa04">bib</a> | 
+<a href="http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf">.pdf</a> ]
 
-</p>
+</dd>
+</dl>

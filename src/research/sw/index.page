@@ -15,6 +15,8 @@ Packages:
 
 * [The C(anonical) scan matcher](csm.html), used in many of my papers.
 
+* [OpenRDK] is the robotics framework developed at the [SIED] lab.
+
 Bits and pieces:
 
 * [Solving the generalized 2d point-correspondence problem](gpc.html):
@@ -28,3 +30,5 @@ Bits and pieces:
 * [Global (re)localization](http://purl.org/censi/2007/ftf)
 * [Hough Scan Matching](http://purl.org/censi/2006/hsm) -->
 
+[OpenRDK]: http://openrdk.sourceforge.net/
+[SIED]: http://sied.dis.uniroma1.it/

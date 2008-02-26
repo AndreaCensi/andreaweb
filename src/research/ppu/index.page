@@ -7,25 +7,26 @@ inMenu: true
 orderInfo: -10
 ---
 
-- A.&nbsp;Censi, D. Calisi, [A. De Luca][deluca], [G. Oriolo][oriolo] "*On robot motion planning with uncertainty*", submitted to ICRA'08
+- A.&nbsp;Censi, D. Calisi, [A. De Luca][deluca], [G. Oriolo][oriolo] *"A Bayesian framework for optimal motion planning with uncertainty"*, to appear in ICRA'08
 
-  - [draft version (PDF)][ppu-08icra-draft]
+  - [final version (PDF)][ppu-08icra-final]
 
-**Abstract** -- Modelling robot motion planning with uncertainty in a Bayesian framework
-leads to a computationally intractable stochastic control problem.
-We seek hypotheses that can justify a separate implementation of control,
-localization and planning. In the end, we reduce the stochastic control
-problem to path-planning in the extended space of poses&nbsp;x&nbsp;covariances;
-the transitions between states are modeled through the use of Fisher's
-information matrix.   
-In this framework, we consider two problems: minimizing the execution
-time, and minimizing the final covariance, with an upper bound on
-the execution time. Two correct and complete algorithms are presented.
-The first is the direct extension of classical graph-search algorithms
-in the extended space. The second one is a back-projection algorithm:
-uncertainty constraints are propagated backward from the goal towards
-the start state. 
-
+**Abstract** -- 
+Modeling robot motion planning with uncertainty in a
+Bayesian framework leads to a computationally intractable
+stochastic control problem. We seek hypotheses that can
+justify a separate implementation of control, localization
+and planning. In the end, we reduce the stochastic control
+problem to path-planning in the extended space of poses&nbsp;x&nbsp;covariances; the transitions between states are modeled
+through the use of the Fisher information matrix. In this
+framework, we consider two problems: minimizing the
+execution time, and minimizing the final covariance, with
+an upper bound on the execution time. Two correct and
+complete algorithms are presented. The first is the direct
+extension of classical graph-search algorithms in the
+extended space. The second one is a back-projection
+algorithm: uncertainty constraints are propagated backward
+from the goal towards the start state.
 
 ### Additional material ###
 
@@ -36,6 +37,7 @@ the start state.
   - [the source code, plus the animations][ppu-sw-figures] (15MB tgz)
 
 [ppu-08icra-draft]: http://purl.org/censi/research/2008-icra-ppu-draft.pdf
+[ppu-08icra-final]: http://purl.org/censi/research/2008-icra-ppu.pdf
 
 [ppu-thesis]: http://purl.org/censi/research/2007-thesis-censi-ppu.pdf
 [ppu-sw]:  http://purl.org/censi/research/2008-icra-ppu/2008-icra-ppu-sw.tgz

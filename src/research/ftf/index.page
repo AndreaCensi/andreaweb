@@ -1,26 +1,43 @@
 ---
-title: Lazy Localization using a Frozen-Time Filter
+title: Lazy Localization using the Frozen-Time Smoother
 Date: 2007-08-22
 inMenu: true
 orderInfo: -7
 elinkAttrs:
-   :link_text: Frozen-Time Filter
+   :link_text: Frozen-Time Smoother
 ---
 
-- A. Censi, [Gian Diego Tipaldi][tipaldi] "*Lazy localization using a Frozen-Time Filter*", submitted to ICRA'08. 
+- A. Censi, [Gian Diego Tipaldi][tipaldi] *"Lazy localization using the Frozen-Time Smoother"*, to appear in ICRA'08. 
 
-  - [draft version (PDF)](http://purl.org/censi/research/2008-icra-ftf-draft.pdf)
+  - [final version (PDF)](http://purl.org/censi/research/2008-icra-fts.pdf)
 
-**Abstract** --  One of the open problems of SLAM (Simultaneous Localization and Mapping) research is loop closure.  In this paper, we model loop closure as a smoothing  problem  ("lazy" localization) instead of filtering (global localization).  
-We present a new algorithm for solving the lazy localization problem called Frozen-Time Filter (FTF). Time is 'frozen', in the sense that the belief always refers to the same time instant, instead of following a moving target, like Monte Carlo Localization does.  
-The Frozen-Time Filter exploits the fact that, during a SLAM process, a quite precise estimate of the incremental motion of the robot is usually available. Under the same assumption, we design two Monte  Carlo methods for lazy localization. The experiments suggest that a naive implementation of FTF is more efficient than a extremely optimized equivalent Monte Carlo solution. Moreover, the grid representation used by FTF solves some of the annoying problems of particle filters.
-
+**Abstract** -- We present a new algorithm for solving the global localization problem called
+Frozen-Time Smoother (FTS). Time is 'frozen', in the sense that the belief
+always refers to the same time instant, instead of following a moving target,
+like Monte Carlo Localization does. This algorithm works in the case in which global localization is 
+formulated as a smoothing problem, and a precise estimate of the 
+incremental motion of the robot is usually available. These assumptions
+correspond to the case when global localization is used to 
+solve the loop closing problem in SLAM.
+We compare FTS to two Monte Carlo methods designed with the same assumptions. 
+The experiments suggest that a naive implementation of the FTS is more efficient than an extremely optimized equivalent Monte Carlo solution. 
+Moreover, the FTS has an intrinsic laziness: 
+it does not need frequent updates (scans can be integrated once every many meters) and it can process data in arbitrary order. 
+The source code and datasets are available for download.
 
 ![Example of FTF iteration](image_small.png)
 
-[tipaldi]: http://www.dis.uniroma1.it/~tipaldi
+[tipaldi]: http://www.dis.uniroma1.it/~tipaldi/
 
 ### Additional material ###
+
+Warning: this additional material is not yet in sync with the paper.
+The final version is very different from the draft: we changed lots of things, including the notation and the names of the methods.
+We fixed some bugs in the source code, and the experiments have been run again
+with different parameters. Hopefully the updated additional material 
+will be online sometime soon  (email me if you are interested and can't wait for it).
+{: style="font-weight: bold; color: #800"}
+
 
 The software and sensor logs are available for download (warning, big files):
 
@@ -44,7 +61,7 @@ Other info:
 [Cyrill Stachniss]: http://www.informatik.uni-freiburg.de/~stachnis/
 [Wolfram Burgard]: http://www.informatik.uni-freiburg.de/~burgard/
 
-### Frozen-Time Filter localization Examples ###
+**Localization Examples**:
 
 Aces environment: \#[000](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/000_go.html),
 [001](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/001_go.html),

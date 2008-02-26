@@ -145,5 +145,5 @@ research/ppu:
 
 research/ftf:
   orderInfo: -7
-  title: Frozen-Time Filter
+  title: Frozen-Time Smoother
 

@@ -15,18 +15,19 @@ Date: Sep 1 2007
 
 I'm interested in **robotics**, and, in particular, in all things related to uncertainty (localization, estimation, motion planning, communication). I like simple algorithms with solid mathematical properties.
 
-- [Publications](../publications.html) (not including ![new](new.png){:new} drafts) 
+- [Publications](../publications.html) 
 - [Software](sw/index.html)
 {:style="list-style-type: disc"}
 
+<!-- ![new](new.png){:new} -->
 
 #### Calibration ####{:head}
 
-* ![icon](../icons/calibration.jpg){:icon} ![new](new.png){:new} [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
+* ![icon](../icons/calibration.jpg){:icon}  [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
   
 #### Planning ####{:head}
 
-* ![icon](../icons/ppu.jpg){:icon}  ![new](new.png){:new} [On robot motion planning with control and sensing uncertainty][ppu] 
+* ![icon](../icons/ppu.jpg){:icon}   [On robot motion planning with control and sensing uncertainty][ppu] 
   
 
 #### Estimation ####{:head}
@@ -37,13 +38,13 @@ I'm interested in **robotics**, and, in particular, in all things related to unc
 
 #### Localization ####{:head}
 
-* ![icon](../icons/ftf.jpg){:icon} ![new](new.png){:new} [Lazy Localization using a Frozen-Time Filter][ftf]
+* ![icon](../icons/ftf.jpg){:icon}   [Lazy Localization using a Frozen-Time Filter][ftf]
 
 * ![icon](../icons/ghtv.jpg){:icon} [A comparison of algorithms for likelihood approximation in Bayesian localization][ghtv] 
 
 #### Scan matching ####{:head}
 
-* ![icon](../icons/plicp.jpg){:icon} ![new](new.png){:new} [An ICP variant using a point-to-line metric][plicp] 
+* ![icon](../icons/plicp.jpg){:icon}  [An ICP variant using a point-to-line metric][plicp] 
 
 * ![icon](../icons/hsm.jpg){:icon} [HSM][HSM], which aims at global, complete searches. 
 
