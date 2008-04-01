@@ -1,0 +1,59 @@
+# Timeline #
+
+1. Up to mid-April:
+
+   * finish first draft of journal version for <http://purl.org/censi/2006/accuracy>.
+   * coordinate with people in Rome for journal version of [work in  calibration](http://purl.org/censi/2007/calib).
+   * talk with potential advisors ([list of people](http://www.cds.caltech.edu/~andrea/blog/2008-02-21)).
+
+3. May: 
+
+   * prepare for ICRA conference
+
+# Themes #
+
+## Estimation ##
+
+* Caratterizzare la covarianza in caso vincolato.
+
+  * applicazione: calibration (cos^2+sin^2=1)
+
+* Studiare il bias.
+
+  * applicazione: stima bias ICP
+
+* Write a paper about Cramer-Rao bounds for scan matching; that would be the extension of [*Cramer-Rao bounds for localization*](http://purl.org/censi/2006/accuracy)
+
+  * main results already worked out and experimentally verified (= don't bother with ICP).
+  * countour examples to be worked out.
+
+
+## Planning with uncertainty ##
+
+* Aggiungere trick celle.
+* Fare versione journal.
+
+Caso continuo:
+
+* formalizzare caso continuo
+* ristudiare controllo ottimo
+
+  * fare prima caso senza incertezza
+  * ipotesi: rallento solo se l'informazione sta diminuendo.
+
+
+## Calibration ##
+
+* Fare 
+
+## Communication ##
+
+* Rewrite in English
+
+
+
+# Cose da studiare #
+
+* rivedersi bene controllo ottimo
+* studiare Markov Random Fields
+* finire libro su Gaussian Process
