@@ -1,0 +1,24 @@
+
+Cose necessarie per la version journal:
+
+## Capire come caratterizzare l'incertezza della stima ## 
+
+Questo è necessario
+per capire quando ci sono abbastanza dati per scendere sotto una
+certa soglia di incertezza predefinita. E' difficile perché
+il problema e' non lineare. 
+
+Il metodo ha una parte lineare (stima J1 e J2) e una parte non lineare
+(stima degli altri parametri). Sarà interessante capire se è meglio considerare:
+- il problema non lineare (in theta)
+- il problema con funzione obiettivo quadratico ma con incognite vincolate (cos theta, sin theta)
+
+
+## Chiarire i risultati sperimentali ##
+
+Dovremmo cercare di capire bene perché i risultati con il laser montato storto non
+sono buoni quanto ci aspettavamo.
+
+* Fare tool di auto-calibrazione carino per i kephera.
+* Fare 
+  * Fare simulazione
