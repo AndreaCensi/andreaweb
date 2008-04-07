@@ -3,6 +3,7 @@
 s = $stdin.read
 s = s.gsub(%r{<a name=".*"></a>},'')
 s = s.gsub('Andrea Censi', '<strong>Andrea Censi</strong>')
+s = s.gsub('A. Censi', '<strong>Andrea Censi</strong>')
 
 names = [
        {"first"=> "Andrea", "family"=> "Censi", "mysite"=>
@@ -60,5 +61,6 @@ for n in names
 	end
 end
 
+s = s.gsub(%r{>.pdf},"><img src='pdf.gif'/>.pdf")
 
 puts s
