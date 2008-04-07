@@ -1,24 +1,134 @@
+Temi da affrontare
+------------------
 
-Cose necessarie per la version journal:
+### Teoria: Capire come caratterizzare l'incertezza della stima ###
 
-## Capire come caratterizzare l'incertezza della stima ## 
+Questo è necessario per capire quando ci sono abbastanza dati per scendere sotto una certa soglia di incertezza predefinita. E' difficile perché il problema e' non lineare.
 
-Questo è necessario
-per capire quando ci sono abbastanza dati per scendere sotto una
-certa soglia di incertezza predefinita. E' difficile perché
-il problema e' non lineare. 
+Il metodo ha una parte lineare (stima J1 e J2) e una parte non lineare (stima degli altri parametri). Sarà interessante capire se è meglio considerare: 
 
-Il metodo ha una parte lineare (stima J1 e J2) e una parte non lineare
-(stima degli altri parametri). Sarà interessante capire se è meglio considerare:
-- il problema non lineare (in theta)
-- il problema con funzione obiettivo quadratico ma con incognite vincolate (cos theta, sin theta)
+- il problema non lineare (in theta) 
+
+- il problema quadratico ma con incognite vincolate (cos theta, sin theta)
 
 
-## Chiarire i risultati sperimentali ##
+### Teoria: capire come scegliere buone traiettorie  ###
 
-Dovremmo cercare di capire bene perché i risultati con il laser montato storto non
-sono buoni quanto ci aspettavamo.
+Fino ad adesso abbiamo scelto traiettorie a caso, o secondo
+criteri che non sono più validi. Per esempio, usavamo lunghi
+tratti a velocità costante pensando che ciò nascondesse il problema
+della sincronizzazione tra laser e odometria; dopo aver aggiornato
+il software, il problema della sincronizzazione non c'è più.
 
-* Fare tool di auto-calibrazione carino per i kephera.
-* Fare 
-  * Fare simulazione
+Per questo c'è tanta teoria nota da studiarsi e applicare.
+
+
+### Esperimenti: Capire risultati non soddisfacenti ###
+
+Dovremmo cercare di capire bene perché i risultati con il laser montato storto non sono buoni quanto ci aspettavamo. L'ipotesi e' che ci sia qualche impurezza residua nei dati (bias hHkuyo, bias scan matching, incronizzazione dati, etc.). Quindi l'idea e' quella di fare delle simulazioni.
+
+Per "simulazione" intendo riprodurre sinteticamente il tipo di 
+dati che usiamo normalmente (odometria, laser).
+
+
+### Esperimenti: Fare nuovi esperimenti seri e di confronto ###
+
+Nel paper di ICRA facciamo la calibrazione di un solo robot (nota però che abbiamo messo la foto di 5 robot -- che furbetti che siamo).
+Al momento la calibrazione è un po' macchinosa: si devono raccogliere i log, poi aprirli da Matlab. Con il nuovo software (vedi succ.) sarà
+più facile e possibilmente tutto più automatico.
+
+
+Il confronto ottimo sarebbe con il metodo UMBmark implementato sugli
+stessi dati sensoriali, ovvero usando lo scan matching invece che una
+telecamera esterna.
+
+
+### Fare il tool di calibrazione automatica per il Khepera ###
+
+Fare un programma di calibrazione carino per il Khepera.
+
+
+
+Implementazione
+---------------
+
+Fino ad adesso abbiamo trattato in generale quali sono i temi da affrontare, ora parliamo di come implementare bene il tutto,
+ovvero in modo che sia contemporaneamente pratico da usare ma che offra anche la possibilità di fare esperimenti seri e puliti.
+
+
+
+### Simulazione ###
+
+
+- Io ho già un programmino che, dati:
+
+  1. una mappa (specificata attraverso file .fig)
+ 
+  2. una posa
+
+  3. parametri sensore (risoluzione, FOV, tipo rumore, etc)
+ 
+  simula un range-finder. (Quello che farebbe anche Player/Stage,
+  ma fatto bene).
+
+- Da scrivere, in C (meglio) o in Matlab, programmino che simula
+  traiettoria e caratteristiche sensore odometria del Khepera.
+
+
+Combinando opportunamente gli output dei due programmini si 
+ottiene il log da dare in pasto al programma principale.
+
+
+## La ciccia ##
+
+Ricorda che il data-flow è più o meno questo:
+
+ODOMETRIA ------------------------------>| sincroni | --> TUPLE 
+LASER     --> [scan matcher] --> POSE -->| -zzatore |
+
+... TUPLE --> [ solutore + outlier rej. ] --> PARAMETRI
+            
+
+dove: 
+
+- Il sincronizzatore si occupa di sincronizzare i dati dell'odometria
+  e del laser che, in generale, hanno timestamp differenti.
+
+  In realtà questo è il pezzo più difficile e noioso da scrivere.
+
+- Per TUPLE intendo quelle che nel paper sono indicate con l'indice "k" (< T_k, s_k, ... >).
+
+- All'interno del solutore c'è anche il meccanismo di outlier rejection. Il procedimento è di tipo iterativo: uso prima il 100% dei dati, stimo parametri, poi usando la stima scarto un po' di dati, etc,
+quindi in realtà anche il solutore sarà diviso in un paio di componenti.
+
+
+
+* Re-implementare in C il software che c'è adesso in Matlab.
+
+  Implementare in modo che:
+
+  - possa essere usato in modo stand-alone su file di log.
+
+  - possa essere usato come filtro (o come libreria) dal
+    programma di auto-calibrazione del Kephera. 
+
+* Implementare UMB-mark usando dati Hokuyo e scan-matcher. 
+  Questo permette di fare ottimi esperimenti comparativi 
+  fra i due metodi.
+
+* Fare tool di auto-calibrazione carino per i Kephera. 
+  Questo idealmente dovrebbe essere un livello sopra al software
+  del primo punto.  
+
+
+
+
+
+
+
+
+
+
+
+
+
