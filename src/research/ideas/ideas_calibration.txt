@@ -43,9 +43,40 @@ stessi dati sensoriali, ovvero usando lo scan matching invece che una
 telecamera esterna.
 
 
-### Fare il tool di calibrazione automatica per il Khepera ###
+### Tool di calibrazione automatica  ###
 
-Fare un programma di calibrazione carino per il Khepera.
+Il caso "base" è il robot viene guidato su certe traiettorie prestabilite per tempi prestabiliti, quindi viene fatta la stima sui log raccolti usando del software in C (vedi dopo) invece che passare per Matlab.
+
+Ma se riusciamo a risolvere in modo soddisfacente i due problemi teorici:
+
+1. caratterizzare l'incertezza della stima
+
+2. generazione di traiettorie per osservare certi parametri
+
+allora si può fare qualcosa di molto più carino.
+
+
+Condensa tutte le scatolette di cui sopra in una sola chiamata "calibrazione"
+che ha come input laser e odometria e come output la stima dei parametri, con relativa incertezza.
+
+    LASER/ODOMETRIA ---> [calib] ---> STIMA PARAMETRI
+
+Allora vedi l'auto-calibrazione come chiudere questo loop:
+
+
+    LASER/ODOMETRIA ---> [calib] ---> STIMA PARAMETRI
+           A                               | 
+           |                               |  GUESS PARAMETRI
+     [robot+controllo]                     |   |
+           A                               |   |  ACCURATEZZA RICHIESTA
+           |                               |   |  |
+           |                               V   V  V
+        TRAIETTORIA   <----------- [auto-calibrazione]  
+
+
+Per essere più precisi, l'auto-calibrazione risolve il problema:
+
+> Data l'attuale stima dei parametri, e l'accuratezza richiesta, lungo quale traiettoria mi conviene guidare il robot?
 
 
 
@@ -79,14 +110,14 @@ Combinando opportunamente gli output dei due programmini si
 ottiene il log da dare in pasto al programma principale.
 
 
-## La ciccia ##
+### La ciccia ###
 
 Ricorda che il data-flow è più o meno questo:
 
-ODOMETRIA ------------------------------>| sincroni | --> TUPLE 
-LASER     --> [scan matcher] --> POSE -->| -zzatore |
+	ODOMETRIA ------------------------------>| sincroni | --> TUPLE 
+	LASER     --> [scan matcher] --> POSE -->| -zzatore |
 
-... TUPLE --> [ solutore + outlier rej. ] --> PARAMETRI
+	... TUPLE --> [ solutore + outlier rej. ] --> PARAMETRI
             
 
 dove: 
@@ -102,24 +133,23 @@ dove:
 quindi in realtà anche il solutore sarà diviso in un paio di componenti.
 
 
+Tutto questo è correntemente implementato in Matlab e c'è da tradurlo in C/C++.
 
-* Re-implementare in C il software che c'è adesso in Matlab.
+L'idea è quello di implementare i diversi programmini in modo che:
 
-  Implementare in modo che:
+- possano essere usati in modo stand-alone su file di log.
 
-  - possa essere usato in modo stand-alone su file di log.
+- possano essere usati come libreria da altre applicazioni.
 
-  - possa essere usato come filtro (o come libreria) dal
-    programma di auto-calibrazione del Kephera. 
+La filosofia è la stessa di CSM, che mi pare una cosa riuscita.
 
-* Implementare UMB-mark usando dati Hokuyo e scan-matcher. 
-  Questo permette di fare ottimi esperimenti comparativi 
-  fra i due metodi.
+### Implementazione auto-calibrazione  ###
 
-* Fare tool di auto-calibrazione carino per i Kephera. 
-  Questo idealmente dovrebbe essere un livello sopra al software
-  del primo punto.  
+(da discutere succ.)
 
+### Implementazione UMB-mark con dati Hokuyo ###
+
+(da discutere succ.)
 
 
 
