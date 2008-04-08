@@ -7,11 +7,6 @@ Date: Sep 1 2007
 > Ah, la recherche! Du temps perdu[.](http://projecteuclid.org/euclid.em/1062620828)
 {:style="font-style:italic; text-align:center"}
 
-{:icon: style="display: block; float: left; clear: left; width: 64px; height: 64px; margin-right: 15px; margin-left: 15px; margin-top: 5px; margin-bottom: 15px; border: solid 1px black;"}
-
-{:head: style="clear: both"}
-
-{:new: style="margin-bottom: -10px"}
 
 I'm interested in **robotics**, and, in particular, in all things related to uncertainty (localization, estimation, motion planning, communication). I like simple algorithms with solid mathematical properties.
 
@@ -38,7 +33,7 @@ I'm interested in **robotics**, and, in particular, in all things related to unc
 
 #### Localization ####{:head}
 
-* ![icon](../icons/ftf.jpg){:icon}   [Lazy Localization using a Frozen-Time Filter][ftf]
+* ![icon](../icons/ftf.jpg){:icon}   [Lazy Localization using the Frozen-Time Smoother][ftf]
 
 * ![icon](../icons/ghtv.jpg){:icon} [A comparison of algorithms for likelihood approximation in Bayesian localization][ghtv] 
 
@@ -50,13 +45,12 @@ I'm interested in **robotics**, and, in particular, in all things related to unc
 
 * ![icon](../icons/gpm.jpg){:icon} [GPM][GPM], which tries to make the most of the odometry model.
 
-<!--
-### Indipendent software packages ###{:head}
+{:icon: style="display: block; float: left; clear: left; width: 64px; height: 64px; margin-right: 15px; margin-left: 15px; margin-top: 5px; margin-bottom: 15px; border: solid 1px black;"}
 
-* ![icon](../icons/csm.jpg){:icon}  [The Canonical Scan Matcher][CSM] in C.
+{:head: style="clear: both"}
 
-* ![icon](../icons/code.jpg){:icon} ... or only the [source code for solving generic point correspondences][gpc] in C, Matlab, Ruby.
--->
+{:new: style="margin-bottom: -10px"}
+
 
 [csm]: sw/csm.html
 [gpc]: gpc.html

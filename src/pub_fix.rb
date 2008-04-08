@@ -43,7 +43,7 @@ def combinations(first, last)
 	"#{first[0].chr}. #{last}",
 	"#{first[0].chr}.&nbsp;#{last}",
 "#{first.split.join('&nbsp;')} #{last}"
-	]
+	].uniq
 end
 
 for n in names
@@ -61,6 +61,24 @@ for n in names
 	end
 end
 
-s = s.gsub(%r{>.pdf},"><img src='pdf.gif'/>.pdf")
+s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf")
+
+if false
+$stderr.puts "substituting titles"
+s = s.gsub(/\n([^\n]*)\n  (In|Tech|Proc)/m) do |m|
+	$stderr.puts m.inspect
+	"<span class='title'>#{m[1]}</span>\n#{m[2]}"
+end
+end
+
+	
+s = s.gsub(/\n  In/m, "<br/> In") 
+
+if false
+	s = s.gsub(/\n  In/m, "</span><br/> In") 
+s = s.gsub(/(\D\.)\n/m) do |m| 
+		#$stderr.puts m.inspect
+	"#{m}<span class='title' style='color: blue'>" end
+end
 
 puts s
