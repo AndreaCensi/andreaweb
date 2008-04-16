@@ -1,0 +1,236 @@
+
+<dl>
+
+<dt>
+<a name="censi08ppu">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi, Daniele Calisi, Alessandro&nbsp;De Luca, and Giuseppe Oriolo.
+  A Bayesian framework for optimal motion planning with uncertainty.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08ppu">bib</a> | 
+<a href=" http://purl.org/censi/2007/ppu">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-ppu.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+
+        Modeling robot motion planning with uncertainty in a
+        Bayesian framework leads to a computationally intractable
+        stochastic control problem. We seek hypotheses that can
+        justify a separate implementation of control, localization
+        and planning. In the end, we reduce the stochastic control
+        problem to path-planning in the extended space of poses x
+        covariances; the transitions between states are modeled
+        through the use of the Fisher information matrix. In this
+        framework, we consider two problems: minimizing the
+        execution time, and minimizing the final covariance, with
+        an upper bound on the execution time. Two correct and
+        complete algorithms are presented. The first is the direct
+        extension of classical graph-search algorithms in the
+        extended space. The second one is a back-projection
+        algorithm: uncertainty constraints are propagated backward
+        from the goal towards the start state.
+	
+</font></blockquote>
+
+</dd>
+
+
+<dt>
+<a name="censi08plicp">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi.
+  An ICP variant using a point-to-line metric.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08plicp">bib</a> | 
+<a href=" http://purl.org/censi/2007/plicp">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-plicp.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+
+        This paper describes PLICP, an  ICP (Iterative
+        Closest/Corresponding Point) variant that uses a
+        point-to-line metric, and an exact closed-form for
+        minimizing such metric. The resulting algorithm has some
+        interesting properties: it converges quadratically, and in
+        a finite number of steps. The method is validated against
+        vanilla ICP, IDC (Iterative Dual Correspondences), and
+        MbICP (Metric-Based ICP) by reproducing the experiments
+        performed in Minguez et al. (2006). The experiments suggest
+        that PLICP is more precise, and requires less iterations.
+        However, it is less robust to very large initial
+        displacement errors. The last part of the paper is devoted
+        to purely algorithmic optimization of the correspondence
+        search; this allows for significant speed-up of the
+        computation. The source code is available for download.
+    
+</font></blockquote>
+
+</dd>
+
+
+<dt>
+<a name="censi08ftf">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi and Gian&nbsp;Diego Tipaldi.
+  Lazy localization using the Frozen-Time Smoother.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08ftf">bib</a> | 
+<a href=" http://purl.org/censi/2007/fts">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-fts.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+
+        We present a new algorithm for solving the global localization
+        problem called Frozen-Time Smoother (FTS). Time is `frozen', in
+        the sense that the belief always refers to the same time instant,
+        instead of following a moving target, like Monte Carlo
+        Localization does. This algorithm works in the case in which
+        global localization is formulated as a smoothing problem, and a
+        precise estimate of the incremental motion of the robot is
+        usually available. These assumptions correspond to the case when
+        global localization is used to solve the loop closing problem in
+        SLAM. We compare FTS to two Monte Carlo methods designed with the
+        same assumptions. The experiments suggest that a naive
+        implementation of the FTS is more efficient than an extremely
+        optimized equivalent Monte Carlo solution. Moreover, the FTS has
+        an intrinsic laziness: it does not need frequent updates (scans
+        can be integrated once every many meters) and it can process data
+        in arbitrary order. The source code and datasets are available
+        for download.
+    
+</font></blockquote>
+
+</dd>
+
+
+<dt>
+<a name="censi08calib">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi, Luca Marchionni, and Giuseppe Oriolo.
+  Simultaneous maximum-likelihood calibration of robot and sensor
+  parameters.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.<br />
+[ <a href="./pub_proc_bib.html#censi08calib">bib</a> | 
+<a href=" http://purl.org/censi/2007/calib">www:</a> | 
+<a href=" http://purl.org/censi/research/2008-icra-calibration.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+
+        For a differential-drive mobile robot equipped with an
+        on-board range sensor, there are six parameters to
+        calibrate: three for the odometry (radii and distance
+        between the wheels), and three for the pose of the sensor
+        with respect to the robot frame. This paper describes a
+        method for calibrating all six parameters at the same time,
+        without the need for external sensors or devices. Moreover,
+        it is not necessary to drive the robot along particular
+        trajectories. The available data are the measures of the
+        angular velocities of the wheels and the range sensor
+        readings. The maximum-likelihood calibration solution is
+        found in a closed form.
+    
+</font></blockquote>
+
+</dd>
+
+
+<dt>
+<a name="censi07accurate">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi.
+  An accurate closed-form estimate of ICP's covariance.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, pages 3167-3172, Rome, Italy, April 2007.<br />
+[ <a href="./pub_proc_bib.html#censi07accurate">bib</a> | 
+<a href=" http://purl.org/censi/2006/icpcov">www:</a> | 
+<a href=" http://purl.org/censi/research/2007-icra-icpcov.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+
+ Existing methods for estimating the covariance of the ICP 
+ (Iterative Closest/Corresponding Point) algorithm are either 
+ inaccurate or are computationally too expensive to be used online. 
+ This paper proposes a new method, based on the analysis of the error
+ function being minimized. It considers that the correspondences are 
+ not independent (the same measurement being used in more than one correspondence),
+ and explicitly utilizes the covariance matrix of the measurements, 
+ which are not assumed to be independent either. The validity of the
+ approach is verified through extensive simulations: it is more accurate 
+than previous methods and its computational load is negligible. 
+The ill-posedness of the surface matching problem is explicitly tackled 
+for under-constrained situations by performing an observability analysis; 
+in the analyzed cases the method still provides a good estimate of the
+ error projected on the observable manifold.
+
+</font></blockquote>
+
+</dd>
+
+
+<dt>
+<a name="censi07achievable">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi.
+  On achievable accuracy for range-finder localization.
+  In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, pages 4170-4175, Rome, Italy, April 2007.<br />
+[ <a href="./pub_proc_bib.html#censi07achievable">bib</a> | 
+<a href=" http://purl.org/censi/2006/accuracy">www:</a> | 
+<a href=" http://purl.org/censi/research/2007-icra-accuracy.pdf">.pdf</a> ]
+<blockquote><font size="-1">
+ 
+    The covariance of every unbiased estimator is bounded by the Cramer-Rao
+    lower bound, which is the inverse of Fisher's information matrix.
+    This paper shows that, for the case of localization with range-finders,
+    Fisher's matrix is a function of the expected readings and of the
+    orientation of the environment's surfaces at the sensed points. The
+    matrix also offers a mathematically sound way to characterize under-
+    constrained situations as those for which it is singular: in those
+    cases the kernel describes the direction of maximum uncertainty.
+    This paper also introduces a simple model of unstructured environments
+    for which the Cramer-Rao bound is a function of two statistics of
+    the shape of the environment: the average radius and a measure of
+    the irregularity of the surfaces. Although this model is not valid
+    for all environments, it allows for some interesting qualitative
+    considerations. As an experimental validation, this paper reports
+    simulations comparing the bound with the actual performance of the
+    ICP (Iterative Closest/Corresponding Point) algorithm. Finally, it
+    is discussed the difficulty in extending these results to find a
+    lower bound for accuracy in scan matching and SLAM.
+</font></blockquote>
+
+</dd>
+
+
+<dt>
+<a name="censi06scan">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi.
+  Scan matching in a probabilistic framework.
+  In <em>Proceedings of the IEEE International Conference on Robotics
+  and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.<br />
+[ <a href="./pub_proc_bib.html#censi06scan">bib</a> | 
+<a href=" http://purl.org/censi/2006/gpm">www:</a> ]
+
+</dd>
+
+
+<dt>
+<a name="censi05hough">&nbsp;</a>
+</dt>
+<dd>
+Andrea Censi, Luca Iocchi, and Giorgio Grisetti.
+  Scan matching in the Hough domain.
+  In <em>Proceedings of the IEEE International Conference on Robotics
+  and Automation (ICRA)</em>, pages 2739-2744, Barcelona, Spain, 2005.<br />
+[ <a href="./pub_proc_bib.html#censi05hough">bib</a> | 
+<a href=" http://purl.org/censi/2006/hsm">www:</a> ]
+
+</dd>
+</dl>
