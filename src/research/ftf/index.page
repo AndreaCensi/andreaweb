@@ -1,6 +1,6 @@
 ---
 title: Lazy Localization using the Frozen-Time Smoother
-Date: 2007-08-22
+Date: 2008-05-17
 inMenu: true
 orderInfo: -7
 elinkAttrs:
@@ -29,26 +29,19 @@ The source code and datasets are available for download.
 
 [tipaldi]: http://www.dis.uniroma1.it/~tipaldi/
 
-### Additional material ###
-
-Warning: this additional material is not yet in sync with the paper.
-The final version is very different from the draft: we changed lots of things, including the notation and the names of the methods.
-We fixed some bugs in the source code, and the experiments have been run again
-with different parameters. Hopefully the updated additional material 
-will be online sometime soon  (email me if you are interested and can't wait for it).
-{: style="font-weight: bold; color: #800"}
+### Additional material (last updated 2008-05-17)###
 
 
 The software and sensor logs are available for download (warning, big files):
 
-- [README first](http://purl.org/censi/research/2008-icra-ftf/README.html).
-- [Source code (zip)](http://purl.org/censi/research/2008-icra-ftf/ftf-mcl-1.0.tgz). [![CC license](by-nc-sa.png)][cc]{:style="float:right"}
+- [README first](http://purl.org/censi/research/2008-icra-fts/README.html).
+- [Source code and logs used in the paper (zip)](http://purl.org/censi/research/2008-icra-fts/fts-mcl-1.1.zip). [![CC license](by-nc-sa.png)][cc]{:style="float:right"}
 
   The source code is distributed under the Creative Commons License ([Attribution-NonCommercial-ShareAlike][cc]). In addition to the code by Andrea Censi and Gian Diego Tipaldi, the MCL localizer is based on code from [GMapping] copyrighted by [Giorgio Grisetti], [Cyrill Stachniss], and [Wolfram Burgard]  (under the same license).
 
   Note that you need also the [C(anonical) Scan Matcher](http://purl.org/censi/2007/csm) library as a pre-requisite.
 
-- Browse the [logs directory](http://purl.org/censi/research/2008-icra-ftf/logs).
+- Browse the [logs directory](http://purl.org/censi/research/2008-icra-fts/logs).
 
 Other info:
 
@@ -63,63 +56,57 @@ Other info:
 
 **Localization Examples**:
 
-Aces environment: \#[000](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/000_go.html),
-[001](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/001_go.html),
-[002](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/002_go.html),
-[003](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/003_go.html),
-[004](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/004_go.html),
-[005](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/005_go.html),
-[006](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/006_go.html),
-[007](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/007_go.html),
-[008](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/008_go.html),
-[009](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/009_go.html),
-[010](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/010_go.html),
-[011](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/011_go.html),
-[012](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/012_go.html),
-[013](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/013_go.html),
-[014](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/014_go.html),
-[015](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/015_go.html),
-[016](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/016_go.html),
-[017](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/017_go.html),
-[018](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/018_go.html),
-[019](http://purl.org/censi/research/2008-icra-ftf/logs/aces_chunks/ftf1/019_go.html),
+Aces environment: \#[000](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/000_go.html),
+[001](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/001_go.html),
+[002](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/002_go.html),
+[003](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/003_go.html),
+[004](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/004_go.html),
+[005](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/005_go.html),
+[006](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/006_go.html),
+[007](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/007_go.html),
+[008](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/008_go.html),
+[009](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/009_go.html),
+[010](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/010_go.html),
+[011](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/011_go.html),
+[012](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/012_go.html),
+[013](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/013_go.html),
+[014](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/014_go.html),
+[015](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/015_go.html),
+[016](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/016_go.html),
+[017](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/017_go.html),
+[018](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/018_go.html),
+[019](http://purl.org/censi/research/2008-icra-fts/logs/aces_chunks/fts1/019_go.html),
 
-Intel environment: \#[000](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/000_go.html),
-[001](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/001_go.html),
-[002](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/002_go.html),
-[003](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/003_go.html),
-[004](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/004_go.html),
-[005](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/005_go.html),
-[006](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/006_go.html),
-[007](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/007_go.html),
-[008](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/008_go.html),
-[009](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/009_go.html),
-[010](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/010_go.html),
-[011](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/011_go.html),
-[012](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/012_go.html),
-[013](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/013_go.html),
-[014](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/014_go.html),
-[015](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/015_go.html),
-[016](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/016_go.html),
-[017](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/017_go.html),
-[018](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/018_go.html),
-[019](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/019_go.html),
-[020](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/020_go.html),
-[021](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/021_go.html),
-[022](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/022_go.html),
-[023](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/023_go.html),
-[024](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/024_go.html),
-[025](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/025_go.html),
-[026](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/026_go.html),
-[027](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/027_go.html),
-[028](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/028_go.html),
-[029](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/029_go.html),
-[030](http://purl.org/censi/research/2008-icra-ftf/logs/intel_chunks/ftf1/030_go.html).
+Intel environment: \#[000](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/000_go.html),
+[001](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/001_go.html),
+[002](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/002_go.html),
+[003](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/003_go.html),
+[004](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/004_go.html),
+[005](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/005_go.html),
+[006](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/006_go.html),
+[007](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/007_go.html),
+[008](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/008_go.html),
+[009](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/009_go.html),
+[010](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/010_go.html),
+[011](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/011_go.html),
+[012](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/012_go.html),
+[013](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/013_go.html),
+[014](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/014_go.html),
+[015](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/015_go.html),
+[016](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/016_go.html),
+[017](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/017_go.html),
+[018](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/018_go.html),
+[019](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/019_go.html),
+[020](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/020_go.html),
+[021](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/021_go.html),
+[022](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/022_go.html),
+[023](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/023_go.html),
+[024](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/024_go.html),
+[025](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/025_go.html),
+[026](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/026_go.html),
+[027](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/027_go.html),
+[028](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/028_go.html),
+[029](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/029_go.html),
+[030](http://purl.org/censi/research/2008-icra-fts/logs/intel_chunks/fts1/030_go.html).
 
-<!--<table>
-	<tr><td>Aces</td></tr>
-	<tr><td>FTF</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td></tr>
-	<tr><td>MCS-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td></tr>
-	<tr><td>MCS-2</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td><td>FTF-1</td></tr>
-</table>-->
 
