@@ -3,9 +3,14 @@ Date: Apr 4 2006
 orderInfo: 130
 ---
 
-You can mail me at:
-- *andrea* (at) *cds.caltech.edu*
-- *andrea* (at) *censi.org*
+Actual mail:
+
+	Andrea Censi
+	1200 E California Blvd
+	Mail code 107-81
+	91125 Pasadena, CA - USA
+
+Email:  *andrea* (at) *cds.caltech.edu*
 
 Encrypted and signed email is welcome: enjoy
 [my public key](andrea_censi.asc), or get it from [a trusted keyserver](http://pgp.mit.edu/)).
@@ -15,6 +20,7 @@ Encrypted and signed email is welcome: enjoy
 	sub   2048g/7233AA54 2002-10-13
 {.gpg}
 
+<!--
 
 ## Chat ##
 
@@ -44,6 +50,8 @@ Fingerprints for [OTR messaging]  (I use [Adium]):
 	=Dfqs
 	-----END PGP SIGNATURE-----
 {.gpg}
+
+-->
 
 [Adium]: http://www.adiumx.com/ 
 [OTR messaging]: http://www.cypherpunks.ca/otr/
