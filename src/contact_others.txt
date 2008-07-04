@@ -1,0 +1,32 @@
+<!--
+
+## Chat ##
+
+ Service          | Account
+\------------------|-----------------
+ [Skype](http://www.skype.com) | `censia` |
+ [GTalk](http://www.gmail.com) | `a.censi` |
+ [Jabber] | `andrea.censi@jabber.org` |
+{: style='margin-left: 2em; border: solid 1px black'}
+
+Fingerprints for [OTR messaging]  (I use [Adium]):
+
+	-----BEGIN PGP SIGNED MESSAGE-----
+	Hash: SHA1
+
+	OTR fingerprint for a.censi@gmail.com:
+	  7BB9FA46 671B2A4E ABD7F90C D671DBC0 DAAA70CB
+
+	OTR fingerprint for andrea.censi@jabber.org:
+	  C52E2F00 BEB6BFDD 7A4F7AAF 84BC940E DE958619
+
+	-----BEGIN PGP SIGNATURE-----
+	Version: GnuPG v1.2.4 (Darwin)
+
+	iD8DBQFGjnfroPA9RVaRBrIRAg+/AKCguto5I7pq8X81DlVogrnIhPKfkQCfdeJ8
+	rjNZO/twTGOvB3skw7DL03A=
+	=Dfqs
+	-----END PGP SIGNATURE-----
+{.gpg}
+
+-->
