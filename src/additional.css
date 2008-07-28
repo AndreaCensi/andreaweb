@@ -1,24 +1,3 @@
 
 	
   body {  }
-
-  #buttons, #buttons2 { 
-	float: right;
-   text-align: center;
-    }
-
-	#buttons, #buttons2 { width: 150px;}
-  #caltechlogo, #sapienzalogo { border: 0pt none;  /*margin: 40px 10px 0 30px;*/ }
-	#sapienzalogo { margin-top: 30px; }
-	#roma { border: 0; /*margin-bottom: 30px; margin-left: 30px; margin-right: 10px;*/} 
-  #caltech { float: left; padding: 1em;}
-	#address { float: left;}
-	#table {clear: both;}
-
-#buttons2 { margin-right: 2em;}
-
-	body.indexcaltech #menu { display: none;}
-	body.indexcaltech DIV#body h1 { display: none;}
-	body.indexcaltech DIV#body { margin: 0;}
- 	div.stemma  span { display: none;} 
-   div.stemma:hover  span { display: block;}
