@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns = "http://xspf.org/ns/0/">
+  <trackList>
+   <track>
+    <location>non_mi_rompete.mp3</location>
+    <annotation>Non mi rompete</annotation>
+   </track>
+  </trackList>
+</playlist>
