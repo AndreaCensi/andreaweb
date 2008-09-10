@@ -10,11 +10,13 @@ Date: Sep 1 2007
 
 I'm mainly interested in **robotics**, and, in particular, in all things related to handling uncertainty (localization, estimation, planning, communication). I like simple algorithms with solid mathematical properties. I like the measurements space.
 
+No, I don't have a thesis topic yet. Suggestions are welcome.
 
-At this very moment (Fall 2008), I'm focusing more on:
+I try to keep only a handful of things in mind at a given time. At this very moment (Fall 2008), I'm focusing more on:
 - Algebraic properties of planning in information spaces.
 - Bayesian bounds for pose-tracking, SLAM; Gaussian processes.
 - Value of information in multi-agent systems.
+{:style="list-style-type: disc"}
 
 Also, this term I will be taking courses in neuroscience / neuromorphic computing.
 
@@ -40,7 +42,11 @@ See also:
 
 #### Estimation ####{:head}
 
-* ![icon](../icons/accuracy.jpg){:icon}  [On achievable accuracy for range finder localization][aarl]
+I dream of covariances.
+
+* ![icon](../icons/accuracy.jpg){:icon}  [On achievable accuracy for range-finder localization][aarl]
+
+* ![icon](../icons/posetracking.jpg){:icon}  ![new](new.png){:new}   ... and the new episode: <br/>[On achievable accuracy for pose tracking][posetracking] <br/> Hopefully, it will be a trilogy!
 
 * ![icon](../icons/icpcov.jpg){:icon} [An accurate closed-form estimate of ICP's covariance][icpcov] 
 
@@ -83,6 +89,7 @@ See also:
 [gpm]: gpm.html
 [hsm]: hsm.html
 [hsm3d]: hsm3d.html
+[posetracking]: posetracking.html
 [ghtv]: ghtv.html
 [ppu]: ppu/index.html
 [calibration]: calibration.html

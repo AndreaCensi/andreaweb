@@ -81,4 +81,9 @@ s = s.gsub(/(\D\.)\n/m) do |m|
 	"#{m}<span class='title' style='color: blue'>" end
 end
 
+
+
+s = s.gsub(/www:/m, "webpage / additional material")
+
+
 puts s
