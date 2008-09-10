@@ -1,4 +1,5 @@
-size=64x64
+#size=64x64
+size=80x80
 
 icons = calibration.jpg \
   ppu.jpg \
@@ -8,7 +9,9 @@ icons = calibration.jpg \
   gpm.jpg \
   hsm.jpg \
   ftf.jpg \
-  ghtv.jpg
+  ghtv.jpg \
+  fractals.jpg \
+  consensus.jpg 
 
 
 all:   $(icons)

@@ -8,17 +8,30 @@ Date: Sep 1 2007
 {:style="font-style:italic; text-align:center"}
 
 
-I'm interested in **robotics**, and, in particular, in all things related to uncertainty (localization, estimation, motion planning, communication). I like simple algorithms with solid mathematical properties.
+I'm mainly interested in **robotics**, and, in particular, in all things related to handling uncertainty (localization, estimation, planning, communication). I like simple algorithms with solid mathematical properties. I like the measurements space.
+
+
+At this very moment (Fall 2008), I'm focusing more on:
+- Algebraic properties of planning in information spaces.
+- Bayesian bounds for pose-tracking, SLAM; Gaussian processes.
+- Value of information in multi-agent systems.
+
+Also, this term I will be taking courses in neuroscience / neuromorphic computing.
+
+See also:
 
 - [Publications](../publications.html) 
-- [Software](sw/index.html)
+- [Research software](sw/index.html)
 {:style="list-style-type: disc"}
 
 <!-- ![new](new.png){:new} -->
 
-#### Calibration ####{:head}
+#### Networks ####{:head}
 
-* ![icon](../icons/calibration.jpg){:icon}  [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
+* ![icon](../icons/fractals.jpg){:icon}  ![new](new.png){:new}  [On the performance of Kalman filtering with intermittent observations:a geometric approach with fractals][fractals]
+
+* ![icon](../icons/consensus.jpg){:icon}  ![new](new.png){:new}  [A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy][consensus]
+
   
 #### Planning ####{:head}
 
@@ -30,6 +43,11 @@ I'm interested in **robotics**, and, in particular, in all things related to unc
 * ![icon](../icons/accuracy.jpg){:icon}  [On achievable accuracy for range finder localization][aarl]
 
 * ![icon](../icons/icpcov.jpg){:icon} [An accurate closed-form estimate of ICP's covariance][icpcov] 
+
+
+#### Calibration ####{:head}
+
+* ![icon](../icons/calibration.jpg){:icon}  [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
 
 #### Localization ####{:head}
 
@@ -43,7 +61,11 @@ I'm interested in **robotics**, and, in particular, in all things related to unc
 
 * ![icon](../icons/hsm.jpg){:icon} [HSM][HSM], which aims at global, complete searches. 
 
+* ![icon](../icons/hsm3d.jpg){:icon} ![new](new.png){:new}  HSM in 3D: much more difficult! <br/> [Global 6DOF scan matching in the Hough domain][hsm3d]
+
 * ![icon](../icons/gpm.jpg){:icon} [GPM][GPM], which tries to make the most of the odometry model.
+
+
 
 {:icon: style="display: block; float: left; clear: left; width: 64px; height: 64px; margin-right: 15px; margin-left: 15px; margin-top: 5px; margin-bottom: 15px; border: solid 1px black;"}
 
@@ -52,12 +74,15 @@ I'm interested in **robotics**, and, in particular, in all things related to unc
 {:new: style="margin-bottom: -10px"}
 
 
+[fractals]: fractals.html
+[consensus]: consensus.html
 [csm]: sw/csm.html
 [gpc]: gpc.html
 [icpcov]: icpcov.html
 [aarl]: accuracy.html
 [gpm]: gpm.html
 [hsm]: hsm.html
+[hsm3d]: hsm3d.html
 [ghtv]: ghtv.html
 [ppu]: ppu/index.html
 [calibration]: calibration.html
