@@ -11,6 +11,8 @@ icons = calibration.jpg \
   ftf.jpg \
   ghtv.jpg \
   fractals.jpg \
+  posetracking.jpg \
+  hsm3d.jpg \
   consensus.jpg 
 
 

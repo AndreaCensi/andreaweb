@@ -1,0 +1,26 @@
+---
+title: On achievable accuracy for pose tracking
+PURL: http://purl.org/censi/2008/posetracking
+Date: 2008-09-15
+orderInfo: -300
+description: ""
+linkAttrs:
+   :link_text: CRB for pose tracking
+---
+
+- A. Censi, "*On achievable accuracy for pose tracking*", submitted to ICRA  2009
+
+   * Submission ([PDF][pdf])
+   * Source code: used the repository version of [CSM](http://purl.org/censi/2007/csm).  
+   *  The scripts for the actual experiments in the paper will be posted in the future (bug me if you 
+     want them now)
+
+**Abstract** --- This paper presents Cramer--Rao bound-like inequalities for
+pose tracking, which is defined as the problem of
+recovering the robot displacement given two successive
+readings of a relative sensor. The experimental
+verification is done for the particular case of 2D
+scan-matching (pose tracking using range-finders).
+
+
+[pdf]: http://purl.org/censi/research/2009-icra-posetracking-sub.pdf 

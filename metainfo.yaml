@@ -147,3 +147,7 @@ research/ftf:
   orderInfo: -7
   title: Frozen-Time Smoother
 
+research/hsm3d:
+  orderInfo: -300
+  title: HSM3D
+

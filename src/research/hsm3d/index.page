@@ -1,0 +1,22 @@
+---
+title: Global 6DOF scan-matching in the Hough domain
+Date: 2008-09-13
+inMenu: true
+orderInfo: -300
+elinkAttrs:
+   :link_text: HSM3D
+---
+
+- A. Censi, [Stefano Carpin]  *"Global 6DOF scan-matching in the Hough domain"*, submitted to appear in ICRA'09. 
+
+  - [submission (PDF)](http://purl.org/censi/research/2009-icra-hsm3d.pdf)
+
+**Abstract** -- ...
+
+![Example of HS](hsm3d.png)
+
+
+
+[Stefano Carpin]: http://robotics.ucmerced.edu/
+
+

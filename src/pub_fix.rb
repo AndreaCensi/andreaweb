@@ -29,6 +29,9 @@ names = [
       {"first"=> "Giuseppe", "family"=> "Oriolo", "site"=>
 "http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html",
        "face"=> "http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.jpg"},
+       {"first"=> "Luca", "family"=> "Marchionni", "site"=>
+     "http://www.linkedin.com/in/lucamarchionni",
+        "face"=> ""},
       {"first"=> "Gian Diego", "family"=> "Tipaldi", "site"=>
 "http://www.dis.uniroma1.it/~tipaldi/",
        "face"=> "http://www.dis.uniroma1.it/~tipaldi/assets/images/Picture.JPG"},

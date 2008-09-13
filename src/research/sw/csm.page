@@ -47,6 +47,8 @@ This is a stable snapshot as of September 2007:
 
 <http://purl.org/censi/research/csm/csm-20070915.zip>
 
+**2008-09-10: there is a severe bug in that version; please use repository**
+
 You can access the current version on a Subversion repository:
 
 	$ svn checkout https://svn.cds.caltech.edu/subversion/andrea/csm

@@ -12,14 +12,6 @@ linkAttrs:
 	img.uni { width: 60px; float: left; margin-right: 10px;}
 </style>
 
-### Research interests ###
-
-Robotics: all things related to uncertainty (localization,
-estimation, motion planning, communication). 
-I like simple algorithms with solid mathematical properties.
-
-See my [research pages](research/index.html) ([publications](publications.html)).
-
 ### Education ###
 
 <table id="table" markdown="1"> <tbody>
