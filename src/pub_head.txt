@@ -27,7 +27,7 @@ orderInfo: 110
 </p>
 
 <p>
-	<b>A. Censi</b>, <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
+	<b>A. Censi</b> and <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
 	<em><a href="research/hsm3d.html">"Global 6DOF scan-matching in the Hough Domain"</a></em>,
 	submitted to ICRA 2009
 </p>
