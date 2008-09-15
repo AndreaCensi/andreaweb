@@ -15,7 +15,7 @@ orderInfo: 110
 </p>
 
 <p>
-	<b><strong>Andrea Censi</strong></b> and <a href=" http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
+	<b><strong>Andrea Censi</strong></b> and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
 	<em><a href="research/consensus.html">"A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy"</a></em>,
 	submitted to ACC 2009
 </p>
@@ -46,8 +46,8 @@ orderInfo: 110
  In <em>IEEE/RSJ International Conference on Intelligent Robots and
   Systems (IROS)</em>, Nice, France, September 2008.
 [&nbsp;<a href="pub_proc_bib.html#calisi08openrdk">bib</a>&nbsp;| 
-<a href=" http://openrdk.sourceforge.net">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2008-iros-openrdk.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://openrdk.sourceforge.net">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2008-iros-openrdk.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#calisi08openrdk">Abstract</a>&nbsp;]
 
 </p>
@@ -59,8 +59,9 @@ orderInfo: 110
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08ppu">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/ppu">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2008-icra-ppu.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/ROBOT.2008.4543469">DOI</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/ppu">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2008-icra-ppu.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08ppu">Abstract</a>&nbsp;]
 
 </p>
@@ -72,8 +73,9 @@ orderInfo: 110
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08plicp">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/plicp">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2008-icra-plicp.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/ROBOT.2008.4543181">DOI</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/plicp">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2008-icra-plicp.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08plicp">Abstract</a>&nbsp;]
 
 </p>
@@ -85,8 +87,9 @@ orderInfo: 110
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08fts">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/fts">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2008-icra-fts.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/ROBOT.2008.4543631">DOI</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/fts">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2008-icra-fts.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08fts">Abstract</a>&nbsp;]
 
 </p>
@@ -99,8 +102,9 @@ orderInfo: 110
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08calib">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2007/calib">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2008-icra-calibration.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/ROBOT.2008.4543516">DOI</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/calib">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2008-icra-calibration.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08calib">Abstract</a>&nbsp;]
 
 </p>
@@ -113,8 +117,8 @@ orderInfo: 110
   Robotics and Automation (ICRA)</em>, pages 3167-3172, Rome, Italy, April 2007.
 [&nbsp;<a href="pub_proc_bib.html#censi07accurate">bib</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2007.363961">DOI</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/icpcov">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2007-icra-icpcov.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/icpcov">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2007-icra-icpcov.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi07accurate">Abstract</a>&nbsp;]
 
 </p>
@@ -127,8 +131,8 @@ orderInfo: 110
   Robotics and Automation (ICRA)</em>, pages 4170-4175, Rome, Italy, April 2007.
 [&nbsp;<a href="pub_proc_bib.html#censi07achievable">bib</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2007.364120">DOI</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/accuracy">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2007-icra-accuracy.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/accuracy">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2007-icra-accuracy.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi07achievable">Abstract</a>&nbsp;]
 
 </p>
@@ -140,8 +144,8 @@ orderInfo: 110
  In <em>Proceedings of the IEEE International Conference on Robotics
   and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.
 [&nbsp;<a href="pub_proc_bib.html#censi06scan">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/gpm">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2006-icra-gpm.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
+<a href="http://purl.org/censi/2006/gpm">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2006-icra-gpm.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
 
@@ -152,8 +156,8 @@ orderInfo: 110
  In <em>Proceedings of the IEEE International Conference on Robotics
   and Automation (ICRA)</em>, pages 2739-2744, Barcelona, Spain, 2005.
 [&nbsp;<a href="pub_proc_bib.html#censi05hough">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/hsm">webpage / additional material</a>&nbsp;| 
-<a href=" http://purl.org/censi/research/2005-icra-hsm.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
+<a href="http://purl.org/censi/2006/hsm">http</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2005-icra-hsm.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
 <h4> Unrefereed / technical reports </h4>
@@ -166,7 +170,7 @@ orderInfo: 110
   localization.
  Technical report, 2006.
 [&nbsp;<a href="pub_tr_bib.html#censi06comparison">bib</a>&nbsp;| 
-<a href=" http://purl.org/censi/2006/ghtv">webpage / additional material</a>&nbsp;]
+<a href="http://purl.org/censi/2006/ghtv">http</a>&nbsp;]
 
 </p>
 

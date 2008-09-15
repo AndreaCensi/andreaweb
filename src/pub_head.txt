@@ -15,7 +15,7 @@ orderInfo: 110
 </p>
 
 <p>
-	<b>A. Censi</b> and <a href=" http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
+	<b>A. Censi</b> and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
 	<em><a href="research/consensus.html">"A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy"</a></em>,
 	submitted to ACC 2009
 </p>
