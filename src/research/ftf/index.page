@@ -3,11 +3,12 @@ title: Lazy Localization using the Frozen-Time Smoother
 Date: 2008-05-17
 inMenu: true
 orderInfo: -7
+PURL: http://purl.org/censi/2007/fts
 elinkAttrs:
    :link_text: Frozen-Time Smoother
 ---
 
-- A. Censi, [Gian Diego Tipaldi][tipaldi] *"Lazy localization using the Frozen-Time Smoother"*, to appear in ICRA'08. 
+- A. Censi, [Gian Diego Tipaldi][tipaldi] *"Lazy localization using the Frozen-Time Smoother"*, ICRA'08. 
 
   - [final version (PDF)](http://purl.org/censi/research/2008-icra-fts.pdf)
 
@@ -24,6 +25,20 @@ The experiments suggest that a naive implementation of the FTS is more efficient
 Moreover, the FTS has an intrinsic laziness: 
 it does not need frequent updates (scans can be integrated once every many meters) and it can process data in arbitrary order. 
 The source code and datasets are available for download.
+
+<pre class="bib bib2">
+@inProceedings{censi08fts,
+    author = {Andrea Censi and Gian Diego Tipaldi},
+    title = {Lazy Localization using the {F}rozen-{T}ime {S}moother},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    month = {May}, year = {2008}, address = {Pasadena, CA},
+    doi = { 10.1109/ROBOT.2008.4543631 },
+    url = { http://purl.org/censi/2007/fts},
+    pdf = { http://purl.org/censi/research/2008-icra-fts.pdf}
+}
+</pre>
+
 
 ![Example of FTF iteration](image_small.png)
 

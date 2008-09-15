@@ -9,7 +9,7 @@ orderInfo: -60
 description: "A method for simultaneous maximum-likelihood calibration of robot and sensor parameters."
 ---
 
-- A. Censi, L. Marchionni, [G. Oriolo][oriolo] *"Simultaneous maximum-likelihood calibration of robot and sensor parameters"*, to appear in  ICRA'08. 
+- A. Censi, L. Marchionni, [G. Oriolo][oriolo] *"Simultaneous maximum-likelihood calibration of robot and sensor parameters"*,  ICRA'08. 
 
   - [final version (PDF)][08icra-calib-final]
 
@@ -28,6 +28,20 @@ angular velocities of the wheels and the range sensor
 readings. The maximum-likelihood calibration solution is
 found in a closed form.
 
+<pre class="bib bib2">
+@inproceedings{censi08calib,
+  author = {Andrea Censi and Luca Marchionni and Giuseppe Oriolo},
+  title = { Simultaneous maximum-likelihood calibration of robot and sensor parameters},
+  booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+  year = {2008},
+  month = {May},
+  address = {Pasadena, CA},
+  doi = { 10.1109/ROBOT.2008.4543516 },
+  url = { http://purl.org/censi/2007/calib},
+  pdf = { http://purl.org/censi/research/2008-icra-calibration.pdf}
+}
+</pre>
 
 
 ![A team of 5 Khepera robots with an hokuyo](paper_calib.jpg)

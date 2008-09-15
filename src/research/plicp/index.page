@@ -8,7 +8,7 @@ orderInfo: -8
 description: "PLICP is an ICP variant that uses a point-to-line metric, and a closed-form for minimizing it. The resulting algorithm has some interesting properties: it converges quadratically, and in a finite number of steps. "
 ---
 
-- A. Censi, *"An ICP variant using a point-to-line metric"*, to appear in ICRA'08
+- A. Censi, *"An ICP variant using a point-to-line metric"*,  ICRA'08
    * [final version (PDF)][pdf-final]
    * lame [MP4 video accompanying the paper][video-draft] 
 
@@ -27,6 +27,21 @@ description: "PLICP is an ICP variant that uses a point-to-line metric, and a cl
  to purely algorithmic optimization of the correspondence
  search; this allows for significant speed-up of the
  computation. The source code is available for download.
+
+
+<pre class="bib bib2">
+@inProceedings{censi08plicp,
+    author = {Andrea Censi},
+    title = {An {ICP} variant using a point-to-line metric},
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    month = {May}, year = {2008}, address = {Pasadena, CA},
+    doi = { 10.1109/ROBOT.2008.4543181 },
+    url = { http://purl.org/censi/2007/plicp},
+    pdf = { http://purl.org/censi/research/2008-icra-plicp.pdf},
+}
+</pre>
+
 
 ![image from paper](paper_plicp.png)
 

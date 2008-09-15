@@ -7,7 +7,7 @@ inMenu: true
 orderInfo: -10
 ---
 
-- A.&nbsp;Censi, D. Calisi, [A. De Luca][deluca], [G. Oriolo][oriolo] *"A Bayesian framework for optimal motion planning with uncertainty"*, to appear in ICRA'08
+- A.&nbsp;Censi, D. Calisi, [A. De Luca][deluca], [G. Oriolo][oriolo] *"A Bayesian framework for optimal motion planning with uncertainty"*,  ICRA'08
 
   - [final version (PDF)][ppu-08icra-final]
 
@@ -27,6 +27,21 @@ extension of classical graph-search algorithms in the
 extended space. The second one is a back-projection
 algorithm: uncertainty constraints are propagated backward
 from the goal towards the start state.
+
+<pre class="bib bib2">
+@inProceedings{censi08ppu,
+    author = {Andrea Censi and Daniele Calisi and 
+              Alessandro De Luca and Giuseppe Oriolo},
+    title = {A {B}ayesian framework for optimal motion 
+             planning with uncertainty },
+    booktitle = {Proceedings of the {IEEE} International Conference 
+                 on Robotics and Automation ({ICRA})},
+    year = {2008},  month = {May},  address = {Pasadena, CA},
+    doi = { 10.1109/ROBOT.2008.4543469 },
+    url = { http://purl.org/censi/2007/ppu},
+    pdf = { http://purl.org/censi/research/2008-icra-ppu.pdf}
+}
+</pre>
 
 ### Additional material ###
 
