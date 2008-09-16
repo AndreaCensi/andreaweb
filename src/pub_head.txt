@@ -9,25 +9,25 @@ orderInfo: 110
 <h4> Papers under review (might eventually disappear) </h4>
 
 <p>
-	<b>A. Censi</b>. 
+	A. Censi 
 	<em><a href="research/fractals.html">"On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals"</a></em>,
 	submitted to ACC 2009
 </p>
 
 <p>
-	<b>A. Censi</b> and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
+	A. Censi and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
 	<em><a href="research/consensus.html">"A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy"</a></em>,
 	submitted to ACC 2009
 </p>
 
 <p>
-	<b>A. Censi</b>. 
+	A. Censi. 
 	<em><a href="research/posetracking.html">"On achievable accuracy for pose tracking"</a></em>,
 	submitted to ICRA 2009
 </p>
 
 <p>
-	<b>A. Censi</b> and <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
+	A. Censi and <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
 	<em><a href="research/hsm3d/index.html">"Global 6DOF scan-matching in the Hough Domain"</a></em>,
 	submitted to ICRA 2009
 </p>

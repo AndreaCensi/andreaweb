@@ -9,25 +9,25 @@ orderInfo: 110
 <h4> Papers under review (might eventually disappear) </h4>
 
 <p>
-	<b><strong>Andrea Censi</strong></b>. 
+	A.C. 
 	<em><a href="research/fractals.html">"On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals"</a></em>,
 	submitted to ACC 2009
 </p>
 
 <p>
-	<b><strong>Andrea Censi</strong></b> and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
+	A.C. and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
 	<em><a href="research/consensus.html">"A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy"</a></em>,
 	submitted to ACC 2009
 </p>
 
 <p>
-	<b><strong>Andrea Censi</strong></b>. 
+	A.C.. 
 	<em><a href="research/posetracking.html">"On achievable accuracy for pose tracking"</a></em>,
 	submitted to ICRA 2009
 </p>
 
 <p>
-	<b><strong>Andrea Censi</strong></b> and <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
+	A.C. and <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
 	<em><a href="research/hsm3d/index.html">"Global 6DOF scan-matching in the Hough Domain"</a></em>,
 	submitted to ICRA 2009
 </p>
@@ -41,8 +41,9 @@ orderInfo: 110
 
 <p>
 
-<a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, <strong>Andrea Censi</strong>, <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.
- OpenRDK: A modular framework for robotic software development.
+<a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.
+ <b>OpenRDK: A Modular Framework for Robotic Software
+  Development</b>.
  In <em>IEEE/RSJ International Conference on Intelligent Robots and
   Systems (IROS)</em>, Nice, France, September 2008.
 [&nbsp;<a href="pub_proc_bib.html#calisi08openrdk">bib</a>&nbsp;| 
@@ -54,8 +55,9 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>, <a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, <a href='http://www.dis.uniroma1.it/~labrob/people/deluca/deluca.html'>Alessandro&nbsp;De Luca</a>, and <a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'>Giuseppe Oriolo</a>.
- A Bayesian framework for optimal motion planning with uncertainty.
+A.C., <a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, <a href='http://www.dis.uniroma1.it/~labrob/people/deluca/deluca.html'>Alessandro&nbsp;De Luca</a>, and <a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'>Giuseppe Oriolo</a>.
+ <b>A Bayesian framework for optimal motion planning with
+  uncertainty</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08ppu">bib</a>&nbsp;| 
@@ -68,8 +70,8 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>.
- An ICP variant using a point-to-line metric.
+A.C..
+ <b>An ICP variant using a point-to-line metric</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08plicp">bib</a>&nbsp;| 
@@ -82,8 +84,8 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong> and <a href='http://www.dis.uniroma1.it/~tipaldi/'>Gian&nbsp;Diego Tipaldi</a>.
- Lazy localization using the Frozen-Time Smoother.
+A.C. and <a href='http://www.dis.uniroma1.it/~tipaldi/'>Gian&nbsp;Diego Tipaldi</a>.
+ <b>Lazy Localization using the Frozen-Time Smoother</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08fts">bib</a>&nbsp;| 
@@ -96,9 +98,9 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'>Giuseppe Oriolo</a>.
- Simultaneous maximum-likelihood calibration of robot and sensor
-  parameters.
+A.C., <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html'>Giuseppe Oriolo</a>.
+ <b>Simultaneous maximum-likelihood calibration of robot and sensor
+  parameters</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
 [&nbsp;<a href="pub_proc_bib.html#censi08calib">bib</a>&nbsp;| 
@@ -111,8 +113,8 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>.
- An accurate closed-form estimate of ICP's covariance.
+A.C..
+ <b>An accurate closed-form estimate of ICP's covariance</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, pages 3167-3172, Rome, Italy, April 2007.
 [&nbsp;<a href="pub_proc_bib.html#censi07accurate">bib</a>&nbsp;| 
@@ -125,8 +127,8 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>.
- On achievable accuracy for range-finder localization.
+A.C..
+ <b>On achievable accuracy for range-finder localization</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, pages 4170-4175, Rome, Italy, April 2007.
 [&nbsp;<a href="pub_proc_bib.html#censi07achievable">bib</a>&nbsp;| 
@@ -139,8 +141,8 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>.
- Scan matching in a probabilistic framework.
+A.C..
+ <b>Scan matching in a probabilistic framework</b>.
  In <em>Proceedings of the IEEE International Conference on Robotics
   and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.
 [&nbsp;<a href="pub_proc_bib.html#censi06scan">bib</a>&nbsp;| 
@@ -151,8 +153,8 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>, <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.informatik.uni-freiburg.de/~grisetti/'>Giorgio Grisetti</a>.
- Scan matching in the Hough domain.
+A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.informatik.uni-freiburg.de/~grisetti/'>Giorgio Grisetti</a>.
+ <b>Scan matching in the Hough domain</b>.
  In <em>Proceedings of the IEEE International Conference on Robotics
   and Automation (ICRA)</em>, pages 2739-2744, Barcelona, Spain, 2005.
 [&nbsp;<a href="pub_proc_bib.html#censi05hough">bib</a>&nbsp;| 
@@ -165,9 +167,9 @@ orderInfo: 110
 
 <p>
 
-<strong>Andrea Censi</strong>.
- A comparison of algorithms for likelihood approximation in bayesian
-  localization.
+A.C..
+ <b>A comparison of algorithms for likelihood approximation in
+  Bayesian localization</b>.
  Technical report, 2006.
 [&nbsp;<a href="pub_tr_bib.html#censi06comparison">bib</a>&nbsp;| 
 <a href="http://purl.org/censi/2006/ghtv">http</a>&nbsp;]
@@ -178,7 +180,7 @@ orderInfo: 110
 
 S.&nbsp;Bahadori, <a href='http://www.dis.uniroma1.it/~calisi/'>D.&nbsp;Calisi</a>, A.&nbsp;Censi, <a href='http://www.dis.uniroma1.it/~farinell/'>A.&nbsp;Farinelli</a>, <a href='http://www.informatik.uni-freiburg.de/~grisetti/'>G.&nbsp;Grisetti</a>, <a href='http://www.dis.uniroma1.it/~iocchi/'>L.&nbsp;Iocchi</a>, and
   <a href='http://www.dis.uniroma1.it/~nardi/'>D.&nbsp;Nardi</a>.
- Intelligent systems for search and rescue.
+ <b>Intelligent Systems for Search and Rescue</b>.
  Proc. of IROS Workshop &ldquo;Urban Search and Rescue: from RoboCup to
   real world applications&rdquo; (IROS), Sendai, Japan, 2004.
 [&nbsp;<a href="pub_tr_bib.html#BaCa04">bib</a>&nbsp;| 

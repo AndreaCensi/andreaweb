@@ -2,13 +2,11 @@
 
 s = $stdin.read
 s = s.gsub(%r{<a name=".*"></a>},'')
-s = s.gsub('Andrea Censi', '<strong>Andrea Censi</strong>')
-s = s.gsub('A. Censi', '<strong>Andrea Censi</strong>')
+mystring="A.C."
+s = s.gsub('Andrea Censi', mystring)
+s = s.gsub('A. Censi', mystring)
 
 names = [
-       {"first"=> "Andrea", "family"=> "Censi", "mysite"=>
-"http://www.dis.uniroma1.it/~acensi/",
-       "face"=> "http://www.dis.uniroma1.it/~acensi/data/legoland.jpg"},
        {"first"=> "Luca", "family"=> "Iocchi", "site"=>
 "http://www.dis.uniroma1.it/~iocchi/",
        "face"=> "http://www.dis.uniroma1.it/~iocchi/stereo3d/images/lucaanim.gif"},
