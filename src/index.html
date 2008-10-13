@@ -133,8 +133,8 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 
 	
 	<div style="float:left; padding-left: 3em; ">
-	<p> Personal: </p>
-	<ul> 
+	<p> <a href="javascript:change('personal');">Personal</a> </p>
+	<ul id="personal"> 
 		<li>
 			My personal hymn! Italian: 
 			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
@@ -168,12 +168,8 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 		
 		
 		<li id="KENTBREW_61e5"><a href="http://www.cds.caltech.edu/~andrea/blog/">My blog</a>. Last 3 posts:
-			
 			<ul></ul>
-			
-			
 		</li>
-	<!--	<style>#KENTBREW_61e5{width:250px;border:2px solid #000;overflow:hidden;}#KENTBREW_61e5 a{text-decoration:none;}#KENTBREW_61e5 a:hover{text-decoration:underline;}#KENTBREW_61e5 .hd{background-color:#268;border-bottom:1px solid #000;padding:3px;}#KENTBREW_61e5 .hd a{color:#fff;font-weight:bold;text-indent:20px;}#KENTBREW_61e5 .bd{background-color:#fff;margin:0;padding:0;font-size:92%;}#KENTBREW_61e5 .bd.hidden{display:none;}#KENTBREW_61e5 .bd ul{margin:0;padding:5px;list-style:none;}#KENTBREW_61e5 .bd ul li{white-space:nowrap;margin:0;padding:0;}#KENTBREW_61e5 .bd ul li a{color:#000;}#KENTBREW_61e5 .ft{text-align:right;background-color:#268;border-top:1px solid #000;padding:0 5px;}#KENTBREW_61e5 .ft a{font-size:77%;color:#fff;}#KENTBREW_61e5 .hd a.progress{display:block;height:16px;width:16px;line-height:0;font-size:0;float:left;background:transparent url('http://l.yimg.com/us.yimg.com/i/us/my/mw/anim_loading_sm.gif') 0 50% no-repeat;}#KENTBREW_61e5 .hd a.open{ display:block;height:15px;width:15px;float:left;background:transparent url('http://l.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_open_dna.gif') 0 50% no-repeat;}#KENTBREW_61e5 .hd a.closed{display:block;height:15px;width:15px;float:left;background:transparent url('http://l.yimg.com/us.yimg.com/i/us/plus/csp/cn/norgie_closed_dna.gif') 0 50% no-repeat;}</style>-->
 		<li><a href="http://twitter.com/andrea_censi/">My twitter</a>. Last 3 tweets:
 		<ul id="twitter_update_list"></ul>
 		</li>
@@ -181,8 +177,7 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 		<li> <a href="misc/index.html">Misc</a> </li>
 	</ul>
 	</div>
-	
-	
+	<script type="text/javascript">document.getElementById("personal").style.display="none";</script>
 </div>
 
 <div style="clear: left; margin-left: 3em" >
@@ -218,7 +213,11 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 		This could improve the realignment results of <a href="http://purl.org/censi/2007/csm">PLICP</a>, but I have yet to redo the experiments.
 	</li>	
 	<li> 2008-08-27: I'm back from <a href="http://www.isd.mel.nist.gov/PerMIS_2008/">PERMIS</a> at NIST. <a href="http://flickr.com/photos/censi/2847001535/">Think metric!</a></li>
-	
+</ul>
+
+<p> <a href="javascript:change('more_news');">Older news</a> </p>
+
+<ul id="more_news">
 	<li> 2008-05-18: Uploaded updated source code and logs for the <a href="http://purl.org/censi/2007/fts"> Frozen Time Smoother</a>.</li>
 	<li> 2008-04: I now have a <a href="http://www.cds.caltech.edu/~andrea/blog/">blog</a>.</li>
 <li> 2008-02-23: Uploaded final versions of the ICRA'08 papers: <!--</li>
@@ -246,6 +245,10 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 <li>2007-04-15: After <a href='http://www.phdcomics.com/comics/archive.php?comicid=369'>careful</a> <a href='http://www.phdcomics.com/comics/archive.php?comicid=370'>thinking</a>, the Big Decision has been made. Next year I&#8217;ll start a PhD in the <a href='http://www.cds.caltech.edu/'>Control and Dynamical Systems</a> department, with <a href='http://www.cds.caltech.edu/~murray/wiki/Main_Page'>Richard Murray</a> and <a href='http://www.vision.caltech.edu/Perona.html'>Pietro Perona</a>.</li>
 <li>2007-04-01: <a href='http://www.flickr.com/photos/censi/sets/72157600041230210/detail/'>CMU Robotics Institute Open House visit</a></li>-->
 </ul>
+
+<script type="text/javascript">document.getElementById("more_news").style.display="none";</script>
+
+
 </ul>
 </div>
 
@@ -261,6 +264,16 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 	</p>
 </div>
 
+<script type="text/javascript">
+function change(id){
+     ID = document.getElementById(id);
+    
+     if(ID.style.display == "")
+          ID.style.display = "none";
+     else
+          ID.style.display = "";
+      }
+</script>
 
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/andrea_censi.json?callback=twitterCallback2&amp;count=3"></script>
@@ -310,30 +323,8 @@ KENTBREW_61e5.badger = function() {
 } ();
 KENTBREW_61e5.badger.init("KENTBREW_61e5");
 </script>
-<!--
-<script>var KENTBREW_61e5=window.KENTBREW_61e5||{};KENTBREW_61e5.badger=function(){var $={};return {init:function(theBadge){$.theBody = document.getElementById(theBadge).getElementsByTagName("DD")[0];$.theNorgie = document.getElementById(theBadge).getElementsByTagName("A")[0];$.theNorgie.onclick=function(){if($.theNorgie.className=="open"){$.theNorgie.className="closed";$.theBody.className="bd hidden";}else{if($.theNorgie.className=="closed"){$.theNorgie.className = "open";$.theBody.className = "bd";}}};$.theFeed=document.getElementById(theBadge).getElementsByTagName("UL")[0];},pingFeed:function(feed){$.theNorgie.className="open";$.theFeed.innerHTML="";if(feed.value.items.length){
-//	for(var i=0;i<feed.value.items.length;i++){
-	for(var i=0;i<3;i++){
-		var li=document.createElement("li");
-		var a=document.createElement("a");
-		a.innerHTML=feed.value.items[i].title;
-		a.href=feed.value.items[i].link;
-		a.target="_blank";
-		li.appendChild(a);
-		
-		var d = feed.value.items[i].pubDate;
-		d = " - " + d.substring(0, d.lastIndexOf("2008")+4);
-		li.appendChild(document.createTextNode(d));
-		$.theFeed.appendChild(li);
-	}
-}}};}();
-KENTBREW_61e5.badger.init("KENTBREW_61e5");</script>
--->
 
 <script src="http://pipes.yahoo.com/pipes/zIQi0Iy72xGJ3NMhJhOy0Q/run?_render=json&_callback=KENTBREW_61e5.badger.pingFeed&s=http://www.cds.caltech.edu/~andrea/blog/feed/"></script>
-<!--
-<script src="http://pipes.yahoo.com/pipes/Bu8sIkUH3BGA6wD_CB2yXQ/run?_render=json&_callback=KENTBREW_61e5.badger.pingFeed&s=http://www.cds.caltech.edu/~andrea/blog/feed/"></script>-->
-
 
 </body>
 </html>
