@@ -57,7 +57,7 @@ See also:
 
 * ![icon](../icons/posetracking.jpg){:icon}   How precise can a scan-matching method be? <br/> ![new](new.png){:new} [On achievable accuracy for pose tracking][posetracking]
 
-* ![icon](../icons/icpcov.jpg){:icon} [An accurate closed-form estimate of ICP's covariance][icpcov] 
+* ![icon](../icons/icpcov.jpg){:icon} How precise is ICP? <br/> [An accurate closed-form estimate of ICP's covariance][icpcov] 
 
 
 #### Calibration ####{:head}
@@ -72,9 +72,9 @@ See also:
 
 #### Scan matching ####{:head}
 
-* ![icon](../icons/plicp.jpg){:icon}  [An ICP variant using a point-to-line metric][plicp] 
+* ![icon](../icons/plicp.jpg){:icon} PLICP converges quadratically in a finite number of steps. <br/> [An ICP variant using a point-to-line metric][plicp] 
 
-* ![icon](../icons/hsm.jpg){:icon} [HSM][HSM], which aims at global, complete searches. 
+* ![icon](../icons/hsm.jpg){:icon} A global complete algorithm for scan matching. <br/> [Scan matching in the Hough domain][HSM]
 
 * ![icon](../icons/hsm3d.jpg){:icon} HSM in 3D: much more difficult! <br/> ![new](new.png){:new}  [HSM3D: Feature-Less Global 6DOF Scan-Matching in the Hough/Radon Domain][hsm3d]
 
