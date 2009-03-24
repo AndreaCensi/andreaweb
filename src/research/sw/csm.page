@@ -43,9 +43,11 @@ Other related projects are [Carmen] and [Stage].
 
 ### Download ###
 
-This is a stable snapshot as of September 2007:
+<!-- This is a stable snapshot as of September 2007:
 
 <http://purl.org/censi/research/csm/csm-20070915.zip>
+
+-->
 
 **2008-09-10: there is a severe bug in that version; please use repository**
 

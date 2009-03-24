@@ -7,6 +7,10 @@ s = s.gsub('Andrea Censi', mystring)
 s = s.gsub('A. Censi', mystring)
 
 names = [
+  {"first"=> "Shuo", "family"=> "Han", "site"=> "http://purl.org/hanshuo"},
+  {"first"=> "Stefano", "family"=> "Carpin", "site"=> "http://robotics.ucmerced.edu/"},
+  {"first"=> "Sawyer", "family"=> "Fuller", "site"=> "http://web.mit.edu/minster/www/"},
+  {"first"=> "Richard M.", "family"=> "Murray", "site"=> "http://www.cds.caltech.edu/~murray/"},
        {"first"=> "Luca", "family"=> "Iocchi", "site"=>
 "http://www.dis.uniroma1.it/~iocchi/",
        "face"=> "http://www.dis.uniroma1.it/~iocchi/stereo3d/images/lucaanim.gif"},
@@ -62,7 +66,9 @@ for n in names
 	end
 end
 
+s = s.gsub(%r{>bib},">bibtex")
 s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf")
+s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web")
 
 if false
 $stderr.puts "substituting titles"

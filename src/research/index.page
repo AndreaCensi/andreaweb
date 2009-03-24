@@ -10,8 +10,11 @@ Date: Sep 1 2007
 
 I'm mainly interested in **robotics**, and, in particular, in all things related to handling uncertainty (localization, estimation, planning, communication). I like simple algorithms with solid mathematical properties. I like the measurements space.
 
+Recently, I have taken an interest in bio-plausible/bio-inspired control.
+
 No, I don't have a thesis topic yet. Suggestions are welcome.
 
+<!--
 I try to keep only a handful of things in mind at a given time. At this very moment (Fall 2008), I'm focusing more on:
 - Algebraic properties of planning in information spaces.
 - Bayesian bounds for pose-tracking, SLAM; Gaussian processes.
@@ -19,6 +22,7 @@ I try to keep only a handful of things in mind at a given time. At this very mom
 {:style="list-style-type: disc"}
 
 Also, this term I will be taking courses in neuroscience / neuromorphic computing.
+-->
 
 See also:
 
@@ -28,36 +32,41 @@ See also:
 
 <!-- ![new](new.png){:new} -->
 
+
+#### Control ####{:head}
+
+* ![icon](../icons/bio-attitude.jpg){:icon}  How do flies navigate? Do flies learn to fly? <br/> ![new](new.png){:new}  [A bio-plausible design for visual attitude stabilization][bio-attitude]
+
+
 #### Networks ####{:head}
 
-* ![icon](../icons/fractals.jpg){:icon}  ![new](new.png){:new}  [On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals][fractals]
+* ![icon](../icons/fractals.jpg){:icon} The ultimate match: Cantor meets Kalman! <br/> ![new](new.png){:new}  [On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals][fractals]
 
-* ![icon](../icons/consensus.jpg){:icon}  ![new](new.png){:new}  [A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy][consensus]
+* ![icon](../icons/consensus.jpg){:icon}  How to reach a consensus if you and your friends are a bunch of spiking neurons. <br/> ![new](new.png){:new}  [Real-valued average consensus over noisy quantized channels][consensus]
 
   
 #### Planning ####{:head}
 
-* ![icon](../icons/ppu.jpg){:icon}   [Robot motion planning with control and sensing uncertainty][ppu] 
+* ![icon](../icons/ppu.jpg){:icon}   How to get to your goal without getting lost. <br/> [Robot motion planning with control and sensing uncertainty][ppu] 
   
 
 #### Estimation ####{:head}
 
-I dream of covariances.
 
-* ![icon](../icons/accuracy.jpg){:icon}  [On achievable accuracy for range-finder localization][aarl]
+* ![icon](../icons/accuracy.jpg){:icon}  How precise can a localization method be? <br/> [The achievable accuracy for range-finder localization][aarl] ![new](new.png){:new} Journal Version
 
-* ![icon](../icons/posetracking.jpg){:icon}  ![new](new.png){:new}   ... and the new episode: <br/>[On achievable accuracy for pose tracking][posetracking] <br/> Hopefully, it will be a trilogy!
+* ![icon](../icons/posetracking.jpg){:icon}   How precise can a scan-matching method be? <br/> ![new](new.png){:new} [On achievable accuracy for pose tracking][posetracking]
 
 * ![icon](../icons/icpcov.jpg){:icon} [An accurate closed-form estimate of ICP's covariance][icpcov] 
 
 
 #### Calibration ####{:head}
 
-* ![icon](../icons/calibration.jpg){:icon}  [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
+* ![icon](../icons/calibration.jpg){:icon}  The alternative to Borenstein if you have a range-finder. <br/> [Simultaneous maximum-likelihood calibration of odometry and sensor parameters][calibration]
 
 #### Localization ####{:head}
 
-* ![icon](../icons/ftf.jpg){:icon}   [Lazy Localization using the Frozen-Time Smoother][ftf]
+* ![icon](../icons/ftf.jpg){:icon}  Global localization without the worries and anxiety of filtering. <br/>[Lazy Localization using the Frozen-Time Smoother][ftf]
 
 * ![icon](../icons/ghtv.jpg){:icon} [A comparison of algorithms for likelihood approximation in Bayesian localization][ghtv] 
 
@@ -67,7 +76,7 @@ I dream of covariances.
 
 * ![icon](../icons/hsm.jpg){:icon} [HSM][HSM], which aims at global, complete searches. 
 
-* ![icon](../icons/hsm3d.jpg){:icon} ![new](new.png){:new}  HSM in 3D: much more difficult! <br/> [Global 6DOF scan matching in the Hough domain][hsm3d]
+* ![icon](../icons/hsm3d.jpg){:icon} HSM in 3D: much more difficult! <br/> ![new](new.png){:new}  [HSM3D: Feature-Less Global 6DOF Scan-Matching in the Hough/Radon Domain][hsm3d]
 
 * ![icon](../icons/gpm.jpg){:icon} [GPM][GPM], which tries to make the most of the odometry model.
 
@@ -85,7 +94,7 @@ I dream of covariances.
 [csm]: sw/csm.html
 [gpc]: gpc.html
 [icpcov]: icpcov.html
-[aarl]: accuracy.html
+[aarl]: tro-accuracy.html
 [gpm]: gpm.html
 [hsm]: hsm.html
 [hsm3d]: hsm3d/index.html
@@ -95,5 +104,5 @@ I dream of covariances.
 [calibration]: calibration.html
 [ftf]: ftf/index.html
 [plicp]: plicp/index.html
-
+[bio-attitude]: bio-attitude.html
 

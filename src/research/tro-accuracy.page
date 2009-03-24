@@ -1,0 +1,19 @@
+---
+title: The achievable accuracy for range-finder localization
+PURLno: http://purl.org/censi/2009/tro-accuracy
+Date: 2009-03-24
+orderInfo: -400
+linkAttrs:
+   :link_text: CRB for range sensors (J)
+---
+
+- A. Censi, "*The achievable accuracy for range finder localization*", submitted to T-RO
+
+   * Submission ([PDF][pdf])
+   * [Supplemental material (ZIP)][sup]
+
+**Abstract** -- This paper investigates the Fisher Information Matrix (FIM) and the Cramér--Rao bound (CRB) for localization with range-finders. The FIM depends on the geometry of the environment and the sensor model; it can be used for both quantitative and qualitative analysis of localization (for example, to detect under-constrained situations). The CRB is shown to be approximately strict by analyzing the performance of the ICP (Iterative Closest/Corresponding Point) algorithm, suitably modified to behave like the maximum-likelihood estimator. According to the principles of [reproducible research], data sets and source code are included in the supplementary online material.
+
+[pdf]: http://purl.org/censi/research/2009-tro-accuracy-sub.pdf
+[sup]:  http://purl.org/censi/research/2009-tro-accuracy-sub.zip
+[reproducible research]: http://www.reproducibleresearch.org/

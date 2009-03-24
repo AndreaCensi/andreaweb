@@ -13,7 +13,8 @@ icons = calibration.jpg \
   fractals.jpg \
   posetracking.jpg \
   hsm3d.jpg \
-  consensus.jpg 
+  consensus.jpg \
+  bio-attitude.jpg  
 
 
 all:   $(icons)
@@ -26,3 +27,4 @@ clean:
 
 %.jpg: src/%.jpg
 	convert $< -resize $(size) -quality 100  $@
+

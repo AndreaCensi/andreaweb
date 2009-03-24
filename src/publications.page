@@ -3,51 +3,99 @@ title: Publications
 Date: Jan 3 2007
 orderInfo: 110
 ---
+<style type="text/css">h4 { border-bottom: solid 2px pink; padding-bottom: 5px};</style>
 
-<style type="text/css">h4 { border-bottom: solid 2px pink; padding-bottom: 5px}</style>
+<p>Follow the <img style="margin-bottom:-6px; height: 17px" src="web.gif"/> links to obtain supplementary material for the paper, such as
+ datasets and source code.</p>
+
+
 
 <h4> Papers under review (might eventually disappear) </h4>
 
+<p>Any feedback on the papers under review is greatly appreciated! <br/>The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". </p>
+
+
 <p>
-	A.C. 
-	<em><a href="research/fractals.html">"On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals"</a></em>,
-	submitted to ACC 2009
+		<a href="http://www.cds.caltech.edu/~andrea/research/tro-accuracy.html" class="weblink"><img src='web.gif'/> 
+				The achievable accuracy for range-finder localization</a>
+		(<a href='http://purl.org/censi/research/2009-tro-accuracy-sub.pdf' class="pdflink"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>),
+		submitted to <a href="http://www.ieee-ras.org/tro">T-RO</a>. This is the
+		journal version of the  <a href="http://purl.org/censi/2006/accuracy">ICRA'07 paper</a>.
 </p>
 
 <p>
-	A.C. and <a href="http://www.cds.caltech.edu/~murray/">Richard M. Murray</a>.
-	<em><a href="research/consensus.html">"A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy"</a></em>,
-	submitted to ACC 2009
+		<a href="http://www.cds.caltech.edu/~andrea/research/bio-attitude.html" class="weblink"><img src='web.gif'/> A bio-plausible design for visual attitude stabilization</a>
+		(<a href='http://purl.org/censi/research/2009-cdc-bio-attitude-sub.pdf' class="pdflink"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>),
+		 submitted to <a href="http://www.ieeecss.org/CAB/conferences/cdc2009/index.php">CDC'09</a>.
+		This is joint work with <a href="http://purl.org/hanshuo"><a href='http://purl.org/hanshuo'>Shuo Han</a></a> and <a href="http://web.mit.edu/minster/www/"><a href='http://web.mit.edu/minster/www/'>Sawyer Fuller</a></a>.
+</p>
+
+
+<h4> Refereed papers </h4>
+
+
+
+
+<p>
+
+A.C..
+ <b>On achievable accuracy for pose tracking</b>.
+ In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, 2009.
+[&nbsp;<a href="pub_proc_bib.html#censi09posetracking">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2008/posetracking"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2009-icra-posetracking.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="pub_proc_abstracts.html#censi09posetracking">Abstract</a>&nbsp;]
+
 </p>
 
 <p>
-	A.C.. 
-	<em><a href="research/posetracking.html">"On achievable accuracy for pose tracking"</a></em>,
-	submitted to ICRA 2009
+
+A.C. and <a href='http://robotics.ucmerced.edu/'>Stefano Carpin</a>.
+ <b>HSM3D: Feature-Less Global 6DOF Scan-Matching in the
+  Hough/Radon Domain</b>.
+ In <em>Proceedings of the IEEE International Conference on
+  Robotics and Automation (ICRA)</em>, 2009.
+[&nbsp;<a href="pub_proc_bib.html#censi09hsm3d">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2008/hsm3d"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2009-icra-hsm3d.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="pub_proc_abstracts.html#censi09hsm3d">Abstract</a>&nbsp;]
+
 </p>
 
 <p>
-	A.C. and <a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.
-	<em><a href="research/hsm3d/index.html">"Global 6DOF scan-matching in the Hough Domain"</a></em>,
-	submitted to ICRA 2009
+
+A.C..
+ <b>On the performance of Kalman filtering with intermittent
+  observations: a geometric approach with fractals</b>.
+ In <em>Proceedings of the American Control Conference (ACC)</em>, 2009.
+[&nbsp;<a href="pub_proc_bib.html#censi09fractals">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2008/fractals"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2009-acc-fractals.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="pub_proc_abstracts.html#censi09fractals">Abstract</a>&nbsp;]
+
 </p>
 
+<p>
 
+A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
+ <b>Real-valued consensus over noisy quantized channels</b>.
+ In <em>Proceedings of the American Control Conference (ACC)</em>, 2009.
+[&nbsp;<a href="pub_proc_bib.html#censi09consensus">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2008/consensus"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2009-acc-consensus.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
+<a href="pub_proc_abstracts.html#censi09consensus">Abstract</a>&nbsp;]
 
-<h4> Refereed conference papers </h4>
-
-
-
+</p>
 
 <p>
 
 <a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.
  <b>OpenRDK: A Modular Framework for Robotic Software
   Development</b>.
- In <em>IEEE/RSJ International Conference on Intelligent Robots and
-  Systems (IROS)</em>, Nice, France, September 2008.
-[&nbsp;<a href="pub_proc_bib.html#calisi08openrdk">bib</a>&nbsp;| 
-<a href="http://openrdk.sourceforge.net">http</a>&nbsp;| 
+ In <em>Proceedings of the IEEE/RSJ International Conference on<br/> Intelligent Robots and Systems (IROS)</em>, Nice, France, September 2008.
+[&nbsp;<a href="pub_proc_bib.html#calisi08openrdk">bibtex</a>&nbsp;| 
+<a href="http://openrdk.sourceforge.net"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2008-iros-openrdk.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#calisi08openrdk">Abstract</a>&nbsp;]
 
@@ -60,9 +108,9 @@ A.C., <a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, <a href=
   uncertainty</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
-[&nbsp;<a href="pub_proc_bib.html#censi08ppu">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi08ppu">bibtex</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2008.4543469">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/2007/ppu">http</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/ppu"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2008-icra-ppu.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08ppu">Abstract</a>&nbsp;]
 
@@ -74,9 +122,9 @@ A.C..
  <b>An ICP variant using a point-to-line metric</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
-[&nbsp;<a href="pub_proc_bib.html#censi08plicp">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi08plicp">bibtex</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2008.4543181">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/2007/plicp">http</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/plicp"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2008-icra-plicp.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08plicp">Abstract</a>&nbsp;]
 
@@ -88,9 +136,9 @@ A.C. and <a href='http://www.dis.uniroma1.it/~tipaldi/'>Gian&nbsp;Diego Tipaldi<
  <b>Lazy Localization using the Frozen-Time Smoother</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
-[&nbsp;<a href="pub_proc_bib.html#censi08fts">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi08fts">bibtex</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2008.4543631">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/2007/fts">http</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/fts"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2008-icra-fts.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08fts">Abstract</a>&nbsp;]
 
@@ -103,9 +151,9 @@ A.C., <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, a
   parameters</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.
-[&nbsp;<a href="pub_proc_bib.html#censi08calib">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi08calib">bibtex</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2008.4543516">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/2007/calib">http</a>&nbsp;| 
+<a href="http://purl.org/censi/2007/calib"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2008-icra-calibration.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi08calib">Abstract</a>&nbsp;]
 
@@ -117,9 +165,9 @@ A.C..
  <b>An accurate closed-form estimate of ICP's covariance</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, pages 3167-3172, Rome, Italy, April 2007.
-[&nbsp;<a href="pub_proc_bib.html#censi07accurate">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi07accurate">bibtex</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2007.363961">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/2006/icpcov">http</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/icpcov"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2007-icra-icpcov.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi07accurate">Abstract</a>&nbsp;]
 
@@ -131,9 +179,9 @@ A.C..
  <b>On achievable accuracy for range-finder localization</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, pages 4170-4175, Rome, Italy, April 2007.
-[&nbsp;<a href="pub_proc_bib.html#censi07achievable">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi07achievable">bibtex</a>&nbsp;| 
 <a href="http://dx.doi.org/10.1109/ROBOT.2007.364120">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/2006/accuracy">http</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/accuracy"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2007-icra-accuracy.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi07achievable">Abstract</a>&nbsp;]
 
@@ -145,8 +193,8 @@ A.C..
  <b>Scan matching in a probabilistic framework</b>.
  In <em>Proceedings of the IEEE International Conference on Robotics
   and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.
-[&nbsp;<a href="pub_proc_bib.html#censi06scan">bib</a>&nbsp;| 
-<a href="http://purl.org/censi/2006/gpm">http</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi06scan">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/gpm"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2006-icra-gpm.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
@@ -157,8 +205,8 @@ A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href
  <b>Scan matching in the Hough domain</b>.
  In <em>Proceedings of the IEEE International Conference on Robotics
   and Automation (ICRA)</em>, pages 2739-2744, Barcelona, Spain, 2005.
-[&nbsp;<a href="pub_proc_bib.html#censi05hough">bib</a>&nbsp;| 
-<a href="http://purl.org/censi/2006/hsm">http</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi05hough">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/hsm"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2005-icra-hsm.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
@@ -171,8 +219,8 @@ A.C..
  <b>A comparison of algorithms for likelihood approximation in
   Bayesian localization</b>.
  Technical report, 2006.
-[&nbsp;<a href="pub_tr_bib.html#censi06comparison">bib</a>&nbsp;| 
-<a href="http://purl.org/censi/2006/ghtv">http</a>&nbsp;]
+[&nbsp;<a href="pub_tr_bib.html#censi06comparison">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2006/ghtv"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web</a>&nbsp;]
 
 </p>
 
@@ -183,7 +231,7 @@ S.&nbsp;Bahadori, <a href='http://www.dis.uniroma1.it/~calisi/'>D.&nbsp;Calisi</
  <b>Intelligent Systems for Search and Rescue</b>.
  Proc. of IROS Workshop &ldquo;Urban Search and Rescue: from RoboCup to
   real world applications&rdquo; (IROS), Sendai, Japan, 2004.
-[&nbsp;<a href="pub_tr_bib.html#BaCa04">bib</a>&nbsp;| 
+[&nbsp;<a href="pub_tr_bib.html#BaCa04">bibtex</a>&nbsp;| 
 <a href="http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>&nbsp;]
 
 </p>

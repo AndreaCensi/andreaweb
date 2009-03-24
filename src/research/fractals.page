@@ -8,9 +8,9 @@ linkAttrs:
    :link_text: KF and fractals
 ---
 
-- A. Censi "*On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals*", submitted to ACC 2009
+- A. Censi "*On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals*",  ACC 2009
 
-   * Submission ([PDF][pdf])
+   * ([PDF][pdf])
 
 **Abstract** --- This paper describes the stationary distribution of the a-posteriori covariance matrix of a Kalman filter when the availability of measurements is subject to random phenomena such as lossy network links. If a certain non-overlapping condition is satisfied, the cdf has a fractal nature, and there exists a closed-form expression for it. If the condition is not satisfied, deciding whether the cdf is singular or not, even in the scalar case, is at least as hard as some open problems in measure and number theory. 
 
@@ -18,4 +18,4 @@ linkAttrs:
 ![graphs](fractals.png)
 
 
-[pdf]: http://purl.org/censi/research/2009-acc-fractals-sub.pdf 
+[pdf]: http://purl.org/censi/research/2009-acc-fractals.pdf 

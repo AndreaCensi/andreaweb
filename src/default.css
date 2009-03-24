@@ -160,3 +160,9 @@ div.flickr:hover  div.flipping {
     border-bottom: 1px solid #CCCCCC;
 
   }
+
+
+/********** ICONS *********/
+ A.pdflink IMG { border:0; margin-bottom:-6px}
+ A.weblink IMG { border:0; margin-bottom:-6px; height: 17px;}
+

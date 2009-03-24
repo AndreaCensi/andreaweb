@@ -32,6 +32,11 @@
 		div span.motto { display: none; font-variant: small-caps;font-stretch: expanded; }
 		div:hover span.motto { display: block;}
 		
+		div.obsolete { color: grey; }
+		div.obsolete A { color: grey; text-decoration: none;}
+		A.pdflink IMG {border:0; margin-bottom:-6px}
+		A.weblink IMG {border:0; margin-bottom:-6px; height: 17px;}
+		
 </style>
 </head>
 
@@ -121,7 +126,7 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 <div style="clear: left;" markdown="1">
 	
 	<div style="float: left; padding-left: 3em;">
-	<p> Academic: </p>
+	<p> <strong>Academic: </strong></p>
 	<ul> 
 		<li> <a href="research/index.html">Research</a>
 			<ul><li><a href="research/sw/index.html">software</a></li></ul>
@@ -133,7 +138,7 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 
 	
 	<div style="float:left; padding-left: 3em; ">
-	<p> <a href="javascript:change('personal');">Personal</a> </p>
+	<p> <a href="javascript:change('personal');"><strong>Personal</strong></a> </p>
 	<ul id="personal"> 
 		<li>
 			My personal hymn! Italian: 
@@ -170,9 +175,9 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 		<li id="KENTBREW_61e5"><a href="http://www.cds.caltech.edu/~andrea/blog/">My blog</a>. Last 3 posts:
 			<ul></ul>
 		</li>
-		<li><a href="http://twitter.com/andrea_censi/">My twitter</a>. Last 3 tweets:
+<!--		<li><a href="http://twitter.com/andrea_censi/">My twitter</a>. Last 3 tweets:
 		<ul id="twitter_update_list"></ul>
-		</li>
+		</li>-->
 		<li> <a href="pictures.html">Pictures</a> </li>
 		<li> <a href="misc/index.html">Misc</a> </li>
 	</ul>
@@ -186,12 +191,57 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
     </div>
 -->
 
-<p>What's new:</p>
+<p><strong>What's new:</strong></p>
+
+<p><em>Follow the <img src='web.gif' style='margin-bottom:-6px; height: 17px' /> links to obtain supplementary material for the papers, such as
+ datasets and source code.<br/> Feedback on the papers under review is greatly appreciated!</em></p>
+
 
 <ul>
+	<li> 2009-03: Submission to <a href="http://www.ieee-ras.org/tro">T-RO</a>:
+		<ul></li>
+			<a href="http://www.cds.caltech.edu/~andrea/research/tro-accuracy.html" class="weblink"><img src='web.gif'/> 
+					The achievable accuracy for range-finder localization</a>
+			(<a href='http://purl.org/censi/research/2009-tro-accuracy-sub.pdf' class="pdflink"><img src='pdf.gif'/> pdf</a>),
+			journal version of the  <a href="http://purl.org/censi/2006/accuracy">ICRA'07 paper</a>.
+			</li>
+		</ul>
+	</li>
+	<li> 2009-03: Submission to <a href="http://www.ieeecss.org/CAB/conferences/cdc2009/index.php">CDC'09</a>:
+		<ul><li>
+			<a href="http://www.cds.caltech.edu/~andrea/research/bio-attitude.html" class="weblink"><img src='web.gif'/> A bio-plausible design for visual attitude stabilization</a>
+			(<a href='http://purl.org/censi/research/2009-cdc-bio-attitude-sub.pdf' class="pdflink"><img src='pdf.gif'/> pdf</a>).
+			This is joint work with <a href="http://purl.org/hanshuo">Shuo Han</a> and <a href="http://web.mit.edu/minster/www/">Sawyer Fuller</a>.
+			</li>
+		</ul>
+	<li> 2009-03: Final versions (and final titles) of the ACC'09 papers -- see you in St. Louis!
+		<ul>
+			<li><a href="http://purl.org/censi/2008/fractals" class="weblink"><img src='web.gif'/> On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals</a>.
+			(<a href='http://purl.org/censi/research/2009-acc-fractals.pdf' class="pdflink"><img src='pdf.gif'/> pdf</a>)
+				
+			</li>
+			<li><a href="http://purl.org/censi/2008/consensus" class="weblink"><img src='web.gif'/> Real-valued average consensus over noisy quantized channels</a>
+			(<a href='http://purl.org/censi/research/2009-acc-consensus.pdf' class="pdflink"><img src='pdf.gif'/> pdf</a>)
+			</li>
+		</ul>
+		
+	<li> 2009-02: Final versions (and final titles) of the ICRA'09 papers  -- see you in Kobe!
+		<ul>
+			<li><a href="http://purl.org/censi/2008/posetracking" class="weblink"><img src='web.gif'/> On achievable accuracy for pose tracking</a>,
+				(<a href='http://purl.org/censi/research/2009-acc-posetracking.pdf' class="pdflink"><img src='pdf.gif'/> pdf</a>),
+				which is episode two of 
+				 <a href="http://purl.org/censi/2006/accuracy">On achievable accuracy for range-finder localization</a></li>
+			<li><a href="http://purl.org/censi/2008/hsm3d" class="weblink"><img src='web.gif'/> HSM3D: Feature-Less Global 6DOF Scan-Matching in the Hough/Radon Domain</a>
+				(<a href='http://purl.org/censi/research/2009-acc-hsm3d.pdf' class="pdflink"><img src='pdf.gif'/> pdf</a>),
+				which is episode two of
+				 <a href="http://purl.org/censi/2006/hsm">Scan matching in the Hough Domain</a>. This is joint work with 
+				<a href="http://robotics.ucmerced.edu">Stefano Carpin</a>.</li>
+		</ul>
+	</li>
 	<li> 2008-09-12: leaving for Italy. See you at <a href="http://iros2008.inria.fr/">IROS</a>!</li>
 	<li> 2008-09-11: This is the end of a productive summer (<a href="http://www.flickr.com/photos/censi/2847166593/">photographic evidence</a>).
 		<ul>
+			<div class="obsolete">
 			<li> Papers submitted to <a href="http://www.icra2009.org/">ICRA 2009</a>: 
 				<ul>
 					<li><a href="http://purl.org/censi/2008/posetracking">On achievable accuracy for pose tracking</a>, which is episode two of 
@@ -207,6 +257,7 @@ Email: andrea<span></span><span style="margin-left: 0.6em; margin-right: 0.6em">
 					<li><a href="http://purl.org/censi/2008/consensus">A biologically inspired approach to real-valued average consensus over quantized channels with arbitrary deterministic accuracy</a></li>
 				</ul>
 			</li>
+			</div>
 			<li>When I become master of the universe, I'll make sure that no two conferences can have the same deadline.</li>
 		</ul>
 	<li> 2008-08-27: Found bug in <a href="http://purl.org/censi/2007/csm">CSM</a> which could affect the estimate. A very stupid bug: I only checked for positive roots of the fourth-order polynomial equation. 		Fix is in the subversion repository.
