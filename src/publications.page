@@ -15,6 +15,19 @@ orderInfo: 110
 <p>Any feedback on the papers under review is greatly appreciated! <br/>The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". </p>
 
 
+<p>  
+	<a href="http://arxiv.org/abs/0906.1637" class="weblink"> <img src='web.gif'/>  Geometric remarks on Kalman filtering with intermittent observations</a> (<a href="http://arxiv.org/pdf/0906.1637v1"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>)
+
+</p>
+
+
+<p>
+		<a href="http://www.cds.caltech.edu/~andrea/research/bio-attitude.html" class="weblink"><img src='web.gif'/> A bio-plausible design for visual attitude stabilization</a>
+		(<a href='http://purl.org/censi/research/2009-cdc-bio-attitude-sub.pdf' class="pdflink"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>),
+		 submitted to <a href="http://www.ieeecss.org/CAB/conferences/cdc2009/index.php">CDC'09</a>.
+		This is joint work with <a href="http://purl.org/hanshuo"><a href='http://purl.org/hanshuo'>Shuo Han</a></a> and <a href="http://web.mit.edu/minster/www/"><a href='http://web.mit.edu/minster/www/'>Sawyer Fuller</a></a>.
+</p>
+
 <p>
 		<a href="http://www.cds.caltech.edu/~andrea/research/tro-accuracy.html" class="weblink"><img src='web.gif'/> 
 				The achievable accuracy for range-finder localization</a>
@@ -23,12 +36,6 @@ orderInfo: 110
 		journal version of the  <a href="http://purl.org/censi/2006/accuracy">ICRA'07 paper</a>.
 </p>
 
-<p>
-		<a href="http://www.cds.caltech.edu/~andrea/research/bio-attitude.html" class="weblink"><img src='web.gif'/> A bio-plausible design for visual attitude stabilization</a>
-		(<a href='http://purl.org/censi/research/2009-cdc-bio-attitude-sub.pdf' class="pdflink"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>),
-		 submitted to <a href="http://www.ieeecss.org/CAB/conferences/cdc2009/index.php">CDC'09</a>.
-		This is joint work with <a href="http://purl.org/hanshuo"><a href='http://purl.org/hanshuo'>Shuo Han</a></a> and <a href="http://web.mit.edu/minster/www/"><a href='http://web.mit.edu/minster/www/'>Sawyer Fuller</a></a>.
-</p>
 
 
 <h4> Refereed papers </h4>
