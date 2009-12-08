@@ -5,12 +5,14 @@ orderInfo: 110
 ---
 <style type="text/css">h4 { border-bottom: solid 2px pink; padding-bottom: 5px};</style>
 
+<p><strong style="color:red">(last update: Jun 6, 2009)</strong> </p>
+
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
 
 
 
-<h4> Papers under review (might eventually disappear) </h4>
+<h4> Preprints </h4>
 
 <p>Any feedback on the papers under review is greatly appreciated! <br/>The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". </p>
 
@@ -31,8 +33,7 @@ orderInfo: 110
 <p>
 		<a href="http://www.cds.caltech.edu/~andrea/research/tro-accuracy.html" class="weblink"><img src='web.gif'/> 
 				The achievable accuracy for range-finder localization</a>
-		(<a href='http://purl.org/censi/research/2009-tro-accuracy-sub.pdf' class="pdflink"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>),
-		submitted to <a href="http://www.ieee-ras.org/tro">T-RO</a>. This is the
+		(<a href='http://purl.org/censi/research/2009-tro-accuracy-sub.pdf' class="pdflink"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf</a>). This is the
 		journal version of the  <a href="http://purl.org/censi/2006/accuracy">ICRA'07 paper</a>.
 </p>
 
