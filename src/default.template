@@ -42,6 +42,12 @@
 	         _uacct = "UA-155626-1";
 	         urchinTracker();
 	 </script>
+	
+	<script type="text/javascript">
+	lloogg_clientid = "1810218f6a83397";
+	</script>
+	<script type="text/javascript" src="http://lloogg.com/l.js?c=1810218f6a83397">
+	</script>
   </body>
 
 </html>
