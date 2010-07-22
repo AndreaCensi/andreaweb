@@ -12,7 +12,8 @@ linkAttrs:
 
    * [Short version (16 pages PDF)][short] submitted to [WAFR]
    * [Extended version (40 pages PDF)][long] technical report, with more theory, and experiments with real data, and 800% more colorful figures.
-   * Simulations source code & experiments data available on request.
+   * Simulations source code & experiments data available on request. 
+	 [These are the videos used for learning.](http://www.youtube.com/view_play_list?p=3E5C9790E03EF434)
 
 **Abstract** --- We consider the bootstrapping problem, which consists in learning a model of the agent's sensors and actuators starting from zero prior information, and we take the problem of servoing as a cross-modal task to validate the learned models. We study the class of bilinear dynamics sensors, in which the derivative of the observations are a bilinear form of the control commands and the observations themselves. This class of models is simple yet general enough to represent the main phenomena of three representative robotics sensors (field sampler, camera, and range-finder), apparently very different from one another. It also allows a bootstrapping algorithm based on hebbian learning, and that leads to a simple and bioplausible control strategy. The convergence properties of learning and control are demonstrated with extensive simulations and by analytical arguments. We further develop the theory by introducing the class of bilinear gradient dynamics sensors, and we present an application to real world camera data.
 
