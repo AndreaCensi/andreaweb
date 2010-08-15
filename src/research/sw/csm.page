@@ -43,17 +43,10 @@ Other related projects are [Carmen] and [Stage].
 
 ### Download ###
 
-<!-- This is a stable snapshot as of September 2007:
+**(August 2010)** CSM moved to github:
 
-<http://purl.org/censi/research/csm/csm-20070915.zip>
+* [http://github.com/AndreaCensi/csm](http://github.com/AndreaCensi/csm)
 
--->
-
-**2008-09-10: there is a severe bug in that version; please use repository**
-
-You can access the current version on a Subversion repository:
-
-	$ svn checkout https://svn.cds.caltech.edu/subversion/andrea/csm
 
 Use the username "guest" / password "guest". This gives you read-only access. Mail me if you need write access.
 
