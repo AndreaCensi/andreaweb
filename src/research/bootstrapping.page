@@ -8,19 +8,72 @@ linkAttrs:
    :link_text: Bootstrapping
 ---
 
-- A. Censi, [Richard M. Murray] "*Bootstrapping bilinear models of robotic sensorimotor cascades*", submitted to ACC 2009
+## Bootstrapping bilinear dynamics sensors ##
 
-   * [Short version (16 pages PDF)][short] submitted to [WAFR]
-   * [Extended version (40 pages PDF)][long] technical report, with more theory, and experiments with real data, and 800% more colorful figures.
-   * Simulations source code & experiments data available on request. 
-	 [These are the videos used for learning.](http://www.youtube.com/view_play_list?p=3E5C9790E03EF434)
+- A. Censi, [Richard M. Murray] "*Bootstrapping bilinear models of robotic sensorimotor cascades*"
+
+   * [Short version (8 pages PDF)][short] submitted to ICRA'11
+   * [Extended version (40 pages PDF)][long] technical report, with more theory, and experiments with real data, and 800% more colorful figures. 
 
 **Abstract** --- We consider the bootstrapping problem, which consists in learning a model of the agent's sensors and actuators starting from zero prior information, and we take the problem of servoing as a cross-modal task to validate the learned models. We study the class of bilinear dynamics sensors, in which the derivative of the observations are a bilinear form of the control commands and the observations themselves. This class of models is simple yet general enough to represent the main phenomena of three representative robotics sensors (field sampler, camera, and range-finder), apparently very different from one another. It also allows a bootstrapping algorithm based on hebbian learning, and that leads to a simple and bioplausible control strategy. The convergence properties of learning and control are demonstrated with extensive simulations and by analytical arguments. We further develop the theory by introducing the class of bilinear gradient dynamics sensors, and we present an application to real world camera data.
 
+![graphs](bootstrapping.png) 
 
-![graphs](bootstrapping.png)
 
-[wafr]: http://bigbird.comp.nus.edu.sg/pmwiki/farm/wafr/
+### Source code ###
+
+All the source code is available on [github] in a series of repositories.
+The documentation is still scarce, but I'm working on it (inquiring about it speeds up the process.)
+
+* [bvenv] is a meta-package that contains scripts to pull the other projects from github.
+  It is advised to download only this package directly, and then use the scripts to download the others.
+
+The repositories included in the meta-package are the following.
+
+* [bvexp201007] contains the code that manages the simulations. It uses the other packages as libraries.
+
+* [pybv] is a python simulator of the various sensors and random environments.
+
+* [raytracer] is a C++ raytracer used by pybv to simulate a range-finder.
+
+* [json-c] is a port to Ansi C, with some addons, of a popular C JSON library, used by the raytracer.
+
+* [snp\_geometry] contains some utils to manipulate poses.
+
+* [reprep] is a library used for creating reports in html (for inspection) and their latex versions (for publishing).
+
+* [compmake] is a parallel "make" for batch python processes -- the weeks I used to write this were well repaid by the time it made me save for the bootstrapping simulations.
+
+
+
+[bvenv]: http://andreacensi.github.com/bvenv/
+[bvexp201007]: http://andreacensi.github.com/bvexp201007/
+[pybv]: http://andreacensi.github.com/pybv/
+[raytracer]: https://github.com/AndreaCensi/raytracer
+[snp_geometry]: https://github.com/AndreaCensi/snp_geometry
+[compmake]: http://compmake.org
+[json-c]: https://github.com/AndreaCensi/json-c
+[reprep]: http://andreacensi.github.com/reprep/
+[github]: http://www.github.com
+ 
+
+### Media ###
+
+The ICRA submission points to these videos:
+
+*  [LaserDisplay](http://purl.org/censi/2010/be#LaserDisplay)
+*  [LaserCorr](http://purl.org/censi/2010/be#LaserCorr)
+*  [LaserBDSLearning](http://purl.org/censi/2010/be#LaserBDSLearning)
+
+
+## Bootstrapping bilinear gradient dynamics sensors
+
+
+This is further work that studies a more restrictive, but easier to learn, model.
+
+* [Various videos using the Rawseeds data](http://purl.org/censi/2010/be)
+* [Videos of our data taken with a ER1.](http://www.youtube.com/view_play_list?p=3E5C9790E03EF434)
+
 
 [long]: http://purl.org/censi/research/2010-bootstrapping-bilinear-report.pdf
 [short]: http://purl.org/censi/research/2010-bootstrapping-bilinear-short.pdf

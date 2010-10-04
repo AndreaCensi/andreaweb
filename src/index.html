@@ -182,11 +182,17 @@ Cell phone: 1 (626) 872-3674 (or: 1 (626) U-R-CENSI)
 		</li>
 		
 		
-		<li name="KENTBREW_61e5" id="KENTBREW_61e5"><a href="http://www.cds.caltech.edu/~andrea/blog/">My blog</a>
+		
+		<li name="KENTBREW_61e5" id="KENTBREW_61e5"><a href="http://www.cds.caltech.edu/~andrea/blog/">My blog</a>. Last 3 posts:
 			<ul></ul>
 		</li>
+		
 		<li><a href="http://twitter.com/andreacensi/">My twitter</a>. Last 3 tweets:
 		<ul id="twitter_update_list"></ul>
+		</li>
+		<li name="CHEWBA_61e5" id="CHEWBA_61e5">
+			<a href="http://github.com/AndreaCensi">My github account</a>. Last 5 commits to public repositories:
+				<ul></ul>
 		</li>
 		<li> <a href="pictures.html">Pictures</a> </li>
 		<li> <a href="misc/index.html">Misc</a> </li>
@@ -201,7 +207,7 @@ Cell phone: 1 (626) 872-3674 (or: 1 (626) U-R-CENSI)
     </div>
 -->
 
-<p><strong>What's new:</strong> <strong style="color:red">(slowly updating as of July 15th, 2010)</strong> </p>
+<p><strong>What's new:</strong> <strong style="color:red">(slowly updating as of Sep 15th, 2010)</strong> </p>
 
 <p><em>Follow the <img src='web.gif' style='margin-bottom:-6px; height: 17px' /> links to obtain supplementary material for the papers, such as
  datasets and source code.<br/> Any feedback is greatly appreciated!</em></p>
@@ -388,8 +394,42 @@ KENTBREW_61e5.badger = function() {
 } ();
 KENTBREW_61e5.badger.init("KENTBREW_61e5"); 
 </script>
-
 <script src="http://pipes.yahoo.com/pipes/zIQi0Iy72xGJ3NMhJhOy0Q/run?_render=json&_callback=KENTBREW_61e5.badger.pingFeed&s=http://www.cds.caltech.edu/~andrea/blog/feed/"></script>
+
+<script>
+var CHEWBA_61e5 = window.CHEWBA_61e5 || {};
+CHEWBA_61e5.badger = function() {
+    var $ = {};
+    return {
+        init: function(theBadge) {
+            $.theFeed = document.getElementById(theBadge).getElementsByTagName("ul")[0];
+        },
+        pingFeed: function(feed) {
+//            $.theNorgie.className = "open";
+            $.theFeed.innerHTML = "";
+            if (feed.value.items.length) {
+                //	for(var i=0;i<feed.value.items.length;i++){
+                for (var i = 0; i < 5; i++) {
+                    var li = document.createElement("li");
+                    var a = document.createElement("a");
+                    a.innerHTML = feed.value.items[i].title;
+                    a.href = feed.value.items[i].link;
+                    a.target = "_blank";
+                    li.appendChild(a);
+
+                    var d = feed.value.items[i].pubDate;
+                    d = " - " + d.substring(0, d.lastIndexOf("2008") + 4);
+                    li.appendChild(document.createTextNode(d));
+                    $.theFeed.appendChild(li);
+                }
+            }
+        }
+    };
+} ();
+CHEWBA_61e5.badger.init("CHEWBA_61e5"); 
+</script>
+<script src="http://pipes.yahoo.com/pipes/zIQi0Iy72xGJ3NMhJhOy0Q/run?_render=json&_callback=CHEWBA_61e5.badger.pingFeed&s=http://github.com/AndreaCensi.atom"></script>
+
 
 
 
