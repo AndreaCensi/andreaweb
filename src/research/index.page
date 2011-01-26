@@ -8,13 +8,103 @@ Date: Sep 1 2007
 {:style="font-style:italic; text-align:center"}
 
 
+###  My research interests
+
+
+
+**Problems**
+
+* My main interest lies in **robotics**, which, from my point of view, includes all 
+  interactions of an intelligent agent with the real world. I believe that in my
+  lifetime we will be able to create some form of [strong AI], and my hunch is
+  that it will come from robotics. I hope to retire as a [robopsychologist].
+  
+* I am very fascinated 
+
+  Currently 
+  
+interestection
+
+* I'm interested in 
+
+**my approach**
+
+* Formal
+
+* Measurement space
+
+* Data driven Learning
+
+* Reproducible research / open source & open data
+
+**Methods and Techniques**
+
+
+
+[Strong AI]: http://en.wikipedia.org/wiki/Strong_AI
+[robopsychologist]: http://en.wikipedia.org/wiki/Robopsychology
+
+Highlight #1 - Bootstrapping
+=========================
+
+My thesis work has to do with the problem of learning
+
+The video below shows learning of this kind of models from recorded data, with
+no prior information on the 
+
+This is a 
+My goal is to clearly define what can be learned from scratch
+
+Representative papers:
+
+* [Bootstrapping bilinear models of sensorimotor cascades][bds]
+
+* Other preprints are undergoing double-blind reviews and cannot be published on a website; do not hesitate to ask for them.
+
+
+[bds]: http://purl.org/censi/2010/boot
+
+
+Video: Simulated visual input from tracking data of free-flying Drosophila Melanogaster ([watch on Vimeo][video_fly]. On the right, you can see the simulated visual stimulus. On the left, the position of the fly in the arena (1m diameter). Note that the video is slowed down about 10x with respect to the real data (you can see the real time in the left corner): fruit flies are very fast!  Watch the video full-screen to appreciate the details. 
+{.caption}
+
+<iframe src="http://player.vimeo.com/video/19194748" width="320" height="276" frameborder="0"></iframe>
+
+
+
+
+Highlight #2 - Drosophila 
+=========================
+
+I have been collaborating with the Dickinson lab at Caltech (in the mean time moved
+to University of Washington), in particular with [Andrew Straw][straw] (who now has his own lab atthe Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
+
+The <a href="http://vimeo.com/12689209">video</a> below shows the kind of simulated
+data I am working with. Using [a special apparatus][mamarama] with 11 cameras, the animal is tracked with a precision of a few millimiters. An ad-hoc simulator allows to reconstruct the visual stimuls experienced by the animal at a reasonable level of accuracy.
+
+We then analyze the data asking whether we can infer the neural processing happening in the animal brain.
+
+
+Video: Simulated visual input from tracking data of free-flying Drosophila Melanogaster ([watch on Vimeo][video_fly]. On the right, you can see the simulated visual stimulus. On the left, the position of the fly in the arena (1m diameter). Note that the video is slowed down about 10x with respect to the real data (you can see the real time in the left corner): fruit flies are very fast!  Watch the video full-screen to appreciate the details. 
+{.caption}
+
+<iframe src="http://player.vimeo.com/video/19194748" width="320" height="276" frameborder="0"></iframe>
+
+[video_fly]: http://vimeo.com/19194748
+
+[straw]: http://strawlab.org
+[mamarama]: http://www.its.caltech.edu/~astraw/research/flydra/
+
+
+
+<!--
+
 I'm mainly interested in **robotics**, and, in particular, in all things related to handling uncertainty (localization, estimation, planning, communication). I like simple algorithms with solid mathematical properties. I like the measurements space.
 
 Recently, I have taken an interest in bio-plausible/bio-inspired control.
 
-No, I don't have a thesis topic yet. Suggestions are welcome.
 
-<!--
+No, I don't have a thesis topic yet. Suggestions are welcome.
 I try to keep only a handful of things in mind at a given time. At this very moment (Fall 2008), I'm focusing more on:
 - Algebraic properties of planning in information spaces.
 - Bayesian bounds for pose-tracking, SLAM; Gaussian processes.
@@ -23,6 +113,11 @@ I try to keep only a handful of things in mind at a given time. At this very mom
 
 Also, this term I will be taking courses in neuroscience / neuromorphic computing.
 -->
+
+Unorderd list of some topics
+============================
+
+
 
 See also:
 

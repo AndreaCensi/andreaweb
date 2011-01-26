@@ -1,0 +1,54 @@
+    body {
+        padding: 0; margin: 0;
+    }
+	
+
+    div#picture { display: block; float: left; margin: 2em; }
+    div#description {margin-left: 1em; float: left; display: block; }
+    div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
+	div#news     { clear: left; margin: 1em; }
+	div#personal { margin: 1em;}
+
+
+    body {          background-color: white; }
+    div#description { padding-top: 2em;}
+    div#updates { background-color: #FFFDFD; padding-left: 1em;}
+    div#picture IMG { border: solid 1px black;}
+    div#picture { font-style: italic; font-size: 90%;}
+
+	A.pdflink IMG {border:0; margin-bottom:-6px}
+	A.weblink IMG {border:0; margin-bottom:-6px; height: 17px;}
+	
+	.highlight { font-weight: bold;}
+		
+		
+/*	  #buttons, #buttons2 { 
+		float: right;
+	   text-align: center;
+	    }
+
+		#buttons, #buttons2 { width: 150px;}
+	  #caltechlogo, #sapienzalogo { border: 0pt none;   }
+		#sapienzalogo { margin-top: 30px; }
+		#roma { border: 0; } 
+	  
+		#address { float: left;}
+		#table {clear: both;}
+
+	#buttons2 { margin-right: 2em;}
+		body.indexcaltech #menu { display: none;}
+		body.indexcaltech DIV#body h1 { display: none;}
+		body.indexcaltech DIV#body { margin: 0;}
+	 	div.stemma  span { display: none;} 
+	    div.stemma:hover  span { display: block;}
+
+		div span.motto { display: none; font-variant: small-caps;font-stretch: expanded; }
+		div:hover span.motto { display: block;}
+		
+		div.obsolete { color: grey; }
+		div.obsolete A { color: grey; text-decoration: none;}
+
+
+
+
+/
