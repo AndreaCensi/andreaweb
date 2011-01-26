@@ -11,16 +11,23 @@
 
 
     body {          background-color: white; }
-    div#description { padding-top: 2em;}
+    div#description { padding-top: 1em;}
     div#updates { background-color: #FFFDFD; padding-left: 1em;}
     div#picture IMG { border: solid 1px black;}
     div#picture { font-style: italic; font-size: 90%;}
-
+    
+    div#description #also { display: block; float: left; padding-right: 2em;}
+    div#description #position { display: block; float: left; }
+    div#description #mainlinks { clear: left;}
 	A.pdflink IMG {border:0; margin-bottom:-6px}
 	A.weblink IMG {border:0; margin-bottom:-6px; height: 17px;}
 	
 	.highlight { font-weight: bold;}
-		
+	
+	#coordinates dl { display: block;}
+	#coordinates dt { display: inline; float: left;clear: left; font-style: italic; width: 6em;
+	                    text-align: right; margin-right: 0.5em;}
+	#coordinates dd { display: block; margin-left: 6.5em;  ;}		
 		
 /*	  #buttons, #buttons2 { 
 		float: right;
