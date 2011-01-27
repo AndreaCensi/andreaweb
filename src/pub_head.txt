@@ -8,11 +8,18 @@ orderInfo: 110
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
 
+My [Erdos number][erdos] is at most 5: Erd%C5%91s - [S.Shelah][shelah] - [D.M.Gabbay][gabbay] -
+[L.Carlucci Aiello][aiello] - [D.Nardi][nardi] - me.
 
+[erdos]: http://en.wikipedia.org/wiki/Erd%C5%91s_number
+[aiello]: http://www.dis.uniroma1.it/~aiello
+[nardi]: http://www.dis.uniroma1.it/~nardi
+[gabbay]: http://www.dcs.kcl.ac.uk/staff/dg/
+[shelah]: http://en.wikipedia.org/wiki/Saharon_Shelah
 
-<h4> Papers under review (might eventually disappear) </h4>
+<h4> Preprints </h4>
 
-<p>Any feedback on the papers under review is greatly appreciated! <br/>The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". </p>
+<p>Any feedback is greatly appreciated: the quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". </p>
 
 
 <p>

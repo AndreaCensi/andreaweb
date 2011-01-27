@@ -78,7 +78,7 @@ status: beta
 date: 2008
 language: C++
 url: http://purl.org/censi/2007/calibration
-desc: 
+desc: Software attached to an ICRA'08 paper.
 ---
 name: FTS
 group: research/papers
@@ -146,7 +146,7 @@ date: 2011
 status: beta
 active: yes
 language: Python
-url: http://andreacensi.github.com/geometry/
+url: http://andreacensi.github.com/snp_geometry/
 desc: |
     Python libraries for common operations on geometric objects (S^m, SO(n), SE(n), etc.)
 ---
@@ -156,7 +156,7 @@ date: 2010
 status: alpha
 active: yes
 language: Python
-url: http://github.com/AndreaCensi/reprep
+url: http://andreacensi.github.com/reprep/
 desc: |
     RepRep stands for Reproducible Reports. It is designed to make quick hierarchical reports of experimental data. "Reproducible" because it encourages you to add the source data to the report.
 ---
@@ -166,7 +166,7 @@ group: research/libraries
 status: beta
 active: yes
 language: Python
-url: http://github.com/AndreaCensi/compmake
+url: http://compmake.org
 desc: |
     Compmake is a task manager for single host/multiprocessed/distributed batch Python applications.
 ---
@@ -176,7 +176,7 @@ group: research/libraries
 status: alpha
 active:  yes
 language: Python
-url: http://github.com/AndreaCensi/procgraph
+url: http://andreacensi.github.com/procgraph/
 desc: |
     ProcGraph ("processing graph") is a Python tool for rapid prototyping of processing pipelines for logged and realtime data.
 ---
@@ -201,14 +201,18 @@ desc: |
     Simple C++ raytracer with JSON input/output. This is what I use
     in my papers when I need to simulate a range-finder.
 ---
-name: HSM 3D
+name: HSM (3D)
 date: 2009
 group: research/papers
 status: beta
 active: no
-language: C++
-url: 
-desc:
+language: "Matlab, C++"
+url: http://purl.org/censi/2008/hsm3d
+desc: |
+    Source code for the HSM3D algorithm. The C++ implementation is by
+    [Stefano Carpin][carpin] at UCMerced.
+    
+    [carpin]: http://eng.ucmerced.edu/people/scarpin/StefanoCarpin
 ---
 name: SBSE
 hide: true
@@ -246,7 +250,7 @@ group: research/biology
 status: beta
 active: yes
 language: Python
-url:  http://github.com/AndreaCensi/geometric_saccade_detector
+url:  http://andreacensi.github.com/geometric_saccade_detector/
 desc: |
     This is a library for detecting flies "saccades" (rapid turns) in noisy trajectories.
 

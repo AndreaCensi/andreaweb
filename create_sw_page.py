@@ -1,23 +1,18 @@
-import yaml, shutil
+import yaml, shutil, sys
 
 
 def main():
-    definitions = 'software.yaml'
-    groups = 'groups.yaml'
-    head = 'software.page.head'
-    output = '../software.page'
+    groups = sys.argv[1]
+    definitions = sys.argv[2]
+    output = sys.argv[3]
     
     projects = list(yaml.load_all(open(definitions)))
     groups = list(yaml.load_all(open(groups)))
     
     projects = [p for p in projects if not p.get('hide', False)]
     
-    f = open(output,'w')
-    with open(head) as hf:
-        f.write(hf.read())
-    render(groups, projects, f)
-
-    f.close()
+    with open(output,'w') as f:
+        render(groups, projects, f)
     
     shutil.copyfile(output, output+'.html')
     
@@ -38,7 +33,7 @@ def render(groups, projects, f):
                     status=string_status(p),
                     language=string_language(p),
                     year = p['date'],
-                    url=p['url'],
+                    url=get_url(p),
                     desc_html=md2html(p['desc']))
             row =row_template.format(**d)
             f.write(row)
@@ -97,17 +92,23 @@ def string_active(p):
                     'others': others}
     return get(p, 'active', options)
 
-def get(record, field, options):
+def get(record, field, options=None):
     rid = record.get('name', record)
-    if not field in record:
+    if not field in record or record[field] is None:
         print('Record %r does not have %r.' % (rid, field))
         return '!'
     value = record[field]
-    if not value in options:
-        print('Record %r has strange choice %r for %r (I want %r) ' % (rid, value, field,options.keys()))
-        return '?'
-    return options[value]
+    if options is None:
+        return value
+    else:
+        if not value in options:
+            print('Record %r has strange choice %r for %r (I want %r) ' % (rid, value, field,options.keys()))
+            return '?'
+        return options[value]
         
+def get_url(p):
+    return get(p, 'url')
+    
 def string_status(p):
     
     options = dict(production='<img class="status_icon" src="icons/status/status-stable.png" alt="stable"/>',
