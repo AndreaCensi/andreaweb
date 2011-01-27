@@ -19,12 +19,10 @@ description: "An open-source scan matching package."
 - To have a collection of utilies for command line (UNIX-style) manipulation of laser data,
   and creating [beautiful maps][map-example] and animations.
 
-In the package, there is also some other software: a Ruby wrapper for the C library, a Ruby and a Matlab implementation of the same algorithm. These are not usable as of now. Then, it's also my repository for miscellaneous useful scripts.
+The package contains also a Ruby wrapper for the C library, and additional Ruby and a Matlab implementations of the same algorithm. These are not as usable or documented as the C version.
 
 **What it is NOT**: Note that this is not a full-featured SLAM solution: this only does pairwise scan-matching between scans (but it's really good at it!).
-
 If you are looking for a more complete SLAM solution, please see the projects listed in the [OpenSLAM](http://www.openslam.org) page; in particular you can have a look at [GMapping]. 
-
 Many pointers to other SLAM software can be found on the pages of the Euron SLAM summer schools: 
 [2002 (Stockholm)](http://www.cas.kth.se/SLAM/),
 [2004 (Toulouse)](http://www.laas.fr/SLAM/),
@@ -32,7 +30,6 @@ Many pointers to other SLAM software can be found on the pages of the Euron SLAM
 Other related projects are [Carmen] and [Stage].
 
 [map-example]: ../plicp/laserazosSM3.log.pdf
-[animations]: inv
 
 [gmapping]: http://www.openslam.org/gmapping.html
 [carmen]: http://carmen.sourceforge.net/
