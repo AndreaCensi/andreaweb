@@ -23,7 +23,7 @@ along with some highlights of recent activity.
 
 * My main interest lies in **robotics**, which, from my point of view, includes all 
   interactions of an intelligent agent with the real world. I believe that in my
-  lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist]. I'm particularly interested in **perception** problems.
+  lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist]. While I'm waiting for that to happen, I'm particularly interested in **perception** problems.
   
   <!-- Inspiration: Asimov. I know, it's fiction, but I wouldn't be doing this without his books. -->
   
@@ -43,7 +43,7 @@ along with some highlights of recent activity.
   Also, "formal" usually implies "simple", because you usually can prove something
   only if it is simple enough.
     
-* **Data** before models, as long as formal results can still be proven.
+* **Data** before models, as long as formal results can still be proved.
 
   <!-- (Control community ) -->
   <!-- Inspiration: Hinton's networks -->
@@ -63,12 +63,12 @@ along with some highlights of recent activity.
   on differential **geometry**.
   Both are so deep that guarantee a lifetime learning experience!
 
-* When you apply *geometry* to *estimation*  [you get][araki]  **information geometry**
-  or [information spaces][information_spaces].
-  When you apply *estimation* to *geometry* you get **stochastic geometry**
-  (yes, the naming is confusing). See for example the
-  [theory of shape spaces][kendall], and [my favorite paper][smith] (which I still don't understand completely).
-  
+* When you apply *geometry* to *estimation*  you get  **information geometry** ([simple introduction][araki] ).  
+  When you apply *estimation* to *geometry* you get **intrinsic estimation**
+  (see for example the
+  [theory of shape spaces][kendall], and [my favorite paper][smith]).  
+  I'm interested in both combinations.
+ 
 Keep reading for some highlights from my research, or read my [publications] list.
   
 [information_spaces]: http://msl.cs.uiuc.edu/~lavalle/
@@ -82,6 +82,7 @@ Keep reading for some highlights from my research, or read my [publications] lis
 [robopsychologist]: http://en.wikipedia.org/wiki/Robopsychology
 [repres]: http://www.reproducibleresearch.net
 
+<!-- or [information spaces][information_spaces]. -->
 
 ### Highlight - Bootstrapping Vehicles
 
@@ -92,7 +93,7 @@ Keep reading for some highlights from my research, or read my [publications] lis
 
 My thesis work will focus on the problem of bootstrapping: learning a model of a robot's sensorimotor cascade, and its environment, from zero prior information other than basic semantic. At the beginning, we only assume to have uninterpreted streams of bits representing the output of some sensors, and that we have some commands available, and that there is some causal relation from actions to observations. The situation is very similar to the video on the right.
 
-Other than a worthy problem per se (it subsumes most problems of learning, calibration, fault detection, etc.), it is also a proxy for studying some aspects of the higher level of neural processing. In fact, it is believed that [the cortex] starts as a *tabula rasa* that adapts to the inputs (the evidence is that parts of it can be repurposed in subjects that lost some capacity).
+Other than a worthy problem per se (it subsumes most problems of learning, calibration, fault detection, etc.), it is also a proxy for studying some aspects of the higher level of neural processing. In fact, it is believed that the cortex starts as a *tabula rasa* that adapts to the inputs (the evidence is that parts of it can be repurposed in subjects that lost some sensory capacity).
 
 
 At this point, it is not clear if an agent can learn everything from the environment, or if there is something that should be known a priori. My goal has been to try to derive some precise formulation of the problem, and to find strong results (in the spirit of control theory) that can be built upon.
@@ -112,6 +113,8 @@ Representative paper: [Bootstrapping bilinear models of sensorimotor cascades][b
 See [many other videos][bevideos] of related experiments.
 {.video_caption} 
 
+
+[bevideos]: http://purl.org/censi/2010/be
 [bds]: http://purl.org/censi/2010/boot
 
 [many other videos]: bevideos
@@ -120,7 +123,7 @@ See [many other videos][bevideos] of related experiments.
 
 ### Highlight - Visually-guided behavior in Drosophila Melanogaster
 
-I have been collaborating with [the Dickinson lab], in particular with [Andrew Straw][straw] (who now has his own lab atthe Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
+I have been collaborating with [the Dickinson lab], in particular with [Andrew Straw][straw] (who now has his own lab at the Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
 
 
 
@@ -129,12 +132,12 @@ I have been collaborating with [the Dickinson lab], in particular with [Andrew S
 </div>
 
 The video  shows the kind of simulated
-data I am working with. Using [a special apparatus][mamarama] with 11 cameras, the animal is tracked with a precision of a few millimiters. An ad-hoc simulator allows to reconstruct the visual stimuls experienced by the animal at a reasonable level of accuracy.
+data I am working with. Using [a special apparatus][mamarama] with 11 cameras, the animal is tracked with a precision of a few millimiters. An ad-hoc simulator allows to reconstruct the visual stimulus experienced by the animal at a reasonable level of accuracy.
 
 We then analyze the data asking whether we can infer the neural processing happening in the animal brain.
 
 
-Video: Simulated visual input from tracking data of free-flying Drosophila Melanogaster ([watch on Vimeo][video_fly]. On the right, you can see the simulated visual stimulus. On the left, the position of the fly in the arena (1m diameter). Note that the video is slowed down about 10x with respect to the real data: fruit flies are very fast! (real time is in the left corner) Watch the video full-screen to appreciate the details. 
+Video: Simulated visual input from tracking data of free-flying Drosophila Melanogaster ([watch on Vimeo][video_fly]). On the right, you can see the simulated visual stimulus. On the left, the position of the fly in the arena (1m radius). Note that the video is slowed down about 10x with respect to the real data: fruit flies are very fast! (real time is in the left corner) Watch the video full-screen to appreciate the details. 
 {.video_caption} 
 
 [video_fly]: http://vimeo.com/19194748
