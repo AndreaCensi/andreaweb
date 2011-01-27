@@ -1,22 +1,454 @@
 ---
-orderInfo: 200
+title: Software
+page_class: software_index
+Date: Jan 1 2011
 ---
 
-*[Software related to my research](research/sw/index.html) is elsewhere.*
+I like to shuffle bits around. This is what is currently publicly
+available as well-packaged software.
 
-I like to shuffle bits around.This is what is currently publicly available as well-packaged software:
+Mostly everything is available under either the GPL or LGPL license.
 
-- [Maruku], a free (GPL) [Markdown] interpreter written in Ruby.
+<style type='text/css'>
+    tr.header {font-style: italic;}
+    tr.header .name { width: 10em;}
+    tr.header .active { width: 3em;}
+    tr.header .status { width: 3em;}
+    tr.header .language { width: 5em;}
+    tr.project td { padding: 0.3em;}
+    
+    img.activity_icon,
+    img.status_icon { width: 32px;} 
 
-- **(frozen)** [K6][k6], a free (GPL) KDE client for [C6][c6]. 
-  
-  - [Reverse engineering of the C6 protocol][proto]. 
+
+    table.levels  caption { font-weight: bold;}
+    
+    table.levels   { float: left; padding-left: 2em; padding-right: 2em;}
+
+    table.levels td { padding-right: 0.5em; max-width: 20em;}
+</style>
+
+<table id='activity_levels' class='levels'>
+    <caption> Activity levels </caption>
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-active.png" alt="active"/>
+        </td>
+        <td>
+            In active development; used day-to-day.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-maintained.png" alt="active"/>
+        </td>
+        <td>
+            Not in active development, but actively maintained by me. Bugs fixed when found.
+        </td>
+    </tr> 
+    
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-others.png" alt="active"/>
+        </td>
+        <td>
+            Actively maintained by other people.
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-notactive.png" alt="active"/>
+        </td>
+        <td>
+            Not maintained ("frozen").
+        </td>
+    </tr>
+</table>
+
+<table id='status_levels' class='levels'>
+    <caption> Status levels </caption>
+    <tr>
+        <td>
+            <img class="status_icon" src="icons/status/status-stable.png" alt="stable"/>
+        </td>
+        <td>
+            Stable, production level, with documentation.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img class="status_icon" src="icons/status/status-beta.png" alt="beta"/>
+        </td>
+        <td>
+            Beta version; usable but not stable, or documentation not complete.
+        </td>
+    </tr> 
+    
+    <tr>
+        <td>
+            <img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/>
+        </td>
+        <td>
+            Alpha version; unstable, no documentation, or experimental.
+        </td>
+    </tr>
+
+</table>
+
+<div style='clear:both'/>
 
 
-[Maruku]: http://maruku.rubyforge.org
-[Markdown]: http://en.wikipedia.org/wiki/Markdown
+<h2 class='group_name'> Research/libraries </h2>
+<p class='group_desc'> <p>Libraries developed in connection with my research.</p> </p>
+        
 
-[k6]:     http://www.cds.caltech.edu/~andrea/pub/software/k6
-[latex]:  http://www.cds.caltech.edu/~andrea/pub/software/rendering_latex/
-[c6]:     http://c6.alice.it/
-[proto]:  http://openc6.extracon.it/downloads/pubblici/icpp.html
+<table class='projects'>
+<tr class='header'>
+    <td class='name'></td>
+    <td class='year'>started</td>
+    <td class='active'>active</td>
+    <td class='status'>status</td>
+    <td class='language'>language</td>
+    <td class='desc'></td>
+</tr>
+
+
+    <tr class='project'>
+        <td class='name'><a href='http://andreacensi.github.com/contracts/'>PyContracts</a></td>
+
+        <td class='year' >2011</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>PyContracts is a Python package that allows to declare constraints on function parameters and return values. Contracts can be specified using Python3 annotations, or inside a docstring :type: and :rtype: tags. PyContracts supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays), as well as an extension API</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://andreacensi.github.com/geometry/'>PyGeometry</a></td>
+
+        <td class='year' >2011</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>Python libraries for common operations on geometric objects (S^m, SO(n), SE(n), etc.)</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/procgraph'>ProcGraph</a></td>
+
+        <td class='year' >2011</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>ProcGraph ("processing graph") is a Python tool for rapid prototyping of processing pipelines for logged and realtime data.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/stochastic_testing'>stochastic_testing</a></td>
+
+        <td class='year' >2011</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>A library for creating unit-tests for "random" functions.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/reprep'>RepRep</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>RepRep stands for Reproducible Reports. It is designed to make quick hierarchical reports of experimental data. "Reproducible" because it encourages you to add the source data to the report.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/compmake'>Compmake</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>Compmake is a task manager for single host/multiprocessed/distributed batch Python applications.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='https://github.com/AndreaCensi/raytracer'>raytracer</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>C</td>
+        <td class='desc'><p>Simple C++ raytracer with JSON input/output. This is what I use
+in my papers when I need to simulate a range-finder.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/csm'>CSM</a></td>
+
+        <td class='year' >2008</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>C</td>
+        <td class='desc'><p>The C(anonical) Scan Matcher.
+There is also a <a href="http://www.ros.org/wiki/canonical_scan_matcher">wrapper</a> for <a href="http://www.ros.org/">ROS</a> created by Ivan Dryanovski.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://purl.org/censi/2007/gpc'>GPC</a></td>
+
+        <td class='year' >2007</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>C</td>
+        <td class='desc'><p>Library for solving the generalized 2D point-correspondence problem.
+This is the core function of <a href="http://purl.org/censi/2007/plicp">PL-ICP</a>.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://openrdk.sourceforge.net/'>OpenRDK</a></td>
+
+        <td class='year' >2005</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-others.png" alt="maintained by others"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>The robotics framework developed at the <a href="http://sied.dis.uniroma1.it/">SIED</a> lab.</p></td>
+    </tr>
+
+
+</table>
+
+<h2 class='group_name'> Research/utils </h2>
+<p class='group_desc'> <p>Simple utils that make life easier.</p> </p>
+        
+
+<table class='projects'>
+<tr class='header'>
+    <td class='name'></td>
+    <td class='year'>started</td>
+    <td class='active'>active</td>
+    <td class='status'>status</td>
+    <td class='language'>language</td>
+    <td class='desc'></td>
+</tr>
+
+
+    <tr class='project'>
+        <td class='name'><a href='https://github.com/AndreaCensi/latex_symbol_list'>latex_symbols_list</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>Simple script to create symbol tables in LaTeX.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='2x2_eigen.html'>Eigen-decomposition of a 2x2 matrix</a></td>
+
+        <td class='year' >2007</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>C</td>
+        <td class='desc'><p>It is more difficult than it seems.</p></td>
+    </tr>
+
+
+</table>
+
+<h2 class='group_name'> Software for research papers </h2>
+<p class='group_desc'> <p>Software attached to one of my papers.</p> </p>
+        
+
+<table class='projects'>
+<tr class='header'>
+    <td class='name'></td>
+    <td class='year'>started</td>
+    <td class='active'>active</td>
+    <td class='status'>status</td>
+    <td class='language'>language</td>
+    <td class='desc'></td>
+</tr>
+
+
+    <tr class='project'>
+        <td class='name'><a href='http://purl.org/censi/2010/boot'>Bootstrapping software</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python,C</td>
+        <td class='desc'><p>The software I am developing for my thesis.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='None'>HSM 3D</a></td>
+
+        <td class='year' >2009</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>C++</td>
+        <td class='desc'><p>?</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://purl.org/censi/2007/calibration'>Calibration with range-finders</a></td>
+
+        <td class='year' >2008</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>C++</td>
+        <td class='desc'><p>?</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://purl.org/censi/2007/ftf'>FTS</a></td>
+
+        <td class='year' >2008</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>C++</td>
+        <td class='desc'><p>Global (re)localization algorithm (ICRA'08 paper)</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://purl.org/censi/2007/ppu'>Planning with uncertainty</a></td>
+
+        <td class='year' >2008</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>C++</td>
+        <td class='desc'><p>Planner in information spaces. Developed for my MEng thesis.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://purl.org/censi/2006/hsm'>HSM (2D)</a></td>
+
+        <td class='year' >2006</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>Matlab</td>
+        <td class='desc'><p>Software demonstrating Hough Scan Matching in 2D.</p></td>
+    </tr>
+
+
+</table>
+
+<h2 class='group_name'> Research/biology </h2>
+<p class='group_desc'> <p>?</p> </p>
+        
+
+<table class='projects'>
+<tr class='header'>
+    <td class='name'></td>
+    <td class='year'>started</td>
+    <td class='active'>active</td>
+    <td class='status'>status</td>
+    <td class='language'>language</td>
+    <td class='desc'></td>
+</tr>
+
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/geometric_saccade_detector'>Geometric Saccade Detector</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>A saccade detector.</p></td>
+    </tr>
+
+
+</table>
+
+<h2 class='group_name'> General-purpose software </h2>
+<p class='group_desc'> <p>General-purpose</p> </p>
+        
+
+<table class='projects'>
+<tr class='header'>
+    <td class='name'></td>
+    <td class='year'>started</td>
+    <td class='active'>active</td>
+    <td class='status'>status</td>
+    <td class='language'>language</td>
+    <td class='desc'></td>
+</tr>
+
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/nex3/maruku'>Maruku</a></td>
+
+        <td class='year' >2008</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-others.png" alt="maintained by others"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>Ruby</td>
+        <td class='desc'><p>A pure-Ruby <a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a>-superset interpreter.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://www.cds.caltech.edu/~andrea/pub/software/k6'>k6</a></td>
+
+        <td class='year' >2005</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='language'>C++</td>
+        <td class='desc'><p>A free (GPL) KDE client for <a href="http://c6.alice.it/">C6</a>. 
+See also: <a href="http://openc6.extracon.it/downloads/pubblici/icpp.html">reverse engineering of the C6 protocol</a>. </p></td>
+    </tr>
+
+
+</table>
+
+<h2 class='group_name'> General-purpose utilities </h2>
+<p class='group_desc'> <p>General-purpose utilities</p> </p>
+        
+
+<table class='projects'>
+<tr class='header'>
+    <td class='name'></td>
+    <td class='year'>started</td>
+    <td class='active'>active</td>
+    <td class='status'>status</td>
+    <td class='language'>language</td>
+    <td class='desc'></td>
+</tr>
+
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/patience'>patience</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>A simple script I use privately to manage multiple git repositories.</p></td>
+    </tr>
+
+
+</table>

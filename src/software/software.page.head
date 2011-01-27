@@ -4,5 +4,118 @@ page_class: software_index
 Date: Jan 1 2011
 ---
 
-I like to shuffle bits around. This is what is currently publicly
-available as well-packaged software.
+Writing elegant code is one of my favorite activities.
+This page presents a list of all my software that is publicly available.
+Most is related to my research, or computational science in general, but 
+there are also some general utilities.
+
+**Note about stability and support**: 
+This page includes robust, production-ready code, as well as 
+*very* experimental projects. 
+The tables below which explain the meanings of icons that describe for the quality and support of the codebase.
+
+**License**: Almost everything is available under either the [GPL] or [LGPL] license.
+In the cases where it is not, it is because I got a different
+deal with my collaborators, or there were some other constraints.
+You are very welcome to use and redistribute this software under the conditions 
+in those licenses.
+
+**Repositories**: Nowadays I'm using mostly [GitHub] to distribute the software.
+The link below will take you to the GitHub pages where you can "watch" repositories and be kept updated. If you collaborate with me (also on "private" projects, not shared) you should at some point
+create an account on GitHub.
+
+[GPL]: http://www.gnu.org/licenses/gpl.html
+[LGPL]: http://www.gnu.org/licenses/lgpl.html
+[git]: http://en.wikipedia.org/wiki/Git_(software)
+[GitHub]: http://www.github.com/
+
+
+<style type='text/css'>
+    tr.header {font-style: italic;}
+    tr.header .name { width: 10em;}
+    tr.header .active { width: 3em;}
+    tr.header .status { width: 3em;}
+    tr.header .language { width: 5em;}
+    tr.project td { padding: 0.3em;}
+    
+    img.activity_icon,
+    img.status_icon { width: 32px;} 
+
+
+    table.levels  caption { font-weight: bold;}
+    
+    table.levels   { float: left; padding-left: 2em; padding-right: 2em;}
+
+    table.levels td { padding-right: 0.5em; max-width: 20em;}
+</style>
+
+<table id='activity_levels' class='levels'>
+    <caption> Activity levels </caption>
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-active.png" alt="active"/>
+        </td>
+        <td>
+            In active development; used day-to-day.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-maintained.png" alt="active"/>
+        </td>
+        <td>
+            Not in active development, but actively maintained by me. Bugs fixed when found.
+        </td>
+    </tr> 
+    
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-others.png" alt="active"/>
+        </td>
+        <td>
+            Actively maintained by other people.
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <img class="activity_icon" src="icons/status/activity-notactive.png" alt="active"/>
+        </td>
+        <td>
+            Not maintained ("frozen").
+        </td>
+    </tr>
+</table>
+
+<table id='status_levels' class='levels'>
+    <caption> Status levels </caption>
+    <tr>
+        <td>
+            <img class="status_icon" src="icons/status/status-stable.png" alt="stable"/>
+        </td>
+        <td>
+            Stable, production level, with documentation.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img class="status_icon" src="icons/status/status-beta.png" alt="beta"/>
+        </td>
+        <td>
+            Beta version; usable but not stable, or documentation not complete.
+        </td>
+    </tr> 
+    
+    <tr>
+        <td>
+            <img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/>
+        </td>
+        <td>
+            Alpha version; unstable, no documentation, or experimental.
+        </td>
+    </tr>
+
+</table>
+
+<div style='clear:both'/>
+

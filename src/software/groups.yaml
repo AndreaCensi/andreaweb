@@ -1,9 +1,37 @@
 ---
-name: abandoned
-title: Abandoned
-desc: Software that I wrote a long time ago and that I don't support anymore.
+id: research/libraries
+name: Research (libraries)
+desc: Libraries developed in connection with my research.
 ---
-name: generic
-title: Generic research
-desc: General-purpose software
+id: research/utils
+name: Research (utilities)
+desc: Simple utils that make life easier.
+---
+id: research/papers
+name: Software for research papers
+desc: |
+    This is software which is attached to one of my papers.
+    I always released all non-trivial software: I think this should be compulsory
+    for every scientific publication (not necessarily with an open-source license.)
+    With each paper, I'm trying to make my software more compatible with the principles of
+    [reproducible research][rr] ("one click" to run the experiments and produce the figures)
+    but I'm not there yet.
     
+    [rr]: http://www.reproducibleresearch.net/
+    
+---
+id: research/biology
+name: Research/biology
+desc: |
+    This is software related to my collaboration with biologists (more to come once the work goes through review).
+---
+id: general
+name: General-purpose software
+desc: This is software not related to my research.
+---
+id: general/utils
+name: General-purpose utilities
+desc: |
+    These are general-purpose utilities, not directly related to my research.
+
+

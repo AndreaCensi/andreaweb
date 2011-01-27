@@ -5,59 +5,68 @@
 name: PyContracts
 group: research/libraries
 status: production
+date: 2011
 active: yes
 language: Python
 url: http://andreacensi.github.com/contracts/
 desc: |
-PyContracts is a Python package that allows to declare constraints on function parameters and return values. Contracts can be specified using Python3 annotations, or inside a docstring :type: and :rtype: tags. PyContracts supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays), as well as an extension API
+    PyContracts is a Python package that allows to declare constraints on function parameters and return values. Contracts can be specified using Python3 annotations, or inside a docstring :type: and :rtype: tags. PyContracts supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays), as well as an extension API
 ---
 name: Maruku
 group: general
 status: production
 active: others
+date: 2008
 language: Ruby
 url:  http://github.com/nex3/maruku
 desc: |
-    A pure-Ruby [Markdown]-superset interpreter.
+    A pure-Ruby [Markdown][Markdown]-superset interpreter.
+    
     [Markdown]: http://en.wikipedia.org/wiki/Markdown
 ---
 name: k6
 group: general
 active: no
 language: C++
+date: 2005
 status: production
 url: http://www.cds.caltech.edu/~andrea/pub/software/k6
 desc:  |
   A free (GPL) KDE client for [C6][c6]. 
   See also: [reverse engineering of the C6 protocol][proto]. 
+  
   [c6]:     http://c6.alice.it/
   [proto]:  http://openc6.extracon.it/downloads/pubblici/icpp.html
 
-* [OpenRDK] is 
 ---
 name: OpenRDK
 group: research/libraries
 active: others
-language: Python
+language: C++
 status: production
+date: 2005
 url: http://openrdk.sourceforge.net/
 desc: |
-    The robotics framework developed at the [SIED] lab.
+    The robotics framework developed at the [SIED][sied] lab.
 
-    [SIED]: http://sied.dis.uniroma1.it/
+    [sied]: http://sied.dis.uniroma1.it/
 ---
-name: Solving the generalized 2d point-correspondence problem
+name: GPC
 group: research/libraries
 status: production
-active: maintaned
+active: maintained
+date: 2007
 language: C
-url: gpc.html
+url: http://purl.org/censi/2007/gpc
 desc: |
-   The core function of [PL-ICP](http://purl.org/censi/2007/plicp).
+   Library for solving the generalized 2D point-correspondence problem.
+   This is the core function of [PL-ICP](http://purl.org/censi/2007/plicp).
 ---
-name: The eigen-decomposition of a 2x2 matrix
+name: Eigen-decomposition of a 2x2 matrix
 group: research/utils
 status: production
+language: C
+date: 2007
 active: maintained
 url: 2x2_eigen.html
 desc: It is more difficult than it seems. 
@@ -65,36 +74,42 @@ desc: It is more difficult than it seems.
 name: Calibration with range-finders
 group: research/papers
 active: maintained
+status: beta
+date: 2008
 language: C++
 url: http://purl.org/censi/2007/calibration
 desc: 
 ---
-name: Global (re)localization
+name: FTS
 group: research/papers
-status:
-active: 
-language: 
+date: 2008
+status: beta
+active: no
+language: C++
 url: http://purl.org/censi/2007/ftf
-desc: 
+desc: Global (re)localization algorithm (ICRA'08 paper)
 ---
-name: Hough Scan Matching
+name: HSM (2D)
 group: research/papers
-status:
-active: 
-language: 
+date: 2006
+status: beta
+active: no
+language: Matlab
 url: http://purl.org/censi/2006/hsm
-desc: 
+desc: Software demonstrating Hough Scan Matching in 2D.
 ---
 name: Planning with uncertainty
 group: research/papers
-status:
-active: 
-language: 
+date: 2008
+status: beta
+active: no
+language: C++
 url: http://purl.org/censi/2007/ppu
-desc: 
+desc: Planner in information spaces. Developed for my MEng thesis.
 ---
 name: latex_symbols_list
 group: research/utils
+date: 2010
 status: alpha
 active: yes
 language: Python
@@ -104,8 +119,9 @@ desc: Simple script to create symbol tables in LaTeX.
 name: patience
 group: general/utils
 status: alpha
-active: 
-language: 
+date: 2010
+active: yes
+language: Python
 url: http://github.com/AndreaCensi/patience
 desc: |
     A simple script I use privately to manage multiple git repositories.
@@ -113,37 +129,41 @@ desc: |
 name: CSM
 group: research/libraries
 status: production
+date: 2008
 active: maintained
 language: C 
 url: http://github.com/AndreaCensi/csm
 desc: |
-    The C(canonical) Scan Matcher.
-    There is also a [wrapper] for [ROS] created by Ivan Dryanovski.
+    The C(anonical) Scan Matcher.
+    There is also a [wrapper][wrapper] for [ROS][ROS] created by Ivan Dryanovski.
     
     [ROS]: http://www.ros.org/
     [wrapper]: http://www.ros.org/wiki/canonical_scan_matcher
 ---
 name: PyGeometry
 group:  research/libraries
+date: 2011
 status: beta
-active: 
-language: 
-url: http://github.com/AndreaCensi/snp_geometry
+active: yes
+language: Python
+url: http://andreacensi.github.com/geometry/
 desc: |
     Python libraries for common operations on geometric objects (S^m, SO(n), SE(n), etc.)
 ---
 name: RepRep
-group: general
+group: research/libraries
+date: 2010
 status: alpha
-active: 
-language: 
+active: yes
+language: Python
 url: http://github.com/AndreaCensi/reprep
 desc: |
-    “RepRep” stands for Reproducible Reports. It is designed to make quick hierarchical reports of experimental data. “Reproducible” because it encourages you to add the source data to the report.
+    RepRep stands for Reproducible Reports. It is designed to make quick hierarchical reports of experimental data. "Reproducible" because it encourages you to add the source data to the report.
 ---
 name: Compmake
-group: research
-status: alpha
+date: 2010
+group: research/libraries
+status: beta
 active: yes
 language: Python
 url: http://github.com/AndreaCensi/compmake
@@ -151,16 +171,18 @@ desc: |
     Compmake is a task manager for single host/multiprocessed/distributed batch Python applications.
 ---
 name: ProcGraph
-group: research
-status: beta
-active: 
-language: 
+date: 2011
+group: research/libraries
+status: alpha
+active:  yes
+language: Python
 url: http://github.com/AndreaCensi/procgraph
 desc: |
     ProcGraph ("processing graph") is a Python tool for rapid prototyping of processing pipelines for logged and realtime data.
 ---
 name: stochastic_testing
-group: research
+date: 2011
+group: research/libraries
 status: alpha
 active: yes
 language: Python
@@ -169,7 +191,8 @@ desc: |
     A library for creating unit-tests for "random" functions.
 ---
 name: raytracer
-group: research
+date: 2010
+group: research/libraries
 status: beta
 active: maintained
 language: C
@@ -178,34 +201,37 @@ desc: |
     Simple C++ raytracer with JSON input/output. This is what I use
     in my papers when I need to simulate a range-finder.
 ---
-name: HSM
-group: research
-status: demo
+name: HSM 3D
+date: 2009
+group: research/papers
+status: beta
 active: no
-language: Matlab
+language: C++
 url: 
 desc:
 ---
 name: SBSE
 hide: true
-group: research/demos
+date: 2011
+group: research/papers
 status: beta
 active: yes
 language: Python
-url: 
+url: https://github.com/AndreaCensi/cbc
 desc:
 ---
 name: Bootstrapping software
-group: research/demos
+date: 2010
+group: research/papers
 status: alpha
 active: yes
-language: "Python,C"
+language: "Python,C++"
 url: http://purl.org/censi/2010/boot
 desc: |
     The software I am developing for my thesis.
-    
 ---
 name: rfsee
+date: 2010
 hide: true
 group: research/biology
 status: beta
@@ -215,9 +241,13 @@ url:
 desc:
 ---
 name: Geometric Saccade Detector
+date: 2010
 group: research/biology
 status: beta
+active: yes
+language: Python
 url:  http://github.com/AndreaCensi/geometric_saccade_detector
-desc: A saccade detector.
+desc: |
+    This is a library for detecting flies "saccades" (rapid turns) in noisy trajectories.
 
 
