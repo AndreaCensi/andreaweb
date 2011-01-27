@@ -5,7 +5,11 @@ orderInfo: 110
 ---
 <style type="text/css">
 h4 { border-bottom: solid 2px pink; padding-bottom: 5px};
+.updated { color: red; }
 </style>
+
+Updated: January 2011
+{.updated}
 
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
