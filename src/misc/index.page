@@ -1,30 +1,22 @@
 ---
 title: Miscellaneous
-Date: Apr 4 2006
+Date: Jan 1 2011
 ---
 
+- [My list of cool software for research](http://www.cds.caltech.edu/~andrea/blog/2010/12/tools-of-the-trade/)
 - [How to pronounce my name](andrea.html)
 - [Travel pictures](pictures.html)
 - Random stuff in my [`pub` directory][pub].                    
 - How to [render latex in HTML with proper baseline][latex].
 
-<!-- ### Links 
 
-- [Cool software not painful to use](coolsw.html)
-- [Cool websites](links.html) -->
-
-### Credits
-
-This site is [baked][baked] using [webgen], an open source [Ruby]-based 
-Content Management System, with text-filtering provided by my own [Maruku].
+**Site credits**: This site is [baked][baked] using [webgen], an open source [Ruby]-based 
+Content Management System, with text-filtering provided by [Maruku].
 
 [Nukumi2]: http://chneukirchen.org/blog/static/projects/nukumi2.html
 [baked]:  http://www.aaronsw.com/weblog/000404
 [ruby]:   http://www.ruby-lang.org
 [pub]:    http://www.cds.caltech.edu/~andrea/pub/
-[k6]:     http://www.cds.caltech.edu/~andrea/pub/software/k6
 [latex]:  http://www.cds.caltech.edu/~andrea/pub/software/rendering_latex/
-[c6]:     http://c6.alice.it/
-[proto]:  http://openc6.extracon.it/downloads/pubblici/icpp.html
 [maruku]: http://maruku.rubyforge.org/
 [webgen]: http://maruku.rubyforge.org/

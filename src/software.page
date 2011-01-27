@@ -281,7 +281,7 @@ This is the core function of <a href="http://purl.org/censi/2007/plicp">PL-ICP</
     </tr>
 
     <tr class='project'>
-        <td class='name'><a href='2x2_eigen.html'>Eigen-decomposition of a 2x2 matrix</a></td>
+        <td class='name'><a href='research/sw/2x2_eigen.html'>Eigen-decomposition of a 2x2 matrix</a></td>
 
         <td class='year' >2007</td>
         <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
@@ -338,7 +338,7 @@ but I'm not there yet.</p> </p>
     </tr>
 
     <tr class='project'>
-        <td class='name'><a href='http://purl.org/censi/2007/calibration'>Calibration with range-finders</a></td>
+        <td class='name'><a href='http://purl.org/censi/2007/calib'>Calibration with range-finders</a></td>
 
         <td class='year' >2008</td>
         <td class='active' ><img class="activity_icon" src="icons/status/activity-maintained.png" alt="maintained by me"/></td>
