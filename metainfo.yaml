@@ -18,11 +18,11 @@ cv.page:
   page_class: clear
 
 research:
-  orderInfo: 100
+  orderInfo: 400
 
 misc:
   title: Misc
-  orderInfo: 220
+  orderInfo: 1000
 
 andrea.page:
   inMenu: false

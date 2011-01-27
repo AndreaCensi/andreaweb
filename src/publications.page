@@ -1,11 +1,12 @@
 ---
 title: Publications
 Date: Jan 3 2007
-orderInfo: 110
+orderInfo: 100
 ---
-<style type="text/css">
-h4 { border-bottom: solid 2px pink; padding-bottom: 5px};
+<style type='text/css'>
+h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
 </style>
+<p class='updated' style='color: #c00; font-weight: bold'>(updated: January 2011)</p>
 
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
@@ -24,7 +25,7 @@ My [Erdos number][erdos] is at most 5: Erdos - [S.Shelah][shelah] - [D.M.Gabbay]
 
 <h4> Preprints / to appear </h4>
 
-<p>Any feedback is greatly appreciated: the quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". </p>
+*Any feedback on preprints is greatly appreciated: the quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".*
 
 
 

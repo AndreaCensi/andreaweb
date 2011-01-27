@@ -1,15 +1,12 @@
 ---
 title: Publications
 Date: Jan 3 2007
-orderInfo: 110
+orderInfo: 100
 ---
-<style type="text/css">
-h4 { border-bottom: solid 2px pink; padding-bottom: 5px};
-.updated { color: red; }
+<style type='text/css'>
+h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
 </style>
-
-Updated: January 2011
-{.updated}
+<p class='updated' style='color: #c00; font-weight: bold'>(updated: January 2011)</p>
 
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>

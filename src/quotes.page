@@ -1,5 +1,126 @@
-La cultura � l'abitudine del pensare chiaro e logico, il coraggio del giudizio indipendente.
+---
+title: Quotes
+Date: Jan 3 2011
+orderInfo: 300
+---
+
+<style type="text/css">
+blockquote p { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0;}
+blockquote { font-style: italic;  margin-bottom: 0; padding-bottom: 0;}
+blockquote A { font-style: normal; }
+h4 { color: #400; }
+
+.translation { color: grey; margin-top: 0; padding-top: 0;  font-style: normal; }
+</style>
+
+I enjoy collecting quotes: behind each of these, there is a lesson I learned (sometimes painfully). 
+
+Some quotes by living people are left anonymous, as I'm not sure they would like to be quoted.
 
 
-The ??? is the custom of thinking clearly and logically, and the courage of independent judgement.
+#### On getting things done
 
+> Le mieux est l'ennemi du bien. --- [Voltaire]
+
+> Better is the enemy of good enough.
+{.translation}
+
+
+> Che cos'è il genio? è fantasia, intuizione, decisione e velocità d'esecuzione. --- from [Amici miei]
+
+> "What is genius? It's imagination, intuition, willingness and speed of execution." This is spoken in the movie [Amici Miei] referring to a rather crude practical joke, but it applies equally well to research.
+{.translation}
+
+
+> Nil difficili volenti.
+
+> Nothing is difficult to willing people.
+{.translation}
+
+
+See also: [The importance of stupidity in scientific research][stupid]
+
+[stupid]: http://jcs.biologists.org/cgi/content/full/121/11/1771
+
+#### On dealing with failure 
+
+
+> Success is going from failure to failure without losing enthusiasm. --- [Winston Churchill][churchill]
+
+> An expert is a person who has made all the mistakes that can be made in a very narrow field. --- [Niels Bohr][bohr]
+
+
+See also: [We are sorry to inform you...][sorry] (required reading before reviewing)
+
+[sorry]: http://dx.doi.org/10.1109/MC.2005.423
+
+#### On communication and publishing
+
+> What is written without effort is in general read without pleasure. --- [Samuel Johnson]
+
+> Write a paper so that at least you yourself are able to read it five years from now. --- [Jerry Marsden]
+
+> If you try to talk to two people at the same time, you end up talking to the wall. --- Professor at Caltech
+
+> Don't scoop yourself. --- Professor at Caltech
+
+
+
+#### On the nature of genius
+
+> Genius is 1% inspiration and 99% perspiration. --- [Thomas Edison][edison]
+
+
+> Se la tua idea geniale non l'ha mai pensata nessuno,
+> è probabilmente una minchiata.  --- [Enrico Pagello]
+
+> If nobody had ever thought your genius idea, it's probably worthless.
+{.translation}
+
+ 
+
+#### On modeling and abstractions
+
+> The price of metaphor is eternal vigilance. --- [Norbert Wiener][wiener]
+
+> The best model of a cat is another cat, or better yet, the cat itself. ---  ([Norbert Wiener][wiener] or [Arturo Rosenblueth][rosenblueth]
+
+> A good man has to know his limitations. --- Dirty Harry, relayed by a professor in Sapienza University
+
+> Valid equally well for estimation and control.
+{.translation}
+
+See also: [Respect the unstable][unstable]
+
+[unstable]: http://dx.doi.org/10.1109/MCS.2003.1213600
+
+
+#### On our role in society
+
+> La cultura è l'abitudine del pensare chiaro e logico, il coraggio del giudizio indipendente. --- [G. Salvemini][salvemini]
+
+> Culture is the habit of thinking clearly and logically, and the courage to an independent judgement.
+{.translation}
+
+> It is the responsibility of intellectuals to speak the Truth and expose lies. --- [Chomsky]
+
+
+
+#### On lab safety
+
+> Always keep one hand in the pocket. --- Anonymous professor in Sapienza University
+
+This is all I remember from a course on control of electric motors a few years back, but it is really good advice.
+
+[Amici Miei]: http://en.wikipedia.org/wiki/My_Friends_(film)
+[salvemini]: http://en.wikipedia.org/wiki/Gaetano_Salvemini
+[chomsky]: http://en.wikipedia.org/wiki/Noam_Chomsky
+[churchill]: http://en.wikipedia.org/wiki/Winston_Churchill
+[wiener]: http://en.wikipedia.org/wiki/Norbert_Wiener
+[edison]: http://en.wikipedia.org/wiki/Thomas_Edison
+[Enrico Pagello]: http://www.dei.unipd.it/~epv/
+[rosenblueth]: http://en.wikipedia.org/wiki/Arturo_Rosenblueth
+[bohr]: http://en.wikipedia.org/wiki/Niels_Bohr
+[Samuel Johnson]:  http://en.wikipedia.org/wiki/Samuel_Johnson
+[Jerry Marsden]: http://www.cds.caltech.edu/~marsden/
+[Voltaire]: http://en.wikipedia.org/wiki/Voltaire
