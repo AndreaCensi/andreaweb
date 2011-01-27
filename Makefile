@@ -22,6 +22,9 @@ src_bib=src-bib
 
 bib: $(src_bib)/all.bib  $(src_bib)/*.txt
 	make -C $(src_bib)
+	cp $(src_bib)/pub_proc.html     src/
+	cp $(src_bib)/pub_preprint.html src/
+	cp $(src_bib)/pub_tr.html       src/
 	cp $(src_bib)/pub_proc_bib.html     src/
 	cp $(src_bib)/pub_preprint_bib.html src/
 	cp $(src_bib)/pub_tr_bib.html       src/

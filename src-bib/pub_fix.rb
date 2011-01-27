@@ -11,7 +11,7 @@ names = [
   {"first"=> "Andrew D.", "family"=> "Straw", "site"=> "http://strawlab.org"},
   {"first"=> "Shuo", "family"=> "Han", "site"=> "http://purl.org/hanshuo"},
   {"first"=> "Stefano", "family"=> "Carpin", "site"=> "http://robotics.ucmerced.edu/"},
-  {"first"=> "Sawyer B.", "family"=> "Fuller", "site"=> "http://web.mit.edu/minster/www/"},
+  {"first"=> "Sawyer B.", "family"=> "Fuller", "site"=> "http://xenia.media.mit.edu/~minster/"},
   {"first"=> "Richard M.", "family"=> "Murray", "site"=> "http://www.cds.caltech.edu/~murray/"},
        {"first"=> "Luca", "family"=> "Iocchi", "site"=>
 "http://www.dis.uniroma1.it/~iocchi/",
