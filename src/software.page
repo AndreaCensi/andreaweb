@@ -223,8 +223,8 @@ in my papers when I need to simulate a range-finder.</p></td>
 
         <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
         <td class='language'>C</td>
-        <td class='desc'><p>The C(anonical) Scan Matcher.
-There is also a <a href="http://www.ros.org/wiki/canonical_scan_matcher">wrapper</a> for <a href="http://www.ros.org/">ROS</a> created by Ivan Dryanovski.</p></td>
+        <td class='desc'><p>The C(anonical) Scan Matcher contains a reference implementation of <a href="http://purl.org/censi/2007/plicp">PLICP</a>.
+There is also a <a href="http://www.ros.org/wiki/canonical_scan_matcher">wrapper</a> for <a href="http://www.ros.org/">ROS</a> created by <a href="http://robotics.ccny.cuny.edu/blog/People/Dryanovski">Ivan Dryanovski</a>.</p></td>
     </tr>
 
     <tr class='project'>
@@ -235,7 +235,7 @@ There is also a <a href="http://www.ros.org/wiki/canonical_scan_matcher">wrapper
 
         <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
         <td class='language'>C</td>
-        <td class='desc'><p>Library for solving the generalized 2D point-correspondence problem.
+        <td class='desc'><p>Library for solving the generalized 2D point correspondence problem.
 This is the core function of <a href="http://purl.org/censi/2007/plicp">PL-ICP</a>.</p></td>
     </tr>
 

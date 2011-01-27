@@ -17,7 +17,18 @@ sw=src/software.page
 software: groups.yaml software.yaml $(sw).head
 	python create_sw_page.py groups.yaml software.yaml $(sw).generated 
 	cat $(sw).head $(sw).generated > $(sw)
-	
 
-webgen: software
+src_bib=src-bib
+
+bib: $(src_bib)/all.bib  $(src_bib)/*.txt
+	make -C $(src_bib)
+	cp $(src_bib)/pub_proc_bib.html     src/
+	cp $(src_bib)/pub_preprint_bib.html src/
+	cp $(src_bib)/pub_tr_bib.html       src/
+	cp $(src_bib)/all.bib           src/
+	cp $(src_bib)/publications.page src/
+
+src/publications.page: bib
+
+webgen: software src/publications.page
 	webgen

@@ -10,10 +10,7 @@ description: "An open-source scan matching package."
 
 ![PL-ICP](sm_plicp_zoom_crop.gif){:style="float: right; margin:1em; width:150px"}
 
-**What is this.** 
-
-
-I created this package:
+**What is this.** I created this package:
 
 - To have a well-documented reference implementation of [PL-ICP](http://purl.org/censi/2007/plicp). If you are only interested in the core algorithm of PL-ICP, a [separate concise implementation in C/Matlab/Ruby](http://purl.org/censi/2007/gpc) is available.
 
@@ -24,7 +21,7 @@ I created this package:
 
 In the package, there is also some other software: a Ruby wrapper for the C library, a Ruby and a Matlab implementation of the same algorithm. These are not usable as of now. Then, it's also my repository for miscellaneous useful scripts.
 
-**What it is NOT**: Note that this is not a full-featured SLAM solution: this only does pairwise scan-matching between scans -- but it's really good at it! 
+**What it is NOT**: Note that this is not a full-featured SLAM solution: this only does pairwise scan-matching between scans (but it's really good at it!).
 
 If you are looking for a more complete SLAM solution, please see the projects listed in the [OpenSLAM](http://www.openslam.org) page; in particular you can have a look at [GMapping]. 
 
@@ -43,23 +40,18 @@ Other related projects are [Carmen] and [Stage].
 
 ### Download ###
 
-**(August 2010)** CSM moved to github:
+* CSM can be download from GitHub (.zip package available) at the url:
 
-* [http://github.com/AndreaCensi/csm](http://github.com/AndreaCensi/csm)
+  [http://github.com/AndreaCensi/csm](http://github.com/AndreaCensi/csm)
+
+* [CSM has been integrated and packaged][stack] for [ROS] by [Ivan Dryanovski][ivan].
+    
+[stack]: http://www.ros.org/wiki/canonical_scan_matcher
+[ivan]: http://robotics.ccny.cuny.edu/blog/People/Dryanovski
+[ROS]: http://www.ros.org/
 
 
-Use the username "guest" / password "guest". This gives you read-only access. Mail me if you need write access.
-
-<!--Download the experiments (warning, big files) with:
-
-	$ svn checkout svn://net143-184.mclink.it/csm/experiments
-
-Download both with:
-
-	$ svn checkout svn://net143-184.mclink.it/csm
-
-You should ask Andrea for a username/password if you don't have one.
--->
+ 
 
 ### Documentation / getting started ###
 

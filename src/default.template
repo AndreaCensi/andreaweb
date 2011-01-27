@@ -7,10 +7,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	{metainfo: }
     <meta name="generator" content="webgen - http://webgen.rubyforge.com/" />
-    <link href="{relocatable: default.css}" rel="stylesheet" type="text/css" />
+    <link href="{relocatable: css/default.css}" rel="stylesheet" type="text/css" />
     <link href="{resource: webgen-css}" rel="stylesheet" type="text/css" />
-    <link href="{relocatable: colors.css}" rel="stylesheet" type="text/css" />
-    <link href="{relocatable: additional.css}" rel="stylesheet" type="text/css" />
+    <link href="{relocatable:  css/colors.css}" rel="stylesheet" type="text/css" />
+    <link href="{relocatable:  css/additional.css}" rel="stylesheet" type="text/css" />
   </head>
   <body class="{page_class: }">
 
@@ -21,7 +21,7 @@
 
 
       <div id="caltech_logo">
-		<img src="{relocatable: caltech.gif}"/>
+		<img src="{relocatable: media/caltech.gif}"/>
 	</div>
 
     </div>
@@ -42,12 +42,6 @@
 	         _uacct = "UA-155626-1";
 	         urchinTracker();
 	 </script>
-	
-	<script type="text/javascript">
-	lloogg_clientid = "1810218f6a83397";
-	</script>
-	<script type="text/javascript" src="http://lloogg.com/l.js?c=1810218f6a83397">
-	</script>
   </body>
 
 </html>

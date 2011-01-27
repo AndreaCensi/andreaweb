@@ -59,7 +59,7 @@ date: 2007
 language: C
 url: http://purl.org/censi/2007/gpc
 desc: |
-   Library for solving the generalized 2D point-correspondence problem.
+   Library for solving the generalized 2D point correspondence problem.
    This is the core function of [PL-ICP](http://purl.org/censi/2007/plicp).
 ---
 name: Eigen-decomposition of a 2x2 matrix
@@ -134,11 +134,13 @@ active: maintained
 language: C 
 url: http://github.com/AndreaCensi/csm
 desc: |
-    The C(anonical) Scan Matcher.
-    There is also a [wrapper][wrapper] for [ROS][ROS] created by Ivan Dryanovski.
+    The C(anonical) Scan Matcher contains a reference implementation of [PLICP][PLICP].
+    There is also a [wrapper][wrapper] for [ROS][ROS] created by [Ivan Dryanovski][ivan].
     
+    [ivan]: http://robotics.ccny.cuny.edu/blog/People/Dryanovski
     [ROS]: http://www.ros.org/
     [wrapper]: http://www.ros.org/wiki/canonical_scan_matcher
+    [PLICP]: http://purl.org/censi/2007/plicp
 ---
 name: PyGeometry
 group:  research/libraries

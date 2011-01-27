@@ -7,9 +7,11 @@ s = s.gsub('Andrea Censi', mystring)
 s = s.gsub('A. Censi', mystring)
 
 names = [
+  {"first"=> "Paloma", "family"=> "De La Puente", "site"=>"http://www.intelligentcontrol.es/paloma/"},
+  {"first"=> "Andrew D.", "family"=> "Straw", "site"=> "http://strawlab.org"},
   {"first"=> "Shuo", "family"=> "Han", "site"=> "http://purl.org/hanshuo"},
   {"first"=> "Stefano", "family"=> "Carpin", "site"=> "http://robotics.ucmerced.edu/"},
-  {"first"=> "Sawyer", "family"=> "Fuller", "site"=> "http://web.mit.edu/minster/www/"},
+  {"first"=> "Sawyer B.", "family"=> "Fuller", "site"=> "http://web.mit.edu/minster/www/"},
   {"first"=> "Richard M.", "family"=> "Murray", "site"=> "http://www.cds.caltech.edu/~murray/"},
        {"first"=> "Luca", "family"=> "Iocchi", "site"=>
 "http://www.dis.uniroma1.it/~iocchi/",
@@ -59,21 +61,21 @@ for n in names
 
 	for string in combinations(first,family)
 		if site
-			$stderr.puts string
-		replace = "<a href='#{site}'>#{string}</a>"
-		s = s.gsub(string,replace)
+      # $stderr.puts string
+		  replace = "<a href='#{site}'>#{string}</a>"
+		  s = s.gsub(string,replace)
 		end
 	end
 end
 
 s = s.gsub(%r{>bib},">bibtex")
-s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='pdf.gif'/> pdf")
-s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='web.gif'/> web")
+s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf")
+s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> web")
 
 if false
 $stderr.puts "substituting titles"
 s = s.gsub(/\n([^\n]*)\n  (In|Tech|Proc)/m) do |m|
-	$stderr.puts m.inspect
+  $stderr.puts m.inspect
 	"<span class='title'>#{m[1]}</span>\n#{m[2]}"
 end
 end
@@ -91,6 +93,5 @@ end
 
 
 s = s.gsub(/www:/m, "webpage / additional material")
-
 
 puts s

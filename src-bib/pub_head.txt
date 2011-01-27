@@ -1,0 +1,22 @@
+---
+title: Publications
+Date: Jan 3 2007
+orderInfo: 110
+---
+<style type="text/css">
+h4 { border-bottom: solid 2px pink; padding-bottom: 5px};
+</style>
+
+<p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
+ datasets and source code.</p>
+ 
+Some papers have an 8-page conference version, plus a longer technical report version. In that case, the PDF links to the long version.
+
+My [Erdos number][erdos] is at most 5: Erdos - [S.Shelah][shelah] - [D.M.Gabbay][gabbay] -
+[L.Carlucci Aiello][aiello] - [D.Nardi][nardi] - me.
+
+[erdos]: http://en.wikipedia.org/wiki/Erd%C5%91s_number
+[aiello]: http://www.dis.uniroma1.it/~aiello
+[nardi]: http://www.dis.uniroma1.it/~nardi
+[gabbay]: http://www.dcs.kcl.ac.uk/staff/dg/
+[shelah]: http://en.wikipedia.org/wiki/Saharon_Shelah
