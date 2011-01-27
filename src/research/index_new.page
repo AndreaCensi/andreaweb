@@ -2,14 +2,8 @@
 title: Research interests
 page_class: research_index
 Date: Jan 1 2011
+inMenu: false
 ---
-
-<style type='text/css'>
-h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
-.video { float: right; margin: 1em; border: solid 2px #eee;}
-</style>
-
-<p class='updated' style='color: #c00; font-weight: bold'>(updated: January 2011)</p>
 
 
 > Ah, la recherche! Du temps perdu.
@@ -23,119 +17,119 @@ along with some highlights of recent activity.
 
 * My main interest lies in **robotics**, which, from my point of view, includes all 
   interactions of an intelligent agent with the real world. I believe that in my
-  lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist]. I'm particularly interested in **perception** problems.
+  lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist].
   
-  <!-- Inspiration: Asimov. I know, it's fiction, but I wouldn't be doing this without his books. -->
+  **Perception** problems
   
-* I am fascinated by **cybernetics**, [in its original meaning][wiener] of 
-  comparative study of artificial and neural information processing:
+  Inspiration: Asimov. I know, it's fiction, but I wouldn't be doing this without his books.
+  
+* I am fascinated by **cybernetics**, which, in the original meaning, of 
+  neural information processing** in simple animals:
   nature's solutions are often much more robust than the current state
   of the art.
   
-  <!-- Inspiration: [Cybernetics: Or the Control and Communication in the Animal and the Machine][wiener] -->
+  Inspiration: [Cybernetics: Or the Control and Communication in the Animal and the Machine][wiener]
 
 **Approaches and philosophy**
 
-* **Simple** [is better than][vehicles] complicated. In robotics
+* In general, **simpler** is better than complicated. For robotics
   applications, this means staying close to the measurement space.
-    
-* **Formal** is [is better than][Dijkstra] informal.
-  Also, "formal" usually implies "simple", because you usually can prove something
-  only if it is simple enough.
-    
-* **Data** before models, as long as formal results can still be proven.
-
-  <!-- (Control community ) -->
-  <!-- Inspiration: Hinton's networks -->
-
-* **Open** is better than closed.
-  [Reproducible research][repres] is a worthy goal.
-  I predict that, in 15 years, it will be unthinkable to publish
-  in engineering research or computational sciences without publishing
-  the full source code. 
   
-  <!-- publishing in the future -->
+  Inspiration: Vehicles
+  
+* **Formal** is better than informal. Long-term lasting contributions
+  are 
+  
+  Also, "formal" and "simple" are friends, because you usually can prove something
+  only if it is simple enough.
 
-**Favorite theories and methods**
+  Inspiration: Dijkstra
+    
+* **Data** over models. driven Learning
 
-* My first love is **estimation and filtering**. 
-  At Caltech I was infected with people's enthusiasm
-  on differential **geometry**.
-  Both are so deep that guarantee a lifetime learning experience!
+  (Control community )
+  Inspiration: Hinton's networks
 
-* When you apply *geometry* to *estimation*  [you get][araki]  **information geometry**
-  or [information spaces][information_spaces].
-  When you apply *estimation* to *geometry* you get **stochastic geometry**
-  (yes, the naming is confusing). See for example the
-  [theory of shape spaces][kendall], and [my favorite paper][smith] (which I still don't understand completely).
+* Reproducible research / open source & open data
+  
+  My generation is the first to 
+   
+  Inspiration: GNU/Linux.
+  
+
+**Favorite methods**
+
+* Estimation and filtering
+
+  What is possible, in principle?
+
+* geometric objects 
+ I have been lucky
+
+  Inspiration: Shape spaces, and my favorite paper: [Covariance, subspace, and intrinsic Cramer-Rao bounds][smith] (which I still don't understand completely)
   
 Keep reading for some highlights from my research, or read my [publications] list.
   
-[information_spaces]: http://msl.cs.uiuc.edu/~lavalle/
-[araki]: http://en.wikipedia.org/wiki/Information_geometry
-[vehicles]: http://en.wikipedia.org/wiki/Valentino_Braitenberg
+  
+  
 [Dijkstra]: http://www.cs.utexas.edu/users/EWD/
 [kendall]: http://www.jstor.org/stable/2245331
 [smith]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1420804
 [wiener]: http://en.wikipedia.org/wiki/Norbert_Wiener
 [Strong AI]: http://en.wikipedia.org/wiki/Strong_AI
 [robopsychologist]: http://en.wikipedia.org/wiki/Robopsychology
-[repres]: http://www.reproducibleresearch.net
 
 
-### Highlight - Bootstrapping Vehicles
 
+Highlight - Bootstrapping Vehicles
+=====================================
 
-<div style='float: right; margin: 1em; border: solid 2px #eee;'>
-<object width="320" height="200"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="200"></embed></object> 
+<div style='float: right'>
+<img style='width: 320; height: 240'/>
 </div>
 
 My thesis work will focus on the problem of bootstrapping: learning a model of a robot's sensorimotor cascade, and its environment, from zero prior information other than basic semantic. At the beginning, we only assume to have uninterpreted streams of bits representing the output of some sensors, and that we have some commands available, and that there is some causal relation from actions to observations. The situation is very similar to the video on the right.
 
 Other than a worthy problem per se (it subsumes most problems of learning, calibration, fault detection, etc.), it is also a proxy for studying some aspects of the higher level of neural processing. In fact, it is believed that [the cortex] starts as a *tabula rasa* that adapts to the inputs (the evidence is that parts of it can be repurposed in subjects that lost some capacity).
 
-
 At this point, it is not clear if an agent can learn everything from the environment, or if there is something that should be known a priori. My goal has been to try to derive some precise formulation of the problem, and to find strong results (in the spirit of control theory) that can be built upon.
 
+Representative papers:
 
-
-<div style='float: right; margin: 1em; border: solid 2px #eee; clear: right'>
-<object width="320" height="276"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="276"></embed></object> 
-</div>
-
-Representative paper: [Bootstrapping bilinear models of sensorimotor cascades][bds]
+* [Bootstrapping bilinear models of sensorimotor cascades][bds]
 
 (other preprints are undergoing double-blind reviews and cannot be published on a website; do not hesitate to ask for them if you are interested)
 
 
-*Video*: The video shows learning of a bilinear model of a sensorimotor cascade for a camera. The agent starts with no previous knowledge on the sensor geometry, and by correlating observations with commands, it can learn a generative model for the data. The same model can be used for learning the dynamics of different sensors (range-finder, camera, field sampler).
+
+
+Video: The video below shows learning of a bilinear model of a sensorimotor cascade for a camera. The agent starts with no previous knowledge on the sensor geometry, and by correlating observations with commands, it can learn a generative model for the data. The same model can be used for learning the dynamics of different sensors (range-finder, camera, field sampler).
 See [many other videos][bevideos] of related experiments.
-{.video_caption} 
+{.video_caption}
+
+<!--<iframe src="http://player.vimeo.com/video/19194748" width="320" height="276" frameborder="0"></iframe>-->
+
 
 [bds]: http://purl.org/censi/2010/boot
 
 [many other videos]: bevideos
 
-<div style='clear: both'></div>
 
-### Highlight - Visually-guided behavior in Drosophila Melanogaster
+Highlight - Visually-guided behavior in Drosophila Melanogaster
+================================================================
 
 I have been collaborating with [the Dickinson lab], in particular with [Andrew Straw][straw] (who now has his own lab atthe Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
 
-
-
-<div style='float: right; margin: 1em; border: solid 2px #eee;'>
-<object width="320" height="276"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="276"></embed></object> 
-</div>
-
-The video  shows the kind of simulated
+The <a href="http://vimeo.com/12689209">video</a> below shows the kind of simulated
 data I am working with. Using [a special apparatus][mamarama] with 11 cameras, the animal is tracked with a precision of a few millimiters. An ad-hoc simulator allows to reconstruct the visual stimuls experienced by the animal at a reasonable level of accuracy.
 
 We then analyze the data asking whether we can infer the neural processing happening in the animal brain.
 
 
 Video: Simulated visual input from tracking data of free-flying Drosophila Melanogaster ([watch on Vimeo][video_fly]. On the right, you can see the simulated visual stimulus. On the left, the position of the fly in the arena (1m diameter). Note that the video is slowed down about 10x with respect to the real data: fruit flies are very fast! (real time is in the left corner) Watch the video full-screen to appreciate the details. 
-{.video_caption} 
+{.video_caption}
+
+<!--<iframe src="http://player.vimeo.com/video/19194748" width="320" height="276" frameborder="0"></iframe>-->
 
 [video_fly]: http://vimeo.com/19194748
 
@@ -144,12 +138,29 @@ Video: Simulated visual input from tracking data of free-flying Drosophila Melan
 
 [the Dickinson lab]: http://www.dickinson.caltech.edu/
 
-<div style='clear: both'></div>
+<!--
 
-Other topics
+I'm mainly interested in **robotics**, and, in particular, in all things related to handling uncertainty (localization, estimation, planning, communication). I like simple algorithms with solid mathematical properties. I like the measurements space.
+
+Recently, I have taken an interest in bio-plausible/bio-inspired control.
+
+
+No, I don't have a thesis topic yet. Suggestions are welcome.
+I try to keep only a handful of things in mind at a given time. At this very moment (Fall 2008), I'm focusing more on:
+- Algebraic properties of planning in information spaces.
+- Bayesian bounds for pose-tracking, SLAM; Gaussian processes.
+- Value of information in multi-agent systems.
+{:style="list-style-type: disc"}
+
+Also, this term I will be taking courses in neuroscience / neuromorphic computing.
+-->
+
+Unorderd list of some topics
 ============================
 
-See also: 
+
+
+See also:
 
 - [Publications](../publications.html) 
 - [Research software](sw/index.html)
@@ -157,7 +168,7 @@ See also:
 
 [Publications]: ../publications.html
 
-<!-- ![new](new.png){:new} -->
+![new](new.png){:new}
 
 #### Control ####{:head}
 

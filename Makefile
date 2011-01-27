@@ -25,6 +25,9 @@ bib: $(src_bib)/all.bib  $(src_bib)/*.txt
 	cp $(src_bib)/pub_proc_bib.html     src/
 	cp $(src_bib)/pub_preprint_bib.html src/
 	cp $(src_bib)/pub_tr_bib.html       src/
+	cp $(src_bib)/pub_proc_abstracts.html     src/
+	cp $(src_bib)/pub_preprint_abstracts.html src/
+	cp $(src_bib)/pub_tr_abstracts.html       src/
 	cp $(src_bib)/all.bib           src/
 	cp $(src_bib)/publications.page src/
 
