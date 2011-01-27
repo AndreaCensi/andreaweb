@@ -149,10 +149,13 @@ Video: Simulated visual input from tracking data of free-flying Drosophila Melan
 Other topics
 ============================
 
+<p class='updated' style='color: #c00; font-weight: bold'>(still needs update)</p>
+
+
 See also: 
 
 - [Publications](../publications.html) 
-- [Research software](sw/index.html)
+- [Research software](../software.html)
 {:style="list-style-type: disc"}
 
 [Publications]: ../publications.html
@@ -161,7 +164,7 @@ See also:
 
 #### Control ####{:head}
 
-* ![icon](../icons/bio-attitude.jpg){:icon}  How do flies navigate? Do flies learn to fly? <br/>  [A bio-plausible design for visual attitude stabilization][bio-attitude]<br/> TOWRITE
+* ![icon](../icons/bio-attitude.jpg){:icon}  How do flies navigate? Do flies learn to fly? <br/>  [A bio-plausible design for visual attitude stabilization][bio-attitude]<br/> 
 
 
 #### Networks ####{:head}

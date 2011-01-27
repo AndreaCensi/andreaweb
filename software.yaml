@@ -68,7 +68,7 @@ status: production
 language: C
 date: 2007
 active: maintained
-url: research/sw/2x2_eigen.html
+url: http://github.com/AndreaCensi/2x2_matrix_eigenvalues
 desc: It is more difficult than it seems. 
 ---
 name: Calibration with range-finders
