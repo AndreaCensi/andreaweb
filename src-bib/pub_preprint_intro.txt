@@ -1,5 +1,12 @@
 
 
-<h4> Preprints / to appear </h4>
+#### Preprints / to appear 
 
-*Any feedback on preprints is greatly appreciated: the quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".*
+
+If you are inside the Caltech network, you can also access
+[the list of "private" drafts][caltech_only], typically papers submitted
+to double-blind conferences that cannot be made googlable. Please do not distribute outside
+of Caltech.
+
+
+[caltech_only]: http://www.cds.caltech.edu/~andrea/pub/research/caltech-only/preprints/

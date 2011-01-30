@@ -50,7 +50,7 @@ The repositories included in the meta-package are the following.
 [bvexp201007]: http://andreacensi.github.com/bvexp201007/
 [pybv]: http://andreacensi.github.com/pybv/
 [raytracer]: https://github.com/AndreaCensi/raytracer
-[snp_geometry]: https://github.com/AndreaCensi/snp_geometry
+[snp_geometry]: https://github.com/AndreaCensi/geometry
 [compmake]: http://compmake.org
 [json-c]: https://github.com/AndreaCensi/json-c
 [reprep]: http://andreacensi.github.com/reprep/

@@ -69,8 +69,18 @@ for n in names
 end
 
 s = s.gsub(%r{>bib},">bibtex")
+
 s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf")
-s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> web")
+s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf")
+
+# s = s.gsub(%r{\$(.*)>otherlink},"'>$1QUI")
+
+
+s = s.gsub(%r{>additional_material},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material")
+s = s.gsub(%r{>slides},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides")
+
+s = s.gsub(%r{>video},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/video1.png'/> video")
+s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/video1.png'/> video")
 
 if false
 $stderr.puts "substituting titles"

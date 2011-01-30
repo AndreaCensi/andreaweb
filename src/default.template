@@ -11,6 +11,7 @@
     <link href="{resource: webgen-css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable:  css/colors.css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable:  css/additional.css}" rel="stylesheet" type="text/css" />
+    <link href="{relocatable:  css/fonts.css}" rel="stylesheet" type="text/css" />
   </head>
   <body class="{page_class: }">
 

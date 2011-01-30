@@ -39,6 +39,19 @@ desc:  |
   [proto]:  http://openc6.extracon.it/downloads/pubblici/icpp.html
 
 ---
+name: SISO designer GUI
+group: general
+active: no
+language: Java
+date: 2004
+status: production
+url: http://www.cds.caltech.edu/~andrea/pub/software/designer.jar
+desc:  |
+  A graphical design tool for SISO systems, written in Java, 
+  as a course project, many years ago. It is analogous to Matlab's
+  SISO tools, but of course much better.
+  
+---
 name: OpenRDK
 group: research/libraries
 active: others
@@ -145,12 +158,13 @@ desc: |
 name: PyGeometry
 group:  research/libraries
 date: 2011
-status: beta
+status: alpha
 active: yes
 language: Python
-url: http://andreacensi.github.com/snp_geometry/
+url: http://andreacensi.github.com/geometry/
 desc: |
-    Python libraries for common operations on geometric objects (S^m, SO(n), SE(n), etc.)
+    PyGeometry is a Python package that implements common operations on the differentiable manifolds usually encountered in computer vision and robotics. Implemented manifolds: euclidean space, hyperspheres, special euclidean and orthogonal groups, tori.
+    Implemented operations: conversion between representations, geodesic distances, interpolation, random sampling.
 ---
 name: RepRep
 group: research/libraries
@@ -173,7 +187,7 @@ desc: |
     Compmake is a task manager for single host/multiprocessed/distributed batch Python applications.
 ---
 name: ProcGraph
-date: 2011
+date: 2010
 group: research/libraries
 status: alpha
 active:  yes

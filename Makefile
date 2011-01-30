@@ -4,8 +4,9 @@ all: webgen
 
 # convert:
 # 	ruby -rubygems -I~/maruku/lib -I$(WEBGEN)/lib $(WEBGEN)/bin/webgen run 
-# publish: 
-#	rsync -avzrL $(DIR)/* andrea@cds.caltech.edu:public_html/
+
+publish: 
+	rsync -avzrL $(DIR)/* andrea@cds.caltech.edu:public_html/
 
 output/check.html:
 	linkchecker -ohtml --ignore-url=clsid:	--ignore-url=wikipedia --ignore-url=urchin.js output/index.html > $@
