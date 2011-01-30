@@ -12,9 +12,9 @@
 
     body {          background-color: white; }
     div#description { padding-top: 1em;}
-    div#updates { background-color: #FFFDFD; padding-left: 1em;}
+    div#updates { background-color: #FFFDFD; padding-left: 1em;  }
     div#picture IMG { border: solid 1px black;}
-    div#picture { font-style: italic; font-size: 90%;}
+    div#picture { font-style: italic; font-size: 90%;  max-width: 35%;}
     
     div#description #also { display: block; float: left; padding-right: 2em;}
     div#description #position { display: block; float: left; }
@@ -27,35 +27,5 @@
 	#coordinates dl { display: block;}
 	#coordinates dt { display: inline; float: left;clear: left; font-style: italic; width: 6em;
 	                    text-align: right; margin-right: 0.5em;}
-	#coordinates dd { display: block; margin-left: 6.5em;  ;}		
-		
-/*	  #buttons, #buttons2 { 
-		float: right;
-	   text-align: center;
-	    }
-
-		#buttons, #buttons2 { width: 150px;}
-	  #caltechlogo, #sapienzalogo { border: 0pt none;   }
-		#sapienzalogo { margin-top: 30px; }
-		#roma { border: 0; } 
-	  
-		#address { float: left;}
-		#table {clear: both;}
-
-	#buttons2 { margin-right: 2em;}
-		body.indexcaltech #menu { display: none;}
-		body.indexcaltech DIV#body h1 { display: none;}
-		body.indexcaltech DIV#body { margin: 0;}
-	 	div.stemma  span { display: none;} 
-	    div.stemma:hover  span { display: block;}
-
-		div span.motto { display: none; font-variant: small-caps;font-stretch: expanded; }
-		div:hover span.motto { display: block;}
-		
-		div.obsolete { color: grey; }
-		div.obsolete A { color: grey; text-decoration: none;}
-
-
-
-
-/
+	#coordinates dd { display: block; margin-left: 6.5em;  max-width: 23em;;}		
+		 

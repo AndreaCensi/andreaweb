@@ -7,11 +7,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	{metainfo: }
     <meta name="generator" content="webgen - http://webgen.rubyforge.com/" />
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
+
+   <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
     <link href="{relocatable: css/default.css}" rel="stylesheet" type="text/css" />
     <link href="{resource: webgen-css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable:  css/colors.css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable:  css/additional.css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable:  css/fonts.css}" rel="stylesheet" type="text/css" />
+
   </head>
   <body class="{page_class: }">
 
@@ -36,13 +41,21 @@
 	  {purl: }
     </div>
 
+<script type="text/javascript"> 
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-155626-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script> 
 
-	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-	</script>
-	 <script type="text/javascript">
-	         _uacct = "UA-155626-1";
-	         urchinTracker();
-	 </script>
+
   </body>
 
 </html>

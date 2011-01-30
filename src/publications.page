@@ -99,12 +99,15 @@ A.C., <a href='http://purl.org/hanshuo'>Shuo Han</a>, <a href='http://xenia.medi
 
 <p>
 
-<a href='http://robotics.ucmerced.edu/'>Stefano Carpin</a> and A.C..
- <b>An experimental assessment of the HSM3D algorithm for sparse and
-  colored data</b>.
- In <em>Proceedings of the IEEE/RSJ International Conference on<br/> Intelligent Robots and Systems (IROS)</em>, pages 3595-3600, 2009.
-[&nbsp;<a href="pub_proc_bib.html#carpin09hsm3d">bibtex</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/IROS.2009.5354618">DOI</a>&nbsp;]
+A.C..
+ <b>On the performance of Kalman filtering with intermittent
+  observations: a geometric approach with fractals</b>.
+ In <em>Proceedings of the American Control Conference (ACC)</em>, 2009.
+[&nbsp;<a href="pub_proc_bib.html#censi09fractals">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2008/fractals"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2009-acc-fractals-slides.pdf"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2009-acc-fractals.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;| 
+<a href="pub_proc_abstracts.html#censi09fractals">Abstract</a>&nbsp;]
 
 </p>
 
@@ -123,6 +126,17 @@ A.C..
 
 <p>
 
+<a href='http://robotics.ucmerced.edu/'>Stefano Carpin</a> and A.C..
+ <b>An experimental assessment of the HSM3D algorithm for sparse and
+  colored data</b>.
+ In <em>Proceedings of the IEEE/RSJ International Conference on<br/> Intelligent Robots and Systems (IROS)</em>, pages 3595-3600, 2009.
+[&nbsp;<a href="pub_proc_bib.html#carpin09hsm3d">bibtex</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/IROS.2009.5354618">DOI</a>&nbsp;]
+
+</p>
+
+<p>
+
 A.C. and <a href='http://robotics.ucmerced.edu/'>Stefano Carpin</a>.
  <b>HSM3D: Feature-Less Global 6DOF Scan-Matching in the
   Hough/Radon Domain</b>.
@@ -133,20 +147,6 @@ A.C. and <a href='http://robotics.ucmerced.edu/'>Stefano Carpin</a>.
 <a href="http://purl.org/censi/research/2009-icra-hsm3d-slides.pdf"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2009-icra-hsm3d.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;| 
 <a href="pub_proc_abstracts.html#censi09hsm3d">Abstract</a>&nbsp;]
-
-</p>
-
-<p>
-
-A.C..
- <b>On the performance of Kalman filtering with intermittent
-  observations: a geometric approach with fractals</b>.
- In <em>Proceedings of the American Control Conference (ACC)</em>, 2009.
-[&nbsp;<a href="pub_proc_bib.html#censi09fractals">bibtex</a>&nbsp;| 
-<a href="http://purl.org/censi/2008/fractals"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
-<a href="http://purl.org/censi/research/2009-acc-fractals-slides.pdf"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides</a>&nbsp;| 
-<a href="http://purl.org/censi/research/2009-acc-fractals.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;| 
-<a href="pub_proc_abstracts.html#censi09fractals">Abstract</a>&nbsp;]
 
 </p>
 

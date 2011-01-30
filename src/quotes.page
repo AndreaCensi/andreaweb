@@ -10,7 +10,13 @@ blockquote { font-style: italic;  margin-bottom: 0; padding-bottom: 0;}
 blockquote A { font-style: normal; }
 h4 { color: #400; }
 
-.translation { color: grey; margin-top: 0; padding-top: 0;  font-style: normal; }
+/*blockquote p { font-family: serif;}*/
+
+.translation { font-style: italic;  color: #668;}
+.note { font-style: normal;  color: #a88;}
+
+.translation, .note { margin-top: 0; padding-top: 0; }
+
 </style>
 
 I enjoy collecting quotes: behind each of these, there is a lesson I learned (sometimes painfully). 
@@ -26,19 +32,30 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 {.translation}
 
 
-
 > Nil difficili volenti.
 
 > Nothing is difficult to willing people.
 {.translation}
 
+> The [Feynman] problem-solving algorithm:  
+>  1\. Write down the problem.  
+>  2\. Think very hard.  
+>  3\. Write down the answer.  
+
+> Protip: usually people miss step 1.
+{.note}
+
 
 > Che cos'è il genio? è fantasia, intuizione, decisione e velocità d'esecuzione. --- from [Amici miei]
 
-> "What is genius? It's imagination, intuition, willingness and speed of execution." This is spoken in the movie [Amici Miei] referring to a rather crude practical joke, but it applies equally well to research.
+> What is genius? It's imagination, intuition, willingness and speed of execution.
 {.translation}
 
+> This is spoken in the movie [Amici Miei] referring to a rather crude practical joke, but it applies equally well to research.
+{.note}
 
+
+[Feynman]: http://en.wikipedia.org/wiki/Richard_Feynman
 
 #### On dealing with failure 
 
@@ -57,11 +74,19 @@ and: [The importance of stupidity in scientific research][stupid]
 [stupid]: http://jcs.biologists.org/cgi/content/full/121/11/1771
 
 
-#### On communication and publishing
+#### On writing
 
 > What is written without effort is in general read without pleasure. --- [Samuel Johnson]
 
 > Write a paper so that at least you yourself are able to read it five years from now. --- [Jerry Marsden]
+
+> I didn't have time to write a short letter, so I've written a long one instead. --- [Pascal]
+
+> Begin at the beginning and go on till you come to the end: then stop. --- The King
+
+[Pascal]: http://www.c2.com/cgi/wiki?TimeToMakeItShort
+
+#### On publishing
 
 > If you try to talk to two people at the same time, you end up talking to the wall. --- Professor at Caltech
 
@@ -88,7 +113,7 @@ and: [The importance of stupidity in scientific research][stupid]
 
 > The best model of a cat is another cat, or better yet, the cat itself. ---  ([Norbert Wiener][wiener] or [Arturo Rosenblueth][rosenblueth])
 
-> A good man has to know his limitations. --- Dirty Harry, relayed by a professor in Sapienza University
+> A good man knows his limitations. --- [Harry Callahan], relayed by a professor in Sapienza University
 
 > Valid equally well for estimation and control.
 {.translation}
@@ -97,6 +122,7 @@ See also: [Respect the unstable][unstable]
 
 [unstable]: http://dx.doi.org/10.1109/MCS.2003.1213600
 
+[Harry Callahan]: http://en.wikipedia.org/wiki/Harry_Callahan_(character)
 
 #### On teaching
 
