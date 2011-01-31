@@ -37,5 +37,10 @@ bib: $(src_bib)/all.bib  $(src_bib)/*.txt
 
 src/publications.page: bib
 
-webgen: software src/publications.page
+src/news.rss: news
+
+news:
+	make -C src-news
+
+webgen: software src/publications.page src/news.rss
 	webgen
