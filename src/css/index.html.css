@@ -30,3 +30,8 @@
 	#coordinates dd { display: block; margin-left: 6.5em;  max-width: 23em;;}		
 		 
 	div#news h4 {margin:0; padding: 0;}
+	
+	#rsslink { font-size: 70%; margin-left: 2em; color: gray; }
+	#rsslink A { text-decoration: none;}
+	#rsslink img { width: 0.9em; margin-bottom: -0.1em; }
+	

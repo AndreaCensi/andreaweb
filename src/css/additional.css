@@ -1,0 +1,10 @@
+
+
+
+div#rss_panel {
+	margin-top: 3em;
+	font-size: 90%; margin-left: 2em; color: gray; 
+}
+
+div#rss_panel A { text-decoration: none;}
+div#rss_panel img { width: 0.9em; margin-bottom: -0.1em; margin-right: 1em;}

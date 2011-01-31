@@ -17,18 +17,24 @@
     <link href="{relocatable:  css/additional.css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable:  css/fonts.css}" rel="stylesheet" type="text/css" />
 
+  <link rel="alternate" type="application/rss+xml" title="Andrea's website and blog updates" href="http://purl.org/censi/feed" />
+
   </head>
   <body class="{page_class: }">
 
     <div id="menu">
-      <a href="{relocatable: index.html}">home</a> <br/>
 
+      <a href="{relocatable: index.html}">home</a> <br/>
       {menu: vertical}
 
 
+	  <div id="rss_panel">
+	      <a rel="external nofollow" title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src="{relocatable:  media/rss.gif}" alt='RSS'/>RSS feed for website updates</a>
+	  </div>
+	
       <div id="caltech_logo">
 		<img src="{relocatable: media/caltech.gif}"/>
-	</div>
+	  </div>
 
     </div>
 
