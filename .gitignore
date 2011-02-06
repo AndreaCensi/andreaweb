@@ -1,3 +1,6 @@
 flickr-cache.pstore
 output
 src/software.page.html
+src-software/software.generated
+src-software/software.generated.html
+src-software/software.page

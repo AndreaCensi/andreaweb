@@ -13,15 +13,15 @@ output/check.html:
 
 check: output/check.html
 
-sw=src/software.page
-
-software: groups.yaml software.yaml $(sw).head
-	python create_sw_page.py groups.yaml software.yaml $(sw).generated 
-	cat $(sw).head $(sw).generated > $(sw)
-
+src_software=src-software
 src_bib=src-bib
+src_news=src-news
 
-bib: $(src_bib)/all.bib  $(src_bib)/*.txt
+src/software.page: $(src_software)/*
+	make -C $(src_software)
+	cp $(src_software)/software.page $@
+
+src/publications.page: $(src_bib)/all.bib  $(src_bib)/*.txt
 	make -C $(src_bib)
 	cp $(src_bib)/pub_proc.html     src/
 	cp $(src_bib)/pub_preprint.html src/
@@ -35,12 +35,8 @@ bib: $(src_bib)/all.bib  $(src_bib)/*.txt
 	cp $(src_bib)/all.bib           src/
 	cp $(src_bib)/publications.page src/
 
-src/publications.page: bib
+src/news.rss: $(src_news)/*
+	make -C $(src_news)
 
-src/news.rss: news
-
-news:
-	make -C src-news
-
-webgen: software src/publications.page src/news.rss
+webgen: src/publications.page src/news.rss src/software.page
 	webgen
