@@ -33,5 +33,5 @@
 	
 	#rsslink { font-size: 70%; margin-left: 2em; color: gray; }
 	#rsslink A { text-decoration: none;}
-	#rsslink img { width: 0.9em; margin-bottom: -0.1em; }
+	#rsslink img { width: 0.9em; margin-bottom: -0.1em; border: 0;}
 	

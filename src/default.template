@@ -28,14 +28,14 @@
       {menu: vertical}
 
 
-	  <div id="rss_panel">
-	      <a rel="external nofollow" title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src="{relocatable:  media/rss.gif}" alt='RSS'/>RSS feed for website updates</a>
-	  </div>
-	
       <div id="caltech_logo">
 		<img src="{relocatable: media/caltech.gif}"/>
 	  </div>
 
+	  <div id="rss_panel">
+	      <a rel="external nofollow" title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src="{relocatable:  media/rss.gif}" alt='RSS'/> website updates</a>
+	  </div>
+	
     </div>
 
     <div id="body" style="position: absolute">

@@ -7,4 +7,4 @@ div#rss_panel {
 }
 
 div#rss_panel A { text-decoration: none;}
-div#rss_panel img { width: 0.9em; margin-bottom: -0.1em; margin-right: 1em;}
+div#rss_panel img { width: 0.9em; margin-bottom: -0.1em; margin-right: 0.6em; border: 0;}

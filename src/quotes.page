@@ -7,7 +7,9 @@ orderInfo: 300
 <style type="text/css">
 blockquote p { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0;}
 blockquote { font-style: italic;  margin-bottom: 0; padding-bottom: 0;}
-blockquote A { font-style: normal; }
+blockquote A { 
+/*    font-style: normal; */
+}
 h4 { color: #400; }
 
 /*blockquote p { font-family: serif;}*/
@@ -74,6 +76,7 @@ and: [The importance of stupidity in scientific research][stupid]
 [stupid]: http://jcs.biologists.org/cgi/content/full/121/11/1771
 
 
+
 #### On writing
 
 > What is written without effort is in general read without pleasure. --- [Samuel Johnson]
@@ -82,7 +85,7 @@ and: [The importance of stupidity in scientific research][stupid]
 
 > I didn't have time to write a short letter, so I've written a long one instead. --- [Pascal]
 
-> Begin at the beginning and go on till you come to the end: then stop. --- The King
+<!-- > Begin at the beginning and go on till you come to the end: then stop. --- The King -->
 
 [Pascal]: http://www.c2.com/cgi/wiki?TimeToMakeItShort
 
@@ -105,7 +108,12 @@ and: [The importance of stupidity in scientific research][stupid]
 > If nobody had ever thought your genius idea, it's probably worthless.
 {.translation}
 
- 
+#### On design
+
+> Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher. --- Antoine de Saint-Exupery
+
+> It appears that perfection is achieved, not when there is nothing more to add, but when there is nothing left to remove. 
+{.translation}
 
 #### On modeling and abstractions
 
@@ -116,7 +124,7 @@ and: [The importance of stupidity in scientific research][stupid]
 > A good man knows his limitations. --- [Harry Callahan], relayed by a professor in Sapienza University
 
 > Valid equally well for estimation and control.
-{.translation}
+{.note}
 
 See also: [Respect the unstable][unstable]
 
@@ -134,12 +142,18 @@ See also: [Respect the unstable][unstable]
 <!-- > It is the responsibility of intellectuals to speak the Truth and expose lies. --- [Chomsky] -->
 
 
+### On programming
+
+> The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague. --- [Dijkstra][ewd]
+
+[ewd]: http://www.cs.utexas.edu/~EWD/ewd03xx/EWD340.PDF
 
 #### On lab safety
 
 > Always keep one hand in the pocket. --- Anonymous professor in Sapienza University
 
-This is all I remember from a course on control of electric motors a few years back, but it is really good advice.
+>This is all I remember from a course on control of electric motors a few years back, but it is really good advice.
+{.note}
 
 [Amici Miei]: http://en.wikipedia.org/wiki/My_Friends_(film)
 [salvemini]: http://en.wikipedia.org/wiki/Gaetano_Salvemini
