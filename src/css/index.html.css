@@ -9,12 +9,27 @@
 	div#news     { clear: left; margin: 1em; }
 	div#personal { margin: 1em;}
 
+   
+	div.figure { width: 500px;}
+	img#andrea_censi_portrait { width: 70%;}
+	div.figure p.graphics { text-align: center; margin-bottom: 0;}
+	div.figure p.caption {  margin-top: 0; }
+/*	div.figure p.caption { border: solid 3px blue;}
+	 div#picture { border: solid 1px green; }
+	div.figure { border: solid 1px red;}
+*/
 
     body {          background-color: white; }
     div#description { padding-top: 1em;}
     div#updates { background-color: #FFFDFD; padding-left: 1em;  }
-    div#picture IMG { border: solid 1px black;}
-    div#picture { font-style: italic; font-size: 90%;  max-width: 35%;}
+
+	div#stats img#updated { margin-bottom: -5px; float: right;}
+	div#stats p.graphics img { width: 47%; padding: 1%;}
+
+	div.figure p.caption { 
+		margin-top: 0;
+		font-family: Times; text-align: justify;
+		font-style: normal; font-size: 80%; }
     
     div#description #also { display: block; float: left; padding-right: 2em;}
     div#description #position { display: block; float: left; }
