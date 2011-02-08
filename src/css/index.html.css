@@ -3,14 +3,14 @@
     }
 	
 
-    div#picture { display: block; float: left; margin: 2em; }
+    div#picture { display: block; float: left; margin: 0.5em; margin-left: 1.5em; }
     div#description {margin-left: 1em; float: left; display: block; }
     div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
 	div#news     { clear: left; margin: 1em; }
 	div#personal { margin: 1em;}
 
    
-	div.figure { width: 500px;}
+	div.figure { width: 475px;}
 	img#andrea_censi_portrait { width: 70%;}
 	div.figure p.graphics { text-align: center; margin-bottom: 0;}
 	div.figure p.caption {  margin-top: 0; }
