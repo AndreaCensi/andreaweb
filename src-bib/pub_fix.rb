@@ -5,9 +5,38 @@ s = s.gsub(%r{<a name=".*"></a>},'')
 mystring="A.C."
 s = s.gsub('Andrea Censi', mystring)
 s = s.gsub('A. Censi', mystring)
+s = s.gsub('A.&nbsp;Censi', mystring)
+
 
 names = [
-  {"first"=> "Paloma", "family"=> "De La Puente", "site"=>"http://www.intelligentcontrol.es/paloma/"},
+  # {"first"=> "Chris", 
+  #  "family"=> "Scrapper", 
+  #  "site"=>"http://www.intelligentcontrol.es/paloma/"},
+
+  {"first"=> "Raj", 
+   "family"=> "Madhavan", 
+   "site"=>"http://www.isr.umd.edu/faculty/gateways/madhavan.htm"},
+
+  {"first"=> "Rolf", 
+   "family"=> "Lakaemper", 
+   "site"=>"http://knight.temple.edu/~lakaemper/"},
+  
+  {"first"=> "Afzal", 
+   "family"=> "Godil", 
+   "site"=>"http://zing.ncsl.nist.gov/godil/"},
+
+  {"first"=> "Adam", 
+   "family"=> "Jacoff", 
+   "site"=>"http://www.nist.gov/el/isd/ms/jacoff.cfm"},
+  # 
+  # {"first"=> "Asim", 
+  #  "family"=> "Wagan", 
+  #  "site"=>"http://www.intelligentcontrol.es/paloma/"},
+
+  {"first"=> "Paloma", 
+   "family"=> "De La Puente", 
+   "site"=>"http://www.intelligentcontrol.es/paloma/"},
+   
   {"first"=> "Andrew D.", "family"=> "Straw", "site"=> "http://strawlab.org"},
   {"first"=> "Shuo", "family"=> "Han", "site"=> "http://purl.org/hanshuo"},
   {"first"=> "Stefano", "family"=> "Carpin", "site"=> "http://robotics.ucmerced.edu/"},
@@ -27,12 +56,13 @@ names = [
        {"first"=> "Alessandro", "family"=> "Farinelli", "site"=>
 "http://www.dis.uniroma1.it/~farinell/",
        "face"=> "http://www.dis.uniroma1.it/~farinell/assets/images/farinelli.jpg"},
-      {"first"=> "Alessandro", "family"=> "De Luca", "site"=>
-"http://www.dis.uniroma1.it/~labrob/people/deluca/deluca.html",
-       "face"=> "http://www.dis.uniroma1.it/~labrob/people/deluca/pers/ADL.jpg"},
+      {"first"=> "Alessandro", 
+        "family"=> "De Luca", "site"=>
+"http://www.dis.uniroma1.it/~deluca/",
+       "face"=> "http://www.dis.uniroma1.it/~deluca/pers/ADL.jpg"},
       {"first"=> "Giuseppe", "family"=> "Oriolo", "site"=>
-"http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html",
-       "face"=> "http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.jpg"},
+"http://www.dis.uniroma1.it/~oriolo/",
+       "face"=> "http://www.dis.uniroma1.it/~oriolo/oriolo.jpg"},
        {"first"=> "Luca", "family"=> "Marchionni", "site"=>
      "http://www.linkedin.com/in/lucamarchionni",
         "face"=> ""},

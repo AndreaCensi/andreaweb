@@ -6,6 +6,11 @@ For building:
 
 
 
+For the bib:
+
+    sudo apt-get install bibtex2html
+
+
 For the software:
 
     sudo pip install markdown 

@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Updates from Andrea Censi's website</title>
+      <link>http://www.cds.caltech.edu/~andrea/</link>
+      <description>Site updates from my website and blog.</description>
+      <lastBuildDate>Mon, 07 Feb 2011 19:09:48 +0000</lastBuildDate>
+      <generator>yaml2rss</generator>
+      <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
+      
+    
+    <item>
+         <title>Site update</title>
+         <link>http://www.cds.caltech.edu/~andrea/publications.html</link>
+         <description><![CDATA[<p>
+ Added links to slides for most of the papers in the
+ <a href="http://www.cds.caltech.edu/~andrea/publications.html">
+  publications
+ </a>
+ page.
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Added links to slides for most of the papers in the
+ <a href="http://www.cds.caltech.edu/~andrea/publications.html">
+  publications
+ </a>
+ page.
+</p>]]></content:encoded>
+         <pubDate>Sun, 30 Jan 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-01-30</guid>
+     </item>
+
+    <item>
+         <title>New video about fly research</title>
+         <link>http://vimeo.com/19194748</link>
+         <description><![CDATA[<p>
+ Here's a
+ <a href="http://vimeo.com/19194748">
+  cool video
+ </a>
+ which shows the simulated visual input 
+of a free-flying Drosophila Melanogaster.
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Here's a
+ <a href="http://vimeo.com/19194748">
+  cool video
+ </a>
+ which shows the simulated visual input 
+of a free-flying Drosophila Melanogaster.
+</p>]]></content:encoded>
+         <pubDate>Fri, 28 Jan 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-01-28</guid>
+     </item>
+
+    <item>
+         <title>Finally updating all these outdated webpages.</title>
+         <link>http://www.cds.caltech.edu/~andrea/index.html</link>
+         <description><![CDATA[<p>
+ Updated pages:
+</p>
+<ul>
+ <li>
+  my
+  <a href="http://www.cds.caltech.edu/~andrea/publications.html">
+   publications list
+  </a>
+ </li>
+ <li>
+  <a href="http://www.cds.caltech.edu/~andrea/research/index.html">
+   Research interests and recent highlights
+  </a>
+ </li>
+ <li>
+  <a href="http://www.cds.caltech.edu/~andrea/software.html">
+   List of recent software projects
+  </a>
+ </li>
+ <li>
+  <a href="http://www.cds.caltech.edu/~andrea/quotes.html">
+   Favorite quotes
+  </a>
+ </li>
+</ul>]]></description>
+         <content:encoded><![CDATA[<p>
+ Updated pages:
+</p>
+<ul>
+ <li>
+  my
+  <a href="http://www.cds.caltech.edu/~andrea/publications.html">
+   publications list
+  </a>
+ </li>
+ <li>
+  <a href="http://www.cds.caltech.edu/~andrea/research/index.html">
+   Research interests and recent highlights
+  </a>
+ </li>
+ <li>
+  <a href="http://www.cds.caltech.edu/~andrea/software.html">
+   List of recent software projects
+  </a>
+ </li>
+ <li>
+  <a href="http://www.cds.caltech.edu/~andrea/quotes.html">
+   Favorite quotes
+  </a>
+ </li>
+</ul>]]></content:encoded>
+         <pubDate>Thu, 27 Jan 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-01-27</guid>
+     </item>
+
+    <item>
+         <title>PyContracts, a new Python project</title>
+         <link>http://andreacensi.github.com/contracts/</link>
+         <description><![CDATA[<p>
+ A recent project:
+ <a href="http://andreacensi.github.com/contracts/">
+  PyContracts
+ </a>
+ ,
+a Python package that allows to declare constraints on function parameters and return values. It supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays).
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ A recent project:
+ <a href="http://andreacensi.github.com/contracts/">
+  PyContracts
+ </a>
+ ,
+a Python package that allows to declare constraints on function parameters and return values. It supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays).
+</p>]]></content:encoded>
+         <pubDate>Fri, 26 Jan 2001 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2001-01-26</guid>
+     </item>
+
+    <item>
+         <title>TAing the advanced robotics course</title>
+         <link>http://www.cds.caltech.edu/~murray/wiki/index.php/ME/CS_132a,_Winter_2010</link>
+         <description><![CDATA[<p>
+ I'm TAing
+ <a href="http://www.cds.caltech.edu/~murray/wiki/index.php/ME/CS_132a,_Winter_2010">
+  ME132a-b, "Advanced Robotics: Navigation and vision"
+ </a>
+ ,
+which this year is taught by the
+ <a href="http://www-robotics.jpl.nasa.gov/groups/ComputerVision/">
+  Computer Vision Group
+ </a>
+ at
+ <a href="http://www.jpl.nasa.gov/">
+  Nasa JPL
+ </a>
+ .
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ I'm TAing
+ <a href="http://www.cds.caltech.edu/~murray/wiki/index.php/ME/CS_132a,_Winter_2010">
+  ME132a-b, "Advanced Robotics: Navigation and vision"
+ </a>
+ ,
+which this year is taught by the
+ <a href="http://www-robotics.jpl.nasa.gov/groups/ComputerVision/">
+  Computer Vision Group
+ </a>
+ at
+ <a href="http://www.jpl.nasa.gov/">
+  Nasa JPL
+ </a>
+ .
+</p>]]></content:encoded>
+         <pubDate>Mon, 03 Jan 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-01-03</guid>
+     </item>
+
+    <item>
+         <title>A new website and a ROS wrapper for CSM.</title>
+         <link>http://purl.org/censi/2007/csm</link>
+         <description><![CDATA[<p>
+ <a href="http://purl.org/censi/2007/csm">
+  CSM
+ </a>
+ moved to
+ <a href="http://www.github.com">
+  Github
+ </a>
+ .
+</p>
+<p>
+ Also,
+ <a href="http://robotics.ccny.cuny.edu/blog/People/Dryanovski">
+  Ivan Dryanovski
+ </a>
+ created a
+ <a href="http://www.ros.org/wiki/canonical_scan_matcher">
+  ROS wrapper
+ </a>
+ .
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ <a href="http://purl.org/censi/2007/csm">
+  CSM
+ </a>
+ moved to
+ <a href="http://www.github.com">
+  Github
+ </a>
+ .
+</p>
+<p>
+ Also,
+ <a href="http://robotics.ccny.cuny.edu/blog/People/Dryanovski">
+  Ivan Dryanovski
+ </a>
+ created a
+ <a href="http://www.ros.org/wiki/canonical_scan_matcher">
+  ROS wrapper
+ </a>
+ .
+</p>]]></content:encoded>
+         <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2010-08-01</guid>
+     </item>
+
+
+
+   </channel>
+</rss>
