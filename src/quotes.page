@@ -48,14 +48,6 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 {.note}
 
 
-> Che cos'è il genio? è fantasia, intuizione, decisione e velocità d'esecuzione. --- from [Amici miei]
-
-> What is genius? It's imagination, intuition, willingness and speed of execution.
-{.translation}
-
-> This is spoken in the movie [Amici Miei] referring to a rather crude practical joke, but it applies equally well to research.
-{.note}
-
 
 [Feynman]: http://en.wikipedia.org/wiki/Richard_Feynman
 
@@ -108,6 +100,16 @@ and: [The importance of stupidity in scientific research][stupid]
 > If nobody had ever thought your genius idea, it's probably worthless.
 {.translation}
 
+> Che cos'è il genio? è fantasia, intuizione, decisione e velocità d'esecuzione. --- from [Amici miei]
+
+> What is genius? It's imagination, intuition, willingness and speed of execution.
+{.translation}
+
+> This is spoken in the movie [Amici Miei] referring to a rather crude practical joke, but it applies equally well to research.
+{.note}
+
+
+
 #### On design
 
 > Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher. --- Antoine de Saint-Exupery
@@ -142,7 +144,7 @@ See also: [Respect the unstable][unstable]
 <!-- > It is the responsibility of intellectuals to speak the Truth and expose lies. --- [Chomsky] -->
 
 
-### On programming
+#### On programming
 
 > The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague. --- [Dijkstra][ewd]
 
