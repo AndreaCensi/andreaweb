@@ -6,11 +6,23 @@ orderInfo: 300
 
 <style type="text/css">
 blockquote p { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0;}
-blockquote { font-style: italic;  margin-bottom: 0; padding-bottom: 0;}
+blockquote { 
+    font-style: italic;  
+    margin-top: 0;
+    margin-bottom: 0; padding-bottom: 0;
+        width: 25em;
+}
+
+div#body > p { clear: both;}
+/*div#body > blockquote { border: solid 1px red}*/
+div#body > blockquote { float: left; padding-bottom: 1.5em;}
+blockquote blockquote { text-align: right; margin: 0; padding: 0;}
+
 blockquote A { 
 /*    font-style: normal; */
 }
-h4 { color: #400; clear: both;}
+h4 { color: #400; clear: both; margin-top: 1em; padding-bottom: 5px;
+    border-bottom: solid 1px #400; margin-bottom: 1em; padding-top: 1em;}
 
 /*blockquote p { font-family: serif;}*/
 
@@ -31,24 +43,25 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 
 #### On getting things done
 
-> Le mieux est l'ennemi du bien. --- [Voltaire]
-
+> Le mieux est l'ennemi du bien.
+> > --- [Voltaire]
+>
 > Better is the enemy of good enough.
-{.translation}
+> {.translation}
 
 
 > Nil difficili volenti.
-
+>
 > Nothing is difficult to willing people.
-{.translation}
+> {.translation}
 
 > The [Feynman] problem-solving algorithm:  
 >  1\. Write down the problem.  
 >  2\. Think very hard.  
 >  3\. Write down the answer.  
-
+> 
 > Protip: usually people miss step 1.
-{.note}
+> {.note}
 
 
 
@@ -58,9 +71,11 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 
 <div id="cagequote"><img src='media/cage.jpg' alt='quote'/><p class="translation">The situation being desperate, everything is now possible.</p></div>
 
-> Success is going from failure to failure without losing enthusiasm. --- [Winston Churchill][churchill]
+> Success is going from failure to failure without losing enthusiasm.
+> > --- [Winston Churchill][churchill]
 
-> An expert is a person who has made all the mistakes that can be made in a very narrow field. --- [Niels Bohr][bohr]
+> An expert is a person who has made all the mistakes that can be made in a very narrow field.
+> > --- [Niels Bohr][bohr]
 
 
 See also: [We are sorry to inform you...][sorry] (required reading before reviewing) and [The importance of stupidity in scientific research][stupid].
@@ -73,11 +88,14 @@ See also: [We are sorry to inform you...][sorry] (required reading before review
 
 #### On writing
 
-> What is written without effort is in general read without pleasure. --- [Samuel Johnson]
+> What is written without effort is in general read without pleasure.
+> > --- [Samuel Johnson]
 
-> Write a paper so that at least you yourself are able to read it five years from now. --- [Jerry Marsden]
+> Write a paper so that at least you yourself are able to read it five years from now.
+> > --- [Jerry Marsden]
 
-> I didn't have time to write a short letter, so I've written a long one instead. --- [Pascal]
+> I didn't have time to write a short letter, so I've written a long one instead.
+> > --- [Pascal]
 
 <!-- > Begin at the beginning and go on till you come to the end: then stop. --- The King -->
 
@@ -85,38 +103,44 @@ See also: [We are sorry to inform you...][sorry] (required reading before review
 
 #### On publishing
 
-> If you try to talk to two people at the same time, you end up talking to the wall. --- Professor at Caltech
+> If you try to talk to two people at the same time, you end up talking to the wall.
+> > --- Professor at Caltech
 
-> Don't scoop yourself. --- Professor at Caltech
+> Don't scoop yourself.
+> > --- Professor at Caltech
 
 
 #### On the nature of genius
 
-> Genius is 1% inspiration and 99% perspiration. --- [Thomas Edison][edison]
+> Genius is 1% inspiration and 99% perspiration.
+> > --- [Thomas Edison][edison]
 
 
 > Se la tua idea geniale non l'ha mai pensata nessuno,
-> è probabilmente una minchiata.  --- [Enrico Pagello]
-
+> è probabilmente una minchiata.
+> > --- [Enrico Pagello]
+> 
 > If nobody had ever thought your genius idea, it's probably worthless.
-{.translation}
+> {.translation}
 
-> Che cos'è il genio? è fantasia, intuizione, decisione e velocità d'esecuzione. --- from [Amici miei]
-
+> Che cos'è il genio? è fantasia, intuizione, decisione e velocità d'esecuzione.
+> > --- from [Amici miei]
+>
 > What is genius? It's imagination, intuition, willingness and speed of execution.
-{.translation}
-
+> {.translation}
+>
 > This is spoken in the movie [Amici Miei] referring to a rather crude practical joke, but it applies equally well to research.
-{.note}
+> {.note}
 
 
 
 #### On design
 
-> Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher. --- Antoine de Saint-Exupery
-
+> Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher.
+> > --- Antoine de Saint-Exupery
+> 
 > It appears that perfection is achieved, not when there is nothing more to add, but when there is nothing left to remove. 
-{.translation}
+> {.translation}
 
 #### On modeling and abstractions
 
@@ -129,18 +153,20 @@ See also: [We are sorry to inform you...][sorry] (required reading before review
 > truth is not beauty,  
 > beauty is not love,  
 > love is not music,  
-> music is the best!  
+> music is the best!
+> > --- Clifford Stoll + Frank Zappa
+
+> The price of metaphor is eternal vigilance.
+> > --- [Norbert Wiener][wiener]
+
+> The best model of a cat is another cat, or better yet, the cat itself.
+> > ---  ([Norbert Wiener][wiener] or [Arturo Rosenblueth][rosenblueth])
+
+> A good man knows his limitations.
+> > --- [Harry Callahan]
 >
-> --- Clifford Stoll + Frank Zappa
-
-> The price of metaphor is eternal vigilance. --- [Norbert Wiener][wiener]
-
-> The best model of a cat is another cat, or better yet, the cat itself. ---  ([Norbert Wiener][wiener] or [Arturo Rosenblueth][rosenblueth])
-
-> A good man knows his limitations. --- [Harry Callahan], relayed by a professor in Sapienza University
-
-> Valid equally well for estimation and control.
-{.note}
+> Relayed by a professor in Sapienza University, and valid equally well for estimation and control.
+> {.note}
 
 See also: [Respect the unstable][unstable]
 
@@ -150,10 +176,11 @@ See also: [Respect the unstable][unstable]
 
 #### On teaching
 
-> La cultura è l'abitudine del pensare chiaro e logico, il coraggio del giudizio indipendente. --- [G. Salvemini][salvemini]
-
+> La cultura è l'abitudine del pensare chiaro e logico, il coraggio del giudizio indipendente.
+> > --- [G. Salvemini][salvemini]
+> 
 > Culture is the habit of thinking clearly and logically, and the courage to an independent judgement.
-{.translation}
+> {.translation}
 
 <!-- > It is the responsibility of intellectuals to speak the Truth and expose lies. --- [Chomsky] -->
 
@@ -166,16 +193,18 @@ See also: [Respect the unstable][unstable]
 
 #### On programming
 
-> The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague. --- [Dijkstra][ewd]
+> The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
+> > --- [Dijkstra][ewd]
 
 [ewd]: http://www.cs.utexas.edu/~EWD/ewd03xx/EWD340.PDF
 
 #### On lab safety
 
-> Always keep one hand in the pocket. --- Anonymous professor in Sapienza University
-
->This is all I remember from a course on control of electric motors a few years back, but it is really good advice.
-{.note}
+> Always keep one hand in the pocket.
+> > --- Anonymous professor in Sapienza University
+> 
+> This is all I remember from a course on control of electric motors a few years back, but it is really good advice.
+> {.note}
 
 [Amici Miei]: http://en.wikipedia.org/wiki/My_Friends_(film)
 [salvemini]: http://en.wikipedia.org/wiki/Gaetano_Salvemini
