@@ -430,6 +430,28 @@ but I'm not there yet.</p> </p>
 
 
     <tr class='project'>
+        <td class='name'><a href='https://github.com/AndreaCensi/busymail'>Busymail</a></td>
+
+        <td class='year' >2011</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>Software to plot stress/procrastination curves from email data.</p></td>
+    </tr>
+
+    <tr class='project'>
+        <td class='name'><a href='http://github.com/AndreaCensi/patience'>patience</a></td>
+
+        <td class='year' >2010</td>
+        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
+
+        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
+        <td class='language'>Python</td>
+        <td class='desc'><p>A simple script I use privately to manage multiple git repositories.</p></td>
+    </tr>
+
+    <tr class='project'>
         <td class='name'><a href='http://github.com/nex3/maruku'>Maruku</a></td>
 
         <td class='year' >2008</td>
@@ -482,17 +504,6 @@ SISO tools, but of course much better.</p></td>
     <td class='desc'></td>
 </tr>
 
-
-    <tr class='project'>
-        <td class='name'><a href='http://github.com/AndreaCensi/patience'>patience</a></td>
-
-        <td class='year' >2010</td>
-        <td class='active' ><img class="activity_icon" src="icons/status/activity-active.png" alt="active"/></td>
-
-        <td class='status'><img class="status_icon" src="icons/status/status-alpha.png" alt="alpha"/></td>
-        <td class='language'>Python</td>
-        <td class='desc'><p>A simple script I use privately to manage multiple git repositories.</p></td>
-    </tr>
 
 
 </table>

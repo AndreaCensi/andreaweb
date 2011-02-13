@@ -1,6 +1,5 @@
 # active: yes, maintained, no, others
 # 
-
 ---
 name: PyContracts
 group: research/libraries
@@ -11,6 +10,17 @@ language: Python
 url: http://andreacensi.github.com/contracts/
 desc: |
     PyContracts is a Python package that allows to declare constraints on function parameters and return values. Contracts can be specified using Python3 annotations, or inside a docstring :type: and :rtype: tags. PyContracts supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays), as well as an extension API
+---
+name: Busymail
+group: general
+status: beta
+active: yes
+date: 2011
+language: Python
+url:  https://github.com/AndreaCensi/busymail
+desc: |
+    Software to plot stress/procrastination curves from email data.
+
 ---
 name: Maruku
 group: general
@@ -130,7 +140,7 @@ url: https://github.com/AndreaCensi/latex_symbol_list
 desc: Simple script to create symbol tables in LaTeX.
 ---
 name: patience
-group: general/utils
+group: general
 status: alpha
 date: 2010
 active: yes
@@ -250,7 +260,7 @@ url: http://purl.org/censi/2010/boot
 desc: |
     The software I am developing for my thesis.
 ---
-name: rfsee
+name: fsee_utils
 date: 2010
 hide: true
 group: research/biology
