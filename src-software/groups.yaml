@@ -28,10 +28,3 @@ desc: |
 id: general
 name: General-purpose software
 desc: This is software not related to my research.
----
-id: general/utils
-name: General-purpose utilities
-desc: |
-    These are general-purpose utilities, not directly related to my research.
-
-
