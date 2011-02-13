@@ -10,7 +10,7 @@ blockquote { font-style: italic;  margin-bottom: 0; padding-bottom: 0;}
 blockquote A { 
 /*    font-style: normal; */
 }
-h4 { color: #400; }
+h4 { color: #400; clear: both;}
 
 /*blockquote p { font-family: serif;}*/
 
@@ -18,6 +18,9 @@ h4 { color: #400; }
 .note { font-style: normal;  color: #a88;}
 
 .translation, .note { margin-top: 0; padding-top: 0; }
+
+#cagequote { float: right; width: 320px;}
+#cagequote img { width: 300px; border: solid 2px black; padding: 0;}
 
 </style>
 
@@ -53,17 +56,16 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 
 #### On dealing with failure 
 
+<div id="cagequote"><img src='media/cage.jpg' alt='quote'/><p class="translation">The situation being desperate, everything is now possible.</p></div>
 
 > Success is going from failure to failure without losing enthusiasm. --- [Winston Churchill][churchill]
 
 > An expert is a person who has made all the mistakes that can be made in a very narrow field. --- [Niels Bohr][bohr]
 
 
-See also: [We are sorry to inform you...][sorry] (required reading before reviewing)
+See also: [We are sorry to inform you...][sorry] (required reading before reviewing) and [The importance of stupidity in scientific research][stupid].
 
 [sorry]: http://dx.doi.org/10.1109/MC.2005.423
-
-and: [The importance of stupidity in scientific research][stupid]
 
 [stupid]: http://jcs.biologists.org/cgi/content/full/121/11/1771
 
@@ -86,7 +88,6 @@ and: [The importance of stupidity in scientific research][stupid]
 > If you try to talk to two people at the same time, you end up talking to the wall. --- Professor at Caltech
 
 > Don't scoop yourself. --- Professor at Caltech
-
 
 
 #### On the nature of genius
@@ -143,6 +144,12 @@ See also: [Respect the unstable][unstable]
 
 <!-- > It is the responsibility of intellectuals to speak the Truth and expose lies. --- [Chomsky] -->
 
+#### On robotics
+
+> The Three Laws of Roboticists:
+> 1. Never give a robotic demo.
+> 2. Follow your advisor's advice, except when it contrasts with the first Law.
+> 3. Really, never give a robotic demo!
 
 #### On programming
 

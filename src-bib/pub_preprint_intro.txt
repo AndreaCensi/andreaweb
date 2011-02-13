@@ -3,7 +3,8 @@
 #### Preprints / to appear 
 
 
-If you are inside the Caltech network, you can also access
+If you are inside the Caltech or JPL networks (i.e., your IP is 131.215.x.x or
+128.149.x.x), you can also access
 [the list of "private" drafts][caltech_only], typically papers submitted
 to double-blind conferences that cannot be made googlable. Please do not distribute outside
 of Caltech.
