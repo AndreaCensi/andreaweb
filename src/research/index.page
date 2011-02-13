@@ -5,72 +5,99 @@ Date: Jan 1 2011
 ---
 
 <style type='text/css'>
-h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
+#quote { float: right; color: gray; text-align: right; font-style:italic; margin-top: -2em;};
+
+/*h5 { display: block; margin: 0; padding: 0; text-align: center; color: white;}*/
+
+/*#problems, #approaches, #theories { border: solid 1px red;}
+#quote { border: solid 1px red;}
+*/
+#problems, #approaches, #theories { padding: 0 1.5em 0 0.5em; margin: 0;}
+#approaches { margin-top: 1em;}
+#problems, #approaches { width: 45%; float: left;   clear: left;}
+#theories { width: 45%; float: right;  clear: right;}
+#after { clear: both;}
+
+h4 { border-bottom: solid 3px #b00; padding-bottom: 5px}
+
+h5 { font-size: 1.2em; color: #b00; text-align: center; padding: 0; margin: 0;}
+
+
 .video { float: right; margin: 1em; border: solid 2px #eee;}
+.video_caption { font-style: italic; font-size: 95%}
+
 </style>
 
-<p class='updated' style='color: #c00; font-weight: bold'>(updated: January 2011)</p>
-
-
-> Ah, la recherche! Du temps perdu.
+> Ah, la recherche! Du temps perdu.  
 > ([source](http://projecteuclid.org/euclid.em/1062620828))
 {#quote}
 
+
+
 This is a summary of my general research interests, 
 along with some highlights of recent activity.
+<span class='updated' style='color: #c00; font-weight: bold'>(updated: January 2011)</span>
 
-**General problem domains**
+<div markdown="1" id="theories">
+#####  Favorite theories and methods
 
-* My main interest lies in **robotics**, which, from my point of view, includes all 
-  interactions of an intelligent agent with the real world. I believe that in my
-  lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist]. While I'm waiting for that to happen, I'm particularly interested in **perception** problems.
+My first love is **estimation and filtering**. 
+At Caltech I was infected with people's enthusiasm
+on differential **geometry**.
+
+When you apply *geometry* to *estimation*  you get  **information geometry** ([simple introduction][araki] ).  
+When you apply *estimation* to *geometry* you get **intrinsic estimation**
+(see for example the
+[theory of shape spaces][kendall], and [my favorite paper][smith]).  
+
+I'm interested in both combinations (and both will provide a lifetime learning experience).
+</div>
+
+<div markdown="1" id="problems">
+##### General problem domains
+
+My main interest lies in **robotics**, which, from my point of view, includes all 
+interactions of an intelligent agent with the real world. I believe that in my
+lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist]. While I'm waiting for that to happen, I'm particularly interested in **perception** problems.
   
   <!-- Inspiration: Asimov. I know, it's fiction, but I wouldn't be doing this without his books. -->
   
-* I am fascinated by **cybernetics**, [in its original meaning][wiener] of 
-  comparative study of artificial and neural information processing:
-  nature's solutions are often much more robust than the current state
-  of the art.
+I am fascinated by **cybernetics**, [in its original meaning][wiener] of 
+comparative study of artificial and neural information processing:
+nature's solutions are often much more robust than the current state
+of the art.
   
   <!-- Inspiration: [Cybernetics: Or the Control and Communication in the Animal and the Machine][wiener] -->
+</div>
 
-**Approaches and philosophy**
+<div markdown="1" id="approaches">
+##### Approaches and philosophy
 
-* **Simple** [is better than][vehicles] complicated. In robotics
-  applications, this means staying close to the measurement space.
-    
-* **Formal** is [is better than][Dijkstra] informal.
-  Also, "formal" usually implies "simple", because you usually can prove something
-  only if it is simple enough.
-    
-* **Data** before models, as long as formal results can still be proved.
+**Simple** [is better than][vehicles] complicated. In robotics
+applications, this means staying close to the measurement space.
+
+**Formal** is [is better than][Dijkstra] informal.
+Also, "formal" usually implies "simple", because you usually can prove something
+only if it is simple enough.
+
+**Data** before models, as long as formal results can still be proved.
+
+**Open** is better than closed.
+[Reproducible research][repres] is a worthy goal.
+I predict that, in 15 years, it will be unthinkable to publish
+in engineering research or computational sciences without publishing
+the full source code. 
+
 
   <!-- (Control community ) -->
   <!-- Inspiration: Hinton's networks -->
-
-* **Open** is better than closed.
-  [Reproducible research][repres] is a worthy goal.
-  I predict that, in 15 years, it will be unthinkable to publish
-  in engineering research or computational sciences without publishing
-  the full source code. 
-  
   <!-- publishing in the future -->
+</div>
 
-**Favorite theories and methods**
 
-* My first love is **estimation and filtering**. 
-  At Caltech I was infected with people's enthusiasm
-  on differential **geometry**.
-  Both are so deep that guarantee a lifetime learning experience!
-
-* When you apply *geometry* to *estimation*  you get  **information geometry** ([simple introduction][araki] ).  
-  When you apply *estimation* to *geometry* you get **intrinsic estimation**
-  (see for example the
-  [theory of shape spaces][kendall], and [my favorite paper][smith]).  
-  I'm interested in both combinations.
- 
 Keep reading for some highlights from my research, or read my [publications] list.
-  
+{#after}
+
 [information_spaces]: http://msl.cs.uiuc.edu/~lavalle/
 [araki]: http://en.wikipedia.org/wiki/Information_geometry
 [vehicles]: http://en.wikipedia.org/wiki/Valentino_Braitenberg
@@ -84,7 +111,7 @@ Keep reading for some highlights from my research, or read my [publications] lis
 
 <!-- or [information spaces][information_spaces]. -->
 
-### Highlight - Bootstrapping Vehicles
+#### Highlight - Bootstrapping Vehicles
 
 
 <div style='float: right; margin: 1em; border: solid 2px #eee;'>
@@ -121,7 +148,7 @@ See [many other videos][bevideos] of related experiments.
 
 <div style='clear: both'></div>
 
-### Highlight - Visually-guided behavior in Drosophila Melanogaster
+#### Highlight - Visually-guided behavior in Drosophila Melanogaster
 
 I have been collaborating with [the Dickinson lab], in particular with [Andrew Straw][straw] (who now has his own lab at the Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
 
@@ -171,8 +198,6 @@ See also:
 
 
 #### Networks ####{:head}
-
-* TOWRITE
 
 * ![icon](../icons/fractals.jpg){:icon} The ultimate match: Cantor meets Kalman! <br/> [On the performance of Kalman filtering with intermittent observations: a geometric approach with fractals][fractals]
 
@@ -232,12 +257,6 @@ See also:
 [ftf]: ftf/index.html
 [plicp]: plicp/index.html
 [bio-attitude]: bio-attitude.html
-
-
-<style type='text/css'>
-    #quote { float: right; text-align: right; font-style:italic};
-    .video_caption { font-style: italic; font-size: 95%}
-</style>
 
 
 
