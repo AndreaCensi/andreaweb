@@ -45,13 +45,15 @@ My first love is **estimation and filtering**.
 At Caltech I was infected with people's enthusiasm
 on differential **geometry**.
 
-When you apply *geometry* to *estimation*  you get  **information geometry** ([simple introduction][araki] ).  
+When you apply *geometry* to *estimation*  you get  **information geometry** ([Wikipedia summary][araki], [serious introduction][cosma]).  
 When you apply *estimation* to *geometry* you get **intrinsic estimation**
 (see for example the
 [theory of shape spaces][kendall], and [my favorite paper][smith]).  
 
 I'm interested in both combinations (and both will provide a lifetime learning experience).
 </div>
+
+[cosma]: http://cscs.umich.edu/~crshalizi/notebooks/info-geo.html
 
 <div markdown="1" id="problems">
 ##### General problem domains
@@ -148,7 +150,7 @@ See [many other videos][bevideos] of related experiments.
 
 <div style='clear: both'></div>
 
-#### Highlight - Visually-guided behavior in Drosophila Melanogaster
+#### Highlight - Identification of visually-guided behavior in Drosophila Melanogaster
 
 I have been collaborating with [the Dickinson lab], in particular with [Andrew Straw][straw] (who now has his own lab at the Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
 
