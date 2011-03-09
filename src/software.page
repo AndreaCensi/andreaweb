@@ -452,7 +452,7 @@ but I'm not there yet.</p> </p>
     </tr>
 
     <tr class='project'>
-        <td class='name'><a href='http://github.com/nex3/maruku'>Maruku</a></td>
+        <td class='name'><a href='http://www.maruku.org'>Maruku</a></td>
 
         <td class='year' >2008</td>
         <td class='active' ><img class="activity_icon" src="icons/status/activity-others.png" alt="maintained by others"/></td>
@@ -468,7 +468,7 @@ but I'm not there yet.</p> </p>
         <td class='year' >2005</td>
         <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
 
-        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
         <td class='language'>C++</td>
         <td class='desc'><p>A free (GPL) KDE client for <a href="http://c6.alice.it/">C6</a>. 
 See also: <a href="http://openc6.extracon.it/downloads/pubblici/icpp.html">reverse engineering of the C6 protocol</a>. </p></td>
@@ -480,7 +480,7 @@ See also: <a href="http://openc6.extracon.it/downloads/pubblici/icpp.html">rever
         <td class='year' >2004</td>
         <td class='active' ><img class="activity_icon" src="icons/status/activity-notactive.png" alt="not active"/></td>
 
-        <td class='status'><img class="status_icon" src="icons/status/status-stable.png" alt="stable"/></td>
+        <td class='status'><img class="status_icon" src="icons/status/status-beta.png" alt="beta"/></td>
         <td class='language'>Java</td>
         <td class='desc'><p>A graphical design tool for SISO systems, written in Java, 
 as a course project, many years ago. It is analogous to Matlab's
