@@ -6,11 +6,40 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sat, 12 Feb 2011 23:42:48 +0000</lastBuildDate>
+      <lastBuildDate>Thu, 31 Mar 2011 14:50:10 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Draft: A group-theoretic approach to formalizing bootstrapping problems</title>
+         <link>http://purl.org/censi/2011/bgds_tr</link>
+         <description><![CDATA[<p>
+ Some recent work:
+ <a href="http://purl.org/censi/2011/bgds_tr">
+  A group-theoretic approach to formalizing bootstrapping problems (PDF)
+ </a>
+ . See also
+ <a href="http://purl.org/censi/2011/bgds">
+  the supplemental videos page
+ </a>
+ .
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Some recent work:
+ <a href="http://purl.org/censi/2011/bgds_tr">
+  A group-theoretic approach to formalizing bootstrapping problems (PDF)
+ </a>
+ . See also
+ <a href="http://purl.org/censi/2011/bgds">
+  the supplemental videos page
+ </a>
+ .
+</p>]]></content:encoded>
+         <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-03-31</guid>
+     </item>
+
     <item>
          <title>Site update</title>
          <link>http://www.cds.caltech.edu/~andrea/publications.html</link>
