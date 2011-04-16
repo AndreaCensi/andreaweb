@@ -13,6 +13,10 @@ names = [
   #  "family"=> "Scrapper", 
   #  "site"=>"http://www.intelligentcontrol.es/paloma/"},
 
+  {"first"=> "Paloma", 
+   "family"=> "", 
+   "site"=>"http://www.intelligentcontrol.es/paloma/"},
+
   {"first"=> "Raj", 
    "family"=> "Madhavan", 
    "site"=>"http://www.isr.umd.edu/faculty/gateways/madhavan.htm"},

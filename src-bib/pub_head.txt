@@ -6,7 +6,7 @@ orderInfo: 100
 <style type='text/css'>
 h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
 </style>
-<p class='updated' style='color: #c00; font-weight: bold'>(updated: January 2011)</p>
+<p class='updated' style='color: #a00; font-weight: bold'>(updated: April 2011)</p>
 
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
@@ -15,13 +15,21 @@ Some papers have an 8-page conference version, plus a longer technical report ve
 
 My [Erdos number][erdos] is at most 5; there's a path through logicians (Erdos - [S.Shelah][shelah] - [D.M.Gabbay][gabbay] -
 [L.Carlucci Aiello][aiello] - [D.Nardi][nardi] - me), and [a path][lewispath] through geometers (Erdos - A.L.Shields - Marsden - Murray - me).
-<!--
-Erdös, P.; Shapiro, H. S.; Shields, A. L. Large and small subspaces of Hilbert space. Michigan Math. J. 12 1965 169--178.
-Shields, Allen L. Some problems in operator theory. Notes by Michael J. Hoffman. Lecture Notes in Math., 693, Hilbert space operators (Proc. Conf., Calif. State Univ., Long Beach, Calif., 1977), pp. 157--167, Springer, Berlin, 1978.
-Marsden, Jerrold E.; Hoffman, Michael J. Basic complex analysis. Second edition. W. H. Freeman and Company, New York, 1987. xiv+604 pp. ISBN: 0-7167-1814-6
-Bloch, Anthony M.; Krishnaprasad, P. S.; Marsden, Jerrold E.; Murray, Richard M. Nonholonomic mechanical systems with symmetry. Arch. Rational Mech. Anal. 136 (1996), no. 1, 21--99.
-Lewis, Andrew D.; Murray, Richard M. Configuration controllability of simple mechanical control systems. SIAM Rev. 41 (1999), no. 3, 555--574
+
+<!-- Erdos, P.; Shapiro, H. S.; Shields, A. L. Large and small subspaces of
+Hilbert space. Michigan Math. J. 12 1965 169--178. Shields, Allen L. Some
+problems in operator theory. Notes by Michael J. Hoffman. Lecture Notes in
+Math., 693, Hilbert space operators (Proc. Conf., Calif. State Univ., Long
+Beach, Calif., 1977), pp. 157--167, Springer, Berlin, 1978. Marsden, Jerrold
+E.; Hoffman, Michael J. Basic complex analysis. Second edition. W. H. Freeman
+and Company, New York, 1987. xiv+604 pp. ISBN: 0-7167-1814-6 Bloch, Anthony
+M.; Krishnaprasad, P. S.; Marsden, Jerrold E.; Murray, Richard M. Nonholonomic
+mechanical systems with symmetry. Arch. Rational Mech. Anal. 136 (1996), no.
+1, 21--99. Lewis, Andrew D.; Murray, Richard M. Configuration controllability
+of simple mechanical control systems. SIAM Rev. 41 (1999), no. 3, 555--574
 Andrew D. Lewis (andrew at mast.queensu.ca) -->
+
+
 [lewispath]: http://www.mast.queensu.ca/~andrew/erdos.shtml
 [erdos]: http://en.wikipedia.org/wiki/Erd%C5%91s_number
 [aiello]: http://www.dis.uniroma1.it/~aiello

@@ -1,6 +1,6 @@
 
 
-#### Preprints / to appear 
+#### Preprints 
 
 
 If you are inside the Caltech or JPL networks (i.e., your IP is 131.215.x.x or
