@@ -47,14 +47,36 @@ of Caltech.
 
 <p>
 
-A.C..
- <b>Kalman filtering with intermittent observations: convergence for
-  semi-Markov chains and an intrinsic performance measure</b>.
- <em>IEEE Transactions on Automatic Control</em>, 2011.
- To appear.
-[&nbsp;<a href="pub_preprint_bib.html#censi11kf">bibtex</a>&nbsp;| 
-<a href="http://dx.doi.org/10.1109/TAC.2010.2097350">DOI</a>&nbsp;| 
-<a href="http://purl.org/censi/research/2011-tac-kf-geometry.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
+ <b>Bootstrapping, uncertain semantics, and invariance</b>.
+ Technical Report CaltechCDSTR:2011.004, California Institute of
+  Technology, 2011.
+[&nbsp;<a href="pub_preprint_bib.html#censi11semantics_report">bibtex</a>&nbsp;| 
+<a href="http://resolver.caltech.edu/CaltechCDSTR:2011.004"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+
+</p>
+
+<p>
+
+A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
+ <b>A group-theoretic approach to formalizing bootstrapping
+  problems</b>.
+ Technical Report CaltechCDSTR:2011.005, California Institute of
+  Technology, 2011.
+[&nbsp;<a href="pub_preprint_bib.html#censi11bgds_report">bibtex</a>&nbsp;| 
+<a href="http://resolver.caltech.edu/CaltechCDSTR:2011.005"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+
+</p>
+
+<p>
+
+Paloma de&nbsp;la Puente and A.C..
+ <b>Dense map inference with user-defined priors: from priorlets to
+  scan eigenvariations</b>.
+ Technical Report CaltechCDSTR:2011.002, California Institute of
+  Technology, 2011.
+[&nbsp;<a href="pub_preprint_bib.html#delapuente11dense">bibtex</a>&nbsp;| 
+<a href="http://resolver.caltech.edu/CaltechCDSTR:2011.002"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
 
@@ -63,7 +85,7 @@ A.C..
 A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
  <b>Bootstrapping bilinear models of robotic sensorimotor cascades</b>.
  In <em>Proceedings of the IEEE International Conference on
-  Robotics and Automation (ICRA)</em>, 2011.
+  Robotics and Automation (ICRA)</em>, May 2011.
 [&nbsp;<a href="pub_preprint_bib.html#censi11bds">bibtex</a>&nbsp;| 
 <a href="http://purl.org/censi/2010/boot"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2010-bootstrapping-bilinear-short.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
@@ -74,6 +96,18 @@ A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a
 
 
 
+
+<p>
+
+A.C..
+ <b>Kalman filtering with intermittent observations: convergence for
+  semi-Markov chains and an intrinsic performance measure</b>.
+ <em>IEEE Transactions on Automatic Control</em>, February 2011.
+[&nbsp;<a href="pub_proc_bib.html#censi11kf">bibtex</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/TAC.2010.2097350">DOI</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2011-tac-kf-geometry.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+
+</p>
 
 <p>
 

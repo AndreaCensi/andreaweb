@@ -6,11 +6,61 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sat, 12 Feb 2011 23:42:48 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 15 Apr 2011 09:28:36 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Draft: Bootstrapping, uncertain semantics, and invariance</title>
+         <link>http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf</link>
+         <description><![CDATA[<p>
+ Some recent work:
+ <a href="http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf">
+  Bootstrapping, uncertain semantics, and invariance  (PDF)
+ </a>
+ . Comment from a reader: "whoa... quite... esoteric...".
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Some recent work:
+ <a href="http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf">
+  Bootstrapping, uncertain semantics, and invariance  (PDF)
+ </a>
+ . Comment from a reader: "whoa... quite... esoteric...".
+</p>]]></content:encoded>
+         <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-04-15</guid>
+     </item>
+
+    <item>
+         <title>Draft: A group-theoretic approach to formalizing bootstrapping problems</title>
+         <link>http://purl.org/censi/2011/bgds_tr</link>
+         <description><![CDATA[<p>
+ Some recent work:
+ <a href="http://purl.org/censi/2011/bgds_tr">
+  A group-theoretic approach to formalizing bootstrapping problems (PDF)
+ </a>
+ . See also
+ <a href="http://purl.org/censi/2011/bgds">
+  the supplemental videos page
+ </a>
+ .
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Some recent work:
+ <a href="http://purl.org/censi/2011/bgds_tr">
+  A group-theoretic approach to formalizing bootstrapping problems (PDF)
+ </a>
+ . See also
+ <a href="http://purl.org/censi/2011/bgds">
+  the supplemental videos page
+ </a>
+ .
+</p>]]></content:encoded>
+         <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-03-31</guid>
+     </item>
+
     <item>
          <title>Site update</title>
          <link>http://www.cds.caltech.edu/~andrea/publications.html</link>

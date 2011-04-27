@@ -28,7 +28,7 @@ status: production
 active: others
 date: 2008
 language: Ruby
-url:  http://github.com/nex3/maruku
+url:  http://www.maruku.org
 desc: |
     A pure-Ruby [Markdown][Markdown]-superset interpreter.
     
@@ -39,7 +39,7 @@ group: general
 active: no
 language: C++
 date: 2005
-status: production
+status: beta
 url: http://www.cds.caltech.edu/~andrea/pub/software/k6
 desc:  |
   A free (GPL) KDE client for [C6][c6]. 
@@ -54,7 +54,7 @@ group: general
 active: no
 language: Java
 date: 2004
-status: production
+status: beta
 url: http://www.cds.caltech.edu/~andrea/pub/software/designer.jar
 desc:  |
   A graphical design tool for SISO systems, written in Java, 
