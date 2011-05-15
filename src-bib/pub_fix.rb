@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
 
 s = $stdin.read
+
+award = "<p> <div style='float:right; color: red; padding: 5px'> (best conference <br/> paper finalist) </div>"
+
+s = s.gsub('<p><a name="censi11bds"></a>', award) 
+
 s = s.gsub(%r{<a name=".*"></a>},'')
 mystring="A.C."
 s = s.gsub('Andrea Censi', mystring)
@@ -137,5 +142,6 @@ end
 
 
 s = s.gsub(/www:/m, "webpage / additional material")
+
 
 puts s

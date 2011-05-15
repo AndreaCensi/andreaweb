@@ -6,7 +6,7 @@ orderInfo: 100
 <style type='text/css'>
 h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
 </style>
-<p class='updated' style='color: #a00; font-weight: bold'>(updated: April 2011)</p>
+<p class='updated' style='color: #a00; font-weight: bold'>(updated: May 2011)</p>
 
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
