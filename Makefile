@@ -38,5 +38,12 @@ src/publications.page: $(src_bib)/all.bib  $(src_bib)/*.txt
 src/news.rss: $(src_news)/*
 	make -C $(src_news)
 
-webgen: src/publications.page src/news.rss src/software.page
+src/index.html: src-index
+	cp src-index/index.html $@
+
+src-index:
+	make -C $@
+
+
+webgen: src/publications.page src/news.rss src/software.page src/index.html
 	webgen

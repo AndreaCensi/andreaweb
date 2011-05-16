@@ -6,11 +6,62 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sun, 15 May 2011 15:40:41 +0000</lastBuildDate>
+      <lastBuildDate>Sun, 15 May 2011 16:59:19 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Finalist for best paper at ICRA</title>
+         <link>http://purl.org/censi/2010/boot</link>
+         <description><![CDATA[<p>
+ Our
+ <a href="http://purl.org/censi/2010/boot">
+  bootstrapping paper
+ </a>
+ was one of the finalists for the 
+best conference paper award at
+ <a href="http://www.icra2011.org/">
+  ICRA 2011
+ </a>
+ in Shanghai.
+Congrats to the winners (the
+ <a href="http://www.grasp.upenn.edu/">
+  GRASP lab
+ </a>
+ at UPenn) and the other
+runner-up (the German DLR, with their
+ <a href="http://www.youtube.com/watch?v=qVaaGld401I">
+  robotic arm
+ </a>
+ ).
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Our
+ <a href="http://purl.org/censi/2010/boot">
+  bootstrapping paper
+ </a>
+ was one of the finalists for the 
+best conference paper award at
+ <a href="http://www.icra2011.org/">
+  ICRA 2011
+ </a>
+ in Shanghai.
+Congrats to the winners (the
+ <a href="http://www.grasp.upenn.edu/">
+  GRASP lab
+ </a>
+ at UPenn) and the other
+runner-up (the German DLR, with their
+ <a href="http://www.youtube.com/watch?v=qVaaGld401I">
+  robotic arm
+ </a>
+ ).
+</p>]]></content:encoded>
+         <pubDate>Mon, 16 May 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-05-16</guid>
+     </item>
+
     <item>
          <title>Draft: Bootstrapping, uncertain semantics, and invariance</title>
          <link>http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf</link>
@@ -109,57 +160,43 @@ of a free-flying Drosophila Melanogaster.
          <title>Finally updating all these outdated webpages.</title>
          <link>http://www.cds.caltech.edu/~andrea/index.html</link>
          <description><![CDATA[<p>
- Updated pages:
-</p>
-<ul>
- <li>
-  my
-  <a href="http://www.cds.caltech.edu/~andrea/publications.html">
-   publications list
-  </a>
- </li>
- <li>
-  <a href="http://www.cds.caltech.edu/~andrea/research/index.html">
-   Research interests and recent highlights
-  </a>
- </li>
- <li>
-  <a href="http://www.cds.caltech.edu/~andrea/software.html">
-   List of recent software projects
-  </a>
- </li>
- <li>
-  <a href="http://www.cds.caltech.edu/~andrea/quotes.html">
-   Favorite quotes
-  </a>
- </li>
-</ul>]]></description>
+ Updated pages: my
+ <a href="http://www.cds.caltech.edu/~andrea/publications.html">
+  publications list
+ </a>
+ ;
+ <a href="http://www.cds.caltech.edu/~andrea/research/index.html">
+  Research interests and recent highlights
+ </a>
+ ;
+ <a href="http://www.cds.caltech.edu/~andrea/software.html">
+  List of recent software projects
+ </a>
+ ;
+ <a href="http://www.cds.caltech.edu/~andrea/quotes.html">
+  list of favorite quotes
+ </a>
+ .
+</p>]]></description>
          <content:encoded><![CDATA[<p>
- Updated pages:
-</p>
-<ul>
- <li>
-  my
-  <a href="http://www.cds.caltech.edu/~andrea/publications.html">
-   publications list
-  </a>
- </li>
- <li>
-  <a href="http://www.cds.caltech.edu/~andrea/research/index.html">
-   Research interests and recent highlights
-  </a>
- </li>
- <li>
-  <a href="http://www.cds.caltech.edu/~andrea/software.html">
-   List of recent software projects
-  </a>
- </li>
- <li>
-  <a href="http://www.cds.caltech.edu/~andrea/quotes.html">
-   Favorite quotes
-  </a>
- </li>
-</ul>]]></content:encoded>
+ Updated pages: my
+ <a href="http://www.cds.caltech.edu/~andrea/publications.html">
+  publications list
+ </a>
+ ;
+ <a href="http://www.cds.caltech.edu/~andrea/research/index.html">
+  Research interests and recent highlights
+ </a>
+ ;
+ <a href="http://www.cds.caltech.edu/~andrea/software.html">
+  List of recent software projects
+ </a>
+ ;
+ <a href="http://www.cds.caltech.edu/~andrea/quotes.html">
+  list of favorite quotes
+ </a>
+ .
+</p>]]></content:encoded>
          <pubDate>Thu, 27 Jan 2011 00:00:00 +0000</pubDate>
          <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-01-27</guid>
      </item>

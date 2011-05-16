@@ -36,6 +36,8 @@ entries_template = """
 
 
 def main():
+    what = sys.argv[1]
+    
     data = sys.stdin.read()
     docs = list(yaml.load_all(data))
     channel = docs[0]
@@ -43,13 +45,35 @@ def main():
     
     channel['lastBuildDate'] = format_date(time.localtime())
 
-    items = ""
-    for entry in entries:
-        items += format_entry(entry, channel_link=channel['link'])
+    if what == 'rss':
+        items = ""
+        for entry in entries:
+            items += format_entry(entry, channel_link=channel['link'])
     
-    rss = Template(site_template).substitute(channel, items=items)
-    sys.stdout.write(rss) 
+        rss = Template(site_template).substitute(channel, items=items)
+        sys.stdout.write(rss) 
+    elif what == 'html':
+            # 
+            # output = '<ul>\n'
+            # for entry in entries:
+            #     output += ('\n<li>\n' + simple_html(entry) + '\n</li>\n')
+            # output += '\n</ul>'
 
+        output = '<dl>\n'
+        for entry in entries:
+            output += ('\n\t<dt>%s</dt>\n\t\t<dd>%s' % (entry['date'] , 
+                        entry.get('extra_html',''))
+                        + simple_html(entry) + '</dd>\n')
+                        
+
+        output += '\n</dl>'
+        
+
+
+        sys.stdout.write(output) 
+        
+    else: raise Exception('')
+    
 def format_date(t):
     return time.strftime("%a, %d %b %Y %H:%M:%S +0000", t)
     
@@ -57,6 +81,17 @@ def format_date(t):
 def make_absolute(base, url):
     abs = urlparse.urljoin(base, url)
     return abs
+    
+
+def simple_html(entry):
+    # entry['link'] = make_absolute(channel_link, entry['link'])
+    md = entry['text']
+    md += '\n\n[link]: %s' % entry['link']
+    html = markdown.markdown(md)
+    # html=html[len('<p>'):-len('</p>')]
+    return html
+    
+    
     
 def format_entry(entry, channel_link):
     

@@ -52,3 +52,11 @@ font-size: 90%; 				*/
 	#rsslink A { text-decoration: none;}
 	#rsslink img { width: 0.9em; margin-bottom: -0.1em; border: 0;}
 	
+	
+	div#news {display: block}
+	div#news  dl {  }
+	div#news  dl p {  padding: 0 ; margin: 0;}
+	div#news dt { float: left; clear: left;  }
+	div#news dd { float: left; width: 25em; display: block;}
+	
+	div#personal { clear: left;}
