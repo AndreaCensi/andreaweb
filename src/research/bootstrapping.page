@@ -1,7 +1,7 @@
 ---
 title: Bootstrapping
 PURL: http://purl.org/censi/2010/boot
-Date: 2010-07-15
+Date: 2011-05-16
 orderInfo: -500
 description: ""
 linkAttrs:
@@ -12,8 +12,11 @@ linkAttrs:
 
 - A. Censi, [Richard M. Murray] "*Bootstrapping bilinear models of robotic sensorimotor cascades*"
 
-   * [Short version (8 pages PDF)][short] submitted to ICRA'11
-   * [Extended version (40 pages PDF)][long] technical report, with more theory, and experiments with real data, and 800% more colorful figures. 
+   * [Short version (8 pages PDF)][short] appeared in ICRA'11 (**best conference paper finalist**)
+   * [slides presented at ICRA][slides] 
+   * [Extended version (40 pages PDF)][long] technical report, with more theory, and experiments with real data, and 800% more colorful figures.
+    
+[slides]:  http://purl.org/censi/research/2011-icra-bds-slides.pdf
 
 **Abstract** --- We consider the bootstrapping problem, which consists in learning a model of the agent's sensors and actuators starting from zero prior information, and we take the problem of servoing as a cross-modal task to validate the learned models. We study the class of bilinear dynamics sensors, in which the derivative of the observations are a bilinear form of the control commands and the observations themselves. This class of models is simple yet general enough to represent the main phenomena of three representative robotics sensors (field sampler, camera, and range-finder), apparently very different from one another. It also allows a bootstrapping algorithm based on hebbian learning, and that leads to a simple and bioplausible control strategy. The convergence properties of learning and control are demonstrated with extensive simulations and by analytical arguments. We further develop the theory by introducing the class of bilinear gradient dynamics sensors, and we present an application to real world camera data.
 

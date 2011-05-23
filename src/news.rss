@@ -6,7 +6,7 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sun, 15 May 2011 17:02:09 +0000</lastBuildDate>
+      <lastBuildDate>Tue, 17 May 2011 00:45:01 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
@@ -19,7 +19,11 @@
  <a href="http://purl.org/censi/2010/boot">
   bootstrapping paper
  </a>
- was one of the finalists for the 
+ (
+ <a href="http://purl.org/censi/research/2011-icra-bds-slides.pdf">
+  slides
+ </a>
+ ) was one of the finalists for the 
 best conference paper award at
  <a href="http://www.icra2011.org/">
   ICRA 2011
@@ -41,7 +45,11 @@ runner-up (the German DLR, with their
  <a href="http://purl.org/censi/2010/boot">
   bootstrapping paper
  </a>
- was one of the finalists for the 
+ (
+ <a href="http://purl.org/censi/research/2011-icra-bds-slides.pdf">
+  slides
+ </a>
+ ) was one of the finalists for the 
 best conference paper award at
  <a href="http://www.icra2011.org/">
   ICRA 2011
@@ -70,14 +78,22 @@ runner-up (the German DLR, with their
  <a href="http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf">
   Bootstrapping, uncertain semantics, and invariance  (PDF)
  </a>
- . Comment from a reader: "whoa... quite... esoteric...".
+ .
+ <a href="http://purl.org/censi/research/2011-semantics-invariance.pdf">
+  Partial slides now available
+ </a>
+ .
 </p>]]></description>
          <content:encoded><![CDATA[<p>
  Some recent work:
  <a href="http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf">
   Bootstrapping, uncertain semantics, and invariance  (PDF)
  </a>
- . Comment from a reader: "whoa... quite... esoteric...".
+ .
+ <a href="http://purl.org/censi/research/2011-semantics-invariance.pdf">
+  Partial slides now available
+ </a>
+ .
 </p>]]></content:encoded>
          <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
          <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-04-15</guid>
