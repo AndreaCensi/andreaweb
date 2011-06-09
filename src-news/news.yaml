@@ -6,6 +6,16 @@ generator: yaml2rss
 webMaster: Andrea Censi
 rss_url: http://tokyo.cds.caltech.edu/~andrea/news.rss
 ---
+date: 2011-06-08
+title: Basic ROS tutorial for incoming summer students.
+link: http://vimeo.com/andreacensi/scott-ros-tutorial-1
+text: |
+  A [basic tutorial][link] for [ROS][ros] incoming summer students created
+  by our [Scott][scott].
+        
+  [scott]: http://scottman.net/
+  [ros]: http://www.ros.org/
+---
 date: 2011-05-16
 title: Finalist for best paper at ICRA 
 link: http://purl.org/censi/2010/boot

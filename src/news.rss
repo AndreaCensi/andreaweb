@@ -6,11 +6,50 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Tue, 17 May 2011 00:45:01 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 08 Jun 2011 17:22:29 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Basic ROS tutorial for incoming summer students.</title>
+         <link>http://vimeo.com/andreacensi/scott-ros-tutorial-1</link>
+         <description><![CDATA[<p>
+ A
+ <a href="http://vimeo.com/andreacensi/scott-ros-tutorial-1">
+  basic tutorial
+ </a>
+ for
+ <a href="http://www.ros.org/">
+  ROS
+ </a>
+ incoming summer students created
+by our
+ <a href="http://scottman.net/">
+  Scott
+ </a>
+ .
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ A
+ <a href="http://vimeo.com/andreacensi/scott-ros-tutorial-1">
+  basic tutorial
+ </a>
+ for
+ <a href="http://www.ros.org/">
+  ROS
+ </a>
+ incoming summer students created
+by our
+ <a href="http://scottman.net/">
+  Scott
+ </a>
+ .
+</p>]]></content:encoded>
+         <pubDate>Wed, 08 Jun 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-06-08</guid>
+     </item>
+
     <item>
          <title>Finalist for best paper at ICRA</title>
          <link>http://purl.org/censi/2010/boot</link>
