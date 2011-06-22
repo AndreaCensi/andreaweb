@@ -6,10 +6,14 @@ all: webgen
 # 	ruby -rubygems -I~/maruku/lib -I$(WEBGEN)/lib $(WEBGEN)/bin/webgen run 
 
 publish: 
-	rsync -avzrL $(DIR)/* andrea@cds.caltech.edu:public_html/
+	# rsync -avzrL $(DIR)/* andrea@cds.caltech.edu:public_html/
+	rsync -avzrL $(DIR)/* ender@v-cds-server1.caltech.edu:public_html/
 
 output/check.html:
 	linkchecker -ohtml --ignore-url=clsid:	--ignore-url=wikipedia --ignore-url=urchin.js output/index.html > $@
+
+output/check_web.html:
+	linkchecker -ohtml --ignore-url=clsid:	--ignore-url=wikipedia --ignore-url=urchin.js http://www.cds.caltech.edu/~ender/ > $@
 
 check: output/check.html
 
