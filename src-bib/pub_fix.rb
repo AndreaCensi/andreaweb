@@ -17,6 +17,14 @@ names = [
   # {"first"=> "Chris", 
   #  "family"=> "Scrapper", 
   #  "site"=>"http://www.intelligentcontrol.es/paloma/"},
+  {"first" => "Kostas",
+    "family" => "Daniilidis",
+    "site" => "http://www.cis.upenn.edu/~kostas/"
+    },
+  {"first" => "Davide",
+    "family" => "Scaramuzza",
+    "site" => "http://robotics.ethz.ch/~scaramuzza/Davide_Scaramuzza.htm"
+    },
 
   {"first"=> "Paloma", 
    "family"=> "", 
