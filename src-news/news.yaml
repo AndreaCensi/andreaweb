@@ -4,7 +4,21 @@ link: http://www.cds.caltech.edu/~andrea/
 description: Site updates from my website and blog.
 generator: yaml2rss
 webMaster: Andrea Censi
-rss_url: http://tokyo.cds.caltech.edu/~andrea/news.rss
+rss_url: http://www.cds.caltech.edu/~andrea/news.rss
+---
+date: 2011-08-14
+title: Final versions for recent papers.
+link: http://www.cds.caltech.edu/~andrea/publications.html
+text: |
+  Final versions for recent papers:
+      
+  * A.C., R.Murray, ["Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents"][one] (ICDL'11)
+  * A.C., R.Murray, ["Bootstrapping sensorimotor cascades: a group-theoretic perspective"][three] (IROS'11)
+  * D.Scaramuzza, A.C., K.Daniilidis, ["Exploiting motion priors in visual odometry for vehicle-mounted cameras with non-holonomic constraints."][two] (IROS'11)
+        
+  [one]: http://purl.org/censi/research/2011-icdl-invariance.pdf
+  [two]: http://purl.org/censi/research/2011-iros-scaRansac.pdf
+  [three]: http://purl.org/censi/research/2011-iros-bgds.pdf
 ---
 date: 2011-06-08
 title: Basic ROS tutorial for incoming summer students.
@@ -32,7 +46,7 @@ text: |
 ---
 date: 2011-04-15
 title: "Draft: Bootstrapping, uncertain semantics, and invariance"
-link: http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf
+link: http://purl.org/censi/research/2011-icdl-invariance.pdf
 text: |
     Some recent work: [Bootstrapping, uncertain semantics, and invariance  (PDF)][link]. [Partial slides now available](http://purl.org/censi/research/2011-semantics-invariance.pdf).
 ---

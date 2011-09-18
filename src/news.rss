@@ -6,11 +6,70 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Tue, 05 Jul 2011 16:26:03 +0000</lastBuildDate>
+      <lastBuildDate>Sun, 14 Aug 2011 05:10:26 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
-      <atom:link href="http://tokyo.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
+      <atom:link href="http://www.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Final versions for recent papers.</title>
+         <link>http://www.cds.caltech.edu/~andrea/publications.html</link>
+         <description><![CDATA[<p>
+ Final versions for recent papers:
+</p>
+<ul>
+ <li>
+  A.C., R.Murray,
+  <a href="http://purl.org/censi/research/2011-icdl-invariance.pdf">
+   "Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents"
+  </a>
+  (ICDL'11)
+ </li>
+ <li>
+  A.C., R.Murray,
+  <a href="http://purl.org/censi/research/2011-iros-bgds.pdf">
+   "Bootstrapping sensorimotor cascades: a group-theoretic perspective"
+  </a>
+  (IROS'11)
+ </li>
+ <li>
+  D.Scaramuzza, A.C., K.Daniilidis,
+  <a href="http://purl.org/censi/research/2011-iros-scaRansac.pdf">
+   "Exploiting motion priors in visual odometry for vehicle-mounted cameras with non-holonomic constraints."
+  </a>
+  (IROS'11)
+ </li>
+</ul>]]></description>
+         <content:encoded><![CDATA[<p>
+ Final versions for recent papers:
+</p>
+<ul>
+ <li>
+  A.C., R.Murray,
+  <a href="http://purl.org/censi/research/2011-icdl-invariance.pdf">
+   "Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents"
+  </a>
+  (ICDL'11)
+ </li>
+ <li>
+  A.C., R.Murray,
+  <a href="http://purl.org/censi/research/2011-iros-bgds.pdf">
+   "Bootstrapping sensorimotor cascades: a group-theoretic perspective"
+  </a>
+  (IROS'11)
+ </li>
+ <li>
+  D.Scaramuzza, A.C., K.Daniilidis,
+  <a href="http://purl.org/censi/research/2011-iros-scaRansac.pdf">
+   "Exploiting motion priors in visual odometry for vehicle-mounted cameras with non-holonomic constraints."
+  </a>
+  (IROS'11)
+ </li>
+</ul>]]></content:encoded>
+         <pubDate>Sun, 14 Aug 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-08-14</guid>
+     </item>
+
     <item>
          <title>Basic ROS tutorial for incoming summer students.</title>
          <link>http://vimeo.com/andreacensi/scott-ros-tutorial-1</link>
@@ -111,10 +170,10 @@ runner-up (the German DLR, with their
 
     <item>
          <title>Draft: Bootstrapping, uncertain semantics, and invariance</title>
-         <link>http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf</link>
+         <link>http://purl.org/censi/research/2011-icdl-invariance.pdf</link>
          <description><![CDATA[<p>
  Some recent work:
- <a href="http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf">
+ <a href="http://purl.org/censi/research/2011-icdl-invariance.pdf">
   Bootstrapping, uncertain semantics, and invariance  (PDF)
  </a>
  .
@@ -125,7 +184,7 @@ runner-up (the German DLR, with their
 </p>]]></description>
          <content:encoded><![CDATA[<p>
  Some recent work:
- <a href="http://purl.org/censi/research/2011-bootstrapping_semantics_invariance.pdf">
+ <a href="http://purl.org/censi/research/2011-icdl-invariance.pdf">
   Bootstrapping, uncertain semantics, and invariance  (PDF)
  </a>
  .
