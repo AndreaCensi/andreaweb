@@ -6,11 +6,52 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sun, 14 Aug 2011 05:10:26 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 21 Sep 2011 23:02:02 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://www.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Some recent work on bootstrapping</title>
+         <link>http://www.cds.caltech.edu/~andrea/publications.html</link>
+         <description><![CDATA[<p>
+ Some recent work on bootstrapping:
+</p>
+<ul>
+ <li>
+  AC, M.Hakansson, R.Murray,
+  <a href="http://purl.org/censi/2011/diffeo">
+   "Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades"
+  </a>
+ </li>
+ <li>
+  AC, R.Murray,
+  <a href="http://purl.org/censi/2011/fault">
+   "Learning diffeomorphism models of robotic sensorimotor cascades"
+  </a>
+ </li>
+</ul>]]></description>
+         <content:encoded><![CDATA[<p>
+ Some recent work on bootstrapping:
+</p>
+<ul>
+ <li>
+  AC, M.Hakansson, R.Murray,
+  <a href="http://purl.org/censi/2011/diffeo">
+   "Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades"
+  </a>
+ </li>
+ <li>
+  AC, R.Murray,
+  <a href="http://purl.org/censi/2011/fault">
+   "Learning diffeomorphism models of robotic sensorimotor cascades"
+  </a>
+ </li>
+</ul>]]></content:encoded>
+         <pubDate>Mon, 19 Sep 2011 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2011-09-19</guid>
+     </item>
+
     <item>
          <title>Final versions for recent papers.</title>
          <link>http://www.cds.caltech.edu/~andrea/publications.html</link>
