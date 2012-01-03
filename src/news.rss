@@ -6,7 +6,7 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Mon, 02 Jan 2012 17:13:07 +0000</lastBuildDate>
+      <lastBuildDate>Mon, 02 Jan 2012 17:18:18 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://www.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
@@ -20,13 +20,13 @@
 <ul>
  <li>
   AC, M.Hakansson, R.Murray,
-  <a href="http://purl.org/censi/2011/diffeo">
+  <a href="http://purl.org/censi/2011/fault">
    "Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades"
   </a>
  </li>
  <li>
   AC, R.Murray,
-  <a href="http://purl.org/censi/2011/fault">
+  <a href="http://purl.org/censi/2011/diffeo">
    "Learning diffeomorphism models of robotic sensorimotor cascades"
   </a>
  </li>
@@ -37,13 +37,13 @@
 <ul>
  <li>
   AC, M.Hakansson, R.Murray,
-  <a href="http://purl.org/censi/2011/diffeo">
+  <a href="http://purl.org/censi/2011/fault">
    "Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades"
   </a>
  </li>
  <li>
   AC, R.Murray,
-  <a href="http://purl.org/censi/2011/fault">
+  <a href="http://purl.org/censi/2011/diffeo">
    "Learning diffeomorphism models of robotic sensorimotor cascades"
   </a>
  </li>

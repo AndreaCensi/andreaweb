@@ -15,8 +15,8 @@ text: |
   * AC, M.Hakansson, R.Murray, ["Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades"][fault]
   * AC, R.Murray, ["Learning diffeomorphism models of robotic sensorimotor cascades"][diffeo] 
 
-  [diffeo]: http://purl.org/censi/2011/fault
-  [fault]: http://purl.org/censi/2011/diffeo
+  [diffeo]: http://purl.org/censi/2011/diffeo
+  [fault]: http://purl.org/censi/2011/fault
 ---
 date: 2011-08-14
 title: Final versions for recent papers.
