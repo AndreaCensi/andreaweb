@@ -53,6 +53,11 @@ of Caltech.
 [caltech_only]: http://www.cds.caltech.edu/~andrea/pub/research/caltech-only/preprints/
 
 
+<h4> Refereed papers </h4>
+
+
+
+
 <p>
 
 A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
@@ -60,8 +65,7 @@ A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a
   invariance properties of bootstrapping agents</b>.
  In <em>Joint IEEE International Conference on Development and
   Learning and Epigenetic Robotics</em>, Aug 2011.
- To appear.
-[&nbsp;<a href="pub_preprint_bib.html#censi11semantics">bibtex</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi11semantics">bibtex</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2011-icdl-invariance.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
@@ -73,8 +77,7 @@ A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a
   cameras with non-holonomic constraints</b>.
  In <em>IEEE/RSJ International Conference on Intelligent Robots and
   Systems (IROS)</em>, Sep 2011.
- To appear.
-[&nbsp;<a href="pub_preprint_bib.html#scaramuzza11visodo">bibtex</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#scaramuzza11visodo">bibtex</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2011-iros-scaRansac.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
@@ -86,17 +89,11 @@ A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a
   perspective</b>.
  In <em>IEEE/RSJ International Conference on Intelligent Robots and
   Systems (IROS)</em>, Sep 2011.
- To appear.
-[&nbsp;<a href="pub_preprint_bib.html#censi11bgds">bibtex</a>&nbsp;| 
+[&nbsp;<a href="pub_proc_bib.html#censi11bgds">bibtex</a>&nbsp;| 
 <a href="http://purl.org/censi/2011/bgds"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2011-iros-bgds.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
-
-<h4> Refereed papers </h4>
-
-
-
 
 <p> <div style='float:right; color: red; padding: 5px'> (best conference <br/> paper finalist) </div>
 
@@ -333,6 +330,7 @@ A.C..
   and Automation (ICRA)</em>, pages 2291-2296, Orlando, Florida, 2006.
 [&nbsp;<a href="pub_proc_bib.html#censi06scan">bibtex</a>&nbsp;| 
 <a href="http://purl.org/censi/2006/gpm"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2006-icra-gpm-slides.pdf"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2006-icra-gpm.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
 
 </p>
@@ -345,6 +343,7 @@ A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href
   and Automation (ICRA)</em>, pages 2739-2744, Barcelona, Spain, 2005.
 [&nbsp;<a href="pub_proc_bib.html#censi05hough">bibtex</a>&nbsp;| 
 <a href="http://purl.org/censi/2006/hsm"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2005-icra-hsm-slides.ppt"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides</a>&nbsp;| 
 <a href="http://purl.org/censi/research/2005-icra-hsm.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
 
 </p>

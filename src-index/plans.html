@@ -1,13 +1,36 @@
+<input type="submit" name="show_old_travel_plans" 
+     value="older entries" id="show_old_travel_plans" /> 
 
-<dl>
-    <dt> 2011-10-25ish</dt><dd>  University of Washington, Seattle</dd>
-    <dt> 2011-09-27/29</dt><dd>  Newport, RI </dd>
-    <dt> 2011-09-25/26</dt><dd>  <a href="http://www.iros2011.org">IROS (San Francisco)</a> (unfortunately, due to other commitments, I 
-    cannot present one of my IROS papers)</dd>
-   
-   <!-- <dt> 2011-09-09</dt><dd>  <a href="http://www.ics.uci.edu/~dgorur/socaml">SoCal machine learning workshop (UC Irvine)</a> </dd>
-    <dt> 2011-08-24/27</dt><dd>  <a href="http://www.icdl-epirob.org">ICDL/EpiRob (Frankfurt, Germany)</a> </dd>
-    <dt> 2011-08-23</dt><dd>  <a href="http://www.eb.tuebingen.mpg.de">Tuebingen</a> </dd>
-    <dt> 2011-08-01/02</dt><dd>  Washington, DC (NSF PI meeting) </dd>
-    <dt> 2011-06-27</dt><dd> "trip" to <a href="http://www.roboticsconference.org">RSS</a> (down the road at USC) </dd>-->
+
+<dl class="travel_plans">
+    <dt> 2012-02-28</dt><dd>UCLA (seminar @4pm)</dd>
+    <dt> 2012-01-04</dt><dd>  <a href="sicb.org/meetings/2012/schedule/">Society of Integrative Biology annual meeting</a> (Charleston, SC)</dd>
 </dl>
+
+<!--<span id="show_old_travel_plans" style="clear: both; color:blue">Show travel plans</a>-->
+
+<dl class="travel_plans" id="old_travel_plans" style="display:none;">
+    <dt> 2011-10-25/28</dt><dd>  University of Washington, Seattle</dd>
+    <dt> 2011-09-27/29</dt><dd>  Newport, RI (DARPA MSEE) </dd>
+    <dt> 2011-09-25/26</dt><dd>  <a href="http://www.iros2011.org">IROS (San Francisco)</a></dd>
+    <dt> 2011-08-24/27</dt><dd>  <a href="http://www.icdl-epirob.org">ICDL/EpiRob (Frankfurt, Germany)</a> </dd>
+    <dt> 2011-08-23</dt><dd>  <a href="http://www.kyb.mpg.de/">
+     Max Planck Institute for Biological Cybernetics (Tuebingen, Germany)</a> </dd>
+    <dt> 2011-08-01/02</dt><dd>  Washington, DC (NSF PI meeting) </dd>
+    <dt> 2011-06-27</dt><dd> "trip" to <a href="http://www.roboticsconference.org">RSS</a> (down the road at USC) </dd>
+    <dt> 2011-05-09/013</dt><dd>  ICRA 2011 (Shanghai, China)</dd>    
+</dl>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+   $('#show_old_travel_plans').click(function(){
+     $('#old_travel_plans').toggle();
+   });
+ });
+</script>
+
+<style type="text/css">
+    #show_old_travel_plans {clear: both;}
+    /*dl.travel_plans dt { min-width: 15em; font-family: sans-serif;}*/
+    #travel_plans_div {display: block;}
+</style>
