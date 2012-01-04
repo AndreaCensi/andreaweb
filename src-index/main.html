@@ -16,6 +16,8 @@
   
   <link rel="me" type="text/html" href="http://www.google.com/profiles/106839984596770449716" />
  
+   <script type="text/javascript" src="jquery.js"></script>
+
 </head>
 
 
@@ -30,17 +32,24 @@
         
         <p class='graphics'>
             <img id='andrea_censi_portrait'
-             src="media/andrea_censi_portrait.jpg"  
+             src="media/portrait2.jpg"  
              alt='Me, staring'/> 
         </p>
+
+        <script  type='text/javascript'>
+        $(document).ready(function(){
+            $("#andrea_censi_portrait").hover(function() {
+                $(this).attr("src","media/portrait1.jpg");
+                    }, function() {
+                $(this).attr("src","media/portrait2.jpg");
+            });
+        });
+        </script>
     
 	    <p class='caption'> 
-	    Fig. 1. The individual under investigation.
-	    
-	     <!-- is a young male
-	           of Homo S. Sapiens.  
-	            Characterized by cathemeral behavioral, it often assumes this position.-->
-        </p>
+	    Fig. 1. The individual under investigation. <br/>
+	    See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
+	     </p>
     </div>
 	
     <div class='figure' id='stats'>
@@ -103,10 +112,11 @@
 
     
 	<ul id='mainlinks'> 
+        <li><a href="http://purl.org/censi/cv">updated <b>CV</b> (Dec. 2011)</a> </li>
 		<li class='highlight'> <a href="research/index.html">Research interests</a></li>
 	    <li class='highlight'> <a href="publications.html">Publications</a> </li>
-		<li> <a href="http://www.linkedin.com/in/censi">LinkedIn profile (CV)</a> </li>
-		<li><a href="software.html">Software</a> 
+		<li><a href="http://www.linkedin.com/in/censi">LinkedIn profile</a> </li>
+        <li><a href="software.html">Software</a> 
 		    (<a href="http://github.com/AndreaCensi">GitHub profile</a>)</li>
 	</ul>
 
@@ -176,7 +186,7 @@
 
 <div id="news">
 
-<h4>Travel plans <span id='updated' style="color:red">(updated Aug 2011)</span>  </h4> 
+<h4>Travel plans <span id='updated' style="color:red">(updated Jan 2012)</span>  </h4> 
 
 $$${plans}
 
