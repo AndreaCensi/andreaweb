@@ -40,6 +40,7 @@
         $(document).ready(function(){
             $("#andrea_censi_portrait").hover(function() {
                 $(this).attr("src","media/portrait1.jpg");
+                $('#other_picture').show();
                     }, function() {
                 $(this).attr("src","media/portrait2.jpg");
             });
@@ -48,7 +49,8 @@
     
 	    <p class='caption'> 
 	    Fig. 1. The individual under investigation. <br/>
-	    See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
+	    <span id="other_picture" style="display:none">See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
+        </span>
 	     </p>
     </div>
 	
