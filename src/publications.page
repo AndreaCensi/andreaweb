@@ -1,12 +1,12 @@
 ---
 title: Publications
-Date: Jan 3 2007
+Date: Jan 1 2012
 orderInfo: 100
 ---
 <style type='text/css'>
 h4 { border-bottom: solid 3px #b00; padding-bottom: 5px};
 </style>
-<p class='updated' style='color: #a00; font-weight: bold'>(updated: August 2011)</p>
+<p class='updated' style='color: #a00; font-weight: bold'>(updated: Jan 1st, 2012)</p>
 
 <p>Follow the <img style="margin-bottom:-6px; height: 17px" src="media/web.gif"/> links to obtain supplementary material for the paper, such as
  datasets and source code.</p>
@@ -38,20 +38,78 @@ Andrew D. Lewis (andrew at mast.queensu.ca) -->
 [shelah]: http://en.wikipedia.org/wiki/Saharon_Shelah
 
 
-Any feedback on preprints is greatly appreciated: the quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
-
-#### Preprints 
-
-
 If you are inside the Caltech or JPL networks (i.e., your IP is 131.215.x.x or
 128.149.x.x), you can also access
 [the list of "private" drafts][caltech_only], typically papers submitted
 to double-blind conferences that cannot be made googlable. Please do not distribute outside
 of Caltech.
 
-
 [caltech_only]: http://www.cds.caltech.edu/~andrea/pub/research/caltech-only/preprints/
 
+
+
+
+#### Preprints / to appear
+
+<p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
+</p>
+
+
+
+
+<p>
+
+A.C. and <a href='http://robotics.ethz.ch/~scaramuzza/Davide_Scaramuzza.htm'>Davide Scaramuzza</a>.
+ <b>Calibration by correlation using metric embedding from
+  non-metric similarities</b>, 2012.
+[&nbsp;<a href="pub_preprint_bib.html#censi12cameracalib_preprint">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2012/camera_calibration"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;]
+
+</p>
+
+<p>
+
+A.C., Antonio Franchi, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.
+ <b>Simultaneous calibration of odometry and sensor parameters for
+  mobile robots</b>, 2012.
+ (journal version of ICRA paper).
+[&nbsp;<a href="pub_preprint_bib.html#censi12joint_preprint">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/2012/joint_calibration"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;]
+
+</p>
+
+<p>
+
+A.C., Magnus Hakansson, and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
+ <b>Fault detection and isolation from uninterpreted data in robotic
+  sensorimotor cascades</b>, 2012.
+[&nbsp;<a href="pub_preprint_bib.html#censi12fault_preprint">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2011-fault/"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2011-fault/2011-fault.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+
+</p>
+
+<p>
+
+A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard&nbsp;M. Murray</a>.
+ <b>Learning diffeomorphism models of robotic sensorimotor
+  cascades</b>, 2012.
+[&nbsp;<a href="pub_preprint_bib.html#censi12diffeo_preprint">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2011-diffeo/"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2011-diffeo/2011-diffeo.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+
+</p>
+
+<p>
+
+Luca Carlone and A.C..
+ <b>Linear estimation on SO(2) for graph-based simultaneous
+  localization and mapping</b>.
+ 2012.
+[&nbsp;<a href="pub_preprint_bib.html#carlone12linear_preprint">bibtex</a>&nbsp;| 
+<a href="http://purl.org/censi/research/2011-linearSO2-draft.pdf"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf</a>&nbsp;]
+
+</p>
 
 <h4> Refereed papers </h4>
 
@@ -261,7 +319,7 @@ A.C..
 
 <p>
 
-A.C. and <a href='http://www.dis.uniroma1.it/~tipaldi/'>Gian&nbsp;Diego Tipaldi</a>.
+A.C. and <a href='http://www.informatik.uni-freiburg.de/~tipaldi'>Gian&nbsp;Diego Tipaldi</a>.
  <b>Lazy Localization using the Frozen-Time Smoother</b>.
  In <em>Proceedings of the IEEE International Conference on
   Robotics and Automation (ICRA)</em>, Pasadena, CA, May 2008.

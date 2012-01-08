@@ -1,13 +1,7 @@
 
 
-#### Preprints 
+#### Preprints / to appear
 
+<p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
+</p>
 
-If you are inside the Caltech or JPL networks (i.e., your IP is 131.215.x.x or
-128.149.x.x), you can also access
-[the list of "private" drafts][caltech_only], typically papers submitted
-to double-blind conferences that cannot be made googlable. Please do not distribute outside
-of Caltech.
-
-
-[caltech_only]: http://www.cds.caltech.edu/~andrea/pub/research/caltech-only/preprints/

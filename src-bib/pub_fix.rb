@@ -84,7 +84,7 @@ names = [
      "http://www.linkedin.com/in/lucamarchionni",
         "face"=> ""},
       {"first"=> "Gian Diego", "family"=> "Tipaldi", "site"=>
-"http://www.dis.uniroma1.it/~tipaldi/",
+"http://www.informatik.uni-freiburg.de/~tipaldi",
        "face"=> "http://www.dis.uniroma1.it/~tipaldi/assets/images/Picture.JPG"},
 
  ]
