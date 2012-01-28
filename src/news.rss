@@ -6,11 +6,32 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sat, 07 Jan 2012 16:10:16 +0000</lastBuildDate>
+      <lastBuildDate>Sat, 28 Jan 2012 15:22:55 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://www.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>MSEE website online</title>
+         <link>http://purl.org/censi/2012/msee</link>
+         <description><![CDATA[<p>
+ Our DARPA MSEE project is ramping up; the
+ <a href="http://purl.org/censi/2012/msee">
+  website
+ </a>
+ is now online.
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ Our DARPA MSEE project is ramping up; the
+ <a href="http://purl.org/censi/2012/msee">
+  website
+ </a>
+ is now online.
+</p>]]></content:encoded>
+         <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2012-01-10</guid>
+     </item>
+
     <item>
          <title>Some recent work on bootstrapping</title>
          <link>http://www.cds.caltech.edu/~andrea/publications.html</link>

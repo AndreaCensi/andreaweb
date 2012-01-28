@@ -6,6 +6,12 @@ generator: yaml2rss
 webMaster: Andrea Censi
 rss_url: http://www.cds.caltech.edu/~andrea/news.rss
 ---
+date: 2012-01-10
+title: MSEE website online
+link: http://purl.org/censi/2012/msee
+text: |
+  Our DARPA MSEE project is ramping up; the [website][link] is now online.
+---
 date: 2011-09-19
 title: Some recent work on bootstrapping
 link: http://www.cds.caltech.edu/~andrea/publications.html
