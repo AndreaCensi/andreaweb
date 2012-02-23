@@ -6,11 +6,28 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Sat, 28 Jan 2012 15:22:55 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 22 Feb 2012 22:29:00 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://www.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Vehicles videos</title>
+         <link>http://www.cds.caltech.edu/~ender/pri/vehicles-videos/videos/videos-exz1sb.html</link>
+         <description><![CDATA[<p>
+ <a href="http://www.cds.caltech.edu/~ender/pri/vehicles-videos/videos/videos-exz1sb.html">
+  Vehicles! Vehicles everywhere!
+ </a>
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ <a href="http://www.cds.caltech.edu/~ender/pri/vehicles-videos/videos/videos-exz1sb.html">
+  Vehicles! Vehicles everywhere!
+ </a>
+</p>]]></content:encoded>
+         <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2012-02-22</guid>
+     </item>
+
     <item>
          <title>MSEE website online</title>
          <link>http://purl.org/censi/2012/msee</link>

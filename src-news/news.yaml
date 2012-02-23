@@ -6,6 +6,12 @@ generator: yaml2rss
 webMaster: Andrea Censi
 rss_url: http://www.cds.caltech.edu/~andrea/news.rss
 ---
+date: 2012-02-22
+title: Vehicles videos
+link: http://www.cds.caltech.edu/~ender/pri/vehicles-videos/videos/videos-exz1sb.html
+text: |
+  [Vehicles! Vehicles everywhere!][link]
+---
 date: 2012-01-10
 title: MSEE website online
 link: http://purl.org/censi/2012/msee
