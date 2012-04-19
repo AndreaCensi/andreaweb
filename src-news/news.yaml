@@ -6,6 +6,31 @@ generator: yaml2rss
 webMaster: Andrea Censi
 rss_url: http://www.cds.caltech.edu/~andrea/news.rss
 ---
+date: 2012-04-15
+title: Best student paper finalist
+link: '#'
+text: |
+  One of my ICRA papers is a finalist for the best student paper award.
+  (Nice to know in advance, last year they did not tell me!)
+---
+date: 2012-04-01
+title: Glasses
+link: '#'
+text: |
+  For the first time in my life, 
+  I now wear prescription glasses: they were the last requirement before graduation.
+---
+date: 2012-03-25
+title: Recent talk
+link: '#'
+text: |
+  This is a recent talk I gave, and it is the best introduction to my 
+  current research: [PDF (16MB)][pdf], [Keynote (36MB; zip)][keynote].
+
+  [pdf]: http://purl.org/censi/research/201203-jhu.pdf
+  [keynote]: http://purl.org/censi/research/201203-jhu.zip
+
+---
 date: 2012-02-22
 title: Vehicles videos
 link: http://www.cds.caltech.edu/~ender/pri/vehicles-videos/videos/videos-exz1sb.html

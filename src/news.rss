@@ -6,11 +6,72 @@
       <title>Updates from Andrea Censi's website</title>
       <link>http://www.cds.caltech.edu/~andrea/</link>
       <description>Site updates from my website and blog.</description>
-      <lastBuildDate>Wed, 22 Feb 2012 22:29:00 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 18 Apr 2012 18:34:36 +0000</lastBuildDate>
       <generator>yaml2rss</generator>
       <atom:link href="http://www.cds.caltech.edu/~andrea/news.rss" rel="self" type="application/rss+xml" />
       
     
+    <item>
+         <title>Best student paper finalist</title>
+         <link>http://www.cds.caltech.edu/~andrea/</link>
+         <description><![CDATA[<p>
+ One of my ICRA papers is a finalist for the best student paper award.
+(Nice to know in advance, last year they did not tell me!)
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ One of my ICRA papers is a finalist for the best student paper award.
+(Nice to know in advance, last year they did not tell me!)
+</p>]]></content:encoded>
+         <pubDate>Sun, 15 Apr 2012 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2012-04-15</guid>
+     </item>
+
+    <item>
+         <title>Glasses</title>
+         <link>http://www.cds.caltech.edu/~andrea/</link>
+         <description><![CDATA[<p>
+ For the first time in my life, 
+I now wear prescription glasses: they were the last requirement before graduation.
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ For the first time in my life, 
+I now wear prescription glasses: they were the last requirement before graduation.
+</p>]]></content:encoded>
+         <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2012-04-01</guid>
+     </item>
+
+    <item>
+         <title>Recent talk</title>
+         <link>http://www.cds.caltech.edu/~andrea/</link>
+         <description><![CDATA[<p>
+ This is a recent talk I gave, and it is the best introduction to my 
+current research:
+ <a href="http://purl.org/censi/research/201203-jhu.pdf">
+  PDF (16MB)
+ </a>
+ ,
+ <a href="http://purl.org/censi/research/201203-jhu.zip">
+  Keynote (36MB; zip)
+ </a>
+ .
+</p>]]></description>
+         <content:encoded><![CDATA[<p>
+ This is a recent talk I gave, and it is the best introduction to my 
+current research:
+ <a href="http://purl.org/censi/research/201203-jhu.pdf">
+  PDF (16MB)
+ </a>
+ ,
+ <a href="http://purl.org/censi/research/201203-jhu.zip">
+  Keynote (36MB; zip)
+ </a>
+ .
+</p>]]></content:encoded>
+         <pubDate>Sun, 25 Mar 2012 00:00:00 +0000</pubDate>
+         <guid isPermaLink="false">http://www.cds.caltech.edu/~andrea/#2012-03-25</guid>
+     </item>
+
     <item>
          <title>Vehicles videos</title>
          <link>http://www.cds.caltech.edu/~ender/pri/vehicles-videos/videos/videos-exz1sb.html</link>

@@ -7,6 +7,7 @@
     div#description {margin-left: 1em; float: left; display: block; }
     div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
 	div#news     { clear: left; margin: 1em; }
+    div#travel   { clear: left; margin: 1em; }
 	div#personal { margin: 1em;}
 
    
@@ -58,5 +59,11 @@ font-size: 90%; 				*/
 	div#news  dl p {  padding: 0 ; margin: 0;}
 	div#news dt { float: left; max-width: 8em; clear: left;  }
 	div#news dd { float: left; width: 25em; display: block;}
+
+    div#travel {display: block}
+    div#travel  dl {  }
+    div#travel  dl p {  padding: 0 ; margin: 0;}
+    div#travel dt { float: left; clear: left;  }
+    div#travel dd { float: left; width: 15em; display: block; }
 	
 	div#personal { clear: left;}
