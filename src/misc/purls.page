@@ -10,6 +10,20 @@ I collect them here so it is easier to check that they are still valid.
 
 
 
+
+<http://purl.org/censi/2012/camera_calibration/mino.fig>
+<http://purl.org/censi/2012/camera_calibration/omni.fig>
+<http://purl.org/censi/2012/camera_calibration/GOPRb.fig>
+http://www.cds.caltech.edu/~ender/pub/research/preprints/camera_calibration/mino.fig
+http://www.cds.caltech.edu/~ender/pub/research/preprints/camera_calibration/GOPRb.fig
+http://www.cds.caltech.edu/~ender/pub/research/preprints/camera_calibration/omni.fig
+
+/censi/2012/camera_calibration
+http://purl.org/censi/research/preprints/camera_calibration/
+
+
+http://purl.org/censi/research/preprints/camera_calibration
+
 <http://purl.org/censi/2012/camera_calibration>
 
 <http://purl.org/censi/2011/saccade>
