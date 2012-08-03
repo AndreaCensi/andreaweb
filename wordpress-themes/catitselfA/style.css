@@ -1,0 +1,34 @@
+/*
+Theme Name:     The Cat Itself A
+Theme URI:      http://web.censi.org/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Andrea Censi
+Author URI:     http://web.censi.org/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+dl, dt, dd {  padding: 0 !important; margin: 0 !important;}
+dd { margin-left: 1em !important; padding: 1em !important;}
+
+    #page {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #page #content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+body {
+/*  font-family: Verdana;*/
+    font-family: Georgia, serif;
+}
+
+h1,h2,h3,h4 { font-family: 'Droid Serif';}

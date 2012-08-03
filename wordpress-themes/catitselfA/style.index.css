@@ -1,0 +1,155 @@
+    body {
+        padding: 0; margin: 0;
+    }
+    
+    div#picture { display: block; float: left; margin: 0.5em; margin-left: 1.5em; }
+    div#description {margin-left: 1em; float: left; display: block; 
+                    width: 50%;}
+    div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
+    div#news     { clear: left; margin: 1em; }
+    div#travel   { clear: left; margin: 1em; }
+    div#personal { margin: 1em;}
+   
+    div.figure { width: 475px;}
+    img#andrea_censi_portrait { width: 70%;}
+    div.figure p.graphics { text-align: center; margin-bottom: 0;}
+    div.figure p.caption {  margin-top: 0; }
+/*  
+    div.figure p.caption { border: solid 3px blue;}
+    div#picture { border: solid 1px green; }
+    div.figure { border: solid 1px red;}
+*/
+
+    body {          background-color: white; }
+    div#description { padding-top: 1em;}
+    div#updates { background-color: #FFFDFD; padding-left: 1em;  }
+
+    /*div#description  {border: solid 1px blue;}*/
+    div#stats img#updated { margin-bottom: -5px; float: right;}
+    div#stats p.graphics img { width: 47%; padding: 1%;}
+
+    div.figure p.caption { 
+        margin-top: 0;
+        font-family: Times; text-align: justify;
+        /*font-style: normal; 
+font-size: 90%;                 */
+        }
+    div#description #also {  padding-right: 2em;}
+    
+    A.pdflink IMG {border:0; margin-bottom:-6px}
+    A.weblink IMG {border:0; margin-bottom:-6px; height: 17px;}
+    
+    .highlight { font-weight: bold;}
+    
+    /*#coordinates dl { display: block;}
+    #coordinates dt { display: inline; float: left;clear: left; font-style: italic; width: 6em;
+                        text-align: right; margin-right: 0.5em;}
+    */
+    #coordinates dl { display: block;}
+    #coordinates dd { display: block; margin-left: 6.5em;  max-width: 30em;
+                        float: left;}       
+      
+    #coordinates dt { clear: left; float: left; display: block; width: 6em; font-style: italic;
+                      font-weight: normal; text-align: right;}
+    #coordinates dd, dt, dl { margin: 0 !important; padding: 0 !important;} 
+    #coordinates dt  { padding-right: 1em !important; } 
+    div#news h4 {margin:0; padding: 0;}
+    
+    #rsslink { font-size: 70%; margin-left: 2em; color: gray; }
+    #rsslink A { text-decoration: none;}
+    #rsslink img { width: 0.9em; margin-bottom: -0.1em; border: 0;}
+    
+    
+    div#personal { clear: left;}
+    
+    div#news {display: block; width: 35%;}
+    /*div#news {border: solid 1px red;}*/
+    div#news  dl {  }
+    div#news  dl p {  padding: 0 ; margin: 0;}
+    div#news dt {
+     /*float: left; max-width: 8em; clear: left;  */  
+ }
+    div#news dd {
+ /*    float: left; width: 25em; display: block; */
+ }
+
+    /*div#travel {display: block}*/
+    /*div#travel {border: solid 1px red;}*/
+    /*div#travel  dl {  }
+    
+    div#travel dt { float: left; clear: left;  }
+    div#travel dd { float: left; width: 15em; display: block; }
+*/
+    div#travel dt { display: block; float: left; padding-right: 2em; }
+    div#travel dl, div#travel dt, div#travel dd { 
+     padding: 0 !important; margin: 0 !important;}
+
+
+    #travel dl { display: block;}
+    #travel dd { display: block; margin-left: 6.5em;  max-width: 30em;
+                        float: left;}       
+      
+    #travel dt { clear: left; float: left; display: block; width: 6em; font-style: italic;
+                      font-weight: normal; text-align: right;}
+    #travel dd, dt, dl { margin: 0 !important; padding: 0 !important;} 
+    #travel dt  { padding-right: 1em !important; } 
+
+
+    div#short_news { clear: left; }
+    div#short_news {border: solid 1px green;}
+    div#short_news {display: block; float: left; width: 30%;}
+    /*div#short_news div.shortpost  {border: solid 2px red;}*/
+    div#short_news div.shortpost .title {display: none;}
+    div#short_news div.shortpost h4 {display: inline; font-weight: bold; float: left;
+                padding-right: 1em;}
+    div#short_news div.shortpost div.entry P {
+        
+     margin: 0 !important; padding: 0 !important;} 
+    div#research_items {border: solid 1px red;}
+    div#research_items {display: block; float: left; width: 60%;}
+    div#research_items {display: block}
+
+    div#short_news {
+        padding-left: 2em;
+    }
+    div#research_items {
+        padding-left: 2em;
+    }
+    
+    /*div#travel {border: solid 1px red;}*/
+    
+    #page {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #page #content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+
+/* Andrea's modifications */
+body.home header {
+    display: none;
+}
+ 
+/*
+  <ul id='mainlinks'> 
+    <ul id='otherlinks'>
+    <dl id='coordinates'>
+    */
+
+div#description #also { display: block; float: left;}
+div#description #position { display: block; float: left; }
+div#description #mainlinks { clear: left;}
+    
+div#links { clear: both;}
+
+ul#mainlinks { float: left; display: block;}
+ul#otherlinks { float:left; display: block;}
+dl#coordinates { clear: both;}
+
