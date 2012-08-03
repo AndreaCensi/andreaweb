@@ -22,4 +22,11 @@ cat pub_head.txt           \
 	pub_proc.html          \
 	pub_tr_intro.txt       \
 	pub_tr.html | ./pub_fix.rb > publications.page
- 
+
+cat pub_preprint_intro.txt \
+    pub_preprint.html      \
+    pub_proc_intro.txt     \
+    pub_proc.html          \
+    pub_tr_intro.txt       \
+    pub_tr.html | ./pub_fix.rb > publications_inner.html
+

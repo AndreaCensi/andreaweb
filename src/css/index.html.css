@@ -2,21 +2,20 @@
         padding: 0; margin: 0;
     }
 	
-
     div#picture { display: block; float: left; margin: 0.5em; margin-left: 1.5em; }
     div#description {margin-left: 1em; float: left; display: block; }
     div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
 	div#news     { clear: left; margin: 1em; }
     div#travel   { clear: left; margin: 1em; }
 	div#personal { margin: 1em;}
-
    
 	div.figure { width: 475px;}
 	img#andrea_censi_portrait { width: 70%;}
 	div.figure p.graphics { text-align: center; margin-bottom: 0;}
 	div.figure p.caption {  margin-top: 0; }
-/*	div.figure p.caption { border: solid 3px blue;}
-	 div#picture { border: solid 1px green; }
+/*	
+    div.figure p.caption { border: solid 3px blue;}
+	div#picture { border: solid 1px green; }
 	div.figure { border: solid 1px red;}
 */
 
@@ -55,12 +54,14 @@ font-size: 90%; 				*/
 	
 	
 	div#news {display: block}
+    div#news {border: solid 1px red;}
 	div#news  dl {  }
 	div#news  dl p {  padding: 0 ; margin: 0;}
 	div#news dt { float: left; max-width: 8em; clear: left;  }
 	div#news dd { float: left; width: 25em; display: block;}
 
     div#travel {display: block}
+    div#travel {border: solid 1px red;}
     div#travel  dl {  }
     div#travel  dl p {  padding: 0 ; margin: 0;}
     div#travel dt { float: left; clear: left;  }
