@@ -7,7 +7,10 @@
                     width: 50%;}
     div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
     div#news     { clear: left; margin: 1em; }
-    div#travel   { clear: left; margin: 1em; }
+    div#travel   { clear: left; margin: 0em; padding: 0;
+                    /*border: solid 1px red; */
+                    display: block;
+                }
     div#personal { margin: 1em;}
    
     div.figure { width: 475px;}
@@ -80,23 +83,35 @@ font-size: 90%;                 */
     div#travel dt { float: left; clear: left;  }
     div#travel dd { float: left; width: 15em; display: block; }
 */
-    div#travel dt { display: block; float: left; padding-right: 2em; }
-    div#travel dl, div#travel dt, div#travel dd { 
-     padding: 0 !important; margin: 0 !important;}
+    
 
+    #travel dl { display: block; width: 100%; 
+                 /*border: solid 2px green;*/
+             }
+    #travel dd { display: inline;  
+                    float: left; 
+                    line-height: 100%;
+                    /*# top right bottom left*/
+                    margin: 0 !important;
+                    padding: 0.5em 0 0 0  !important;
+                    padding-top: 0.5em !important; 
+                    }
 
-    #travel dl { display: block;}
-    #travel dd { display: block; margin-left: 6.5em;  max-width: 30em;
-                        float: left;}       
-      
-    #travel dt { clear: left; float: left; display: block; width: 6em; font-style: italic;
-                      font-weight: normal; text-align: right;}
-    #travel dd, dt, dl { margin: 0 !important; padding: 0 !important;} 
-    #travel dt  { padding-right: 1em !important; } 
+    /*#travel { border: solid 1px blue;}  */
+    #travel dt { clear: left; float: left; display: block; text-align: right;
+                      font-weight: bold; 
+                    margin-bottom: 0.5em !important;
+                    margin-right: 1em !important;  line-height: 110%;           
+                    font-weight: normal;
+                    font-size: smaller;
+                  }
+    #travel  dl { margin: 0 !important; padding: 0 !important;} 
 
-
+            
+    /*#travel dd P { margin: 0!important; padding: 0 !important;  }*/
+    
     div#short_news { clear: left; }
-    div#short_news {border: solid 1px green;}
+    /*div#short_news {border: solid 1px green;}*/
     div#short_news {display: block; float: left; width: 30%;}
     /*div#short_news div.shortpost  {border: solid 2px red;}*/
     div#short_news div.shortpost .title {display: none;}
@@ -105,7 +120,7 @@ font-size: 90%;                 */
     div#short_news div.shortpost div.entry P {
         
      margin: 0 !important; padding: 0 !important;} 
-    div#research_items {border: solid 1px red;}
+    /*div#research_items {border: solid 1px red;}*/
     div#research_items {display: block; float: left; width: 60%;}
     div#research_items {display: block}
 

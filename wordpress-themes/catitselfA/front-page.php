@@ -36,14 +36,16 @@ get_header(); ?>
     </h4>
     
 <?php 
-     print_file('/home/andrea/scm/andreaweb/src-news/news.html'); 
+     // print_file('/home/andrea/scm/andreaweb/src-news/news.html'); 
 ?>
 </div>
 -->
     <div id='short_news'>
         <div id="travel">
             <?php print_file('/home/andrea/scm/andreaweb/src-index/plans.html'); ?>
+            <div style='clear:both'> </div>
         </div>
+
 
         <h3> News </h3>
         <?php
