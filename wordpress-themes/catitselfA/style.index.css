@@ -85,18 +85,25 @@
     #travel  dl { margin: 0 !important; padding: 0 !important;} 
 
              
-    div#short_news, div#research_items { margin-top: 2em; /* Separate from first part*/ }
+     /* Separate from first part*/
+    div#short_news, div#research_items { margin-top: 2em; }
+        #short_news_title {margin-top: 2em;}
 
     div#short_news { clear: left;} 
      
-    div#short_news {display: block; float: left; width: 30%;}
+    div#short_news {display: block; float: left; width: 34%;}
     div#short_news div.shortpost .title {display: none;}
     div#short_news div.shortpost h4 {display: inline; font-weight: bold; float: left;
                 padding-right: 1em;}
-    div#short_news div.shortpost div.entry P {
-        
-     margin: 0 !important; padding: 0 !important;} 
-    div#research_items {display: block; float: left; width: 60%;}
+
+    /* Compact paragraphis and lists inside short news */
+    div#short_news div.shortpost div.entry p {
+        margin: 0 !important; padding: 0 !important;} 
+    div#short_news div.shortpost div.entry ul {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    div#research_items {display: block; float: left; width: 55%;}
     div#research_items {display: block}
 
     div#short_news {
@@ -141,3 +148,5 @@ ul#mainlinks { float: left; display: block;}
 ul#otherlinks { float:left; display: block;}
 dl#coordinates { clear: both;}
 
+
+#research_items span.date { font-size: smaller; float: right;}

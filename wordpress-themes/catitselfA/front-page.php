@@ -47,9 +47,9 @@ get_header(); ?>
         </div>
 
 
-        <h3> Short news </h3>
+        <h3 id='short_news_title'> Short news </h3>
         <?php
-            query_posts('tag="news"'.'&orderby=date&order=desc&posts_per_page=50');
+            query_posts('cat=12'.'&orderby=date&order=desc&posts_per_page=50');
             while (have_posts()) : the_post();?>
                 <div class='shortpost'>
                     <h4> <small><?php the_time('Y-m-d') ?> </small>
@@ -63,20 +63,28 @@ get_header(); ?>
     </div>
     
     <div id='research_items'> 
+
+        <h3 id='what_new'> What's new </h3>
+
         <?php
             //query_posts('tag="research-item"'.'&orderby=date&order=desc');
-            query_posts('-cat="news"'.'&orderby=date&order=desc');
+            query_posts('cat=-12'.'&orderby=date&order=desc');
             while (have_posts()) : the_post();?>
                 <div class='post'>
-                    <h4> <small><?php the_time('Y-m-d') ?> </small>
+                    <h4> <span class='date'><?php the_time('Y-m-d') ?> </span>
                         <a href="<?php the_permalink() ?>" rel="bookmark">
                             <?php the_title(); ?>
                         </a>
                     </h4>
-                    <div class="entry"><?php the_content(); ?></div>
+                    <!-- <div class="entry"><?php the_content(); ?></div> -->
+                    <div class="entry"><?php the_excerpt(); ?></div>
+
                 </div>
         <? endwhile; ?>
+
     </div>
+
+    
 
     <?php 
     //    wp_get_archives('title_li=&type=postbypost&limit=10'); 
