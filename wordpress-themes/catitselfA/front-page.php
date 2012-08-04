@@ -47,9 +47,9 @@ get_header(); ?>
         </div>
 
 
-        <h3> News </h3>
+        <h3> Short news </h3>
         <?php
-            query_posts('tag="news"'.'&orderby=date&order=desc');
+            query_posts('tag="news"'.'&orderby=date&order=desc&posts_per_page=50');
             while (have_posts()) : the_post();?>
                 <div class='shortpost'>
                     <h4> <small><?php the_time('Y-m-d') ?> </small>
