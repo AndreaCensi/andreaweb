@@ -7,49 +7,28 @@
 get_header(); ?>
  
     <div id="content" class="narrowcolumn" role="main">
-
-        <!--
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="post" id="post-<?php the_ID(); ?>">
-        <h2><?php the_title(); ?></h2>
-
-            <div class="entry">
-                <?php the_content('<p class="serif">' . __('Read the rest of this page &raquo;', 'kubrick') . '</p>'); ?>
-
-                <?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-
-            </div>
-        </div>
-        <?php endwhile; endif; ?>
-        -->
     
 
     <?php print_file('/home/andrea/scm/andreaweb/src-index/intro.html'); ?>
 
-
-<!--
-<div id="news">
-
-    <h4 style="clear:left; padding-top: 3em;">News 
-    <span id="rsslink">(<a rel="external nofollow" id="feedrss" 
-        title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src='media/rss.gif' alt='RSS'/>RSS feed</a>)</span>
-    </h4>
-    
-<?php 
-     // print_file('/home/andrea/scm/andreaweb/src-news/news.html'); 
-?>
-</div>
--->
     <div id='short_news'>
         <div id="travel">
             <?php print_file('/home/andrea/scm/andreaweb/src-index/plans.html'); ?>
             <div style='clear:both'> </div>
         </div>
 
-
         <h3 id='short_news_title'> Short news </h3>
         <?php
-            query_posts('cat=12'.'&orderby=date&order=desc&posts_per_page=50');
+            function filter_where($where = '') {
+                $where .= " AND post_date >= '" . date('Y-m-d', strtotime('-180 days')) . "'";
+                return $where;
+            }
+            add_filter('posts_where', 'filter_where');
+
+            $q = 'cat=12';
+            $q = $q . '&orderby=date&order=desc&posts_per_page=100';
+            query_posts($q);
+
             while (have_posts()) : the_post();?>
                 <div class='shortpost'>
                     <h4> <small><?php the_time('Y-m-d') ?> </small>
@@ -60,6 +39,8 @@ get_header(); ?>
                     <div class="entry"><?php the_content(); ?></div>
                 </div>
         <? endwhile; ?>
+        <?php remove_filter('posts_where', 'filter_where'); ?>
+        <a href='/old-news'>Older news... </a>
     </div>
     
     <div id='research_items'> 
@@ -68,7 +49,7 @@ get_header(); ?>
 
         <?php
             //query_posts('tag="research-item"'.'&orderby=date&order=desc');
-            query_posts('cat=-12'.'&orderby=date&order=desc');
+            query_posts('cat=-12'.'&orderby=date&order=desc'.'&posts_per_page=5');
             while (have_posts()) : the_post();?>
                 <div class='post'>
                     <h4> <span class='date'><?php the_time('Y-m-d') ?> </span>
@@ -78,10 +59,9 @@ get_header(); ?>
                     </h4>
                     <!-- <div class="entry"><?php the_content(); ?></div> -->
                     <div class="entry"><?php the_excerpt(); ?></div>
-
                 </div>
         <? endwhile; ?>
-
+        <a href='/blog/page/5'>Older posts... </a>
     </div>
 
     

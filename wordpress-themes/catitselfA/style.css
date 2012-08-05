@@ -33,3 +33,23 @@ body {
 }
 
 h1,h2,h3,h4 { font-family: 'Droid Serif';}
+
+
+
+
+
+
+div.shortpost .title {display: none;}
+div.shortpost h4 {display: inline; font-weight: bold; float: left;
+                padding-right: 1em;}
+
+/* Compact paragraphis and lists inside short news */
+div.shortpost div.entry p {
+    margin: 0 !important; padding: 0 !important;} 
+div.shortpost div.entry ul {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+

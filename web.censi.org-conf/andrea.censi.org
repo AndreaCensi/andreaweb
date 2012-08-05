@@ -1,0 +1,37 @@
+# andrea
+<VirtualHost *:80>
+
+    ServerName andrea.censi.org
+	ServerAdmin andrea@web.censi.org
+
+	DocumentRoot /var/www/wordpress
+
+    #Alias /icons/ "/home/andrea/scm/andreaweb/output/icons/"
+    Alias /media/ "/home/andrea/scm/andreaweb/src/media/"
+    Alias /pdf.gif "/home/andrea/scm/andreaweb/src/media/pdf.gif"
+    Alias /web.gif "/home/andrea/scm/andreaweb/src/media/web.gif"
+    
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+
+	<Directory /var/www/>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Order allow,deny
+		allow from all
+	</Directory>
+ 
+    <Directory /home/andrea/scm/andreaweb/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+ 
+    LogLevel info
+	ErrorLog ${APACHE_LOG_DIR}/andrea.censi.org/error.log
+	CustomLog ${APACHE_LOG_DIR}/andrea.censi.org/access.log combined
+
+</VirtualHost>

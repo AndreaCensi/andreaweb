@@ -92,17 +92,7 @@
     div#short_news { clear: left;} 
      
     div#short_news {display: block; float: left; width: 34%;}
-    div#short_news div.shortpost .title {display: none;}
-    div#short_news div.shortpost h4 {display: inline; font-weight: bold; float: left;
-                padding-right: 1em;}
-
-    /* Compact paragraphis and lists inside short news */
-    div#short_news div.shortpost div.entry p {
-        margin: 0 !important; padding: 0 !important;} 
-    div#short_news div.shortpost div.entry ul {
-        margin-bottom: 0 !important;
-        padding-bottom: 0 !important;
-    }
+    
     div#research_items {display: block; float: left; width: 55%;}
     div#research_items {display: block}
 
