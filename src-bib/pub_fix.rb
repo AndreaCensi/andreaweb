@@ -35,7 +35,14 @@ names = [
     "family" => "Scaramuzza",
     "site" => "http://robotics.ethz.ch/~scaramuzza/Davide_Scaramuzza.htm"
     },
-
+  {"first" => "Antonio",
+    "family" => "Franchi",
+    "site" => "http://antoniofranchi.com/robotics/"
+    },
+ {"first" => "Michael H.",
+    "family" => "Dickinson",
+    "site" => "http://www.dickinson.caltech.edu/"
+    },
   {"first"=> "Paloma", 
    "family"=> "", 
    "site"=>"http://www.intelligentcontrol.es/paloma/"},
