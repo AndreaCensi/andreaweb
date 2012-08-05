@@ -2,6 +2,7 @@
 
     ServerName censi.org
     ServerName www.censi.org
+    ServerName web.censi.org
     ServerAdmin andrea@web.censi.org
 
     DocumentRoot /home/andrea/scm/andreaweb/censi.org-content
