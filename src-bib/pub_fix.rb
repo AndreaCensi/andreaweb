@@ -2,15 +2,25 @@
 
 s = $stdin.read
 
-award = "<p> <div style='float:right; color: red; padding: 5px'> (best conference <br/> paper finalist) </div>"
+s = s.gsub('<p><a name="censi11bds"></a>', 
+           "<p> <div style='float:right; color: red; padding: 5px'> (best conference <br/> paper finalist) </div>") 
 
-s = s.gsub('<p><a name="censi11bds"></a>', award) 
+s = s.gsub('<p><a name="censi12fault"></a>', 
+           "<p> <div style='float:right; color: red; padding: 5px'> (best student <br/> paper finalist) </div>") 
+
 
 s = s.gsub(%r{<a name=".*"></a>},'')
 mystring="A.C."
 s = s.gsub('Andrea Censi', mystring)
 s = s.gsub('A. Censi', mystring)
 s = s.gsub('A.&nbsp;Censi', mystring)
+
+# Make everything on the same page
+
+# main
+s = s.gsub('pub_preprint_bib.html#', '#')
+s = s.gsub('pub_proc_bib.html#', '#')
+
 
 
 names = [
@@ -117,17 +127,17 @@ end
 
 s = s.gsub(%r{>bib},">bibtex")
 
-s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf")
-s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px'  src='media/pdf.gif'/> pdf")
+s = s.gsub(%r{>.pdf},"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf")
+s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf")
 
 # s = s.gsub(%r{\$(.*)>otherlink},"'>$1QUI")
 
 
-s = s.gsub(%r{>additional_material},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='media/web.gif'/> supp. material")
-s = s.gsub(%r{>slides},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/slides2.gif'/> slides")
+s = s.gsub(%r{>additional_material},"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material")
+s = s.gsub(%r{>slides},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides")
 
-s = s.gsub(%r{>video},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/video1.png'/> video")
-s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='media/video1.png'/> video")
+s = s.gsub(%r{>video},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video")
+s = s.gsub(%r{>http},"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video")
 
 if false
 $stderr.puts "substituting titles"
@@ -137,8 +147,9 @@ s = s.gsub(/\n([^\n]*)\n  (In|Tech|Proc)/m) do |m|
 end
 end
 
+# s = s.gsub('California<br/>', 'California')
 	
-s = s.gsub(/\n  In/m, "<br/> In") 
+s = s.gsub(/\n  In /m, "<br/> In ") 
 
 if false
 	s = s.gsub(/\n  In/m, "</span><br/> In") 
@@ -151,5 +162,7 @@ end
 
 s = s.gsub(/www:/m, "webpage / additional material")
 
+
+s = s.gsub('>Abstract</a>',' class="abstract-link">Abstract</a>')
 
 puts s

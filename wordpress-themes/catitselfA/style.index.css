@@ -9,6 +9,8 @@
         div.figure
         div.figure
     div#description
+
+    p#notice
 */
     /*div#page, div#main, div#content { border: solid 1px green;}*/
 
@@ -36,6 +38,10 @@
    
     div.figure p.graphics { text-align: center; margin-bottom: 0;}
     div.figure p.caption {  margin-top: 0; }
+
+
+    p#notice { color: darkred; clear: both; font-weight: bold; font-size: smaller;
+        text-align: center; }
 
 /* layout: second */
     div#updates  { clear: left; float: right; width: 40%; }

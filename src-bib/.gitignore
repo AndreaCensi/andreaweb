@@ -15,3 +15,5 @@ pub_tr.html_bib.html
 pub_preprint.bib
 pub_proc.bib
 pub_tr.bib
+generated_source.bib
+bibtex.html

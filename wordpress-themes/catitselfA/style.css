@@ -115,3 +115,8 @@ a:hover {
 }
 
 
+/* Publication page */
+article#post-4 div#bibtex pre {font-family: "Andale Mono";
+     font-size: 80%; overflow: visible;}
+article#post-4 div#bibtex h1 { display: none;}
+article#post-4  a.abstract-link {display: none; }

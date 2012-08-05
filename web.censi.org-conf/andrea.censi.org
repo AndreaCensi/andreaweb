@@ -1,4 +1,29 @@
-# andrea
+<VirtualHost *:80>
+
+    ServerName censi.org
+    ServerName www.censi.org
+    ServerAdmin andrea@web.censi.org
+
+    DocumentRoot /home/andrea/scm/andreaweb/censi.org-content
+
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+ 
+    <Directory /home/andrea/scm/andreaweb/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+ 
+    LogLevel info
+    ErrorLog ${APACHE_LOG_DIR}/censi.org/error.log
+    CustomLog ${APACHE_LOG_DIR}/censi.org/access.log combined
+
+</VirtualHost>
+
 <VirtualHost *:80>
 
     ServerName andrea.censi.org

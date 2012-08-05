@@ -1,5 +1,7 @@
+all: generated_source.bib
+	./create_bib.sh $<
 
+src=commons/bib/src-andrea
 
-all:
-	./create_bib.sh
-	
+generated_source.bib:  $(src)/web/regular.bib $(src)/web/preprints.bib
+	cat $^ > $@
