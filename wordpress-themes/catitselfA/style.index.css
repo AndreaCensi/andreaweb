@@ -1,22 +1,51 @@
     body {
         padding: 0; margin: 0;
     }
+/* First row
+    div#page
+        div#main
+            div#content
+    div#picture
+        div.figure
+        div.figure
+    div#description
+*/
+    /*div#page, div#main, div#content { border: solid 1px green;}*/
+
+
     
-    div#picture { display: block; float: left; margin: 0.5em; margin-left: 1.5em; }
-    div#description {margin-left: 1em; float: left; display: block; 
-                    width: 35em;}
-    div#updates  { clear: left; margin: 1em; float: right; width: 40%; }
-    div#news     { clear: left; margin: 1em; }
-    div#travel   { clear: left; margin: 0em; padding: 0;
-                    /*border: solid 1px red; */
-                    display: block;
-                }
-    div#personal { margin: 1em;}
-   
-    div.figure { width: 475px;}
+    div#picture { 
+        display: block; 
+        float: left; 
+        width: 45%;
+        max-width: 30em;
+        /*border: solid 1px red;*/
+    }
+    div#description { 
+        width: 45%; 
+        display: block; 
+        float: left; 
+        /*border: solid 1px blue;*/
+    }
+    div.figure { }
     img#andrea_censi_portrait { width: 70%;}
+
+    div#picture {   padding: 0.5em; padding-left: 1.5em; }
+    div#description { padding-left: 1em;  }
+
+   
     div.figure p.graphics { text-align: center; margin-bottom: 0;}
     div.figure p.caption {  margin-top: 0; }
+
+/* layout: second */
+    div#updates  { clear: left; float: right; width: 40%; }
+    div#news     { clear: left; }
+    div#travel   { clear: left;display: block;}
+    /* padding */
+    div#updates  {  padding: 1em; }
+    div#news     {  padding: 1em; }
+    div#travel   { padding: 0em; padding: 0; }
+    div#personal { margin: 0em;}
 
 
     body {          background-color: white; }
@@ -117,23 +146,30 @@
     }
 
 
+
 /* Andrea's modifications */
 body.home header {
     display: none;
 }
- 
-/*
-  <ul id='mainlinks'> 
-    <ul id='otherlinks'>
-    <dl id='coordinates'>
-    */
+
+/* button */
+#show_old_travel_plans_parent {
+    display: block; clear: both; 
+
+
+    text-align: right;
+}
+#show_old_travel_plans { 
+    font-size: x-small;}
+/* Links to more */
+a.older { display: block;text-align: right;}
 
 div#description #also { display: block; float: left;}
 div#description #position { display: block; float: left; }
 div#description #mainlinks { clear: left;}
     
 div#links { clear: both;}
-
+/*div#links  ul { width: 15em; border: solid 1px red;}*/
 ul#mainlinks { float: left; display: block;}
 ul#otherlinks { float:left; display: block;}
 dl#coordinates { clear: both;}

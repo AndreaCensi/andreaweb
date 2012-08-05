@@ -40,7 +40,7 @@ get_header(); ?>
                 </div>
         <? endwhile; ?>
         <?php remove_filter('posts_where', 'filter_where'); ?>
-        <a href='/old-news'>Older news... </a>
+        <a class='older' id='older-news' href='/old-news'>Older news... </a>
     </div>
     
     <div id='research_items'> 
@@ -61,7 +61,7 @@ get_header(); ?>
                     <div class="entry"><?php the_excerpt(); ?></div>
                 </div>
         <? endwhile; ?>
-        <a href='/blog/page/5'>Older posts... </a>
+        <a class='older' id='older-posts' href='/blog/page/5'>Older posts... </a>
     </div>
 
     
