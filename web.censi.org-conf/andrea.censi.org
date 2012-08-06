@@ -37,6 +37,10 @@
     Alias /pdf.gif "/home/andrea/scm/andreaweb/src/media/pdf.gif"
     Alias /web.gif "/home/andrea/scm/andreaweb/src/media/web.gif"
     
+    RewriteEngine on
+    RewriteRule  /media/(.*) - [L]
+    RewriteRule  .*/status/(.*) /media/status/$1 [R]
+
 	<Directory />
 		Options FollowSymLinks
 		AllowOverride None

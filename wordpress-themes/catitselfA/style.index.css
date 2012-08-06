@@ -180,5 +180,8 @@ ul#mainlinks { float: left; display: block;}
 ul#otherlinks { float:left; display: block;}
 dl#coordinates { clear: both;}
 
-
+span.date { color: gray; font-weight: normal;}
 #research_items span.date { font-size: smaller; float: right;}
+h3 { color: gray;}
+
+span#updated {font-weight: normal; font-size: smaller; color: gray !important;}

@@ -31,7 +31,7 @@ get_header(); ?>
 
             while (have_posts()) : the_post();?>
                 <div class='shortpost'>
-                    <h4> <small><?php the_time('Y-m-d') ?> </small>
+                    <h4> <span class='date'><?php the_time('Y-m-d') ?> </span>
                          <a href="<?php the_permalink() ?>" rel="bookmark" class='title'>
                             <?php the_title(); ?>
                          </a>
