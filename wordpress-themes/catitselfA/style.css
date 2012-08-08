@@ -39,21 +39,36 @@ Version:        0.1.0
     header.entry-header { padding: 0; margin: 0; }
 
     aside, aside h3 { width: 200px !important;}
-    aside h3 { display: none;} /* "pages" */
-    body.single-post div#content { margin-left: 220px !important;}
-    body.page div#content { margin-left: 220px !important;}
+    /* <aside id="pages-3" class="widget widget_pages"><h3 class="widget-title">Pages</h3>*/
+    aside.widget_pages h3 { display: none;} /* "pages" */
+    aside.widget_archive h3 { border: 0; padding-bottom: 0; } 
+    aside.widget_archive select { margin-left: -1em; font-size: smaller;}
+    /* no archives on page */
+    body.page aside.widget_archive  {display: none;}
+
+    body.page h1 span.date { font-size: 10pt; float: right; 
+        color: gray; font-weight: normal;}
+
+
+    /* body.single-post , body.page */
+    div#content
+     { margin-left: 240px !important;}
+
     body.home div#content { margin-left: 0 !important;}
     div#secondary {
         position: fixed !important; padding-left: 3em !important; top: 5em;}
-    body.page div#content { font-size: 10pt !important;}
-    body.home div#content { font-size: 11pt  !important;}
-
+    
+    
+    
 /* Fonts */
 body {
     font-family: Georgia, serif;
-    line-height: 120%;
+    line-height: normal !important;
     font-size: 100%;
 }
+
+div#content { font-size: 10pt !important;}
+
 
 h1,h2,h3,h4 { 
     font-family: Georgia, serif; !important;
@@ -87,6 +102,8 @@ div.post h4 a { color: #a00 !important; }
 h1 {
     color: #a00 !important;
 }
+
+h1.entry-title a { color: #a00 !important;}
 
 h2 {
     color: #a00;

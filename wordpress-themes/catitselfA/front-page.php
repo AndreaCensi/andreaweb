@@ -50,7 +50,11 @@ get_header(); ?>
         <?php
             //query_posts('tag="research-item"'.'&orderby=date&order=desc');
             query_posts('cat=-12'.'&orderby=date&order=desc'.'&posts_per_page=5');
-            while (have_posts()) : the_post();?>
+            $i = 0 ;
+            while (have_posts()) : the_post(); $i++; 
+                $link = 'blog/page/'.$i;
+                // get_the_permalink()
+            ?>
                 <div class='post'>
                     <h4> <span class='date'><?php the_time('Y-m-d') ?> </span>
                         <a href="<?php the_permalink() ?>" rel="bookmark">

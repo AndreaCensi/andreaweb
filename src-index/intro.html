@@ -1,8 +1,5 @@
 <div id="picture">
-    <!-- <a href="http://www.flickr.com/photos/censi/41157177/sizes/l/">
-        <img src="media/okayama-crop.jpg"  alt='Me in Okayama, Japan'/> 
-    </a>  -->
-    
+
     <div class='figure' id='portrait'>
         
         <p class='graphics'>
@@ -11,12 +8,35 @@
              alt='Me, staring'/> 
         </p>
 
+        <!-- 
+            You *really* have nothing to do today, do you? 
+
+            But seriously, jQuery is cool. 
+        -->
         <script  type='text/javascript'>
+        $.mynamespace = { 
+            count : 0
+        };
         $(document).ready(function(){
             $("#andrea_censi_portrait").hover(function() {
+                $.mynamespace.count = $.mynamespace.count + 1;
                 $(this).attr("src","media/portrait1.jpg");
-                $('#other_picture').show();
-                    }, function() {
+                if ($.mynamespace.count > 0) {
+                   $('#other_picture').show();
+                }   
+                if ($.mynamespace.count > 5) {
+                    $('#other_picture2').show();
+                }
+                if ($.mynamespace.count > 10) {
+                    $('#other_picture3').show();
+                }
+                if ($.mynamespace.count > 15) {
+                    $('#thatsit').show();
+                }
+                if ($.mynamespace.count > 20) {
+                    $('#more').show();
+                }
+            }, function() {
                 $(this).attr("src","media/portrait2.jpg");
             });
         });
@@ -24,32 +44,54 @@
     
         <p class='caption'> 
         Fig. 1. The individual under investigation. <br/>
-        <span id="other_picture" style="display:none">See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
+        <span id="other_picture" style="display:none">
+            See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
         </span>
-         </p>
+        <span id='other_picture2' style="display:none">
+            <br/>
+            <a href='media/andrea_biology_themed_picture.jpg'>
+                Hire-me-for-children-parties picture.
+            </a>
+        </span>
+        <span id="other_picture3"  style="display:none"> <br/>
+            <!--<a href="http://www.flickr.com/photos/censi/41157177/sizes/l/">-->
+            <a href="http://farm1.staticflickr.com/32/41157177_7ba6204a1b_b.jpg">
+            My favorite picture: peaceful me in Okayama, Japan (2004).
+            <!--<img src="media/okayama-crop.jpg"  alt='Me in Okayama, Japan'/> -->
+            </a>
+        </span>
+        <span id='thatsit' style='display:none'> 
+            <br/> That's it, folks!
+        </span>
+        
+         <span id='more' style='display:none'> <br/>
+            You really have nothing to do today...
+         </span>
+
+
+        </p>
+
+        
+
     </div>
     
     <div class='figure' id='stats'>
 
         <p class='graphics'>
-            <img id='stats_count' src="http://www.cds.caltech.edu/~andrea/busyplot/count.png"  alt='Count'/> 
-            <img id='stats_age' src="http://www.cds.caltech.edu/~andrea/busyplot/age.png"    alt='Age'/> 
+            <img id='stats_count' src="http://web.censi.org/~andrea/busyplot/count.png"  alt='Count'/> 
+            <img id='stats_age' src="http://web.censi.org/~andrea/busyplot/age.png"    alt='Age'/> 
         </p>
          
     <p class='caption'> 
         Fig. 2. Stress and procrastination levels in the last 7 days.
         Stress is measured by the number of flagged messages in the email inbox;
         procrastination is measured by the median age of those messages
-        (<a href="https://github.com/AndreaCensi/busymail">materials and methods</a>, <a href="http://www.cds.caltech.edu/~andrea/busyplot/plots.html">complete historical plots</a>).
-        <!--<img id='updated' src="http://www.cds.caltech.edu/~andrea/busyplot/updated.gif" alt='Update'/> -->
+        (<a href="https://github.com/AndreaCensi/busymail">materials and methods</a>, <a href="http://web.censi.org/~andrea/busyplot/plots.html">complete historical plots</a>).
+        <img style='height: 11pt' id='updated' src="http://web.censi.org/~andrea/busyplot/updated-black.png" alt='Update'/>
     </p>
     </div>
     
 </div>
-<!--  
-    <p>     Okayama, Japan, Summer 2005 <br/>
-           That's my favorite picture; but <a href="media/andrea_recent.jpg">this is more recent</a>.
-       </p> -->
 
 <div id="description">
     
@@ -83,7 +125,7 @@
 
         <a href="http://www.cds.caltech.edu/">Control and Dynamical Systems,</a><br/>
 
-        <a href="/wp-content/uploads/uptech-1024x797.png">California Institute of Technology</a><br/>
+        <a href="/wp-content/uploads/uptech.png">California Institute of Technology</a><br/>
         
         <br/>
         advisor: <a href="http://www.cds.caltech.edu/~murray">Richard Murray</a>
