@@ -4,7 +4,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?>
-			<span class='date'><?php the_time('Y-m-d') ?>
+			<span class='date'><?php the_time('Y-m-d') ?></span>
 		</h1>
 	</header><!-- .entry-header -->
 

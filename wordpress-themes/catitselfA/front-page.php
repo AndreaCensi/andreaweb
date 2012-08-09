@@ -40,7 +40,7 @@ get_header(); ?>
                 </div>
         <? endwhile; ?>
         <?php remove_filter('posts_where', 'filter_where'); ?>
-        <a class='older' id='older-news' href='/old-news'>Older news... </a>
+        <a class='older' id='older-news' href='/misc/old-news'>Older news... </a>
     </div>
     
     <div id='research_items'> 
@@ -52,7 +52,7 @@ get_header(); ?>
             query_posts('cat=-12'.'&orderby=date&order=desc'.'&posts_per_page=5');
             $i = 0 ;
             while (have_posts()) : the_post(); $i++; 
-                $link = 'blog/page/'.$i;
+                $link = 'blog/page/'.$i.'/';
                 // get_the_permalink()
             ?>
                 <div class='post'>
@@ -65,7 +65,7 @@ get_header(); ?>
                     <div class="entry"><?php the_excerpt(); ?></div>
                 </div>
         <? endwhile; ?>
-        <a class='older' id='older-posts' href='/blog/page/5'>Older posts... </a>
+        <a class='older' id='older-posts' href='/blog/page/5/'>Older posts... </a>
     </div>
 
     
@@ -74,6 +74,73 @@ get_header(); ?>
     //    wp_get_archives('title_li=&type=postbypost&limit=10'); 
     ?>
 
+    <div id="CHEWBA_61e5">
+        <h3>Coding activity</h3>
+     Last commits to public repositories in   <a href="http://github.com/AndreaCensi">my github account</a>:
+            <ul><li/></ul>
+    </div>
+ 
+<script type="text/javascript">
+//<![CDATA[
+var CHEWBA_61e5 = window.CHEWBA_61e5 || {};
+CHEWBA_61e5.badger = function() {
+    var $ = {};
+    return {
+        init: function(theBadge) {
+            $.theFeed = document.getElementById(theBadge).getElementsByTagName("ul")[0];
+            //$.theFeed = document.getElementById(theBadge).getElementsByTagName("ul")[0];
+        },
+        pingFeed: function(feed) {
+            $.theFeed.innerHTML = "";
+            if (feed.value.items.length) {
+                for (var i = 0; i < 15; i++) {
+                    var li = document.createElement("li");
+                    var a = document.createElement("a");
+                    a.innerHTML = feed.value.items[i].title;
+                    a.href = feed.value.items[i].link;
+                    a.target = "_blank";
+                    li.appendChild(a);
+
+                    /*var d = feed.value.items[i].pubDate;
+                    d = " - " + d.substring(0, d.lastIndexOf("2008") + 4);
+                    li.appendChild(document.createTextNode(d));*/
+                    $.theFeed.appendChild(li);
+                }
+            }
+        }
+    };
+} ();
+CHEWBA_61e5.badger.init("CHEWBA_61e5"); 
+//]]>
+</script>
+<script type='text/javascript' src="http://pipes.yahoo.com/pipes/zIQi0Iy72xGJ3NMhJhOy0Q/run?_render=json&amp;_callback=CHEWBA_61e5.badger.pingFeed&amp;s=http://github.com/AndreaCensi.atom"></script>
+
+
+<div id='widget-gplus'>
+    <h3>Google+</h3>
+<script type="text/javascript">
+ww='600';wh='600';pid='106839984596770449716';
+
+mbgc='ffffff';;mbc='ffffff';bbc='3F79D5';
+bmobc='3b71c6';bbgc='4889F0';bmoc='3F79D5';bfc='FFFFFF';bmofc='ffffff';tlc='ffffff';
+tc='6a6a6a';nc='6a6a6a';bc='6a6a6a';l='y';fs='18';fsb='15';bw='140';ff='4';lu='6a6a6a';
+pc='4889F0';b='s'; </script>
+<script type="text/javascript" src="http://widgetsplus.com/google_plus_widget.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    //$('#widget-gplus').css();
+    $('#wgp_wrapper').css({'border': 'solid 1px red', 'width': '600'});
+    $('#wgp_wrapper').width(600);
+});
+</script>
+</div>
+
+
+    <!-- preload images --> 
+    <img src="media/portrait1.jpg" style='width:1px'/> 
+    <img src="media/portrait2.jpg" style='width:1px'/> 
+
     </div>
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>

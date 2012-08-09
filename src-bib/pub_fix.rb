@@ -20,6 +20,7 @@ s = s.gsub('A.&nbsp;Censi', mystring)
 # main
 s = s.gsub('pub_preprint_bib.html#', '#')
 s = s.gsub('pub_proc_bib.html#', '#')
+s = s.gsub('pub_tr_bib.html#', '#')
 
 
 

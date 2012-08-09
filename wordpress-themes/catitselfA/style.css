@@ -46,8 +46,13 @@ Version:        0.1.0
     /* no archives on page */
     body.page aside.widget_archive  {display: none;}
 
-    body.page h1 span.date { font-size: 10pt; float: right; 
+
+    body.page h1 span.date,
+    body.single-post h1 span.date
+     { font-size: 10pt; float: right; 
         color: gray; font-weight: normal;}
+
+    body.single-post footer.entry-meta {display: none;}  
 
 
     /* body.single-post , body.page */
@@ -67,7 +72,7 @@ body {
     font-size: 100%;
 }
 
-div#content { font-size: 10pt !important;}
+div#content { font-size: 11pt !important;}
 
 
 h1,h2,h3,h4 { 
