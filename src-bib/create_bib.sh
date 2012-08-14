@@ -5,8 +5,8 @@ source="$1"
 
 
 bib2bib --remove abstract --no-comment -oc /dev/null  -ob pub_preprint.bib -c 'kind="preprint"' $source
-bib2bib  --remove abstract --no-comment -oc /dev/null  -ob pub_proc.bib -c '!?kind' $source
-bib2bib  --remove abstract --no-comment -oc /dev/null  -ob pub_tr.bib   -c 'kind="unref"' $source
+bib2bib --remove abstract --no-comment -oc /dev/null  -ob pub_proc.bib -c '!?kind' $source
+bib2bib --remove abstract --no-comment -oc /dev/null  -ob pub_tr.bib   -c 'kind="unref"' $source
 
 
 # style="-s alpha"
@@ -33,3 +33,11 @@ cat pub_preprint_intro.txt \
 echo "<div id='bibtex'>" > bibtex.html
 cat pub_preprint_bib.html pub_proc_bib.html pub_tr_bib.html | ./bib_fix.rb >> bibtex.html
 echo "</div>" >> bibtex.html
+
+
+# Make a copy of everything 
+mkdir -p extract/
+rm extract/all_publications.*
+cp $source extract/all_publications.bib
+bibtex2html $flags extract/all_publications.bib
+mv all_publications_abstracts.html all_publications_bib.html all_publications.html extract/
