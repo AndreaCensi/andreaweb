@@ -41,3 +41,16 @@ is gratefully acknowledged.
 [external_page page='research_boot_long']
 
 [external_page page='research_boot_planning']
+
+<style type='text/css'>
+
+    /*<div class='topic-spotlight'>
+        <img class='highlight-picture' src=""/>
+    </div>*/
+
+    div.topic-spotlight { display: block; float: right;}
+    img.highlight-picture { width: 15em; border: solid 1px gray;}
+
+
+Lorem ipsum dolor
+</style>
