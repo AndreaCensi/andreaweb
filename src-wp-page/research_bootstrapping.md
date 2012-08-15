@@ -42,15 +42,20 @@ is gratefully acknowledged.
 
 [external_page page='research_boot_planning']
 
+<div markdown=0>
 <style type='text/css'>
-
     /*<div class='topic-spotlight'>
         <img class='highlight-picture' src=""/>
     </div>*/
 
-    div.topic-spotlight { display: block; float: right; border: black;}
-    img.highlight-picture { width: 15em; border: solid 1px gray;}
-
-
-Lorem ipsum dolor
+    div.topic-spotlight { 
+            display: block; 
+            float: right; 
+            margin-right: -7em;
+            border: solid 1px black;
+    }
+    img.highlight-picture { width: 15em; 
+        /*border: solid 1px gray;*/
+    }
 </style>
+</div>
