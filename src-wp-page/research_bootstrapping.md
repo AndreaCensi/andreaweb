@@ -28,8 +28,13 @@ We gratefully acknoweledge ... CSP ... NRI
 
 
 [external_page page='research_boot_modeling']
+
 [external_page page='research_boot_geometry']
+
 [external_page page='research_boot_agent']
+
 [external_page page='research_boot_instant']
+
 [external_page page='research_boot_long']
+
 [external_page page='research_boot_planning']
