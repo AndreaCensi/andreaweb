@@ -48,7 +48,7 @@ is gratefully acknowledged.
         <img class='highlight-picture' src=""/>
     </div>*/
 
-    div.topic-spotlight { display: block; float: right;}
+    div.topic-spotlight { display: block; float: right; border: black;}
     img.highlight-picture { width: 15em; border: solid 1px gray;}
 
 
