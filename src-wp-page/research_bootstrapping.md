@@ -13,19 +13,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed turpis v
 - ... 
 - ... 
 
-#### Recent work on bootstrapping
+#### Most recent work on bootstrapping
 
 [pub_ref id='censi12diffeoplan']
 [pub_ref id='censi12phd1' note='See chapter 3']
 
+See my [publications list][publications] for older papers.
 
 #### Collaborators
 
 
 #### Funding  {#funding}
 
-We gratefully acknoweledge ... CSP ... NRI
+Funding from DARPA (MSEE program) 
+is gratefully acknowledged.
 
+<!-- TODO: add NRI -->
 
 [external_page page='research_boot_modeling']
 
