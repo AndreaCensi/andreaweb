@@ -195,7 +195,7 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 <h4>On modeling and abstractions</h4>
 
 <div class="quoteblock">
-  <p class="quote" class="important">The best model of a cat is another cat, or better yet, the cat itself.
+  <p class="quote important">The best model of a cat is another cat, or better yet, the cat itself.
   
   <span class="who">
     <a href="http://en.wikipedia.org/wiki/Norbert_Wiener">Norbert Wiener</a> or <a href="http://en.wikipedia.org/wiki/Arturo_Rosenblueth">Arturo Rosenblueth</a>
@@ -206,7 +206,7 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 
 
 <div class="quoteblock">
-  <p class="quote">The price of metaphor is eternal vigilance.
+  <p class="quote important">The price of metaphor is eternal vigilance.
   
   <span class="who">
     <a href="http://en.wikipedia.org/wiki/Norbert_Wiener">Norbert Wiener</a>
