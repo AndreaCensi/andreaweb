@@ -58,7 +58,7 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 <h4>On dealing with failure</h4>
 
 <div id="cagepic">
-    <img src='/media/cage.jpg' alt='quote'/>
+    <img src='http://andrea.caltech.edu/media/cage.jpg' alt='quote'/>
     <p class="translation">
       The situation being desperate, <br/> everything is now possible.
     </p>
