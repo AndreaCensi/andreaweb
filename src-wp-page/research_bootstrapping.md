@@ -25,8 +25,9 @@ See my [publications list][publications] for older papers.
 
 #### Funding  {#funding}
 
-Funding from DARPA (MSEE program) 
-is gratefully acknowledged.
+
+We gratefully acknowledge funding from [DARPA Defense Sciences Office][dso], 
+as part of the *MSEE* program.
 
 <!-- TODO: add NRI -->
 

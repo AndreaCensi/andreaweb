@@ -1,5 +1,8 @@
 ### Group-spectral dossiers
 
+* compositionality
+
+
 $X$   | $\stackrel{{\displaystyle f}}{\rightarrow}$ | $Y$
 Content Cell  | Content Cell
 Content Cell  | Content Cell
