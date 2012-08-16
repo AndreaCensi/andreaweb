@@ -5,37 +5,39 @@ Many nonlinear models can be written in the form
 $$
         y = h \cdot f(g \cdot x),
 $$
-where $f:X\rightarrow Y$ is a nonlinear function, $h$ and $g$ are group elements sampled from two groups $G$ and $H$, and "$\cdot$" represents a [group action][action].
+where $f:X\rightarrow Y$ is a nonlinear function, $h$ and $g$ are elements sampled from two [groups][groups] $G$ and $H$, and "$\cdot$" represents a [group action][action].
 
 This structure appears in many problems:
-
-- For example, in a sensing problem, $x$ is the hidden state, $f$ groups together all the   nonlinearities of the image formation problem, $H$ are *nuisances* acting on the observations, and $G$ can represent either a control opportunities or a nuisance acting on the state. **cite poggio**
-
-- In learning problems such as [bootstrapping][boot], $x$ and $y$ are dynamical systems, the group actions are invertible "representation nuisances", and $f$ groups together noise and other noninvertible nuisances.
+- In *sensing* problems, $x$ is the hidden state, $f$ groups together all the  nonlinearities of the image formation problem, $H$ are *nuisances* acting on the observations, and $G$ can represent either *control opportunities* or nuisances acting on the state. 
+- In learning problems such as [bootstrapping][page:bootstrapping], $x$ and $y$ are dynamical systems, the group actions are invertible "representation nuisances", and $f$ groups together noise and other noninvertible nuisances.
 
 
 #### Questions that we investigate
 
-- ... 
-- **Canonization** operators
+- [**Modeling** sensing operations](#research_groups_modeling)
+- [**Features** operators](#research_groups_features)
+- [**Group spectral dossiers**](#research_groups_dossiers)
 
 #### Recent work
 
-- Part III of [my dissertation][phd1]
+[pub_ref id='censi12phd1' note='See Chapter XXX']
 
 #### Funding
 
-We gratefully acknowledge [DARPA DSO][dso]'s funding, as part of the MSEE program.
+We gratefully acknowledge funding from [DARPA Defense Sciences Office][dso], 
+as part of the *MSEE* program.
 
 
 [external_page page='research_groups_modeling']
 
-[external_page page='research_groups_dossiers']
-
 [external_page page='research_groups_features']
+
+[external_page page='research_groups_dossiers']
 
 
 
 
 [action]: http://en.wikipedia.org/wiki/Group_action
+[groups]: http://en.wikipedia.org/wiki/Group_(mathematics)
 [phd1]: http://purl.org/censi/boot/v1/
+

@@ -25,16 +25,17 @@ See my [publications list][publications] for older papers.
 
 #### Funding  {#funding}
 
-Funding from DARPA (MSEE program) 
-is gratefully acknowledged.
+
+We gratefully acknowledge funding from [DARPA Defense Sciences Office][dso], 
+as part of the *MSEE* program.
 
 <!-- TODO: add NRI -->
+
+[external_page page='research_boot_invariance']
 
 [external_page page='research_boot_modeling']
 
 [external_page page='research_boot_geometry']
-
-[external_page page='research_boot_agent']
 
 [external_page page='research_boot_instant']
 
@@ -42,15 +43,20 @@ is gratefully acknowledged.
 
 [external_page page='research_boot_planning']
 
+<div markdown=0>
 <style type='text/css'>
-
     /*<div class='topic-spotlight'>
         <img class='highlight-picture' src=""/>
     </div>*/
 
-    div.topic-spotlight { display: block; float: right;}
-    img.highlight-picture { width: 15em; border: solid 1px gray;}
-
-
-Lorem ipsum dolor
+    div.topic-spotlight { 
+            display: block; 
+            float: right; 
+            margin-right: -7em;
+            border: solid 1px black;
+    }
+    img.highlight-picture { width: 15em; 
+        /*border: solid 1px gray;*/
+    }
 </style>
+</div>
