@@ -12,8 +12,10 @@ import json
 
 def subs(s):
     x = {
+    '\em': '',
     '{': '',
     '}': '',
+    # {\em Drosophila}
     '&nbsp;': ' ',
     '>pdf': "><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf",
     '>http': "><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf",
@@ -25,6 +27,42 @@ def subs(s):
         s = s.replace(k,v)
     
     return s
+
+def sub_names(s):
+
+    people = json.load(open('people.json'))
+    #print('loaded %d names' % len(people))
+
+    s = s.replace('Andrea Censi', 'A.C.')
+
+    # s = s.replace('Paloma de la Puente',
+    #     "<a href='http://www.intelligentcontrol.es/paloma/'>Paloma de la Puente</a>")
+
+    def combinations(first, last):
+        comb = []
+        comb.append( '%s %s' % (first, last))
+        comb.append( '%s&nbsp;%s' % (first, last))
+        comb.append( '%s %s' % (first[0], last))
+        comb.append( '%s&nbsp;%s' % (first[0], last))
+        # "#{first.split.join('&nbsp;')} #{last}"
+        return list(set(comb))
+
+    for p in people:
+        first = p['first']
+        last = p['family']
+        site = p["site"]
+        #face = p["face"]
+
+        if not site:
+            continue
+
+        for sub in combinations(first, last):
+            replace = "<a href='%s'>%s</a>" % (site, sub)
+            s = s.replace(sub, replace)
+
+
+    return s
+
 
 filename = sys.argv[1]
 parser = bibtex.Parser()
@@ -39,7 +77,9 @@ for k,v in  bib_data.entries.items():
     from pybtex.backends.html import Backend
     backend = Backend()
     html = s.render(backend)
-    entries[k] = subs(html)
+    html = subs(html)
+    html = sub_names(html)
+    entries[k] = html
     
 
 with open(sys.argv[2] + '.json', 'wb') as f:

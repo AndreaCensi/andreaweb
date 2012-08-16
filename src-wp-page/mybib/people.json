@@ -1,0 +1,73 @@
+[{"first" : "Kostas",
+    "family" : "Daniilidis",
+    "site" : "http://www.cis.upenn.edu/~kostas/"
+    },
+  {"first" : "Davide",
+    "family" : "Scaramuzza",
+    "site" : "http://robotics.ethz.ch/~scaramuzza/Davide_Scaramuzza.htm"
+    },
+  {"first" : "Antonio",
+    "family" : "Franchi",
+    "site" : "http://antoniofranchi.com/robotics/"
+    },
+ {"first" : "Michael H.",
+    "family" : "Dickinson",
+    "site" : "http://www.dickinson.caltech.edu/"
+    },
+  {"first": "Paloma", 
+   "family": "de la Puente", 
+   "site":"http://www.intelligentcontrol.es/paloma/"},
+
+  {"first": "Raj", 
+   "family": "Madhavan", 
+   "site":"http://www.isr.umd.edu/faculty/gateways/madhavan.htm"},
+
+  {"first": "Rolf", 
+   "family": "Lakaemper", 
+   "site":"http://knight.temple.edu/~lakaemper/"},
+  
+  {"first": "Afzal", 
+   "family": "Godil", 
+   "site":"http://zing.ncsl.nist.gov/godil/"},
+
+  {"first": "Adam", 
+   "family": "Jacoff", 
+   "site":"http://www.nist.gov/el/isd/ms/jacoff.cfm"}, 
+
+  {"first": "Paloma", 
+   "family": "De La Puente", 
+   "site":"http://www.intelligentcontrol.es/paloma/"},
+   
+  {"first": "Andrew D.", "family": "Straw", "site": "http://strawlab.org"},
+  {"first": "Shuo", "family": "Han", "site": "http://purl.org/hanshuo"},
+  {"first": "Stefano", "family": "Carpin", "site": "http://robotics.ucmerced.edu/"},
+  {"first": "Sawyer B.", "family": "Fuller", "site": "http://xenia.media.mit.edu/~minster/"},
+  {"first": "Richard M.", "family": "Murray", "site": "http://www.cds.caltech.edu/~murray/"},
+       {"first": "Luca", "family": "Iocchi", "site":
+"http://www.dis.uniroma1.it/~iocchi/",
+       "face": "http://www.dis.uniroma1.it/~iocchi/stereo3d/images/lucaanim.gif"},
+       {"first": "Daniele", "family": "Nardi", "site":
+"http://www.dis.uniroma1.it/~nardi/",
+       "face": "http://www.dis.uniroma1.it/~nardi/figure/daniele.jpg"},
+       {"first": "Daniele", "family": "Calisi", "site":
+"http://www.dis.uniroma1.it/~calisi/"},
+       {"first": "Giorgio", "family": "Grisetti", "site":
+"http://www.informatik.uni-freiburg.de/~grisetti/",
+       "face": "http://www.informatik.uni-freiburg.de/~grisetti/pics/grisetti.jpg"},
+       {"first": "Alessandro", "family": "Farinelli", "site":
+"http://www.dis.uniroma1.it/~farinell/",
+       "face": "http://www.dis.uniroma1.it/~farinell/assets/images/farinelli.jpg"},
+      {"first": "Alessandro", 
+        "family": "De Luca", "site":
+"http://www.dis.uniroma1.it/~deluca/",
+       "face": "http://www.dis.uniroma1.it/~deluca/pers/ADL.jpg"},
+      {"first": "Giuseppe", "family": "Oriolo", "site":
+"http://www.dis.uniroma1.it/~oriolo/",
+       "face": "http://www.dis.uniroma1.it/~oriolo/oriolo.jpg"},
+       {"first": "Luca", "family": "Marchionni", "site":
+     "http://www.linkedin.com/in/lucamarchionni",
+        "face": ""},
+      {"first": "Gian Diego", "family": "Tipaldi", "site":
+"http://www.informatik.uni-freiburg.de/~tipaldi",
+       "face": "http://www.dis.uniroma1.it/~tipaldi/assets/images/Picture.JPG"}
+]

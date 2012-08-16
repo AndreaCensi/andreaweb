@@ -301,10 +301,21 @@ class Style(BaseStyle):
         return template.format_data(e)
 
     def format_links(self):
-        return sentence(capfirst=False) [ 
+        return tag('span')['links|',
             words  [   optional[tag('span')['pdf|', tag('a')[ 
                                             field('pdf'),
                                             '|pdf'
+                                        ] ]]
+                                     ],
+            words  [   optional[tag('span')['doi|', tag('a')[
+                                            'http://dx.doi.org/',
+                                            field('doi'),
+                                            '|doi'
+                                        ] ]]
+                                     ],
+            words  [   optional[tag('span')['video|', tag('a')[
+                                            field('video'),
+                                            '|video'
                                         ] ]]
                                      ],
             words  [   optional[tag('span')['url|', tag('a')[ 
@@ -428,7 +439,8 @@ class Style(BaseStyle):
         return template.format_data(e)
 
     def format_note(self):
-        return optional[ tag('span')['note|', sentence(capfirst=False) [ field('note') ]]]
+        return optional[ tag('span')['note|',
+                            sentence(capfirst=False) [ field('note') ]]]
 
     def format_unpublished(self, e):
         template = toplevel [
