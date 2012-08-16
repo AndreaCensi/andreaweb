@@ -25,7 +25,7 @@ function pub_ref( $atts ) {
         return "<p class='pub-ref-short'>{$ref}</p>";
     } else {
         $known = implode(array_keys($db),', ');
-        return "<p class='pub-ref-error'> Publication id {$id} does not exist (known: {$known})</p>";     
+        return "<p class='pub-ref-error' style='color: red;'> Publication id {$id} does not exist (known: {$known})</p>";     
     }
 } 
 

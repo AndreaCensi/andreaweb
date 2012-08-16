@@ -40,4 +40,4 @@ mkdir -p extract/
 rm extract/all_publications.*
 cp $source extract/all_publications.bib
 bibtex2html $flags extract/all_publications.bib
-mv all_publications_abstracts.html all_publications_bib.html all_publications.html extract/
+mv all_publications* extract/
