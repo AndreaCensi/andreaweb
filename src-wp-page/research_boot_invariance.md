@@ -1,8 +1,4 @@
-### Invariance-based approach
-
-<div class='topic-spotlight'>
-    <img class='highlight-picture' src="http://andrea.caltech.edu/wp-content/uploads/2012/08/kd-292x300.png"/>
-</div>
+### Invariance ###
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -13,5 +9,5 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 [pub_ref id='censi12phd1' note='See chapter XXX']
+[pub_ref id='censi11semantics']
 
-[pub_ref id='censi11icdl']

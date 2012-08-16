@@ -5,9 +5,10 @@ from pybtex.database import BibliographyData
 from pybtex.database.input import bibtex
 from StringIO import StringIO
 from pybtex.database.output import bibtex as bibtexo
-
+import json
 
 filename = sys.argv[1]
+out = sys.argv[2] 
 parser = bibtex.Parser()
 bib_data = parser.parse_file(filename)
 
@@ -21,6 +22,5 @@ for k,v in  bib_data.entries.items():
     bibtex = s.getvalue() 
     entries[k]  = bibtex
 
-yaml.safe_dump(entries, sys.stdout,
-     allow_unicode=True, encoding='UTF-8',
-        default_flow_style=False, explicit_start=True)
+with open(out, 'wb') as f:
+    f.write(json.dumps(entries))

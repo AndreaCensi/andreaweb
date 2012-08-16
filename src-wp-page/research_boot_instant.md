@@ -12,5 +12,5 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 [pub_ref id='censi12phd1' note='See chapter XXX']
-[pub_ref id='censi11icra']
-[pub_ref id='censi11iros']
+[pub_ref id='censi11bds']
+[pub_ref id='censi11bgds']

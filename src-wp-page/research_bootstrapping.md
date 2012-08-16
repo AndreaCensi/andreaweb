@@ -31,11 +31,11 @@ as part of the *MSEE* program.
 
 <!-- TODO: add NRI -->
 
+[external_page page='research_boot_invariance']
+
 [external_page page='research_boot_modeling']
 
 [external_page page='research_boot_geometry']
-
-[external_page page='research_boot_agent']
 
 [external_page page='research_boot_instant']
 

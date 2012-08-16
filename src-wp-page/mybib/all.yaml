@@ -508,6 +508,19 @@ entries:
         type: inproceedings
         url: http://purl.org/censi/2011/diffeo
         year: '2012'
+    censi12diffeoplan:
+        author:
+        -   first: Andrea
+            last: Censi
+        -   first: Adam
+            last: Nilsson
+        -   first: Richard
+            last: Murray
+        institution: California Institute of Technology
+        number: CaltechAUTHORS:20120805-120309438
+        title: Planning with diffeomorphisms
+        type: techreport
+        year: '2012'
     censi12fault:
         address: Saint Paul, MN
         author:
@@ -545,6 +558,17 @@ entries:
             robots
         type: techreport
         url: http://purl.org/censi/2012/joint_calibration
+        year: '2012'
+    censi12phd1:
+        author:
+        -   first: Andrea
+            last: Censi
+        institution: California Institute of Technology
+        number: CaltechAUTHORS:20120805-120309438
+        title: 'Bootstrapping Vehicles: A Formal Approach to Unsupervised Sensorimotor
+            Learning Based on Invariance'
+        type: techreport
+        url: http://purl.org/censi/2012/phd
         year: '2012'
     censi12saccade_preprint:
         abstract: As animals move through the world in search of resources, they change
