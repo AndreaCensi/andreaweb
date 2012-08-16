@@ -14,8 +14,6 @@ calisi08openrdk: '<span class="author">Daniele Calisi, Andrea Censi, Luca Iocchi
   <span class="booktitle">In <em>Proceedings of the IEEE/RSJ International Conference
   on Intelligent Robots and Systems (IROS)</em>. Nice, France, September 2008.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2008-iros-openrdk.pdf">pdf</a></span>,
   <span class="url"><a href="http://openrdk.sourceforge.net">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2008-iros-openrdk-slides.pdf">slides</a></span>.'
@@ -32,17 +30,13 @@ carpin09hsm3d: '<span class="author">Stefano Carpin and Andrea Censi.</span>
   and colored data.</span>
 
   <span class="booktitle">In <em>Proceedings of the {IEEE/RSJ} International Conference
-  on Intelligent Robots and Systems (IROS)</em>, 3595&ndash;3600. 2009.</span>
-
-  <span class="note"></span>.'
+  on Intelligent Robots and Systems (IROS)</em>, 3595&ndash;3600. 2009.</span>'
 censi05hough: '<span class="author">Andrea Censi, Luca Iocchi, and Giorgio Grisetti.</span>
 
   <span class="title">Scan matching in the {H}ough domain.</span>
 
   <span class="booktitle">In <em>Proceedings of the IEEE International Conference
   on Robotics and Automation (ICRA)</em>, 2739&ndash;2744. Barcelona, Spain, 2005.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2005-icra-hsm.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2006/hsm">url</a></span>, <span
@@ -63,8 +57,6 @@ censi06scan: '<span class="author">Andrea Censi.</span>
   <span class="booktitle">In <em>Proceedings of the IEEE International Conference
   on Robotics and Automation (ICRA)</em>, 2291&ndash;2296. Orlando, Florida, 2006.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2006-icra-gpm.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2006/gpm">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2006-icra-gpm-slides.pdf">slides</a></span>.'
@@ -75,8 +67,6 @@ censi07accurate: '<span class="author">Andrea Censi.</span>
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>, 3167&ndash;3172. Rome, Italy, April 2007.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2007-icra-icpcov.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2006/icpcov">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2007-icra-icpcov-slides.pdf">slides</a></span>.'
@@ -86,8 +76,6 @@ censi07achievable: '<span class="author">Andrea Censi.</span>
 
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>, 4170&ndash;4175. Rome, Italy, April 2007.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2007-icra-accuracy.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2006/accuracy">url</a></span>,
@@ -100,8 +88,6 @@ censi08calib: '<span class="author">Andrea Censi, Luca Marchionni, and Giuseppe 
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. Pasadena, CA, May 2008.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2008-icra-calibration.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2007/calib">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2008-icra-calibration-slides.pdf">slides</a></span>.'
@@ -112,8 +98,6 @@ censi08fts: '<span class="author">Andrea Censi and Gian&nbsp;Diego Tipaldi.</spa
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. Pasadena, CA, May 2008.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2008-icra-fts.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2007/fts">url</a></span>.'
 censi08plicp: '<span class="author">Andrea Censi.</span>
@@ -122,8 +106,6 @@ censi08plicp: '<span class="author">Andrea Censi.</span>
 
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. Pasadena, CA, May 2008.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2008-icra-plicp.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2007/plicp">url</a></span>, <span
@@ -136,8 +118,6 @@ censi08ppu: '<span class="author">Andrea Censi, Daniele Calisi, Alessandro&nbsp;
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. Pasadena, CA, May 2008.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2008-icra-ppu.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2007/ppu">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2008-icra-ppu-slides.pdf">slides</a></span>.'
@@ -149,8 +129,6 @@ censi09attitude: '<span class="author">Andrea Censi, Shuo Han, Sawyer&nbsp;B. Fu
   <span class="booktitle">In <em>Proceedings of the 48th IEEE Conference on Decision
   and Control</em>. 2009.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2009-cdc-bio-attitude.pdf">pdf</a></span>,
   <span class="slides"><a href="http://purl.org/censi/research/2009-cdc-bio-attitude-slides.pdf">slides</a></span>.'
 censi09consensus: '<span class="author">Andrea Censi and Richard&nbsp;M. Murray.</span>
@@ -159,8 +137,6 @@ censi09consensus: '<span class="author">Andrea Censi and Richard&nbsp;M. Murray.
 
   <span class="booktitle">In <em>Proceedings of the American Control Conference (ACC)</em>.
   2009.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2009-acc-consensus.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2008/consensus">url</a></span>,
@@ -173,8 +149,6 @@ censi09fractals: '<span class="author">Andrea Censi.</span>
   <span class="booktitle">In <em>Proceedings of the American Control Conference (ACC)</em>.
   2009.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2009-acc-fractals.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2008/fractals">url</a></span>,
   <span class="slides"><a href="http://purl.org/censi/research/2009-acc-fractals-slides.pdf">slides</a></span>.'
@@ -186,8 +160,6 @@ censi09hsm3d: '<span class="author">Andrea Censi and Stefano Carpin.</span>
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. 2009.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2009-icra-hsm3d.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2008/hsm3d">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2009-icra-hsm3d-slides.pdf">slides</a></span>.'
@@ -197,8 +169,6 @@ censi09posetracking: '<span class="author">Andrea Censi.</span>
 
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. 2009.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2009-icra-posetracking.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2008/posetracking">url</a></span>,
@@ -210,8 +180,6 @@ censi11bds: '<span class="author">Andrea Censi and Richard&nbsp;M. Murray.</span
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. May 2011.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2010-bootstrapping-bilinear-short.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2010/boot">url</a></span>, <span
   class="slides"><a href="http://purl.org/censi/research/2011-icra-bds-slides.pdf">slides</a></span>.'
@@ -221,8 +189,6 @@ censi11bgds: '<span class="author">Andrea Censi and Richard&nbsp;M. Murray.</spa
 
   <span class="booktitle">In <em>{IEEE/RSJ} International Conference on Intelligent
   Robots and Systems (IROS)</em>. Sep 2011.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2011-iros-bgds.pdf">pdf</a></span>,
   <span class="url"><a href="http://purl.org/censi/2011/bgds">url</a></span>.'
@@ -242,8 +208,6 @@ censi11semantics: '<span class="author">Andrea Censi and Richard&nbsp;M. Murray.
   <span class="booktitle">In <em>Joint IEEE International Conference on Development
   and Learning and Epigenetic Robotics</em>. Aug 2011.</span>
 
-  <span class="note"></span>.
-
   <span class="pdf"><a href="http://purl.org/censi/research/2011-icdl-invariance.pdf">pdf</a></span>.'
 censi12cameracalib_preprint: '<span class="author">Andrea Censi and Davide Scaramuzza.</span>
 
@@ -261,8 +225,6 @@ censi12diffeo: '<span class="author">Andrea Censi and Richard&nbsp;M. Murray.</s
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. Saint Paul, MN, 5 2012.</span>
 
-  <span class="note"></span>.
-
   <span class="url"><a href="http://purl.org/censi/2011/diffeo">url</a></span>.'
 censi12fault: '<span class="author">Andrea Censi, Magnus Hakansson, and Richard&nbsp;M.
   Murray.</span>
@@ -273,8 +235,6 @@ censi12fault: '<span class="author">Andrea Censi, Magnus Hakansson, and Richard&
   <span class="booktitle">In <em>Proceedings of the {IEEE} International Conference
   on Robotics and Automation ({ICRA})</em>. Saint Paul, MN, 5 2012.</span>
 
-  <span class="note"></span>.
-
   <span class="url"><a href="http://purl.org/censi/2011/fault">url</a></span>.'
 censi12joint_preprint: '<span class="author">Andrea Censi, Antonio Franchi, Luca Marchionni,
   and Giuseppe Oriolo.</span>
@@ -284,6 +244,7 @@ censi12joint_preprint: '<span class="author">Andrea Censi, Antonio Franchi, Luca
 
   Technical Report CaltechAUTHORS:20120805-115123559, California Institute of Technology,
   2012.
+
 
   <span class="url"><a href="http://purl.org/censi/2012/joint_calibration">url</a></span>.'
 censi12saccade_preprint: '<span class="author">Andrea Censi, Andrew&nbsp;D. Straw,
@@ -303,9 +264,7 @@ delapuente12dense: '<span class="author">Paloma de&nbsp;la Puente and Andrea Cen
   to scan eigenvariations.</span>
 
   <span class="booktitle">In <em>Spatial Cognition</em>. Kloster Seeon, Bavaria, Germany,
-  2012.</span>
-
-  <span class="note"></span>.'
+  2012.</span>'
 han10pose: '<span class="author">Shuo Han, Andrea Censi, Andrew&nbsp;D. Straw, and
   Richard&nbsp;M. Murray.</span>
 
@@ -313,8 +272,6 @@ han10pose: '<span class="author">Shuo Han, Andrea Censi, Andrew&nbsp;D. Straw, a
 
   <span class="booktitle">In <em>{IEEE/RSJ} International Conference on Intelligent
   Robots and Systems (IROS)</em>, 5679&ndash;5686. 2010.</span>
-
-  <span class="note"></span>.
 
   <span class="slides"><a href="http://purl.org/censi/research/2009-cdc-bio-attitude-slides.pdf">slides</a></span>.'
 scaramuzza11visodo: '<span class="author">Davide Scaramuzza, Andrea Censi, and Kostas
@@ -325,8 +282,6 @@ scaramuzza11visodo: '<span class="author">Davide Scaramuzza, Andrea Censi, and K
 
   <span class="booktitle">In <em>{IEEE/RSJ} International Conference on Intelligent
   Robots and Systems (IROS)</em>. Sep 2011.</span>
-
-  <span class="note"></span>.
 
   <span class="pdf"><a href="http://purl.org/censi/research/2011-iros-scaRansac.pdf">pdf</a></span>.'
 scrapper09: 'C.&nbsp;Scrapper, R.&nbsp;Madhavan, R.&nbsp;Lakaemper, A.&nbsp;Censi,
