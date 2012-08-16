@@ -1,38 +1,27 @@
 <?php
-// use Symfony\Component\ClassLoader\UniversalClassLoader;
-// require_once '/usr/share/php/Symfony/Component/ClassLoader/UniversalClassLoader.php';
-// $loader = new UniversalClassLoader();
-// $loader->register();
-// $loader->registerNamespaces(array(
-//     'Symfony' => '/usr/share/php/Symfony/',
-// ));
-use Symfony\Component\Yaml\Parser;
-
-require_once '/usr/share/php/Symfony/Component/Yaml/Parser.php';
-require_once '/usr/share/php/Symfony/Component/Yaml/Inline.php';
 
 // [pub_ref id="censi12ocra"] 
 function pub_ref( $atts ) { 
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
-
-    $file = '/home/andrea/scm/andreaweb/src-bib/extract/publications.yaml';
-    $yaml = new Parser();
-    $db = $yaml->parse(file_get_contents($file));
+    $file_html = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.html.yaml.json';
+    $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.bib.json';
+    $db_html = json_decode(file_get_contents($file_html), TRUE);
+    $db_bib = json_decode(file_get_contents($file_bib), TRUE);
     
-    if(array_key_exists($id,$db)) {
-        $entry = $db[$id];
-        $ref = $entry['html_short'];
-        return "<p class='pub-ref-short'>{$ref}</p>";
+    if(array_key_exists($id,$db_html)) {
+        $entry = $db_html[$id];
+        #$ref = $entry['html_short'];
+        $bib = $db_bib[$id];
+        $js = "javascript:$(\"#{$id}\").toggle();";
+        $bibtex = "<a class='pub-ref-bibtex-link' onclick='{$js}' href='javascript:void(0)'>bibtex</a><pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>{$bib}</pre>";
+        return "<p class='pub-ref-short'>{$entry}{$bibtex}</p>";
     } else {
-        $known = implode(array_keys($db),', ');
+        $known = implode(array_keys($db_html),', ');
         return "<p class='pub-ref-error' style='color: red;'> Publication id {$id} does not exist (known: {$known})</p>";     
     }
 } 
 
 add_shortcode( 'pub_ref', 'pub_ref' );
-
-
-
 
 
 function print_file($file) {
