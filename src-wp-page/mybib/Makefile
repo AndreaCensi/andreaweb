@@ -1,19 +1,20 @@
 
-all: all.yaml all.bib.json all.html.yaml
+all: all.extra.json 
+
+# all.pybtex.yaml all.bib.json all.html.json
 
 src=../../src-bib/commons/bib/src-andrea
 
 
-all.bib:  $(src)/web/regular.bib $(src)/web/preprints.bib $(src)/web/future.bib
+all.bib: local.bib $(src)/web/regular.bib $(src)/web/preprints.bib $(src)/web/future.bib
 	cat $^ > $@
 
+# %.pybtex.yaml: %.bib
+# 	pybtex-convert $< $@
 
-%.yaml: %.bib
-	pybtex-convert $< $@
+# %.bib.json: %.bib
+# 	python create_json.py $< $@
 
-%.bib.json: %.bib
-	python create_yaml.py $< $@
-
-%.html.yaml: %.bib
-	python format.py $< $@
+%.extra.json: %.bib
+	python bibtex2extrajson.py $< $@
 

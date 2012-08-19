@@ -16,6 +16,9 @@ writer = bibtexo.Writer()
 entries = {}
 for k,v in  bib_data.entries.items():
     bdata = BibliographyData()
+    if 'desc' in v.fields:
+        print('removing desc field of %r' % k)
+        del v.fields['desc']
     bdata.entries[k] =v
     s = StringIO()
     writer.write_stream(bdata, s)
