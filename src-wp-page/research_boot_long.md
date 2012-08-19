@@ -8,9 +8,10 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-[pub_ref id='censi12phd1' note='See chapter XXX']
 
 [pub_ref id='censi12diffeo']
 
 [pub_ref id='censi12diffeoplan']
 
+
+See also Chapter XXX of [my dissertation][page:dissertation].

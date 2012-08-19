@@ -12,6 +12,7 @@ $$
 $$
 thus no hidden states.
 
-[pub_ref id='censi12phd1' note='See chapter XXX']
 [pub_ref id='censi11bds']
+
+See also Chapter XXX of [my dissertation][page:dissertation].
 
