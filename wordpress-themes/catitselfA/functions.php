@@ -3,25 +3,60 @@
 // [pub_ref id="censi12ocra"] 
 function pub_ref( $atts ) { 
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
-    $file_html = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.html.yaml.json';
-    $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.bib.json';
-    $db_html = json_decode(file_get_contents($file_html), TRUE);
-    $db_bib = json_decode(file_get_contents($file_bib), TRUE);
-    
-    if(array_key_exists($id,$db_html)) {
-        $entry = $db_html[$id];
-        #$ref = $entry['html_short'];
-        $bib = $db_bib[$id];
+    $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.extra.json';
+    $db_bib = json_decode(file_get_contents($file_bib), TRUE);    
+    if(array_key_exists($id, $db_bib)) {
+        $entry = $db_bib[$id];
+        $bibtex = $entry['bibtex'];
+        $html_short = $entry['html_short'];
         $js = "javascript:$(\"#{$id}\").toggle();";
-        $bibtex = "<a class='pub-ref-bibtex-link' onclick='{$js}' href='javascript:void(0)'>bibtex</a><pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>{$bib}</pre>";
-        return "<p class='pub-ref-short'>{$entry}{$bibtex}</p>";
+        $bib = "<a class='pub-ref-bibtex-link' onclick='{$js}' href='javascript:void(0)'>bibtex</a><pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>{$bibtex}</pre>";
+        return "<p class='pub-ref-short'>{$html_short}{$bib}</p>";
     } else {
-        $known = implode(array_keys($db_html),', ');
+        $known = implode(array_keys($db_bib),', ');
         return "<p class='pub-ref-error' style='color: red;'> Publication id {$id} does not exist (known: {$known})</p>";     
     }
 } 
 
 add_shortcode( 'pub_ref', 'pub_ref' );
+
+
+
+function pub_ref_desc( $atts ) { 
+    extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
+    $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.extra.json';
+    $db_bib = json_decode(file_get_contents($file_bib), TRUE);    
+    if(array_key_exists($id, $db_bib)) {
+        $entry = $db_bib[$id];
+        $bibtex = $entry['bibtex'];
+        $html_short = $entry['html_short'];
+
+        $fields = $entry['fields'];
+        if (array_key_exists("desc", $fields)) {
+            $desc_md = $fields['desc'];
+            $d = markdown(do_shortcode($desc_md)); 
+            // $d= $d."ok";
+            // $d = "<pre>{$desc_md}</pre>";
+        } else {
+            $d = '';
+        }
+        if (array_key_exists("descicon", $fields)) {
+            $src = $fields['descicon'];
+            $icon = "<img class='icon' src='{$src}'/>";
+        } else {
+            $icon = "";
+        }
+        $desc = "<div class='desc' markdown='0'>{$icon}{$d}</div>";
+        $short = pub_ref(array('id'=>$id));
+        $s = "<div class='pub-ref-desc'>{$short}{$desc}</div>";
+        return $s;
+    } else {
+        $known = implode(array_keys($db_bib),', ');
+        return "<p class='pub-ref-desc-error' style='color: red;'> Publication id {$id} does not exist (known: {$known})</p>";     
+    }
+} 
+
+add_shortcode( 'pub_ref_desc', 'pub_ref_desc' );
 
 
 function print_file($file) {
