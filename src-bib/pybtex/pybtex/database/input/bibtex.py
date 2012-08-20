@@ -294,6 +294,31 @@ class BibTeXEntryIterator(Scanner):
             elif part.pattern is self.RBRACE and level == 0:
                 raise PybtexSyntaxError('unbalanced braces', self)
 
+def deindent(s):
+
+    lines = s.split('\n')
+    # skip empty lines at beginning and end:
+    while lines and not lines[0].strip():
+        lines.pop(0)
+    # skip empty lines at beginning and end:
+    while lines and not lines[-1].strip():
+        lines.pop(-1)
+
+    if not lines: 
+        return ''
+
+    l0 = lines[0]
+    nwhite = len(l0) - len(l0.lstrip())
+    def discard_spaces(l):
+        for i in range(nwhite):
+            if not l:
+                break
+            if l[0] == ' ':
+                l = l[1:]
+        return l
+    better = map(discard_spaces, lines)
+    res = '\n'.join(better)
+    return res
 
 class Parser(BaseParser):
     name = 'bibtex'
@@ -323,7 +348,13 @@ class Parser(BaseParser):
             self.unnamed_entry_counter += 1
 
         for field_name, field_value_list in fields:
-            field_value = textutils.normalize_whitespace(self.flatten_value_list(field_value_list))
+            # AC
+            value_list = self.flatten_value_list(field_value_list)
+            if field_name not in ['desc']:
+                field_value = textutils.normalize_whitespace(value_list)
+            else: 
+                field_value = deindent(value_list)
+
             if field_name in self.person_fields:
                 for name in split_name_list(field_value):
                     entry.add_person(Person(name), field_name)
