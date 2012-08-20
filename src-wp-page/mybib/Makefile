@@ -18,3 +18,6 @@ all.bib: local.bib $(src)/web/regular.bib $(src)/web/preprints.bib $(src)/web/fu
 %.extra.json: %.bib
 	python bibtex2extrajson.py $< $@
 
+
+syncjson:
+	rsync all.extra.json andrea@web.censi.org:scm/andreaweb/src-wp-page/mybib/

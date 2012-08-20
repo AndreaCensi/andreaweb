@@ -63,7 +63,7 @@ def sub_names(s):
     return s
 
 # Fields that should not be part of bibtex
-special_fields = ['desc']
+special_fields = ['desc', 'descicon']
 
 def get_bibtex_string(id_entry, entry):
     from pybtex.database.output import bibtex as bibtexo
@@ -72,7 +72,7 @@ def get_bibtex_string(id_entry, entry):
     entry = copy.deepcopy(entry)
     for field in special_fields:
         if field in entry.fields:
-            print('removing %r field of %r' % (field, id_entry))
+            #print('removing %r field of %r' % (field, id_entry))
             del entry.fields[field]
     bdata.entries[id_entry] = entry
     s = StringIO()
@@ -119,6 +119,8 @@ entries = {}
 
 order = 0
 for id_entry, entry in  bib_data.entries.items(): 
+    # if 'desc' in entry.fields:
+    #     print entry.fields['desc'].__repr__()
     html_short = get_html_short(id_entry, entry)
     bibtex = get_bibtex_string(id_entry, entry)
     fields = get_entry_fields(id_entry, entry)
