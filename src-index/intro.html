@@ -1,12 +1,19 @@
 <div id="picture">
 
     <div class='figure' id='portrait'>
-        
+        <p class='graphics'>
+            <img id='andrea_censi_portrait2'
+            style='height: 200px; float: left; border: solid 1px black; margin: 1em;'
+             src="media/andrea_defense-small-crop.jpg"  
+             alt=''/> 
+        </p>
+        <!--
         <p class='graphics'>
             <img id='andrea_censi_portrait'
              src="media/portrait2.jpg"  
              alt='Me, staring'/> 
         </p>
+    -->
 
         <!-- 
             You *really* have nothing to do today, do you? 
@@ -18,12 +25,12 @@
             count : 0
         };
         $(document).ready(function(){
-            $("#andrea_censi_portrait").hover(function() {
+            $("#andrea_censi_portrait2").hover(function() {
                 $.mynamespace.count = $.mynamespace.count + 1;
-                $(this).attr("src","media/portrait1.jpg");
-                if ($.mynamespace.count > 0) {
-                   $('#other_picture').show();
-                }   
+                //$(this).attr("src","media/portrait1.jpg");
+                // if ($.mynamespace.count > 0) {
+                //    $('#other_picture').show();
+                // }   
                 if ($.mynamespace.count > 5) {
                     $('#other_picture2').show();
                 }
@@ -37,13 +44,14 @@
                     $('#more').show();
                 }
             }, function() {
-                $(this).attr("src","media/portrait2.jpg");
+                //$(this).attr("src","media/portrait2.jpg");
             });
         });
         </script>
     
-        <p class='caption'> 
-        Fig. 1. The individual under investigation. <br/>
+        <p class='caption' style=' padding: 1em; padding-top: 150px; word-break:hyphenate;'> 
+        Fig.&thinsp;1. The individual under inve&shy;sti&shy;ga&shy;tion, pic&shy;tu&shy;red he&shy;re in 
+        his na&shy;tu&shy;ral ha&shy;bi&shy;tat, but with a very unusual attire. <br/>
         <span id="other_picture" style="display:none">
             See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
         </span>
@@ -75,18 +83,18 @@
 
     </div>
     
-    <div class='figure' id='stats'>
+    <div class='figure' style='clear: left;' id='stats'>
 
         <p class='graphics'>
             <img id='stats_count' src="http://web.censi.org/~andrea/busyplot/count.png"  alt='Count'/> 
             <img id='stats_age' src="http://web.censi.org/~andrea/busyplot/age.png"    alt='Age'/> 
         </p>
          
-    <p class='caption'> 
-        Fig. 2. Stress and procrastination levels in the last 7 days.
-        Stress is measured by the number of flagged messages in the email inbox;
-        procrastination is measured by the median age of those messages
-        (<a href="https://github.com/AndreaCensi/busymail">materials and methods</a>, <a href="http://web.censi.org/~andrea/busyplot/plots.html">complete historical plots</a>).
+    <p class='caption' style='word-break:hyphenate;'> 
+        Fig.&thinsp;2. Stress and procrastination levels in the last 7 days.
+        Stress is mea&shy;su&shy;red by the num&shy;ber of flag&shy;ged mes&shy;sa&shy;ges in the email in&shy;box;
+        pro&shy;cra&shy;sti&shy;na&shy;tion is mea&shy;su&shy;red by the me&shy;dian age of tho&shy;se mes&shy;sa&shy;ges
+        (<a href="https://github.com/AndreaCensi/busymail">ma&shy;te&shy;rials and me&shy;thods</a>, <a href="http://web.censi.org/~andrea/busyplot/plots.html">com&shy;ple&shy;te histo&shy;ri&shy;cal plots</a>).
         <img style='height: 11pt' id='updated' src="http://web.censi.org/~andrea/busyplot/updated-black.png" alt='Update'/>
     </p>
     </div>
@@ -134,7 +142,7 @@
 
 <div id='links'>
     <ul id='mainlinks'> 
-        <li><a href="http://purl.org/censi/cv">updated <b>CV</b> (Dec. 2011)</a> </li>
+        <li><a href="http://purl.org/censi/cv">updated <b>CV</b> (Sep. 2012)</a> </li>
         <li class='highlight'> <a href="research/">Research interests</a></li>
         <li class='highlight'> <a href="publications/">Publications</a> </li>
         <li><a href="software">Software</a> 
@@ -163,8 +171,11 @@
         <dd> (626) 872-3674 <br/>= (626) U-R-CENSI </dd>
 
         <dt>office</dt> 
-        <dd>Annenberg 338 (x1768)</dd>
-        
+        <dd>Annenberg 320 <br/>
+            <p style='color: red;'>Note: I am currently in Zurich, <br/> visiting
+            <a href="http://ailab.ifi.uzh.ch">the AI Lab</a>, <br/>
+             Oct. 15 through Jan. 2013.
+            </p> </dd>
         
         <dt>address</dt> 
         <dd>1200 E California Blvd,<br/> MC 107-81, <br/>91125 Pasadena, CA.</dd>
@@ -172,6 +183,6 @@
     </p>
 
 </div>
-
+<!--
 <p id='notice'> (Note: this website just migrated to a different host. Pardon
-    temporarily dead links.) </p>
+temporarily dead links.) </p> -->
