@@ -8,11 +8,16 @@ $$
 where $f:X\rightarrow Y$ is a nonlinear function, $h$ and $g$ are elements sampled from two [groups][groups] $G$ and $H$, and "$\cdot$" represents a [group action][action].
 
 This structure appears in many problems:
+
 - In *sensing* problems, $x$ is the hidden state, $f$ groups together all the  nonlinearities of the image formation problem, $H$ are *nuisances* acting on the observations, and $G$ can represent either *control opportunities* or nuisances acting on the state. 
-- In learning problems such as [bootstrapping][page:bootstrapping], $x$ and $y$ are dynamical systems, the group actions are invertible "representation nuisances", and $f$ groups together noise and other noninvertible nuisances.
+
+- In learning problems such as *[bootstrapping][page:bootstrapping]*, $x$ and $y$ are dynamical systems, the group actions are invertible "representation nuisances", and $f$ groups together noise and other noninvertible nuisances.
 
 
 #### Questions that we investigate
+
+Once you have this group structure, there are several research
+questions that can be approached in the general case.
 
 - [**Modeling** sensing operations](#research_groups_modeling)
 - [**Features** operators](#research_groups_features)
@@ -33,7 +38,6 @@ as part of the *MSEE* program.
 [external_page page='research_groups_features']
 
 [external_page page='research_groups_dossiers']
-
 
 
 
