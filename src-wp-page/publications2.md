@@ -1,6 +1,6 @@
 #### Dissertation
 
-[pub_ref_desc id='censi12phd1']
+[pub_ref_desc id='censi12phd']
 
 #### Preprints / to appear 
 

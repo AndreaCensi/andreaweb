@@ -1,22 +1,30 @@
-
-#### Preprints / to appear 
-
+#### Preprints
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
 </p>
 
+[pub_ref_desc id='carlone12angular_preprint']
 
-[pub_ref id='censi12saccade_preprint']
+[pub_ref_desc id='censi12dptr1_preprint']
+
+
+#### Dissertation
+
+[pub_ref_desc id='censi12phd']
+
+#### Journal papers
+
+
+[pub_ref_desc id='censi12saccade_preprint']
 [pub_ref id='censi12cameracalib_preprint']
 [pub_ref id='censi12joint_preprint']
+[pub_ref id='calisi12openrdk']
+[pub_ref id='censi11kf']
 
 
-#### Refereed papers 
-
+#### Conference papers 
 
 [pub_ref id='delapuente12dense']
-[pub_ref id='calisi12openrdk']
-[pub_ref id='censi12diffeo']
- 
+[pub_ref id='censi12diffeo'] 
 
 <div style='float:right; color: red; padding: 5px'> (best student <br/> paper finalist)</div>
 [pub_ref id='censi12fault']
@@ -27,7 +35,7 @@
 
 <div style='float:right; color: red; padding: 5px'> (best conference <br/> paper finalist) </div>
 [pub_ref id='censi11bds']
-[pub_ref id='censi11kf']
+
   
 [pub_ref id='han10pose']
 [pub_ref id='censi09attitude']

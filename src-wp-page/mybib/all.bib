@@ -8,12 +8,26 @@
   desc = {
     How do you think this might work?
   }
-}
-@string{ use_icons = 1 }
+}@string{ use_icons = 1 }
 @string{ bib_postscript.icon = "my_own_ps.gif" }
 
+@techreport{censi12phd,
+  author = {Andrea Censi},
+  title = {Bootstrapping Vehicles: A Formal Approach to Unsupervised 
+    Sensorimotor Learning Based on Invariance},
+  institution = {California Institute of Technology},
+  url = {http://purl.org/censi/2012/phd}, 
+  pdf = {http://purl.org/censi/research/preprints/bootstrapping_vehicles-1.3-a4.pdf},
+  year = {2012},
+  desc = { 
+  Could a "brain in a jar" be able to control an unknown robotic body to which it is connected, and use it to achieve useful tasks, without any prior assumptions on the body's sensors and actuators? In this work, the problem of "bootstrapping" is studied in the context of the Vehicles universe, which is an idealization of simple mobile robots, after the work of Braitenberg. The first thread of results consists in analyzing such simple sensorimotor cascades and proposing models of varying complexity that can be learned from data. The second thread regards how to properly formalize the notions of "absence of assumptions", as a particular form of invariance that the bootstrapping agent must satisfy, and proposes some invariance-based design techniques.
 
-
+  This is version 1.3 of my dissertation -- after turning it in,
+  I am still working to integrate the newer material that I had not the time
+  to add. So any comments/suggestions are welcome!
+  },
+  descicon = {http://purl.org/censi/web/media/paper-icons/bv_icon.png}
+}
 
 @inproceedings{delapuente12dense,
   author = {Paloma de la Puente and Andrea Censi},
@@ -22,6 +36,8 @@
   booktitle = {Spatial Cognition},
   address = {Kloster Seeon, Bavaria, Germany},
   year = {2012},
+  pdf = {http://authors.library.caltech.edu/28143/1/report.pdf},
+  slides = {http://purl.org/censi/research/2012-structprior-slides.pdf},
   desc = { 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -60,6 +76,8 @@
   month = {5},
   timestamp = {2011.09.13},
   url = {http://purl.org/censi/2011/diffeo},
+  pdf = {http://purl.org/censi/research/2012-diffeo.pdf},
+  slides = {http://purl.org/censi/research/2012-diffeo-slides.pdf},
   desc = { 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -83,7 +101,8 @@
   address = {Saint Paul, MN},
   month = {5},
   timestamp = {2011.09.16},
-  url = {http://purl.org/censi/2011/fault},
+    pdf = {http://purl.org/censi/research/2012-fault.pdf},
+  slides = {http://purl.org/censi/research/2012-fault-slides.pdf},
     desc = { 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -389,7 +408,7 @@ desc = {
   pdf = {http://purl.org/censi/research/2009-icra-hsm3d.pdf},
   slides = {http://purl.org/censi/research/2009-icra-hsm3d-slides.pdf},
   abstract = {
-		This paper presents HSM3D, an algorithm for global rigid
+		 This paper presents HSM3D, an algorithm for global rigid
 		6DOF alignment of 3D point clouds. The algorithm works by
 		projecting the two input sets into the Radon/Hough domain,
 		whose properties allow to decompose the 6DOF search into a
@@ -795,8 +814,55 @@ in the analyzed cases the method still provides a good estimate of the
   },
   descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
 }
+@ARTICLE{carlone12angular_preprint,
+   author = {Carlone, Luca and Censi, Andrea},
+    title = "{From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1211.3063},
+ primaryClass = "cs.RO",
+ keywords = {Computer Science - Robotics, Mathematics - Optimization and Control, 68T40, I.2.9, G.1.6, G.3, G.4},
+     year = 2012,
+    month = nov,
+  pdf = {http://arxiv.org/pdf/1211.3063v1},
+  desc = { 
+    This paper has been more than one year in the making!
+    Pose optimization is what is used in SLAM to optimize the map
+    after correspondences have been established. 
+    The variables are poses (positions and orientations). The
+    problem is hard because orientations live on a manifold
+    with nontrivial topology, which makes the problem
+    nonlinear, nonconvex, and with multiple minima.
+    Luca and I try to solve the subproblem of orientation estimation. 
+    We find a way to convert
+    the problem to an unconstrained optimization problem on integers.
+    This makes it possible to solve the problem globally 
+    and return all likely guesses for the orientation.
+  },
+  descicon = {http://purl.org/censi/web/media/paper-icons/carlone12angular_preprint.png}
+}
 
 
+
+@techreport{censi12dptr1_preprint,
+  author = {Andrea Censi and Adam Nilsson
+             and Richard M. Murray
+             },
+  title = {Motion planning in observations space with learned diffeomorphism models.},
+  institution = {California Institute of Technology},
+  url = {http://resolver.caltech.edu/CaltechCDSTR:2012.004}, 
+  pdf = {http://authors.library.caltech.edu/34529/1/dptr1b_final.pdf},
+  year = {2012},
+  number={CaltechCDSTR:2012.004},
+  kind = {preprint},
+  abstract = { We consider the problem of planning motions in observations space, based on learned models of the dynamics that associate to each action a diffeomorphism of the obser- vations domain. For an arbitrary set of diffeomorphisms, this problem must be formulated as a generic search problem. We adapt established algorithms of the graph search family. In this scenario, node expansion is very costly, as each node in the graph is associated to an uncertain diffeomorphism and corresponding predicted observations. We describe several improvements that ameliorate performance: the introduction of better image similarities to use as heuristics; a method to reduce the number of expanded nodes by preliminarily identifying redundant plans; and a method to pre-compute composite actions that make the search efficient in all directions.},
+  desc = { 
+    Using learned diffeomorphism models of the dynamics of cameras and range-finders,
+    we formulate motion planning as a planning problem in the observations space.
+    Nodes/states are (uncertain) images; actions/edges are (uncertain) diffeomorphisms.
+  },
+  descicon = {http://purl.org/censi/web/media/paper-icons/censi12dptr1_preprint.png}
+}
 
 @techreport{censi12saccade_preprint,
   author = {Andrea Censi and Andrew D. Straw 
@@ -806,6 +872,7 @@ in the analyzed cases the method still provides a good estimate of the
 for saccade initiation in freely flying {\em Drosophila}},
   institution = {California Institute of Technology},
   url = {http://purl.org/censi/2011/saccade}, 
+  pdf = {http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438},
   slides = {http://purl.org/censi/research/preprints/saccades/20120104-sicb.pdf},
   year = {2012},
   number={CaltechAUTHORS:20120805-120309438},
@@ -835,14 +902,16 @@ for saccade initiation in freely flying {\em Drosophila}},
   be generalized for use in other systems and employed as a tool for classifying
   effects into sensory, decision, and motor categories when used to analyze data
   from genetic behavioral screens.},
+  note = {(In the revision process for PLOS Computational Biology)},
   desc = { 
-    Fruit flies do pretty much what they please.
-
-    Second line.\\
-
-    Third.
+    What goes on in a fruit fly's head while it flies? 
+    
+    In this paper we try to identify the dependence of the decision processes
+    on the external stimulus experienced by the fly. Remarkably, we are able to 
+    say a great deal about internal sensory processing by just observing the 
+    external behavior.
   },
-  descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
+  descicon = {http://purl.org/censi/web/media/paper-icons/censi12saccade_preprint.png}
 
 }
 
@@ -852,10 +921,12 @@ for saccade initiation in freely flying {\em Drosophila}},
            from non-metric similarities},
   kind = {preprint},
   url = {http://purl.org/censi/2012/camera_calibration}, 
+  pdf = {http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf},
   year = {2012},
   institution = {California Institute of Technology},
   number = {CaltechAUTHORS:20120805-103228127},
   kind = {preprint},
+  note = {(To appear in IEEE Transactions on Pattern Analysis and Machine Intelligence)},
   desc = { 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -867,7 +938,7 @@ for saccade initiation in freely flying {\em Drosophila}},
   descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
 }
 
-@techreport{censi12joint_preprint,
+@techreport{censi12joint_preprint_old,
   author = {Andrea Censi and Antonio Franchi 
             and Luca Marchionni and Giuseppe Oriolo},
   title = {Simultaneous calibration of odometry 
@@ -888,7 +959,28 @@ for saccade initiation in freely flying {\em Drosophila}},
   },
   descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
 }
-@techreport{censi12phd1,
+
+
+@article{censi12joint_preprint,
+  author = {Andrea Censi and Antonio Franchi 
+            and Luca Marchionni and Giuseppe Oriolo},
+  title = {Simultaneous calibration of odometry 
+           and sensor parameters for mobile robots},
+  note = {(to appear)},
+  kind = {preprint},
+  journal = {IEEE Transactions on Robotics},
+  url = {http://purl.org/censi/2012/joint_calibration},
+  year = {2013},
+  desc = { 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  },
+  descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
+}@techreport{censi12phd1,
   author = {Andrea Censi},
   title = {Bootstrapping Vehicles: A Formal Approach 
   to Unsupervised Sensorimotor Learning Based on Invariance},
@@ -905,23 +997,7 @@ for saccade initiation in freely flying {\em Drosophila}},
   },
   descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
 }
-
-@techreport{censi12diffeoplan,
-  author = {Andrea Censi and Adam Nilsson and Richard Murray} ,
-  title = {Planning with diffeomorphisms},
-  institution = {California Institute of Technology},
-  year = {2012},
-  number={CaltechAUTHORS:20120805-120309438},
-  desc = { 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur.
-  },
-  descicon = {http://purl.org/censi/web/media/paper-icons/lorem.jpg}
-}
-
+ 
 
 @techreport{carlone12linear_preprint,
   author = {Luca Carlone and Andrea Censi},
