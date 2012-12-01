@@ -49,7 +49,7 @@
    "url": "http://purl.org/censi/2007/calib", 
    "booktitle": "Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})", 
    "year": "2008", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/calibration.jpg", 
    "month": "May", 
    "slides": "http://purl.org/censi/research/2008-icra-calibration-slides.pdf", 
    "video": "http://purl.org/censi/research/2008-icra-calibration-video.mpg", 
@@ -57,7 +57,7 @@
    "pdf": "http://purl.org/censi/research/2008-icra-calibration.pdf", 
    "type": "inproceedings", 
    "abstract": "For a differential-drive mobile robot equipped with an on-board range sensor, there are six parameters to calibrate: three for the odometry (radii and distance between the wheels), and three for the pose of the sensor with respect to the robot frame. This paper describes a method for calibrating all six parameters at the same time, without the need for external sensors or devices. Moreover, it is not necessary to drive the robot along particular trajectories. The available data are the measures of the angular velocities of the wheels and the range sensor readings. The maximum-likelihood calibration solution is found in a closed form.", 
-   "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+   "desc": "Please see [the journal version][j].\n\n[j]: http://purl.org/censi/2012/joint_calibration"
   }, 
   "html_short": "<span class=\"author\">A.C., <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous maximum-likelihood calibration of robot and sensor parameters.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. Pasadena, CA, May 2008.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2008-icra-calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ROBOT.2008.4543516\">doi</a></span><span class=\"video\"><a href=\"http://purl.org/censi/research/2008-icra-calibration-video.mpg\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2007/calib\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2008-icra-calibration-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@inproceedings{censi08calib,\n    author = \"Censi, Andrea and Marchionni, Luca and Oriolo, Giuseppe\",\n    doi = \"10.1109/ROBOT.2008.4543516\",\n    title = \"Simultaneous maximum-likelihood calibration of robot and sensor parameters\",\n    url = \"http://purl.org/censi/2007/calib\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2008\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2008-icra-calibration-slides.pdf\",\n    video = \"http://purl.org/censi/research/2008-icra-calibration-video.mpg\",\n    address = \"Pasadena, CA\",\n    pdf = \"http://purl.org/censi/research/2008-icra-calibration.pdf\",\n    abstract = \"For a differential-drive mobile robot equipped with an on-board range sensor, there are six parameters to calibrate: three for the odometry (radii and distance between the wheels), and three for the pose of the sensor with respect to the robot frame. This paper describes a method for calibrating all six parameters at the same time, without the need for external sensors or devices. Moreover, it is not necessary to drive the robot along particular trajectories. The available data are the measures of the angular velocities of the wheels and the range sensor readings. The maximum-likelihood calibration solution is found in a closed form.\"\n}\n\n", 
@@ -139,7 +139,7 @@
    "type": "inproceedings", 
    "booktitle": "Proceedings of the {IEEE/RSJ} International Conference on Intelligent Robots and Systems (IROS)", 
    "year": "2009", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/hsm3d.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/carpin09hsm3d.png", 
    "pages": "3595-3600", 
    "desc": "Adding color to [HSM3D].\n\n[HSM3D]: http://purl.org/censi/2008/hsm3d"
   }, 
@@ -235,7 +235,7 @@
  "BaCa04": {
   "fields": {
    "kind": "unref", 
-   "type": "misc", 
+   "type": "inproceedings", 
    "author": [
     {
      "last": "Bahadori", 
@@ -267,14 +267,14 @@
     }
    ], 
    "title": "Intelligent Systems for Search and Rescue", 
-   "howpublished": "Proc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to real world applications'' (IROS), Sendai, Japan", 
    "pdf": "http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf", 
+   "booktitle": "Proc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to real world applications'' (IROS), Sendai, Japan", 
    "year": "2004", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/BaCa04.png", 
    "desc": "In my first lab, we used to do rescue robotics. Those were the days..."
   }, 
-  "html_short": "S. Bahadori, D. Calisi, A. Censi, A. Farinelli, G. Grisetti, L. Iocchi, and D. Nardi.\nIntelligent systems for search and rescue.\nProc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to real world applications'' (IROS), Sendai, Japan, 2004.", 
-  "bibtex": "@misc{BaCa04,\n    author = \"Bahadori, S. and Calisi, D. and Censi, A. and Farinelli, A. and Grisetti, G. and Iocchi, L. and Nardi, D.\",\n    kind = \"unref\",\n    title = \"Intelligent Systems for Search and Rescue\",\n    year = \"2004\",\n    howpublished = \"Proc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to real world applications'' (IROS), Sendai, Japan\",\n    pdf = \"http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">S. Bahadori, D. Calisi, A. Censi, A. Farinelli, G. Grisetti, L. Iocchi, and D. Nardi.</span>\n<span class=\"title\">Intelligent systems for search and rescue.</span>\n<span class=\"booktitle\">In <em>Proc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to real world applications'' (IROS), Sendai, Japan</em>. 2004.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
+  "bibtex": "@inproceedings{BaCa04,\n    author = \"Bahadori, S. and Calisi, D. and Censi, A. and Farinelli, A. and Grisetti, G. and Iocchi, L. and Nardi, D.\",\n    kind = \"unref\",\n    title = \"Intelligent Systems for Search and Rescue\",\n    booktitle = \"Proc. of IROS Workshop ``Urban Search and Rescue: from RoboCup to real world applications'' (IROS), Sendai, Japan\",\n    year = \"2004\",\n    pdf = \"http://www.dis.uniroma1.it/~calisi/papers/iros04rescue.pdf\"\n}\n\n", 
   "order": 29
  }, 
  "calisi08openrdk": {
@@ -326,7 +326,7 @@
    "url": "http://purl.org/censi/2006/gpm", 
    "booktitle": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)", 
    "year": "2006", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/gpm.jpg", 
    "slides": "http://purl.org/censi/research/2006-icra-gpm-slides.pdf", 
    "address": "Orlando, Florida", 
    "pdf": "http://purl.org/censi/research/2006-icra-gpm.pdf", 
@@ -401,12 +401,12 @@
    "title": "Kalman filtering with intermittent observations: convergence for semi-Markov chains and an intrinsic performance measure", 
    "journal": "IEEE Transactions on Automatic Control", 
    "issn": "0018-9286", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/censi11kf.png", 
    "month": "February", 
    "year": "2011", 
    "pdf": "http://purl.org/censi/research/2011-tac-kf-geometry.pdf", 
    "type": "article", 
-   "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur."
+   "desc": "This paper considers the problem\nof linear filtering over unreliable channels.\nPrevious research by Sinopoli et al. has\nshown that there is a threshold on the observations\narrival probability that distinguishes between\na \"stable\" and an \"unstable\" behavior. This paper \nshows that those conclusions are misleading and\nonly depend on a particular choice of the loss function.\nIn fact, the probability distribution of the filter \nstate exists for each nonzero arrival probability."
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Kalman filtering with intermittent observations: convergence for semi-markov chains and an intrinsic performance measure.</span>\n<em>IEEE Transactions on Automatic Control</em>, February 2011.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2011-tac-kf-geometry.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TAC.2010.2097350\">doi</a></span></span>", 
   "bibtex": "@article{censi11kf,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/TAC.2010.2097350\",\n    title = \"Kalman filtering with intermittent observations: convergence for semi-Markov chains and an intrinsic performance measure\",\n    journal = \"IEEE Transactions on Automatic Control\",\n    issn = \"0018-9286\",\n    month = \"February\",\n    year = \"2011\",\n    pdf = \"http://purl.org/censi/research/2011-tac-kf-geometry.pdf\"\n}\n\n", 
@@ -430,13 +430,13 @@
    "url": "http://purl.org/censi/2007/fts", 
    "booktitle": "Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})", 
    "year": "2008", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/ftf.jpg", 
    "month": "May", 
    "address": "Pasadena, CA", 
    "pdf": "http://purl.org/censi/research/2008-icra-fts.pdf", 
    "type": "inproceedings", 
    "abstract": "We present a new algorithm for solving the global localization problem called Frozen-Time Smoother (FTS). Time is `frozen', in the sense that the belief always refers to the same time instant, instead of following a moving target, like Monte Carlo Localization does. This algorithm works in the case in which global localization is formulated as a smoothing problem, and a precise estimate of the incremental motion of the robot is usually available. These assumptions correspond to the case when global localization is used to solve the loop closing problem in SLAM. We compare FTS to two Monte Carlo methods designed with the same assumptions. The experiments suggest that a naive implementation of the FTS is more efficient than an extremely optimized equivalent Monte Carlo solution. Moreover, the FTS has an intrinsic laziness: it does not need frequent updates (scans can be integrated once every many meters) and it can process data in arbitrary order. The source code and datasets are available for download.", 
-   "desc": "This was my Master's degree final thesis."
+   "desc": "Global localization without the worries and anxiety of filtering."
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='http://www.informatik.uni-freiburg.de/~tipaldi'>Gian Diego Tipaldi</a>.</span>\n<span class=\"title\">Lazy localization using the Frozen-Time Smoother.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. Pasadena, CA, May 2008.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2008-icra-fts.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ROBOT.2008.4543631\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2007/fts\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@inproceedings{censi08fts,\n    author = \"Censi, Andrea and Tipaldi, Gian Diego\",\n    doi = \"10.1109/ROBOT.2008.4543631\",\n    title = \"Lazy Localization using the {F}rozen-{T}ime {S}moother\",\n    url = \"http://purl.org/censi/2007/fts\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2008\",\n    month = \"May\",\n    address = \"Pasadena, CA\",\n    pdf = \"http://purl.org/censi/research/2008-icra-fts.pdf\",\n    abstract = \"We present a new algorithm for solving the global localization problem called Frozen-Time Smoother (FTS). Time is `frozen', in the sense that the belief always refers to the same time instant, instead of following a moving target, like Monte Carlo Localization does. This algorithm works in the case in which global localization is formulated as a smoothing problem, and a precise estimate of the incremental motion of the robot is usually available. These assumptions correspond to the case when global localization is used to solve the loop closing problem in SLAM. We compare FTS to two Monte Carlo methods designed with the same assumptions. The experiments suggest that a naive implementation of the FTS is more efficient than an extremely optimized equivalent Monte Carlo solution. Moreover, the FTS has an intrinsic laziness: it does not need frequent updates (scans can be integrated once every many meters) and it can process data in arbitrary order. The source code and datasets are available for download.\"\n}\n\n", 
@@ -506,21 +506,22 @@
      "first": "Andrea"
     }
    ], 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/ftf.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/censi06comparison.png", 
    "year": "2006", 
    "pdf": "http://purl.org/censi/research/2006-draft-acomparison.pdf", 
    "type": "techreport", 
-   "institution": "Sapienza Universit\\'a di Roma", 
-   "desc": "Global localization without the worries and anxiety of filtering. "
+   "institution": "Sapienza Universita di Roma", 
+   "desc": ""
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A comparison of algorithms for likelihood approximation in bayesian localization.</span>\nTechnical Report, Sapienza Universit\\'a di Roma, 2006.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2006-draft-acomparison.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2006/ghtv\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi06comparison,\n    author = \"Censi, Andrea\",\n    kind = \"unref\",\n    title = \"A comparison of algorithms for likelihood approximation in Bayesian localization\",\n    url = \"http://purl.org/censi/2006/ghtv\",\n    year = \"2006\",\n    pdf = \"http://purl.org/censi/research/2006-draft-acomparison.pdf\",\n    institution = \"Sapienza Universit\\'a di Roma\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A comparison of algorithms for likelihood approximation in bayesian localization.</span>\nTechnical Report, Sapienza Universita di Roma, 2006.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2006-draft-acomparison.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2006/ghtv\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi06comparison,\n    author = \"Censi, Andrea\",\n    kind = \"unref\",\n    title = \"A comparison of algorithms for likelihood approximation in Bayesian localization\",\n    url = \"http://purl.org/censi/2006/ghtv\",\n    year = \"2006\",\n    pdf = \"http://purl.org/censi/research/2006-draft-acomparison.pdf\",\n    institution = \"Sapienza Universita di Roma\"\n}\n\n", 
   "order": 26
  }, 
  "scrapper09": {
   "fields": {
    "publisher": "Springer US", 
    "kind": "unref", 
+   "doi": "10.1007/978-1-4419-0492-8_10", 
    "isbn": "978-1-4419-0492-8", 
    "title": "Quantitative Assessment of Robot-Generated Maps", 
    "booktitle": "Performance Evaluation and Benchmarking of Intelligent Systems", 
@@ -555,7 +556,6 @@
     }
    ], 
    "pages": "221-248", 
-   "note": "10.1007/978-1-4419-0492-8_10", 
    "affiliation": "The MITRE Corporation, 22102 McLean, VA USA", 
    "editor": [
     {
@@ -577,7 +577,7 @@
    "abstract": "Mobile robotic mapping is now considered to be a sufficiently mature field with demonstrated successes in various domains. While much progress has been made in the development of computationally efficient and consistent mapping schemes, it is still murky, at best, on how these maps can be evaluated. We are motivated by the absence of an accepted standard for quantitatively measuring the performance of robotic mapping systems against user-defined requirements. It is our belief that the development of standardized methods for quantitatively evaluating existing robotic technologies will improve the utility of mobile robots in already established application areas, such as vacuum cleaning, robot surveillance, and bomb disposal. This approach will also enable the proliferation and acceptance of such technologies in emerging markets. This chapter summarizes our preliminary efforts by bringing together the research community towards addressing this important problem which has ramifications not only from researchers' perspective but also from consumers', robot manufacturers', and developers' viewpoints."
   }, 
   "html_short": "C. Scrapper, R. Madhavan, R. Lakaemper, A. Censi, A. Godil, A. Wagan, and A. Jacoff.\nQuantitative assessment of robot-generated maps.\nIn <a href='http://www.isr.umd.edu/faculty/gateways/madhavan.htm'>Raj Madhavan</a>, Edward Tunstel, and Elena Messina, editors, <em>Performance Evaluation and Benchmarking of Intelligent Systems</em>, pages 221&ndash;248.\nSpringer US, 2009.", 
-  "bibtex": "@incollection{scrapper09,\n    editor = \"Madhavan, Raj and Tunstel, Edward and Messina, Elena\",\n    author = \"Scrapper, C. and Madhavan, R. and Lakaemper, R. and Censi, A. and Godil, A. and Wagan, A. and Jacoff, A.\",\n    publisher = \"Springer US\",\n    kind = \"unref\",\n    isbn = \"978-1-4419-0492-8\",\n    title = \"Quantitative Assessment of Robot-Generated Maps\",\n    booktitle = \"Performance Evaluation and Benchmarking of Intelligent Systems\",\n    pages = \"221-248\",\n    note = \"10.1007/978-1-4419-0492-8_10\",\n    affiliation = \"The MITRE Corporation, 22102 McLean, VA USA\",\n    year = \"2009\",\n    pdf = \"http://dx.doi.org/10.1007/978-1-4419-0492-8_10\",\n    abstract = \"Mobile robotic mapping is now considered to be a sufficiently mature field with demonstrated successes in various domains. While much progress has been made in the development of computationally efficient and consistent mapping schemes, it is still murky, at best, on how these maps can be evaluated. We are motivated by the absence of an accepted standard for quantitatively measuring the performance of robotic mapping systems against user-defined requirements. It is our belief that the development of standardized methods for quantitatively evaluating existing robotic technologies will improve the utility of mobile robots in already established application areas, such as vacuum cleaning, robot surveillance, and bomb disposal. This approach will also enable the proliferation and acceptance of such technologies in emerging markets. This chapter summarizes our preliminary efforts by bringing together the research community towards addressing this important problem which has ramifications not only from researchers' perspective but also from consumers', robot manufacturers', and developers' viewpoints.\"\n}\n\n", 
+  "bibtex": "@incollection{scrapper09,\n    editor = \"Madhavan, Raj and Tunstel, Edward and Messina, Elena\",\n    author = \"Scrapper, C. and Madhavan, R. and Lakaemper, R. and Censi, A. and Godil, A. and Wagan, A. and Jacoff, A.\",\n    publisher = \"Springer US\",\n    kind = \"unref\",\n    doi = \"10.1007/978-1-4419-0492-8_10\",\n    isbn = \"978-1-4419-0492-8\",\n    title = \"Quantitative Assessment of Robot-Generated Maps\",\n    booktitle = \"Performance Evaluation and Benchmarking of Intelligent Systems\",\n    pages = \"221-248\",\n    affiliation = \"The MITRE Corporation, 22102 McLean, VA USA\",\n    year = \"2009\",\n    pdf = \"http://dx.doi.org/10.1007/978-1-4419-0492-8_10\",\n    abstract = \"Mobile robotic mapping is now considered to be a sufficiently mature field with demonstrated successes in various domains. While much progress has been made in the development of computationally efficient and consistent mapping schemes, it is still murky, at best, on how these maps can be evaluated. We are motivated by the absence of an accepted standard for quantitatively measuring the performance of robotic mapping systems against user-defined requirements. It is our belief that the development of standardized methods for quantitatively evaluating existing robotic technologies will improve the utility of mobile robots in already established application areas, such as vacuum cleaning, robot surveillance, and bomb disposal. This approach will also enable the proliferation and acceptance of such technologies in emerging markets. This chapter summarizes our preliminary efforts by bringing together the research community towards addressing this important problem which has ramifications not only from researchers' perspective but also from consumers', robot manufacturers', and developers' viewpoints.\"\n}\n\n", 
   "order": 12
  }, 
  "censi09hsm3d": {
@@ -658,12 +658,12 @@
      "first": "Richard"
     }
    ], 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/censi11bgds.png", 
    "month": "Sep", 
    "year": "2011", 
    "pdf": "http://purl.org/censi/research/2011-iros-bgds.pdf", 
    "type": "inproceedings", 
-   "desc": "This paper shows how a \nfor efficient bootstrapping \n\nsuch as [BDS][BDS] and [BGDS][BGDS] can be used \nfor faults and anomaly detection in sensorimotor cascades.\nThe concept of *usefulness* allows to do detection without\nhaving a model for the healthy system.\n\n[BDS]: http://purl.org/censi/2010/boot\n[BGDS]: http://purl.org/censi/2011/bgds\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur.\nNow shadowed by chapter ??? of my dissertation."
+   "desc": ""
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Bootstrapping sensorimotor cascades: a group-theoretic perspective.</span>\n<span class=\"booktitle\">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. Sep 2011.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2011-iros-bgds.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/bgds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@inproceedings{censi11bgds,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    title = \"Bootstrapping sensorimotor cascades: a group-theoretic perspective\",\n    url = \"http://purl.org/censi/2011/bgds\",\n    booktitle = \"{IEEE/RSJ} International Conference on Intelligent Robots and Systems (IROS)\",\n    month = \"Sep\",\n    year = \"2011\",\n    pdf = \"http://purl.org/censi/research/2011-iros-bgds.pdf\"\n}\n\n", 
@@ -702,7 +702,7 @@
    "pdf": "http://purl.org/censi/research/2008-icra-ppu.pdf", 
    "type": "inproceedings", 
    "abstract": "Modeling robot motion planning with uncertainty in a Bayesian framework leads to a computationally intractable stochastic control problem. We seek hypotheses that can justify a separate implementation of control, localization and planning. In the end, we reduce the stochastic control problem to path-planning in the extended space of poses x covariances; the transitions between states are modeled through the use of the Fisher information matrix. In this framework, we consider two problems: minimizing the execution time, and minimizing the final covariance, with an upper bound on the execution time. Two correct and complete algorithms are presented. The first is the direct extension of classical graph-search algorithms in the extended space. The second one is a back-projection algorithm: uncertainty constraints are propagated backward from the goal towards the start state.", 
-   "desc": "How to get to your goal without getting lost. \n\nThis was my Master's degree final thesis."
+   "desc": "How to get to your goal without getting lost. \nThis was my Master's degree final thesis."
   }, 
   "html_short": "<span class=\"author\">A.C., <a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, <a href='http://www.dis.uniroma1.it/~deluca/'>Alessandro De Luca</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">A Bayesian framework for optimal motion planning with uncertainty.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. Pasadena, CA, May 2008.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2008-icra-ppu.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ROBOT.2008.4543469\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2007/ppu\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2008-icra-ppu-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@inproceedings{censi08ppu,\n    author = \"Censi, Andrea and Calisi, Daniele and Luca, Alessandro De and Oriolo, Giuseppe\",\n    doi = \"10.1109/ROBOT.2008.4543469\",\n    title = \"A {B}ayesian framework for optimal motion planning with uncertainty\",\n    url = \"http://purl.org/censi/2007/ppu\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2008\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2008-icra-ppu-slides.pdf\",\n    address = \"Pasadena, CA\",\n    pdf = \"http://purl.org/censi/research/2008-icra-ppu.pdf\",\n    abstract = \"Modeling robot motion planning with uncertainty in a Bayesian framework leads to a computationally intractable stochastic control problem. We seek hypotheses that can justify a separate implementation of control, localization and planning. In the end, we reduce the stochastic control problem to path-planning in the extended space of poses x covariances; the transitions between states are modeled through the use of the Fisher information matrix. In this framework, we consider two problems: minimizing the execution time, and minimizing the final covariance, with an upper bound on the execution time. Two correct and complete algorithms are presented. The first is the direct extension of classical graph-search algorithms in the extended space. The second one is a back-projection algorithm: uncertainty constraints are propagated backward from the goal towards the start state.\"\n}\n\n", 
@@ -901,7 +901,10 @@
  }, 
  "calisi12openrdk": {
   "fields": {
+   "title": "Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint", 
+   "url": "http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48", 
    "type": "article", 
+   "journal": "Journal of Software Engineering for Robotics", 
    "author": [
     {
      "last": "Calisi", 
@@ -920,16 +923,14 @@
      "first": "Daniele"
     }
    ], 
-   "title": "Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint", 
-   "issue": "3", 
-   "journal": "Journal of Software Engineering for Robotics", 
-   "year": "2012", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
    "number": "1", 
+   "year": "2012", 
+   "issue": "3", 
    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur."
   }, 
-  "html_short": "<span class=\"author\"><a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.</span>\n<span class=\"title\">Design choices for modular and flexible robotic software development: the OpenRDK viewpoint.</span>\n<em>Journal of Software Engineering for Robotics</em>, 2012.\n", 
-  "bibtex": "@article{calisi12openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    title = \"Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint\",\n    journal = \"Journal of Software Engineering for Robotics\",\n    number = \"1\",\n    year = \"2012\",\n    issue = \"3\"\n}\n\n", 
+  "html_short": "<span class=\"author\"><a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.</span>\n<span class=\"title\">Design choices for modular and flexible robotic software development: the OpenRDK viewpoint.</span>\n<em>Journal of Software Engineering for Robotics</em>, 2012.\n<span class=\"links\"><span class=\"url\"><a href=\"http://joser.unibg.it/index.php?journal=joser&amp;page=article&amp;op=view&amp;path%5B%5D=48\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{calisi12openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    title = \"Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint\",\n    url = \"http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48\",\n    journal = \"Journal of Software Engineering for Robotics\",\n    number = \"1\",\n    year = \"2012\",\n    issue = \"3\"\n}\n\n", 
   "order": 3
  }, 
  "censi12diffeo": {
@@ -1002,7 +1003,7 @@
    "pdf": "http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438", 
    "type": "techreport", 
    "institution": "California Institute of Technology", 
-   "desc": "What goes on in a fruit fly's head while it flies? \n\nIn this paper we try to identify the dependence of the decision processes\non the external stimulus experienced by the fly. Remarkably, we are able to \nsay a great deal about internal sensory processing by just observing the \nexternal behavior."
+   "desc": "What goes on in a fruit fly's head while it flies? \nIn this paper we try to identify the dependence of the decision processes\non the external stimulus experienced by the fly. Remarkably, we are able to \nsay a great deal about internal sensory processing by just observing the \nexternal behavior."
   }, 
   "html_short": "<span class=\"author\">A.C.*, <a href='http://strawlab.org'>Andrew D. Straw</a>*, Rosalyn W. Sayaman, <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>, and <a href='http://www.dickinson.caltech.edu/'>Michael H. Dickinson</a>.</span>\n<span class=\"title\">Discriminating external and internal causes for saccade initiation in freely flying  Drosophila.</span>\nTechnical Report CaltechAUTHORS:20120805-120309438, California Institute of Technology, 2012.\n<span class=\"note\">(To appear, PLOS Computational Biology).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/saccade\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/preprints/saccades/20120104-sicb.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@techreport{censi12saccade_preprint,\n    author = \"Censi*, Andrea and Straw*, Andrew D. and Sayaman, Rosalyn W. and Murray, Richard M. and Dickinson, Michael H.\",\n    slides = \"http://purl.org/censi/research/preprints/saccades/20120104-sicb.pdf\",\n    kind = \"preprint\",\n    title = \"Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}\",\n    url = \"http://purl.org/censi/2011/saccade\",\n    abstract = \"As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.\",\n    number = \"CaltechAUTHORS:20120805-120309438\",\n    note = \"(To appear, PLOS Computational Biology)\",\n    year = \"2012\",\n    pdf = \"http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438\",\n    institution = \"California Institute of Technology\"\n}\n\n", 

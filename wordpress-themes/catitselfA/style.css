@@ -170,17 +170,23 @@ div.pub-ref-desc
   div.desc 
    img .icon */
 
+div.pub-ref-desc {
+    padding-bottom: 1em;
+}
+
+
 div.pub-ref-desc div.desc { 
-    margin-left: 3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     display: block;
     overflow: auto; /* contains the floating img below */
 }
 
-div.pub-ref-desc div.desc img.icon { 
+div.pub-ref-desc img.icon { 
+    clear: right;
     float: right;
     width: 8em;
     padding: 0;
     margin-bottom: 1em;
     border: solid 1px black;
 }
-

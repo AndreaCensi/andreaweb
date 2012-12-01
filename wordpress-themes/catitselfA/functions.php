@@ -46,9 +46,9 @@ function pub_ref_desc( $atts ) {
         } else {
             $icon = "";
         }
-        $desc = "<div class='desc' markdown='0'>{$icon}{$d}</div>";
+        $desc = "<div class='desc' markdown='0'>{$d}</div>";
         $short = pub_ref(array('id'=>$id));
-        $s = "<div class='pub-ref-desc'>{$short}{$desc}</div>";
+        $s = "<div class='pub-ref-desc'>{$icon}{$short}{$desc}</div>";
         return $s;
     } else {
         $known = implode(array_keys($db_bib),', ');
