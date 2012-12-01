@@ -45,7 +45,9 @@ get_header(); ?>
     
     <div id='research_items'> 
 
-        <h3 id='what_new'> What's new </h3>
+	<h3 id='what_new'> What's new 
+<span id="rsslink">(<a rel="external nofollow" id="feedrss" title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src='media/rss.gif' alt='RSS'/>RSS feed</a>)</span>
+</h3>
 
         <?php
             //query_posts('tag="research-item"'.'&orderby=date&order=desc');

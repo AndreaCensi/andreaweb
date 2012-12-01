@@ -23,7 +23,7 @@
 
 #### Conference papers 
 
-[pub_ref id='delapuente12dense']
+[pub_ref_desc id='delapuente12dense']
 [pub_ref id='censi12diffeo'] 
 
 <div style='float:right; color: red; padding: 5px'> (best student <br/> paper finalist)</div>
