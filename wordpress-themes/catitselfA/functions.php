@@ -21,6 +21,13 @@ function pub_ref( $atts ) {
 add_shortcode( 'pub_ref', 'pub_ref' );
 
 
+function pub_ref_page( $atts ) { 
+    $ref_desc = pub_ref( $atts );
+    return "<div class='pub_ref_page'>{$ref_desc}</div>";
+}
+
+add_shortcode( 'pub_ref_page', 'pub_ref_page' );
+
 
 function pub_ref_desc( $atts ) { 
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
@@ -34,9 +41,7 @@ function pub_ref_desc( $atts ) {
         $fields = $entry['fields'];
         if (array_key_exists("desc", $fields)) {
             $desc_md = $fields['desc'];
-            $d = markdown(do_shortcode($desc_md)); 
-            // $d= $d."ok";
-            // $d = "<pre>{$desc_md}</pre>";
+            $d = markdown(do_shortcode($desc_md));  
         } else {
             $d = '';
         }

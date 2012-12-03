@@ -179,10 +179,8 @@ Video: Simulated visual input from tracking data of free-flying Drosophila Melan
 
 ### See also ###
 
-- [Older research on estimation in robotics](vignettes)
+<!-- - [Older research on estimation in robotics](vignettes) -->
 - [Publications][Publications]
+- [Research software](/software) 
 
-
-- [Research software](../software) 
-
-[Publications]: ../publications/
+[Publications]: /publications

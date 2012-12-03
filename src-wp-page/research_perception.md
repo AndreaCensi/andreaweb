@@ -1,4 +1,4 @@
-The last decades
+<!-- The last decades
 
 
 (perception video from the point of view of algorithms)
@@ -13,4 +13,4 @@ Interested in geometry, etc.
 #### Recent work
 
 - paper 1
-- paper 2
+- paper 2 -->

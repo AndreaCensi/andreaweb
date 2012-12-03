@@ -1,3 +1,7 @@
+
+Most papers have supplementary materials available (datasets, source code, etc.).
+Follow the links "<a href="#"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a>" to access them.
+
 #### Preprints
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
 </p>
@@ -21,7 +25,7 @@
 [pub_ref_desc id='censi11kf']
 
 
-#### Conference papers 
+#### Refereed conference papers 
 
 [pub_ref_desc id='delapuente12dense']
 [pub_ref_desc id='censi12diffeo'] 
@@ -57,7 +61,7 @@
 [pub_ref_desc id='censi05hough']
 
 
-<h4> Unrefereed papers </h4>
+#### Unrefereed papers 
 
 [pub_ref      id='scrapper09']
 [pub_ref_desc id='censi06comparison']
