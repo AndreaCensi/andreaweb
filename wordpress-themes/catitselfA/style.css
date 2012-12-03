@@ -39,17 +39,23 @@ Version:        0.1.0
 
     header.entry-header { padding: 0; margin: 0; }
 
+    aside { padding-left: 0px !important;}
     aside, aside h3 { width: 200px !important;}
+
     /* <aside id="pages-3" class="widget widget_pages"><h3 class="widget-title">Pages</h3>*/
     aside.widget_pages h3 { display: none;} /* "pages" */
     aside.widget_archive h3 { border: 0; padding-bottom: 0; } 
     aside.widget_archive select { margin-left: -1em; font-size: smaller;}
 
     aside ul {
-        padding-left: 0px !important; 
+        padding-left: 5px !important; 
+        border-left: solid 4px #cce;
     }
-    aside li a {  font-weight: normal !important; color: #622 !important;}
+    aside li a {  font-weight: normal !important; color: black !important;}
+    aside li a:hover {  text-decoration: none !important; background-color: #eee;}
+    aside li.current_page_item > a {  font-weight: bold !important; color: #622 !important;}
     aside li { 
+        width: 150px !important;
         padding-left: 5px !important; 
         padding-top: 5px !important;
         padding-bottom: 5px !important;
@@ -60,7 +66,9 @@ Version:        0.1.0
 
 
     ul.children { margin: 0 !important;}
-    div#secondary { margin-left: -20px !important;}
+    /*div#secondary { margin-left: -20px !important;}*/
+
+    /*div#secondary {padding-left: 0px  !important}*/
 
     body.page h1 span.date,
     body.single-post h1 span.date
@@ -76,7 +84,9 @@ Version:        0.1.0
 
     body.home div#content { margin-left: 0 !important;}
     div#secondary {
-        position: fixed !important; padding-left: 3em !important; top: 5em;}
+        position: fixed !important; 
+        padding-left: 1em !important; 
+        top: 5em;}
     
     
     
@@ -158,10 +168,12 @@ a:hover {
 
 
 /* Publication page */
-article#post-4 div#bibtex pre {font-family: "Andale Mono";
+article#post-895 div#bibtex pre {font-family: "Andale Mono";
      font-size: 80%; overflow: visible;}
-article#post-4 div#bibtex h1 { display: none;}
-article#post-4  a.abstract-link {display: none; }
+article#post-895 div#bibtex h1 { display: none;}
+article#post-895  a.abstract-link {display: none; }
+
+article#post-895  h4 { text-align: center; }
 
 
 
@@ -199,9 +211,14 @@ div.pub-ref-desc div.desc {
 }
 
 div.pub-ref-desc img.icon { 
-    clear: right;
+    /*clear: right;
     float: right;
-    width: 8em;
+    */
+    clear: left;
+    float: left;
+    margin-right: 1em;
+    
+    width: 7em;
     padding: 0;
     margin-bottom: 1em;
     border: solid 1px black;

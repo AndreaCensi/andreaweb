@@ -634,12 +634,13 @@
    "number": "CaltechAUTHORS:20120805-115123559", 
    "note": "", 
    "year": "2012", 
+   "pdf": "http://purl.org/censi/research/2012-joint_calibration.pdf", 
    "type": "techreport", 
    "institution": "California Institute of Technology", 
    "desc": "Fast, practical, and extremely precise \nsimultaneous estimation of odometry and sensor configuration \nparameters for mobile robots."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\nTechnical Report CaltechAUTHORS:20120805-115123559, California Institute of Technology, 2012.\n\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi12joint_preprint_old,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    kind = \"preprint\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    number = \"CaltechAUTHORS:20120805-115123559\",\n    note = \"\",\n    year = \"2012\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\nTechnical Report CaltechAUTHORS:20120805-115123559, California Institute of Technology, 2012.\n\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-joint_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi12joint_preprint_old,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    kind = \"preprint\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    number = \"CaltechAUTHORS:20120805-115123559\",\n    note = \"\",\n    year = \"2012\",\n    pdf = \"http://purl.org/censi/research/2012-joint_calibration.pdf\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
   "order": 34
  }, 
  "censi11bgds": {
@@ -1123,11 +1124,12 @@
    "descicon": "http://purl.org/censi/web/media/paper-icons/calibration.jpg", 
    "note": "(to appear)", 
    "year": "2013", 
+   "pdf": "http://purl.org/censi/research/2012-joint_calibration.pdf", 
    "type": "article", 
    "desc": "Fast, practical, and extremely precise \nsimultaneous estimation of odometry and sensor configuration \nparameters for mobile robots."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\n<em>IEEE Transactions on Robotics</em>, 2013.\n<span class=\"note\">(to appear).</span>\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi12joint_preprint,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    kind = \"preprint\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    journal = \"IEEE Transactions on Robotics\",\n    note = \"(to appear)\",\n    year = \"2013\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\n<em>IEEE Transactions on Robotics</em>, 2013.\n<span class=\"note\">(to appear).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-joint_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi12joint_preprint,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    kind = \"preprint\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    journal = \"IEEE Transactions on Robotics\",\n    note = \"(to appear)\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2012-joint_calibration.pdf\"\n}\n\n", 
   "order": 35
  }, 
  "censi11bds": {
