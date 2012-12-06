@@ -81,6 +81,7 @@
     }
    ], 
    "title": "Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades", 
+   "url": "http://purl.org/censi/2011/fault", 
    "timestamp": "2011.09.16", 
    "booktitle": "Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})", 
    "year": "2012", 
@@ -92,13 +93,14 @@
    "type": "inproceedings", 
    "desc": "This paper shows how bootstrapped low-level sensorimotor models,\nsuch as [BDS][BDS] and [BGDS][BGDS] can be used \nfor faults and anomaly detection in sensorimotor cascades.\nThe concept of *usefulness* allows to do detection without\nhaving a model for the healthy system.\n\n[BDS]: http://purl.org/censi/2010/boot\n[BGDS]: http://purl.org/censi/2011/bgds"
   }, 
-  "html_short": "<span class=\"author\">A.C., Magnus Hakansson, and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. Saint Paul, MN, 5 2012.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-fault.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2012-fault-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@inproceedings{censi12fault,\n    author = \"Censi, Andrea and Hakansson, Magnus and Murray, Richard M.\",\n    title = \"Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades\",\n    timestamp = \"2011.09.16\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2012\",\n    month = \"5\",\n    slides = \"http://purl.org/censi/research/2012-fault-slides.pdf\",\n    address = \"Saint Paul, MN\",\n    pdf = \"http://purl.org/censi/research/2012-fault.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., Magnus Hakansson, and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. Saint Paul, MN, 5 2012.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-fault.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/fault\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2012-fault-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@inproceedings{censi12fault,\n    author = \"Censi, Andrea and Hakansson, Magnus and Murray, Richard M.\",\n    title = \"Fault detection and isolation from uninterpreted data in robotic sensorimotor cascades\",\n    url = \"http://purl.org/censi/2011/fault\",\n    timestamp = \"2011.09.16\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2012\",\n    month = \"5\",\n    slides = \"http://purl.org/censi/research/2012-fault-slides.pdf\",\n    address = \"Saint Paul, MN\",\n    pdf = \"http://purl.org/censi/research/2012-fault.pdf\"\n}\n\n", 
   "order": 5
  }, 
  "censi11semantics": {
   "fields": {
-   "type": "inproceedings", 
+   "title": "Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents", 
+   "booktitle": "Joint IEEE International Conference on Development and Learning and Epigenetic Robotics", 
    "author": [
     {
      "last": "Censi", 
@@ -110,16 +112,16 @@
      "first": "Richard"
     }
    ], 
-   "desc": "This paper tries to describe formally the idea of \"uncertain semantics\"\nin a bootstrapping problem by using the mathematics of group actions.\nIf interested, please see Part 1 and Part 3 of \nof [my dissertation][phd], where these ideas are further expanded\nand made much more formal than in this short paper.\n\n[phd]: http://purl.org/censi/2012/phd", 
-   "title": "Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents", 
-   "pdf": "http://purl.org/censi/research/2011-icdl-invariance.pdf", 
-   "booktitle": "Joint IEEE International Conference on Development and Learning and Epigenetic Robotics", 
-   "year": "2011", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi11semantics.png", 
-   "month": "Aug"
+   "month": "Aug", 
+   "slides": "http://purl.org/censi/research/2011-icdl-invariance-poster.pdf", 
+   "year": "2011", 
+   "pdf": "http://purl.org/censi/research/2011-icdl-invariance.pdf", 
+   "type": "inproceedings", 
+   "desc": "This paper tries to describe formally the idea of \"uncertain semantics\"\nin a bootstrapping problem by using the mathematics of group actions.\nIf interested, please see Part 1 and Part 3 of \nof [my dissertation][phd], where these ideas are further expanded\nand made much more formal than in this short paper.\n\n[phd]: http://purl.org/censi/2012/phd"
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents.</span>\n<span class=\"booktitle\">In <em>Joint IEEE International Conference on Development and Learning and Epigenetic Robotics</em>. Aug 2011.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2011-icdl-invariance.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
-  "bibtex": "@inproceedings{censi11semantics,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    title = \"Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents\",\n    booktitle = \"Joint IEEE International Conference on Development and Learning and Epigenetic Robotics\",\n    month = \"Aug\",\n    year = \"2011\",\n    pdf = \"http://purl.org/censi/research/2011-icdl-invariance.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents.</span>\n<span class=\"booktitle\">In <em>Joint IEEE International Conference on Development and Learning and Epigenetic Robotics</em>. Aug 2011.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2011-icdl-invariance.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2011-icdl-invariance-poster.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@inproceedings{censi11semantics,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    title = \"Uncertain semantics, representation nuisances, and necessary invariance properties of bootstrapping agents\",\n    booktitle = \"Joint IEEE International Conference on Development and Learning and Epigenetic Robotics\",\n    month = \"Aug\",\n    slides = \"http://purl.org/censi/research/2011-icdl-invariance-poster.pdf\",\n    year = \"2011\",\n    pdf = \"http://purl.org/censi/research/2011-icdl-invariance.pdf\"\n}\n\n", 
   "order": 6
  }, 
  "carpin09hsm3d": {
@@ -391,6 +393,7 @@
  }, 
  "censi11kf": {
   "fields": {
+   "issn": "0018-9286", 
    "doi": "10.1109/TAC.2010.2097350", 
    "author": [
     {
@@ -400,16 +403,16 @@
    ], 
    "title": "Kalman filtering with intermittent observations: convergence for semi-Markov chains and an intrinsic performance measure", 
    "journal": "IEEE Transactions on Automatic Control", 
-   "issn": "0018-9286", 
+   "year": "2011", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi11kf.png", 
    "month": "February", 
-   "year": "2011", 
+   "sortyear": "2010", 
    "pdf": "http://purl.org/censi/research/2011-tac-kf-geometry.pdf", 
    "type": "article", 
    "desc": "This paper considers the problem\nof linear filtering over unreliable channels.\nPrevious research by Sinopoli et al. has\nshown that there is a threshold on the observations\narrival probability that distinguishes between\na \"stable\" and an \"unstable\" behavior. This paper \nshows that those conclusions are misleading and\nonly depend on a particular choice of the loss function.\nIn fact, the probability distribution of the filter \nstate exists for each nonzero arrival probability."
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Kalman filtering with intermittent observations: convergence for semi-markov chains and an intrinsic performance measure.</span>\n<em>IEEE Transactions on Automatic Control</em>, February 2011.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2011-tac-kf-geometry.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TAC.2010.2097350\">doi</a></span></span>", 
-  "bibtex": "@article{censi11kf,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/TAC.2010.2097350\",\n    title = \"Kalman filtering with intermittent observations: convergence for semi-Markov chains and an intrinsic performance measure\",\n    journal = \"IEEE Transactions on Automatic Control\",\n    issn = \"0018-9286\",\n    month = \"February\",\n    year = \"2011\",\n    pdf = \"http://purl.org/censi/research/2011-tac-kf-geometry.pdf\"\n}\n\n", 
+  "bibtex": "@article{censi11kf,\n    author = \"Censi, Andrea\",\n    issn = \"0018-9286\",\n    doi = \"10.1109/TAC.2010.2097350\",\n    title = \"Kalman filtering with intermittent observations: convergence for semi-Markov chains and an intrinsic performance measure\",\n    journal = \"IEEE Transactions on Automatic Control\",\n    year = \"2011\",\n    month = \"February\",\n    sortyear = \"2010\",\n    pdf = \"http://purl.org/censi/research/2011-tac-kf-geometry.pdf\"\n}\n\n", 
   "order": 10
  }, 
  "censi08fts": {
@@ -820,7 +823,6 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/carlone12angular_preprint.png", 
    "month": "November", 
-   "eprint": "1211.3063", 
    "primaryclass": "cs.RO", 
    "year": "2012", 
    "keywords": "Computer Science - Robotics, Mathematics - Optimization and Control, 68T40, I.2.9, G.1.6, G.3, G.4", 
@@ -830,7 +832,7 @@
    "desc": "Pose optimization is what is used in SLAM to optimize the map\nafter pose-pose and pose-features correspondences have been established. \nThe variables in this problem are poses living\non the nodes of a graph, and measurements are relative measurements\nalong the graph edges. The\nproblem is hard because orientations live on a manifold\nwith nontrivial topology, which makes the problem\nnonlinear, nonconvex, and with multiple minima.\n[Luca][luca] and I try to solve the subproblem of orientation estimation. \nWe find a way to convert\nthe problem to an unconstrained optimization problem on integers.\nThis makes it possible to solve the problem globally \nand return all likely guesses for the orientation.\n\n[luca]: http://lucacarlone.com"
   }, 
   "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a> and A.C..</span>\n<span class=\"title\">From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization.</span>\n<em>ArXiv e-prints</em>, November 2012.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://arxiv.org/pdf/1211.3063v1\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
-  "bibtex": "@article{carlone12angular_preprint,\n    author = \"Carlone, Luca and Censi, Andrea\",\n    title = \"{From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization}\",\n    journal = \"ArXiv e-prints\",\n    month = \"November\",\n    eprint = \"1211.3063\",\n    primaryclass = \"cs.RO\",\n    year = \"2012\",\n    keywords = \"Computer Science - Robotics, Mathematics - Optimization and Control, 68T40, I.2.9, G.1.6, G.3, G.4\",\n    pdf = \"http://arxiv.org/pdf/1211.3063v1\",\n    archiveprefix = \"arXiv\"\n}\n\n", 
+  "bibtex": "@article{carlone12angular_preprint,\n    author = \"Carlone, Luca and Censi, Andrea\",\n    title = \"{From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization}\",\n    journal = \"ArXiv e-prints\",\n    month = \"November\",\n    primaryclass = \"cs.RO\",\n    year = \"2012\",\n    keywords = \"Computer Science - Robotics, Mathematics - Optimization and Control, 68T40, I.2.9, G.1.6, G.3, G.4\",\n    pdf = \"http://arxiv.org/pdf/1211.3063v1\",\n    archiveprefix = \"arXiv\"\n}\n\n", 
   "order": 30
  }, 
  "censi08plicp": {
@@ -902,10 +904,6 @@
  }, 
  "calisi12openrdk": {
   "fields": {
-   "title": "Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint", 
-   "url": "http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48", 
-   "type": "article", 
-   "journal": "Journal of Software Engineering for Robotics", 
    "author": [
     {
      "last": "Calisi", 
@@ -924,14 +922,19 @@
      "first": "Daniele"
     }
    ], 
+   "title": "Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint", 
+   "url": "http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48", 
+   "type": "article", 
+   "journal": "Journal of Software Engineering for Robotics", 
+   "year": "2012", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
    "number": "1", 
-   "year": "2012", 
+   "sortyear": "2010", 
    "issue": "3", 
    "desc": ""
   }, 
   "html_short": "<span class=\"author\"><a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.</span>\n<span class=\"title\">Design choices for modular and flexible robotic software development: the OpenRDK viewpoint.</span>\n<em>Journal of Software Engineering for Robotics</em>, 2012.\n<span class=\"links\"><span class=\"url\"><a href=\"http://joser.unibg.it/index.php?journal=joser&amp;page=article&amp;op=view&amp;path%5B%5D=48\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{calisi12openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    title = \"Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint\",\n    url = \"http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48\",\n    journal = \"Journal of Software Engineering for Robotics\",\n    number = \"1\",\n    year = \"2012\",\n    issue = \"3\"\n}\n\n", 
+  "bibtex": "@article{calisi12openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    title = \"Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint\",\n    url = \"http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48\",\n    journal = \"Journal of Software Engineering for Robotics\",\n    year = \"2012\",\n    number = \"1\",\n    sortyear = \"2010\",\n    issue = \"3\"\n}\n\n", 
   "order": 3
  }, 
  "censi12diffeo": {
@@ -968,9 +971,6 @@
   "fields": {
    "slides": "http://purl.org/censi/research/2012-sicb-saccades.pdf", 
    "kind": "preprint", 
-   "title": "Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}", 
-   "url": "http://purl.org/censi/2011/saccade", 
-   "abstract": "As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.", 
    "author": [
     {
      "last": "Censi*", 
@@ -997,22 +997,26 @@
      "first": "Michael"
     }
    ], 
+   "title": "Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}", 
+   "url": "http://purl.org/censi/2011/saccade", 
+   "abstract": "As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.", 
+   "year": "2012", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi12saccade_preprint.png", 
    "number": "CaltechAUTHORS:20120805-120309438", 
-   "note": "(To appear, PLOS Computational Biology)", 
-   "year": "2012", 
-   "pdf": "http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438", 
+   "month": "12", 
+   "note": "(To appear in PLOS Computational Biology)", 
+   "sortyear": "2014", 
+   "pdf": "http://purl.org/censi/research/2012-plos-saccades.pdf", 
    "type": "techreport", 
    "institution": "California Institute of Technology", 
    "desc": "What goes on in a fruit fly's head while it flies? \nIn this paper we try to identify the dependence of the decision processes\non the external stimulus experienced by the fly. Remarkably, we are able to \nsay a great deal about internal sensory processing by just observing the \nexternal behavior."
   }, 
-  "html_short": "<span class=\"author\">A.C.*, <a href='http://strawlab.org'>Andrew D. Straw</a>*, Rosalyn W. Sayaman, <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>, and <a href='http://www.dickinson.caltech.edu/'>Michael H. Dickinson</a>.</span>\n<span class=\"title\">Discriminating external and internal causes for saccade initiation in freely flying  Drosophila.</span>\nTechnical Report CaltechAUTHORS:20120805-120309438, California Institute of Technology, 2012.\n<span class=\"note\">(To appear, PLOS Computational Biology).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/saccade\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2012-sicb-saccades.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@techreport{censi12saccade_preprint,\n    author = \"Censi*, Andrea and Straw*, Andrew D. and Sayaman, Rosalyn W. and Murray, Richard M. and Dickinson, Michael H.\",\n    slides = \"http://purl.org/censi/research/2012-sicb-saccades.pdf\",\n    kind = \"preprint\",\n    title = \"Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}\",\n    url = \"http://purl.org/censi/2011/saccade\",\n    abstract = \"As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.\",\n    number = \"CaltechAUTHORS:20120805-120309438\",\n    note = \"(To appear, PLOS Computational Biology)\",\n    year = \"2012\",\n    pdf = \"http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C.*, <a href='http://strawlab.org'>Andrew D. Straw</a>*, Rosalyn W. Sayaman, <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>, and <a href='http://www.dickinson.caltech.edu/'>Michael H. Dickinson</a>.</span>\n<span class=\"title\">Discriminating external and internal causes for saccade initiation in freely flying  Drosophila.</span>\nTechnical Report CaltechAUTHORS:20120805-120309438, California Institute of Technology, 12 2012.\n<span class=\"note\">(To appear in PLOS Computational Biology).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-plos-saccades.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/saccade\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2012-sicb-saccades.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@techreport{censi12saccade_preprint,\n    author = \"Censi*, Andrea and Straw*, Andrew D. and Sayaman, Rosalyn W. and Murray, Richard M. and Dickinson, Michael H.\",\n    slides = \"http://purl.org/censi/research/2012-sicb-saccades.pdf\",\n    kind = \"preprint\",\n    title = \"Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}\",\n    url = \"http://purl.org/censi/2011/saccade\",\n    abstract = \"As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.\",\n    year = \"2012\",\n    number = \"CaltechAUTHORS:20120805-120309438\",\n    month = \"12\",\n    note = \"(To appear in PLOS Computational Biology)\",\n    sortyear = \"2014\",\n    pdf = \"http://purl.org/censi/research/2012-plos-saccades.pdf\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
   "order": 32
  }, 
  "censi12cameracalib_preprint": {
   "fields": {
-   "kind": "preprint", 
    "title": "Calibration by correlation using metric embedding from non-metric similarities", 
    "url": "http://purl.org/censi/2012/camera_calibration", 
    "author": [
@@ -1027,6 +1031,7 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png", 
    "number": "CaltechAUTHORS:20120805-103228127", 
+   "month": "11", 
    "note": "(Accepted with minor revisions in IEEE Transactions on Pattern Analysis and Machine Intelligence)", 
    "year": "2012", 
    "pdf": "http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf", 
@@ -1034,8 +1039,8 @@
    "institution": "California Institute of Technology", 
    "desc": "[Davide] and I explain how to calibrate a generic single-view-point camera\nby only waving it around.\n\n[Davide]: https://sites.google.com/site/scarabotix/home"
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\nTechnical Report CaltechAUTHORS:20120805-103228127, California Institute of Technology, 2012.\n<span class=\"note\">(Accepted with minor revisions in IEEE Transactions on Pattern Analysis and Machine Intelligence).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi12cameracalib_preprint,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    number = \"CaltechAUTHORS:20120805-103228127\",\n    note = \"(Accepted with minor revisions in IEEE Transactions on Pattern Analysis and Machine Intelligence)\",\n    year = \"2012\",\n    pdf = \"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\nTechnical Report CaltechAUTHORS:20120805-103228127, California Institute of Technology, 11 2012.\n<span class=\"note\">(Accepted with minor revisions in IEEE Transactions on Pattern Analysis and Machine Intelligence).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi12cameracalib_preprint,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    number = \"CaltechAUTHORS:20120805-103228127\",\n    month = \"11\",\n    note = \"(Accepted with minor revisions in IEEE Transactions on Pattern Analysis and Machine Intelligence)\",\n    year = \"2012\",\n    pdf = \"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
   "order": 33
  }, 
  "censi09attitude": {
@@ -1100,9 +1105,6 @@
  "censi12joint_preprint": {
   "fields": {
    "kind": "preprint", 
-   "title": "Simultaneous calibration of odometry and sensor parameters for mobile robots", 
-   "url": "http://purl.org/censi/2012/joint_calibration", 
-   "journal": "IEEE Transactions on Robotics", 
    "author": [
     {
      "last": "Censi", 
@@ -1121,15 +1123,19 @@
      "first": "Giuseppe"
     }
    ], 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/calibration.jpg", 
-   "note": "(to appear)", 
+   "title": "Simultaneous calibration of odometry and sensor parameters for mobile robots", 
+   "url": "http://purl.org/censi/2012/joint_calibration", 
+   "journal": "IEEE Transactions on Robotics", 
    "year": "2013", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/calibration.jpg", 
+   "note": "(To appear)", 
+   "sortyear": "2011", 
    "pdf": "http://purl.org/censi/research/2012-joint_calibration.pdf", 
    "type": "article", 
    "desc": "Fast, practical, and extremely precise \nsimultaneous estimation of odometry and sensor configuration \nparameters for mobile robots."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\n<em>IEEE Transactions on Robotics</em>, 2013.\n<span class=\"note\">(to appear).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-joint_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi12joint_preprint,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    kind = \"preprint\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    journal = \"IEEE Transactions on Robotics\",\n    note = \"(to appear)\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2012-joint_calibration.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\n<em>IEEE Transactions on Robotics</em>, 2013.\n<span class=\"note\">(To appear).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-joint_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi12joint_preprint,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    kind = \"preprint\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    journal = \"IEEE Transactions on Robotics\",\n    year = \"2013\",\n    note = \"(To appear)\",\n    sortyear = \"2011\",\n    pdf = \"http://purl.org/censi/research/2012-joint_calibration.pdf\"\n}\n\n", 
   "order": 35
  }, 
  "censi11bds": {
