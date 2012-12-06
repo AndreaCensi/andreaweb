@@ -24,7 +24,7 @@ along with some highlights of recent activity.
 <style type='text/css'>
 div.high {
     display: block;
-    border: solid 1px black;
+    
     margin: 0.5em;
     float: left;
     text-align: center;
@@ -32,8 +32,12 @@ div.high {
     
     height: 10em;
 }
+div.high:hover { 
+    border: solid 0.5em #ecc; 
+    padding: 0.5em;
+}
 div.high img { width: 7em;}
-div.high P A {
+div.high P {
     font-weight: bold;
 }
 div.container { display: block;
@@ -42,34 +46,45 @@ padding-bottom: 2em;}
 </style>
 
 <div class='container'>
+    <a href="/research/bootstrapping">
     <div class='high'>
-        <a href="/research/bootstrapping"><img src='/media/paper-icons/bv_icon.png'></a>
         <p>
-        <a href="/research/bootstrapping">Bootstrapping</a>
+        Bootstrapping
         </p>
+        <img src='/media/paper-icons/bv_icon.png'></a>
     </div>
+</a>
 
+<a href="/research/biology">
     <div class='high'>
-        <a href="/research/biology"><img src='/media/paper-icons/censi12saccade_preprint.png'></a>
         <p>
-        <a href="/research/biology">Biology</a>
+        Biology
         </p>
+        <img src='/media/paper-icons/censi12saccade_preprint.png'>
     </div>
+</a>
 
+<a href="/research/robot-perception">
     <div class='high'>
-        <a href="/research/robot-perception"><img src='/media/paper-icons/bv_icon.png'></a>
         <p>
-        <a href="/research/robot-perception">Robot perception</a>
+        Robot perception
         </p>
+        <img src='/media/paper-icons/ftf.jpg'>
     </div>
+</a>
+
+<a href="/research/estimation">
     <div class='high'>
-        <a href="/research/estimation"><img src='/media/paper-icons/bv_icon.png'></a>
         <p>
-        <a href="/research/estimation">Other<br/>estimation<br/>problems</a>
+        Other<br/>estimation<br/>problems
         </p>
+        <img src='/media/paper-icons/fractals.jpg'>
     </div>
+</a>
+
 </div>
 
+See also: [List of publications][Publications];  [Research software](/software).
 
 <div id='problems' markdown=1>
 
@@ -138,7 +153,7 @@ I'm interested in both combinations (and both will provide a lifetime learning e
 <div style='clear: both'></div>
 
 
-Keep reading for some highlights from my research, or read my [publications] list.
+<!-- Keep  reading for some highlights from my research, or read my [publications] list.-->
 
 
 [information_spaces]: http://msl.cs.uiuc.edu/~lavalle/
@@ -156,8 +171,6 @@ Keep reading for some highlights from my research, or read my [publications] lis
 
 
 <!-- - [Older research on estimation in robotics](vignettes) -->
-See also:
-- [List of publications][Publications]
-- [Research software](/software) 
+
 
 [Publications]: /publications
