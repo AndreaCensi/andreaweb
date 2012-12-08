@@ -54,6 +54,8 @@
     
     RewriteRule  .*/status/(.*) /media/status/$1 [R]
 
+    RewriteRule  (.*)/index.html $1 [R]
+
 	<Directory />
 		Options FollowSymLinks
 		AllowOverride None
