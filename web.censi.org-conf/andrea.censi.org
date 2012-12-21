@@ -39,8 +39,17 @@
     #Alias /pdf.gif "/home/andrea/scm/andreaweb/src/media/pdf.gif"
     #Alias /web.gif "/home/andrea/scm/andreaweb/src/media/web.gif"
 
+    Alias /pub/1212-DVS-data "/mnt/1212-DVS-data/"
     Alias /pub/ "/mnt/andreapub1/andrea-pub/"
-    
+    Alias /pri/ "/mnt/andreapub1/andrea-pri/"
+    <Directory /mnt/1212-DVS-data/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+
     RewriteEngine on
 
     # force andrea.caltech.edu
@@ -82,6 +91,13 @@
         allow from all
     </Directory>
 
+   <Directory /mnt/andreapub1/andrea-pri/>
+        Options -Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
     LogLevel info
 	ErrorLog ${APACHE_LOG_DIR}/andrea.censi.org/error.log
 	CustomLog ${APACHE_LOG_DIR}/andrea.censi.org/access.log combined
@@ -92,4 +108,7 @@
     ScriptAlias /stats/ /usr/lib/cgi-bin/
     Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
 
+
+
+    
 </VirtualHost>

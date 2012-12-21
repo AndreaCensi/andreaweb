@@ -1,5 +1,3 @@
-
-
 <div style='float: right; margin: 1em; border: solid 2px #eee;'>
 <object width="320" height="200"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="200"></embed></object> 
 </div>
@@ -58,9 +56,9 @@ The following are already included in my dissertation:
 [pub_ref_desc id='censi11bds']
 
 
+[bevideos]: http://purl.org/censi/research/2011-bgds/
 
-
-[bevideos]: http://purl.org/censi/2010/be
+[bevideos_old]: http://purl.org/censi/2010/be
 [bds]: http://purl.org/censi/2010/boot
 
 [many other videos]: bevideos

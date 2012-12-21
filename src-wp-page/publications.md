@@ -1,5 +1,10 @@
-Most papers have supplementary materials available (datasets, source code, etc.).  
-Follow the links marked as "<a href="#"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a>" to access them.
+*Legend*: 
+<img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/slides2.gif'/> **slides** presented at a conference or other meeting;
+<img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/web.gif'/>&nbsp;**datasets** or **source code**.  
+Layout shamelessly copied from [Cyrill][cyrill].
+
+
+[cyrill]: http://www.informatik.uni-freiburg.de/~stachnis/
 
 #### Preprints
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".

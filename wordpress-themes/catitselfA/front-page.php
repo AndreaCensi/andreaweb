@@ -117,25 +117,12 @@ CHEWBA_61e5.badger.init("CHEWBA_61e5");
 </script>
 <script type='text/javascript' src="http://pipes.yahoo.com/pipes/zIQi0Iy72xGJ3NMhJhOy0Q/run?_render=json&amp;_callback=CHEWBA_61e5.badger.pingFeed&amp;s=http://github.com/AndreaCensi.atom"></script>
 
-
 <div id='widget-gplus'>
-    <h3>Google+</h3>
-<script type="text/javascript">
-ww='600';wh='600';pid='106839984596770449716';
-
-mbgc='ffffff';;mbc='ffffff';bbc='3F79D5';
-bmobc='3b71c6';bbgc='4889F0';bmoc='3F79D5';bfc='FFFFFF';bmofc='ffffff';tlc='ffffff';
-tc='6a6a6a';nc='6a6a6a';bc='6a6a6a';l='y';fs='18';fsb='15';bw='140';ff='4';lu='6a6a6a';
-pc='4889F0';b='s'; </script>
-<script type="text/javascript" src="http://widgetsplus.com/google_plus_widget.js">
-</script>
-<script type="text/javascript">
-$(document).ready(function(){
-    //$('#widget-gplus').css();
-    $('#wgp_wrapper').css({'border': 'solid 1px red', 'width': '600'});
-    $('#wgp_wrapper').width(600);
-});
-</script>
+   
+<!--Place the code below where you want the widget to render-->
+<div id="gpluswidget" data-id="106839984596770449716" data-key="AIzaSyAmCrdKWfCqbw5eRHwXftqetgnIliTwIcc" 
+data-posts="10" data-lang="yes" data-width="400" data-bkg="transparent" data-padding="10" data-border="f5f5f5" data-radius="0" data-txt="0c0c0c" data-link="36c" data-favicon="yes" data-header="yes" data-footer="yes" data-page="no"></div>
+<script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
 </div>
 
 

@@ -13,17 +13,7 @@
  
 <script type="text/javascript" 
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-<!-- MathJax.Hub.Config({
-  TeX: {
-    Macros: {
-      RR: "{\\bf R}",
-      bold: ["{\\bf #1}",1]
-    }
-  }
-});
-
- -->
+ 
 
 
 <script type="text/x-mathjax-config">
@@ -43,3 +33,8 @@
   });
   MathJax.Ajax.loadComplete("/media/tex/symbols.js");
 </script>
+
+<!-- flow player -->
+<script src="http://releases.flowplayer.org/5.2.1/flowplayer.min.js"></script>
+<link rel="stylesheet" type="text/css"
+   href="http://releases.flowplayer.org/5.2.0/skin/functional.css" />

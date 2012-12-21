@@ -1,9 +1,14 @@
-
 ### Media
 
-- Some videos of the Vehicles doing exploration, servoing, etc. [are available here][here].
+- Chapter 11: [Videos for calibration ][video-calib]
+- Chapter 12-13: [Videos using the Vehicles simulations (exploration, servoing)][video-sim].
+- Chapter 14: [Videos using real data (camera/range-finders on mobile robots)][video-real]
 
-[here]: http://purl.org/censi/research/2012-bv1bds1/videos/
+[video-calib]: http://purl.org/censi/2012/camera_calibration#media
+[video-real]: http://purl.org/censi/research/2011-bgds/#sensels
+[video-sim]: video-vehicles
+
+
 
 ### Software
 
@@ -39,5 +44,3 @@ These are miscellaneous utilities for creating reports, videos, and general plum
 - [conf_tools](http://github.com/AndreaCensi/conf_tools), for reading yaml 
   configuration.
 - [PyContracts](http://github.com/AndreaCensi/contracts)
-
- 
