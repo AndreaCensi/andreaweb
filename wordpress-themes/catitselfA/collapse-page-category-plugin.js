@@ -43,26 +43,44 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	    var clicker='<a href="#" style="text-decoration:none;" onclick="return kpg_colpage_context(event);">&#9654;&nbsp;</a>';
 		// right triangle is &#9657;
 		// filed triangles are one less than open ones.
-		try {
-			var b=document.getElementsByTagName("UL"); // case sensitive XML
-			for (var i=0;i<b.length;i++) {
-				// make parent clickable and the child no display
-				if (b[i].className=="children") {
-					// search for parent li - check a few times incase the ul tags are heavily formatted
-					var p=b[i].parentNode;
-					b[i].style.visibility="hidden";
-					b[i].style.display="none";
-					// set the p object with a character before with a click item attached to it.
-					p.innerHTML=clicker+p.innerHTML;
-					// code thanks to Jette!!
-					var m = p.className.match(/current_page_/);
-					if (m !=null) {
-						b[i].style.visibility="visible";
-						b[i].style.display="block";
+		var c=document.getElementsByTagName("body"); // case sensitive XML
+
+		function classList(elem){
+		   var classList = elem.attr('class').split(/\s+/);
+    	  var classes = new Array(classList.length);
+    		$.each( classList, function(index, item){
+        	classes[index] = item;
+    		});
+		    return classes;
+		};
+
+		classes = classList($('body'));
+		if (-1 == $.inArray('home', classes)) {
+			// if there is no home in array ..
+
+			try {
+				var b=document.getElementsByTagName("UL"); // case sensitive XML
+				for (var i=0;i<b.length;i++) {
+					// make parent clickable and the child no display
+					if (b[i].className=="children") {
+						// search for parent li - check a few times incase the ul tags are heavily formatted
+						var p=b[i].parentNode;
+						b[i].style.visibility="hidden";
+						b[i].style.display="none";
+						// set the p object with a character before with a click item attached to it.
+						p.innerHTML=clicker+p.innerHTML;
+						// code thanks to Jette!!
+						var m = p.className.match(/current_page_/);
+						if (m !=null) {
+							b[i].style.visibility="visible";
+							b[i].style.display="block";
+						}
 					}
 				}
-			}
-		} catch (ee) {}
+			} catch (ee) {}
+
+		}
+
 	}
 
 	if (!document.all) {

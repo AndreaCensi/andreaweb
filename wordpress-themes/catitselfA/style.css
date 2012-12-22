@@ -50,7 +50,8 @@ Version:        0.1.0
 
     aside ul {
         padding-left: 5px !important; 
-        border-left: solid 4px #cce;
+        /*border-left: solid 4px #cce;*/
+        border-left: solid 4px #eee;
     }
     aside li a {  font-weight: normal !important; color: black !important;}
     aside li a:hover {  text-decoration: none !important; background-color: #eee;}
@@ -85,9 +86,14 @@ Version:        0.1.0
 
     body.home div#content { margin-left: 0 !important;}
     div#secondary {
-        position: fixed !important; 
         padding-left: 1em !important; 
-        top: 5em;}
+    
+        /* Fix it */
+        /*position: fixed !important; 
+        top: 5em;*/
+        margin-top: 5em;
+        z-index: -1000 !important;
+    }
     
     
     
@@ -119,7 +125,7 @@ div.post h4 a { color: #226 !important; }
 
     div.shortpost .title {display: none;}
     div.shortpost h4 {display: inline; font-weight: bold; float: left;
-                    padding-right: 1em;}
+                    padding-right: 1em; font-size: smaller;}
 
     /* Compact paragraphis and lists inside short news */
     div.shortpost div.entry p {
@@ -224,3 +230,6 @@ div.pub-ref-desc img.icon {
     margin-bottom: 1em;
     border: solid 1px black;
 }
+
+/* no grey bottom border */
+article { border: 0 !important;} 

@@ -15,20 +15,36 @@ body {
     /*div#page, div#main, div#content { border: solid 1px green;}*/
 
 
+
+/* aside with pages */
+    #aside-front  { 
+        float: left;
+        padding-left: 1em !important; 
+        margin-top: 5em;
+        z-index: -1000 !important;
+    }
+
+    aside#aside-front, aside#aside-front h3 { width: 150px !important;}
+
+
     
     div#picture { 
         display: block; 
         float: left; 
-        width: 45%;
+        width: 35%;
         max-width: 30em;
         /*border: solid 1px red;*/
     }
     div#description { 
-        width: 45%; 
+        /*width: 45%; */
         display: block; 
         float: left; 
         /*border: solid 1px blue;*/
     }
+
+/* debug */ 
+    /*aside#aside-front, div#picture, div#description { border: solid 1px red;}*/
+
     div.figure { }
     img#andrea_censi_portrait { width: 70%;}
 
@@ -43,10 +59,7 @@ body {
     p#notice { color: darkred; clear: both; font-weight: bold; font-size: smaller;
         text-align: center; }
 
-/* layout: second */
-    div#updates  { clear: left; float: right; width: 40%; }
-    div#news     { clear: left; }
-    div#travel   { clear: left;display: block;}
+
     /* padding */
     div#updates  {  padding: 1em; }
     div#news     {  padding: 1em; }
@@ -89,7 +102,9 @@ body {
     
     div#personal { clear: left;}
     
-    div#news {display: block; width: 35%;}
+    div#news {display: block; 
+        /*width: 35%;*/
+    }
     /*div#news {border: solid 1px red;}*/
     div#news  dl {  }
     div#news  dl p {  padding: 0 ; margin: 0;}
@@ -99,44 +114,71 @@ body {
  }
 
 
-    #travel dl { display: block; width: 100%; 
+ /* layout */
+ 
+    div#short_news_and_travel {
+        display: block; 
+        float: left; 
+        clear: left;
+    }
+    div#short_news {
+    }
+    div#travel { 
+    }
+    div#research_items {display: block; float: left; }
+
+    div#widget-gplus {
+        float: right;
+    
+        /*border: solid 1px red;*/
+    }
+
+ /* proportions */
+    div#short_news_and_travel {
+        width: 20%;
+    }
+    div#travel { }
+    div#short_news {} 
+    div#research_items { 
+        width: 35%;}
+    div#widget-gplus {
+        width: 20% !important;
+    }
+
+/*spacing*/
+
+    div#short_news_and_travel {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+/* travel */
+
+    #travel dl { display: block; 
+        /*width: 100%; */
              }
     #travel dd { display: inline;  
                     float: left; 
                     line-height: 100%;
                     /*# top right bottom left*/
                     margin: 0 !important;
-                    padding: 0.5em 0 0 0  !important;
-                    padding-top: 0.5em !important; 
+                    padding-right: 0 !important;
+                    padding-top: 0 !important;
+                    padding-bottom: 0.5em !important; 
+                    padding-left: 0.5em !important; 
                     }
 
     #travel dt { clear: left; float: left; display: block; text-align: right;
                       font-weight: bold; 
-                    margin-bottom: 0.5em !important;
-                    margin-right: 1em !important;  line-height: 110%;           
+                    margin-bottom: 0 !important;
+                    margin-right: 0em !important;  line-height: 110%;           
                     font-weight: normal;
                     font-size: smaller;
                   }
     #travel  dl { margin: 0 !important; padding: 0 !important;} 
 
              
-     /* Separate from first part*/
-    div#short_news, div#research_items { margin-top: 2em; }
-        #short_news_title {margin-top: 2em;}
-
-    div#short_news { clear: left;} 
      
-    div#short_news {display: block; float: left; width: 34%;}
-    
-    div#research_items {display: block; float: left; width: 55%;}
-    div#research_items {display: block}
-
-    div#short_news {
-        padding-left: 2em;
-    }
-    div#research_items {
-        padding-left: 2em;
-    }
      
     #page {
         padding: 0;

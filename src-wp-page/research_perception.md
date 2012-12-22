@@ -1,28 +1,3 @@
-<!-- The last decades
-
-
-(perception video from the point of view of algorithms)
-
-
-
-
-Interested in geometry, etc.
-
-#### Software
-
-#### Recent work
-
-- paper 1
-- paper 2 -->
-
-
-## Planning
-[pub_ref_desc id='censi12dptr1_preprint']
-[pub_ref_desc id='censi08ppu']
-
-## Robot control
-[pub_ref_desc id='han10pose']
-[pub_ref_desc id='censi09attitude']
 
 ## Calibration
 [pub_ref_desc id='censi12cameracalib_preprint']
@@ -41,6 +16,3 @@ Interested in geometry, etc.
 [pub_ref_desc id='censi07achievable']
 [pub_ref_desc id='censi06scan']
 [pub_ref_desc id='censi05hough']
-
-
-
