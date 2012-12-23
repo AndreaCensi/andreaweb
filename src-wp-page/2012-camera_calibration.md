@@ -34,28 +34,88 @@ in the paper (download the complete logs [here][logs]).
 From these videos, and nothing else, we can reconstruct the sensor geometry
 for generic optics.
 
+<style type='text/css'>
+table tr#head td { font-weight: bold; text-align: center;}
+table tr#where td { font-style: italic; text-align: center;}
+table td.what { 
+    vertical-align: middle;
+    font-style: italic !important; 
+    font-weight: normal !important; 
+    text-align: right !important;
+}
+tr.distribution td img {
+  width: 100%;
+}
+</style>
 <div style='text-align: center'>
 <table>
 <tr id='head'>
-<td>Flip Mino</td>
-<td>GOPRO</td>
-<td>Omnidirectional camera</td>
-</tr>
-<tr id='where'>
-<td>Caltech campus</td>
-<td>Streets of Philadelphia</td>
-<td>indoor</td>
+<td class="what">camera</td>
+<td>
+    <p>Flip Mino</p>
+    <img src='http://purl.org/censi/research/2012-camera_calibration/images/flip_small.jpg'/>
+</td>
+<td>
+    <p>GOPRO</p>
+    <img src='http://purl.org/censi/research/2012-camera_calibration/images/gopro_small.jpg'/>
+</td>
+<td>
+    <p>Omnidirectional camera</p>
+    <img src='http://purl.org/censi/research/2012-camera_calibration/images/omni_small.jpg'/>
+</td>
 </tr>
 <tr>
-<td>
-<object width="350" height="250"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33842986&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33842986&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="350" height="250"></embed></object>
-</td>
-<td>
-<object width="350" height="250"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33842992&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33842992&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="350" height="250"></embed></object>
-</td>
-<td>
-<object width="350" height="250"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="350" height="250"></embed></object>
-</td>
+  <td class="what">example log</td>
+  <td>
+  <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33842986&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33842986&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+  </td>
+  <td>
+  <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33842992&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33842992&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+  </td>
+  <td>
+  <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+  </td>
 </tr>
+<tr id='where'>
+  <td class="what">place</td>
+  <td>Andrea walking in the Caltech campus</td>
+  <td>Davide walking in the <a href="http://www.youtube.com/watch?v=4z2DtNW79sQ">streets of Philadelphia</a></td>
+  <td>Davide indoor shaking it like a polaroid picture</td>
+</tr>
+<tr id='solution' class='distribution'>
+    <td class="what">solution</td>
+    <td>
+       <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-S-aligned.pdf">
+      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
+      </a>
+    </td>
+    <td>
+       <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-S-aligned.pdf">
+      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-S-aligned.pdf">
+      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
+    </a>
+    </td>
+</tr>
+<tr id='groundtruth' class='distribution'>
+    <td class="what">ground truth</td>
+    <td>
+      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-true-S.pdf">
+      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-true-S-png.png"/>
+    </a>
+    </td>
+    <td>
+      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-true-S.pdf">
+      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-true-S-png.png"/>
+      </a>
+    </td>
+    <td>
+      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-true-S.pdf">
+      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-true-S-png.png"/>
+    </a>
+    </td>
 </table>
 </div>

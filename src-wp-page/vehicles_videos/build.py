@@ -17,13 +17,13 @@ def main(args):
     records.sort(key=lambda x:x['robot'])
 
 
-    records_expl = [r for r in records if r['episode'] == 'ep_expl_expswitch_t1_00000']
+    records_expl = [r for r in records if r['episode'] == 'ep_expl_expswitch_t1_00000' and r['video'] == 'exz1sb']
     write_all(records_expl, 'list_exploration.md')
 
     records_servo = [r for r in records if r['episode'] == 'ep_serv_bdse3_00000']
     write_all(records_servo, 'list_servo.md')
 
-    records_servonav = [r for r in records if r['episode'] == 'ep_servonav_bdse3_00000']
+    records_servonav = [r for r in records if r['episode'] == 'ep_servonav_bdse3_00000' and r['video'] == 'mp4f2sr']
     write_all(records_servonav, 'list_servonav.md')
 
     write_all(records[:10], output)

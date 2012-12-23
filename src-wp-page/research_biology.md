@@ -1,9 +1,9 @@
 <!-- #### Highlight - Identification of visually-guided behavior in Drosophila Melanogaster -->
 
-I have been collaborating with [the Dickinson lab], in particular with [Andrew Straw][straw] (who now has his own lab at the Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
+I have been collaborating with [the Dickinson lab][dickinson_lab], in particular with [Andrew Straw][straw] (who now has his own lab at the Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.
 
 <div style='float: right; margin: 1em; border: solid 2px #eee;'>
-<object width="320" height="276"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="276"></embed></object> 
+<object width="320" height="276"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=1&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="276"></embed></object> 
 </div>
 
 The video  shows the kind of simulated
@@ -19,7 +19,7 @@ Video: Simulated visual input from tracking data of free-flying Drosophila Melan
 [straw]: http://strawlab.org
 [mamarama]: http://www.its.caltech.edu/~astraw/research/flydra/
 
-[the Dickinson lab]: http://www.dickinson.caltech.edu/
+[dickinson_lab]: http://www.dickinson.caltech.edu/
 
 ### Recent papers
 

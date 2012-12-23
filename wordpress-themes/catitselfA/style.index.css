@@ -1,19 +1,6 @@
 body {
         padding: 0; margin: 0;
     }
-/* First row
-    div#page
-        div#main
-            div#content
-    div#picture
-        div.figure
-        div.figure
-    div#description
-
-    p#notice
-*/
-    /*div#page, div#main, div#content { border: solid 1px green;}*/
-
 
 
 /* aside with pages */
@@ -26,8 +13,6 @@ body {
 
     aside#aside-front, aside#aside-front h3 { width: 150px !important;}
 
-
-    
     div#picture { 
         display: block; 
         float: left; 
@@ -114,7 +99,15 @@ body {
  }
 
 
- /* layout */
+/* layout top */
+
+/* no space for menu on ipad */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    aside#aside-front { display: none;}
+}
+
+
+ /* layout bottom */
  
     div#short_news_and_travel {
         display: block; 
@@ -135,9 +128,11 @@ body {
 
  /* proportions */
     div#short_news_and_travel {
-        width: 20%;
+        width: 20em;
     }
-    div#travel { }
+    div#travel { 
+        width: 20em;
+    }
     div#short_news {} 
     div#research_items { 
         width: 35%;}
