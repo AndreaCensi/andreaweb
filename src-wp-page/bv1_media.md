@@ -12,29 +12,60 @@
 
 <div id="examples">
   <style type="text/css">
-   div.examples { display: block; width: 100%;}
-   div.examples div.video-example { display: block; float: left; width: 25%;}
-   div.examples div.video-example { border: solid 1px black;}
+   div#examples { display: block; width: 100%; overflow: auto;}
+   div#examples div.example { display: block; float: left !important; width: 25% !important; margin: 1em;}
+   /*div#examples div.example { border: solid 1px black !important;}*/
+   div#examples div.example p.caption { height: 3em; padding: 0; font-style: italic; margin: 0;}
+   div#examples div.example p.other { text-align: right; width: 90%; height: 2em;}
+   div#examples div.example p.other:before { content: "→";}
+   div#examples div.example div.frame { display: block; height: 200px; vertical-align: middle;}
   </style>
-  <div class="video-example">
+  <div class="example">
     <p class="caption">
-      Calibration by correlation. 
+      Data used for calibration by correlation. 
     </p>
+    <div class="frame">
+    <object width="250" height="160"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+  </div>
     <p class="other">
-      <a href="http://purl.org/censi/2012/camera_calibration#media">See other videos for Chapter 11</a>
+      <a href="http://purl.org/censi/2012/camera_calibration#media">other videos <br/>for Chapter 11</a>
     </p>
-    <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+</div>
+
+<div class="example">
+    <p class="caption">
+      Vehicles navigation using bootstrapped models. 
+    </p>
+    <div class="frame">
+    <div data-ratio='0.552' class="flowplayer is-splash color-light"
+        style="background: #000 url('http://purl.org/censi/research/2012-bv1bds1/videos/splash/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.png') 0 0 no-repeat; background-size: 100%;">
+        <video preload="none" 
+               src="http://purl.org/censi/research/2012-bv1bds1/videos/bv1servo1/videos/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.mp4">
+        </video>
+    </div>
+    </div>
+    <p class="other">
+      <a href="videos-vehicles">other videos <br/>for Chapters 12-13</a>
+    </p>
   </div>
 
-  <div class="video-example">
+    <div class="example">
     <p class="caption">
-      Navigation using bootstrapped models. 
+      Larning BGDS model with streaming data
     </p>
-    <p class="other">
-      <a href="video-vehicles">See other videos for Chapters  12-13</a>
+    <div class="frame">
+<!--       1564x494 
+ -->    <div data-ratio='0.315' class="flowplayer is-splash color-light"
+        style="background: #000 url('http://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4.realsize.png') 0 0 no-repeat; background-size: 100%;">
+        <video preload="none" 
+               src="http://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4">
+        </video>
+    </div>
+    </div>
+      <p class="other">
+      <a href="http://purl.org/censi/research/2011-bgds/#sensels">other videos <br/>for Chapter 14+</a>
     </p>
-    <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
-  </div>
+</div>
 </div>
 
 
