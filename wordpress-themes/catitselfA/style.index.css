@@ -4,6 +4,7 @@ body {
 
 
 /* aside with pages */
+    #aside-front { display: none;}
     #aside-front  { 
         float: left;
         padding-left: 1em !important; 
@@ -61,7 +62,10 @@ body {
 
     div.figure p.caption { 
         margin-top: 0;
-        font-family: Times; text-align: justify; 
+        /*font-family: Times; */
+        text-align: justify; 
+        font-size: smaller;
+        font-style: italic;
         }
     div#description #also {  padding-right: 2em;}
     

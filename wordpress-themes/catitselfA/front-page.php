@@ -54,7 +54,8 @@ get_header(); ?>
     <div id='research_items'> 
 
     	<h3 id='what_new'> Longer news
-            <span id="rsslink">(<a rel="external nofollow" id="feedrss" title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src='media/rss.gif' alt='RSS'/>RSS feed</a>)</span>
+            <span id="rsslink">(<a rel="external nofollow" id="feedrss" 
+                title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src='media/rss.gif' alt='RSS'/> RSS feed</a>)</span>
         </h3>
 
             <?php
@@ -125,19 +126,19 @@ CHEWBA_61e5.badger.init("CHEWBA_61e5");
 -->
 
 <div id='widget-gplus'>
-<!--Place the code below where you want the widget to render-->
-<div id="gpluswidget" data-id="106839984596770449716" data-key="AIzaSyAmCrdKWfCqbw5eRHwXftqetgnIliTwIcc" 
-data-posts="10" data-lang="yes" data-width="300" data-bkg="transparent" data-padding="10" data-border="f5f5f5" 
-data-radius="0" data-txt="0c0c0c" data-link="36c" data-favicon="yes" data-header="yes" data-footer="yes" data-page="no"></div>
-<script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
-</div>
+    <h3>Google+ </h3>
+    <a href="https://plus.google.com/106839984596770449716">
+        <img class='site-icon' src='/media/googleplus.png'/>    
+        my Google+ profile</a><br/>
 
 
-    <!-- preload images --> 
-    <!-- <img src="media/portrait1.jpg" style='width:1px'/> 
-    <img src="media/portrait2.jpg" style='width:1px'/> 
- -->
+    <!--Place the code below where you want the widget to render-->
+    <div id="gpluswidget" data-id="106839984596770449716" data-key="AIzaSyAmCrdKWfCqbw5eRHwXftqetgnIliTwIcc" 
+    data-posts="10" data-lang="yes" data-width="300" data-bkg="transparent" data-padding="10" data-border="f5f5f5" 
+    data-radius="0" data-txt="0c0c0c" data-link="36c" data-favicon="yes" data-header="no" data-footer="yes" data-page="no"></div>
+    <script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
     </div>
+</div>
 
 
  

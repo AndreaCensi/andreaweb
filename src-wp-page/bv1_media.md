@@ -1,13 +1,41 @@
 ### Media
-
-- Chapter 11: [Videos for calibration ][video-calib]
-- Chapter 12-13: [Videos using the Vehicles simulations (exploration, servoing)][video-sim].
-- Chapter 14: [Videos using real data (camera/range-finders on mobile robots)][video-real]
-
 [video-calib]: http://purl.org/censi/2012/camera_calibration#media
 [video-real]: http://purl.org/censi/research/2011-bgds/#sensels
-[video-sim]: video-vehicles
+[video-sim]: videos-vehicles
 
+
+- Chapter 11: [Videos for calibration ][video-calib]
+- Chapters 12-13: [Videos using the Vehicles simulations (exploration, servoing)][video-sim].
+- Chapter 14: [Videos using real data (camera/range-finders on mobile robots)][video-real]
+
+
+
+<div id="examples">
+  <style type="text/css">
+   div.examples { display: block; width: 100%;}
+   div.examples div.video-example { display: block; float: left; width: 25%;}
+   div.examples div.video-example { border: solid 1px black;}
+  </style>
+  <div class="video-example">
+    <p class="caption">
+      Calibration by correlation. 
+    </p>
+    <p class="other">
+      <a href="http://purl.org/censi/2012/camera_calibration#media">See other videos for Chapter 11</a>
+    </p>
+    <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+  </div>
+
+  <div class="video-example">
+    <p class="caption">
+      Navigation using bootstrapped models. 
+    </p>
+    <p class="other">
+      <a href="video-vehicles">See other videos for Chapters  12-13</a>
+    </p>
+    <object width="250" height="180"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
+  </div>
+</div>
 
 
 ### Software
