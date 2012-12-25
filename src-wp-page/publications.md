@@ -1,7 +1,6 @@
 *Legend*: 
 <img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/slides2.gif'/> **slides** presented at a conference or other meeting;
 <img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/web.gif'/>&nbsp;**datasets** or **source code**.  
-Layout shamelessly copied from [Cyrill][cyrill].
 
 
 [cyrill]: http://www.informatik.uni-freiburg.de/~stachnis/
@@ -70,3 +69,6 @@ Layout shamelessly copied from [Cyrill][cyrill].
 [pub_ref      id='scrapper09']
 [pub_ref_desc id='censi06comparison']
 [pub_ref_desc id='BaCa04']
+
+
+Layout shamelessly copied from [Cyrill][cyrill].

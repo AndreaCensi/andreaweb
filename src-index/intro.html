@@ -1,13 +1,70 @@
-<div id="picture">
+<div id="picture" style='text-align: center;'>
+    <style type='text/css'>
+    div.subfig { display: block; 
+                  float: left; text-align: center; margin-right: 0 !important;
+                  margin-left: 0 !important;
+                padding-left: 0.4em; padding-right: 0.5em;
+                /*border: solid 1px red;*/
+            }
 
-    <div class='figure' id='portrait'>
-	    <p class='graphics'>
-	    	<a href="media/andrea_defense-small.jpg">
+    div.subfig img { display: block; width: 100%; }
+    img#andrea_censi_portrait2 { border: solid 2px blue; }
+    div#labrat img { border: solid 1px black; }
+
+    p.subfig-caption { margin: 0; padding: 0; font-size: smaller; font-style: italic; 
+        padding-top: 0.5em;}
+    /*div#academic { width: 30%;}
+    div#labrat { width: 26.24%;}
+    div#dvs { width: 26.24%;}
+    */    
+    div#academic { width: 28%;}
+    div#labrat { width: 24.24%;}
+    div#dvs { width: 24.2%;}
+    a#dvs-link { color: #001 inherit !important;}
+    #mycaption { margin: 0; padding: 0; float: left; clear: left; text-align: justify !important;
+        display: block; width: 100%; font-size: smaller; font-style: italic; }
+    </style>
+    <div class='figure graphics' id='portrait' style='display: block; width: 100%;'>
+     <div class='subfig' id='academic'>
+        <a href="media/andrea_defense-small.jpg">
             <img id='andrea_censi_portrait2'
-            style='height: 200px; float: left; border: solid 1px blue; margin: 1em;'
              src="media/andrea_defense-small-crop.jpg"  
 	     alt=''/></a>
+         <p class='subfig-caption'>
+            (a)  
+         </p>
+     </div>
+    <div class='subfig' id='labrat'>
+         <img id=''src="media/andrea_log.jpg"   alt=''/>
+         <p class='subfig-caption'>
+            (b)<!--  lab rat -->
+         </p>
+    </div>
+        <!--[if lte IE 8]>
+<style type='text/css'>
+#dvs { display: none; }
+.ie8hide { display: none; }
+#replacement { display: visible !important; }
+</style>
+<![endif]-->
+
+    <div class='subfig ie8hide' id='dvs'>
+
+        <div data-ratio='1.506' id='thatvideo' class="flowplayer is-splash color-light"
+        style="background: #000 url('http://andrea.caltech.edu/media/andrea-dvs/andrea-30fpsft3.mp4.png') 0 0 no-repeat; background-size: 100%; padding: 0!important; margin:0!important;
+        border: solid 1px black; ">
+        <video preload="auto" 
+               src="http://andrea.caltech.edu/media/andrea-dvs/andrea-30fpsft3.mp4">
+    <!--            <img id='replacement' src='http://andrea.caltech.edu/media/andrea-dvs/andrea-30fpsft3.mp4.png'
+        style='display: none; border: solid 1px black;'/>
+     -->    </video>
+        </div>
+
+        <p class='subfig-caption'>
+            (c)<!--  lab rat -->
         </p>
+    </div>
+        <!-- </p> -->
         <!--
         <p class='graphics'>
             <img id='andrea_censi_portrait'
@@ -49,11 +106,14 @@
             });
         });
         </script>
-    
-        <p class='caption' style=' padding: 1em; padding-top: 150px; word-break:hyphenate;'> 
-        Fig.&thinsp;1. The individual under inve&shy;sti&shy;ga&shy;tion, pic&shy;tu&shy;red he&shy;re in 
-        his na&shy;tu&shy;ral ha&shy;bi&shy;tat, but with a very unusual attire. <br/>
+        
+        <p id='mycaption' style=' word-break:hyphenate;'> 
+        Fig.&thinsp;1. The individual under inve&shy;sti&shy;ga&shy;tion; a)&nbsp;Pic&shy;tu&shy;red he&shy;re in 
+        his na&shy;tu&shy;ral ha&shy;bi&shy;tat, but with a very unusual attire. b)&thinsp;As seen by a robot equipped with two cameras (one looking through a mirror). 
+        <span class='ie8hide'>c)&thinsp;As seen by a
+        <a href="dvs" id='dvs-link'>dynamic vision sensor</a>.</span>
         <span id="other_picture" style="display:none">
+            <br/>
             See also: <a href="media/andrea_business_picture.jpg">hire-me-as-a-business-consultant picture</a>.
         </span>
         <span id='other_picture2' style="display:none">
@@ -104,14 +164,14 @@
 
 <div id="description">
     
-    <p>
+    <p id='myname'>
         <span style='font-weight: bold; '>
         <a  href="/misc/faq#andrea">Andrea</a> Censi 
     </span>
         <img src='/media/doteq.png' style='width: 0.8em; margin-left: 0.5em'/>
         <!-- <span style='font-size: 120%'>&#x2257;</span> -->
     
-<ul>
+<ul id='definition'> 
     <li><a href="http://www.youtube.com/watch?v=cqvnj2sy8H8">control</a>/<a href="http://www.youtube.com/watch?v=VXa9tXcMhXQ">robotics</a> 
         <a href="http://www.youtube.com/watch?v=CmYDgncMhXw">engineer</a> </li>
     <li><a href="http://en.wikipedia.org/wiki/Cybernetics">cybernetician</a> 
@@ -119,7 +179,6 @@
     <li><a href="http://en.wikipedia.org/wiki/Robopsychology">robopsychologist</a> 
         <a href="media/cognitive_robot_antonelli_icra08.jpg">hopeful</a></li>
 </ul>
-</p>
     
 <span id='also'>also:</span>
 
@@ -147,10 +206,10 @@
 <div id='links'>
         <style type='text/css'>
         img.site-icon { margin-bottom: -.5ex; 
-                        margin-right: 1ex; width: 2ex !important;  }
+                        margin-right: 0ex; width: 2ex !important;  }
         </style>
     <ul id='mainlinks'> 
-        <li><a href="http://purl.org/censi/cv"><b>CV</b> </a> / <a href='/misc/short-bio'>short bio</a> 
+        <li><a href="http://purl.org/censi/cv"><b>CV</b></a> / <a href='/misc/short-bio'>short bio</a> 
             / <a href="http://www.linkedin.com/in/censi">
             <img class='site-icon' src='/media/linkedin.jpg'/><!-- LinkedIn --></a>
         </li> 
@@ -162,26 +221,22 @@
                 <a href="research/biology/">biological agents</a>; 
                 <a href="research/estimation/">estimation/filtering</a> on geometric/algebraic structures.
         </li>
-        <li><a href="software">Software</a> (<a href="http://github.com/AndreaCensi/"><img class='site-icon' src='/media/github.jpg'/>GitHub</a>)
+        <li><a href="software">Software</a> (<a href="http://github.com/AndreaCensi/"><img class='site-icon' src='/media/github.jpg'/>GitHub</a>):
+            <a href="software/csm">CSM</a>,
+            <a href="software/pycontracts">PyContracts</a>,<br/>
+            <a href="software/compmake">Compmake</a><img class='site-icon' src='/media/new.png'/>
+            and <a href='software'>others</a>.
+
         </li>
     </ul>
-
-<!--     <ul id='otherlinks'>
-        <li><a href="https://plus.google.com/106839984596770449716">
-            <img class='site-icon' src='/media/googleplus.png'/>
-            Google+</a></li>
-        <li></li>
-        <li></li>
-        <li><a href="http://www.cds.caltech.edu/~andrea/blog/">My blog</a> </li>
-    </ul>
- --></div>
+ </div>
 
     <dl id='coordinates'>
         
         <dt>email</dt>
 
         <dd>
-            <span style="font-family: monospace; font-size:smaller">andrea<span></span>(at)<span></span>cds.caltech<span>.</span>edu </span>
+            <span style="">andrea<span></span>(at)<span></span>cds.caltech<span>.</span>edu </span>
              <br/>(<a href="media/andrea_censi.asc">GPG key</a> -
              <a href="http://www.gnupg.org/documentation/">what is this?</a>)
         </dd>
@@ -202,11 +257,11 @@
             </p> 
         </div>    
  -->
-1200 E California Blvd,<br/> MC 107-81, <br/>91125 Pasadena, CA.
+1200 E California Blvd,<br/> MC 107-81 91125 Pasadena, CA.
 
             <p style='color: red; padding-top: 1em'>Note: I am currently in Zurich, <br/> visiting
-            <a href="http://ailab.ifi.uzh.ch">the AI Lab</a>, <br/>
-             Oct. 15 through Jan. 2013.
+            <a href="http://ailab.ifi.uzh.ch">the AI Lab</a>
+             until Jan. 2013.
             </p> 
 </dd>
 

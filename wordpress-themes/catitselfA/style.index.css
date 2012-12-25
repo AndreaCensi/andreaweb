@@ -15,6 +15,7 @@ body {
     aside#aside-front, aside#aside-front h3 { width: 150px !important;}
 
     div#picture { 
+        padding-top: 2em;
         display: block; 
         float: left; 
         width: 35%;
@@ -57,6 +58,7 @@ body {
     div#description { padding-top: 1em;}
     div#updates { background-color: #FFFDFD; padding-left: 1em;  }
 
+    div#stats { padding-top: 2em;}
     div#stats img#updated { margin-bottom: -5px; float: right;}
     div#stats p.graphics img { width: 47%; padding: 1%;}
 
@@ -176,8 +178,8 @@ body {
                   }
     #travel  dl { margin: 0 !important; padding: 0 !important;} 
 
-             
-     
+    p#myname { margin-bottom: 0; padding-bottom: 0.5em;}        
+    ul#definition {margin-bottom: 0; padding-bottom: 0.5em;}       
      
     #page {
         padding: 0;
@@ -234,3 +236,7 @@ div#widget-gplus { float: left; width: 50%;  padding-left: 2em;
 font-family: serif !important; line-height: 120%;}
 
 div#wgp_wrapper {width: 500px !important; font-family: serif !important;}
+
+
+a:hover {background-color: #fee;}
+
