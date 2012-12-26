@@ -15,7 +15,7 @@ get_header(); ?>
     <div id="content" class="narrowcolumn" role="main">
     
 
-    <?php print_file('/home/andrea/scm/andreaweb/src-index/intro.html'); ?>
+    <?php include('/home/andrea/scm/andreaweb/src-index/intro.html'); ?>
 
     <div id='short_news_and_travel'>
         <div id='short_news'>

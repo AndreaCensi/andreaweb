@@ -204,7 +204,6 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
   </p>
 </div>
 
-
 <div class="quoteblock">
   <p class="quote important">The price of metaphor is eternal vigilance.
   
@@ -251,6 +250,22 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 </div>
 
 
+<h4>On data-based science</h4>
+ 
+<div class="quoteblock">
+  <p class="quote">If you torture data sufficiently, it will confess to almost anything.
+  
+ <span class="who">
+  <a href="http://www.chemistry.emory.edu/faculty/menger/index.html">
+    Fred Menger
+  </a>
+</span>
+  </p>
+   
+</div>
+
+
+
 <h4>On teaching</h4>
 
 <div class="quoteblock">
@@ -268,13 +283,25 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 
 <h4>On robotics</h4>
 
+
+<div class="quoteblock">
+  <p class="quote">Never antropomorphize robots --- they hate it.</p>
+
+  <p class="note">
+    Not sure about the attribution; I've read a similar one (with "computers")
+    from <a href="http://homes.cs.washington.edu/~mernst/">Michael Ernst</a>.
+  </p>
+</div>
+
+
 <div class="quoteblock">
   <p class="quote">The Three Laws of Roboticists:<br/>
   1. Never give a robotic demo.<br/>
   2. Follow your advisor's advice, except when it contrasts with the first Law.<br/>
-  3. Really, never give a robotic demo!
+  3. When the demo fails, protect yourself by blaming the batteries.
   </p>
 </div>
+
 
 <h4>On programming</h4>
 
@@ -297,5 +324,11 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
     </span>
   </p>
   
-  <p class="note">This is all I remember from a course on control of electric motors a few years back, but it is really good advice.</p>
+  <p class="note">This is all I remember from a course on control of electric motors a few years back, but it is really good advice. <br/><br/>Explanation: when you work around machines that operate
+    with industrial currents, one day you will screw up and touch something you
+    were not supposed to touch. If you are touching the apparatus with two hands,
+    chances are that current will flow from one hand to the other, through your
+    heart, and you'll probably die. If you are touching with only one hand, at most
+    you will get a "kick" and a slight burn. So, in doubt, always keep one hand in the pocket.
+  </p>
 </div>
