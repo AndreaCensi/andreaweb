@@ -160,18 +160,7 @@ h5 { color: #a00; }
 a:link, a:visited  {
     color: #44f;
     text-decoration:        none;
-}
-/*
-a:visited {
-    color: #88f;
-    text-decoration:        none;
-}
-/*
-a:hover {
-    text-decoration:        none;
-    color: #FFFFFF;
-    background-color: #00d;
-}*/
+} 
 
 
 /* Publication page */
@@ -248,3 +237,7 @@ div.pub_ref_page div.after-previews  {
 
 /* no grey bottom border */
 article { border: 0 !important;}
+
+
+p.purl-notice { font-size: smaller; font-family: sans-serif; color: #888;}
+p.purl-notice A { color: inherit !important;}

@@ -1,26 +1,20 @@
 <style type="text/css">
-   div.quoteblock {  }
-   div.quoteblock p.quote { font-style: italic; margin-left: 2em; width: 25em;}
-   div.quoteblock p.quote span.who { color: gray;}
-   div#cagepic {  display: block; float: right; width: 20em; padding: 0;
-      margin: 1.5em; 
-      /*border: solid 1px #eee; */
-      text-align: center; margin-right: -5em;}
-   div#cagepic img { width: 17em; }
-   div#cagepic p { }
-   h4 { margin-bottom: 1.5em;}
-   span.who { display: block; text-align: right;}
-   span.who:before {
-     content: "---";
-  }
-    p.translation { color: gray;}
-    p.translation:before { content: "(Translation: ";}
-    p.translation:after { content: ")";}
-
-    p.note {color: gray;}
-    /*p.note:before { content: "(";}
-    p.note:after { content: ")";}*/
-
+ div.quoteblock {  }
+ div.quoteblock p.quote { font-style: italic; margin-left: 2em; width: 25em;}
+ div.quoteblock p.quote span.who { color: gray;}
+ div#cagepic {  display: block; float: right; width: 20em; padding: 0;
+  margin: 1.5em; 
+  /*border: solid 1px #eee; */
+  text-align: center; margin-right: -5em;}
+ div#cagepic img { width: 17em; }
+ div#cagepic p { }
+ h4 { margin-bottom: 1.5em;}
+ span.who { display: block; text-align: right;}
+ span.who:before { content: "---";}
+ p.translation { color: gray;}
+ p.translation:before { content: "(Translation: ";}
+ p.translation:after { content: ")";}
+ p.note {color: gray;}
 </style>
 
 <p>I enjoy collecting quotes: behind each of these, there is a lesson I learned (sometimes painfully). 

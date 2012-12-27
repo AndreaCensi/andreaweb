@@ -1,14 +1,8 @@
 <style type='text/css'>
-    div.faq .q { 
-        font-style: italic; 
-    }
-
-    div.faq { 
-        padding-bottom: 2em;
-    }
-    div.faq .q:before  {
-        content: "Q: ";
-    }
+ div.faq { padding-bottom: 2em; }
+ div.faq .q { /*font-style: italic; */
+  font-weight: bold !important; }
+ div.faq .q:before { content: "Q: "; }
 </style>
 
 <div class='faq' id='andrea'><p class='q'> 
