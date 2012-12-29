@@ -15,7 +15,7 @@ get_header(); ?>
     <div id="content" class="narrowcolumn" role="main">
     
 
-    <?php include('/home/andrea/scm/andreaweb/src-index/intro.html'); ?>
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-intro.html'); ?>
 
     <div id='short_news_and_travel'>
         <div id='short_news'>
@@ -46,7 +46,7 @@ get_header(); ?>
         </div>
         
         <div id="travel">
-            <?php print_file('/home/andrea/scm/andreaweb/src-index/plans.html'); ?>
+            <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
         </div>
     </div>
 
@@ -79,7 +79,7 @@ get_header(); ?>
                         <?php } ?>
                     </div>
             <? endwhile; ?>
-            <a class='older' id='older-posts' href='/blog/page/5/'>Older posts... </a>
+            <a class='older' id='older-posts' href='/blog/page/10/'>Older posts... </a>
     </div>
 
     
