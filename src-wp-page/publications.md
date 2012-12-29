@@ -9,9 +9,10 @@
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
 </p>
 
-[pub_ref_desc id='carlone12angular_preprint']
 
 [pub_ref_desc id='censi12dptr1_preprint']
+
+[pub_ref_desc id='carlone12angular_preprint']
 
 
 #### Dissertation

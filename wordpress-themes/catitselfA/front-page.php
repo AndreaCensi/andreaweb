@@ -60,7 +60,7 @@ get_header(); ?>
 
             <?php
                 //query_posts('tag="research-item"'.'&orderby=date&order=desc');
-                query_posts('cat=-12'.'&orderby=date&order=desc'.'&posts_per_page=5');
+                query_posts('cat=-12'.'&orderby=date&order=desc'.'&posts_per_page=10');
                 $i = 0 ;
                 while (have_posts()) : the_post(); $i++; 
                     $link = 'blog/page/'.$i.'/';
@@ -73,7 +73,10 @@ get_header(); ?>
                             </a>
                         </h4>
                         <!-- <div class="entry"><?php the_content(); ?></div> -->
+
+                        <?php if ($i <= 5) { ?> 
                         <div class="entry"><?php the_excerpt(); ?></div>
+                        <?php } ?>
                     </div>
             <? endwhile; ?>
             <a class='older' id='older-posts' href='/blog/page/5/'>Older posts... </a>
