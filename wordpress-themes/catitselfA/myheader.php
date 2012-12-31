@@ -15,7 +15,6 @@
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
  
 
-
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     TeX: { 
@@ -38,3 +37,22 @@
 <script src="http://releases.flowplayer.org/5.2.1/flowplayer.min.js"></script>
 <link rel="stylesheet" type="text/css"
    href="http://releases.flowplayer.org/5.2.0/skin/functional.css" />
+
+
+<script src="/media/js/jquery.imageZoom.js"></script>
+<link rel="stylesheet" type="text/css"  href="/media/js/jquery.imageZoom.css"/>
+<script type="text/javascript">
+ $(document).ready(function() {
+  $(".imageZoom").imageZoom(); 
+ });
+</script>
+<!-- additional fonts -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' /> -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+
+<!-- <link href='http://fonts.googleapis.com/css?family=Signika:400,600,300,700' rel='stylesheet' type='text/css'/> -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700' rel='stylesheet' type='text/css'/> -->
+<link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
+
+
+

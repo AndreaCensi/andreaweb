@@ -3,7 +3,7 @@ Theme Name:     The Cat Itself A
 Theme URI:      http://web.censi.org/
 Description:    Child theme for the Twenty Eleven theme 
 Author:         Andrea Censi
-Author URI:     http://web.censi.org/
+Author URI:     http://purl.org/censi/web
 Template:       twentyeleven
 Version:        0.1.0
 */
@@ -97,19 +97,8 @@ Version:        0.1.0
     
     
     
-/* Fonts */
-body {
-    font-family: Georgia, serif;
-    line-height: normal !important;
-    font-size: 100%;
-}
 
 div#content { font-size: 11pt !important;}
-
-
-h1,h2,h3,h4 { 
-    font-family: Georgia, serif; !important;
-}
 
 h1 { font-size: 150%; margin-bottom: 0.5em;}
 h2 { font-size: 125%; margin-bottom: 0.5em;}
@@ -241,3 +230,25 @@ article { border: 0 !important;}
 
 p.purl-notice { font-size: smaller; font-family: sans-serif; color: #888;}
 p.purl-notice A { color: inherit !important;}
+
+
+
+
+/* Fonts */
+
+body {
+    font-family: 'Noticia Text', 'Georgia', serif !important;
+    /* Georgia, serif;*/
+    line-height: normal !important;
+    font-size: 100%;
+}
+
+h1,h2,h3,h4 { 
+    font-family:  'Noticia Text', 'Georgia', serif !important;
+    /*Georgia, serif; !important;*/
+}
+
+
+
+
+

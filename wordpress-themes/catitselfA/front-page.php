@@ -9,12 +9,11 @@ get_header(); ?>
 <aside class='widget widget_pages' id='aside-front'>
     <ul>
 <?php wp_list_pages(array('title_li' => '', 'depth'=>2)); ?>  
-</ul>
+    </ul>
 </aside>
 
-    <div id="content" class="narrowcolumn" role="main">
+<div id="content" class="narrowcolumn" role="main">
     
-
     <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-intro.html'); ?>
 
     <div id='short_news_and_travel'>
@@ -59,12 +58,10 @@ get_header(); ?>
         </h3>
 
             <?php
-                //query_posts('tag="research-item"'.'&orderby=date&order=desc');
                 query_posts('cat=-12'.'&orderby=date&order=desc'.'&posts_per_page=10');
                 $i = 0 ;
                 while (have_posts()) : the_post(); $i++; 
                     $link = 'blog/page/'.$i.'/';
-                    // get_the_permalink()
                 ?>
                     <div class='post'>
                         <h4> <span class='date'><?php the_time('Y-m-d') ?> </span>
@@ -72,79 +69,25 @@ get_header(); ?>
                                 <?php the_title(); ?>
                             </a>
                         </h4>
-                        <!-- <div class="entry"><?php the_content(); ?></div> -->
-
-                        <?php if ($i <= 5) { ?> 
+                        <?php if ($i <= 5): ?> 
                         <div class="entry"><?php the_excerpt(); ?></div>
-                        <?php } ?>
+                        <?php endif; ?>
                     </div>
             <? endwhile; ?>
             <a class='older' id='older-posts' href='/blog/page/10/'>Older posts... </a>
     </div>
 
-    
-
-
-<!--
-    <div id="CHEWBA_61e5">
-        <h3>Coding activity</h3>
-     Last commits to public repositories in   <a href="http://github.com/AndreaCensi">my github account</a>:
-            <ul><li/></ul>
-    </div>
- 
-<script type="text/javascript">
-//<![CDATA[
-var CHEWBA_61e5 = window.CHEWBA_61e5 || {};
-CHEWBA_61e5.badger = function() {
-    var $ = {};
-    return {
-        init: function(theBadge) {
-            $.theFeed = document.getElementById(theBadge).getElementsByTagName("ul")[0];
-            //$.theFeed = document.getElementById(theBadge).getElementsByTagName("ul")[0];
-        },
-        pingFeed: function(feed) {
-            $.theFeed.innerHTML = "";
-            if (feed.value.items.length) {
-                for (var i = 0; i < 15; i++) {
-                    var li = document.createElement("li");
-                    var a = document.createElement("a");
-                    a.innerHTML = feed.value.items[i].title;
-                    a.href = feed.value.items[i].link;
-                    a.target = "_blank";
-                    li.appendChild(a);
-
-                    /*var d = feed.value.items[i].pubDate;
-                    d = " - " + d.substring(0, d.lastIndexOf("2008") + 4);
-                    li.appendChild(document.createTextNode(d));*/
-                    $.theFeed.appendChild(li);
-                }
-            }
-        }
-    };
-} ();
-CHEWBA_61e5.badger.init("CHEWBA_61e5"); 
-//]]>
-</script>
-<script type='text/javascript' src="http://pipes.yahoo.com/pipes/zIQi0Iy72xGJ3NMhJhOy0Q/run?_render=json&amp;_callback=CHEWBA_61e5.badger.pingFeed&amp;s=http://github.com/AndreaCensi.atom"></script>
--->
 
 <div id='widget-gplus'>
     <h3>Google+ </h3>
     <a href="https://plus.google.com/106839984596770449716">
         <img class='site-icon' src='/media/googleplus.png'/>    
         my Google+ profile</a><br/>
-
-
-    <!--Place the code below where you want the widget to render-->
     <div id="gpluswidget" data-id="106839984596770449716" data-key="AIzaSyAmCrdKWfCqbw5eRHwXftqetgnIliTwIcc" 
     data-posts="10" data-lang="yes" data-width="300" data-bkg="transparent" data-padding="10" data-border="f5f5f5" 
     data-radius="0" data-txt="0c0c0c" data-link="36c" data-favicon="yes" data-header="no" data-footer="yes" data-page="no"></div>
     <script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
     </div>
 </div>
-
-
- 
-
 
 <?php get_footer(); ?>

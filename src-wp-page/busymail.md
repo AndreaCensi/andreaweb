@@ -1,5 +1,3 @@
-
-
 [BusyMail][BusyMail] is a Python program that provides statistics about 
 the user's email usage. It reads a given folder on an IMAP server (for me, the
 "starred" messages in GMail) and records which messages are present.
@@ -26,12 +24,18 @@ img.plot { width: 100% !important;}
 
 Complete stress plot (number of starred messages):
 
-<img class='plot' src='http://web.censi.org/~andrea/busyplot/stress_complete.png'>
+<a href="http://web.censi.org/~andrea/busyplot/stress_complete.png">
+  <img class='plot imageZoom' src='http://web.censi.org/~andrea/busyplot/stress_complete.png'>
+</a>
 
 Complete procrastination plot (<strong>mean</strong> message age):
 
-<img  class='plot'  src='http://web.censi.org/~andrea/busyplot/meanage_complete.png'>
+<a href="http://web.censi.org/~andrea/busyplot/meanage_complete.png">
+    <img  class='plot imageZoom'  src='http://web.censi.org/~andrea/busyplot/meanage_complete.png'>
+</a>
 
 Complete procrastination plot (<strong>median</strong>  message age):
-<img  class='plot' src='http://web.censi.org/~andrea/busyplot/procrastination_complete.png'>
-    
+
+<a href="http://web.censi.org/~andrea/busyplot/procrastination_complete.png">
+    <img class='plot imageZoom' src='http://web.censi.org/~andrea/busyplot/procrastination_complete.png'>
+</a>

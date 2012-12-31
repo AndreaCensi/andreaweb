@@ -18,8 +18,8 @@ body {
         padding-top: 2em;
         display: block; 
         float: left; 
-        width: 35%;
-        max-width: 30em;
+        /*width: 35%;*/
+        /*max-width: 30em;*/
         /*border: solid 1px red;*/
     }
     div#description { 
@@ -32,8 +32,6 @@ body {
 /* debug */ 
     /*aside#aside-front, div#picture, div#description { border: solid 1px red;}*/
 
-    div.figure { }
-    img#andrea_censi_portrait { width: 70%;}
 
     div#picture {   padding: 0.5em; padding-left: 1.5em; }
     div#description { padding-left: 1em;  }
@@ -239,4 +237,3 @@ div#wgp_wrapper {width: 500px !important; font-family: serif !important;}
 
 
 a:hover {background-color: #fee;}
-

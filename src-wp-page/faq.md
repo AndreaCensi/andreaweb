@@ -1,5 +1,5 @@
 <style type='text/css'>
- div.faq { padding-bottom: 2em; }
+ div.faq { padding-bottom: 2em; max-width: 45em;}
  div.faq .q { /*font-style: italic; */
   font-weight: bold !important; }
  div.faq .q:before { content: "Q: "; }
@@ -50,3 +50,6 @@
     </p><p class='a'> 
         Wordpress on Amazon EC2.
 </p></div>
+
+
+[external_page page='faq_robots']
