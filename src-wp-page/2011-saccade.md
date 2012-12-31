@@ -1,4 +1,4 @@
-[pub_ref_desc id='censi12saccade_preprint']
+[pub_ref_page id='censi12saccade_preprint']
 
 <!--   - [Preprint (PDF)][pdf], updated Dec 1, 2012.
   - [Slides (PDF)][slides] used at the annual meeting of the [Society for Integrative 
@@ -11,4 +11,3 @@
 [pdf]: http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438
 [sicb]: http://sicb.org/meetings/2012/schedule/
 [slides]: http://purl.org/censi/research/2012-sicb-saccades.pdf
-

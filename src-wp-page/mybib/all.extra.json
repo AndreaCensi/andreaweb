@@ -330,14 +330,12 @@
    "url": "http://openrdk.sourceforge.net", 
    "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)", 
    "year": "2008", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
    "month": "September", 
    "slides": "http://purl.org/censi/research/2008-iros-openrdk-slides.pdf", 
    "address": "Nice, France", 
    "pdf": "http://purl.org/censi/research/2008-iros-openrdk.pdf", 
    "type": "inproceedings", 
-   "abstract": "In this paper we conduct an analysis of existing frameworks for robot software development and we present OpenRDK, a modular framework focused on rapid development of distributed robotic systems. It has been designed following users' advice and has been in use within our group for several years. By now OpenRDK has been successfully applied in diverse applications with heterogeneous robots and as we believe it is fruitfully usable by others we are releasing it as open source..", 
-   "desc": ""
+   "abstract": "In this paper we conduct an analysis of existing frameworks for robot software development and we present OpenRDK, a modular framework focused on rapid development of distributed robotic systems. It has been designed following users' advice and has been in use within our group for several years. By now OpenRDK has been successfully applied in diverse applications with heterogeneous robots and as we believe it is fruitfully usable by others we are releasing it as open source.."
   }, 
   "html_short": "<span class=\"author\"><a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.</span>\n<span class=\"title\">OpenRDK: a modular framework for robotic software development.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. Nice, France, September 2008.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2008-iros-openrdk.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/IROS.2008.4651213\">doi</a></span><span class=\"url\"><a href=\"http://openrdk.sourceforge.net\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2008-iros-openrdk-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@inproceedings{calisi08openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    doi = \"10.1109/IROS.2008.4651213\",\n    title = \"{OpenRDK}: A Modular Framework for Robotic Software Development\",\n    url = \"http://openrdk.sourceforge.net\",\n    booktitle = \"Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\",\n    year = \"2008\",\n    month = \"September\",\n    slides = \"http://purl.org/censi/research/2008-iros-openrdk-slides.pdf\",\n    address = \"Nice, France\",\n    pdf = \"http://purl.org/censi/research/2008-iros-openrdk.pdf\",\n    abstract = \"In this paper we conduct an analysis of existing frameworks for robot software development and we present OpenRDK, a modular framework focused on rapid development of distributed robotic systems. It has been designed following users' advice and has been in use within our group for several years. By now OpenRDK has been successfully applied in diverse applications with heterogeneous robots and as we believe it is fruitfully usable by others we are releasing it as open source..\"\n}\n\n", 
@@ -983,6 +981,7 @@
  }, 
  "calisi12openrdk": {
   "fields": {
+   "type": "article", 
    "author": [
     {
      "last": "Calisi", 
@@ -1003,14 +1002,11 @@
    ], 
    "title": "Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint", 
    "url": "http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48", 
-   "type": "article", 
-   "journal": "Journal of Software Engineering for Robotics", 
-   "year": "2012", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/lorem.jpg", 
-   "number": "1", 
-   "sortyear": "2010", 
    "issue": "3", 
-   "desc": ""
+   "journal": "Journal of Software Engineering for Robotics", 
+   "sortyear": "2010", 
+   "year": "2012", 
+   "number": "1"
   }, 
   "html_short": "<span class=\"author\"><a href='http://www.dis.uniroma1.it/~calisi/'>Daniele Calisi</a>, A.C., <a href='http://www.dis.uniroma1.it/~iocchi/'>Luca Iocchi</a>, and <a href='http://www.dis.uniroma1.it/~nardi/'>Daniele Nardi</a>.</span>\n<span class=\"title\">Design choices for modular and flexible robotic software development: the OpenRDK viewpoint.</span>\n<em>Journal of Software Engineering for Robotics</em>, 2012.\n<span class=\"links\"><span class=\"url\"><a href=\"http://joser.unibg.it/index.php?journal=joser&amp;page=article&amp;op=view&amp;path%5B%5D=48\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@article{calisi12openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    title = \"Design choices for modular and flexible robotic software development: the {OpenRDK} viewpoint\",\n    url = \"http://joser.unibg.it/index.php?journal=joser&page=article&op=view&path%5B%5D=48\",\n    journal = \"Journal of Software Engineering for Robotics\",\n    year = \"2012\",\n    number = \"1\",\n    sortyear = \"2010\",\n    issue = \"3\"\n}\n\n", 

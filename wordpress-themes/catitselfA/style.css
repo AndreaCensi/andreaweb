@@ -223,6 +223,9 @@ div.pub_ref_page div.after-previews  {
     display: block;
 }
 
+div.desc { margin-bottom: 1em;}
+div.desc p { margin-bottom: 0;}
+div.desc p.read-more { text-align: right; margin-top: 0em;}
 
 /* no grey bottom border */
 article { border: 0 !important;}
@@ -247,8 +250,3 @@ h1,h2,h3,h4 {
     font-family:  'Noticia Text', 'Georgia', serif !important;
     /*Georgia, serif; !important;*/
 }
-
-
-
-
-

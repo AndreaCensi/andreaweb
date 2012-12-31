@@ -25,7 +25,7 @@
 [pub_ref_desc id='censi12saccade_preprint']
 [pub_ref_desc id='censi12cameracalib_preprint']
 [pub_ref_desc id='censi12joint_preprint']
-[pub_ref id='calisi12openrdk']
+[pub_ref_desc id='calisi12openrdk']
 [pub_ref_desc id='censi11kf']
 
 
@@ -54,7 +54,7 @@
 [pub_ref_desc id='carpin09hsm3d']
 [pub_ref_desc id='censi09hsm3d']
 [pub_ref_desc id='censi09consensus']
-[pub_ref      id='calisi08openrdk']
+[pub_ref_desc      id='calisi08openrdk']
 [pub_ref_desc id='censi08ppu']
 [pub_ref_desc id='censi08plicp']
 [pub_ref_desc id='censi08fts']
@@ -67,7 +67,7 @@
 
 #### Unrefereed papers 
 
-[pub_ref      id='scrapper09']
+[pub_ref_desc      id='scrapper09']
 [pub_ref_desc id='censi06comparison']
 [pub_ref_desc id='BaCa04']
 

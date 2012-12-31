@@ -1,36 +1,42 @@
 <?php
 
-// [pub_ref id="censi12ocra"] 
-function pub_ref( $atts ) { 
-    extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
+function read_pub_entry($id) {
     $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.extra.json';
     $db_bib = json_decode(file_get_contents($file_bib), TRUE);    
     if(array_key_exists($id, $db_bib)) {
         $entry = $db_bib[$id];
-        $bibtex = $entry['bibtex'];
-        $html_short = $entry['html_short'];
-        $js = "javascript:$(\"#{$id}\").toggle();";
-        $bib = "<a class='pub-ref-bibtex-link' onclick='{$js}' href='javascript:void(0)'>bibtex</a><pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>{$bibtex}</pre>";
-        return "<p class='pub-ref-short'>{$html_short}{$bib}</p>";
+        $entry['id'] = $id;
+        return $entry;
     } else {
-        $known = implode(array_keys($db_bib),', ');
-        return "<p class='pub-ref-error' style='color: red;'> Publication id {$id} does not exist (known: {$known})</p>";     
+        // $known = implode(array_keys($db_bib),', ');
+        // echo "<p class='pub-ref-desc-error' style='color: red;'>".
+        //     "Publication id <tt>{$id}</tt> does not exist (known: {$known})</p>";     
+        return 0;
     }
-
-} 
-
-add_shortcode( 'pub_ref', 'pub_ref' );
-
-
+}
+ 
+function pub_format_short($entry) {
+    $id=$entry['id'];
+    $bibtex = $entry['bibtex'];
+    $bibtex = trim($bibtex);
+    $html_short = $entry['html_short'];
+    $js = "javascript:$(\"#{$id}\").toggle();";
+    $bib = "<a class='pub-ref-bibtex-link' onclick='{$js}' href='javascript:void(0)'>".
+        "bibtex</a><pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>{$bibtex}</pre>";
+    return "<p class='pub-ref-short'>{$html_short}{$bib}</p>";
+}
 
 
 
 function pub_ref_page( $atts ) { 
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
-
-    $ref_desc = pub_ref( $atts );
-
     $entry = read_pub_entry($id);
+    if ($entry==0) {
+        return format_error('pub_ref_page', $id);
+    }
+
+    $short = pub_format_short($entry);
+
     $fields = $entry['fields'];
     $extra_html = '';
     if (array_key_exists("pdf", $fields)) {
@@ -39,7 +45,6 @@ function pub_ref_page( $atts ) {
         $x = "<div class='pdf-preview paper'><a href='$pdf_url'><img src='{$pdf_png}'/><br/>paper</a></div>";
         $extra_html  = $extra_html . $x;
     } 
-
     if (array_key_exists("slides", $fields)) {
         $slides_url = $fields['slides'];
         $slides_id = "{$id}-slides";
@@ -47,59 +52,96 @@ function pub_ref_page( $atts ) {
         $x = "<div class='pdf-preview slides'><a href='$slides_url'><img src='{$slides_png}'/><br/>slides</a></div>";
         $extra_html  = $extra_html . $x;
     } 
+    // add abstract here
     $extra_html= "<div class='previews'>$extra_html</div><div class='after-previews'></div>";
-    return "<div class='pub_ref_page'>{$ref_desc}{$extra_html}</div>";
+    return indent_div("class='pub_ref_page'", "{$short}\n{$extra_html}");
 }
 
 add_shortcode( 'pub_ref_page', 'pub_ref_page' );
 
 
+function pub_format_desc($entry) {
+    // Formats the "desc" fields, or returns an empty string.
+    $fields = $entry['fields'];
+    if (array_key_exists("desc", $fields)) {
+        $desc_md = $fields['desc'];
+        $s = markdown(do_shortcode($desc_md));  
+
+        if (array_key_exists("url", $fields)) {
+            $url = $fields['url'];
+            $s = $s. "<p class='read-more'><a href='${url}'>read more...</a></p>";
+            // $s = indent_content("<a class='pub_ref_more-link' href='{$url}'>", $s, "</a>");
+        } 
+        return $s;
+    } else {
+        return '';
+    }
+}
+
+function pub_format_descicon($entry) {
+    // Returns code for "descicon" image, or returns an empty string.
+    $fields = $entry['fields'];
+    if (array_key_exists("descicon", $fields)) {
+        $src = $fields['descicon'];
+        return "<img class='icon' src='{$src}'/>";
+    } else {
+        return "";
+    }
+ }
+
 function pub_ref_desc( $atts ) { 
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
     $entry = read_pub_entry($id);
     if ($entry==0) {
-        return "Could not find publication.";
+        return format_error('pub_ref_desc', $id);
     }
 
-    // $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.extra.json';
-    // $db_bib = json_decode(file_get_contents($file_bib), TRUE);    
-    // if(array_key_exists($id, $db_bib)) {
-    //     $entry = $db_bib[$id];
-    $bibtex = $entry['bibtex'];
-    $html_short = $entry['html_short'];
-
-    $fields = $entry['fields'];
-    if (array_key_exists("desc", $fields)) {
-        $desc_md = $fields['desc'];
-        $d = markdown(do_shortcode($desc_md));  
-    } else {
-        $d = '';
-    }
-    if (array_key_exists("descicon", $fields)) {
-        $src = $fields['descicon'];
-        $icon = "<img class='icon' src='{$src}'/>";
-    } else {
-        $icon = "";
-    }
-    $desc = "<div class='desc' markdown='0'>{$d}</div>";
-    $short = pub_ref(array('id'=>$id));
-    $s = "<div class='pub-ref-desc'>{$icon}{$short}{$desc}</div>";
+    $desc= indent_div("class='desc'", pub_format_desc($entry));
+    $icon = pub_format_descicon($entry);
+    $short = pub_format_short($entry);
+    $s = indent_div("class='pub-ref-desc'", "{$icon}\n{$short}\n{$desc}");
     return $s;
 } 
 
 add_shortcode( 'pub_ref_desc', 'pub_ref_desc' );
-function read_pub_entry($id) {
-    $file_bib = '/home/andrea/scm/andreaweb/src-wp-page/mybib/all.extra.json';
-    $db_bib = json_decode(file_get_contents($file_bib), TRUE);    
-    if(array_key_exists($id, $db_bib)) {
-        $entry = $db_bib[$id];
-        return $entry;
-    } else {
-        $known = implode(array_keys($db_bib),', ');
-        return "<p class='pub-ref-desc-error' style='color: red;'> Publication id {$id} does not exist (known: {$known})</p>";     
-        return 0;
+
+function pub_ref_more( $atts ) { 
+    // This one also adds a link
+    extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
+    $entry = read_pub_entry($id);
+    if ($entry==0) {
+        return format_error('pub_ref_more', $id);
     }
+    $desc = indent_div("class='desc'", pub_format_desc($entry));
+    $icon = pub_format_descicon($entry);
+    $short = pub_format_short($entry);
+    $s = indent_div("class='pub-ref-desc'","{$icon}\n{$short}\n{$desc}");
+    $fields = $entry['fields'];
+
+    return no_markdown($s);
+} 
+
+function indent_div($attrs, $content) {
+    return indent_content("<div {$attrs}>", $content, "</div>");
 }
+function no_markdown($content) {
+    return indent_div("markdown='0'", $content);
+}
+function indent_content($before, $content, $after) {
+    $lines = explode("\n", $content);
+    $sep = "\n    ";
+    $s = $sep.implode($sep, $lines);
+    return "{$before}{$s}\n{$after}";
+}
+
+add_shortcode( 'pub_ref_more', 'pub_ref_more' );
+
+
+
+
+
+
+
 
 function create_pdf_preview($id, $pdf_url) {
     $preview_dir = '/home/andrea/scm/andreaweb/src/media/pdf_preview';
@@ -116,11 +158,15 @@ function create_pdf_preview($id, $pdf_url) {
     return $url;
 }
 
+function format_error($f, $id) {
+    return "<p style='color: red' class='pub-ref-error'><tt>{$f}<tt>: Could not find publication <tt>{$id}</tt>.</p>";
+}
+
 function pub_ref_extra($atts) {
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
     $entry = read_pub_entry($id);
     if ($entry==0) {
-        return "Could not find publication.";
+        return format_error('pub_ref_extra', $id);
     }
     $fields = $entry['fields'];
     // return implode(array_keys($fields),', ');
@@ -175,7 +221,7 @@ function external_md( $atts ) {
 } 
 add_shortcode( 'external_md', 'external_md' );
 
-require_once '/usr/share/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
+// require_once '/usr/share/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
 
 // [external_page page="research"] 
 function external_page( $atts ) { 
