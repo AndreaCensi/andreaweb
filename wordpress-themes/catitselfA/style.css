@@ -146,11 +146,16 @@ h4 { color: #a00; }
 h5 { color: #a00; }
 
 
-a:link, a:visited  {
-    color: #44f;
+a:link  {
+    /*color: #44f;*/
+    color: #00f;
     text-decoration:        none;
 } 
 
+a:visited  {
+    color: #40c;
+    text-decoration:        none;
+} 
 
 /* Publication page */
 article#post-895 div#bibtex pre {font-family: "Andale Mono";
