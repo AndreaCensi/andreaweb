@@ -1,8 +1,11 @@
 <style type='text/css'>
  div.faq { padding-bottom: 2em; max-width: 45em;}
  div.faq .q { /*font-style: italic; */
-  font-weight: bold !important; }
+  font-weight: bold !important; 
+  margin-left: -1em;
+}
  div.faq .q:before { content: "Q: "; }
+
  table#pron { width: 50%; margin-left: 3em;}
  table#pron caption { font-style: italic; text-align: center; }
  table span { text-decoration: underline;}
@@ -53,3 +56,41 @@
 
 
 [external_page page='faq_robots']
+
+
+<div class='faq'><p class='q'> 
+        Why is your computer named "Susan"?
+    </p><p class='a'> 
+        Because of <a href="http://en.wikipedia.org/wiki/Susan_Calvin">Susan Calvin</a>.
+</p></div>
+
+
+
+
+<div class='faq'><p class='q'> 
+        What program do you use for ...?
+    </p><p class='a'> 
+        See <a href="http://andrea.caltech.edu/blog/2010-12-16/tools-of-the-trade/"> a "Tools of the Trade" </a> list that I made some time ago.
+</p></div>
+
+
+
+<div class='faq'><p class='q'> 
+        What program did you use for making figures and diagrams in your thesis?
+    </p><p class='a'> 
+            I am not completely satisfied about the toolchain I use.</p>
+
+    <p>For block diagrams I use mainly Keynote (marginally better than Powerpoint), which exports very nice PDF (copy in Keynote, paste in Preview, save pdf). I put math inside keynote using LatexIt. Before I used xfig... not worth it anymore.</p>
+
+    <p>
+    I have tried many TeX packages and wouldn't recommend any. Use only if you have to generate many figures procedurally. For one or two figures, manual creation using Keynote/Powerpoint is more convienient.</p>
+
+    <p>
+    To assemble simple multi-panel figures in papers, I still use Keynote.
+    </p>
+    <p>
+    When things get though, Illustrator is the way to go. Worth learning the basics especially when journals get picky about formats.
+    </p>
+</div>
+
+
