@@ -74,13 +74,14 @@ body {
     
     .highlight { font-weight: bold;}
      
-    #coordinates dl { display: block;}
+    #coordinates  { display: block; margin}
     #coordinates dd { display: block; margin-left: 6.5em;  max-width: 30em;
                         float: left;}       
       
     #coordinates dt { clear: left; float: left; display: block; width: 6em; font-style: italic;
                       font-weight: normal; text-align: right;}
-    #coordinates dd, dt, dl { margin: 0 !important; padding: 0 !important;} 
+    #coordinates dd, #coordinates dt { margin: 0 !important; padding: 0 !important;} 
+    dl#coordinates { margin: 0 !important; padding: 0 !important; margin-bottom: 1em !important;} 
     #coordinates dt  { padding-right: 1em !important; } 
     div#news h4 {margin:0; padding: 0;}
     

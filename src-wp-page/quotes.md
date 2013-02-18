@@ -54,7 +54,7 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 <div id="cagepic">
     <img src='http://andrea.caltech.edu/media/cage.jpg' alt='quote'/>
     <p class="translation">
-      The situation being desperate, <br/> everything is now possible.
+      The situation being desperate, everything is now possible.
     </p>
 </div>
 
@@ -134,6 +134,14 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
   <p class="quote">Don't scoop yourself.
   
   <span class="who">Professor at Caltech</span>
+  </p>
+</div>
+
+
+<div class="quoteblock">
+  <p class="quote">Don’t worry about people stealing your ideas. If your ideas are any good, you’ll have to ram them down people’s throats.
+  
+  <span class="who">Howard Aiken, IBM engineer</span>
   </p>
 </div>
 

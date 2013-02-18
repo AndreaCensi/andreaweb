@@ -93,4 +93,27 @@
     </p>
 </div>
 
+<div class='faq' id='life'><p class='q'> 
+        How is life at Caltech?
+    </p><p class='a'> 
+        Refer to <a href="http://www.phdmovie.com"> The Ph.D. Movie</a>.
+</p></div>
 
+
+<div class='faq' id='caltech'>
+    <div class='question'>
+    <p class='q'> 
+        How do I get into Caltech?
+    </p>
+    </div>
+    <div class='answer'>
+    <p class='a'> 
+        Black helicopters come to your house and kidnap you. You wake up 
+        48 hours later in Pasadena, with a foreign roommate and late homework due.
+    </p>
+    <p>
+        For an alternative route, see 
+        <a href="http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/">the grad school admission advice by Matt Might</a>.
+    </p>
+    </div>
+</div>
