@@ -10,6 +10,11 @@
 </p>
 
 
+[pub_ref_desc id='censi13dvs']
+
+[pub_ref_desc id='nilsson13rddl']
+
+
 [pub_ref_desc id='censi12dptr1_preprint']
 
 [pub_ref_desc id='carlone12angular_preprint']

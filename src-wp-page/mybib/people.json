@@ -1,4 +1,11 @@
-[{"first": "Luca",
+[
+{"first": "Christian",
+"family": "Brandli",
+"site": "http://sensors.ini.uzh.ch/christian.html"},
+{"first": "Tobi",
+"family": "Delbruck",
+"site": "http://www.ini.uzh.ch/~tobi"},
+{"first": "Luca",
 "family": "Carlone",
 "site": "http://lucacarlone.com"},
 {"first" : "Kostas",
