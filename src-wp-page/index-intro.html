@@ -45,6 +45,10 @@
         word-break: hyphenate;
     }
 
+    .changed {
+        color: red;
+        font-weight: bold;
+    }
 
 </style>
 <!--[if lte IE 8]>
@@ -54,6 +58,18 @@
 #replacement { display: visible !important; }
 </style>
 <![endif]-->
+<ul class="changed" style=' padding: 0em;  margin-bottom:-1em; margin-top: 1em; clear: left'>
+    <li> Note: I moved to MIT in October 2013. Bye bye sunny California! </li>
+</ul>
+<!--
+              <ul style='color: red; padding: 0em;  margin-bottom:-1em; margin-top: 1em; clear: left'><li> I will be in Zurich,
+                visiting <a href="http://ailab.ifi.uzh.ch">the AI Lab</a>, during June-August 2013.
+            </li>
+            <li>
+                In October 2013 I will start a research scientist position at <a href="/media/that_other.jpg"><em>that other</em> Institute of Technology</a>.</li>
+            </ul>
+        -->
+            </p> 
 <div id="picture">
     <div id='portrait'>
         <table id='f'>
@@ -171,11 +187,11 @@
         </table>
 
     <p id='caption2'> 
-        Fig.&thinsp;2. Stress and procrastination levels in the last 7 days (updated <?php 
+        Fig.&thinsp;2. Stress and procrastination levels in the last 7 days <!--(updated <?php 
         $filename='/home/andrea/public_html/busyplot/when.txt';
         $my_file = file_get_contents($filename);
         echo trim($my_file);
-        ?>).
+        ?>).-->
         Stress is mea&shy;su&shy;red by the num&shy;ber of flag&shy;ged mes&shy;sa&shy;ges in the email in&shy;box;
         pro&shy;cra&shy;sti&shy;na&shy;tion is mea&shy;su&shy;red by the me&shy;dian age of tho&shy;se mes&shy;sa&shy;ges
         (<a href="software/busymail/">ma&shy;te&shy;rials and me&shy;thods</a>).
@@ -205,10 +221,13 @@
     
 <span id='also'>also:</span>
 
-<p id='position'>
-    <a href="http://www.phdcomics.com/comics/archive.php?comicid=125">
-        <!-- <span style="text-decoration: line-through">First</span> 
-        <span style="text-decoration: line-through">second</span>  -->
+<p id='position' class='changed'>
+    Research Scientist, Principal Investigator <br/>
+    Laboratory for Information and Decision Systems <br/>
+    Massachusetts Institute of Technology 
+    <!--<a href="http://www.phdcomics.com/comics/archive.php?comicid=125">
+        <span style="text-decoration: line-through">First</span> 
+        <span style="text-decoration: line-through">second</span>  
         <span style="text-decoration: line-through">third</span> 
         <span style="text-decoration: line-through">fourth</span> 
         <span style="text-decoration: line-through">fifth year Ph.D. student</span> 
@@ -217,8 +236,10 @@
 	 Postdoctoral Scholar in <a href="http://www.cms.caltech.edu/">Computing <br/>and Mathematical Sciences</a>
              <br/>
          <a href="/wp-content/uploads/uptech.png">California Institute of Technology</a>
-
+-->
 </p>
+
+
 
 <div id='links'>
         <style type='text/css'>
@@ -252,8 +273,9 @@
     <dl id='coordinates'>
         
         <dt>email</dt>
-        <dd>
-            <span style="">andrea<span></span>(at)<span></span>cds.caltech<span>.</span>edu </span> 
+        <dd class='changed'>
+            <!--<span style="">andrea<span></span>(at)<span></span>cds.caltech<span>.</span>edu </span> -->
+            <span style="">censi<span></span>(at)<span></span>mit<span>.</span>edu </span>
             (<a href="/misc/pgp-key/">PGP key</a>)
         </dd>
         
@@ -262,16 +284,17 @@
              +1 (626) U-R-CENSI </dd>
 
         <dt>office</dt> 
-        <dd>Annenberg 320</dd>
+        <dd class='changed'>Stata Center 32-D558</dd>
         
         <dt>address</dt> 
-        <dd>1200 E California Blvd,<br/> 
+        <dd class='changed'>32 Vassar St<br/>
+room 32-D558<br/>
+Cambridge, MA 02139
+</dd>
+     <!--   <dd>1200 E California Blvd,<br/> 
             MC 107-81 91125 Pasadena, CA.
-<!--
-            <p style='color: red; padding-top: 1em'>Note: I am currently in Zurich, <br/> 
-                visiting <a href="http://ailab.ifi.uzh.ch">the AI Lab</a> until Jan. 2013.
-            </p> 
-	    -->    </dd>
+
+	    </dd>-->
     </dl>
 
 </div>

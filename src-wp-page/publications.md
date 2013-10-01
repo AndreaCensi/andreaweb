@@ -1,11 +1,16 @@
-*Legend*: 
-<img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/slides2.gif'/> **slides** presented at a conference or other meeting;
-<img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/web.gif'/>&nbsp;**datasets** or **source code**.  
 
 
 [cyrill]: http://www.informatik.uni-freiburg.de/~stachnis/
 
+For a summary, see <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
+a recent presentation on my work.</a> 
+
 #### Preprints
+
+*Legend*: 
+<img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/slides2.gif'/> **slides** presented at a conference or other meeting;
+<img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/web.gif'/>&nbsp;**datasets** or **source code**.  
+
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
 </p>
 

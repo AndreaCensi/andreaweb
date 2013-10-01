@@ -1,7 +1,9 @@
 
-100-word bio for seminars:
+100-word bio for seminars / papers:
 
-    Andrea Censi is a postdoctoral scholar in Computing and Mathematical Sciences 
+    Andrea Censi is a Research Scientist and Principal Investigator 
+    at the Massachusetts Institute of Technology. Previously, he was a
+    postdoctoral scholar in Computing and Mathematical Sciences 
     at the California Institute of Technology, and a visiting researcher at the 
     AI lab at the University of Zurich. He received the Laurea and Laurea 
     Specialistica degrees (summa cum laude) in control engineering and robotics 
