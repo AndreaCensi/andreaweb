@@ -2,8 +2,9 @@
 
 [cyrill]: http://www.informatik.uni-freiburg.de/~stachnis/
 
-For a summary, see <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
-a recent presentation on my work.</a> 
+For a summary of my main research interests, 
+see <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
+a recent presentation about my work.</a> 
 
 #### Preprints
 
@@ -14,13 +15,15 @@ a recent presentation on my work.</a>
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
 </p>
 
+[pub_ref_desc id='censi13jbds_sub']
+
+[pub_ref_desc id='censi13dvsd_sub']
 
 [pub_ref_desc id='censi13dvs']
 
 [pub_ref_desc id='nilsson13rddl']
 
 
-[pub_ref_desc id='censi12dptr1_preprint']
 
 [pub_ref_desc id='carlone12angular_preprint']
 
@@ -32,14 +35,16 @@ a recent presentation on my work.</a>
 #### Journal papers
 
 
-[pub_ref_desc id='censi12saccade_preprint']
-[pub_ref_desc id='censi12cameracalib_preprint']
-[pub_ref_desc id='censi12joint_preprint']
+[pub_ref_desc id='censi12cameracalib']
+[pub_ref_desc id='censi13saccade']
+[pub_ref_desc id='censi13joint']
 [pub_ref_desc id='calisi12openrdk']
 [pub_ref_desc id='censi11kf']
 
 
 #### Refereed conference papers 
+
+[pub_ref_desc id='censi13motion']
 
 [pub_ref_desc id='delapuente12dense']
 [pub_ref_desc id='censi12diffeo'] 

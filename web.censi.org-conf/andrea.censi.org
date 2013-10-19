@@ -28,6 +28,7 @@
 <VirtualHost *:80>
 
     ServerName andrea.caltech.edu
+    ServerAlias censi.mit.edu
     ServerAlias andrea.censi.org
 	ServerAdmin andrea@web.censi.org
     UseCanonicalName On
