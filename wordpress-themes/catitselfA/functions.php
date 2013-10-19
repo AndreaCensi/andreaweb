@@ -145,7 +145,7 @@ add_shortcode( 'pub_ref_more', 'pub_ref_more' );
 
 function create_pdf_preview($id, $pdf_url) {
     $preview_dir = '/home/andrea/scm/andreaweb/src/media/pdf_preview';
-    $preview_url = 'http://andrea.caltech.edu/media/pdf_preview';
+    $preview_url = 'http://censi.mit.edu/media/pdf_preview';
     $png = "$preview_dir/{$id}.png";
     $url = "$preview_url/{$id}.png";
     if (!file_exists($png)) {
@@ -159,6 +159,8 @@ function create_pdf_preview($id, $pdf_url) {
 }
 
 function format_error($f, $id) {
+	file_put_contents('php://stderr', print_r("publication not found: {$f}: {$id}\n", TRUE));
+
     return "<p style='color: red' class='pub-ref-error'><tt>{$f}<tt>: Could not find publication <tt>{$id}</tt>.</p>";
 }
 

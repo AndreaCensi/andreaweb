@@ -1,7 +1,7 @@
 
 ## Calibration
-[pub_ref_desc id='censi12cameracalib_preprint']
-[pub_ref_desc id='censi12joint_preprint']
+[pub_ref_desc id='censi12cameracalib']
+[pub_ref_desc id='censi13motion']
 
 ## Localization/SLAM
 [pub_ref_desc id='carlone12angular_preprint']

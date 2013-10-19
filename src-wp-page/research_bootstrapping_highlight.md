@@ -48,7 +48,7 @@ Representative papers:
 ### Recent papers on boostrapping
 
 
-[pub_ref_desc id='censi12dptr1_preprint']
+[pub_ref_desc id='censi13motion']
 [pub_ref_desc id='censi12cameracalib_preprint']
 
 <div style='float:right; color: red; padding: 5px'> (best student <br/> paper finalist)</div>

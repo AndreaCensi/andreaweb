@@ -27,8 +27,8 @@
 
 <VirtualHost *:80>
 
-    ServerName andrea.caltech.edu
-    ServerAlias censi.mit.edu
+    ServerName censi.mit.edu
+    ServerAlias andrea.caltech.edu
     ServerAlias andrea.censi.org
 	ServerAdmin andrea@web.censi.org
     UseCanonicalName On
@@ -53,14 +53,14 @@
 
     RewriteEngine on
 
-    # force andrea.caltech.edu
-    RewriteCond %{HTTP_HOST}   !^andrea\.caltech\.edu [NC]
+    # force censi.mit.edu
+    RewriteCond %{HTTP_HOST}   !^censi\.mit\.edu [NC]
     RewriteCond %{HTTP_HOST}   !^$
-    RewriteRule ^/(.*)         http://andrea.caltech.edu/$1 [L,R]
+    RewriteRule ^/(.*)         http://censi.mit.edu/$1 [L,R]
 
     RewriteRule  /media/(.*) - [L]
-    RewriteRule  (.*)/pdf.gif http://andrea.caltech.edu/media/pdf.gif [L]
-    RewriteRule  (.*)/web.gif http://andrea.caltech.edu/media/web.gif [L]
+    RewriteRule  (.*)/pdf.gif http://censi.mit.edu/media/pdf.gif [L]
+    RewriteRule  (.*)/web.gif http://censi.mit.edu/media/web.gif [L]
     
     RewriteRule  .*/status/(.*) /media/status/$1 [R]
 
