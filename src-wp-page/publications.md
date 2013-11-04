@@ -19,13 +19,7 @@ a recent presentation about my work.</a>
 
 [pub_ref_desc id='censi13dvsd_sub']
 
-[pub_ref_desc id='censi13dvs']
 
-[pub_ref_desc id='nilsson13rddl']
-
-
-
-[pub_ref_desc id='carlone12angular_preprint']
 
 
 #### Dissertation
@@ -34,6 +28,7 @@ a recent presentation about my work.</a>
 
 #### Journal papers
 
+[pub_ref_desc id='carlone12angular_preprint']
 
 [pub_ref_desc id='censi12cameracalib']
 [pub_ref_desc id='censi13saccade']
@@ -44,6 +39,9 @@ a recent presentation about my work.</a>
 
 #### Refereed conference papers 
 
+[pub_ref_desc id='censi13dvs']
+
+[pub_ref_desc id='nilsson13rddl']
 [pub_ref_desc id='censi13motion']
 
 [pub_ref_desc id='delapuente12dense']

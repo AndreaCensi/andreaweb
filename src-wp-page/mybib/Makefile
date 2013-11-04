@@ -3,7 +3,7 @@ all: all.extra.json
 
 # all.pybtex.yaml all.bib.json all.html.json
 
-src=../../src-bib/commons/bib/src-andrea
+src=../../../commons/bib/src-andrea
 
 
 all.bib: local.bib $(src)/web/regular.bib $(src)/web/preprints.bib $(src)/web/future.bib
