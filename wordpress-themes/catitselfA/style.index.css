@@ -119,8 +119,10 @@ body {
         float: left; 
         clear: left;
     }
-    div#short_news {
+    div#short_news H3 {
+        color: #d00;
     }
+    div#short_news { padding: 0.5em; background-color: #fee !important;}
     div#travel { 
     }
     div#research_items {display: block; float: left; }
@@ -133,14 +135,14 @@ body {
 
  /* proportions */
     div#short_news_and_travel {
-        width: 20em;
+        width: 25em;
     }
     div#travel { 
-        width: 20em;
+        width: 25em;
     }
     div#short_news {} 
     div#research_items { 
-        width: 35%;}
+        width: 30%;}
     div#widget-gplus {
         width: 20% !important;
     }

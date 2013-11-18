@@ -18,15 +18,7 @@ get_header(); ?>
 
     <div id='short_news_and_travel'>
         <div id='short_news'>
-            <h3 id='short_news_title'> Short news </h3>
-            <ul>
-            <li> <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
-                Recent presentation on my work</a>; <a href="http://purl.org/censi/2012/phd">dissertation</a>.
-        </li><li>
-         <a href="http://vimeo.com/andreacensi/icra2013-diffeo-planning">Here's the video</a> for the paper I'm presenting at ICRA: (<a href="http://purl.org/censi/research/2012-dptr1.pdf">PDF</a>).
-</li>
-    </ul>
-            <iframe src="http://player.vimeo.com/video/65564176" width="95%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <h3 id='short_news_title'> What's new </h3>
             <?php
                 function filter_where($where = '') {
                     $where .= " AND post_date >= '" . date('Y-m-d', strtotime('-180 days')) . "'";
@@ -49,6 +41,15 @@ get_header(); ?>
                     </div>
             <? endwhile; ?>
             <?php remove_filter('posts_where', 'filter_where'); ?>
+            <ul style='margin-top: 2em'>
+            <!-- <li> <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
+                Recent presentation on my work</a>; <a href="http://purl.org/censi/2012/phd">dissertation</a>.
+        </li> --><li>
+         <a href="http://vimeo.com/andreacensi/icra2013-diffeo-planning">Here's the video</a> for the paper I'm presenting at ICRA: (<a href="http://purl.org/censi/research/2012-dptr1.pdf">PDF</a>).
+            </li>
+            </ul> 
+            <iframe src="http://player.vimeo.com/video/65564176" width="95%"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
             <a class='older' id='older-news' href='/misc/old-news'>Older news... </a>
         </div>
         
@@ -77,7 +78,7 @@ get_header(); ?>
                                 <?php the_title(); ?>
                             </a>
                         </h4>
-                        <?php if ($i <= 5): ?> 
+                        <?php if ($i <= 8): ?> 
                         <div class="entry"><?php the_excerpt(); ?></div>
                         <?php endif; ?>
                     </div>

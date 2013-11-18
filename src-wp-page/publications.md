@@ -28,7 +28,7 @@ a recent presentation about my work.</a>
 
 #### Journal papers
 
-[pub_ref_desc id='carlone12angular_preprint']
+[pub_ref_desc id='carlone14angular']
 
 [pub_ref_desc id='censi12cameracalib']
 [pub_ref_desc id='censi13saccade']
