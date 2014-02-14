@@ -2,18 +2,22 @@
 
 [cyrill]: http://www.informatik.uni-freiburg.de/~stachnis/
 
+
 For a summary of my main research interests, 
 see <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
 a recent presentation about my work.</a> 
 
-#### Preprints
-
 *Legend*: 
 <img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/slides2.gif'/> **slides** presented at a conference or other meeting;
 <img style='border:0; margin-bottom:-3px; height: 17px;'  src='/media/web.gif'/>&nbsp;**datasets** or **source code**.  
+Please feel free to ask for a PDF if it is not linked here.
 
-<p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X".
+#### Preprints
+
+<p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". 
 </p>
+
+[pub_ref_desc id='carlone14coherent_sub']
 
 [pub_ref_desc id='censi13jbds_sub']
 
@@ -67,7 +71,7 @@ a recent presentation about my work.</a>
 [pub_ref_desc id='carpin09hsm3d']
 [pub_ref_desc id='censi09hsm3d']
 [pub_ref_desc id='censi09consensus']
-[pub_ref_desc      id='calisi08openrdk']
+[pub_ref_desc id='calisi08openrdk']
 [pub_ref_desc id='censi08ppu']
 [pub_ref_desc id='censi08plicp']
 [pub_ref_desc id='censi08fts']

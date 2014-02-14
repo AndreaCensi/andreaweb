@@ -6,6 +6,6 @@
 
 Bootstrapped models can be used for long-term planning... 
 
-[pub_ref id='censi12diffeoplan_preprint']
+[pub_ref id='censi13motion']
 
 See also Chapter XXX of [my dissertation][page:dissertation].

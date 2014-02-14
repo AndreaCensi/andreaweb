@@ -4,7 +4,8 @@
 [pub_ref_desc id='censi13motion']
 
 ## Localization/SLAM
-[pub_ref_desc id='carlone12angular_preprint']
+[pub_ref_desc id='carlone14coherent_sub']
+[pub_ref_desc id='carlone14angular']
 [pub_ref_desc id='delapuente12dense']
 [pub_ref_desc id='scaramuzza11visodo']
 [pub_ref_desc id='censi09posetracking']

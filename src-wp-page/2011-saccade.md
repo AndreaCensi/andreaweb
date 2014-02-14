@@ -1,4 +1,4 @@
-[pub_ref_page id='censi12saccade_preprint']
+[pub_ref_page id='censi13saccade']
 
 <!--   - [Preprint (PDF)][pdf], updated Dec 1, 2012.
   - [Slides (PDF)][slides] used at the annual meeting of the [Society for Integrative 

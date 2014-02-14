@@ -23,4 +23,4 @@ Video: Simulated visual input from tracking data of free-flying Drosophila Melan
 
 ### Recent papers
 
-[pub_ref_desc id='censi12saccade_preprint']
+[pub_ref_desc id='censi13saccade']

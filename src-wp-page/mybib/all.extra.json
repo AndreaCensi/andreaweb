@@ -221,7 +221,7 @@
   }, 
   "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a> and A.C..</span>\n<span class=\"title\">Linear estimation on SO(2) for graph-based simultaneous localization and mapping.</span>\nTechnical Report XXX, California Institute of Technology, 2012.\n", 
   "bibtex": "@techreport{carlone12linear_preprint,\n    author = \"Carlone, Luca and Censi, Andrea\",\n    kind = \"preprint\",\n    title = \"Linear estimation on {SO(2)} for graph-based simultaneous localization and mapping\",\n    number = \"XXX\",\n    year = \"2012\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
-  "order": 45
+  "order": 46
  }, 
  "BaCa04": {
   "fields": {
@@ -323,7 +323,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Bootstrapping vehicles: a formal approach to unsupervised sensorimotor learning based on invariance.</span>\nTechnical Report CaltechAUTHORS:20120805-120309438, California Institute of Technology, 2012.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2012/phd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi12phd1,\n    author = \"Censi, Andrea\",\n    title = \"Bootstrapping Vehicles: A Formal Approach to Unsupervised Sensorimotor Learning Based on Invariance\",\n    url = \"http://purl.org/censi/2012/phd\",\n    number = \"CaltechAUTHORS:20120805-120309438\",\n    year = \"2012\",\n    institution = \"California Institute of Technology\"\n}\n\n", 
-  "order": 44
+  "order": 45
  }, 
  "censi06scan": {
   "fields": {
@@ -353,6 +353,7 @@
  }, 
  "censi13motion": {
   "fields": {
+   "doi": "10.1109/ICRA.2013.6630973", 
    "author": [
     {
      "last": "Censi", 
@@ -369,15 +370,20 @@
     }
    ], 
    "title": "Motion planning in observations space with learned diffeomorphism models.", 
-   "type": "inproceedings", 
+   "url": "http://purl.org/censi/2012/dptr1", 
    "booktitle": "Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})", 
    "year": "2013", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi12dptr1_preprint.png", 
    "abstract": "We consider the problem of planning motions in observations space, based on learned models of the dynamics that associate to each action a diffeomorphism of the obser- vations domain. For an arbitrary set of diffeomorphisms, this problem must be formulated as a generic search problem. We adapt established algorithms of the graph search family. In this scenario, node expansion is very costly, as each node in the graph is associated to an uncertain diffeomorphism and corresponding predicted observations. We describe several improvements that ameliorate performance: the introduction of better image similarities to use as heuristics; a method to reduce the number of expanded nodes by preliminarily identifying redundant plans; and a method to pre-compute composite actions that make the search efficient in all directions.", 
+   "month": "5", 
+   "address": "Karlsruhe, Germany", 
+   "pdf": "http://purl.org/censi/research/2012-dptr1.pdf", 
+   "type": "inproceedings", 
+   "pages": "2860--2867", 
    "desc": "Using learned diffeomorphism models of the dynamics of cameras and range-finders,\nwe formulate motion planning as a planning problem in the observations space.\nNodes/states are (uncertain) images; actions/edges are (uncertain) diffeomorphisms."
   }, 
-  "html_short": "<span class=\"author\">A.C., Adam Nilsson, and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Motion planning in observations space with learned diffeomorphism models.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. 2013.</span>\n", 
-  "bibtex": "@inproceedings{censi13motion,\n    author = \"Censi, Andrea and Nilsson, Adam and Murray, Richard M.\",\n    title = \"Motion planning in observations space with learned diffeomorphism models.\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2013\",\n    abstract = \"We consider the problem of planning motions in observations space, based on learned models of the dynamics that associate to each action a diffeomorphism of the obser- vations domain. For an arbitrary set of diffeomorphisms, this problem must be formulated as a generic search problem. We adapt established algorithms of the graph search family. In this scenario, node expansion is very costly, as each node in the graph is associated to an uncertain diffeomorphism and corresponding predicted observations. We describe several improvements that ameliorate performance: the introduction of better image similarities to use as heuristics; a method to reduce the number of expanded nodes by preliminarily identifying redundant plans; and a method to pre-compute composite actions that make the search efficient in all directions.\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., Adam Nilsson, and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Motion planning in observations space with learned diffeomorphism models.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>, 2860&ndash;2867. Karlsruhe, Germany, 5 2013.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-dptr1.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ICRA.2013.6630973\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/dptr1\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@inproceedings{censi13motion,\n    author = \"Censi, Andrea and Nilsson, Adam and Murray, Richard M.\",\n    doi = \"10.1109/ICRA.2013.6630973\",\n    title = \"Motion planning in observations space with learned diffeomorphism models.\",\n    url = \"http://purl.org/censi/2012/dptr1\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2013\",\n    abstract = \"We consider the problem of planning motions in observations space, based on learned models of the dynamics that associate to each action a diffeomorphism of the obser- vations domain. For an arbitrary set of diffeomorphisms, this problem must be formulated as a generic search problem. We adapt established algorithms of the graph search family. In this scenario, node expansion is very costly, as each node in the graph is associated to an uncertain diffeomorphism and corresponding predicted observations. We describe several improvements that ameliorate performance: the introduction of better image similarities to use as heuristics; a method to reduce the number of expanded nodes by preliminarily identifying redundant plans; and a method to pre-compute composite actions that make the search efficient in all directions.\",\n    month = \"5\",\n    address = \"Karlsruhe, Germany\",\n    pdf = \"http://purl.org/censi/research/2012-dptr1.pdf\",\n    pages = \"2860--2867\"\n}\n\n", 
   "order": 3
  }, 
  "censi09consensus": {
@@ -493,7 +499,7 @@
  }, 
  "carlone14angular": {
   "fields": {
-   "note": "(To appear)", 
+   "note": "(In print)", 
    "title": "{From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization}", 
    "url": "http://www.lucacarlone.com/index.php/resources/research/mole2d", 
    "journal": "IEEE Transactions on Robotics", 
@@ -508,15 +514,14 @@
     }
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/carlone12angular_preprint.png", 
-   "month": "November", 
    "slides": "http://purl.org/censi/research/2013-mole2d-slides.pdf", 
-   "year": "2013", 
+   "year": "2014", 
    "pdf": "http://purl.org/censi/research/2013-mole2d.pdf", 
    "type": "article", 
    "desc": "Pose optimization is what is used in SLAM to optimize the map\nafter pose-pose and pose-features correspondences have been established. \nThe variables in this problem are poses living\non the nodes of a graph, and measurements are relative measurements\nalong the graph edges. The\nproblem is hard because orientations live on a manifold\nwith nontrivial topology, which makes the problem\nnonlinear, nonconvex, and with multiple minima.\n[Luca][luca] and I try to solve the subproblem of orientation estimation. \nWe find a way to convert\nthe problem to an unconstrained optimization problem on integers.\nThis makes it possible to solve the problem globally \nand return all likely guesses for the orientation.\n\n[luca]: http://lucacarlone.com"
   }, 
-  "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a> and A.C..</span>\n<span class=\"title\">From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization.</span>\n<em>IEEE Transactions on Robotics</em>, November 2013.\n<span class=\"note\">(To appear).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-mole2d.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://www.lucacarlone.com/index.php/resources/research/mole2d\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-mole2d-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@article{carlone14angular,\n    author = \"Carlone, Luca and Censi, Andrea\",\n    note = \"(To appear)\",\n    title = \"{From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization}\",\n    url = \"http://www.lucacarlone.com/index.php/resources/research/mole2d\",\n    journal = \"IEEE Transactions on Robotics\",\n    month = \"November\",\n    slides = \"http://purl.org/censi/research/2013-mole2d-slides.pdf\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2013-mole2d.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a> and A.C..</span>\n<span class=\"title\">From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization.</span>\n<em>IEEE Transactions on Robotics</em>, 2014.\n<span class=\"note\">(In print).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-mole2d.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://www.lucacarlone.com/index.php/resources/research/mole2d\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-mole2d-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@article{carlone14angular,\n    author = \"Carlone, Luca and Censi, Andrea\",\n    note = \"(In print)\",\n    title = \"{From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization}\",\n    url = \"http://www.lucacarlone.com/index.php/resources/research/mole2d\",\n    journal = \"IEEE Transactions on Robotics\",\n    slides = \"http://purl.org/censi/research/2013-mole2d-slides.pdf\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2013-mole2d.pdf\"\n}\n\n", 
   "order": 1
  }, 
  "censi05hough": {
@@ -591,14 +596,14 @@
     }
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png", 
-   "month": "October", 
+   "month": "10", 
    "year": "2013", 
    "pdf": "http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf", 
    "type": "article", 
    "desc": "[Davide] and I explain how to calibrate a generic single-view-point camera\nby only waving it around.\n\n[Davide]: https://sites.google.com/site/scarabotix/home"
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, October 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"October\",\n    year = \"2013\",\n    pdf = \"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 10 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    year = \"2013\",\n    pdf = \"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"\n}\n\n", 
   "order": 41
  }, 
  "scrapper09": {
@@ -1120,13 +1125,13 @@
    "month": "February", 
    "volume": "9", 
    "year": "2013", 
-   "pdf": "http://purl.org/censi/research/2012-plos-saccades.pdf", 
+   "pdf": "http://www.ploscompbiol.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002891&representation=PDF", 
    "type": "article", 
    "journal": "PLOS Computational Biology", 
    "desc": "What goes on in a fruit fly's head while it flies? \nIn this paper we try to identify the dependence of the decision processes\non the external stimulus experienced by the fly. Remarkably, we are able to \nsay a great deal about internal sensory processing by just observing the \nexternal behavior."
   }, 
-  "html_short": "<span class=\"author\">A.C.*, <a href='http://strawlab.org'>Andrew D. Straw</a>*, Rosalyn W. Sayaman, <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>, and <a href='http://www.dickinson.caltech.edu/'>Michael H. Dickinson</a>.</span>\n<span class=\"title\">Discriminating external and internal causes for saccade initiation in freely flying  Drosophila.</span>\n<em>PLOS Computational Biology</em>, February 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-plos-saccades.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1371/journal.pcbi.1002891\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/saccade\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2012-sicb-saccades.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@article{censi13saccade,\n    author = \"Censi*, Andrea and Straw*, Andrew D. and Sayaman, Rosalyn W. and Murray, Richard M. and Dickinson, Michael H.\",\n    slides = \"http://purl.org/censi/research/2012-sicb-saccades.pdf\",\n    doi = \"10.1371/journal.pcbi.1002891\",\n    title = \"Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}\",\n    url = \"http://purl.org/censi/2011/saccade\",\n    abstract = \"As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.\",\n    number = \"2\",\n    month = \"February\",\n    volume = \"9\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2012-plos-saccades.pdf\",\n    journal = \"PLOS Computational Biology\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C.*, <a href='http://strawlab.org'>Andrew D. Straw</a>*, Rosalyn W. Sayaman, <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>, and <a href='http://www.dickinson.caltech.edu/'>Michael H. Dickinson</a>.</span>\n<span class=\"title\">Discriminating external and internal causes for saccade initiation in freely flying  Drosophila.</span>\n<em>PLOS Computational Biology</em>, February 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://www.ploscompbiol.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002891&amp;representation=PDF\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1371/journal.pcbi.1002891\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2011/saccade\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2012-sicb-saccades.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@article{censi13saccade,\n    author = \"Censi*, Andrea and Straw*, Andrew D. and Sayaman, Rosalyn W. and Murray, Richard M. and Dickinson, Michael H.\",\n    slides = \"http://purl.org/censi/research/2012-sicb-saccades.pdf\",\n    doi = \"10.1371/journal.pcbi.1002891\",\n    title = \"Discriminating external and internal causes for saccade initiation in freely flying {\\em Drosophila}\",\n    url = \"http://purl.org/censi/2011/saccade\",\n    abstract = \"As animals move through the world in search of resources, they change course in reaction to both external sensory cues and internally- generated programs. Elucidating the functional logic of complex search algorithms is challenging because the observable actions of the animal cannot be unambiguously assigned to externally- or internally-triggered events. We present a technique that addresses this challenge by assessing quantitatively the contribution of external stimuli and internal processes. We apply this technique to the analysis of rapid turns (saccades) of freely flying Drosophila melanogaster. We show that a single scalar feature computed from the visual stimulus experienced by the animal is sufficient to explain a majority (93%) of the turning decisions. We automatically estimate this scalar value from the observable trajectory, without any assumption regarding the sensory processing. A posteriori, we show that the estimated feature field is consistent with previous results measured in other experimental conditions. The remaining turning decisions, not explained by this feature of the visual input, may be attributed to a combination of deterministic processes based on unobservable internal states and purely stochastic behavior. We cannot distinguish these contributions using external observations alone, but we are able to provide a quantitative bound of their relative importance with respect to stimulus-triggered decisions. Our results suggest that comparatively few saccades in free-flying conditions are a result of an intrinsic spontaneous process, contrary to previous suggestions. We discuss how this technique could be generalized for use in other systems and employed as a tool for classifying effects into sensory, decision, and motor categories when used to analyze data from genetic behavioral screens.\",\n    number = \"2\",\n    month = \"February\",\n    volume = \"9\",\n    year = \"2013\",\n    pdf = \"http://www.ploscompbiol.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002891&representation=PDF\",\n    journal = \"PLOS Computational Biology\"\n}\n\n", 
   "order": 2
  }, 
  "censi12phd": {
@@ -1220,6 +1225,36 @@
   "html_short": "<span class=\"author\">A.C., <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous maximum-likelihood calibration of robot and sensor parameters.</span>\n<span class=\"booktitle\">In <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>. Pasadena, CA, May 2008.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2008-icra-calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ROBOT.2008.4543516\">doi</a></span><span class=\"video\"><a href=\"http://purl.org/censi/research/2008-icra-calibration-video.mpg\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2007/calib\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2008-icra-calibration-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@inproceedings{censi08calib,\n    author = \"Censi, Andrea and Marchionni, Luca and Oriolo, Giuseppe\",\n    doi = \"10.1109/ROBOT.2008.4543516\",\n    title = \"Simultaneous maximum-likelihood calibration of robot and sensor parameters\",\n    url = \"http://purl.org/censi/2007/calib\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    year = \"2008\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2008-icra-calibration-slides.pdf\",\n    video = \"http://purl.org/censi/research/2008-icra-calibration-video.mpg\",\n    address = \"Pasadena, CA\",\n    pdf = \"http://purl.org/censi/research/2008-icra-calibration.pdf\",\n    abstract = \"For a differential-drive mobile robot equipped with an on-board range sensor, there are six parameters to calibrate: three for the odometry (radii and distance between the wheels), and three for the pose of the sensor with respect to the robot frame. This paper describes a method for calibrating all six parameters at the same time, without the need for external sensors or devices. Moreover, it is not necessary to drive the robot along particular trajectories. The available data are the measures of the angular velocities of the wheels and the range sensor readings. The maximum-likelihood calibration solution is found in a closed form.\"\n}\n\n", 
   "order": 22
+ }, 
+ "carlone14coherent_sub": {
+  "fields": {
+   "title": "Coherent Measurements Selection via $\\ell_1$ Relaxation: an Approach to Robust Estimation over Graphs", 
+   "abstract": "", 
+   "author": [
+    {
+     "last": "Carlone", 
+     "first": "Luca"
+    }, 
+    {
+     "last": "Censi", 
+     "first": "Andrea"
+    }, 
+    {
+     "last": "Dellaert", 
+     "first": "Frank"
+    }
+   ], 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/carlone14coherent.png", 
+   "month": "February", 
+   "note": "(Submitted to IROS 2014)", 
+   "year": "2014", 
+   "type": "inproceedings", 
+   "booktitle": "-", 
+   "desc": "[Luca](http://lucacarlone.com), [Frank](http://www.cc.gatech.edu/~dellaert/)\nand I show how outliers in planar pose graph optimization \ncan be detected using convex relaxation. This builds on previous papers showing\nthat planar pose graph optimization can be decoupled in linear problems (with a few tricks)."
+  }, 
+  "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a>, A.C., and Frank Dellaert.</span>\n<span class=\"title\">Coherent measurements selection via $\\ell_1$ relaxation: an approach to robust estimation over graphs.</span>\n<span class=\"booktitle\">In <em>-</em>. February 2014.</span>\n<span class=\"note\">(Submitted to IROS 2014).</span>\n", 
+  "bibtex": "@inproceedings{carlone14coherent_sub,\n    author = \"Carlone, Luca and Censi, Andrea and Dellaert, Frank\",\n    title = \"Coherent Measurements Selection via $\\ell_1$ Relaxation: an Approach to Robust Estimation over Graphs\",\n    abstract = \"\",\n    month = \"February\",\n    note = \"(Submitted to IROS 2014)\",\n    year = \"2014\",\n    booktitle = \"-\"\n}\n\n", 
+  "order": 44
  }, 
  "censi13jbds_sub": {
   "fields": {
@@ -1331,7 +1366,7 @@
  "censi13dvsd_sub": {
   "fields": {
    "kind": "preprint", 
-   "title": "Low-latency event-based visual odometry", 
+   "title": "Low-latency Event-Based Visual Odometry", 
    "url": "http://purl.org/censi/2013/dvsd", 
    "abstract": "", 
    "author": [
@@ -1346,15 +1381,15 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi13dvsd.png", 
    "number": "2912", 
-   "note": "Submitted to ICRA 2014", 
+   "note": "To appear in ICRA 2014", 
    "year": "2013", 
    "pdf": "http://purl.org/censi/research/2013-dvsd-sub.pdf", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology", 
    "desc": "This paper describes an event-based visual odometry algorighm which\nuses a DVS sensor together with a normal camera."
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\nTechnical Report 2912, Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, 2013.\n<span class=\"note\">Submitted to ICRA 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Low-latency event-based visual odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    abstract = \"\",\n    number = \"2912\",\n    note = \"Submitted to ICRA 2014\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems, Massachusetts Institute of Technology\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\nTechnical Report 2912, Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, 2013.\n<span class=\"note\">To appear in ICRA 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    abstract = \"\",\n    number = \"2912\",\n    note = \"To appear in ICRA 2014\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems, Massachusetts Institute of Technology\"\n}\n\n", 
   "order": 35
  }, 
  "censi09attitude": {
