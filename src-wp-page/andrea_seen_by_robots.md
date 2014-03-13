@@ -1,15 +1,22 @@
+<style type='text/css'>
+img.robo { border: solid 2px black;}
+</style>
+
+November 2012, Zurich: Seen by a Turtlebot 
+
+<img class='robo' src='http://andrea.caltech.edu/media/andrea_log-turtlebot.jpg'/>
+
+July 2010, Pasadena: Seen by an ER-1
+
+<img class='robo' style='width:200px' src='http://andrea.caltech.edu/media/andrea_log.jpg'/>
 
 
-Seen by a Turtlebot (Zurich, November 2012)
-
-<img src='http://andrea.caltech.edu/media/andrea_log-turtlebot.jpg'/>
-
-
-Seen by an ER-1 (Pasadena, July 2010)
-
-<img style='width:200px' src='http://andrea.caltech.edu/media/andrea_log.jpg'/>
+August 2004, Barcelona, Spain: Sapienza University's <a href='http://www.robocuprescue.org/'>Robocup Rescue</a> team.
+<img class='robo' src="http://censi.mit.edu/pub/university/images/robocup2004/robocup2004-spqr-album/img/1/2.jpg"/>
 
 
-Seen with a Lego R2-D2 (at Legoland in Billund, Denmark, August 2000)
+August 2000, Billund, Denmark: With a Lego R2-D2 in the original <a href='http://www.legoland.dk/en/'>Legoland</a>.
 
-<img src='http://andrea.caltech.edu/media/mini/legoland.jpg'/>
+<img  class='robo' src='http://andrea.caltech.edu/media/mini/legoland.jpg'/>
+
+
