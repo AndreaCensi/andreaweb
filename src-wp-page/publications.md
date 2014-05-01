@@ -4,7 +4,7 @@
 
 
 For a summary of my main research interests, 
-see <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
+see <a href="http://censi.mit.edu/slides/">
 a recent presentation about my work.</a> 
 
 *Legend*: 
@@ -31,6 +31,8 @@ Please feel free to ask for a PDF if it is not linked here.
 [pub_ref_desc id='censi12phd']
 
 #### Journal papers
+
+[pub_ref_desc id='fuller14controlling']
 
 [pub_ref_desc id='carlone14angular']
 

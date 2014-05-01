@@ -59,9 +59,10 @@
 
 
 <div class='faq'><p class='q'> 
-        Why is your computer named "Susan"?
+        Why is your computer named "grace"?
     </p><p class='a'> 
-        Because of <a href="http://en.wikipedia.org/wiki/Susan_Calvin">Susan Calvin</a>.
+        Because of <a href="http://en.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a>. (In Italian, 
+        nouns have gender and "machine" is feminine.)
 </p></div>
 
 
