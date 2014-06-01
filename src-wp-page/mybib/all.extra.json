@@ -1266,6 +1266,7 @@
  }, 
  "censi13dvsd_sub": {
   "fields": {
+   "note": "To appear in ICRA 2014", 
    "kind": "preprint", 
    "title": "Low-latency Event-Based Visual Odometry", 
    "url": "http://purl.org/censi/2013/dvsd", 
@@ -1282,15 +1283,15 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi13dvsd.png", 
    "number": "2912", 
-   "note": "To appear in ICRA 2014", 
+   "slides": "http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf", 
    "year": "2013", 
    "pdf": "http://purl.org/censi/research/2013-dvsd-sub.pdf", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology", 
    "desc": "This paper describes an event-based visual odometry algorighm which\nuses a DVS sensor together with a normal camera."
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\nTechnical Report 2912, Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, 2013.\n<span class=\"note\">To appear in ICRA 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    abstract = \"\",\n    number = \"2912\",\n    note = \"To appear in ICRA 2014\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems, Massachusetts Institute of Technology\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\nTechnical Report 2912, Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, 2013.\n<span class=\"note\">To appear in ICRA 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@techreport{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    note = \"To appear in ICRA 2014\",\n    kind = \"preprint\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    abstract = \"\",\n    number = \"2912\",\n    slides = \"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems, Massachusetts Institute of Technology\"\n}\n\n", 
   "order": 40
  }, 
  "censi13joint": {
