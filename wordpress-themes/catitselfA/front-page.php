@@ -17,12 +17,14 @@ get_header(); ?>
     <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-intro.html'); ?>
 
     <div id='short_news_and_travel'>
-        <div id='short_news'>
-            <h3 id='short_news_title'> What's new </h3>
+        <div id='important'>
             <ul><li>There is<a href="http://censi.mit.edu/media/NSF-NRI-funding.pdf">
                  funding available for MIT PhD/MS students
                 who want to work with me.
             </a></li></ul>
+        </div>
+        <div id='short_news'>
+            <h3 id='short_news_title'> What's new </h3>
             <?php
                 function filter_where($where = '') {
                     $where .= " AND post_date >= '" . date('Y-m-d', strtotime('-360 days')) . "'";
@@ -59,14 +61,14 @@ get_header(); ?>
             <a class='older' id='older-news' href='/misc/old-news'>Older news... </a>
         </div>
         
-        <div id="travel">
-            <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
-        </div>
     </div>
 
 
     <div id='research_items'> 
 
+        <div id="travel">
+            <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
+        </div>
     	<h3 id='what_new'> Longer news
             <span id="rsslink">(<a rel="external nofollow" id="feedrss" 
                 title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src='media/rss.gif' alt='RSS'/> RSS feed</a>)</span>
@@ -91,7 +93,7 @@ get_header(); ?>
             <? endwhile; ?>
             <a class='older' id='older-posts' href='/blog/page/10/'>Older posts... </a>
     </div>
-
+<!-- 
 
 <div id='widget-gplus'>
     <h3>Google+ </h3>
@@ -103,6 +105,6 @@ get_header(); ?>
     data-radius="0" data-txt="0c0c0c" data-link="36c" data-favicon="yes" data-header="no" data-footer="yes" data-page="no"></div>
     <script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
     </div>
-</div>
+</div> -->
 
 <?php get_footer(); ?>
