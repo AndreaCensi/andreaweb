@@ -227,7 +227,7 @@ a:hover {background-color: #fee;}
 div.shortpost .title {display: none;}
 div.shortpost h4 {}
     div.shortpost h4 { float: right; text-align: right; font-size: smaller; padding-left: 1em;}
-    div.shortpost img.post_icon { float: right; clear: right; width: 1.4em; height: 1.4em;}
+    div.shortpost img.post_icon { float: right; clear: right; width: 2em; height: 2em;}
 
     /* Compact paragraphis and lists inside short news */
     div.shortpost div.entry p {

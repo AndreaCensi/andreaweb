@@ -29,11 +29,6 @@ get_header(); ?>
         </a></li></ul>
     </div>
 
-    <div id="video_gallery">
-        <h3>Video gallery</h3>
-        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
-    </div>
-
 
     <div id='short_news_and_travel_'>
         <h3>What's new</h3>
@@ -85,6 +80,11 @@ get_header(); ?>
     </div>
 
 
+    <div id="video_gallery">
+        <h3>Video gallery</h3>
+        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
+    </div>
+
     <div id='research_items'> 
 
     	<h3 id='what_new'> Longer news
@@ -129,19 +129,20 @@ get_header(); ?>
 
 
 <style type='text/css'>
-#fluid_short_news { height: 35em; width: 85em;}
+#fluid_short_news { height: 35em; width: 100%;}
 #fluid_short_news { clear: left; }
 #fluid_short_news .shortpost { width: 20em;  display: box;}
 #fluid_short_news .shortpost h4 { }
 
 #fluid_short_news .shortpost {padding: 0.4em; margin-bottom: 2em;}
 #fluid_short_news .shortpost {background-color: #fffafa; }
-#shortpost0 p { background-color: #ffbbbb; }
-#shortpost1 p { background-color: #ffcccc; }
-#shortpost2 p { background-color: #ffdddd; }
-#shortpost3 p { background-color: #ffeeee; }
-#shortpost4 p { background-color: #fff7f7; }
-#shortpost5 p { background-color: #ffeeee; }
+#fluid_short_news #shortpost0  { background-color: #ffbbbb; }
+#fluid_short_news #shortpost1  { background-color: #ffcccc; }
+#fluid_short_news #shortpost2  { background-color: #ffdddd; }
+#fluid_short_news #shortpost3  { background-color: #ffeeee; }
+#fluid_short_news #shortpost4  { background-color: #fff7f7; }
+#fluid_short_news #shortpost5  { background-color: #ffeeee; }
+
 
 </style>
 
