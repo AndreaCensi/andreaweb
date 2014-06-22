@@ -110,19 +110,8 @@ h5 { font-size: 100%; font-weight: bold; margin-bottom: 0.5em;}
 /*div.post h4 a { color: #a00 !important; }*/
 div.post h4 a { color: #226 !important; }
 
-/* Short posts */
 
-    div.shortpost .title {display: none;}
-    div.shortpost h4 {display: inline; font-weight: bold; float: left;
-                    padding-right: 1em; font-size: smaller;}
 
-    /* Compact paragraphis and lists inside short news */
-    div.shortpost div.entry p {
-        margin: 0 !important; padding: 0 !important;} 
-    div.shortpost div.entry ul {
-        margin-bottom: 0 !important;
-        padding-bottom: 0 !important;
-    }
 
 /* Colors */
 
@@ -238,8 +227,6 @@ article { border: 0 !important;}
 
 p.purl-notice { font-size: smaller; font-family: sans-serif; color: #888;}
 p.purl-notice A { color: inherit !important;}
-
-
 
 
 /* Fonts */

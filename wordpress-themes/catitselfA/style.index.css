@@ -221,3 +221,18 @@ div#wgp_wrapper {width: 500px !important; font-family: serif !important;}
 
 
 a:hover {background-color: #fee;}
+
+
+/* 2014-06-22 : icons in shortpost*/
+div.shortpost .title {display: none;}
+div.shortpost h4 {}
+    div.shortpost h4 { float: right; text-align: right; font-size: smaller; padding-left: 1em;}
+    div.shortpost img.post_icon { float: right; clear: right; width: 1.4em; height: 1.4em;}
+
+    /* Compact paragraphis and lists inside short news */
+    div.shortpost div.entry p {
+        margin: 0 !important; padding: 0 !important;} 
+    div.shortpost div.entry ul {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }

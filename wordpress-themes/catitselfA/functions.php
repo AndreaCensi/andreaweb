@@ -26,8 +26,6 @@ function pub_format_short($entry) {
     return "<p class='pub-ref-short'>{$html_short}{$bib}</p>";
 }
 
-
-
 function pub_ref_page( $atts ) { 
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
     $entry = read_pub_entry($id);

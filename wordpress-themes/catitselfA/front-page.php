@@ -40,6 +40,10 @@ get_header(); ?>
         <div id='fluid_short_news'>
             <!-- <h3 id='short_news_title'> What's new </h3> -->
             <?php
+                function print_tag_icon( $name ) { 
+                    print("<img src='/media/post_icons/{$name}.png' class='post_icon post_{$name}'/>");
+                }
+
                 function filter_where($where = '') {
                     $where .= " AND post_date >= '" . date('Y-m-d', strtotime('-360 days')) . "'";
                     return $where;
@@ -59,21 +63,20 @@ get_header(); ?>
                                 <?php the_title(); ?>
                              </a>
                         </h4>
+                        <?php 
+                            // $tags = get_tags(); 
+                            $recognized = array('code', 'coverage', 'talks', 'paper', 'travel');
+                            foreach($recognized as $t) {
+                                if (has_tag($t)) {
+                                    print_tag_icon($t);
+                                }
+                            }
+                        ?>
                         <div class="entry"><?php the_content(); ?></div>
                     </div>
             <? endwhile; ?>
             <?php remove_filter('posts_where', 'filter_where'); ?>
-        <!--    <ul style='margin-top: 2em'>
-            <li> <a href="http://purl.org/censi/research/201303-bootstrapping-vehicles.pdf">
-                Recent presentation on my work</a>; <a href="http://purl.org/censi/2012/phd">dissertation</a>.
-        </li> 
-        <li>
-
-         <a href="http://vimeo.com/andreacensi/icra2013-diffeo-planning">Here's the video</a> for the paper I presented at ICRA 2013: (<a href="http://purl.org/censi/research/2012-dptr1.pdf">PDF</a>).
-            </li>
-            </ul>
-            <iframe src="http://player.vimeo.com/video/65564176" width="95%"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
--->
+ 
             <div class='shortpost'>
             <a class='older' id='older-news' href='/misc/old-news'>Older news... </a>
             </div>
@@ -131,13 +134,14 @@ get_header(); ?>
 #fluid_short_news .shortpost { width: 20em;  display: box;}
 #fluid_short_news .shortpost h4 { }
 
-#fluid_short_news .shortpost {padding: 0.2em; margin: 0.5em !important;}
-#shortpost0 { background-color: #ffbbbb; }
-#shortpost1 { background-color: #ffcccc; }
-#shortpost2 { background-color: #ffdddd; }
-#shortpost3 { background-color: #ffeeee; }
-#shortpost4 { background-color: #fff7f7; }
-#shortpost5 { background-color: #ffeeee; }
+#fluid_short_news .shortpost {padding: 0.4em; margin-bottom: 2em;}
+#fluid_short_news .shortpost {background-color: #fffafa; }
+#shortpost0 p { background-color: #ffbbbb; }
+#shortpost1 p { background-color: #ffcccc; }
+#shortpost2 p { background-color: #ffdddd; }
+#shortpost3 p { background-color: #ffeeee; }
+#shortpost4 p { background-color: #fff7f7; }
+#shortpost5 p { background-color: #ffeeee; }
 
 </style>
 
@@ -149,7 +153,8 @@ $(document).ready(function() {
     var msnry = new Masonry( container, {
       // options
       // columnWidth: 200,
-      itemSelector: '.shortpost'
+      itemSelector: '.shortpost',
+      gutter: 10,
     });
 
     container = document.querySelector('#video-gallery-int');
