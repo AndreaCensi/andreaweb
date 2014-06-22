@@ -25,9 +25,27 @@
 <p><a href="http://purl.org/censi/2011/saccade.">Paper</a></p>
 </div>
 
-<div class='video'>
+<div class='video old_video'>
   <iframe src="http://player.vimeo.com/video/68463031" width="240" height="135"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   <p>Graduation ceremony in first person (Jun 2013)</p>
 </div>
 
+<div class='video'>
+<div id='show_old_videos_parent'>
+<input type="submit" name="show_old_videos" 
+        value="older entries" id="show_old_videos" /> 
 </div>
+</div>
+
+</div>
+
+<style type='text/css'>
+.old_video { display: none;}
+</style>
+<script type="text/javascript">
+ $(document).ready(function() {
+   $('#show_old_videos').click(function(){
+     $('.old_video').toggle();
+   });
+ });
+</script>

@@ -210,9 +210,9 @@
         <span style='font-weight: bold; '>
         <a  href="/misc/faq/#andrea">Andrea</a> Censi 
     </span>
-        <img src='/media/doteq.png' style='width: 0.8em; margin-left: 0.5em'/>
+    <!--    <img src='/media/doteq.png' style='width: 0.8em; margin-left: 0.5em'/>-->
         <!-- <span style='font-size: 120%'>&#x2257;</span> -->
-    
+    <!--
 <ul id='definition'> 
     <li><a href="http://www.youtube.com/watch?v=cqvnj2sy8H8">control</a>/<a href="http://www.youtube.com/watch?v=VXa9tXcMhXQ">robotics</a> 
         <a href="http://www.youtube.com/watch?v=CmYDgncMhXw">engineer</a> </li>
@@ -223,12 +223,11 @@
 </ul>
     
 <span id='also'>also:</span>
-
+-->
 <p id='position' class='changed2'>
     Research Scientist, Principal Investigator <br/>
     <a href="http://lids.mit.edu">Laboratory for Information and Decision Systems</a> <br/>
-    MIT
-    <!-- Massachusetts Institute of Technology -->
+    Massachusetts Institute of Technology
     <!--<a href="http://www.phdcomics.com/comics/archive.php?comicid=125">
         <span style="text-decoration: line-through">First</span> 
         <span style="text-decoration: line-through">second</span>  
@@ -252,7 +251,7 @@
         </style>
         <p>Ph.D., 2012, Caltech, <em><a href='http://www.cds.caltech.edu/'>Control &amp;
             Dynamical Systems</a></em><br/>
-        M.Sc., 2007, Sapienza University (Rome, Italy)<br/>
+        <!-- M.Sc., 2007, Sapienza University (Rome, Italy)<br/> -->
     <a href="http://purl.org/censi/cv"><b>CV</b></a> / <a href='/misc/short-bio/'>short bio</a> 
             / <a href="http://www.linkedin.com/in/censi">
             <img class='site-icon' src='/media/linkedin.jpg'/><!-- LinkedIn --></a>
@@ -268,21 +267,31 @@
             <img class='site-icon' src='/media/linkedin.jpg'/>></a> -->
         
         <li class='highlight'> <a href="/publications/">Publications</a> </li>
-        <li style='max-width: 24em'> <a href="/research/" class='highlight'>Research interests</a>:
-                <a href="/research/bootstrapping/">Bootstrapping</a> (low-level sensorimotor learning); 
+        <li style='max-width: 24em'> 
+            <a href='#' id='interests' class='highlight'>Research interests</a>
+            <span id='interests-toggle'>:
+            <a href="/research/" class='highlight'>summary</a>;
+                <a href="/research/bootstrapping/">bootstrapping</a> (low-level sensorimotor learning); 
                 <a href="/research/robot-perception/">perception</a> 
                 and <a href="/research/planning-control/">planning/control</a> problems in robots and 
                 <a href="/research/biology/">biological agents</a>; 
                 <a href="/research/estimation/">estimation/filtering</a> on geometric/algebraic structures.
+            </a>
         </li>
-        <li><a href="/software/">Software</a> (<a href="http://github.com/AndreaCensi/"><img class='site-icon' src='/media/github.jpg'/>GitHub</a>):
+        <li><a href='#' id='software'>Software</a><span id='software-toggle'>:
+             (<a href="http://github.com/AndreaCensi/"><img class='site-icon' src='/media/github.jpg'/>GitHub</a>):
             <a href="/software/csm/">CSM</a>,
             <a href="/software/pycontracts/">PyContracts</a>,<br/>
             <a href="/software/compmake/">Compmake</a><img class='site-icon' src='/media/new.png'/>
             and <a href='/software/'>others</a>.
+        </span>
 
         </li>
-        <li>Misc: <a href="/misc/faq/">FAQ</a>, <a href="/misc/quotes/">quotes</a>.
+        <li><a href='#' id='misc'>Misc</a><span id='misc-toggle'>: <a href="/misc/faq/">FAQ</a>, <a href="/misc/quotes/">quotes</a>.
+            </span>
+        </li>
+        <li class='highlight'> <a href="#" id='contact'>Contact</a> </li>
+
     </ul>
  </div>
 
@@ -318,3 +327,31 @@ Cambridge, MA 02139
     </dl>
 
 </div>
+
+
+<script type="text/javascript">
+ $(document).ready(function() {
+    $('#coordinates').toggle();
+   $('a#contact').click(function(){
+     $('#coordinates').toggle();
+   });
+ });
+ $(document).ready(function() {
+    $('#misc-toggle').toggle();
+   $('a#misc').click(function(){
+     $('#misc-toggle').toggle();
+   });
+ });
+ $(document).ready(function() {
+    $('#software-toggle').toggle();
+   $('a#software').click(function(){
+     $('#software-toggle').toggle();
+   });
+ });
+$(document).ready(function() {
+    $('#interests-toggle').toggle();
+   $('a#interests').click(function(){
+     $('#interests-toggle').toggle();
+   });
+ });
+</script>

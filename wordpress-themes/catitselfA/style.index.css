@@ -48,7 +48,6 @@ body {
     /* padding */
     div#updates  {  padding: 1em; }
     div#news     {  padding: 1em; }
-    div#travel   { padding: 0em; padding: 0; }
     div#personal { margin: 0em;}
 
 
@@ -115,17 +114,7 @@ body {
 
  /* layout bottom */
  
-    /*div#short_news_and_travel {
-        display: block; 
-        float: left; 
-        clear: left;
-    }
-    */
-    /*div#short_news H3 {
-        color: #d00;
-    }
-    div#short_news { padding: 0.5em; background-color: #fee !important;}
-    */
+   
     div#video-gallery {
         clear: left;
     }
@@ -139,8 +128,11 @@ body {
         width: 25em;
     }
 
-    div#travel, div#important, div#short_news_and_travel_, div#video-gallery {padding: 0.4em;}
-    div#research_items { padding: 2em; }
+    div#travel , div#important, div#video_gallery,  div#short_news_and_travel_ {margin-top: 2em;}
+    div#travel { margin-bottom: 2em; margin-right: 2em;}
+    div#travel, div#important, div#short_news_and_travel_, div#video_gallery {
+        padding: 0.4em;}
+    div#research_items { padding: 2em; width: 60em;}
 
     div#widget-gplus {
         float: right;
@@ -148,28 +140,6 @@ body {
         /*border: solid 1px red;*/
     }
 
- /* proportions */
-    /*div#short_news_and_travel {
-        width: 25em;
-    }
-    div#travel { 
-        width: 25em;
-    }
-    div#short_news {} 
-    div#research_items { 
-        width: 30%;}
-    div#widget-gplus {
-        width: 20% !important;
-    }
-*/
-/*spacing*/
-/*
-    div#short_news_and_travel {
-        padding-left: 1em;
-        padding-right: 1em;
-    }*/
-
-/* travel */
 
     #travel dl { display: block; 
         /*width: 100%; */

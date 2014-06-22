@@ -29,7 +29,7 @@ get_header(); ?>
         </a></li></ul>
     </div>
 
-    <div id="video-gallery">
+    <div id="video_gallery">
         <h3>Video gallery</h3>
         <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
     </div>
@@ -128,9 +128,10 @@ get_header(); ?>
 <style type='text/css'>
 #fluid_short_news { height: 35em; width: 85em;}
 #fluid_short_news { clear: left; }
-#fluid_short_news .shortpost { width: 20em;  display: box; margin: 5px !important; padding: 5px !important;}
+#fluid_short_news .shortpost { width: 20em;  display: box;}
 #fluid_short_news .shortpost h4 { }
 
+#fluid_short_news .shortpost {padding: 0.2em; margin: 0.5em !important;}
 #shortpost0 { background-color: #ffbbbb; }
 #shortpost1 { background-color: #ffcccc; }
 #shortpost2 { background-color: #ffdddd; }
@@ -154,7 +155,7 @@ $(document).ready(function() {
     container = document.querySelector('#video-gallery-int');
     var msnry = new Masonry( container, {
       // options
-      // columnWidth: 200,
+      columnWidth: 100,
       itemSelector: '.video'
     });
 });
