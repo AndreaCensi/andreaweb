@@ -16,15 +16,29 @@ get_header(); ?>
     
     <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-intro.html'); ?>
 
-    <div id='short_news_and_travel'>
-        <div id='important'>
-            <ul><li>There is<a href="http://censi.mit.edu/media/NSF-NRI-funding.pdf">
-                 funding available for MIT PhD/MS students
-                who want to work with me.
-            </a></li></ul>
-        </div>
-        <div id='short_news'>
-            <h3 id='short_news_title'> What's new </h3>
+    <div id="travel">
+        <h3>Travel plans</h3>
+        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
+    </div>
+
+    <div id='important'>
+        <h3>Note</h3>
+        <ul><li>There is<a href="http://censi.mit.edu/media/NSF-NRI-funding.pdf">
+             funding available for MIT PhD/MS students
+            who want to work with me.
+        </a></li></ul>
+    </div>
+
+    <div id="video-gallery">
+        <h3>Video gallery</h3>
+        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
+    </div>
+
+
+    <div id='short_news_and_travel_'>
+        <h3>What's new</h3>
+        <div id='fluid_short_news'>
+            <!-- <h3 id='short_news_title'> What's new </h3> -->
             <?php
                 function filter_where($where = '') {
                     $where .= " AND post_date >= '" . date('Y-m-d', strtotime('-360 days')) . "'";
@@ -36,9 +50,11 @@ get_header(); ?>
                 $q = $q . '&orderby=date&order=desc&posts_per_page=100';
                 query_posts($q);
 
+                $counter = 0;
                 while (have_posts()) : the_post();?>
-                    <div class='shortpost'>
-                        <h4> <span class='date'><?php the_time('Y-m-d') ?> </span>
+                    <div class='shortpost' id='shortpost<?php print($counter++); ?>'>
+                        <h4>
+                            <span class='date'><?php the_time('Y-m-d') ?> </span>
                              <a href="<?php the_permalink() ?>" rel="bookmark" class='title'>
                                 <?php the_title(); ?>
                              </a>
@@ -58,7 +74,9 @@ get_header(); ?>
             </ul>
             <iframe src="http://player.vimeo.com/video/65564176" width="95%"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 -->
+            <div class='shortpost'>
             <a class='older' id='older-news' href='/misc/old-news'>Older news... </a>
+            </div>
         </div>
         
     </div>
@@ -66,9 +84,6 @@ get_header(); ?>
 
     <div id='research_items'> 
 
-        <div id="travel">
-            <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
-        </div>
     	<h3 id='what_new'> Longer news
             <span id="rsslink">(<a rel="external nofollow" id="feedrss" 
                 title="Get website updates as RSS" href="http://purl.org/censi/feed"><img src='media/rss.gif' alt='RSS'/> RSS feed</a>)</span>
@@ -93,6 +108,8 @@ get_header(); ?>
             <? endwhile; ?>
             <a class='older' id='older-posts' href='/blog/page/10/'>Older posts... </a>
     </div>
+
+
 <!-- 
 
 <div id='widget-gplus'>
@@ -106,5 +123,41 @@ get_header(); ?>
     <script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
     </div>
 </div> -->
+
+
+<style type='text/css'>
+#fluid_short_news { height: 35em; width: 85em;}
+#fluid_short_news { clear: left; }
+#fluid_short_news .shortpost { width: 20em;  display: box; margin: 5px !important; padding: 5px !important;}
+#fluid_short_news .shortpost h4 { }
+
+#shortpost0 { background-color: #ffbbbb; }
+#shortpost1 { background-color: #ffcccc; }
+#shortpost2 { background-color: #ffdddd; }
+#shortpost3 { background-color: #ffeeee; }
+#shortpost4 { background-color: #fff7f7; }
+#shortpost5 { background-color: #ffeeee; }
+
+</style>
+
+<script type='text/javascript' src="/media/masonry.pkgd.js"></script>
+<script type='text/javascript'>
+$(document).ready(function() {
+
+    var container = document.querySelector('#fluid_short_news');
+    var msnry = new Masonry( container, {
+      // options
+      // columnWidth: 200,
+      itemSelector: '.shortpost'
+    });
+
+    container = document.querySelector('#video-gallery-int');
+    var msnry = new Masonry( container, {
+      // options
+      // columnWidth: 200,
+      itemSelector: '.video'
+    });
+});
+</script>
 
 <?php get_footer(); ?>

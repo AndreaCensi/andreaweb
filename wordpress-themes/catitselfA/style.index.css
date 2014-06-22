@@ -115,18 +115,32 @@ body {
 
  /* layout bottom */
  
-    div#short_news_and_travel {
+    /*div#short_news_and_travel {
         display: block; 
         float: left; 
         clear: left;
     }
-    div#short_news H3 {
+    */
+    /*div#short_news H3 {
         color: #d00;
     }
     div#short_news { padding: 0.5em; background-color: #fee !important;}
-    div#travel { 
+    */
+    div#video-gallery {
+        clear: left;
     }
-    div#research_items {display: block; float: left; }
+    div#travel { 
+        clear: left;
+        width: 20em;
+        float: left;
+    }
+    div#important {
+    float: left; 
+        width: 25em;
+    }
+
+    div#travel, div#important, div#short_news_and_travel_, div#video-gallery {padding: 0.4em;}
+    div#research_items { padding: 2em; }
 
     div#widget-gplus {
         float: right;
@@ -135,7 +149,7 @@ body {
     }
 
  /* proportions */
-    div#short_news_and_travel {
+    /*div#short_news_and_travel {
         width: 25em;
     }
     div#travel { 
@@ -147,13 +161,13 @@ body {
     div#widget-gplus {
         width: 20% !important;
     }
-
+*/
 /*spacing*/
-
+/*
     div#short_news_and_travel {
         padding-left: 1em;
         padding-right: 1em;
-    }
+    }*/
 
 /* travel */
 
@@ -196,8 +210,6 @@ body {
         width: 100%;
     }
 
-
-
 /* Andrea's modifications */
 body.home header {
     display: none;
@@ -206,9 +218,7 @@ body.home header {
 /* button */
 #show_old_travel_plans_parent {
     display: block; clear: both; 
-
-
-    text-align: right;
+    text-align: left;
 }
 #show_old_travel_plans { 
     font-size: x-small;}
