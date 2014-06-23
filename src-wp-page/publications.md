@@ -92,3 +92,5 @@ Please feel free to ask for a PDF if it is not linked here.
 
 
 Layout shamelessly copied from [Cyrill][cyrill].
+ 
+[mathjax] 

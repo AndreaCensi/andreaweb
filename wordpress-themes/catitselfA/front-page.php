@@ -21,14 +21,23 @@ get_header(); ?>
         <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
     </div>
 
-    <div id='important'>
-        <h3>Note</h3>
-        <ul><li>There is<a href="http://censi.mit.edu/media/NSF-NRI-funding.pdf">
-             funding available for MIT PhD/MS students
-            who want to work with me.
-        </a></li></ul>
-    </div>
+<img src='/media/want-you.png' id='want-you'/>
+<style type='text/css'>
+    img#want-you { 
+        float: left; 
+        height: 10em;
+/*        border:solid 1px red;
+*/        margin-top: 3em;
+margin-left: 1em;
+margin-right: -1em;
+    }
+    div#important { color: #800;}
+</style>
 
+    <div id="important">
+        <!-- <h3>Note</h3> -->
+        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-note.html'); ?>
+    </div>
 
     <div id='short_news_and_travel_'>
         <h3>What's new</h3>

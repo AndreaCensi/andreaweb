@@ -124,8 +124,8 @@ body {
         float: left;
     }
     div#important {
-    float: left; 
-        width: 25em;
+        float: left; 
+        max-width: 30em;
     }
 
     div#travel , div#important, div#video_gallery,  div#short_news_and_travel_ {margin-top: 2em;}
