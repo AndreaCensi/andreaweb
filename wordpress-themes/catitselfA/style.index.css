@@ -126,6 +126,8 @@ body {
     div#important {
         float: left; 
         max-width: 30em;
+        /* style */ 
+        line-height: 110% !important;
     }
 
     div#travel , div#important, div#video_gallery,  div#short_news_and_travel_ {margin-top: 2em;}

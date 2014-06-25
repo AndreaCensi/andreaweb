@@ -17,9 +17,9 @@ if one is not included, feel free to ask.
 I use Keynote to make slides; the PowerPoint version I give is automatically converted and usually the 
 formatting is way off. -->
 
-<a name='icra2014'/><h3 >May/June 2014, ICRA (Hong Kong)</h3>
+<a name='icra2014'></a><h3>May/June 2014, ICRA (Hong Kong)</h3>
 <ul> 
-        <li> <strong>&ldquo;All you need is love (of data)&rdquo;</strong> ,
+        <li> <strong>&ldquo;All you need is love (of data)&rdquo;</strong>,
             presented at the <a href="https://fling.seas.upenn.edu/~luispuig/wiki/OMNIVIS/">OMNIVIS workshop
              Non-classical Cameras, Camera Networks and Omnidirectional Vision</a>
          <ul>
@@ -34,9 +34,9 @@ formatting is way off. -->
 </li>
  </ul>
 </li>
-
     <li> <strong>&ldquo;Joint Inference and Control: Opportunities and Challenges&rdquo;</strong> presented at the 
-        <a href="http://kodlab.seas.upenn.edu/Main/WorkshopICRA2014">Joint Inference and Control Workshop</a>.
+        <a href="http://kodlab.seas.upenn.edu/Main/WorkshopICRA2014">
+            Joint Inference and Control Workshop</a>.
 <ul>
 <li> <img class="slides-pdf" src='/media/pdf.gif'/>
       <a href="http://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.pdf">PDF version, with no animations</a></li>
