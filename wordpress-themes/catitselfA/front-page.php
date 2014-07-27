@@ -94,6 +94,7 @@ margin-right: -1em;
         <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
     </div>
 
+<!--
     <div id='research_items'> 
 
     	<h3 id='what_new'> Longer news
@@ -120,7 +121,7 @@ margin-right: -1em;
             <? endwhile; ?>
             <a class='older' id='older-posts' href='/blog/page/10/'>Older posts... </a>
     </div>
-
+-->
 
 <!-- 
 
