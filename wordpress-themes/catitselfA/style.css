@@ -75,7 +75,9 @@ Version:        0.1.0
     body.page h1 span.date,
     body.single-post h1 span.date
      { font-size: 10pt; float: right; 
-        color: gray; font-weight: normal;}
+        color: gray; font-weight: normal;
+        display: none;
+    }
 
     body.single-post footer.entry-meta {display: none;}  
 
@@ -195,7 +197,8 @@ div.pub-ref-desc img.icon {
     width: 7em;
     padding: 0;
     margin-bottom: 1em;
-    border: solid 1px black;
+            border: solid 0px #888888;
+        box-shadow: 2px 2px 8px #888888;
 }
 
 /* Publications previews */
@@ -209,7 +212,8 @@ div.pub_ref_page div.previews div.pdf-preview {
 
 div.pub_ref_page div.previews div.pdf-preview img {
     width: 8em;
-    border: solid 1px black;
+    border: solid 1px #888888;
+    box-shadow: 2px 2px 5px #888888;
 }
 
 div.pub_ref_page div.after-previews  {
