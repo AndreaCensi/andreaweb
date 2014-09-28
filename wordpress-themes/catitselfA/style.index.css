@@ -41,7 +41,7 @@ body {
     div.figure p.caption {  margin-top: 0; }
 
 
-    p#notice { color: darkred; clear: both; font-weight: bold; font-size: smaller;
+    p#notice { color: black; clear: both; font-weight: bold; font-size: smaller;
         text-align: center; }
 
 
@@ -123,11 +123,14 @@ body {
         width: 20em;
         float: left;
     }
+
+    div#important { color: black;}
+    div#important .really {color: #660000; background-color: #ffeeee;}
     div#important {
         float: left; 
         max-width: 30em;
         /* style */ 
-        line-height: 110% !important;
+        line-height: 120% !important;
     }
 
     div#travel , div#important, div#video_gallery,  div#short_news_and_travel_ {margin-top: 2em;}

@@ -1,37 +1,38 @@
+# <VirtualHost *:80>
+
+#     ServerName censi.org
+#     ServerName www.censi.org
+#     ServerName web.censi.org
+#     ServerAdmin andrea@web.censi.org
+
+#     # DocumentRoot /home/andrea/scm/andreaweb/censi.org-content
+#     DocumentRoot /var/www/wordpress
+#     <Directory />
+#         Options FollowSymLinks
+#         AllowOverride None
+#     </Directory>
+ 
+#     <Directory /home/andrea/scm/andreaweb/>
+#         Options Indexes FollowSymLinks MultiViews
+#         AllowOverride All
+#         Order allow,deny
+#         allow from all
+#     </Directory>
+ 
+#     LogLevel info
+#     ErrorLog ${APACHE_LOG_DIR}/censi.org/error.log
+#     CustomLog ${APACHE_LOG_DIR}/censi.org/access.log combined
+
+# </VirtualHost>
+
 <VirtualHost *:80>
 
     ServerName censi.org
-    ServerName www.censi.org
-    ServerName web.censi.org
-    ServerAdmin andrea@web.censi.org
-
-    DocumentRoot /home/andrea/scm/andreaweb/censi.org-content
-
-    <Directory />
-        Options FollowSymLinks
-        AllowOverride None
-    </Directory>
- 
-    <Directory /home/andrea/scm/andreaweb/>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride All
-        Order allow,deny
-        allow from all
-    </Directory>
- 
-    LogLevel info
-    ErrorLog ${APACHE_LOG_DIR}/censi.org/error.log
-    CustomLog ${APACHE_LOG_DIR}/censi.org/access.log combined
-
-</VirtualHost>
-
-<VirtualHost *:80>
-
-    ServerName censi.mit.edu
+    ServerAlias censi.mit.edu
     ServerAlias andrea.caltech.edu
     ServerAlias andrea.censi.org
 	ServerAdmin andrea@web.censi.org
-    UseCanonicalName On
+    UseCanonicalName Off
 
 	DocumentRoot /var/www/wordpress
 
@@ -53,10 +54,11 @@
 
     RewriteEngine on
 
+    # 2014-09-26: removing for now for new wordpress update
     # force censi.mit.edu
-    RewriteCond %{HTTP_HOST}   !^censi\.mit\.edu [NC]
-    RewriteCond %{HTTP_HOST}   !^$
-    RewriteRule ^/(.*)         http://censi.mit.edu/$1 [L,R]
+    # RewriteCond %{HTTP_HOST}   !^censi\.mit\.edu [NC]
+    # RewriteCond %{HTTP_HOST}   !^$
+    # RewriteRule ^/(.*)         http://censi.mit.edu/$1 [L,R]
 
     RewriteRule  /media/(.*) - [L]
     RewriteRule  (.*)/pdf.gif http://censi.mit.edu/media/pdf.gif [L]
@@ -64,7 +66,7 @@
     
     RewriteRule  .*/status/(.*) /media/status/$1 [R]
 
-    RewriteRule  (.*)/index.html $1 [R]
+    # RewriteRule  (.*)/index.html $1 [R]
 
 	<Directory />
 		Options FollowSymLinks
@@ -109,7 +111,4 @@
     ScriptAlias /stats/ /usr/lib/cgi-bin/
     Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
 
-
-
-    
 </VirtualHost>

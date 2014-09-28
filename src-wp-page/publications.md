@@ -17,11 +17,10 @@ Please feel free to ask for a PDF if it is not linked here.
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". 
 </p>
 
-[pub_ref_desc id='carlone14coherent_sub']
 
 [pub_ref_desc id='censi13jbds_sub']
 
-[pub_ref_desc id='censi13dvsd_sub']
+
 
 
 
@@ -44,6 +43,10 @@ Please feel free to ask for a PDF if it is not linked here.
 
 
 #### Refereed conference papers 
+
+[pub_ref_desc id='carlone14coherent_sub']
+
+[pub_ref_desc id='censi13dvsd_sub']
 
 [pub_ref_desc id='censi13dvs']
 

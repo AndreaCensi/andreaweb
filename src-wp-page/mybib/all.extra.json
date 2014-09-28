@@ -1287,13 +1287,13 @@
    "month": "May", 
    "slides": "http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf", 
    "year": "2014", 
-   "pdf": "http://purl.org/censi/research/2013-dvsd-sub.pdf", 
+   "pdf": "http://purl.org/censi/research/2013-dvsd-final.pdf", 
    "type": "inproceedings", 
    "abstract": "", 
    "desc": "This paper describes an event-based visual odometry algorighm which\nuses a DVS sensor together with a normal camera."
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@inproceedings{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-sub.pdf\",\n    abstract = \"\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-final.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@inproceedings{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-final.pdf\",\n    abstract = \"\"\n}\n\n", 
   "order": 40
  }, 
  "censi13joint": {

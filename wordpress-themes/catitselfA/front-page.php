@@ -31,7 +31,7 @@ get_header(); ?>
 margin-left: 1em;
 margin-right: -1em;
     }
-    div#important { color: #800;}
+    
 </style>
 
     <div id="important">
