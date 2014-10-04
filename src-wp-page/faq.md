@@ -16,17 +16,17 @@
     </p><p class='a'> 
         In Italy, &ldquo;Andrea&rdquo; is exclusively a male name, as you can read in <a href="http://en.wikipedia.org/wiki/Andrea">the  Wikipedia entry</a> (which I wrote).
         </p><p>
-        My name is pronounced like this: &nbsp;&nbsp; 
+        My name is pronounced like this: /anˈdrɛ a  ˈtʃɛn si/ &nbsp;&nbsp; 
             <img src='/media/speaker.png'/> <a href="/media/andrea_censi.wav">wav</a> | <a href="/media/andrea_censi.ogg">ogg</a>
         <br/>
         </p><p>
-        <table id='pron'>
+<!--        <table id='pron'>
             <caption>phonetic transliterations</caption>
             <tr><td>IPA</td><td>/anˈdrɛ a  ˈtʃɛn si/</td></tr>
             <tr><td>English</td><td>ann-<span>dray</span>-uh <span>chen</span>-see</td></tr>
             <tr><td>Japanese Katakana</td><td>チェンシ アンドレア</td></tr>
             <tr><td>Mandarin Chinese</td><td>安德烈 晨曦</td></tr>
-        </table>
+        </table>-->
         Not that I care too much about pronunciation; to save time in explaning, I usually just say my name is &ldquo;<strong>sen</strong>si&rdquo;, and  &ldquo;Andy&rdquo; is my Starbucks name.
 </p></div>
 
@@ -51,7 +51,7 @@
 <div class='faq'><p class='q'> 
         What do you use for creating this site?
     </p><p class='a'> 
-        Wordpress on Amazon EC2.
+        <a href="http://wordpress.com">Wordpress</a> on <a href="http://aws.amazon.com/">Amazon Elastic Compute Cloud (EC2)</A>.
 </p></div>
 
 
@@ -113,8 +113,24 @@
         48 hours later in Pasadena, with a foreign roommate and late homework due.
     </p>
     <p>
-        For an alternative route, see 
+        For an alternative method, see 
         <a href="http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/">the grad school admission advice by Matt Might</a>.
     </p>
     </div>
 </div>
+
+
+
+<div class='faq' id='mit'>
+    <div class='question'>
+    <p class='q'> 
+        How do I get into MIT?
+    </p>
+    </div>
+    <div class='answer'>
+    <p class='a'> 
+        I'm the wrong person to ask &mdash; my grad school application to MIT was rejected.
+    </p>
+    </div>
+</div>
+
