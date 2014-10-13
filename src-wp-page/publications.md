@@ -17,34 +17,29 @@ Please feel free to ask for a PDF if it is not linked here.
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". 
 </p>
 
+[pub_ref_desc id='censi15compmake_sub']
 [pub_ref_desc id='censi15despl_sub']
+
 [pub_ref_desc id='censi15neucontrol_sub']
 [pub_ref_desc id='censi15codesign_sub']
 [pub_ref_desc id='censi15powerperf_sub']
 
-[pub_ref_desc id='censi13jbds_sub']
 
-
-
-
-
-
-#### Dissertation
-
-[pub_ref_desc id='censi12phd']
 
 #### Journal papers
 
+[pub_ref_desc id='censi13jbds_sub']
 [pub_ref_desc id='fuller14controlling']
-
 [pub_ref_desc id='carlone14angular']
-
 [pub_ref_desc id='censi12cameracalib']
 [pub_ref_desc id='censi13saccade']
 [pub_ref_desc id='censi13joint']
 [pub_ref_desc id='calisi12openrdk']
 [pub_ref_desc id='censi11kf']
 
+#### Dissertation
+
+[pub_ref_desc id='censi12phd']
 
 #### Refereed conference papers 
 
