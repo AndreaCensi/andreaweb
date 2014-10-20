@@ -567,7 +567,6 @@
  }, 
  "fuller14controlling": {
   "fields": {
-   "doi": "10.1098/\u200brsif.2014.0281", 
    "author": [
     {
      "middle": "B.", 
@@ -594,19 +593,21 @@
     }
    ], 
    "title": "Controlling free flight of a robotic fly using an onboard vision sensor inspired by insect ocelli", 
-   "vol": "11", 
+   "url": "http://rsif.royalsocietypublishing.org/content/11/97/20140281", 
    "journal": "Journal of the Royal Society Interface", 
    "year": "2014", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/ocelli.jpg", 
    "number": "97", 
    "month": "August", 
+   "vol": "11", 
    "video": "http://www.youtube.com/watch?v=iMjaIkMxUqQ", 
    "sortyear": "2015", 
+   "doi-old": "10.1098/\u200brsif.2014.0281", 
    "type": "article", 
    "desc": "This paper describes the first sensory-controlled flight of the Robobee. \nThe Robobee is able to stabilize itself using the feedback from\na sensor inspired by the insects' ocelli."
   }, 
-  "html_short": "<span class=\"author\"><a href='http://xenia.media.mit.edu/~minster/'>Sawyer B. Fuller</a>, Michael Karpelson, A.C., Kevin Y. Ma, and <a href='http://www.seas.harvard.edu/directory/rjwood'>Robert J. Wood</a>.</span>\n<span class=\"title\">Controlling free flight of a robotic fly using an onboard vision sensor inspired by insect ocelli.</span>\n<em>Journal of the Royal Society Interface</em>, August 2014.\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1098/\u200brsif.2014.0281\">doi</a></span><span class=\"video\"><a href=\"http://www.youtube.com/watch?v=iMjaIkMxUqQ\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span></span>", 
-  "bibtex": "@article{fuller14controlling,\n    author = \"Fuller, Sawyer B. and Karpelson, Michael and Censi, Andrea and Ma, Kevin Y. and Wood, Robert J.\",\n    doi = \"10.1098/\u200brsif.2014.0281\",\n    title = \"Controlling free flight of a robotic fly using an onboard vision sensor inspired by insect ocelli\",\n    vol = \"11\",\n    journal = \"Journal of the Royal Society Interface\",\n    year = \"2014\",\n    number = \"97\",\n    month = \"August\",\n    video = \"http://www.youtube.com/watch?v=iMjaIkMxUqQ\",\n    sortyear = \"2015\"\n}\n\n", 
+  "html_short": "<span class=\"author\"><a href='http://xenia.media.mit.edu/~minster/'>Sawyer B. Fuller</a>, Michael Karpelson, A.C., Kevin Y. Ma, and <a href='http://www.seas.harvard.edu/directory/rjwood'>Robert J. Wood</a>.</span>\n<span class=\"title\">Controlling free flight of a robotic fly using an onboard vision sensor inspired by insect ocelli.</span>\n<em>Journal of the Royal Society Interface</em>, August 2014.\n<span class=\"links\"><span class=\"video\"><a href=\"http://www.youtube.com/watch?v=iMjaIkMxUqQ\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://rsif.royalsocietypublishing.org/content/11/97/20140281\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{fuller14controlling,\n    author = \"Fuller, Sawyer B. and Karpelson, Michael and Censi, Andrea and Ma, Kevin Y. and Wood, Robert J.\",\n    title = \"Controlling free flight of a robotic fly using an onboard vision sensor inspired by insect ocelli\",\n    url = \"http://rsif.royalsocietypublishing.org/content/11/97/20140281\",\n    journal = \"Journal of the Royal Society Interface\",\n    year = \"2014\",\n    number = \"97\",\n    month = \"August\",\n    vol = \"11\",\n    video = \"http://www.youtube.com/watch?v=iMjaIkMxUqQ\",\n    sortyear = \"2015\",\n    doi-old = \"10.1098/\u200brsif.2014.0281\"\n}\n\n", 
   "order": 3
  }, 
  "censi14bootinvariance_sub": {
@@ -735,12 +736,12 @@
    "month": "10", 
    "volume": "35", 
    "year": "2013", 
-   "pdf": "http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf", 
+   "pdf": "http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf", 
    "issue": "10", 
    "desc": "[Davide] and I explain how to calibrate a generic single-view-point camera\nby only waving it around.\n\n[Davide]: https://sites.google.com/site/scarabotix/home"
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 10 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    volume = \"35\",\n    year = \"2013\",\n    pdf = \"http://andrea.caltech.edu/pub/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    issue = \"10\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 10 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    volume = \"35\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    issue = \"10\"\n}\n\n", 
   "order": 5
  }, 
  "scrapper09": {
