@@ -39,6 +39,12 @@ margin-right: -1em;
         <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-note.html'); ?>
     </div>
 
+
+    <div id="video_gallery">
+        <h3>Video gallery</h3>
+        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
+    </div>
+
     <div id='short_news_and_travel_'>
         <h3>What's new</h3>
         <div id='fluid_short_news'>
@@ -89,10 +95,6 @@ margin-right: -1em;
     </div>
 
 
-    <div id="video_gallery">
-        <h3>Video gallery</h3>
-        <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
-    </div>
 
 <!--
     <div id='research_items'> 

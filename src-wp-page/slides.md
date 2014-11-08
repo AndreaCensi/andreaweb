@@ -39,6 +39,24 @@ if one is not included, feel free to ask.
 I use Keynote to make slides; the PowerPoint version I give is automatically converted and usually the 
 formatting is way off. -->
 
+
+<div class='cover'>
+    <img class='cover' 
+         src='http://censi.mit.edu/pub/research/201410-pycontracts/201410-pycontracts.png'/>
+</div>
+
+
+<div class='talk'>
+    <strong>&ldquo;PyContracts&rdquo;</strong>, presented at the Boston Python User Group.
+    See docs at: <a href="http://andreacensi.github.io/contracts/">http://andreacensi.github.io/contracts/</a>.
+    <ul>
+        <li>
+            <img class="slides-pdf" src='/media/pdf.gif'/>
+            <a href="http://censi.mit.edu/pub/research/201410-pycontracts/201410-pycontracts.pdf">PDF</a></li>
+        </li>
+    </ul>
+</div>
+
 <div class='cover'>
     <img class='cover' 
          src='http://censi.mit.edu/pub/research/201408-CDS20/cover.png'/>

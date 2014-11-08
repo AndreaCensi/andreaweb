@@ -349,7 +349,7 @@
  }, 
  "censi15compmake_sub": {
   "fields": {
-   "title": "{Compmake: Minimal Effort Parallelization of Python Applications}", 
+   "title": "{Compmake: Minimal Effort Parallelization and Job Management for Python Applications}", 
    "url": "http://purl.org/censi/2015/compmake", 
    "author": [
     {
@@ -365,8 +365,8 @@
    "institution": "Laboratory for Information and Decision Systems/MIT", 
    "desc": "Compmake is a non-obtrusive module that provides Makefile-like facilities (including parallel processing) for batch Python applications."
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Compmake: Minimal Effort Parallelization of Python Applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-compmake-v3.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/compmake\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15compmake_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Compmake: Minimal Effort Parallelization of Python Applications}\",\n    url = \"http://purl.org/censi/2015/compmake\",\n    month = \"October\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2015-compmake-v3.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Compmake: Minimal Effort Parallelization and Job Management for Python Applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-compmake-v3.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/compmake\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi15compmake_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Compmake: Minimal Effort Parallelization and Job Management for Python Applications}\",\n    url = \"http://purl.org/censi/2015/compmake\",\n    month = \"October\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2015-compmake-v3.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 39
  }, 
  "censi06scan": {
