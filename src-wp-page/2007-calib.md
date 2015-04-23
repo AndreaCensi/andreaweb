@@ -15,7 +15,7 @@ Conference paper:
 
 Journal paper:
 
-[pub_ref_page id='censi13motion']
+[pub_ref_page id='censi13joint']
 
 
 **Abstract** --  Consider a differential-drive mobile robot equipped with an on-board exteroceptive sensor that can estimate its own motion, e.g., a range-finder. Calibration of this robot involves estimating six parameters: three for the odometry (radii and distance between the wheels), and three for the pose of the sensor with respect to the robot. After analyzing the observability of this problem, this paper describes a method for calibrating all parameters at the same time, without the need for external sensors or devices, using only the measurement of the wheels velocities and the data from the exteroceptive sensor. Moreover, the method does not require the robot to move along particular trajectories. Simultaneous calibration is formulated as a maximum-likelihood problem and the solution is found in a closed form. Experimental results show that the accuracy of the proposed calibration method is very close to the attainable limit.

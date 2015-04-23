@@ -137,15 +137,15 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15despl.png", 
    "month": "October", 
-   "note": "(Submitted to ICRA)", 
+   "note": "", 
+   "apdf": "http://purl.org/censi/research/2015-despl-sub.pdf", 
    "year": "2014", 
-   "pdf": "http://purl.org/censi/research/2015-despl-sub.pdf", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems/MIT", 
    "desc": "This paper describes a few different ways for parallelizing a \"learner\", so that the learning process\ncan be subdivided in jobs that can run independently on different cpus or different hosts."
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"note\">(Submitted to ICRA).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-despl-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/despl\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15despl_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done}\",\n    url = \"http://purl.org/censi/2015/despl\",\n    month = \"October\",\n    note = \"(Submitted to ICRA)\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2015-despl-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2015/despl\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi15despl_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done}\",\n    url = \"http://purl.org/censi/2015/despl\",\n    month = \"October\",\n    note = \"\",\n    apdf = \"http://purl.org/censi/research/2015-despl-sub.pdf\",\n    year = \"2014\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 40
  }, 
  "carpin09hsm3d": {
@@ -224,7 +224,6 @@
  "censi15neucontrol_sub": {
   "fields": {
    "title": "{Efficient Neuromorphic Optomotor Heading Regulation}", 
-   "url": "http://purl.org/censi/2015/neucontrol", 
    "timestamp": "2014.09.30", 
    "author": [
     {
@@ -234,16 +233,17 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15neucontrol.png", 
    "month": "September", 
-   "note": "(Submitted to ACC)", 
+   "note": "(ACC 2015)", 
+   "aurl": "http://purl.org/censi/2015/neucontrol", 
+   "apdf": "http://purl.org/censi/research/2015-neucontrol-sub.pdf", 
    "year": "2014", 
    "owner": "andrea", 
-   "pdf": "http://purl.org/censi/research/2015-neucontrol-sub.pdf", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems/MIT", 
    "desc": "This paper describes a method for regulating the heading of a vehicle \nbased on the feedback from a neuromorphic event-based sensor."
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, September 2014.\n<span class=\"note\">(Submitted to ACC).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-neucontrol-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/neucontrol\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    url = \"http://purl.org/censi/2015/neucontrol\",\n    timestamp = \"2014.09.30\",\n    month = \"September\",\n    note = \"(Submitted to ACC)\",\n    year = \"2014\",\n    owner = \"andrea\",\n    pdf = \"http://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, September 2014.\n<span class=\"note\">(ACC 2015).</span>\n", 
+  "bibtex": "@techreport{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    timestamp = \"2014.09.30\",\n    month = \"September\",\n    note = \"(ACC 2015)\",\n    aurl = \"http://purl.org/censi/2015/neucontrol\",\n    apdf = \"http://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 41
  }, 
  "BaCa04": {
@@ -1391,7 +1391,6 @@
   "fields": {
    "urlresolved": "http://purl.org/censi/web/powerperf", 
    "title": "{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}", 
-   "url": "http://purl.org/censi/2015/powerperf", 
    "timestamp": "2014.09.30", 
    "author": [
     {
@@ -1413,23 +1412,22 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15powerperf.png", 
    "month": "October", 
-   "note": "(Submitted to ICRA)", 
+   "note": "(ICRA 2015)", 
+   "aurl": "http://purl.org/censi/2015/powerperf", 
+   "apdf": "http://purl.org/censi/research/2015-powerperf-sub.pdf", 
    "year": "2014", 
    "owner": "andrea", 
-   "pdf": "http://purl.org/censi/research/2015-powerperf-sub.pdf", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems/MIT", 
    "desc": "How to compare two sensors, or generally, two sensor families? Any meaningful comparison depends on the task.\nThis paper shows that it also depends on the sensing power available."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='https://lids.mit.edu/people/students/erich-mueller'>Erich Mueller</a>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"note\">(Submitted to ICRA).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-powerperf-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/powerperf\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15powerperf_sub,\n    author = \"Censi, Andrea and Mueller, Erich and Frazzoli, Emilio and Soatto, Stefano\",\n    urlresolved = \"http://purl.org/censi/web/powerperf\",\n    title = \"{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}\",\n    url = \"http://purl.org/censi/2015/powerperf\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    note = \"(Submitted to ICRA)\",\n    year = \"2014\",\n    owner = \"andrea\",\n    pdf = \"http://purl.org/censi/research/2015-powerperf-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='https://lids.mit.edu/people/students/erich-mueller'>Erich Mueller</a>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"note\">(ICRA 2015).</span>\n", 
+  "bibtex": "@techreport{censi15powerperf_sub,\n    author = \"Censi, Andrea and Mueller, Erich and Frazzoli, Emilio and Soatto, Stefano\",\n    urlresolved = \"http://purl.org/censi/web/powerperf\",\n    title = \"{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    note = \"(ICRA 2015)\",\n    aurl = \"http://purl.org/censi/2015/powerperf\",\n    apdf = \"http://purl.org/censi/research/2015-powerperf-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 42
  }, 
  "censi15codesign_sub": {
   "fields": {
-   "urlresolved": "http://purl.org/censi/web/codesign", 
    "title": "{On the Optimal Codesign of Vehicle Sensing and Actuation}", 
-   "url": "http://purl.org/censi/2015/codesign", 
    "timestamp": "2014.09.30", 
    "author": [
     {
@@ -1448,16 +1446,17 @@
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15codesign.png", 
    "month": "October", 
-   "note": "(Submitted to ICRA)", 
+   "urlresolved": "http://purl.org/censi/web/codesign", 
+   "aurl": "http://purl.org/censi/2015/codesign", 
+   "apdf": "http://purl.org/censi/research/2015-codesign-sub.pdf", 
    "year": "2014", 
    "owner": "andrea", 
-   "pdf": "http://purl.org/censi/research/2015-codesign-sub.pdf", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems/MIT", 
    "desc": "Should you choose to invest power into sensing and computation, or should you choose to save energy and use a smaller battery?\n  This paper considers the problem of choosing the optimal design of the sensor for an autonomous vehicle\n  that gives the smallest needed onboard energy."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://xenia.media.mit.edu/~minster/'>Sawyer B. Fuller</a>.</span>\n<span class=\"title\">On the Optimal Codesign of Vehicle Sensing and Actuation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"note\">(Submitted to ICRA).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-codesign-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/codesign\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15codesign_sub,\n    author = \"Censi, Andrea and Frazzoli, Emilio and Fuller, Sawyer B.\",\n    urlresolved = \"http://purl.org/censi/web/codesign\",\n    title = \"{On the Optimal Codesign of Vehicle Sensing and Actuation}\",\n    url = \"http://purl.org/censi/2015/codesign\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    note = \"(Submitted to ICRA)\",\n    year = \"2014\",\n    owner = \"andrea\",\n    pdf = \"http://purl.org/censi/research/2015-codesign-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://xenia.media.mit.edu/~minster/'>Sawyer B. Fuller</a>.</span>\n<span class=\"title\">On the Optimal Codesign of Vehicle Sensing and Actuation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n", 
+  "bibtex": "@techreport{censi15codesign_sub,\n    author = \"Censi, Andrea and Frazzoli, Emilio and Fuller, Sawyer B.\",\n    title = \"{On the Optimal Codesign of Vehicle Sensing and Actuation}\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    urlresolved = \"http://purl.org/censi/web/codesign\",\n    aurl = \"http://purl.org/censi/2015/codesign\",\n    apdf = \"http://purl.org/censi/research/2015-codesign-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 43
  }, 
  "censi13dvsd_sub": {
