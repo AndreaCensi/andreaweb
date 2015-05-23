@@ -17,7 +17,7 @@ get_header(); ?>
     <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-intro.html'); ?>
 
     <div id="travel">
-        <h3>Travel plans</h3>
+        <h3>See you there?</h3>
         <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-plans.html'); ?>
     </div>
 
@@ -171,6 +171,14 @@ $(document).ready(function() {
     });
 
     container = document.querySelector('#video-gallery-int');
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: 100,
+      itemSelector: '.video'
+    });
+
+
+    container = document.querySelector('#trailer-gallery-int');
     var msnry = new Masonry( container, {
       // options
       columnWidth: 100,
