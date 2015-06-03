@@ -17,11 +17,12 @@
         padding-right: 1em;
         margin-bottom: 3em;
     }
-    div.cover img {
+    div.cover img, div.cover iframe {
         width: 20em; 
         border: solid 1px #888888;
         box-shadow: 2px 2px 5px #888888;
     }
+    div.cover iframe { height: 15em;}
     div.talk { 
         /*border: solid 1px black;*/
         padding: 0; margin: 0;
@@ -42,7 +43,45 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://censi.mit.edu/pub/research/201410-pycontracts/201410-pycontracts.png'/>
+         src='http://purl.org/censi/research/2015-icra-censi-codesign-slides.1.png'/>
+</div>
+
+<div class='talk'>
+    <strong>&ldquo;Co-design of sensing, computation, and actuation&rdquo;</strong>, presented at 
+    ICRA 2015 in the workshop on <a href="http://people.csail.mit.edu/jingjin/ICRA15/">Beyond Geometric Constraints: Planning for Solving Complex Tasks, Reducing Uncertainty, and Generating Informative Paths &amp; Policies</a>, but really an ad for <a href="http://big-questions.mit.edu/">The Big Questions in Robotics</a>
+    RSS 2015 workshop.
+
+    <ul>
+        <li>
+            <img class="slides-pdf" src='/media/pdf.gif'/>
+            <a href="http://censi.mit.edu/pub/research/2015-icra-censi-codesign-slides.pdf">PDF (without videos)</a></li>
+        </li>
+        <!-- <li>
+            <img class="slides-keynote" src='/media/keynote.gif'/>
+            <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20-%20Keynote%20master.key.zip">Keynote (with videos)</a>
+        </li>
+        <li>
+             <img class="slides-ppt" src='/media/slides-ppt.gif'/>
+             <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20PowerPoint).pptx">Automatically converted Powerpoint version with weird formatting</a>
+        </li>             -->
+    </ul>
+</div>
+
+
+ 
+
+<div class='cover'>
+    <iframe src="http://player.vimeo.com/video/129613732" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<div class='talk'>
+    <p>A recent talk (May 2015) about my learning work.</p>
+</div>
+
+
+<div class='cover'>
+    <img class='cover' 
+         src='http://purl.org/censi/research/201410-pycontracts/201410-pycontracts.png'/>
 </div>
 
 
@@ -52,7 +91,7 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://censi.mit.edu/pub/research/201410-pycontracts/201410-pycontracts.pdf">PDF</a></li>
+            <a href="http://purl.org/censi/research/201410-pycontracts/201410-pycontracts.pdf">PDF</a></li>
         </li>
     </ul>
 </div>
@@ -147,7 +186,7 @@ formatting is way off. -->
 <div class='cover'>
     <img class='cover' src='http://purl.org/censi/research/201404-censi-bootstrapping-vehicles.png'/>
 </div>
-
+<!-- 
 <div class='talk'> 
     <strong>&ldquo;Bootstrapping Vehicles&rdquo;</strong>, April 2014 @ MIT
     <ul>
@@ -155,4 +194,4 @@ formatting is way off. -->
     <li> <img class="slides-pdf" src='/media/pdf.gif'/> <a href="http://purl.org/censi/research/201404-censi-bootstrapping-vehicles-backup.pdf">PDF version, with no videos or animations + backup slides</a> 
     (Feel free to ask for the original Keynote, with 500MB of videos.)</li>
     </ul>
-</div>
+</div> -->
