@@ -1,10 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Andrea Censi's webpage</title>
+
 <style type='text/css'>
-body { max-width: 35em; }
+  body { padding: 2em; margin: 0; background-color: white;}
+  body { max-width: 40em; }
+</style>
+
+<style type='text/css'>
 
 span.comment { color: grey; font-size: smaller; display: none; }
 
@@ -18,16 +18,12 @@ p.for-sw-users {}
 p.for-outside {}
 </style>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type='text/javascript' src='tipsy/src/javascripts/jquery.tipsy.js'></script>
-<link rel="stylesheet" href="tipsy/src/stylesheets/tipsy.css" type="text/css" />
-
-</head>
-
-<body>
 <h1>Andrea Censi</h1>
+
 <p>I am a Principal Research Scientist at <a href="http://lids.mit.edu">LIDS</a> 
 (Laboratory for Information and Decision Systems)</a> at MIT. 
+
+
  <span class=comment>Please do not introduce me as the &ldquo;director&rdquo; of LIDS. It's called a
  &ldquo;laboratory&rdquo; but it's not <span style="text-decoration: underline">my</span> laboratory. PhD Comics thinks it's <a href="http://www.phdcomics.com/comics.php?f=1801">because we have a relatively small ego</a> for the size. The director of LIDS is <a href="http://asu.mit.edu">Asu Ozdaglar</a>.</span>
 
@@ -35,48 +31,23 @@ p.for-outside {}
 
 <p>I obtained a Ph.D. in <em>Control &amp; Dynamical Systems</em> from <a href="">Caltech</a> in 2012. See my <a href="">short bio</a> or my <a href="">CV</a>.</p>
 <span class=comment>[Whether they regret it or not is unclear.</span></p>
-<!--<p>I am also Robustness &amp; Adaptivity Lead at <a href="nutonomy">Nutonomy</a> - an MIT startup dedicated to designing self-driving cars for mobility-on-demand applications. [Yes, we are competing with Google and Uber. Yes, we will do better.]</p>-->
-
+ 
 <h3>What's new</h3>
 
+
+<div id="important"> 
+        <!-- <h3>Note</h3> -->
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-note.html'); ?>
+</div>
+
 <h3>Upcoming trips</h3>
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.travel.html'); ?>
 
 
 <h3>Contact Information</h3>
 
-  <dl id='coordinates'>
-        
-        <dt>email</dt>
-        <dd class=''>
-            <!--<span style="">andrea<span></span>(at)<span></span>cds.caltech<span>.</span>edu </span> -->
-            <span style="">censi<span></span> (at) <span></span>mit<span>.</span>edu </span>
-            (<a href="/misc/pgp-key/">PGP key</a>)
-        </dd>
-        
-        <dt> office phone </dt>
-        <dd> +1 (XXX) XXX-XXXX (Skype/Hangout are better) </dd>
-        
-        <dt> cell phone </dt>
-        <dd> +1 (626) 872-3674 (email is always better even if urgent) <br/> 
-             +1 (626) U-R-CENSI </dd>
+  <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.contact.html'); ?>
 
-        <dt> Skype </dt> <dd>censia</dd>
-        <dt> GMail </dt> <dd>a.censi</dd>
-         
-        <dt>office &amp; mailing address</dt> 
-        <dd class=''>32 Vassar St<br/>
-room 32-D558<br/>
-Cambridge, MA 02139 USA
-</dd>
-<!--        <dt>bitcoin (<a href='https://en.bitcoin.it/wiki/Main_Page'>?</a>)</dt>
-        <dd><a class='bitcoin' href='bitcoin:18XiUiN56dhyQHAavzBV8YyuDSyooZohRy'>
-            18XiUiN56dhyQHAavzBV8YyuDSyooZohRy</a> </dd>-->
-        <!-- <dt class='last'>bitmessage&nbsp;(<a href='https://bitmessage.org/wiki/Main_Page'>?</a>)</dt> -->
-        <!-- <a class='bitmessage' href='bmto:BM-2cT1bRHA3grHaCF43zZZxxt42u82r6aTqy'> -->
-            <!-- BM-2cT1bRHA3grHaCF43zZZxxt42u82r6aTqy -->
-        
-    </dl>
-    
      
 <p>For administrative matters, please contact Lisa Gaumond (lisaga@mit.edu, 617-324-1543, 32-D729).</p>
  
@@ -154,7 +125,8 @@ Currently, I'm convinced that "if you can do it without the robot, it's not robo
 </p>
 
 <p class="for for-MIT">
-	MIT students: ...
+	MIT students: There is funding available for MIT PhD/MS students who want to work with me. Please contact
+  me if interested.
 </p>
 
 <div class="for for-non-MIT">
@@ -271,12 +243,11 @@ Regretfully, lately I don't really have the time to help with making things work
 
 <p> I am originally from Rome, Italy. Please, let's not go to an Italian restaurant. </p>
 
-<script type='text/javascript'>
- $(function() {
-   config = {fade: true, gravity: 'n', delayOut: 3000}
-   $('a.tipsy').tipsy(config);
- });
-</script>
 
-</body>
-</html>
+
+<div id="video_gallery">
+    <h2>Video gallery</h2>
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
+</div>
+
+
