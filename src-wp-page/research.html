@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC
+    "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
+    "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns:svg='http://www.w3.org/2000/svg' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head><meta content='application/xhtml+xml;charset=utf-8' http-equiv='Content-type' /><title></title><link href='style.css' rel='stylesheet' type='text/css' />
+</head>
+<body><style type='text/css'>
+  blockquote { color: gray; text-align: right; font-style:italic; margin-top: -2em; text-align: center};
+ #problems, #approaches, #theories { padding: 0 1.5em 0 0.5em; margin: 0;}
+ #problems{ width: 45%; float: left;  clear: left; margin-right: 2em;}
+ #approaches {width: 45%; float: left;}
+ #theories { width: 45%; float: left;  clear: left;}
+ #theories { margin-top: 1em;}
+
+
+ #after { clear: both;}
+ h4 { border-bottom: solid 3px #b00; padding-bottom: 5px}
+ h5 { font-size: 1.2em; color: #b00; text-align: center; 
+     }
+.video { float: right; margin: 1em; border: solid 2px #eee;}
+.video_caption { font-style: italic; font-size: 95%}
+</style>
+<blockquote>
+<p>Ah, la recherche! Du temps perdu. <a href='http://projecteuclid.org/euclid.em/1062620828'>(source)</a></p>
+</blockquote>
+
+<p>This is a summary of my general research interests, along with some highlights of recent activity.</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;div id=&apos;problems&apos; markdown=1&gt;
+
+##### General problem domains
+
+My main interest lies in **robotics**, which, from my point of view, includes all 
+interactions of an intelligent agent with the real world. I believe that in my
+lifetime robotics will lead to some form of [strong AI], and I hope to retire as a [robopsychologist]. While I&apos;m waiting for that to happen, I&apos;m particularly interested in **perception** problems.
+  
+  &lt;!-- Inspiration: Asimov. I know, it&apos;s fiction, but I wouldn&apos;t be doing this without his books. --&gt;
+  
+I am fascinated by **cybernetics**, [in its original meaning][wiener] of 
+comparative study of artificial and neural information processing:
+nature&apos;s solutions are often much more robust than the current state
+of the art.
+  
+  &lt;!-- Inspiration: [Cybernetics: Or the Control and Communication in the Animal and the Machine][wiener] --&gt;
+
+&lt;/div&gt;</pre><pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;div id=&apos;approaches&apos; markdown=1&gt;
+
+##### Approach / philosophy
+
+**Simple** [is better than][vehicles] complicated. In robotics
+applications, this means staying close to the measurement space.
+
+**Formal** is [is better than][Dijkstra] informal.
+Also, &quot;formal&quot; usually implies &quot;simple&quot;, because you usually can prove something
+only if it is simple enough.
+
+**Data** before models, as long as formal results can still be proved.
+
+**Open** is better than closed.
+[Reproducible research][repres] is a worthy goal.
+I predict that, in 15 years, it will be unthinkable to publish
+in engineering research or computational sciences without publishing
+the full source code and data. 
+
+&lt;/div&gt;</pre><!-- (Control community ) --><!-- Inspiration: Hinton's networks --><!-- publishing in the future --><pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;div style=&apos;display: none&apos; id=&apos;theories&apos; markdown=1&gt;
+
+#####  Favorite theories and methods
+
+My first love is **estimation and filtering**. 
+At Caltech I was infected with people&apos;s enthusiasm
+on differential **geometry**.
+
+When you apply *geometry* to *estimation*  you get  **information geometry** ([Wikipedia summary][araki], [serious introduction][cosma]).  
+When you apply *estimation* to *geometry* you get **intrinsic estimation**
+(see for example the
+[theory of shape spaces][kendall], and [my favorite paper][smith]).  
+
+I&apos;m interested in both combinations (and both will provide a lifetime learning experience).
+
+[cosma]: http://cscs.umich.edu/~crshalizi/notebooks/info-geo.html
+
+&lt;/div&gt;</pre><div style='clear: both' />
+<p>Keep reading for some highlights from my research, or read my <a href='../publications/'>publications</a> list.</p>
+<!-- or [information spaces][information_spaces]. -->
+<h4 id='highlight__bootstrapping_vehicles'>Highlight - Bootstrapping Vehicles</h4>
+<div style='float: right; margin: 1em; border: solid 2px #eee;'>
+<object height='200' width='320'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=19263374&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0' allowfullscreen='true' type='application/x-shockwave-flash' allowscriptaccess='always' height='200' width='320' /></object> 
+</div>
+<p>My thesis work is about the <em>bootstrapping</em> problem: learning a model of a robot&#8217;s sensorimotor cascade, and its environment, from zero prior information other than basic semantic. At the beginning, we only assume to have uninterpreted streams of bits representing the output of some sensors, and that we have some commands available, and that there is some causal relation from actions to observations. The situation is very similar to the video on the right.</p>
+
+<p>Other than a worthy problem per se (it subsumes most problems of learning, calibration, fault detection, etc.), it is also a proxy for studying some aspects of the higher level of neural processing. In fact, it is believed that the cortex starts as a <em>tabula rasa</em> that adapts to the inputs (the evidence is that parts of it can be repurposed in subjects that lost some sensory capacity).</p>
+
+<p>At this point, it is not clear if an agent can learn everything from the environment, or if there is something that should be known a priori. My goal has been to try to derive some precise formulation of the problem, and to find strong results (in the spirit of control theory) that can be built upon.</p>
+
+<ul>
+<li><a href='http://purl.org/censi/research/201206-defense.pdf'>Slides (PDF) from my defense</a></li>
+</ul>
+<!--
+Representative papers:
+
+- [Bootstrapping, uncertain semantics, and invariance (PDF)][semantics]   (preprint)
+- [A group-theoretic approach to formalizing bootstrapping problems (PDF)][bgds_tr]  (preprint)
+- [Bootstrapping bilinear models of sensorimotor cascades][bds] (ICRA'11)
+--><div style='float: right; margin: 1em; border: solid 2px #eee; clear: right'>
+<object height='276' width='320'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=19271333&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=19271333&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0' allowfullscreen='true' type='application/x-shockwave-flash' allowscriptaccess='always' height='276' width='320' /></object> 
+</div>
+<p><em>Video</em>: The video shows learning of a bilinear model of a sensorimotor cascade for a camera. The agent starts with no previous knowledge on the sensor geometry, and by correlating observations with commands, it can learn a generative model for the data. The same model can be used for learning the dynamics of different sensors (range-finder, camera, field sampler). See <a href='http://purl.org/censi/2010/be'>many other videos</a> of related experiments.</p>
+<div style='clear: both' />
+<h4 id='highlight__identification_of_visuallyguided_behavior_in_drosophila_melanogaster'>Highlight - Identification of visually-guided behavior in Drosophila Melanogaster</h4>
+
+<p>I have been collaborating with <a href='http://www.dickinson.caltech.edu/'>the Dickinson lab</a>, in particular with <a href='http://strawlab.org'>Andrew Straw</a> (who now has his own lab at the Institute of Molecular Pathology in Vienna, Austria) on the quantitative characterization of visually-driven behavior in Drosophila Melanogaster.</p>
+<div style='float: right; margin: 1em; border: solid 2px #eee;'>
+<object height='276' width='320'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=19194748&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00ADEF&amp;fullscreen=1&amp;autoplay=0&amp;loop=0' allowfullscreen='true' type='application/x-shockwave-flash' allowscriptaccess='always' height='276' width='320' /></object> 
+</div>
+<p>The video shows the kind of simulated data I am working with. Using <a href='http://www.its.caltech.edu/~astraw/research/flydra/'>a special apparatus</a> with 11 cameras, the animal is tracked with a precision of a few millimiters. An ad-hoc simulator allows to reconstruct the visual stimulus experienced by the animal at a reasonable level of accuracy.</p>
+
+<p>We then analyze the data asking whether we can infer the neural processing happening in the animal brain.</p>
+
+<p>Video: Simulated visual input from tracking data of free-flying Drosophila Melanogaster (<a href='http://vimeo.com/19194748'>watch on Vimeo</a>). On the right, you can see the simulated visual stimulus. On the left, the position of the fly in the arena (1m radius). Note that the video is slowed down about 10x with respect to the real data: fruit flies are very fast! (real time is in the left corner) Watch the video full-screen to appreciate the details.</p>
+<div style='clear: both' />
+<h3 id='see_also'>See also</h3>
+
+<ul>
+<li>
+<p><a href='vignettes'>Older research on estimation in robotics</a></p>
+</li>
+
+<li>
+<p><a href='../publications/'>Publications</a></p>
+</li>
+
+<li>
+<p><a href='../software'>Research software</a></p>
+</li>
+</ul>
+<!-- Added to all pages --></body></html>

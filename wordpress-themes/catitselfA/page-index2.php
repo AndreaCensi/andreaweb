@@ -22,7 +22,7 @@ header { display: none;}
 <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.html'); ?>
 <!-- </div>
  -->
-
+<!-- 
 <img src='/media/want-you.png' id='want-you'/>
 <style type='text/css'>
     img#want-you { 
@@ -35,7 +35,7 @@ margin-right: -1em;
     }
     
 </style>
-
+ -->
 
 
     <div id='short_news_and_travel_'>
@@ -149,6 +149,9 @@ margin-right: -1em;
 
 
 </style>
+<style type='text/css'>
+#video-gallery-int, #trailer-gallery-int { width: 150%;}
+</style>
 
 <script type='text/javascript' src="/media/masonry.pkgd.js"></script>
 <script type='text/javascript'>
@@ -168,7 +171,6 @@ $(document).ready(function() {
       columnWidth: 100,
       itemSelector: '.video'
     });
-
 
     container = document.querySelector('#trailer-gallery-int');
     var msnry = new Masonry( container, {

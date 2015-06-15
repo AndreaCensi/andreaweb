@@ -1,7 +1,7 @@
 
 <style type='text/css'>
   body { padding: 2em; margin: 0; background-color: white;}
-  body { max-width: 40em; }
+  body P, body DL, body UL, body section { max-width: 40em; }
 </style>
 
 <style type='text/css'>
@@ -16,9 +16,46 @@ p.for-MIT {}
 p.for-non-MIT {}
 p.for-sw-users {}
 p.for-outside {}
+
+p#quicklinks a { font-weight: bold;}
+
+#newdesc-research {  padding-top: 5em; }
+
+
+/* Side by side */
+#newdesc-statistics {float: left; clear: left; max-width: 20em; display: block;}
+#newdesc-contact {float: left; max-width: 20em; padding-left: 10em; margin-left: 2em; display: block;}
+
+/* Side by side */
+#newdesc-whatsnew { clear: left; float: left; max-width: 30em; display: block;}
+#travel {  display: block; float: left; margin-left: 2em;}
+
 </style>
 
-<h1>Andrea Censi</h1>
+
+<div style='float: left'>
+  <a href="/media/lids-photo.jpg">
+      <img src='/media/lids-photo-crop.jpg' 
+
+      style='width: 10em; margin-right: 2em; border: solid 1px #888888;
+        box-shadow: 2px 2px 5px #888888;'/>
+  </a>
+
+  <p id='caption1'> 
+        Fig.&thinsp;1. 
+        <!-- a)&nbsp;Aug 2014, at <a href="http://cds20.caltech.edu/">CDS@20</a>. -->
+        <!--  individual under inve&shy;sti&shy;ga&shy;tion; -->
+         <!-- In 
+        his na&shy;tu&shy;ral ha&shy;bi&shy;tat, but with a very unusual attire.  -->
+<!--         b)&thinsp;
+        <a href="/misc/roboportraits/">Self-portrait </a>
+        by robot. 
+ -->  </p>
+</div>
+
+<section style='display: block; float: left'>
+
+<p><strong>Andrea Censi</strong></p>
 
 <p>I am a Principal Research Scientist at <a href="http://lids.mit.edu">LIDS</a> 
 (Laboratory for Information and Decision Systems)</a> at MIT. 
@@ -29,35 +66,46 @@ p.for-outside {}
 
 </p>
 
-<p>I obtained a Ph.D. in <em>Control &amp; Dynamical Systems</em> from <a href="">Caltech</a> in 2012. See my <a href="">short bio</a> or my <a href="">CV</a>.</p>
+<p>I obtained a Ph.D. in <a href="http://www.cds.caltech.edu/">Control &amp; Dynamical Systems</a> from <a href="http://phdmovie.com">Caltech</a> in 2012. 
+<!-- See my <a href="">short bio</a> or my <a href="">CV</a>.</p> -->
 <span class=comment>[Whether they regret it or not is unclear.</span></p>
  
-<h3>What's new</h3>
+<p id='quicklinks'>Quick links: <a href="">publications</a>, <a href="">talks</a>, <a href="">CV</a> (<a href="">short bio</a>).
+
+</section>
+
+<div id='newdesc-statistics'>
+<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.statistics.html'); ?>
+</div>
+
+<div id='newdesc-contact'>
+  <h3>Contact</h3>
+  <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.contact.html'); ?>
+</div>
 
 
-<div id="important"> 
-        <!-- <h3>Note</h3> -->
+<div id="newdesc-whatsnew"> 
+    <h3>What's new</h3>
     <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-note.html'); ?>
 </div>
 
-<h3>Upcoming trips</h3>
-    <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.travel.html'); ?>
+<div id='travel'> 
+    <h3>Upcoming travel</h3>
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.plans.html'); ?>
+</div>
 
 
-<h3>Contact Information</h3>
+      
+<h2 id="newdesc-research">Research</h2>
 
-  <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.contact.html'); ?>
-
-     
-<p>For administrative matters, please contact Lisa Gaumond (lisaga@mit.edu, 617-324-1543, 32-D729).</p>
- 
-<h2>Research</h2>
-<p><a href="">The robots are coming!</a> <a href="http://www.npr.org/sections/money/2015/05/21/408234543/will-your-job-be-done-by-a-machine
+<p>Here's what's up: <a href="https://www.youtube.com/watch?v=7Pq-S557XQU">The robots are coming!</a> <a href="http://www.npr.org/sections/money/2015/05/21/408234543/will-your-job-be-done-by-a-machine
 ">Will your job be replaced by a machine?</a></p>
-<p>I work towards making autonomous robots more robust, quicker, and easier to design.</p>
+
+<p>I work towards making autonomous robots more robust, more efficient, 
+and easier to design. These are some of my technical interests: </p>
 
 <dl id='research-topics'>
-<dt>Sensorimotor Learning and Bootstrapping</dt>
+<dt>1. Sensorimotor Learning and Bootstrapping</dt>
 <dd>
 	<p>Learning and adaptivity...</p>
 	<p>My research is guided by the questions:</p>
@@ -69,10 +117,30 @@ p.for-outside {}
     <p class="recent-papers">Representative works: <a>IJRR'15</a>, <a>PAMI'13</a>, <a>my dissertation, TRO'13.</a></p>
     <p class=recent-workshops>Recent workshop: <a href="http://sensorimotor-learning.mit.edu/">ICRA 2015 workshop on Advances in Sensorimotor Learning</a></p>
    <p></li>
+
+
+<div id='video-gallery-int'>
+
+  <div class='video'>
+    <iframe src="http://player.vimeo.com/video/129613732" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p>A recent talk (May 2015) about my learning work.</p>
+
+  <div class='video'>
+      <iframe src="http://player.vimeo.com/video/80954603" width="240" height="135"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      <p>Bootstrapping Vehicles (<a href="http://www.vimeo.com/80954603">full screen</a>; <a href="http://purl.org/censi/2013/jbds">paper</a>)</p>
+  </div>
+
+  <div class='video'>
+    <iframe src="http://player.vimeo.com/video/65564176" width="240" height="135"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <p>Planning with learned diffeomorphisms (<a href="http://www.vimeo.com/65564176">full screen</a>; 
+    <a href="http://purl.org/censi/2012/dptr1">paper</a>)</p>
+  </div>
+</div>
+
     
 </dd>
 
-<dt>Event-based Neuromorphic Perception and Control</dt>
+<dt>2. Event-based Neuromorphic Perception and Control</dt>
 <dd>
   <p>Neuromorphic sensors are a new kind of sensor with impressive 
     capabilities: their output is a stream of events, generated every time there is a change in the local brightness perceived by a pixel.</p>
@@ -91,15 +159,42 @@ p.for-outside {}
 
 </dd>
 
-<dt>Cybernetics; duality between control and behavior identification</dt>
-<dd>&nbsp;</dd>
+<dt>3. Cybernetics; duality between control and behavior identification</dt>
+<dd>&nbsp;
 
-<dt>Meta-robotics and software engineering</dt>
-<dd>
-<p class=recent-papers>Recent projects: <a href="">XXX</a>.</p>
+  <div class='video'>
+      <iframe src="http://player.vimeo.com/video/98832025" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p>The robot fly was blind but now it sees! (<a href="http://www.vimeo.com/98832025">full screen</a>; <a href="http://rsif.royalsocietypublishing.org/content/11/97/20140281">paper</a>)</p>
+  </div>
+
+  <div class='video'>
+
+  <iframe src="http://player.vimeo.com/video/19194748" width="160" height="135"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <p>A fruit fly's perspective on the world (<a href="http://www.vimeo.com/19194748">full screen</a>; 
+    <a href="http://purl.org/censi/2011/saccade">paper</a>)</p>
+  </div>
+
+
 </dd>
 
-<dt>Optimality and minimality in co-design of sensing, computation, and actuation</dt>
+<dt>4. Meta-robotics and software engineering</dt>
+<dd>
+<p class=recent-papers>Recent projects: <a href="">XXX</a>.</p>
+
+
+<div class='video'>
+    <iframe src="http://player.vimeo.com/video/111290574" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p><a href="http://compmake.org/">Compmake</a> overview (<a href="http://purl.org/censi/compmake-overview">fullscreen</a>)<br/>
+      Part 2: <a href="http://purl.org/censi/compmake-basics">Compmake Basics</a><br/>
+      Part 3: <a href="http://purl.org/censi/compmake-multyvac">Compmake+Multyvac</a><br/>
+      Part 4: <a href="http://purl.org/censi/compmake-sge">Compmake+Starcluster</a><br/>
+    </p>
+</div>
+
+
+</dd>
+
+<dt>5. Optimality and minimality in co-design of sensing, computation, and actuation</dt>
 <dd>
 <p class=recent-workshops>Recent workshop:  
 	    <a href="">ICRA 2015 workshop on Scaling Up Active Perception</a></p>
@@ -133,15 +228,15 @@ Currently, I'm convinced that "if you can do it without the robot, it's not robo
 
 <p>
 	Non-MIT students: It is not impossible to find a way for you to come work here, however, 
-    understand that it is really competitive. But, <a href="">the walls are there for you to climb them</a>.
-</p>
+    understand that it is really competitive. But, <a href="http://www.cmu.edu/randyslecture/">the walls are there for you to climb them</a>.
+<br/>
 
-<p> The best way for this to happen is 1) get in touch with local researchers working in robotics &amp; control; 2) do good work with them; 3) tell them to contact us.
+The best way for this to happen is 1) get in touch with local researchers working in robotics &amp; control; 2) do good work with them; 3) tell them to contact us.
     Chances are we know them and will read carefully any email from them.
 </p>
 </div>
 
-<h3>Collaborators</h3>
+<!-- <h3>Collaborators</h3>
 <ul>
 <li>At MIT, my main collaborators at MIT are in the groups of <a href="">Emilio Frazzoli</a>, <a href="">John Leonard</a>, and <a href="">Sertac Karaman</a>.</li>
 <li>Outside MIT, my recent academic collaborators are Stefano Soatto (UCLA), 
@@ -156,7 +251,7 @@ Nathan Michael (CMU)</li>
 <ul><li>The National Science Foundation (National Robotics Initiative)</li>
 <li>DARPA Defense Strategic Office (MSEE) </li>
 <li>Air Force Research Laboratories</li>
-</ul>
+</ul> -->
 
 <h2>Teaching &amp; other MIT service</h2>
 
@@ -230,6 +325,8 @@ Regretfully, lately I don't really have the time to help with making things work
 
 <h2>Advice for students</h2>
 
+
+
 <p></p>
 
 <h2>Misc</h2>
@@ -238,16 +335,31 @@ Regretfully, lately I don't really have the time to help with making things work
 <li> <a href="/misc/faq/">FAQ</a> </li>
 <li> <a href="/misc/faq/">quotes</a> </li>
 </ul>
+  
 
 <h3>Personal Info</h3>
 
 <p> I am originally from Rome, Italy. Please, let's not go to an Italian restaurant. </p>
 
+<div id='trailer-gallery-int'>
+  <div class='video'>
+      <iframe src="http://player.vimeo.com/video/106195684" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><em>The deadline rush</em>: a bit of performance art 
+        in the occasion of the 10th anniversary of my first deadline (<a href="https://vimeo.com/106195684/">full screen</a>)</p>
+  </div>
 
+  <div class='video'>
+    <iframe src="http://player.vimeo.com/video/68463031" width="240" height="135"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <p>Graduation ceremony in first person (Jun 2013) <br/>
+      (<a href="http://www.vimeo.com/68463031">full screen</a>)</p>
+  </div>
+
+  <div style='clear: left'>&nbsp;</div>
+</div>
 
 <div id="video_gallery">
-    <h2>Video gallery</h2>
-    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-videos.html'); ?>
+    <h2>The ICRA 2015 trailer </h2>
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.icra15trailer.html'); ?>
 </div>
 
 

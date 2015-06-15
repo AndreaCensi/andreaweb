@@ -1,0 +1,53 @@
+
+
+
+ <style type="text/css">
+ div#stats { width: 30em; margin-bottom: 2em;}
+    
+    table#tstats { width: 100%}
+
+    table#tstats td { width: 50%; padding-right: 1em; padding-left: 1em; text-align: center;}
+    table#tstats img { width: 100%;}
+
+    #caption2, #caption1 { 
+      font-family: Times;
+        font-size: 80%;
+        width: 100%;
+        margin: 0; padding: 0; 
+        text-align: justify !important;
+        display: block; 
+        /*font-style: italic; */
+        word-break: hyphenate;
+
+    }
+ 
+ </style>
+ <div id='stats'>
+ <h3>Vital statistics</h3>
+        <table id='tstats'>
+            <tr>
+                <td>
+                    <img id='stats_count' class='imageZoom'
+                          src="http://web.censi.org/~andrea/busyplot/count.png"  alt='Count'/> 
+                </td>
+                <td>
+                    <!-- <a href="http://web.censi.org/~andrea/busyplot/age.png"> -->
+                    <img id='stats_age'  class='imageZoom'
+                         src="http://web.censi.org/~andrea/busyplot/age.png"    alt='Age'/> 
+                     <!-- </a> -->
+                </td>
+            </tr> 
+        </table>
+
+    <p id='caption2'> 
+        Fig.&thinsp;2. Stress and procrastination levels in the last 7 days (updated <?php 
+        $filename='/home/andrea/public_html/busyplot/when.txt';
+        $my_file = file_get_contents($filename);
+        echo trim($my_file);
+        ?>).
+        Stress is mea&shy;su&shy;red by the num&shy;ber of flag&shy;ged mes&shy;sa&shy;ges in the email in&shy;box;
+        pro&shy;cra&shy;sti&shy;na&shy;tion is mea&shy;su&shy;red by the me&shy;dian age of tho&shy;se mes&shy;sa&shy;ges
+        (<a href="software/busymail/">here's the code to make your own</a>).
+
+     </p>
+    </div>

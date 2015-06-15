@@ -11,10 +11,10 @@
  h4 { margin-bottom: 1.5em;}
  span.who { display: block; text-align: right;}
  span.who:before { content: "---";}
- p.translation { color: gray;}
+ 
  p.translation:before { content: "(Translation: ";}
  p.translation:after { content: ")";}
- p.note {color: gray;}
+ p.note, p.translation {color: gray; width: 30em;}
 </style>
 
 <p>I enjoy collecting quotes: behind each of these, there is a lesson I learned (sometimes painfully). 
@@ -69,6 +69,8 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
 
 </div>
 
+
+
 <div class="quoteblock">
   <p class="quote">An expert is a person who has made all the mistakes that can be made in a very narrow field.
   
@@ -77,9 +79,28 @@ Some quotes by living people are left anonymous, as I'm not sure they would like
   </span>
   </p>
 
-  <p class="note">See also: <a href="http://dx.doi.org/10.1109/MC.2005.423">We are sorry to inform you...</a> (required reading before reviewing) and <a href="http://jcs.biologists.org/cgi/content/full/121/11/1771">The importance of stupidity in scientific research</a>.</p>
+</div>
+
+
+<div class="quoteblock">
+  <p class="quote">
+    The brick walls are there for a reason. The brick walls 
+    are not there to keep us out. The brick walls are there 
+    to give us a chance to show how badly we want something. 
+    Because the brick walls are there to stop the people who 
+    don’t want it badly enough. They’re there to stop the other people.
+  
+  <span class="who">
+    <a href="http://www.cmu.edu/randyslecture/">
+      Randy Pausch's Last Lecture
+    </a>
+  </span>
+
+<p class="note">See also: <a href="http://dx.doi.org/10.1109/MC.2005.423">We are sorry to inform you...</a> (required reading before reviewing) and <a href="http://jcs.biologists.org/cgi/content/full/121/11/1771">The importance of stupidity in scientific research</a>.</p>
+</p>
 
 </div>
+
 
 <h4>On writing</h4>
 
