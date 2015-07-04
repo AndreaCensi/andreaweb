@@ -19,25 +19,13 @@ header { display: none;}
 
 <!-- <div id="content" class="narrowcolumn" role="main"> -->
 
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.html'); ?>
-<!-- </div>
- -->
-<!-- 
-<img src='/media/want-you.png' id='want-you'/>
-<style type='text/css'>
-    img#want-you { 
-        float: left; 
-        height: 10em;
-/*        border:solid 1px red;
-*/        margin-top: 3em;
-margin-left: 1em;
-margin-right: -1em;
-    }
-    
-</style>
- -->
 
+<?php 
+    render_plus_shortcode('/home/andrea/scm/andreaweb/src-wp-page/new-desc.html');
+?>
 
+ 
+<!--
     <div id='short_news_and_travel_'>
         <h3>What's new</h3>
         <div id='fluid_short_news'>
@@ -86,7 +74,7 @@ margin-right: -1em;
         
     </div>
 
-
+-->
 
 <!--
     <div id='research_items'> 
@@ -150,7 +138,12 @@ margin-right: -1em;
 
 </style>
 <style type='text/css'>
-#video-gallery-int, #trailer-gallery-int { width: 150%;}
+ /*#video-gallery-int{ width: 150%;}*/
+
+.video-gallery-int { width: 100%;}
+.video-gallery-int .video { }
+.video-gallery-int .video P { font-size: smaller; font-style: italic;}
+
 </style>
 
 <script type='text/javascript' src="/media/masonry.pkgd.js"></script>
@@ -165,12 +158,11 @@ $(document).ready(function() {
       gutter: 10,
     });
 
-    container = document.querySelector('#video-gallery-int');
-    var msnry = new Masonry( container, {
-      // options
-      columnWidth: 100,
-      itemSelector: '.video'
-    });
+    containers = document.querySelectorAll('.video-gallery-int');
+    for(var i = 0; i < containers.length; ++i) {
+        var container = containers[i];
+        var msnry = new Masonry( container, { columnWidth: 100, itemSelector: '.video' });
+    }
 
     container = document.querySelector('#trailer-gallery-int');
     var msnry = new Masonry( container, {

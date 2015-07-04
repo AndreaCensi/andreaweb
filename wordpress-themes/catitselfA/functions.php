@@ -94,10 +94,10 @@ function pub_ref_desc( $atts ) {
         return format_error('pub_ref_desc', $id);
     }
 
-    $desc= indent_div("class='desc'", pub_format_desc($entry));
+    $desc = indent_div("class='desc'", pub_format_desc($entry));
     $icon = pub_format_descicon($entry);
     $short = pub_format_short($entry);
-    $s = indent_div("class='pub-ref-desc'", "{$icon}\n{$short}\n{$desc}");
+    $s = indent_div("class='pub-ref-desc'", "{$icon}\n{$short}\n{$desc}<div style='clear:both'></div>");
     return $s;
 } 
 
@@ -106,6 +106,7 @@ add_shortcode( 'pub_ref_desc', 'pub_ref_desc' );
 function pub_ref_more( $atts ) { 
     // This one also adds a link
     extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
+
     $entry = read_pub_entry($id);
     if ($entry==0) {
         return format_error('pub_ref_more', $id);
@@ -113,11 +114,31 @@ function pub_ref_more( $atts ) {
     $desc = indent_div("class='desc'", pub_format_desc($entry));
     $icon = pub_format_descicon($entry);
     $short = pub_format_short($entry);
-    $s = indent_div("class='pub-ref-desc'","{$icon}\n{$short}\n{$desc}");
+    $s = indent_div("class='pub-ref-desc'","{$icon}\n{$short}\n{$desc}<div style='clear:both'></div>");
     $fields = $entry['fields'];
 
     return no_markdown($s);
 } 
+
+add_shortcode( 'pub_ref_more', 'pub_ref_more' );
+
+function pub_ref_compact( $atts ) { 
+    // Shortest of the three
+    extract( shortcode_atts( array( 'id' => 0 ), $atts ) ); 
+    
+    $entry = read_pub_entry($id);
+    if ($entry==0) {
+        return format_error('pub_ref_more', $id);
+    }
+    // $desc = indent_div("class='desc'", pub_format_desc($entry));
+    $icon = pub_format_descicon($entry);
+    $short = pub_format_short($entry);
+    $s = indent_div("class='pub-ref-compact'", "{$icon}\n{$short}<div style='clear:both'></div>");  
+    return no_markdown($s);
+} 
+
+add_shortcode( 'pub_ref_compact', 'pub_ref_compact' );
+
 
 function indent_div($attrs, $content) {
     return indent_content("<div {$attrs}>", $content, "</div>");
@@ -131,8 +152,6 @@ function indent_content($before, $content, $after) {
     $s = $sep.implode($sep, $lines);
     return "{$before}{$s}\n{$after}";
 }
-
-add_shortcode( 'pub_ref_more', 'pub_ref_more' );
 
 
 
@@ -247,6 +266,24 @@ function external_page( $atts ) {
     }
 } 
 add_shortcode( 'external_page', 'external_page' );
+
+
+
+    function render_php_to_string($file, $vars=null)
+    {
+        if (is_array($vars) && !empty($vars)) {
+            extract($vars);
+        }
+        ob_start();
+        include $file;
+        return ob_get_clean();
+    }
+
+    function render_plus_shortcode($file) {
+        $a = render_php_to_string($file); 
+        $a = do_shortcode($a);
+        echo($a);
+    }
 
 
 ?>
