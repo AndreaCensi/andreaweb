@@ -1,3 +1,26 @@
+
+
+Bibtex:
+
+Update bib:
+
+	cd ~/scm/commons; 
+	git pull
+	git merge master
+	git merge env_cv
+
+Create JSON:
+
+	cd ~/scm/andreaweb/src-wp-page/mybib
+	make
+
+
+
+
+
+Old instruction for webgen
+--------------------------
+
 For building:
 
     sudo apt-get install libmaruku-ruby webgen0.4

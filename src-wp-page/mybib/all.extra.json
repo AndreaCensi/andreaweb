@@ -223,27 +223,25 @@
  }, 
  "censi15neucontrol_sub": {
   "fields": {
-   "title": "{Efficient Neuromorphic Optomotor Heading Regulation}", 
-   "timestamp": "2014.09.30", 
    "author": [
     {
      "last": "Censi", 
      "first": "Andrea"
     }
    ], 
+   "title": "{Efficient Neuromorphic Optomotor Heading Regulation}", 
+   "booktitle": "American Control Conference", 
+   "year": "2015", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15neucontrol.png", 
-   "month": "September", 
-   "note": "(ACC 2015)", 
-   "aurl": "http://purl.org/censi/2015/neucontrol", 
+   "month": "June", 
    "apdf": "http://purl.org/censi/research/2015-neucontrol-sub.pdf", 
-   "year": "2014", 
-   "owner": "andrea", 
-   "type": "techreport", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
+   "address": "Chicago, IL", 
+   "aurl": "http://purl.org/censi/2015/neucontrol", 
+   "type": "inproceedings", 
    "desc": "This paper describes a method for regulating the heading of a vehicle \nbased on the feedback from a neuromorphic event-based sensor."
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, September 2014.\n<span class=\"note\">(ACC 2015).</span>\n", 
-  "bibtex": "@techreport{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    timestamp = \"2014.09.30\",\n    month = \"September\",\n    note = \"(ACC 2015)\",\n    aurl = \"http://purl.org/censi/2015/neucontrol\",\n    apdf = \"http://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\n<span class=\"booktitle\">In <em>American Control Conference</em>. Chicago, IL, June 2015.</span>\n", 
+  "bibtex": "@inproceedings{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    booktitle = \"American Control Conference\",\n    year = \"2015\",\n    month = \"June\",\n    apdf = \"http://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    address = \"Chicago, IL\",\n    aurl = \"http://purl.org/censi/2015/neucontrol\"\n}\n\n", 
   "order": 41
  }, 
  "BaCa04": {
@@ -717,6 +715,7 @@
  }, 
  "censi12cameracalib": {
   "fields": {
+   "olddescicon": "http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png", 
    "doi": "10.1109/TPAMI.2013.34", 
    "title": "Calibration by correlation using metric embedding from non-metric similarities", 
    "url": "http://purl.org/censi/2012/camera_calibration", 
@@ -732,7 +731,7 @@
      "first": "Davide"
     }
    ], 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png", 
+   "descicon": "http://censi.mit.edu/pub/research/2012-camera_calibration/images/mino02-random1-w100.gif", 
    "month": "10", 
    "volume": "35", 
    "year": "2013", 
@@ -741,7 +740,7 @@
    "desc": "[Davide] and I explain how to calibrate a generic single-view-point camera\nby only waving it around.\n\n[Davide]: https://sites.google.com/site/scarabotix/home"
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 10 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    volume = \"35\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    issue = \"10\"\n}\n\n", 
+  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    olddescicon = \"http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    volume = \"35\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    issue = \"10\"\n}\n\n", 
   "order": 5
  }, 
  "scrapper09": {
@@ -1327,8 +1326,6 @@
  }, 
  "carlone14coherent_sub": {
   "fields": {
-   "title": "Coherent Measurements Selection via $\\ell_1$ Relaxation: an Approach to Robust Estimation over Graphs", 
-   "abstract": "", 
    "author": [
     {
      "last": "Carlone", 
@@ -1343,21 +1340,35 @@
      "first": "Frank"
     }
    ], 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/carlone14coherent.png", 
-   "month": "October", 
-   "note": "(To appear.)", 
-   "year": "2014", 
+   "desc": "[Luca](http://lucacarlone.com), [Frank](http://www.cc.gatech.edu/~dellaert/)\nand I show how outliers in planar pose graph optimization \ncan be detected using convex relaxation. This builds on previous papers showing\nthat planar pose graph optimization can be decoupled in linear problems (with a few tricks).", 
+   "title": "Coherent Measurements Selection via l1 Relaxation: an Approach to Robust Estimation over Graphs", 
    "type": "inproceedings", 
-   "booktitle": "IROS 2014", 
-   "desc": "[Luca](http://lucacarlone.com), [Frank](http://www.cc.gatech.edu/~dellaert/)\nand I show how outliers in planar pose graph optimization \ncan be detected using convex relaxation. This builds on previous papers showing\nthat planar pose graph optimization can be decoupled in linear problems (with a few tricks)."
+   "abstract": "", 
+   "year": "2014", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/carlone14coherent.png", 
+   "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)", 
+   "month": "October"
   }, 
-  "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a>, A.C., and Frank Dellaert.</span>\n<span class=\"title\">Coherent measurements selection via $\\ell_1$ relaxation: an approach to robust estimation over graphs.</span>\n<span class=\"booktitle\">In <em>IROS 2014</em>. October 2014.</span>\n<span class=\"note\">(To appear.).</span>\n", 
-  "bibtex": "@inproceedings{carlone14coherent_sub,\n    author = \"Carlone, Luca and Censi, Andrea and Dellaert, Frank\",\n    title = \"Coherent Measurements Selection via $\\ell_1$ Relaxation: an Approach to Robust Estimation over Graphs\",\n    abstract = \"\",\n    month = \"October\",\n    note = \"(To appear.)\",\n    year = \"2014\",\n    booktitle = \"IROS 2014\"\n}\n\n", 
+  "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a>, A.C., and Frank Dellaert.</span>\n<span class=\"title\">Coherent measurements selection via l1 relaxation: an approach to robust estimation over graphs.</span>\n<span class=\"booktitle\">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. October 2014.</span>\n", 
+  "bibtex": "@inproceedings{carlone14coherent_sub,\n    author = \"Carlone, Luca and Censi, Andrea and Dellaert, Frank\",\n    title = \"Coherent Measurements Selection via l1 Relaxation: an Approach to Robust Estimation over Graphs\",\n    abstract = \"\",\n    month = \"October\",\n    year = \"2014\",\n    booktitle = \"IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\"\n}\n\n", 
   "order": 47
  }, 
  "censi13jbds_sub": {
   "fields": {
+   "journal": "International Journal of Robotics Research", 
+   "year": "2015", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/censi13jbds.png", 
+   "month": "July", 
+   "volume": "34", 
+   "video": "https://vimeo.com/80954603", 
+   "sortyear": "2015", 
+   "pages": "1087--1113", 
+   "desc": "For a bootstrapping agent connected to an unknown body, the \"world\" is the series of the unknown actuators, the external environment, and the unknown sensors. \nOne ability that a bootstrapping agent needs is estimating a predictive model of the observations\u00a0\nas a function of the commands.  This paper considers the sensorimotor dynamics learning problem for a subset of the \"set of all robots\" called the Simple Vehicles, which are the idealization of mobile robots equipped with one of the three exteroceptive sensors: field-sampler, vision sensor, and range-finder.", 
    "slides": "http://purl.org/censi/research/2013-jbds-slides.pdf", 
+   "doi": "10.1177/0278364914557708", 
+   "slideskeynote": "http://purl.org/censi/research/2013-jbds-slides.key.zip", 
+   "title": "{Bootstrapping bilinear models of Simple Vehicles}", 
+   "url": "http://purl.org/censi/2013/jbds", 
    "author": [
     {
      "last": "Censi", 
@@ -1369,29 +1380,19 @@
      "first": "Richard"
     }
    ], 
-   "slideskeynote": "http://purl.org/censi/research/2013-jbds-slides.key.zip", 
-   "title": "{Bootstrapping bilinear models of Simple Vehicles}", 
-   "url": "http://purl.org/censi/2013/jbds", 
-   "journal": "International Journal of Robotics Research", 
-   "year": "2014", 
-   "descicon": "http://purl.org/censi/web/media/paper-icons/censi13jbds.png", 
-   "note": "(To appear)", 
-   "video": "https://vimeo.com/80954603", 
-   "sortyear": "2015", 
    "pdf": "http://purl.org/censi/research/2013-jbds-sub.pdf", 
    "type": "article", 
-   "abstract": "Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.", 
-   "desc": "For a bootstrapping agent connected to an unknown body, the \"world\" is the series of the unknown actuators, the external environment, and the unknown sensors. \nOne ability that a bootstrapping agent needs is estimating a predictive model of the observations\u00a0\nas a function of the commands.  This paper considers the sensorimotor dynamics learning problem for a subset of the \"set of all robots\" called the Simple Vehicles, which are the idealization of mobile robots equipped with one of the three exteroceptive sensors: field-sampler, vision sensor, and range-finder."
+   "abstract": "Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features."
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Bootstrapping bilinear models of Simple Vehicles.</span>\n<em>International Journal of Robotics Research</em>, 2014.\n<span class=\"note\">(To appear).</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-jbds-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"video\"><a href=\"https://vimeo.com/80954603\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/jbds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-jbds-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@article{censi13jbds_sub,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    slides = \"http://purl.org/censi/research/2013-jbds-slides.pdf\",\n    slideskeynote = \"http://purl.org/censi/research/2013-jbds-slides.key.zip\",\n    title = \"{Bootstrapping bilinear models of Simple Vehicles}\",\n    url = \"http://purl.org/censi/2013/jbds\",\n    journal = \"International Journal of Robotics Research\",\n    year = \"2014\",\n    note = \"(To appear)\",\n    video = \"https://vimeo.com/80954603\",\n    sortyear = \"2015\",\n    pdf = \"http://purl.org/censi/research/2013-jbds-sub.pdf\",\n    abstract = {Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.}\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Bootstrapping bilinear models of Simple Vehicles.</span>\n<em>International Journal of Robotics Research</em>, 34:1087&ndash;1113, July 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-jbds-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1177/0278364914557708\">doi</a></span><span class=\"video\"><a href=\"https://vimeo.com/80954603\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/jbds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-jbds-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
+  "bibtex": "@article{censi13jbds_sub,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    slides = \"http://purl.org/censi/research/2013-jbds-slides.pdf\",\n    doi = \"10.1177/0278364914557708\",\n    slideskeynote = \"http://purl.org/censi/research/2013-jbds-slides.key.zip\",\n    title = \"{Bootstrapping bilinear models of Simple Vehicles}\",\n    url = \"http://purl.org/censi/2013/jbds\",\n    journal = \"International Journal of Robotics Research\",\n    year = \"2015\",\n    month = \"July\",\n    volume = \"34\",\n    video = \"https://vimeo.com/80954603\",\n    pages = \"1087--1113\",\n    sortyear = \"2015\",\n    pdf = \"http://purl.org/censi/research/2013-jbds-sub.pdf\",\n    abstract = {Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.}\n}\n\n", 
   "order": 44
  }, 
  "censi15powerperf_sub": {
   "fields": {
-   "urlresolved": "http://purl.org/censi/web/powerperf", 
    "title": "{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}", 
    "timestamp": "2014.09.30", 
+   "booktitle": "IEEE International Conference on Robotics and Automation (ICRA)", 
    "author": [
     {
      "last": "Censi", 
@@ -1411,18 +1412,17 @@
     }
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15powerperf.png", 
-   "month": "October", 
-   "note": "(ICRA 2015)", 
+   "month": "May", 
+   "urlresolved": "http://purl.org/censi/web/powerperf", 
    "aurl": "http://purl.org/censi/2015/powerperf", 
    "apdf": "http://purl.org/censi/research/2015-powerperf-sub.pdf", 
-   "year": "2014", 
+   "year": "2015", 
    "owner": "andrea", 
-   "type": "techreport", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
+   "type": "inproceedings", 
    "desc": "How to compare two sensors, or generally, two sensor families? Any meaningful comparison depends on the task.\nThis paper shows that it also depends on the sensing power available."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='https://lids.mit.edu/people/students/erich-mueller'>Erich Mueller</a>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"note\">(ICRA 2015).</span>\n", 
-  "bibtex": "@techreport{censi15powerperf_sub,\n    author = \"Censi, Andrea and Mueller, Erich and Frazzoli, Emilio and Soatto, Stefano\",\n    urlresolved = \"http://purl.org/censi/web/powerperf\",\n    title = \"{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    note = \"(ICRA 2015)\",\n    aurl = \"http://purl.org/censi/2015/powerperf\",\n    apdf = \"http://purl.org/censi/research/2015-powerperf-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='https://lids.mit.edu/people/students/erich-mueller'>Erich Mueller</a>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2015.</span>\n", 
+  "bibtex": "@inproceedings{censi15powerperf_sub,\n    author = \"Censi, Andrea and Mueller, Erich and Frazzoli, Emilio and Soatto, Stefano\",\n    title = \"{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}\",\n    timestamp = \"2014.09.30\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    urlresolved = \"http://purl.org/censi/web/powerperf\",\n    aurl = \"http://purl.org/censi/2015/powerperf\",\n    apdf = \"http://purl.org/censi/research/2015-powerperf-sub.pdf\",\n    year = \"2015\",\n    owner = \"andrea\"\n}\n\n", 
   "order": 42
  }, 
  "censi15codesign_sub": {
@@ -1461,7 +1461,6 @@
  }, 
  "censi13dvsd_sub": {
   "fields": {
-   "kind": "preprint", 
    "title": "Low-latency Event-Based Visual Odometry", 
    "url": "http://purl.org/censi/2013/dvsd", 
    "booktitle": "IEEE International Conference on Robotics and Automation (ICRA)", 
@@ -1485,7 +1484,7 @@
    "desc": "This paper describes an event-based visual odometry algorighm which\nuses a DVS sensor together with a normal camera."
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-final.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
-  "bibtex": "@inproceedings{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    kind = \"preprint\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-final.pdf\",\n    abstract = \"\"\n}\n\n", 
+  "bibtex": "@inproceedings{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-final.pdf\",\n    abstract = \"\"\n}\n\n", 
   "order": 46
  }, 
  "censi13joint": {

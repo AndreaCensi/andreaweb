@@ -12,8 +12,8 @@
  span.who { display: block; text-align: right;}
  span.who:before { content: "---";}
  
- p.translation:before { content: "(Translation: ";}
- p.translation:after { content: ")";}
+ /*p.translation:before { content: "(Translation: ";}*/
+ /**p.translation:after { content: ")";}*/*/
  p.note, p.translation {color: gray; width: 30em;}
 </style>
 

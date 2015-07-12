@@ -1,6 +1,6 @@
 <?php if ( is_front_page() ) { ?>
-  <link rel="stylesheet" 
-      href="<?php echo get_template_directory_uri(); ?>/../catitselfA/style.index.css"  type="text/css"/>
+  <!--<link rel="stylesheet" 
+      href="<?php echo get_template_directory_uri(); ?>/../catitselfA/style.index.css"  type="text/css"/>-->
 <?php }  else {?>
 
 <?php } ?>
