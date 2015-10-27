@@ -17,6 +17,10 @@ Please feel free to ask for a PDF if it is not linked here.
 <p style='background-color: #fee; margin-left: 4em; margin-right: 4em; padding: 0.4em'> Any feedback on preprints is greatly appreciated! The quantum of feedback you can give is something along the lines of "I stopped reading because I got lost at point X". 
 </p>
 
+[pub_ref_desc id='censi15monotone']
+[pub_ref_desc id='censi15same']
+[pub_ref_desc id='censi15rara']
+
 [pub_ref_desc id='censi15compmake_sub']
 <!-- [pub_ref_desc id='censi15despl_sub'] -->
 

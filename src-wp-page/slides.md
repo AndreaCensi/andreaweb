@@ -36,9 +36,62 @@
 These are slides for recent talks I gave. I aim to make public 
 all slides from all public talks; 
 if one is not included, feel free to ask. 
+
+
+<div style='margin-bottom:2em'/>
 <!-- 
 I use Keynote to make slides; the PowerPoint version I give is automatically converted and usually the 
 formatting is way off. -->
+
+
+
+<div class='cover'>
+    <img class='cover' 
+         src='http://purl.org/censi/research/201510-monotone/1510-princeton-everything_is_the_same.png'/>
+</div>
+
+
+<div class='talk'>
+    <strong>&ldquo;Monotone Co-Design Problems: or, everything is the same&rdquo;</strong>
+    </em>.
+
+    <ul>
+        <li>
+            <img class="slides-pdf" src='/media/pdf.gif'/>
+            <a href="http://purl.org/censi/research/201510-monotone/1510-princeton-everything_is_the_same.pdf">PDF</a></li>
+        </li>
+        
+    </ul>
+</div>
+
+<div class='cover'>
+    <img class='cover' 
+         src='http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.png'/>
+</div>
+
+
+<div class='talk'>
+    <strong>&ldquo;Robots Learning like Babies&rdquo;</strong>, presented at 
+    the 2015 Taipei ILP-Epoch Foundation workshop on <em>Meet the future of robotics and machine learning in the innovation economy</em>.
+
+    <ul>
+        <li>
+            <img class="slides-pdf" src='/media/pdf.gif'/>
+            <a href="http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.pdf">PDF (without videos)</a></li>
+        </li>
+        <li>
+            <img class="slides-keynote" src='/media/keynote.gif'/>
+            <a href="http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.key">Keynote (with videos)</a>
+        </li>
+        <li>
+             <img class="slides-ppt" src='/media/slides-ppt.gif'/>
+             <a href="http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.pptx">Powerpoint (automatically converted)</a>
+        </li>             
+    </ul>
+</div>
+
+
+
 
 
 <div class='cover'>

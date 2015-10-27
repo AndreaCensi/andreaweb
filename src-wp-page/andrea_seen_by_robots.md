@@ -2,10 +2,11 @@
 img.robo { border: solid 2px black;}
 </style>
 
+
+
 May 2013, Caltech: an intimate experience
 
 <img class='robo' src='/media/andrea-may13.jpg'/>
-
 
 November 2012, Zurich: Seen by a Turtlebot 
 
