@@ -47,7 +47,7 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://purl.org/censi/research/201510-monotone/1510-princeton-everything_is_the_same.png'/>
+         src='http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.png'/>
 </div>
 
 
@@ -58,7 +58,16 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://purl.org/censi/research/201510-monotone/1510-princeton-everything_is_the_same.pdf">PDF</a></li>
+            <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar-steps.pdf">PDF</a></li>
+
+        <li>
+            <img class="slides-keynote" src='/media/keynote.gif'/>
+            <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.key">Keynote</a>
+        </li>
+        <li>
+             <img class="slides-ppt" src='/media/slides-ppt.gif'/>
+             <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.png">Powerpoint (automatically converted)</a>
+
         </li>
         
     </ul>
