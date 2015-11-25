@@ -66,7 +66,7 @@ formatting is way off. -->
         </li>
         <li>
              <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-             <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.png">Powerpoint (automatically converted)</a>
+             <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.pptx">Powerpoint (automatically converted)</a>
 
         </li>
         
@@ -77,7 +77,6 @@ formatting is way off. -->
     <img class='cover' 
          src='http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.png'/>
 </div>
-
 
 <div class='talk'>
     <strong>&ldquo;Robots Learning like Babies&rdquo;</strong>, presented at 
