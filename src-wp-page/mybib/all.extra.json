@@ -144,7 +144,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Monotone co-design problems and their systematic solution.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
   "bibtex": "@techreport{censi15monotone,\n    author = \"Censi, Andrea\",\n    title = \"Monotone Co-Design Problems and their Systematic Solution\",\n    month = \"October\",\n    year = \"2015\",\n    pdf = \"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 39
+  "order": 40
  }, 
  "censi15despl_sub": {
   "fields": {
@@ -167,7 +167,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2015/despl\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi15despl_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done}\",\n    url = \"http://purl.org/censi/2015/despl\",\n    month = \"October\",\n    note = \"\",\n    apdf = \"http://purl.org/censi/research/2015-despl-sub.pdf\",\n    year = \"2014\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 43
+  "order": 44
  }, 
  "carpin09hsm3d": {
   "fields": {
@@ -263,7 +263,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\n<span class=\"booktitle\">In <em>American Control Conference (ACC)</em>. Chicago, IL, June 2015.</span>\n", 
   "bibtex": "@inproceedings{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    booktitle = \"American Control Conference (ACC)\",\n    year = \"2015\",\n    month = \"June\",\n    apdf = \"http://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    address = \"Chicago, IL\",\n    aurl = \"http://purl.org/censi/2015/neucontrol\"\n}\n\n", 
-  "order": 44
+  "order": 45
  }, 
  "BaCa04": {
   "fields": {
@@ -364,7 +364,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">The xxx pattern for recursive learning from interactive setting.</span>\nTechnical Report, Massachussets Institute of Technology, 2014.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2014/reclearning\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi14reclearning_sub,\n    author = \"Censi, Andrea\",\n    title = \"The XXX pattern for recursive learning from interactive setting\",\n    url = \"http://purl.org/censi/2014/reclearning\",\n    year = \"2014\",\n    institution = \"Massachussets Institute of Technology\"\n}\n\n", 
-  "order": 53
+  "order": 54
  }, 
  "censi15compmake_sub": {
   "fields": {
@@ -386,7 +386,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Compmake: Minimal Effort Parallelization and Job Management for Python Applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2015-compmake-v3.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2015/compmake\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi15compmake_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Compmake: Minimal Effort Parallelization and Job Management for Python Applications}\",\n    url = \"http://purl.org/censi/2015/compmake\",\n    month = \"October\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2015-compmake-v3.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 42
+  "order": 43
  }, 
  "censi15same": {
   "fields": {
@@ -407,7 +407,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Generalized monotone co-design problems; or, everything is the same.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
   "bibtex": "@techreport{censi15same,\n    author = \"Censi, Andrea\",\n    title = \"Generalized Monotone Co-Design Problems; or, everything is the same\",\n    month = \"October\",\n    year = \"2015\",\n    pdf = \"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 40
+  "order": 41
  }, 
  "censi06scan": {
   "fields": {
@@ -527,6 +527,27 @@
   "bibtex": "@inproceedings{censi09fractals,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/ACC.2009.5159869\",\n    title = \"On the performance of {K}alman filtering with intermittent observations: a geometric approach with fractals\",\n    url = \"http://purl.org/censi/2008/fractals\",\n    booktitle = \"Proceedings of the American Control Conference (ACC)\",\n    year = \"2009\",\n    month = \"June\",\n    slides = \"http://purl.org/censi/research/2009-acc-fractals-slides.pdf\",\n    address = \"St. Louis, Missouri\",\n    pdf = \"http://purl.org/censi/research/2009-acc-fractals.pdf\",\n    abstract = \"This paper describes the stationary distribution of the a-posteriori covariance matrix of a Kalman filter when the availability of measurements is subject to random phenomena such as lossy network links. If a certain non-overlapping condition is satisfied, the cdf has a fractal nature, and there exists a closed-form expression for it. If the condition is not satisfied, deciding whether the cdf is singular or not, even in the scalar case, is at least as hard as some open problems in measure and number theory.\"\n}\n\n", 
   "order": 15
  }, 
+ "censi16codesign": {
+  "fields": {
+   "type": "techreport", 
+   "author": [
+    {
+     "last": "Censi", 
+     "first": "Andrea"
+    }
+   ], 
+   "title": "A Mathematical Theory of Codesign", 
+   "pdf": "http://tiny.cc/co-design", 
+   "desc": "", 
+   "year": "2016", 
+   "descicon": "http://purl.org/censi/web/media/paper-icons/censi16codesign.png", 
+   "institution": "Laboratory for Information and Decision Systems/MIT", 
+   "month": "January"
+  }, 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A mathematical theory of codesign.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, January 2016.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://tiny.cc/co-design\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
+  "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Codesign\",\n    month = \"January\",\n    year = \"2016\",\n    pdf = \"http://tiny.cc/co-design\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "order": 39
+ }, 
  "censi11kf": {
   "fields": {
    "doi": "10.1109/TAC.2010.2097350", 
@@ -573,7 +594,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">Canonization paper.</span>\nTechnical Report, Massachussets Institute of Technology, 2014.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2014/canonization\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi14canonization_sub,\n    author = \"Censi, Andrea and Soatto, Stefano\",\n    title = \"Canonization paper\",\n    url = \"http://purl.org/censi/2014/canonization\",\n    year = \"2014\",\n    institution = \"Massachussets Institute of Technology\"\n}\n\n", 
-  "order": 51
+  "order": 52
  }, 
  "censi08fts": {
   "fields": {
@@ -668,7 +689,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Necessary invariance properties of learning agents in the interactive bootstrapping setting.</span>\nTechnical Report, Massachussets Institute of Technology, 2014.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2014/bootinvariance\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi14bootinvariance_sub,\n    author = \"Censi, Andrea\",\n    title = \"Necessary invariance properties of learning agents in the interactive bootstrapping setting\",\n    url = \"http://purl.org/censi/2014/bootinvariance\",\n    year = \"2014\",\n    institution = \"Massachussets Institute of Technology\"\n}\n\n", 
-  "order": 52
+  "order": 53
  }, 
  "carlone14angular": {
   "fields": {
@@ -774,7 +795,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Synthesis of resource-aware robotic applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
   "bibtex": "@techreport{censi15rara,\n    author = \"Censi, Andrea\",\n    title = \"Synthesis of resource-aware robotic applications\",\n    month = \"October\",\n    year = \"2015\",\n    pdf = \"http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 41
+  "order": 42
  }, 
  "censi12cameracalib": {
   "fields": {
@@ -1066,7 +1087,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C. and Richard Murray.</span>\n<span class=\"title\">Bootstrapping bilinear models of simple vehicles.</span>\nTechnical Report 2913, Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-jbds-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"video\"><a href=\"https://vimeo.com/80954603\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/jbds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-jbds-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@techreport{censi13jbds_sub_nonote,\n    author = \"Censi, Andrea and Murray, Richard\",\n    slideskeynote = \"http://purl.org/censi/research/2013-jbds-slides.key.zip\",\n    title = \"Bootstrapping bilinear models of Simple Vehicles\",\n    url = \"http://purl.org/censi/2013/jbds\",\n    abstract = {Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.},\n    number = \"2913\",\n    slides = \"http://purl.org/censi/research/2013-jbds-slides.pdf\",\n    video = \"https://vimeo.com/80954603\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/2013-jbds-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems, Massachusetts Institute of Technology\"\n}\n\n", 
-  "order": 48
+  "order": 49
  }, 
  "nilsson13rddl": {
   "fields": {
@@ -1414,7 +1435,7 @@
   }, 
   "html_short": "<span class=\"author\"><a href='http://lucacarlone.com'>Luca Carlone</a>, A.C., and Frank Dellaert.</span>\n<span class=\"title\">Coherent measurements selection via l1 relaxation: an approach to robust estimation over graphs.</span>\n<span class=\"booktitle\">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. October 2014.</span>\n", 
   "bibtex": "@inproceedings{carlone14coherent_sub,\n    author = \"Carlone, Luca and Censi, Andrea and Dellaert, Frank\",\n    title = \"Coherent Measurements Selection via l1 Relaxation: an Approach to Robust Estimation over Graphs\",\n    abstract = \"\",\n    month = \"October\",\n    year = \"2014\",\n    booktitle = \"IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\"\n}\n\n", 
-  "order": 50
+  "order": 51
  }, 
  "censi13jbds_sub": {
   "fields": {
@@ -1449,7 +1470,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Bootstrapping bilinear models of Simple Vehicles.</span>\n<em>International Journal of Robotics Research</em>, 34:1087&ndash;1113, July 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-jbds-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1177/0278364914557708\">doi</a></span><span class=\"video\"><a href=\"https://vimeo.com/80954603\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/jbds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-jbds-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@article{censi13jbds_sub,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    slides = \"http://purl.org/censi/research/2013-jbds-slides.pdf\",\n    doi = \"10.1177/0278364914557708\",\n    slideskeynote = \"http://purl.org/censi/research/2013-jbds-slides.key.zip\",\n    title = \"{Bootstrapping bilinear models of Simple Vehicles}\",\n    url = \"http://purl.org/censi/2013/jbds\",\n    journal = \"International Journal of Robotics Research\",\n    year = \"2015\",\n    month = \"July\",\n    volume = \"34\",\n    video = \"https://vimeo.com/80954603\",\n    pages = \"1087--1113\",\n    sortyear = \"2015\",\n    pdf = \"http://purl.org/censi/research/2013-jbds-sub.pdf\",\n    abstract = {Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.}\n}\n\n", 
-  "order": 47
+  "order": 48
  }, 
  "censi15powerperf_sub": {
   "fields": {
@@ -1486,7 +1507,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C., <a href='https://lids.mit.edu/people/students/erich-mueller'>Erich Mueller</a>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2015.</span>\n", 
   "bibtex": "@inproceedings{censi15powerperf_sub,\n    author = \"Censi, Andrea and Mueller, Erich and Frazzoli, Emilio and Soatto, Stefano\",\n    title = \"{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}\",\n    timestamp = \"2014.09.30\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    urlresolved = \"http://purl.org/censi/web/powerperf\",\n    aurl = \"http://purl.org/censi/2015/powerperf\",\n    apdf = \"http://purl.org/censi/research/2015-powerperf-sub.pdf\",\n    year = \"2015\",\n    owner = \"andrea\"\n}\n\n", 
-  "order": 45
+  "order": 46
  }, 
  "censi15codesign_sub": {
   "fields": {
@@ -1520,7 +1541,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C., <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://xenia.media.mit.edu/~minster/'>Sawyer B. Fuller</a>.</span>\n<span class=\"title\">On the Optimal Codesign of Vehicle Sensing and Actuation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n", 
   "bibtex": "@techreport{censi15codesign_sub,\n    author = \"Censi, Andrea and Frazzoli, Emilio and Fuller, Sawyer B.\",\n    title = \"{On the Optimal Codesign of Vehicle Sensing and Actuation}\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    urlresolved = \"http://purl.org/censi/web/codesign\",\n    aurl = \"http://purl.org/censi/2015/codesign\",\n    apdf = \"http://purl.org/censi/research/2015-codesign-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 46
+  "order": 47
  }, 
  "censi13dvsd_sub": {
   "fields": {
@@ -1548,7 +1569,7 @@
   }, 
   "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-dvsd-final.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@inproceedings{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"http://purl.org/censi/2013/dvsd\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    slides = \"http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2014\",\n    pdf = \"http://purl.org/censi/research/2013-dvsd-final.pdf\",\n    abstract = \"\"\n}\n\n", 
-  "order": 49
+  "order": 50
  }, 
  "censi13joint": {
   "fields": {
