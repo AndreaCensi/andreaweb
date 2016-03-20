@@ -35,7 +35,9 @@ Please feel free to ask for a PDF if it is not linked here.
 [pub_ref_desc id='censi12cameracalib']
 [pub_ref_desc id='censi13saccade']
 [pub_ref_desc id='censi13joint']
-[pub_ref_desc id='calisi12openrdk']
+
+<!-- [pub_ref_desc id='calisi12openrdk'] -->
+
 [pub_ref_desc id='censi11kf']
 
 #### Dissertation

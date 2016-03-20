@@ -1,8 +1,27 @@
 <style type='text/css'>
-img.robo { border: solid 2px black;}
+img.robo { border: solid 2px black; max-height: 30em; margin-bottom: 3em;}
 </style>
 
+<h2>Highlights of 2015</h2>
 
+December 2015: the elves building [Duckietown](http://duckietown.mit.edu).
+
+<img class='robo' src='/media/15-duckietown.jpg'/>
+
+Summer 2015, "school trip" to Kiva Robotics
+
+<img class='robo' src='/media/15-kiva.jpg'/>
+
+August 2015, Taipei: hanging out with Rod
+
+<img class='robo' src='/media/15-rod.jpg'/>
+
+August 2015, at RSS: distributing more duckies (with Luca Carlone, John Leonard, Liam Paull, and surprise Wolfram 
+Burgard from behind).
+
+<img class='robo' src='/media/15-rss-duckies.jpg'/>
+
+<h2>before 2015</h2>
 
 May 2013, Caltech: an intimate experience
 
@@ -12,7 +31,8 @@ November 2012, Zurich: Seen by a Turtlebot
 
 <img class='robo' src='/media/andrea_log-turtlebot.jpg'/>
 
-July 2010, Pasadena: Seen by an ER-1
+July 2010, Pasadena: Seen by an Evolution Robotics ER-1. This picture documents the middle of the period when I spent my life
+in a sub-basement lab.
 
 <img class='robo' style='width:200px' src='/media/andrea_log.jpg'/>
 

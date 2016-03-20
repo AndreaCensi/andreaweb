@@ -127,23 +127,25 @@
  }, 
  "censi15monotone": {
   "fields": {
-   "type": "techreport", 
+   "title": "A Class of Co-Design Problems with Cyclic Constraints and Their Solution", 
+   "url": "http://MCDP.mit.edu/", 
+   "journal": "Robotics and Automation Letters", 
    "author": [
     {
      "last": "Censi", 
      "first": "Andrea"
     }
    ], 
-   "title": "Monotone Co-Design Problems and their Systematic Solution", 
-   "pdf": "http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf", 
-   "desc": "", 
-   "year": "2015", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15monotone.png", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
-   "month": "October"
+   "month": "January", 
+   "note": "To appear", 
+   "year": "2016", 
+   "ignorepdf": "http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf", 
+   "type": "article", 
+   "desc": ""
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Monotone co-design problems and their systematic solution.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
-  "bibtex": "@techreport{censi15monotone,\n    author = \"Censi, Andrea\",\n    title = \"Monotone Co-Design Problems and their Systematic Solution\",\n    month = \"October\",\n    year = \"2015\",\n    pdf = \"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A class of co-design problems with cyclic constraints and their solution.</span>\n<em>Robotics and Automation Letters</em>, January 2016.\n<span class=\"note\">To appear.</span>\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi15monotone,\n    author = \"Censi, Andrea\",\n    title = \"A Class of Co-Design Problems with Cyclic Constraints and Their Solution\",\n    url = \"http://MCDP.mit.edu/\",\n    journal = \"Robotics and Automation Letters\",\n    month = \"January\",\n    note = \"To appear\",\n    year = \"2016\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\"\n}\n\n", 
   "order": 40
  }, 
  "censi15despl_sub": {
@@ -390,23 +392,24 @@
  }, 
  "censi15same": {
   "fields": {
-   "type": "techreport", 
+   "title": "Generalized Monotone Co-Design Problems; or, everything is the same", 
+   "url": "http://MCDP.mit.edu/", 
    "author": [
     {
      "last": "Censi", 
      "first": "Andrea"
     }
    ], 
-   "title": "Generalized Monotone Co-Design Problems; or, everything is the same", 
-   "pdf": "http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf", 
-   "desc": "", 
-   "year": "2015", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15same.png", 
+   "month": "October", 
+   "year": "2015", 
+   "ignorepdf": "http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf", 
+   "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems/MIT", 
-   "month": "October"
+   "desc": ""
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Generalized monotone co-design problems; or, everything is the same.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
-  "bibtex": "@techreport{censi15same,\n    author = \"Censi, Andrea\",\n    title = \"Generalized Monotone Co-Design Problems; or, everything is the same\",\n    month = \"October\",\n    year = \"2015\",\n    pdf = \"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Generalized monotone co-design problems; or, everything is the same.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi15same,\n    author = \"Censi, Andrea\",\n    title = \"Generalized Monotone Co-Design Problems; or, everything is the same\",\n    url = \"http://MCDP.mit.edu/\",\n    month = \"October\",\n    year = \"2015\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 41
  }, 
  "censi06scan": {
@@ -536,7 +539,7 @@
      "first": "Andrea"
     }
    ], 
-   "title": "A Mathematical Theory of Codesign", 
+   "title": "A Mathematical Theory of Co-Design", 
    "pdf": "http://tiny.cc/co-design", 
    "desc": "", 
    "year": "2016", 
@@ -544,8 +547,8 @@
    "institution": "Laboratory for Information and Decision Systems/MIT", 
    "month": "January"
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A mathematical theory of codesign.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, January 2016.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://tiny.cc/co-design\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
-  "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Codesign\",\n    month = \"January\",\n    year = \"2016\",\n    pdf = \"http://tiny.cc/co-design\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, January 2016.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://tiny.cc/co-design\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
+  "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    month = \"January\",\n    year = \"2016\",\n    pdf = \"http://tiny.cc/co-design\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 39
  }, 
  "censi11kf": {
@@ -778,23 +781,24 @@
  }, 
  "censi15rara": {
   "fields": {
-   "type": "techreport", 
+   "title": "Synthesis of resource-aware robotic applications", 
+   "url": "http://MCDP.mit.edu/", 
    "author": [
     {
      "last": "Censi", 
      "first": "Andrea"
     }
    ], 
-   "title": "Synthesis of resource-aware robotic applications", 
-   "pdf": "http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf", 
-   "desc": "", 
-   "year": "2015", 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15rara.png", 
+   "month": "October", 
+   "year": "2015", 
+   "ignorepdf": "http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf", 
+   "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems/MIT", 
-   "month": "October"
+   "desc": ""
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Synthesis of resource-aware robotic applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span></span>", 
-  "bibtex": "@techreport{censi15rara,\n    author = \"Censi, Andrea\",\n    title = \"Synthesis of resource-aware robotic applications\",\n    month = \"October\",\n    year = \"2015\",\n    pdf = \"http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Synthesis of resource-aware robotic applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi15rara,\n    author = \"Censi, Andrea\",\n    title = \"Synthesis of resource-aware robotic applications\",\n    url = \"http://MCDP.mit.edu/\",\n    month = \"October\",\n    year = \"2015\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
   "order": 42
  }, 
  "censi12cameracalib": {
@@ -821,10 +825,11 @@
    "year": "2013", 
    "pdf": "http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf", 
    "issue": "10", 
+   "pages": "2357--2370", 
    "desc": "[Davide] and I explain how to calibrate a generic single-view-point camera\nby only waving it around.\n\n[Davide]: https://sites.google.com/site/scarabotix/home"
   }, 
-  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 10 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    olddescicon = \"http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    volume = \"35\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    issue = \"10\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C. and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Calibration by correlation using metric embedding from non-metric similarities.</span>\n<em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 35:2357&ndash;2370, 10 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TPAMI.2013.34\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/camera_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi12cameracalib,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    olddescicon = \"http://purl.org/censi/web/media/paper-icons/censi12cameracalib_preprint.png\",\n    doi = \"10.1109/TPAMI.2013.34\",\n    title = \"Calibration by correlation using metric embedding from non-metric similarities\",\n    url = \"http://purl.org/censi/2012/camera_calibration\",\n    journal = \"IEEE Transactions on Pattern Analysis and Machine Intelligence\",\n    month = \"10\",\n    volume = \"35\",\n    year = \"2013\",\n    pdf = \"http://purl.org/censi/research/preprints/camera_calibration/2012-camera_calibration.pdf\",\n    issue = \"10\",\n    pages = \"2357--2370\"\n}\n\n", 
   "order": 5
  }, 
  "scrapper09": {
@@ -1603,10 +1608,11 @@
    "sortyear": "2011", 
    "pdf": "http://purl.org/censi/research/2012-joint_calibration.pdf", 
    "type": "article", 
+   "pages": "475--492", 
    "desc": "Fast, practical, and extremely precise \nsimultaneous estimation of odometry and sensor configuration \nparameters for mobile robots."
   }, 
-  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\n<em>IEEE Transactions on Robotics</em>, April 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-joint_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TRO.2012.2226380\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi13joint,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    doi = \"10.1109/TRO.2012.2226380\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    journal = \"IEEE Transactions on Robotics\",\n    year = \"2013\",\n    number = \"2\",\n    month = \"April\",\n    volume = \"29\",\n    sortyear = \"2011\",\n    pdf = \"http://purl.org/censi/research/2012-joint_calibration.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C., <a href='http://antoniofranchi.com/robotics/'>Antonio Franchi</a>, <a href='http://www.linkedin.com/in/lucamarchionni'>Luca Marchionni</a>, and <a href='http://www.dis.uniroma1.it/~oriolo/'>Giuseppe Oriolo</a>.</span>\n<span class=\"title\">Simultaneous calibration of odometry and sensor parameters for mobile robots.</span>\n<em>IEEE Transactions on Robotics</em>, 29(2):475&ndash;492, April 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2012-joint_calibration.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/TRO.2012.2226380\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2012/joint_calibration\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi13joint,\n    author = \"Censi, Andrea and Franchi, Antonio and Marchionni, Luca and Oriolo, Giuseppe\",\n    doi = \"10.1109/TRO.2012.2226380\",\n    title = \"Simultaneous calibration of odometry and sensor parameters for mobile robots\",\n    url = \"http://purl.org/censi/2012/joint_calibration\",\n    journal = \"IEEE Transactions on Robotics\",\n    year = \"2013\",\n    number = \"2\",\n    month = \"April\",\n    volume = \"29\",\n    sortyear = \"2011\",\n    pdf = \"http://purl.org/censi/research/2012-joint_calibration.pdf\",\n    pages = \"475--492\"\n}\n\n", 
   "order": 4
  }, 
  "censi09posetracking": {
