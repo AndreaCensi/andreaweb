@@ -47,7 +47,6 @@ Please feel free to ask for a PDF if it is not linked here.
 #### Conference papers 
 
 [pub_ref_desc id='censi15same']
-[pub_ref_desc id='censi15rara']
 
 [pub_ref_desc id='censi15neucontrol_sub']
 [pub_ref_desc id='censi15powerperf_sub']

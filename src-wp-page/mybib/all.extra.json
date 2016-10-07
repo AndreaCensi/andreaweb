@@ -137,15 +137,15 @@
     }
    ], 
    "descicon": "http://purl.org/censi/web/media/paper-icons/censi15monotone.png", 
-   "month": "January", 
+   "month": "February", 
    "note": "To appear", 
    "year": "2016", 
    "ignorepdf": "http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf", 
    "type": "article", 
    "desc": ""
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A class of co-design problems with cyclic constraints and their solution.</span>\n<em>Robotics and Automation Letters</em>, January 2016.\n<span class=\"note\">To appear.</span>\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi15monotone,\n    author = \"Censi, Andrea\",\n    title = \"A Class of Co-Design Problems with Cyclic Constraints and Their Solution\",\n    url = \"http://MCDP.mit.edu/\",\n    journal = \"Robotics and Automation Letters\",\n    month = \"January\",\n    note = \"To appear\",\n    year = \"2016\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">A class of co-design problems with cyclic constraints and their solution.</span>\n<em>Robotics and Automation Letters</em>, February 2016.\n<span class=\"note\">To appear.</span>\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi15monotone,\n    author = \"Censi, Andrea\",\n    title = \"A Class of Co-Design Problems with Cyclic Constraints and Their Solution\",\n    url = \"http://MCDP.mit.edu/\",\n    journal = \"Robotics and Automation Letters\",\n    month = \"February\",\n    note = \"To appear\",\n    year = \"2016\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\"\n}\n\n", 
   "order": 40
  }, 
  "censi15despl_sub": {
@@ -392,7 +392,7 @@
  }, 
  "censi15same": {
   "fields": {
-   "title": "Generalized Monotone Co-Design Problems; or, everything is the same", 
+   "title": "Monotone Co-Design Problems; or, everything is the same", 
    "url": "http://MCDP.mit.edu/", 
    "author": [
     {
@@ -405,11 +405,11 @@
    "year": "2015", 
    "ignorepdf": "http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf", 
    "type": "techreport", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
+   "institution": "To appear in ACC 2016", 
    "desc": ""
   }, 
-  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Generalized monotone co-design problems; or, everything is the same.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15same,\n    author = \"Censi, Andrea\",\n    title = \"Generalized Monotone Co-Design Problems; or, everything is the same\",\n    url = \"http://MCDP.mit.edu/\",\n    month = \"October\",\n    year = \"2015\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\">A.C..</span>\n<span class=\"title\">Monotone co-design problems; or, everything is the same.</span>\nTechnical Report, To appear in ACC 2016, October 2015.\n<span class=\"links\"><span class=\"url\"><a href=\"http://MCDP.mit.edu/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi15same,\n    author = \"Censi, Andrea\",\n    title = \"Monotone Co-Design Problems; or, everything is the same\",\n    url = \"http://MCDP.mit.edu/\",\n    month = \"October\",\n    year = \"2015\",\n    ignorepdf = \"http://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    institution = \"To appear in ACC 2016\"\n}\n\n", 
   "order": 41
  }, 
  "censi06scan": {
