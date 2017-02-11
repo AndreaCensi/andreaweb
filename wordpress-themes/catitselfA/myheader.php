@@ -33,9 +33,9 @@
 </script>
 
 <!-- flow player -->
-<script src="http://releases.flowplayer.org/5.2.1/flowplayer.min.js"></script>
+<script src="https://releases.flowplayer.org/5.2.1/flowplayer.min.js"></script>
 <link rel="stylesheet" type="text/css"
-   href="http://releases.flowplayer.org/5.2.0/skin/functional.css" />
+   href="https://releases.flowplayer.org/5.2.0/skin/functional.css" />
 
 <!-- zoom -->
 <script src="/media/js/jquery.imageZoom.js"></script>
@@ -52,4 +52,4 @@
 
 <!-- <link href='http://fonts.googleapis.com/css?family=Signika:400,600,300,700' rel='stylesheet' type='text/css'/> -->
 <!-- <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700' rel='stylesheet' type='text/css'/> -->
-<link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
