@@ -32,7 +32,7 @@ def sub_names(s):
     people = json.load(open('people.json'))
     #print('loaded %d names' % len(people))
 
-    s = s.replace('Andrea Censi', 'A.C.')
+    s = s.replace('Andrea Censi', '<span class="author-ac">Andrea Censi</span>')
 
     # s = s.replace('Paloma de la Puente',
     #     "<a href='http://www.intelligentcontrol.es/paloma/'>Paloma de la Puente</a>")

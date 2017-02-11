@@ -7,11 +7,14 @@ function read_pub_entry($id) {
         $entry = $db_bib[$id];
         $entry['id'] = $id;
 	$fields = $entry['fields'];
+
     if (array_key_exists("descicon", $fields)) {
 
-	$fields['descicon'] = str_replace('http://purl.org/censi/web/media/', 'https://censi.science/media/', $fields['descicon']);
+	$entry['fields']['descicon'] = str_replace('http://purl.org/censi/web/media/', 'https://censi.science/media/', $fields['descicon']);
+
 	//echo $fields['descicon'];	
 }
+	
  return $entry;
 
     } else {

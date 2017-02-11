@@ -25,7 +25,9 @@ Please feel free to ask for a PDF if it is not linked here.
 
 
 [pub_ref_desc id='censi16codesign']
-[pub_ref_desc id='censi16uncertainty']
+[pub_ref_desc id='censi17uncertainty']
+[pub_ref_desc id='paull17duckietown']
+[pub_ref_desc id='tani16duckietown']
 
 #### Journal papers
 
