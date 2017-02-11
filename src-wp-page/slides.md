@@ -132,7 +132,7 @@ formatting is way off. -->
  
 
 <div class='cover'>
-    <iframe src="http://player.vimeo.com/video/129613732" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/129613732" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <div class='talk'>
