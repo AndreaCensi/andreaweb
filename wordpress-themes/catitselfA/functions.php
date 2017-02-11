@@ -230,7 +230,8 @@ $content_width = 1200;
 
 // [external_md filename="/censi12ocra"] 
 
-require_once '/usr/share/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
+#@require_once '/usr/share/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
+require_once '/var/lib/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
 function external_md( $atts ) { 
     extract( shortcode_atts( array( 'filename' => 0 ), $atts ) ); 
 
