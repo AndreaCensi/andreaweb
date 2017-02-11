@@ -6,7 +6,14 @@ function read_pub_entry($id) {
     if(array_key_exists($id, $db_bib)) {
         $entry = $db_bib[$id];
         $entry['id'] = $id;
-        return $entry;
+	$fields = $entry['fields'];
+    if (array_key_exists("descicon", $fields)) {
+
+	$fields['descicon'] = str_replace('http://purl.org/censi/web/media/', 'https://censi.science/media/', $fields['descicon']);
+	//echo $fields['descicon'];	
+}
+ return $entry;
+
     } else {
         // $known = implode(array_keys($db_bib),', ');
         // echo "<p class='pub-ref-desc-error' style='color: red;'>".
@@ -230,7 +237,8 @@ $content_width = 1200;
 
 // [external_md filename="/censi12ocra"] 
 
-require_once '/usr/share/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
+#@require_once '/usr/share/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
+require_once '/var/lib/wordpress/wp-content/plugins/markdown-on-save-improved/markdown-extra/markdown-extra.php';
 function external_md( $atts ) { 
     extract( shortcode_atts( array( 'filename' => 0 ), $atts ) ); 
 
