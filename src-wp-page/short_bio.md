@@ -14,6 +14,6 @@
     agents, and in particular in estimation, filtering, and learning in robotics.
 
 
-<a href="http://censi.mit.edu/media/andrea_defense-small.jpg">
-    <img src="http://censi.mit.edu/media/andrea_defense-small.jpg" style='vertical-align: middle; height: 5em'/>
+<a href="https://censi.science/media/andrea_defense-small.jpg">
+    <img src="https://censi.science/media/andrea_defense-small.jpg" style='vertical-align: middle; height: 5em'/>
     Academic headshot</a>
