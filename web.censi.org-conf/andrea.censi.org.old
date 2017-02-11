@@ -1,0 +1,117 @@
+# <VirtualHost *:80>
+
+#     ServerName censi.org
+#     ServerName www.censi.org
+#     ServerName web.censi.org
+#     ServerAdmin andrea@web.censi.org
+
+#     # DocumentRoot /home/andrea/scm/andreaweb/censi.org-content
+#     DocumentRoot /var/www/wordpress
+#     <Directory />
+#         Options FollowSymLinks
+#         AllowOverride None
+#     </Directory>
+ 
+#     <Directory /home/andrea/scm/andreaweb/>
+#         Options Indexes FollowSymLinks MultiViews
+#         AllowOverride All
+#         Order allow,deny
+#         allow from all
+#     </Directory>
+ 
+#     LogLevel info
+#     ErrorLog ${APACHE_LOG_DIR}/censi.org/error.log
+#     CustomLog ${APACHE_LOG_DIR}/censi.org/access.log combined
+
+# </VirtualHost>
+
+<VirtualHost *:80>
+
+    ServerName censi.org
+    ServerAlias censi.mit.edu
+    ServerAlias andrea.caltech.edu
+    ServerAlias andrea.censi.org
+	ServerAdmin andrea@web.censi.org
+    UseCanonicalName Off
+
+	DocumentRoot /var/www/wordpress
+
+    #Alias /icons/ "/home/andrea/scm/andreaweb/output/icons/"
+    Alias /media/ "/home/andrea/scm/andreaweb/src/media/"
+    #Alias /pdf.gif "/home/andrea/scm/andreaweb/src/media/pdf.gif"
+    #Alias /web.gif "/home/andrea/scm/andreaweb/src/media/web.gif"
+
+    Alias /pub/1212-DVS-data "/mnt/1212-DVS-data/"
+    Alias /pub/ "/mnt/andreapub1/andrea-pub/"
+    Alias /pri/ "/mnt/andreapub1/andrea-pri/"
+    <Directory /mnt/1212-DVS-data/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+
+    RewriteEngine on
+
+    # 2014-09-26: removing for now for new wordpress update
+    # force censi.mit.edu
+    # RewriteCond %{HTTP_HOST}   !^censi\.mit\.edu [NC]
+    # RewriteCond %{HTTP_HOST}   !^$
+    # RewriteRule ^/(.*)         http://censi.mit.edu/$1 [L,R]
+
+    RewriteRule  /media/(.*) - [L]
+    RewriteRule  (.*)/pdf.gif http://censi.mit.edu/media/pdf.gif [L]
+    RewriteRule  (.*)/web.gif http://censi.mit.edu/media/web.gif [L]
+    
+    RewriteRule  .*/status/(.*) /media/status/$1 [R]
+
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule (.*) https://censi.science/ [R=301,L]
+
+    # RewriteRule  (.*)/index.html $1 [R]
+
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+
+	<Directory /var/www/>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Order allow,deny
+		allow from all
+	</Directory>
+ 
+    <Directory /home/andrea/scm/andreaweb/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+ 
+    <Directory /mnt/andreapub1/andrea-pub/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+   <Directory /mnt/andreapub1/andrea-pri/>
+        Options -Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    LogLevel info
+	ErrorLog ${APACHE_LOG_DIR}/andrea.censi.org/error.log
+	CustomLog ${APACHE_LOG_DIR}/andrea.censi.org/access.log combined
+
+    Alias /awstatsclasses "/usr/share/awstats/lib/"
+    Alias /awstats-icon/ "/usr/share/awstats/icon/"
+    Alias /awstatscss "/usr/share/doc/awstats/examples/css"
+    ScriptAlias /stats/ /usr/lib/cgi-bin/
+    Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
+
+</VirtualHost>
