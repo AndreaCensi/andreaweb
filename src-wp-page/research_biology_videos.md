@@ -11,14 +11,14 @@ These videos were created using [Andrew Straw][strawlab]'s software and assistan
    href="http://releases.flowplayer.org/5.2.0/skin/minimalist.css" />
 
 <div class="flowplayer">
-   <video src="http://purl.org/censi/research/2012-mamarama-material/tracking_movie.mp4"></video>
+   <video src="https://purl.org/censi/research/2012-mamarama-material/tracking_movie.mp4"></video>
 </div>
 
 
 <h3 id='mamarama'>Simulated visual stimulus</h3>
 
 <div class="flowplayer">
-   <video src="http://purl.org/censi/research/2012-mamarama-material/sim.mp4"></video>
+   <video src="https://purl.org/censi/research/2012-mamarama-material/sim.mp4"></video>
 </div>
 
 <!-- 

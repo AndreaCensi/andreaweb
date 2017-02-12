@@ -1,7 +1,7 @@
 <!-- ---
 title: On achievable accuracy for pose tracking
-PURL: http://purl.org/censi/2008/posetracking
--> http://purl.org/ccensi/web/crb-pose-tracking/ 
+PURL: https://purl.org/censi/2008/posetracking
+-> https://purl.org/ccensi/web/crb-pose-tracking/ 
 Date: 2008-09-15
 orderInfo: -300
 description: ""
@@ -12,7 +12,7 @@ linkAttrs:
 
 [pub_ref_page id='censi09posetracking']
 
-* Source code: used the repository version of [CSM](http://purl.org/censi/2007/csm).  
+* Source code: used the repository version of [CSM](https://purl.org/censi/2007/csm).  
 
 **Abstract** --- This paper presents Cramer-Rao bound-like inequalities for
 pose tracking, which is defined as the problem of
@@ -30,4 +30,4 @@ verification is done for the particular case of pose
 tracking using range-finders (scan matching).
 
 
-<!-- [pdf]: http://purl.org/censi/research/2009-icra-posetracking.pdf -->
+<!-- [pdf]: https://purl.org/censi/research/2009-icra-posetracking.pdf -->

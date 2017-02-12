@@ -17,12 +17,12 @@
 - [Complete .MP4 logs (~8GB)][logs]
 - [Python source code (.tgz)][source]; manual coming soon.
 
-[tables]: http://purl.org/censi/research/2012-camera_calibration/2012-camera_calibration-tables.pdf
-[source]: http://purl.org/censi/research/2012-camera_calibration/20120101-calib_env-snapshot.tgz
-[logs]: http://purl.org/censi/research/2012-camera_calibration/logs/
-[mino_fig]: http://purl.org/censi/research/2012-camera_calibration/mino.fig
-[gopro_fig]: http://purl.org/censi/research/2012-camera_calibration/GOPRb.fig
-[omni_fig]: http://purl.org/censi/research/2012-camera_calibration/omni.fig
+[tables]: https://purl.org/censi/research/2012-camera_calibration/2012-camera_calibration-tables.pdf
+[source]: https://purl.org/censi/research/2012-camera_calibration/20120101-calib_env-snapshot.tgz
+[logs]: https://purl.org/censi/research/2012-camera_calibration/logs/
+[mino_fig]: https://purl.org/censi/research/2012-camera_calibration/mino.fig
+[gopro_fig]: https://purl.org/censi/research/2012-camera_calibration/GOPRb.fig
+[omni_fig]: https://purl.org/censi/research/2012-camera_calibration/omni.fig
 
 <a name='media'></a>
 ## Example input data
@@ -53,15 +53,15 @@ tr.distribution td img {
 <td class="what">camera</td>
 <td>
     <p>Flip Mino</p>
-    <img src='http://purl.org/censi/research/2012-camera_calibration/images/flip_small.jpg'/>
+    <img src='https://purl.org/censi/research/2012-camera_calibration/images/flip_small.jpg'/>
 </td>
 <td>
     <p>GOPRO</p>
-    <img src='http://purl.org/censi/research/2012-camera_calibration/images/gopro_small.jpg'/>
+    <img src='https://purl.org/censi/research/2012-camera_calibration/images/gopro_small.jpg'/>
 </td>
 <td>
     <p>Omnidirectional camera</p>
-    <img src='http://purl.org/censi/research/2012-camera_calibration/images/omni_small.jpg'/>
+    <img src='https://purl.org/censi/research/2012-camera_calibration/images/omni_small.jpg'/>
 </td>
 </tr>
 <tr>
@@ -85,36 +85,36 @@ tr.distribution td img {
 <tr id='solution' class='distribution'>
     <td class="what">solution</td>
     <td>
-       <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-S-aligned.pdf">
-      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
+       <a href="https://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-S-aligned.pdf">
+      <img src="https://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
       </a>
     </td>
     <td>
-       <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-S-aligned.pdf">
-      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
+       <a href="https://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-S-aligned.pdf">
+      <img src="https://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
       </a>
     </td>
     <td>
-      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-S-aligned.pdf">
-      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
+      <a href="https://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-S-aligned.pdf">
+      <img src="https://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-S-aligned-png.png"/>
     </a>
     </td>
 </tr>
 <tr id='groundtruth' class='distribution'>
     <td class="what">ground truth</td>
     <td>
-      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-true-S.pdf">
-      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-true-S-png.png"/>
+      <a href="https://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-true-S.pdf">
+      <img src="https://purl.org/censi/research/2012-camera_calibration/stats/images/mino-grid24-corr-m-CBC3dw-final-solution-true-S-png.png"/>
     </a>
     </td>
     <td>
-      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-true-S.pdf">
-      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-true-S-png.png"/>
+      <a href="https://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-true-S.pdf">
+      <img src="https://purl.org/censi/research/2012-camera_calibration/stats/images/GOPRb-grid24-corr-m-CBC3dw-final-solution-true-S-png.png"/>
       </a>
     </td>
     <td>
-      <a href="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-true-S.pdf">
-      <img src="http://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-true-S-png.png"/>
+      <a href="https://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-true-S.pdf">
+      <img src="https://purl.org/censi/research/2012-camera_calibration/stats/images/omni-grid8-corr-m-CBC3dw-final-solution-true-S-png.png"/>
     </a>
     </td>
 </table>

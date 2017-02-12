@@ -1,7 +1,7 @@
 <!--
 title: An accurate closed-form estimate of ICP's covariance 
-Subject_short: ICP covariance
-PURL: http://purl.org/censi/2006/icpcov
+Subject_short: ICPï¿½covariance
+PURL: https://purl.org/censi/2006/icpcov
 Date: 2007-01-28
 inMenu: true
 linkAttrs:
@@ -17,7 +17,7 @@ description: "An algorithm for estimating the covariance of the ICP algorithm, b
 
 ### Additional material ###
 
-- A C implementation of the method is provided as part of [CSM](http://purl.org/censi/2007/csm). The CSM package contains also
+- A C implementation of the method is provided as part of [CSM](https://purl.org/censi/2007/csm). The CSM package contains also
 a Matlab implementation (which was used for the experiments in the paper), but they are not as documented.
 
 
@@ -28,5 +28,5 @@ a Matlab implementation (which was used for the experiments in the paper), but t
 **Reviewer 1:** The presentation of all relevant symbols in Table I was useful.  
 **Reviewer 2:** Table I is never referenced in the text, and does not help to understand the paper.
 
-[pdf-final]: http://purl.org/censi/research/2007-icra-icpcov.pdf
-[slides-final]: http://purl.org/censi/research/2007-icra-icpcov-slides.pdf
+[pdf-final]: https://purl.org/censi/research/2007-icra-icpcov.pdf
+[slides-final]: https://purl.org/censi/research/2007-icra-icpcov-slides.pdf

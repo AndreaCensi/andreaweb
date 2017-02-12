@@ -1,6 +1,6 @@
 ### Media
-[video-calib]: http://purl.org/censi/2012/camera_calibration#media
-[video-real]: http://purl.org/censi/research/2011-bgds/#sensels
+[video-calib]: https://purl.org/censi/2012/camera_calibration#media
+[video-real]: https://purl.org/censi/research/2011-bgds/#sensels
 [video-sim]: videos-vehicles
 
 
@@ -28,7 +28,7 @@
     <object width="250" height="160"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="https://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" /><embed src="https://vimeo.com/moogaloop.swf?clip_id=33843143&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="250" height="180"></embed></object>
   </div>
     <p class="other">
-      <a href="http://purl.org/censi/2012/camera_calibration#media">other videos <br/>for Chapter 11</a>
+      <a href="https://purl.org/censi/2012/camera_calibration#media">other videos <br/>for Chapter 11</a>
     </p>
 </div>
 
@@ -38,9 +38,9 @@
     </p>
     <div class="frame">
     <div data-ratio='0.552' class="flowplayer is-splash color-light"
-        style="background: #000 url('http://purl.org/censi/research/2012-bv1bds1/videos/splash/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.png') 0 0 no-repeat; background-size: 100%;">
+        style="background: #000 url('https://purl.org/censi/research/2012-bv1bds1/videos/splash/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.png') 0 0 no-repeat; background-size: 100%;">
         <video preload="none" 
-               src="http://purl.org/censi/research/2012-bv1bds1/videos/bv1servo1/videos/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.mp4">
+               src="https://purl.org/censi/research/2012-bv1bds1/videos/bv1servo1/videos/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.mp4">
         </video>
     </div>
     </div>
@@ -56,14 +56,14 @@
     <div class="frame">
 <!--       1564x494 
  -->    <div data-ratio='0.315' class="flowplayer is-splash color-light"
-        style="background: #000 url('http://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4.realsize.png') 0 0 no-repeat; background-size: 100%;">
+        style="background: #000 url('https://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4.realsize.png') 0 0 no-repeat; background-size: 100%;">
         <video preload="none" 
-               src="http://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4">
+               src="https://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4">
         </video>
     </div>
     </div>
       <p class="other">
-      <a href="http://purl.org/censi/research/2011-bgds/#sensels">other videos <br/>for Chapter 14+</a>
+      <a href="https://purl.org/censi/research/2011-bgds/#sensels">other videos <br/>for Chapter 14+</a>
     </p>
 </div>
 </div>

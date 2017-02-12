@@ -43,5 +43,5 @@ as part of the *MSEE* program.
 
 [action]: http://en.wikipedia.org/wiki/Group_action
 [groups]: http://en.wikipedia.org/wiki/Group_(mathematics)
-[phd1]: http://purl.org/censi/boot/v1/
+[phd1]: https://purl.org/censi/boot/v1/
 

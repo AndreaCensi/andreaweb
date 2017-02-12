@@ -47,7 +47,7 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.png'/>
+         src='https://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.png'/>
 </div>
 
 
@@ -58,15 +58,15 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar-steps.pdf">PDF</a></li>
+            <a href="https://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar-steps.pdf">PDF</a></li>
 
         <li>
             <img class="slides-keynote" src='/media/keynote.gif'/>
-            <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.key">Keynote</a>
+            <a href="https://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.key">Keynote</a>
         </li>
         <li>
              <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-             <a href="http://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.pptx">Powerpoint (automatically converted)</a>
+             <a href="https://purl.org/censi/research/2015-robotics-seminar/1511-censi-robotics-seminar.pptx">Powerpoint (automatically converted)</a>
 
         </li>
         
@@ -75,7 +75,7 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.png'/>
+         src='https://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.png'/>
 </div>
 
 <div class='talk'>
@@ -85,15 +85,15 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.pdf">PDF (without videos)</a></li>
+            <a href="https://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.pdf">PDF (without videos)</a></li>
         </li>
         <li>
             <img class="slides-keynote" src='/media/keynote.gif'/>
-            <a href="http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.key">Keynote (with videos)</a>
+            <a href="https://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.key">Keynote (with videos)</a>
         </li>
         <li>
              <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-             <a href="http://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.pptx">Powerpoint (automatically converted)</a>
+             <a href="https://purl.org/censi/research/2015-Taipei-Epoch/1507-Taipei-Epoch-Censi.pptx">Powerpoint (automatically converted)</a>
         </li>             
     </ul>
 </div>
@@ -104,7 +104,7 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://purl.org/censi/research/2015-icra-censi-codesign-slides.1.png'/>
+         src='https://purl.org/censi/research/2015-icra-censi-codesign-slides.1.png'/>
 </div>
 
 <div class='talk'>
@@ -142,7 +142,7 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://purl.org/censi/research/201410-pycontracts/201410-pycontracts.png'/>
+         src='https://purl.org/censi/research/201410-pycontracts/201410-pycontracts.png'/>
 </div>
 
 
@@ -152,7 +152,7 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://purl.org/censi/research/201410-pycontracts/201410-pycontracts.pdf">PDF</a></li>
+            <a href="https://purl.org/censi/research/201410-pycontracts/201410-pycontracts.pdf">PDF</a></li>
         </li>
     </ul>
 </div>
@@ -184,30 +184,30 @@ formatting is way off. -->
 </div>
 
 <div class='cover'>
-    <img class='cover' src='http://purl.org/censi/research/2014-icra14-ws-omnivis-love/cover.png'/>
+    <img class='cover' src='https://purl.org/censi/research/2014-icra14-ws-omnivis-love/cover.png'/>
 </div>
 
 <div class='talk'>
     <strong>&ldquo;All you need is love (of data)&rdquo;</strong>,
             presented at the ICRA 2014 <a href="https://fling.seas.upenn.edu/~luispuig/wiki/OMNIVIS/">OMNIVIS Workshop
              on Non-classical Cameras, Camera Networks and Omnidirectional Vision</a>. The main reference is 
-             <a href="http://purl.org/censi/2012/camera_calibration">
+             <a href="https://purl.org/censi/2012/camera_calibration">
                 this paper on calibration by correlation</a> and 
-             <a href="http://purl.org/censi/2013/dvsd">this paper about the DVS</a>.
+             <a href="https://purl.org/censi/2013/dvsd">this paper about the DVS</a>.
     <ul>
     <li> <img class="slides-pdf" src='/media/pdf.gif'/>
-          <a href="http://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.pdf">PDF version, with no animations</a></li>
+          <a href="https://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.pdf">PDF version, with no animations</a></li>
     <li> <img class="slides-keynote" src='/media/keynote.gif'/>
-         <a href="http://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.key.zip">Keynote 6 version, with cute animations</a> --- 
-         <a href="http://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.k5.key">Keynote 5 version</a>. </li>
+         <a href="https://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.key.zip">Keynote 6 version, with cute animations</a> --- 
+         <a href="https://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.k5.key">Keynote 5 version</a>. </li>
     <li> <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-        <a href="http://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.pptx">Automatically converted Powerpoint version---formatting is off</a>. 
+        <a href="https://purl.org/censi/research/2014-icra14-ws-omnivis-love/2014-icra14-ws-omnivis-love.pptx">Automatically converted Powerpoint version---formatting is off</a>. 
     </li>
     </ul>
 </div>
 
 <div class='cover'>
-    <img class='cover' src='http://purl.org/censi/research/2014-icra14-ws-jointinference/cover.png'/>
+    <img class='cover' src='https://purl.org/censi/research/2014-icra14-ws-jointinference/cover.png'/>
 </div>
 
 <div class='talk'>
@@ -216,43 +216,43 @@ formatting is way off. -->
             Joint Inference and Control Workshop</a>.
     <ul>
     <li> <img class="slides-pdf" src='/media/pdf.gif'/>
-          <a href="http://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.pdf">PDF version, with no animations</a></li>
+          <a href="https://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.pdf">PDF version, with no animations</a></li>
     <li> <img class="slides-keynote" src='/media/keynote.gif'/>
-         <a href="http://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.key.zip">Keynote 6 version, with cute animations</a> --- 
-         <a href="http://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.k5.key">Keynote 5 version</a>. </li>
+         <a href="https://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.key.zip">Keynote 6 version, with cute animations</a> --- 
+         <a href="https://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.k5.key">Keynote 5 version</a>. </li>
     <li> <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-        <a href="http://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.pptx">Automatically converted Powerpoint version---formatting is off</a>. 
+        <a href="https://purl.org/censi/research/2014-icra14-ws-jointinference/201405-jointinference.pptx">Automatically converted Powerpoint version---formatting is off</a>. 
     </li>
     </ul>
 </div>
 
 <div class='cover'>
     <img class='cover' 
-        src='http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.png'/>
+        src='https://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.png'/>
 </div>
 
 <div class='talk'> 
     <strong>&ldquo;Low-latency Event-based Visual Odometry&rdquo;</strong>,
     presented at ICRA 2014 as a 
-    <a href="http://purl.org/censi/2013/dvsd">regular paper</a>. 
+    <a href="https://purl.org/censi/2013/dvsd">regular paper</a>. 
          <ul>
 <li> <img class="slides-pdf" src='/media/pdf.gif'/>
-      <a href="http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf">PDF version, with no animations</a></li>
+      <a href="https://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf">PDF version, with no animations</a></li>
 <li> <img class="slides-keynote" src='/media/keynote.gif'/>
-     <a href="http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.key.zip">Keynote 6 version, with cute animations</a> --- 
-     <a href="http://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.k5.key">Keynote 5 version</a>. </li>
+     <a href="https://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.key.zip">Keynote 6 version, with cute animations</a> --- 
+     <a href="https://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.k5.key">Keynote 5 version</a>. </li>
  </ul>
 </div>
 
 <div class='cover'>
-    <img class='cover' src='http://purl.org/censi/research/201404-censi-bootstrapping-vehicles.png'/>
+    <img class='cover' src='https://purl.org/censi/research/201404-censi-bootstrapping-vehicles.png'/>
 </div>
 <!-- 
 <div class='talk'> 
     <strong>&ldquo;Bootstrapping Vehicles&rdquo;</strong>, April 2014 @ MIT
     <ul>
-    <li> <img class="slides-pdf" src='/media/pdf.gif'/> <a href="http://purl.org/censi/research/201404-censi-bootstrapping-vehicles.pdf">PDF version, with no videos or animations</a></li>
-    <li> <img class="slides-pdf" src='/media/pdf.gif'/> <a href="http://purl.org/censi/research/201404-censi-bootstrapping-vehicles-backup.pdf">PDF version, with no videos or animations + backup slides</a> 
+    <li> <img class="slides-pdf" src='/media/pdf.gif'/> <a href="https://purl.org/censi/research/201404-censi-bootstrapping-vehicles.pdf">PDF version, with no videos or animations</a></li>
+    <li> <img class="slides-pdf" src='/media/pdf.gif'/> <a href="https://purl.org/censi/research/201404-censi-bootstrapping-vehicles-backup.pdf">PDF version, with no videos or animations + backup slides</a> 
     (Feel free to ask for the original Keynote, with 500MB of videos.)</li>
     </ul>
 </div> -->

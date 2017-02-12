@@ -33,7 +33,7 @@ This is version 1.3 of my dissertation; I was not satisfied with the "official" 
 [bv1-a4]: http://andrea.caltech.edu/pub/research/preprints/bootstrapping_vehicles-1.3-a4.pdf
 
 
-[defense]: http://purl.org/censi/research/201206-defense.pdf
+[defense]: https://purl.org/censi/research/201206-defense.pdf
 
 [external_page page='bv1_datasets']
 [external_page page='bv1_media']

@@ -2,7 +2,7 @@
 title: Simultaneous maximum-likelihood calibration of robot and sensor parameters
 linkAttrs:
    :link_text: Calibration
-PURL: http://purl.org/censi/2007/calib
+PURL: https://purl.org/censi/2007/calib
 Date: 2007-08-22
 inMenu: true
 orderInfo: -60
@@ -41,15 +41,15 @@ The software and sensor logs is available for download:
 
 [Oriolo]: http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html
 
-[08icra-calib-draft]: http://purl.org/censi/research/2008-icra-calibration-draft.pdf
-[08icra-calib-final]: http://purl.org/censi/research/2008-icra-calibration.pdf
-[video-mpg]: http://purl.org/censi/research/2008-icra-calibration-video.mpg
-[video-divx]: http://purl.org/censi/research/2008-icra-calibration-video.divx
+[08icra-calib-draft]: https://purl.org/censi/research/2008-icra-calibration-draft.pdf
+[08icra-calib-final]: https://purl.org/censi/research/2008-icra-calibration.pdf
+[video-mpg]: https://purl.org/censi/research/2008-icra-calibration-video.mpg
+[video-divx]: https://purl.org/censi/research/2008-icra-calibration-video.divx
 
-[readme]: http://purl.org/censi/research/2008-icra-calibration/
-[logs]: http://purl.org/censi/research/2008-icra-calibration/logs/
-[logs_zip]: http://purl.org/censi/research/2008-icra-calibration/logs.zip
-[matlab]: http://purl.org/censi/research/2008-icra-calibration/matlab/
-[matlab_zip]: http://purl.org/censi/research/2008-icra-calibration/matlab.zip
+[readme]: https://purl.org/censi/research/2008-icra-calibration/
+[logs]: https://purl.org/censi/research/2008-icra-calibration/logs/
+[logs_zip]: https://purl.org/censi/research/2008-icra-calibration/logs.zip
+[matlab]: https://purl.org/censi/research/2008-icra-calibration/matlab/
+[matlab_zip]: https://purl.org/censi/research/2008-icra-calibration/matlab.zip
 
 <!-- [^1]: Unfortunately the MPEG video does not work in QuickTime; while other players, such as VLC, MPlayer, Windows Media Player, should be OK. -->

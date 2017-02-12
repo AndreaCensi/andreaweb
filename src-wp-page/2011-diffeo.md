@@ -9,5 +9,5 @@ Supplemental materials:
 - [Log files][logs]
 
 
-[pdf]: http://purl.org/censi/research/2011-diffeo/2011-diffeo.pdf
-[logs]: http://purl.org/censi/research/2011-diffeo/logs/
+[pdf]: https://purl.org/censi/research/2011-diffeo/2011-diffeo.pdf
+[logs]: https://purl.org/censi/research/2011-diffeo/logs/

@@ -10,4 +10,4 @@
 [ads]: http://strawlab.org
 [pdf]: http://resolver.caltech.edu/CaltechAUTHORS:20120805-120309438
 [sicb]: http://sicb.org/meetings/2012/schedule/
-[slides]: http://purl.org/censi/research/2012-sicb-saccades.pdf
+[slides]: https://purl.org/censi/research/2012-sicb-saccades.pdf

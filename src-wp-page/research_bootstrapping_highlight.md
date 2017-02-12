@@ -15,7 +15,7 @@
     </div>
     <p style="font-style: italic">
      The video shows learning of a bilinear model of a sensorimotor cascade for a camera. The agent starts with no previous knowledge on the sensor geometry, and by correlating observations with commands, it can learn a generative model for the data. The same model can be used for learning the dynamics of different sensors (range-finder, camera, field sampler).
-    See <a href="http://purl.org/censi/research/2011-bgds/">many other videos</a> of related experiments.
+    See <a href="https://purl.org/censi/research/2011-bgds/">many other videos</a> of related experiments.
     </p>
 </div>
 
@@ -35,9 +35,9 @@ Representative papers:
 - [Bootstrapping bilinear models of sensorimotor cascades][bds] (ICRA'11)
 -->
 
-[bgds_tr]: http://purl.org/censi/2011/bgds_tr
-[semantics]: http://purl.org/censi/research/2011-icdl-invariance.pdf
-[dissertation]: http://purl.org/censi/2012/phd
+[bgds_tr]: https://purl.org/censi/2011/bgds_tr
+[semantics]: https://purl.org/censi/research/2011-icdl-invariance.pdf
+[dissertation]: https://purl.org/censi/2012/phd
 
 
 ### Dissertation
@@ -65,10 +65,10 @@ The following are already included in my dissertation:
 [pub_ref_desc id='censi11bds']
 
 
-[bevideos]: http://purl.org/censi/research/2011-bgds/
+[bevideos]: https://purl.org/censi/research/2011-bgds/
 
-[bevideos_old]: http://purl.org/censi/2010/be
-[bds]: http://purl.org/censi/2010/boot
+[bevideos_old]: https://purl.org/censi/2010/be
+[bds]: https://purl.org/censi/2010/boot
 
 [many other videos]: bevideos
 

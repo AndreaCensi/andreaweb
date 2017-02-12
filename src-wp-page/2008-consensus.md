@@ -1,6 +1,6 @@
 <!-- ---
 title: Quantized consensus
-PURL: http://purl.org/censi/2008/consensus
+PURL: https://purl.org/censi/2008/consensus
 Date: 2008-09-09
 orderInfo: -300
 description: ""
@@ -29,12 +29,12 @@ desired. Bounds on these quantities involve the spectral
 properties of the graph and can be proved by employing
 elementary techniques of LTI systems analysis.
 <!-- 
-![graphs](http://purl.org/censi/research/2009-acc-consensus/consensus.png)
+![graphs](https://purl.org/censi/research/2009-acc-consensus/consensus.png)
  -->
 
-[pdf]: http://purl.org/censi/research/2009-acc-consensus.pdf 
+[pdf]: https://purl.org/censi/research/2009-acc-consensus.pdf 
 
-[zip]: http://purl.org/censi/research/2009-acc-consensus.zip
-[browse]: http://purl.org/censi/research/2009-acc-consensus/
+[zip]: https://purl.org/censi/research/2009-acc-consensus.zip
+[browse]: https://purl.org/censi/research/2009-acc-consensus/
 
 [Richard M. Murray]: http://www.cds.caltech.edu/~murray/
