@@ -1,10 +1,11 @@
 <style type='text/css'>
     img.robo {
-        border: solid 2px black; max-height: 30em; margin-bottom: 3em;
+        border: solid 2px black;
+        max-height: 30em;
+        margin-bottom: 3em;
     }
-    #nok08 {
-    }
-    #nok16 {
+    #nok08, #nok06 {
+        height: 30em !important; 
     }
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
@@ -68,7 +69,7 @@ Burgard</a> from behind).
 <h2>Highlights of 2014</h2>
 
 August 2014: Speakers at <a href="http://cds20.caltech.edu">CDS@20</a>.
-
+It's basically a bookshelf.
 
 <img class='robo' src='/media/14-cds20.jpg'/>
 
