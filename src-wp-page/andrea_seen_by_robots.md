@@ -56,7 +56,16 @@ Burgard from behind).
 
 <img class='robo' src='/media/15-rss-duckies.jpg'/>
 
-<h2>before 2015</h2>
+
+<h2>Highlights of 2014</h2>
+
+August 2014: Speakers at <a href="http://cds20.caltech.edu">CDS@20</a>.
+
+
+<img class='robo' src='/media/14-cds20.jpg'/>
+
+
+<h2>before 2014</h2>
 
 May 2013, Caltech: an intimate experience
 
