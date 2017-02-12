@@ -18,8 +18,8 @@
     #Alias /web.gif "/home/andrea/scm/andreaweb/src/media/web.gif"
 
     Alias /pub/1212-DVS-data "/mnt/1212-DVS-data/"
-    Alias /pub/ "/mnt/andreapub1/andrea-pub/"
-    Alias /pri/ "/mnt/andreapub1/andrea-pri/"
+    Alias /pub/ "/mnt/andreapub2/andrea-pub/"
+    Alias /pri/ "/mnt/andreapub2/andrea-pri/"
 
         <Directory /usr/share/wordpress>
             Options FollowSymLinks
