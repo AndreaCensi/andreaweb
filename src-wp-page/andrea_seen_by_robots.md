@@ -4,10 +4,10 @@
         max-height: 30em;
         margin-bottom: 3em;
     }
-    #nok08, #nok06 {
-        height: 15em;
-        max-height: none;
-        max-width: none;
+    #nok08, #nok16 {
+        /*height: 15em;*/
+        max-height: 100%;
+        /*max-width: none;*/
     }
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
