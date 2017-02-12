@@ -6,7 +6,9 @@
 <style type='text/css'>
   body { padding: 2em; margin: 0; background-color: white;}
   body P, body DL, body UL { max-width: 40em; }
+
 </style>
+
 
 <style type='text/css'>
   span.author-ac {
@@ -93,13 +95,36 @@ p#quicklinks a { font-weight: bold;}
 
 <p>I spend most of my time in Zürich 🇨🇭 and travel often to  Singapore 🇸🇬 and Cambridge, MA 🇺🇸.<br/>
     This is what I do:</p>
-<ul>
+
+    <style>
+
+    ul#special {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 2em;
+        text-indent: -2em;
+    }
+
+    ul#special li:before {
+        content: "►";
+        display: block;
+        float: left;
+        width: 2em;
+    }
+    ul#special li:nth-child(1):before { content: '👨‍🔬'; }
+    ul#special li:nth-child(2):before { content: '👨‍💼'; }
+    ul#special li:nth-child(3):before { content: '👨‍🏫'; }
+
+
+    </style>
+
+<ul id=special>
 <li>
     <img src='/media/ethz-logo.png'
         style='float: right; width: 11em; margin-right: -11em; '/>
 
 
-    <p>👨‍🔬 I am <em>Oberassistent</em> (untranslatable, approximately &ldquo;Senior Researcher&rdquo;) at
+    <p>I am <em>Oberassistent</em> (untranslatable, approximately &ldquo;Senior Researcher&rdquo;) at
     the <a href="http://www.idsc.ethz.ch/"><strong>Institute for Dynamics, Systems, and Control</strong></a>
     in Emilio Frazzoli's group at ETH Zürich.</p>
 
@@ -118,7 +143,7 @@ mobility-on-demand, system co-design. Feel free to contact me at <span class='em
     <img src='/media/nuTonomylogo.png'
     style='width: 7.5em; margin-right: -7.5em; margin-left: 2em; float:right; clear: right; margin-bottom: 1em'/>
 
-    <p>👨‍💼 I am the System Architect at <a href="http://nutonomy.com"><strong>nuTonomy</strong></a>.
+    <p>I am the System Architect at <a href="http://nutonomy.com"><strong>nuTonomy</strong></a>.
 
 <br/>
     We make self-driving cars 🚗.</p>
@@ -135,7 +160,7 @@ these opportunities.
     <img src='/media/duckietown.png'
     style='width: 5em; margin-right: -5em; float:right; margin-left: 2em;clear: right; margin-bottom: 1em'/>
 
-    <p>👨‍🏫 I am Chief Technology Officer of <a href="http://duckietown.mit.edu/"><strong>Duckietown</strong></a>,
+    <p>I am Chief Technology Officer of <a href="http://duckietown.mit.edu/"><strong>Duckietown</strong></a>,
         a robotics education and outreach effort.<br/>
 </p>
 
