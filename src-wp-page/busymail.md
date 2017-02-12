@@ -1,4 +1,4 @@
-[BusyMail][BusyMail] is a Python program that provides statistics about 
+[BusyMail][BusyMail] is a Python program that provides statistics about
 the user's email usage. It reads a given folder on an IMAP server (for me, the
 "starred" messages in GMail) and records which messages are present.
 See the [GitHub page][BusyMail] for more information.
@@ -24,18 +24,18 @@ img.plot { width: 100% !important;}
 
 Complete stress plot (number of starred messages):
 
-<a href="http://web.censi.org/~andrea/busyplot/stress_complete.png">
-  <img class='plot imageZoom' src='http://web.censi.org/~andrea/busyplot/stress_complete.png'>
+<a href="https://censi.science/~andrea/busyplot/stress_complete.png">
+  <img class='plot imageZoom' src='https://censi.science/~andrea/busyplot/stress_complete.png'>
 </a>
 
 Complete procrastination plot (<strong>mean</strong> message age):
 
-<a href="http://web.censi.org/~andrea/busyplot/meanage_complete.png">
-    <img  class='plot imageZoom'  src='http://web.censi.org/~andrea/busyplot/meanage_complete.png'>
+<a href="https://censi.science/~andrea/busyplot/meanage_complete.png">
+    <img  class='plot imageZoom'  src='https://censi.science/~andrea/busyplot/meanage_complete.png'>
 </a>
 
 Complete procrastination plot (<strong>median</strong>  message age):
 
-<a href="http://web.censi.org/~andrea/busyplot/procrastination_complete.png">
-    <img class='plot imageZoom' src='http://web.censi.org/~andrea/busyplot/procrastination_complete.png'>
+<a href="https://censi.science/~andrea/busyplot/procrastination_complete.png">
+    <img class='plot imageZoom' src='https://censi.science/~andrea/busyplot/procrastination_complete.png'>
 </a>
