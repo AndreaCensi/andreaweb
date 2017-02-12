@@ -24,14 +24,14 @@
 October 2016: hanging out with <a href="https://www.sites.google.com/site/tichakorn/">Nok the immortal</a>.
 
 <table id="immortal" cellspacing="0" cellpadding="0"><tr>
-    <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008
+    <td>Caltech, 2008<br/><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/>
     <br/>
     (<a href="https://engineering.jhu.edu/gayme/">Dennice Gayme</a>,
     <a href="http://www.cds.caltech.edu/~doyle/">John Doyle</a>, <br/>
     <a href="http://faculty.washington.edu/minster/">Sawyer Fuller</a> in the background)
 
     </td>
-    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>nuTonomy, 2016<br/>
+    <td>nuTonomy, 2016<br/><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>
     (self-driving car in the background)</td>
     </tr>
 </table>
