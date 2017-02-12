@@ -8,6 +8,7 @@
         /*min-height:100%;
         max-height:100%;*/
         height: 15em;
+        max-width: none;
     }
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
