@@ -2,12 +2,9 @@
     img.robo {
         border: solid 2px black; max-height: 30em; margin-bottom: 3em;
     }
-
     #nok08 {
-
     }
     #nok16 {
-
     }
     #immortal {
         text-align: center;
