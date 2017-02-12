@@ -1,4 +1,19 @@
 [
+    {"first": "Daniela", "family": "Rus",
+      "site":"http://danielarus.csail.mit.edu/"},
+      {"first": "John", "family": "Leonard",
+        "site":"https://marinerobotics.mit.edu/"},
+        {"first": "Jon", "family": "How",
+          "site":"http://www.mit.edu/~jhow/"},
+          {"first": "Sertac", "family": "Karaman",
+            "site":"http://karaman.mit.edu/"},
+            {"first": "Maria", "family": "Zuber",
+              "site":"https://eapsweb.mit.edu/people/zuber/"},
+              {"first": "Christopher", "family": "Carr",
+                "site":"http://web.mit.edu/chrisc/www/Home.html"},
+                {"first": "Domitilla", "family": "Del Vecchio",
+                  "site":"http://www.mit.edu/~ddv/"},
+
 {"first": "Stefano", "family": "Soatto",
   "site":"http://vision.ucla.edu/"},
 {"first": "Emilio", "family": "Frazzoli",
@@ -13,8 +28,8 @@
 {"first": "Tobi",
 "family": "Delbruck",
 "site": "http://www.ini.uzh.ch/~tobi"},
-{"first": "Luca",
-"family": "Carlone",
+{"first": "Luca---",
+"family": "Carlone---",
 "site": "http://lucacarlone.com"},
 {"first" : "Kostas",
     "family" : "Daniilidis",
@@ -32,30 +47,30 @@
     "family" : "Dickinson",
     "site" : "http://www.dickinson.caltech.edu/"
     },
-  {"first": "Paloma", 
-   "family": "de la Puente", 
+  {"first": "Paloma",
+   "family": "de la Puente",
    "site":"http://www.intelligentcontrol.es/paloma/"},
 
-  {"first": "Raj", 
-   "family": "Madhavan", 
+  {"first": "Raj",
+   "family": "Madhavan",
    "site":"http://www.isr.umd.edu/faculty/gateways/madhavan.htm"},
 
-  {"first": "Rolf", 
-   "family": "Lakaemper", 
+  {"first": "Rolf",
+   "family": "Lakaemper",
    "site":"http://knight.temple.edu/~lakaemper/"},
-  
-  {"first": "Afzal", 
-   "family": "Godil", 
+
+  {"first": "Afzal",
+   "family": "Godil",
    "site":"http://zing.ncsl.nist.gov/godil/"},
 
-  {"first": "Adam", 
-   "family": "Jacoff", 
-   "site":"http://www.nist.gov/el/isd/ms/jacoff.cfm"}, 
+  {"first": "Adam",
+   "family": "Jacoff",
+   "site":"http://www.nist.gov/el/isd/ms/jacoff.cfm"},
 
-  {"first": "Paloma", 
-   "family": "De La Puente", 
+  {"first": "Paloma",
+   "family": "De La Puente",
    "site":"http://www.intelligentcontrol.es/paloma/"},
-   
+
   {"first": "Andrew D.", "family": "Straw", "site": "http://strawlab.org"},
   {"first": "Shuo", "family": "Han", "site": "https://purl.org/hanshuo"},
   {"first": "Stefano", "family": "Carpin", "site": "http://robotics.ucmerced.edu/"},
@@ -75,7 +90,7 @@
        {"first": "Alessandro", "family": "Farinelli", "site":
 "http://www.dis.uniroma1.it/~farinell/",
        "face": "http://www.dis.uniroma1.it/~farinell/assets/images/farinelli.jpg"},
-      {"first": "Alessandro", 
+      {"first": "Alessandro",
         "family": "De Luca", "site":
 "http://www.dis.uniroma1.it/~deluca/",
        "face": "http://www.dis.uniroma1.it/~deluca/pers/ADL.jpg"},
