@@ -26,7 +26,7 @@ October 2016: hanging out with <a href="https://www.sites.google.com/site/tichak
     <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008
     <br/>
     (<a href="https://engineering.jhu.edu/gayme/">Dennice Gayme</a>,
-    <a href="http://www.cds.caltech.edu/~doyle/">John Doyle</a>,
+    <a href="http://www.cds.caltech.edu/~doyle/">John Doyle</a>, <br/>
     <a href="http://faculty.washington.edu/minster/">Sawyer Fuller</a> in the background)
 
     </td>
