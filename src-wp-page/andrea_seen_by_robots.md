@@ -6,8 +6,11 @@
     }
     #nok16 {
     }
-    #immortal {
+    #immortal td {
         text-align: center;
+    }
+    #immortal tr {
+        border: 0;
     }
 </style>
 
