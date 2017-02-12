@@ -41,7 +41,7 @@ August 2004, Barcelona, Spain: Sapienza University's <a href='http://www.robocup
 me, Luca Marchionni, <a href="http://www2.informatik.uni-freiburg.de/~grisetti/">Giorgio Grisetti</a>, Daniele Calisi, 
 <a href="http://www.dis.uniroma1.it/~iocchi/">Luca Iocchi</a>,
 Sharam Bahadori.)
-<img class='robo' src="http://censi.mit.edu/pub/university/images/robocup2004/robocup2004-spqr-album/img/1/2.jpg"/>
+<img class='robo' src="https://censi.science/pub/university/images/robocup2004/robocup2004-spqr-album/img/1/2.jpg"/>
 
 
 August 2000, Billund, Denmark: With a Lego R2-D2 in the original <a href='http://www.legoland.dk/en/'>Legoland</a>.

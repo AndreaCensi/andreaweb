@@ -115,15 +115,15 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://censi.mit.edu/pub/research/2015-icra-censi-codesign-slides.pdf">PDF (without videos)</a></li>
+            <a href="https://censi.science/pub/research/2015-icra-censi-codesign-slides.pdf">PDF (without videos)</a></li>
         </li>
         <!-- <li>
             <img class="slides-keynote" src='/media/keynote.gif'/>
-            <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20-%20Keynote%20master.key.zip">Keynote (with videos)</a>
+            <a href="https://censi.science/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20-%20Keynote%20master.key.zip">Keynote (with videos)</a>
         </li>
         <li>
              <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-             <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20PowerPoint).pptx">Automatically converted Powerpoint version with weird formatting</a>
+             <a href="https://censi.science/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20PowerPoint).pptx">Automatically converted Powerpoint version with weird formatting</a>
         </li>             -->
     </ul>
 </div>
@@ -159,7 +159,7 @@ formatting is way off. -->
 
 <div class='cover'>
     <img class='cover' 
-         src='http://censi.mit.edu/pub/research/201408-CDS20/cover.png'/>
+         src='https://censi.science/pub/research/201408-CDS20/cover.png'/>
 </div>
 
 <div class='talk'>
@@ -170,15 +170,15 @@ formatting is way off. -->
     <ul>
         <li>
             <img class="slides-pdf" src='/media/pdf.gif'/>
-            <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20pdf,%20with%20animations).pdf">PDF (without videos)</a></li>
+            <a href="https://censi.science/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20pdf,%20with%20animations).pdf">PDF (without videos)</a></li>
         </li>
         <li>
             <img class="slides-keynote" src='/media/keynote.gif'/>
-            <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20-%20Keynote%20master.key.zip">Keynote (with videos)</a>
+            <a href="https://censi.science/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20-%20Keynote%20master.key.zip">Keynote (with videos)</a>
         </li>
         <li>
              <img class="slides-ppt" src='/media/slides-ppt.gif'/>
-             <a href="http://censi.mit.edu/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20PowerPoint).pptx">Automatically converted Powerpoint version with weird formatting</a>
+             <a href="https://censi.science/pub/research/201408-CDS20/20%20Years%20of%20Vehicles%20(converted%20to%20PowerPoint).pptx">Automatically converted Powerpoint version with weird formatting</a>
         </li>            
     </ul>
 </div>
