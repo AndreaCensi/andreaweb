@@ -6,6 +6,7 @@
     }
     #nok16 {
     }
+    #immortal img {margin-bottom: 0.2em;}
     #immortal td {
         text-align: center;
     }
