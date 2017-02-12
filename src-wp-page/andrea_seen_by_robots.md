@@ -1,15 +1,17 @@
 <style type='text/css'>
-img.robo { border: solid 2px black; max-height: 30em; margin-bottom: 3em;}
+    img.robo {
+        border: solid 2px black; max-height: 30em; margin-bottom: 3em;
+    }
 
-#nok08 {
+    #nok08 {
 
-}
-#nok16 {
+    }
+    #nok16 {
 
-}
-#immortal {
-    text-align: center;
-}
+    }
+    #immortal {
+        text-align: center;
+    }
 </style>
 
 <h2>Highlights of 2016</h2>
