@@ -19,12 +19,8 @@
 October 2016: hanging out with an immortal.
 
 <table id="immortal" cellspacing="0" cellpadding="0"><tr>
-    <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/></td>
-    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/></td>
-    </tr>
-    <tr>
-    <td>Caltech, 2008</td>
-    <td>nuTonomy, 2016</td>
+    <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008</td>
+    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>nuTonomy, 2016</td>
     </tr>
 </table>
 
