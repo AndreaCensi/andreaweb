@@ -38,6 +38,6 @@ linkAttrs:
 <img src="/media/paper-icons/censi07achievable-big.png"/>
 
 
-[pdf]: https://purl.org/censi/research/2007-icra-accuracy-draft.pdf
-[pdf-final]:  https://purl.org/censi/research/2007-icra-accuracy.pdf
-[slides]:  https://purl.org/censi/research/2007-icra-accuracy-slides.pdf
+[pdf]: https://censi.science/pub/research/2007-icra-accuracy-draft.pdf
+[pdf-final]:  https://censi.science/pub/research/2007-icra-accuracy.pdf
+[slides]:  https://censi.science/pub/research/2007-icra-accuracy-slides.pdf

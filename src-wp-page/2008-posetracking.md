@@ -30,4 +30,4 @@ verification is done for the particular case of pose
 tracking using range-finders (scan matching).
 
 
-<!-- [pdf]: https://purl.org/censi/research/2009-icra-posetracking.pdf -->
+<!-- [pdf]: https://censi.science/pub/research/2009-icra-posetracking.pdf -->

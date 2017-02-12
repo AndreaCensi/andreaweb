@@ -28,5 +28,5 @@ a Matlab implementation (which was used for the experiments in the paper), but t
 **Reviewer 1:** The presentation of all relevant symbols in Table I was useful.  
 **Reviewer 2:** Table I is never referenced in the text, and does not help to understand the paper.
 
-[pdf-final]: https://purl.org/censi/research/2007-icra-icpcov.pdf
-[slides-final]: https://purl.org/censi/research/2007-icra-icpcov-slides.pdf
+[pdf-final]: https://censi.science/pub/research/2007-icra-icpcov.pdf
+[slides-final]: https://censi.science/pub/research/2007-icra-icpcov-slides.pdf

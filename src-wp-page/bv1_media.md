@@ -1,6 +1,6 @@
 ### Media
 [video-calib]: https://purl.org/censi/2012/camera_calibration#media
-[video-real]: https://purl.org/censi/research/2011-bgds/#sensels
+[video-real]: https://censi.science/pub/research/2011-bgds/#sensels
 [video-sim]: videos-vehicles
 
 
@@ -38,9 +38,9 @@
     </p>
     <div class="frame">
     <div data-ratio='0.552' class="flowplayer is-splash color-light"
-        style="background: #000 url('https://purl.org/censi/research/2012-bv1bds1/videos/splash/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.png') 0 0 no-repeat; background-size: 100%;">
+        style="background: #000 url('https://censi.science/pub/research/2012-bv1bds1/videos/splash/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.png') 0 0 no-repeat; background-size: 100%;">
         <video preload="none" 
-               src="https://purl.org/censi/research/2012-bv1bds1/videos/bv1servo1/videos/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.mp4">
+               src="https://censi.science/pub/research/2012-bv1bds1/videos/bv1servo1/videos/Se0Vdd1ro-bdse3-ep_servonav_bdse3_00000-mp4f2sr.mp4">
         </video>
     </div>
     </div>
@@ -56,14 +56,14 @@
     <div class="frame">
 <!--       1564x494 
  -->    <div data-ratio='0.315' class="flowplayer is-splash color-light"
-        style="background: #000 url('https://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4.realsize.png') 0 0 no-repeat; background-size: 100%;">
+        style="background: #000 url('https://censi.science/pub/research/2011-bgds/videos/sickpca_tensors.mp4.realsize.png') 0 0 no-repeat; background-size: 100%;">
         <video preload="none" 
-               src="https://purl.org/censi/research/2011-bgds/videos/sickpca_tensors.mp4">
+               src="https://censi.science/pub/research/2011-bgds/videos/sickpca_tensors.mp4">
         </video>
     </div>
     </div>
       <p class="other">
-      <a href="https://purl.org/censi/research/2011-bgds/#sensels">other videos <br/>for Chapter 14+</a>
+      <a href="https://censi.science/pub/research/2011-bgds/#sensels">other videos <br/>for Chapter 14+</a>
     </p>
 </div>
 </div>

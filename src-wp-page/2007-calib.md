@@ -41,15 +41,15 @@ The software and sensor logs is available for download:
 
 [Oriolo]: http://www.dis.uniroma1.it/~labrob/people/oriolo/oriolo.html
 
-[08icra-calib-draft]: https://purl.org/censi/research/2008-icra-calibration-draft.pdf
-[08icra-calib-final]: https://purl.org/censi/research/2008-icra-calibration.pdf
-[video-mpg]: https://purl.org/censi/research/2008-icra-calibration-video.mpg
-[video-divx]: https://purl.org/censi/research/2008-icra-calibration-video.divx
+[08icra-calib-draft]: https://censi.science/pub/research/2008-icra-calibration-draft.pdf
+[08icra-calib-final]: https://censi.science/pub/research/2008-icra-calibration.pdf
+[video-mpg]: https://censi.science/pub/research/2008-icra-calibration-video.mpg
+[video-divx]: https://censi.science/pub/research/2008-icra-calibration-video.divx
 
-[readme]: https://purl.org/censi/research/2008-icra-calibration/
-[logs]: https://purl.org/censi/research/2008-icra-calibration/logs/
-[logs_zip]: https://purl.org/censi/research/2008-icra-calibration/logs.zip
-[matlab]: https://purl.org/censi/research/2008-icra-calibration/matlab/
-[matlab_zip]: https://purl.org/censi/research/2008-icra-calibration/matlab.zip
+[readme]: https://censi.science/pub/research/2008-icra-calibration/
+[logs]: https://censi.science/pub/research/2008-icra-calibration/logs/
+[logs_zip]: https://censi.science/pub/research/2008-icra-calibration/logs.zip
+[matlab]: https://censi.science/pub/research/2008-icra-calibration/matlab/
+[matlab_zip]: https://censi.science/pub/research/2008-icra-calibration/matlab.zip
 
 <!-- [^1]: Unfortunately the MPEG video does not work in QuickTime; while other players, such as VLC, MPlayer, Windows Media Player, should be OK. -->
