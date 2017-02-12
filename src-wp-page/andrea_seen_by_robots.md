@@ -12,6 +12,7 @@
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
         text-align: center;
+        width: 50%;
     }
     #immortal tr {
         border: 0;
