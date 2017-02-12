@@ -20,9 +20,15 @@
 October 2016: hanging out with <a href="https://www.sites.google.com/site/tichakorn/">Nok the immortal</a>.
 
 <table id="immortal" cellspacing="0" cellpadding="0"><tr>
-    <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008</td>
-    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>nuTonomy, 2016
-    (self-driving car in the back)</td>
+    <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008
+    <br/>
+    (<a href="http://www.cds.caltech.edu/~doyle/">John Doyle</a>,
+    <a href="https://engineering.jhu.edu/gayme/">Dennice Gayme</a>,
+    <a href="http://faculty.washington.edu/minster/">Sawyer Fuller</a> in the background)
+
+    </td>
+    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>nuTonomy, 2016<br/>
+    (self-driving car in the background)</td>
     </tr>
 </table>
 
@@ -40,7 +46,7 @@ Feburary 2016: the first lecture of my life.
 
 <h2>Highlights of 2015</h2>
 
-December 2015: the elves building [Duckietown](http://duckietown.mit.edu).
+December 2015: the elves building [Duckietown](http://duckietown.mit.edu). (<a href="https://vimeo.com/149916365/">video!</a>)
 
 <img class='robo' src='/media/15-duckietown.jpg'/>
 
@@ -52,8 +58,9 @@ August 2015, Taipei: hanging out with Rod
 
 <img class='robo' src='/media/15-rod.jpg'/>
 
-August 2015, at RSS: distributing more duckies (with Luca Carlone, John Leonard, Liam Paull, and surprise Wolfram
-Burgard from behind).
+August 2015, at RSS: distributing more duckies (with Luca Carlone, John Leonard, Liam Paull, and
+<a href="http://www2.informatik.uni-freiburg.de/~burgard/">surprise Wolfram
+Burgard</a> from behind).
 
 <img class='robo' src='/media/15-rss-duckies.jpg'/>
 
