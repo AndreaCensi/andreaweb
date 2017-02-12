@@ -160,7 +160,7 @@ Please contact the team at <span class='email'>duckietown@mit.edu</span> for oth
 
 <div id="newdesc-whatsnew">
     <h3>What's new</h3>
-    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-note.html'); ?>
+    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-whatsnew.html'); ?>
 </div>
 
 <div id='travel'>
@@ -326,13 +326,16 @@ the problems that are 20 years down the line.
 <script type='text/javascript'>
 $(document).ready(function() {
 
-    var container = document.querySelector('#fluid_short_news');
-    var msnry = new Masonry( container, {
-      // options
-      // columnWidth: 200,
-      itemSelector: '.shortpost',
-      gutter: 10,
-    });
+    if (false ) {
+        var container = document.querySelector('#fluid_short_news');
+
+        var msnry = new Masonry( container, {
+          // options
+          // columnWidth: 200,
+          itemSelector: '.shortpost',
+          gutter: 10,
+        });
+    }
 
     containers = document.querySelectorAll('.video-gallery-int');
     for(var i = 0; i < containers.length; ++i) {
