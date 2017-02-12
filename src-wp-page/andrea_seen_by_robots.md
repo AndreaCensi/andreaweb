@@ -6,6 +6,7 @@
     }
     #nok08, #nok06 {
         min-height:100%;
+        max-height:100%;
     }
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
