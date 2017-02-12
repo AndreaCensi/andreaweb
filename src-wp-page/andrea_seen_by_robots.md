@@ -1,10 +1,26 @@
 <style type='text/css'>
 img.robo { border: solid 2px black; max-height: 30em; margin-bottom: 3em;}
+
+#nok08 {
+
+}
+#nok16 {
+    
+}
 </style>
 
 <h2>Highlights of 2016</h2>
 
-April 2016: demo day.
+October 2016: hanging out with an immortal.
+
+<table><tr>
+<td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/></td>
+<td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/></td>
+</tr>
+</table>
+
+
+April 2016: the big Duckietown demo.
 
 <img class='robo' src='/media/16-duckietown-end.jpg'/>
 
