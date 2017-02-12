@@ -5,7 +5,7 @@
         margin-bottom: 3em;
     }
     #nok08, #nok06 {
-        height: 30em;
+        max-height: 20em;
     }
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
