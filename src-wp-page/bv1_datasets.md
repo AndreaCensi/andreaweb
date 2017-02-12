@@ -7,8 +7,8 @@
 - Chapter 15: See [here](https://purl.org/censi/2011/diffeo).
 - The rest is coming...
 
-[bv1bds1]: https://purl.org/censi/research/2012-bv1bds1/
+[bv1bds1]: https://censi.science/pub/research/2012-bv1bds1/
 [camera-logs]: https://purl.org/censi/2012/camera_calibration/
 [rawseeds]: http://rawseeds.org
 
-[results]: https://purl.org/censi/research/2012-bv1bds1/processed/
+[results]: https://censi.science/pub/research/2012-bv1bds1/processed/

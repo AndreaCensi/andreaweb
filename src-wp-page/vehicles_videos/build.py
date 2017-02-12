@@ -5,7 +5,7 @@ def main(args):
     directory = args[0]
     output = args[1]
     base_dir = '/mnt/1211-bv1bds1'
-    base_url = 'https://purl.org/censi/research/2012-bv1bds1'
+    base_url = 'https://censi.science/pub/research/2012-bv1bds1'
     base_splash = '/mnt/1211-bv1bds1/videos/splash'
 
     records = load_records(directory, base_dir=base_dir, base_url=base_url, base_splash=base_splash)

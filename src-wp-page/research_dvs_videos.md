@@ -21,9 +21,9 @@ are 4 blinking LEDs near the rotors as well.
 This is the data rendered in real time (1 frame = 1/30 seconds).
 
 <div class="flowplayer" data-ratio="0.38">
-   <video src="https://purl.org/censi/research/2012-aer/l11.aedat-0.03.mp4"></video>
+   <video src="https://censi.science/pub/research/2012-aer/l11.aedat-0.03.mp4"></video>
 </div>
-<a href="https://purl.org/censi/research/2012-aer/l11.aedat-0.03.mp4">Download mp4</a>
+<a href="https://censi.science/pub/research/2012-aer/l11.aedat-0.03.mp4">Download mp4</a>
 
 ## 1 frame = 1 millisecond
 
@@ -32,15 +32,15 @@ arrived in 1 millisecond. Note that we can distinguish the rotations
 of the rotors.
 
 <div class="flowplayer" data-ratio="0.38">
-   <video src="https://purl.org/censi/research/2012-aer/l11.aedat-0.001.mp4"></video>
+   <video src="https://censi.science/pub/research/2012-aer/l11.aedat-0.001.mp4"></video>
 </div>
-<a href="https://purl.org/censi/research/2012-aer/l11.aedat-0.001.mp4">Download mp4</a>
+<a href="https://censi.science/pub/research/2012-aer/l11.aedat-0.001.mp4">Download mp4</a>
 
 ## 1 frame = 0.05 milliseconds
 
 As the histogram interval gets smaller, fewer and fewer events are plotted.
 
 <div class="flowplayer" data-ratio="0.38">
-   <video src="https://purl.org/censi/research/2012-aer/l11.aedat-5e-05.mp4-active.mp4"></video>
+   <video src="https://censi.science/pub/research/2012-aer/l11.aedat-5e-05.mp4-active.mp4"></video>
 </div>
-<a href="https://purl.org/censi/research/2012-aer/l11.aedat-5e-05.mp4-active.mp4">Download mp4</a>
+<a href="https://censi.science/pub/research/2012-aer/l11.aedat-5e-05.mp4-active.mp4">Download mp4</a>

@@ -29,12 +29,12 @@ desired. Bounds on these quantities involve the spectral
 properties of the graph and can be proved by employing
 elementary techniques of LTI systems analysis.
 <!-- 
-![graphs](https://purl.org/censi/research/2009-acc-consensus/consensus.png)
+![graphs](https://censi.science/pub/research/2009-acc-consensus/consensus.png)
  -->
 
-[pdf]: https://purl.org/censi/research/2009-acc-consensus.pdf 
+[pdf]: https://censi.science/pub/research/2009-acc-consensus.pdf 
 
-[zip]: https://purl.org/censi/research/2009-acc-consensus.zip
-[browse]: https://purl.org/censi/research/2009-acc-consensus/
+[zip]: https://censi.science/pub/research/2009-acc-consensus.zip
+[browse]: https://censi.science/pub/research/2009-acc-consensus/
 
 [Richard M. Murray]: http://www.cds.caltech.edu/~murray/
