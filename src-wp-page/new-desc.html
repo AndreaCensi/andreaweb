@@ -101,15 +101,19 @@ p#quicklinks a { font-weight: bold;}
     ul#special {
         list-style: none;
         margin-left: 0;
-        padding-left: 2em;
-        text-indent: -2em;
+        /*padding-left: 2em;*/
+        /*text-indent: -2em;*/
     }
 
+    ul#special li {
+        /*padding-left: 2em;*/
+    }
     ul#special li:before {
         content: "►";
         display: block;
         float: left;
-        width: 2em;
+        margin-left: -2em;
+        font-size: 150%;
     }
     ul#special li:nth-child(1):before { content: '👨‍🔬'; }
     ul#special li:nth-child(2):before { content: '👨‍💼'; }
