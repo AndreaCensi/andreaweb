@@ -5,7 +5,7 @@
         margin-bottom: 3em;
     }
     #nok08, #nok06 {
-        height: 30em !important; 
+        height: 30em;
     }
     #immortal img {margin-bottom: 0.2em;}
     #immortal td {
@@ -23,8 +23,8 @@ October 2016: hanging out with <a href="https://www.sites.google.com/site/tichak
 <table id="immortal" cellspacing="0" cellpadding="0"><tr>
     <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008
     <br/>
-    (<a href="http://www.cds.caltech.edu/~doyle/">John Doyle</a>,
-    <a href="https://engineering.jhu.edu/gayme/">Dennice Gayme</a>,
+    (<a href="https://engineering.jhu.edu/gayme/">Dennice Gayme</a>,
+    <a href="http://www.cds.caltech.edu/~doyle/">John Doyle</a>,
     <a href="http://faculty.washington.edu/minster/">Sawyer Fuller</a> in the background)
 
     </td>
