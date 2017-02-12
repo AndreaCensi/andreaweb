@@ -17,11 +17,12 @@
 
 <h2>Highlights of 2016</h2>
 
-October 2016: hanging out with an immortal.
+October 2016: hanging out with <a href="https://www.sites.google.com/site/tichakorn/">Nok the immortal</a>.
 
 <table id="immortal" cellspacing="0" cellpadding="0"><tr>
     <td><img id="nok08" class='robo' src='/media/08-nok-andrea.jpg'/><br/>Caltech, 2008</td>
-    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>nuTonomy, 2016</td>
+    <td><img id="nok16" class='robo' src='/media/16-nok-andrea.jpg'/><br/>nuTonomy, 2016
+    (self-driving car in the back)</td>
     </tr>
 </table>
 
@@ -82,7 +83,7 @@ in a sub-basement lab.
 
 
 August 2004, Barcelona, Spain: Sapienza University's <a href='http://www.robocuprescue.org/'>Robocup Rescue</a> team. (Left to right:
-me, Luca Marchionni, <a href="http://www2.informatik.uni-freiburg.de/~grisetti/">Giorgio Grisetti</a>, Daniele Calisi,
+me, <a href="https://www.linkedin.com/in/lucamarchionni/">Luca Marchionni</a>, <a href="http://www2.informatik.uni-freiburg.de/~grisetti/">Giorgio Grisetti</a>, <a href="https://www.linkedin.com/in/danielecalisi/">Daniele Calisi</a>,
 <a href="http://www.dis.uniroma1.it/~iocchi/">Luca Iocchi</a>,
 Sharam Bahadori.)
 <img class='robo' src="https://censi.science/pub/university/images/robocup2004/robocup2004-spqr-album/img/1/2.jpg"/>
