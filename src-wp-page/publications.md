@@ -48,7 +48,8 @@ Please feel free to ask for a PDF if it is not linked here.
 
 #### Conference papers 
 
-[pub_ref_desc id='censi15monotone']
+(A few recent ones missing...)
+
 [pub_ref_desc id='censi15same']
 
 [pub_ref_desc id='censi15neucontrol_sub']
