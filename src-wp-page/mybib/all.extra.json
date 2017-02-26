@@ -152,7 +152,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A class of co-design problems with cyclic constraints and their solution.</span>\n<em>IEEE Robotics and Automation Letters</em>, 2(1):96&ndash;103, Jan 2016.\n<span class=\"note\">Superseded by preprint ``A Mathematical Theory of Co-Design''.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/LRA.2016.2535127\">doi</a></span></span>", 
   "bibtex": "@article{censi15monotone,\n    author = \"Censi, Andrea\",\n    note = \"Superseded by preprint ``A Mathematical Theory of Co-Design''.\",\n    doi = \"10.1109/LRA.2016.2535127\",\n    nourl = \"https://co-design.science/\",\n    title = \"A Class of Co-Design Problems With Cyclic Constraints and Their Solution\",\n    journal = \"IEEE Robotics and Automation Letters\",\n    issn = \"2377-3766\",\n    number = \"1\",\n    month = \"Jan\",\n    volume = \"2\",\n    year = \"2016\",\n    keywords = \"Batteries;Extraterrestrial measurements;Payloads;Robot sensing systems;Foundations of Automation;Optimization and Optimal Control\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\",\n    pages = \"96-103\"\n}\n\n", 
-  "order": 55
+  "order": 56
  }, 
  "carpin09hsm3d": {
   "fields": {
@@ -361,11 +361,33 @@
   "bibtex": "@inproceedings{mueller16lowlatency,\n    author = \"Mueller, E. and Censi, A. and Frazzoli, E.\",\n    doi = \"10.1109/CDC.2015.7402002\",\n    title = \"Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference\",\n    booktitle = \"IEEE Conference on Decision and Control (CDC)\",\n    month = \"Dec\",\n    year = \"2015\",\n    keywords = \"closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics\",\n    pages = \"992-999\"\n}\n\n", 
   "order": 42
  }, 
+ "censi16codesign_sep16": {
+  "fields": {
+   "title": "A Mathematical Theory of Co-Design", 
+   "url": "http://arxiv.org/abs/1512.08055", 
+   "journal": "CoRR", 
+   "author": [
+    {
+     "last": "Censi", 
+     "first": "Andrea"
+    }
+   ], 
+   "descicon": "https://censi.science/media/paper-icons/censi16codesign_sep16.png", 
+   "volume": "abs/1512.08055", 
+   "year": "2015", 
+   "pdf": "https://arxiv.org/pdf/1512.08055v4", 
+   "type": "article", 
+   "nourl": "https://co-design.science/"
+  }, 
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\n<em>CoRR</em>, 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055v4\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi16codesign_sep16,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"http://arxiv.org/abs/1512.08055\",\n    journal = \"CoRR\",\n    volume = \"abs/1512.08055\",\n    year = \"2015\",\n    pdf = \"https://arxiv.org/pdf/1512.08055v4\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
+  "order": 53
+ }, 
  "censi15same": {
   "fields": {
    "doi": "10.1109/ACC.2016.7525085", 
    "title": "Monotone Co-Design Problems; or, everything is the same", 
-   "booktitle": "", 
+   "booktitle": "Proceedings of the American Control Conference (ACC)", 
    "author": [
     {
      "last": "Censi", 
@@ -380,9 +402,9 @@
    "nourl": "https://co-design.science/", 
    "desc": "Superseded by preprint ``A Mathematical Theory of Co-Design''. "
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Monotone co-design problems; or, everything is the same.</span>\n<span class=\"booktitle\">In 2016.</span>\n<span class=\"note\">Superseded by preprint ``A Mathematical Theory of Co-Design''.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ACC.2016.7525085\">doi</a></span></span>", 
-  "bibtex": "@inproceedings{censi15same,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/ACC.2016.7525085\",\n    title = \"Monotone Co-Design Problems; or, everything is the same\",\n    booktitle = \"\",\n    note = \"Superseded by preprint ``A Mathematical Theory of Co-Design''.\",\n    year = \"2016\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
-  "order": 56
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Monotone co-design problems; or, everything is the same.</span>\n<span class=\"booktitle\">In <em>Proceedings of the American Control Conference (ACC)</em>. 2016.</span>\n<span class=\"note\">Superseded by preprint ``A Mathematical Theory of Co-Design''.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ACC.2016.7525085\">doi</a></span></span>", 
+  "bibtex": "@inproceedings{censi15same,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/ACC.2016.7525085\",\n    title = \"Monotone Co-Design Problems; or, everything is the same\",\n    booktitle = \"Proceedings of the American Control Conference (ACC)\",\n    note = \"Superseded by preprint ``A Mathematical Theory of Co-Design''.\",\n    year = \"2016\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
+  "order": 57
  }, 
  "censi06scan": {
   "fields": {
@@ -522,7 +544,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\nTechnical Report, Laboratory for Information and Decision Systems, MIT, September 2016.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"https://arxiv.org/abs/1512.08055\",\n    month = \"September\",\n    year = \"2016\",\n    pdf = \"https://arxiv.org/pdf/1512.08055\",\n    institution = \"Laboratory for Information and Decision Systems, MIT\"\n}\n\n", 
-  "order": 51
+  "order": 52
  }, 
  "censi11kf": {
   "fields": {
@@ -564,7 +586,7 @@
   }, 
   "html_short": "<span class=\"author-ac\">Andrea Censi</span>.\nHandling uncertainty in monotone co-design problems.\nExtended version on Arxiv with supplementary materials.", 
   "bibtex": "@misc{mcdp_icra_uncertainty_extended,\n    author = \"Censi, Andrea\",\n    note = \"Extended version on Arxiv with supplementary materials\",\n    url = \"http://tiny.cc/mcdp_uncertainty_extended\",\n    journal = \"coRR\",\n    title = \"Handling Uncertainty in Monotone Co-Design Problems\"\n}\n\n", 
-  "order": 54
+  "order": 55
  }, 
  "censi08fts": {
   "fields": {
@@ -1340,27 +1362,48 @@
   "bibtex": "@inproceedings{censi07accurate,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/ROBOT.2007.363961\",\n    title = \"An accurate closed-form estimate of {ICP}'s covariance\",\n    url = \"http://purl.org/censi/2006/icpcov\",\n    year = \"2007\",\n    booktitle = \"Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA})\",\n    issn = \"1050-4729\",\n    month = \"April\",\n    slides = \"http://purl.org/censi/research/2007-icra-icpcov-slides.pdf\",\n    pages = \"3167--3172\",\n    address = \"Rome, Italy\",\n    pdf = \"http://purl.org/censi/research/2007-icra-icpcov.pdf\",\n    abstract = \"Existing methods for estimating the covariance of the ICP (Iterative Closest/Corresponding Point) algorithm are either inaccurate or are computationally too expensive to be used online. This paper proposes a new method, based on the analysis of the error function being minimized. It considers that the correspondences are not independent (the same measurement being used in more than one correspondence), and explicitly utilizes the covariance matrix of the measurements, which are not assumed to be independent either. The validity of the approach is verified through extensive simulations: it is more accurate than previous methods and its computational load is negligible. The ill-posedness of the surface matching problem is explicitly tackled for under-constrained situations by performing an observability analysis; in the analyzed cases the method still provides a good estimate of the error projected on the observable manifold.\"\n}\n\n", 
   "order": 20
  }, 
- "censi16codesign_sep16": {
+ "scrapper09quantitative": {
   "fields": {
-   "title": "A Mathematical Theory of Co-Design", 
-   "url": "http://arxiv.org/abs/1512.08055", 
-   "journal": "CoRR", 
+   "publisher": "Springer US", 
+   "title": "Quantitative assessment of robot-generated maps", 
+   "booktitle": "Performance evaluation and benchmarking of intelligent systems", 
    "author": [
     {
+     "last": "Scrapper", 
+     "first": "Chris"
+    }, 
+    {
+     "last": "Madhavan", 
+     "first": "Raj"
+    }, 
+    {
+     "last": "Lakaemper", 
+     "first": "Rolf"
+    }, 
+    {
      "last": "Censi", 
-     "first": "Andrea"
+     "first": "A"
+    }, 
+    {
+     "last": "Godil", 
+     "first": "A"
+    }, 
+    {
+     "last": "Wagan", 
+     "first": "A"
+    }, 
+    {
+     "last": "Jacoff", 
+     "first": "A"
     }
    ], 
-   "descicon": "https://censi.science/media/paper-icons/censi16codesign_sep16.png", 
-   "volume": "abs/1512.08055", 
-   "year": "2015", 
-   "pdf": "https://arxiv.org/pdf/1512.08055v4", 
-   "type": "article", 
-   "nourl": "https://co-design.science/"
+   "year": "2009", 
+   "type": "incollection", 
+   "pages": "221--248"
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\n<em>CoRR</em>, 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055v4\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi16codesign_sep16,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"http://arxiv.org/abs/1512.08055\",\n    journal = \"CoRR\",\n    volume = \"abs/1512.08055\",\n    year = \"2015\",\n    pdf = \"https://arxiv.org/pdf/1512.08055v4\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
-  "order": 52
+  "html_short": "Chris Scrapper, <a href='http://www.isr.umd.edu/faculty/gateways/madhavan.htm'>Raj Madhavan</a>, <a href='http://knight.temple.edu/~lakaemper/'>Rolf Lakaemper</a>, A Censi, <a href='http://zing.ncsl.nist.gov/godil/'>A Godil</a>, A Wagan, and <a href='http://www.nist.gov/el/isd/ms/jacoff.cfm'>A Jacoff</a>.\nQuantitative assessment of robot-generated maps.\nIn <em>Performance evaluation and benchmarking of intelligent systems</em>, pages 221&ndash;248.\nSpringer US, 2009.", 
+  "bibtex": "@incollection{scrapper09quantitative,\n    author = \"Scrapper, Chris and Madhavan, Raj and Lakaemper, Rolf and Censi, A and Godil, A and Wagan, A and Jacoff, A\",\n    publisher = \"Springer US\",\n    booktitle = \"Performance evaluation and benchmarking of intelligent systems\",\n    title = \"Quantitative assessment of robot-generated maps\",\n    pages = \"221--248\",\n    year = \"2009\"\n}\n\n", 
+  "order": 51
  }, 
  "censi09attitude": {
   "fields": {
@@ -1768,7 +1811,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Uncertainty in monotone co-design problems.</span>\n<em>IEEE Robotics and Automation Letters</em>, February 2017.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1609.03103\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1609.03103\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@article{censi17uncertainty,\n    author = \"Censi, Andrea\",\n    title = \"Uncertainty in Monotone Co-Design Problems\",\n    url = \"https://arxiv.org/abs/1609.03103\",\n    journal = \"IEEE Robotics and Automation Letters\",\n    month = \"February\",\n    year = \"2017\",\n    pdf = \"https://arxiv.org/pdf/1609.03103\"\n}\n\n", 
-  "order": 53
+  "order": 54
  }, 
  "censi13dvsd_sub": {
   "fields": {
