@@ -25,11 +25,10 @@ Please feel free to ask for a PDF if it is not linked here.
 
 
 [pub_ref_desc id='censi16codesign']
-[pub_ref_desc id='censi17uncertainty']
-[pub_ref_desc id='paull17duckietown']
-[pub_ref_desc id='tani16duckietown']
 
 #### Journal papers
+
+[pub_ref_desc id='censi17uncertainty']
 
 [pub_ref_desc id='censi13jbds_sub']
 [pub_ref_desc id='fuller14controlling']
@@ -48,9 +47,13 @@ Please feel free to ask for a PDF if it is not linked here.
 
 #### Conference papers 
 
-(A few recent ones missing...)
+[pub_ref_desc id='paull17duckietown']
+[pub_ref_desc id='tani16duckietown']
 
 [pub_ref_desc id='censi15same']
+[pub_ref_desc id='mueller16efficient']
+[pub_ref_desc id='mueller16lowlatency']
+[pub_ref_desc id='singh16stabilization']
 
 [pub_ref_desc id='censi15neucontrol_sub']
 [pub_ref_desc id='censi15powerperf_sub']
@@ -99,13 +102,14 @@ Please feel free to ask for a PDF if it is not linked here.
 
 
 #### Unrefereed papers 
-
+<!--
 [pub_ref_desc id='censi15compmake_sub']
 [pub_ref_desc      id='scrapper09']
 [pub_ref_desc id='censi06comparison']
+-->
+
 [pub_ref_desc id='BaCa04']
 
 
-Layout shamelessly copied from [Cyrill][cyrill].
+<!--Layout shamelessly copied from [Cyrill][cyrill].-->
  
-[mathjax] 

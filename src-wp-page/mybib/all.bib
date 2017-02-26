@@ -76,6 +76,7 @@
   Abstract                 = {Diffeomorphisms dynamical systems are dynamical systems where the state is an image and each commands induce a diffeomorphism of the state. These systems can approximate the dynamics of robotic sensorimotor cascades well enough to be used for problems such as planning in observations space. Learning of an arbitrary diffeomorphism from pairs of images is a high dimensional learning problem. This paper describes two improvements to the methods presented in previous work. The previous method had required O(ρ⁴) memory as a function of the desired resolution ρ, which, in practice, was the main limitation to the resolution of the diffeomorphisms that could be learned. This paper describes an algorithm based on recursive refinement that lowers the memory requirement to O(ρ²) memory and O(ρ² log(ρ)) computation. Another improvement regards the estimation the diffeomorphism uncertainty, which is used to represent the sensor's limited field of view; the improved method obtains a more accurate estimation of the uncertainty by checking the consistency of a learned diffeomorphism and its independently learned inverse. The methods are tested on two robotic systems (a pan-tilt camera and a 5-DOF manipulator). },
   Address                  = {Tokyo, Japan},
   Desc                     = { },
+  doi = {10.1109/IROS.2013.6696504},
   Descicon                 = {https://censi.science/media/paper-icons/nilsson13rddl.png},
   Pdf                      = {http://purl.org/censi/research/2013-diff-rlearn-sub.pdf}
 }
@@ -1049,136 +1050,40 @@ for saccade initiation in freely flying {\em Drosophila}},
 }
 
 
-@article{censi17uncertainty,
-  Title                    = {Uncertainty in Monotone Co-Design Problems},
-  Author                   = {Andrea Censi},
-  journal   = {Robotics and Automation Letters},
-  year      = {2017},
-  url = {https://arxiv.org/abs/1609.03103},
-  pdf = {https://arxiv.org/pdf/1609.03103},
-  Desc                     = {This paper concerns the introduction of uncertainty in the MCDP framework. Uncertainty has two roles: first, it allows to deal with limited knowledge in the models; second, it also can be used to generate consistent relaxations of a problem, as the computation requirements can be lowered should the user accept some uncertainty in the answer. },
-  Descicon                 = {https://censi.science/media/paper-icons/censi17uncertainty.png},
-  Institution = {Laboratory for Information and Decision Systems, MIT}
+
+@inproceedings{singh16stabilization,
+  title={Stabilization of linear continuous-time systems using neuromorphic vision sensors},
+  author={Singh, Prince and Yong, Sze Zheng and Gregoire, Jean and Censi, Andrea and Frazzoli, Emilio},
+  booktitle={IEEE Conference on Decision and Control (CDC)},
+  pages={3030--3036},
+  month="Dec",
+  year={2016},
+pages={3030-3036},
+keywords={H∞ control;continuous time systems;linear systems;stability;H∞ controller;LTI system;computer vision algorithms;continuous-time linear time invariant system;linear continuous-time system;neuromorphic vision sensors;quadratic stability;retinal events;robotic applications;stabilization;Cameras;Linear systems;Neuromorphics;Retina;Robot sensing systems;Voltage control},
+doi={10.1109/CDC.2016.7798722},
+month={Dec}
+}
 }
 
-@Techreport{censi16codesign,
-  Title                    = {A Mathematical Theory of Co-Design},
-  Author                   = {Andrea Censi},
-  Year                     = {2016},
-  pdf = {https://arxiv.org/pdf/1512.08055},
-  Month                    = Sep,
-  url = {https://arxiv.org/abs/1512.08055},
-  Desc                     = {This paper introduces a theory of co-design that describes "design problems", defined as tuples of "functionality space", "implementation space", and "resources space", together with a feasibility relation that relates the three spaces. Design problems can be interconnected together to create "co-design problems", which describe possibly recursive co-design constraints among subsystems. },
-  Descicon                 = {https://censi.science/media/paper-icons/censi16codesign.png},
-  Institution = {Laboratory for Information and Decision Systems, MIT}
-}
+@INPROCEEDINGS{mueller16lowlatency,
+author={E. Mueller and A. Censi and E. Frazzoli},
+booktitle={IEEE Conference on Decision and Control (CDC)},
+title={Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference},
+year={2015},
+pages={992-999},
+keywords={closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics},
+doi={10.1109/CDC.2015.7402002},
+month={Dec},}
 
-
-@article{censi16codesign_sep16,
-  author    = {Andrea Censi},
-  title     = {A Mathematical Theory of Co-Design},
-  journal   = {CoRR},
-  volume    = {abs/1512.08055},
-  year      = {2015},
-  url       = {http://arxiv.org/abs/1512.08055},
-  pdf = {https://arxiv.org/pdf/1512.08055v4},
-  nourl = {https://co-design.science/},
-  Descicon               = {https://censi.science/media/paper-icons/censi16codesign_sep16.png},
-}
-
-@misc{mcdp_icra_uncertainty_extended,
-  author    = {Andrea Censi},
-  journal = {coRR},
-title     = {Handling Uncertainty in Monotone Co-Design Problems},
-  note = {Extended version on Arxiv with supplementary materials},
-  url       = {http://tiny.cc/mcdp_uncertainty_extended},
-}
-
-
-
-@article{mcdp_icra_uncertainty_arxiv,
-  author    = {Andrea Censi},
-  title     = {Handling Uncertainty in Monotone Co-Design Problems},
-  journal   = {cs.RO},
-  volume    = {abs/1609.03103},
-  year      = {2016},
-  url       = {https://arxiv.org/abs/1609.03103}
-}
-
-
-
-
-
-@Article{censi15monotone,
-  Title                    = {A Class of Co-Design Problems with Cyclic Constraints and Their
-Solution},
-  Author                   = {Andrea Censi},
-  Year                     = {2016},
-  nourl = {https://co-design.science/},
-  ignorepdf = {https://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf},
-  Month                    = Feb,
-  journal = {ICRA 2016},
-  Desc                     = { },
-  Descicon                 = {https://censi.science/media/paper-icons/censi15monotone.png},
-}
-
-
-@inproceedings{censi15same,
-  Title                    = {Monotone Co-Design Problems; or, everything is the same},
-  Author                   = {Andrea Censi},
-  Year                     = {2016},
-  nourl = {https://co-design.science/},
-  ignorepdf = {https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf},
-  Desc                     = { },
-  Descicon                 = {https://censi.science/media/paper-icons/censi15same.png},
-  booktitle = ACC,
-}
-
-
-@Techreport{censi15rara,
-  Title                    = {Synthesis of resource-aware robotic applications},
-  Author                   = {Andrea Censi},
-  Year                     = {2015},
-  url = {https://co-design.science/},
-  ignorepdf = {https://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf},
-  Month                    = Oct,
-  Desc                     = { },
-  Descicon                 = {https://censi.science/media/paper-icons/censi15rara.png},
-  Institution              = {Laboratory for Information and Decision Systems/MIT}
-}
-
-
-
-@Techreport{censi15compmake_sub,
-  Title                    = {{Compmake: Minimal Effort Parallelization and Job Management for Python Applications}},
-  Author                   = {Andrea Censi},
-  Year                     = {2014},
-  url                      = {https://purl.org/censi/2015/compmake},
-  pdf = {https://purl.org/censi/research/2015-compmake-v3.pdf},
-  Institution              = {Laboratory for Information and Decision Systems/MIT},
-  Month                    = Oct,
-  Desc                     = {
-  Compmake is a non-obtrusive module that provides Makefile-like facilities (including parallel processing) for batch Python applications.
- },
-  Descicon                 = {https://censi.science/media/paper-icons/censi15compmake.png}
-}
-
-@Techreport{censi15despl_sub,
-  Title                    = {{Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done}},
-  Author                   = {Andrea Censi},
-  Institution              = {Laboratory for Information and Decision Systems/MIT},
-  Month                    = Oct,
-  Year                     = {2014},
-  url                      = {https://purl.org/censi/2015/despl},
-apdf = {https://purl.org/censi/research/2015-despl-sub.pdf},
-  Desc                     = {
-    This paper describes a few different ways for parallelizing a "learner", so that the learning process
-    can be subdivided in jobs that can run independently on different cpus or different hosts.
- },
- note = {},
-  Descicon                 = {https://censi.science/media/paper-icons/censi15despl.png}
-}
-
+@INPROCEEDINGS{mueller16efficient,
+author={E. Mueller and A. Censi and E. Frazzoli},
+booktitle={International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)},
+title={Efficient high speed signal estimation with neuromorphic vision sensors},
+year={2015},
+pages={1-8},
+keywords={edge detection;feedback;image reconstruction;image sensors;robot vision;asynchronous configuration sensor;dynamical systems;event stream;feedback control;high-speed signal estimation;high-speed signal reconstruction;low-latency high-bandwidth sensing;neuromorphic vision sensors;robotic systems;sensor properties;visual feedback control;Brightness;Neuromorphics;Noise;Robot sensing systems;Sensor systems;Voltage control},
+doi={10.1109/EBCCSP.2015.7300672},
+month={June},}
 
 @inproceedings{censi15neucontrol_sub,
   Title                    = {{Efficient Neuromorphic Optomotor Heading Regulation}},
@@ -1186,7 +1091,8 @@ apdf = {https://purl.org/censi/research/2015-despl-sub.pdf},
   aurl                      = {https://purl.org/censi/2015/neucontrol},
   apdf = {https://purl.org/censi/research/2015-neucontrol-sub.pdf},
   booktitle = {American Control Conference (ACC)},
-  month = Jun,
+  month = Jul,
+  doi = {10.1109/ACC.2015.7171931},
   year = {2015},
   address = {Chicago, IL},
   Desc                     = {
@@ -1317,44 +1223,88 @@ a subset of the set of all robots.
   },
   descicon = {https://censi.science/media/paper-icons/carlone14coherent.png}
 }
-% This file was created with JabRef 2.10.
-% Encoding: ISO8859_1
 
 
-@Techreport{censi14canonization_sub,
-  Title                    = {Canonization paper},
-  Author                   = {Andrea Censi and Stefano Soatto},
-  Institution              = {Massachussets Institute of Technology},
-  Year                     = {2014},
-  Url                      = {http://purl.org/censi/2014/canonization},
 
-  Desc                     = { 
- },
-  Descicon                 = {https://censi.science/media/paper-icons/censi14canonization.jpg}
-}
-
-@Techreport{censi14bootinvariance_sub,
-  Title                    = {Necessary invariance properties of learning agents in the interactive bootstrapping setting},
+@Techreport{censi16codesign,
+  Title                    = {A Mathematical Theory of Co-Design},
   Author                   = {Andrea Censi},
-  Institution              = {Massachussets Institute of Technology},
-  Year                     = {2014},
-  Url                      = {http://purl.org/censi/2014/bootinvariance},
-
-  Desc                     = { 
- },
-  Descicon                 = {https://censi.science/media/paper-icons/censi14bootinvariance.jpg}
+  Year                     = {2016},
+  pdf = {https://arxiv.org/pdf/1512.08055},
+  Month                    = Sep,
+  url = {https://arxiv.org/abs/1512.08055},
+  Desc                     = {This paper introduces a theory of co-design that describes "design problems", defined as tuples of "functionality space", "implementation space", and "resources space", together with a feasibility relation that relates the three spaces. Design problems can be interconnected together to create "co-design problems", which describe possibly recursive co-design constraints among subsystems. },
+  Descicon                 = {https://censi.science/media/paper-icons/censi16codesign.png},
+  Institution = {Laboratory for Information and Decision Systems, MIT}
 }
 
-@Techreport{censi14reclearning_sub,
-  Title                    = {The XXX pattern for recursive learning from interactive setting},
+
+@article{censi16codesign_sep16,
+  author    = {Andrea Censi},
+  title     = {A Mathematical Theory of Co-Design},
+  journal   = {CoRR},
+  volume    = {abs/1512.08055},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1512.08055},
+  pdf = {https://arxiv.org/pdf/1512.08055v4},
+  nourl = {https://co-design.science/},
+  Descicon               = {https://censi.science/media/paper-icons/censi16codesign_sep16.png},
+}
+
+
+@article{censi17uncertainty,
+  Title                    = {Uncertainty in Monotone Co-Design Problems},
   Author                   = {Andrea Censi},
-  Institution              = {Massachussets Institute of Technology},
-  Year                     = {2014},
-  Url                      = {http://purl.org/censi/2014/reclearning},
+  journal   = {IEEE Robotics and Automation Letters},
+  year      = {2017},
+  month = {February},
+  url = {https://arxiv.org/abs/1609.03103},
+  pdf = {https://arxiv.org/pdf/1609.03103},
+  Desc                     = {This paper concerns the introduction of uncertainty in the MCDP framework. Uncertainty has two roles: first, it allows to deal with limited knowledge in the models; second, it also can be used to generate consistent relaxations of a problem, as the computation requirements can be lowered should the user accept some uncertainty in the answer. },
+  Descicon                 = {https://censi.science/media/paper-icons/censi17uncertainty.png},
+}
 
-  Desc                     = { 
- },
-  Descicon                 = {https://censi.science/media/paper-icons/censi14reclearning.jpg}
+@misc{mcdp_icra_uncertainty_extended,
+  author    = {Andrea Censi},
+  journal = {coRR},
+title     = {Handling Uncertainty in Monotone Co-Design Problems},
+  note = {Extended version on Arxiv with supplementary materials},
+  url       = {http://tiny.cc/mcdp_uncertainty_extended},
 }
 
 
+
+
+@Article{censi15monotone,
+
+  Author                   = {Andrea Censi},
+  Year                     = {2016},
+  nourl = {https://co-design.science/},
+  ignorepdf = {https://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf},
+  note = {Superseded by preprint ``A Mathematical Theory of Co-Design''.},
+  Desc                     = {Superseded by preprint ``A Mathematical Theory of Co-Design''. },
+  Descicon                 = {https://censi.science/media/paper-icons/censi15monotone.png},
+  journal={IEEE Robotics and Automation Letters},
+  title={A Class of Co-Design Problems With Cyclic Constraints and Their Solution},
+  volume={2},
+  number={1},
+  pages={96-103},
+  keywords={Batteries;Extraterrestrial measurements;Payloads;Robot sensing systems;Foundations of Automation;Optimization and Optimal Control},
+  doi={10.1109/LRA.2016.2535127},
+  ISSN={2377-3766},
+  month={Jan}
+}
+
+
+@inproceedings{censi15same,
+  Title                    = {Monotone Co-Design Problems; or, everything is the same},
+  note = {Superseded by preprint ``A Mathematical Theory of Co-Design''.},
+  Author                   = {Andrea Censi},
+  Year                     = {2016},
+  doi = {10.1109/ACC.2016.7525085},
+  nourl = {https://co-design.science/},
+  ignorepdf = {https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf},
+  Desc                     = {Superseded by preprint ``A Mathematical Theory of Co-Design''. },
+  Descicon                 = {https://censi.science/media/paper-icons/censi15same.png},
+  booktitle = ACC,
+}

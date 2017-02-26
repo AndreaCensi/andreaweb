@@ -127,67 +127,32 @@
  }, 
  "censi15monotone": {
   "fields": {
-   "title": "A Class of Co-Design Problems with Cyclic Constraints and Their Solution", 
-   "journal": "ICRA 2016", 
+   "note": "Superseded by preprint ``A Mathematical Theory of Co-Design''.", 
+   "doi": "10.1109/LRA.2016.2535127", 
    "author": [
     {
      "last": "Censi", 
      "first": "Andrea"
     }
    ], 
+   "nourl": "https://co-design.science/", 
+   "title": "A Class of Co-Design Problems With Cyclic Constraints and Their Solution", 
+   "journal": "IEEE Robotics and Automation Letters", 
+   "issn": "2377-3766", 
    "descicon": "https://censi.science/media/paper-icons/censi15monotone.png", 
-   "month": "February", 
+   "number": "1", 
+   "month": "Jan", 
+   "volume": "2", 
    "year": "2016", 
+   "keywords": "Batteries;Extraterrestrial measurements;Payloads;Robot sensing systems;Foundations of Automation;Optimization and Optimal Control", 
    "ignorepdf": "https://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf", 
    "type": "article", 
-   "nourl": "https://co-design.science/", 
-   "desc": ""
+   "pages": "96-103", 
+   "desc": "Superseded by preprint ``A Mathematical Theory of Co-Design''. "
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A class of co-design problems with cyclic constraints and their solution.</span>\n<em>ICRA 2016</em>, February 2016.\n", 
-  "bibtex": "@article{censi15monotone,\n    author = \"Censi, Andrea\",\n    title = \"A Class of Co-Design Problems with Cyclic Constraints and Their Solution\",\n    journal = \"ICRA 2016\",\n    month = \"February\",\n    year = \"2016\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
-  "order": 46
- }, 
- "censi15despl_sub": {
-  "fields": {
-   "title": "{Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done}", 
-   "url": "https://purl.org/censi/2015/despl", 
-   "author": [
-    {
-     "last": "Censi", 
-     "first": "Andrea"
-    }
-   ], 
-   "descicon": "https://censi.science/media/paper-icons/censi15despl.png", 
-   "month": "October", 
-   "note": "", 
-   "apdf": "https://purl.org/censi/research/2015-despl-sub.pdf", 
-   "year": "2014", 
-   "type": "techreport", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
-   "desc": "This paper describes a few different ways for parallelizing a \"learner\", so that the learning process\ncan be subdivided in jobs that can run independently on different cpus or different hosts."
-  }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n\n<span class=\"links\"><span class=\"url\"><a href=\"https://purl.org/censi/2015/despl\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15despl_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Design Patterns for Learners Parallelization, or: the joy of waking up in the morning and finding the experiments all done}\",\n    url = \"https://purl.org/censi/2015/despl\",\n    month = \"October\",\n    note = \"\",\n    apdf = \"https://purl.org/censi/research/2015-despl-sub.pdf\",\n    year = \"2014\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 50
- }, 
- "mcdp_icra_uncertainty_arxiv": {
-  "fields": {
-   "title": "Handling Uncertainty in Monotone Co-Design Problems", 
-   "url": "https://arxiv.org/abs/1609.03103", 
-   "journal": "cs.RO", 
-   "author": [
-    {
-     "last": "Censi", 
-     "first": "Andrea"
-    }
-   ], 
-   "volume": "abs/1609.03103", 
-   "year": "2016", 
-   "type": "article"
-  }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Handling uncertainty in monotone co-design problems.</span>\n<em>cs.RO</em>, 2016.\n<span class=\"links\"><span class=\"url\"><a href=\"https://arxiv.org/abs/1609.03103\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{mcdp_icra_uncertainty_arxiv,\n    author = \"Censi, Andrea\",\n    volume = \"abs/1609.03103\",\n    url = \"https://arxiv.org/abs/1609.03103\",\n    journal = \"cs.RO\",\n    title = \"Handling Uncertainty in Monotone Co-Design Problems\",\n    year = \"2016\"\n}\n\n", 
-  "order": 45
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A class of co-design problems with cyclic constraints and their solution.</span>\n<em>IEEE Robotics and Automation Letters</em>, 2(1):96&ndash;103, Jan 2016.\n<span class=\"note\">Superseded by preprint ``A Mathematical Theory of Co-Design''.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/LRA.2016.2535127\">doi</a></span></span>", 
+  "bibtex": "@article{censi15monotone,\n    author = \"Censi, Andrea\",\n    note = \"Superseded by preprint ``A Mathematical Theory of Co-Design''.\",\n    doi = \"10.1109/LRA.2016.2535127\",\n    nourl = \"https://co-design.science/\",\n    title = \"A Class of Co-Design Problems With Cyclic Constraints and Their Solution\",\n    journal = \"IEEE Robotics and Automation Letters\",\n    issn = \"2377-3766\",\n    number = \"1\",\n    month = \"Jan\",\n    volume = \"2\",\n    year = \"2016\",\n    keywords = \"Batteries;Extraterrestrial measurements;Payloads;Robot sensing systems;Foundations of Automation;Optimization and Optimal Control\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/1-MonotoneCodesign.pdf\",\n    pages = \"96-103\"\n}\n\n", 
+  "order": 55
  }, 
  "carpin09hsm3d": {
   "fields": {
@@ -264,6 +229,7 @@
  }, 
  "censi15neucontrol_sub": {
   "fields": {
+   "doi": "10.1109/ACC.2015.7171931", 
    "author": [
     {
      "last": "Censi", 
@@ -274,16 +240,16 @@
    "booktitle": "American Control Conference (ACC)", 
    "year": "2015", 
    "descicon": "https://censi.science/media/paper-icons/censi15neucontrol.png", 
-   "month": "June", 
+   "month": "July", 
    "apdf": "https://purl.org/censi/research/2015-neucontrol-sub.pdf", 
    "address": "Chicago, IL", 
    "aurl": "https://purl.org/censi/2015/neucontrol", 
    "type": "inproceedings", 
    "desc": "This paper describes a method for regulating the heading of a vehicle\nbased on the feedback from a neuromorphic event-based sensor."
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\n<span class=\"booktitle\">In <em>American Control Conference (ACC)</em>. Chicago, IL, June 2015.</span>\n", 
-  "bibtex": "@inproceedings{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    booktitle = \"American Control Conference (ACC)\",\n    year = \"2015\",\n    month = \"June\",\n    apdf = \"https://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    address = \"Chicago, IL\",\n    aurl = \"https://purl.org/censi/2015/neucontrol\"\n}\n\n", 
-  "order": 51
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Efficient Neuromorphic Optomotor Heading Regulation.</span>\n<span class=\"booktitle\">In <em>American Control Conference (ACC)</em>. Chicago, IL, July 2015.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ACC.2015.7171931\">doi</a></span></span>", 
+  "bibtex": "@inproceedings{censi15neucontrol_sub,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/ACC.2015.7171931\",\n    title = \"{Efficient Neuromorphic Optomotor Heading Regulation}\",\n    booktitle = \"American Control Conference (ACC)\",\n    year = \"2015\",\n    month = \"July\",\n    apdf = \"https://purl.org/censi/research/2015-neucontrol-sub.pdf\",\n    address = \"Chicago, IL\",\n    aurl = \"https://purl.org/censi/2015/neucontrol\"\n}\n\n", 
+  "order": 44
  }, 
  "BaCa04": {
   "fields": {
@@ -366,68 +332,57 @@
   "bibtex": "@inproceedings{calisi08openrdk,\n    author = \"Calisi, Daniele and Censi, Andrea and Iocchi, Luca and Nardi, Daniele\",\n    doi = \"10.1109/IROS.2008.4651213\",\n    title = \"{OpenRDK}: A Modular Framework for Robotic Software Development\",\n    url = \"http://openrdk.sourceforge.net\",\n    booktitle = \"Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\",\n    year = \"2008\",\n    month = \"September\",\n    slides = \"http://purl.org/censi/research/2008-iros-openrdk-slides.pdf\",\n    address = \"Nice, France\",\n    pdf = \"http://purl.org/censi/research/2008-iros-openrdk.pdf\",\n    abstract = \"In this paper we conduct an analysis of existingframeworks for robot software development and wepresent OpenRDK, a modular framework focused onrapid development of distributed robotic systems.It has been designed following users' advice and has been in use within our group for severalyears. By now OpenRDK has been successfullyapplied in diverse applications with heterogeneousrobots and as we believe it is fruitfully usableby others we are releasing it as open source..\"\n}\n\n", 
   "order": 13
  }, 
- "censi14reclearning_sub": {
+ "mueller16lowlatency": {
   "fields": {
+   "doi": "10.1109/CDC.2015.7402002", 
    "author": [
     {
-     "last": "Censi", 
-     "first": "Andrea"
-    }
-   ], 
-   "title": "The XXX pattern for recursive learning from interactive setting", 
-   "url": "http://purl.org/censi/2014/reclearning", 
-   "type": "techreport", 
-   "year": "2014", 
-   "descicon": "https://censi.science/media/paper-icons/censi14reclearning.jpg", 
-   "institution": "Massachussets Institute of Technology", 
-   "desc": ""
-  }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">The xxx pattern for recursive learning from interactive setting.</span>\nTechnical Report, Massachussets Institute of Technology, 2014.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2014/reclearning\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi14reclearning_sub,\n    author = \"Censi, Andrea\",\n    title = \"The XXX pattern for recursive learning from interactive setting\",\n    url = \"http://purl.org/censi/2014/reclearning\",\n    year = \"2014\",\n    institution = \"Massachussets Institute of Technology\"\n}\n\n", 
-  "order": 60
- }, 
- "censi15compmake_sub": {
-  "fields": {
-   "title": "{Compmake: Minimal Effort Parallelization and Job Management for Python Applications}", 
-   "url": "https://purl.org/censi/2015/compmake", 
-   "author": [
+     "last": "Mueller", 
+     "first": "E."
+    }, 
     {
      "last": "Censi", 
-     "first": "Andrea"
+     "first": "A."
+    }, 
+    {
+     "last": "Frazzoli", 
+     "first": "E."
     }
    ], 
-   "descicon": "https://censi.science/media/paper-icons/censi15compmake.png", 
-   "month": "October", 
-   "year": "2014", 
-   "pdf": "https://purl.org/censi/research/2015-compmake-v3.pdf", 
-   "type": "techreport", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
-   "desc": "Compmake is a non-obtrusive module that provides Makefile-like facilities (including parallel processing) for batch Python applications."
+   "title": "Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference", 
+   "keywords": "closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics", 
+   "booktitle": "IEEE Conference on Decision and Control (CDC)", 
+   "year": "2015", 
+   "type": "inproceedings", 
+   "pages": "992-999", 
+   "month": "Dec"
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Compmake: Minimal Effort Parallelization and Job Management for Python Applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://purl.org/censi/research/2015-compmake-v3.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://purl.org/censi/2015/compmake\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15compmake_sub,\n    author = \"Censi, Andrea\",\n    title = \"{Compmake: Minimal Effort Parallelization and Job Management for Python Applications}\",\n    url = \"https://purl.org/censi/2015/compmake\",\n    month = \"October\",\n    year = \"2014\",\n    pdf = \"https://purl.org/censi/research/2015-compmake-v3.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 49
+  "html_short": "<span class=\"author\">E. Mueller, A. Censi, and E. Frazzoli.</span>\n<span class=\"title\">Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference.</span>\n<span class=\"booktitle\">In <em>IEEE Conference on Decision and Control (CDC)</em>, 992&ndash;999. Dec 2015.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/CDC.2015.7402002\">doi</a></span></span>", 
+  "bibtex": "@inproceedings{mueller16lowlatency,\n    author = \"Mueller, E. and Censi, A. and Frazzoli, E.\",\n    doi = \"10.1109/CDC.2015.7402002\",\n    title = \"Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference\",\n    booktitle = \"IEEE Conference on Decision and Control (CDC)\",\n    month = \"Dec\",\n    year = \"2015\",\n    keywords = \"closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics\",\n    pages = \"992-999\"\n}\n\n", 
+  "order": 42
  }, 
  "censi15same": {
   "fields": {
-   "type": "inproceedings", 
+   "doi": "10.1109/ACC.2016.7525085", 
+   "title": "Monotone Co-Design Problems; or, everything is the same", 
+   "booktitle": "", 
    "author": [
     {
      "last": "Censi", 
      "first": "Andrea"
     }
    ], 
-   "title": "Monotone Co-Design Problems; or, everything is the same", 
-   "ignorepdf": "https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf", 
-   "booktitle": "", 
-   "year": "2016", 
    "descicon": "https://censi.science/media/paper-icons/censi15same.png", 
+   "note": "Superseded by preprint ``A Mathematical Theory of Co-Design''.", 
+   "year": "2016", 
+   "ignorepdf": "https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf", 
+   "type": "inproceedings", 
    "nourl": "https://co-design.science/", 
-   "desc": ""
+   "desc": "Superseded by preprint ``A Mathematical Theory of Co-Design''. "
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Monotone co-design problems; or, everything is the same.</span>\n<span class=\"booktitle\">In 2016.</span>\n", 
-  "bibtex": "@inproceedings{censi15same,\n    author = \"Censi, Andrea\",\n    title = \"Monotone Co-Design Problems; or, everything is the same\",\n    booktitle = \"\",\n    year = \"2016\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
-  "order": 47
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Monotone co-design problems; or, everything is the same.</span>\n<span class=\"booktitle\">In 2016.</span>\n<span class=\"note\">Superseded by preprint ``A Mathematical Theory of Co-Design''.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/ACC.2016.7525085\">doi</a></span></span>", 
+  "bibtex": "@inproceedings{censi15same,\n    author = \"Censi, Andrea\",\n    doi = \"10.1109/ACC.2016.7525085\",\n    title = \"Monotone Co-Design Problems; or, everything is the same\",\n    booktitle = \"\",\n    note = \"Superseded by preprint ``A Mathematical Theory of Co-Design''.\",\n    year = \"2016\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/2-EverythingIsTheSame.pdf\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
+  "order": 56
  }, 
  "censi06scan": {
   "fields": {
@@ -567,7 +522,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\nTechnical Report, Laboratory for Information and Decision Systems, MIT, September 2016.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"https://arxiv.org/abs/1512.08055\",\n    month = \"September\",\n    year = \"2016\",\n    pdf = \"https://arxiv.org/pdf/1512.08055\",\n    institution = \"Laboratory for Information and Decision Systems, MIT\"\n}\n\n", 
-  "order": 42
+  "order": 51
  }, 
  "censi11kf": {
   "fields": {
@@ -609,31 +564,7 @@
   }, 
   "html_short": "<span class=\"author-ac\">Andrea Censi</span>.\nHandling uncertainty in monotone co-design problems.\nExtended version on Arxiv with supplementary materials.", 
   "bibtex": "@misc{mcdp_icra_uncertainty_extended,\n    author = \"Censi, Andrea\",\n    note = \"Extended version on Arxiv with supplementary materials\",\n    url = \"http://tiny.cc/mcdp_uncertainty_extended\",\n    journal = \"coRR\",\n    title = \"Handling Uncertainty in Monotone Co-Design Problems\"\n}\n\n", 
-  "order": 44
- }, 
- "censi14canonization_sub": {
-  "fields": {
-   "author": [
-    {
-     "last": "Censi", 
-     "first": "Andrea"
-    }, 
-    {
-     "last": "Soatto", 
-     "first": "Stefano"
-    }
-   ], 
-   "title": "Canonization paper", 
-   "url": "http://purl.org/censi/2014/canonization", 
-   "type": "techreport", 
-   "year": "2014", 
-   "descicon": "https://censi.science/media/paper-icons/censi14canonization.jpg", 
-   "institution": "Massachussets Institute of Technology", 
-   "desc": ""
-  }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span> and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">Canonization paper.</span>\nTechnical Report, Massachussets Institute of Technology, 2014.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2014/canonization\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi14canonization_sub,\n    author = \"Censi, Andrea and Soatto, Stefano\",\n    title = \"Canonization paper\",\n    url = \"http://purl.org/censi/2014/canonization\",\n    year = \"2014\",\n    institution = \"Massachussets Institute of Technology\"\n}\n\n", 
-  "order": 58
+  "order": 54
  }, 
  "censi08fts": {
   "fields": {
@@ -757,25 +688,43 @@
   "bibtex": "@article{fuller14controlling,\n    author = \"Fuller, Sawyer B. and Karpelson, Michael and Censi, Andrea and Ma, Kevin Y. and Wood, Robert J.\",\n    title = \"Controlling free flight of a robotic fly using an onboard vision sensor inspired by insect ocelli\",\n    url = \"http://rsif.royalsocietypublishing.org/content/11/97/20140281\",\n    journal = \"Journal of the Royal Society Interface\",\n    year = \"2014\",\n    number = \"97\",\n    month = \"August\",\n    vol = \"11\",\n    video = \"http://www.youtube.com/watch?v=iMjaIkMxUqQ\",\n    sortyear = \"2015\",\n    doi-old = \"10.1098/\u200brsif.2014.0281\"\n}\n\n", 
   "order": 5
  }, 
- "censi14bootinvariance_sub": {
+ "singh16stabilization": {
   "fields": {
+   "doi": "10.1109/CDC.2016.7798722", 
    "author": [
+    {
+     "last": "Singh", 
+     "first": "Prince"
+    }, 
+    {
+     "middle": "Zheng", 
+     "last": "Yong", 
+     "first": "Sze"
+    }, 
+    {
+     "last": "Gregoire", 
+     "first": "Jean"
+    }, 
     {
      "last": "Censi", 
      "first": "Andrea"
+    }, 
+    {
+     "last": "Frazzoli", 
+     "first": "Emilio"
     }
    ], 
-   "title": "Necessary invariance properties of learning agents in the interactive bootstrapping setting", 
-   "url": "http://purl.org/censi/2014/bootinvariance", 
-   "type": "techreport", 
-   "year": "2014", 
-   "descicon": "https://censi.science/media/paper-icons/censi14bootinvariance.jpg", 
-   "institution": "Massachussets Institute of Technology", 
-   "desc": ""
+   "title": "Stabilization of linear continuous-time systems using neuromorphic vision sensors", 
+   "keywords": "H\u221e control;continuous time systems;linear systems;stability;H\u221e controller;LTI system;computer vision algorithms;continuous-time linear time invariant system;linear continuous-time system;neuromorphic vision sensors;quadratic stability;retinal events;robotic applications;stabilization;Cameras;Linear systems;Neuromorphics;Retina;Robot sensing systems;Voltage control", 
+   "booktitle": "IEEE Conference on Decision and Control (CDC)", 
+   "year": "2016", 
+   "type": "inproceedings", 
+   "pages": "3030-3036", 
+   "month": "Dec"
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Necessary invariance properties of learning agents in the interactive bootstrapping setting.</span>\nTechnical Report, Massachussets Institute of Technology, 2014.\n<span class=\"links\"><span class=\"url\"><a href=\"http://purl.org/censi/2014/bootinvariance\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi14bootinvariance_sub,\n    author = \"Censi, Andrea\",\n    title = \"Necessary invariance properties of learning agents in the interactive bootstrapping setting\",\n    url = \"http://purl.org/censi/2014/bootinvariance\",\n    year = \"2014\",\n    institution = \"Massachussets Institute of Technology\"\n}\n\n", 
-  "order": 59
+  "html_short": "<span class=\"author\">Prince Singh, Sze Zheng Yong, Jean Gregoire, <span class=\"author-ac\">Andrea Censi</span>, and <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>.</span>\n<span class=\"title\">Stabilization of linear continuous-time systems using neuromorphic vision sensors.</span>\n<span class=\"booktitle\">In <em>IEEE Conference on Decision and Control (CDC)</em>, 3030&ndash;3036. Dec 2016.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/CDC.2016.7798722\">doi</a></span></span>", 
+  "bibtex": "@inproceedings{singh16stabilization,\n    author = \"Singh, Prince and Yong, Sze Zheng and Gregoire, Jean and Censi, Andrea and Frazzoli, Emilio\",\n    doi = \"10.1109/CDC.2016.7798722\",\n    title = \"Stabilization of linear continuous-time systems using neuromorphic vision sensors\",\n    booktitle = \"IEEE Conference on Decision and Control (CDC)\",\n    month = \"Dec\",\n    year = \"2016\",\n    keywords = \"H\u221e control;continuous time systems;linear systems;stability;H\u221e controller;LTI system;computer vision algorithms;continuous-time linear time invariant system;linear continuous-time system;neuromorphic vision sensors;quadratic stability;retinal events;robotic applications;stabilization;Cameras;Linear systems;Neuromorphics;Retina;Robot sensing systems;Voltage control\",\n    pages = \"3030-3036\"\n}\n\n", 
+  "order": 41
  }, 
  "carlone14angular": {
   "fields": {
@@ -861,28 +810,6 @@
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A comparison of algorithms for likelihood approximation in bayesian localization.</span>\nTechnical Report, Sapienza Universita di Roma, 2006.\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2006-draft-acomparison.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2006/ghtv\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@techreport{censi06comparison,\n    author = \"Censi, Andrea\",\n    kind = \"unref\",\n    title = \"A comparison of algorithms for likelihood approximation in Bayesian localization\",\n    url = \"http://purl.org/censi/2006/ghtv\",\n    year = \"2006\",\n    pdf = \"http://purl.org/censi/research/2006-draft-acomparison.pdf\",\n    institution = \"Sapienza Universita di Roma\"\n}\n\n", 
   "order": 22
- }, 
- "censi15rara": {
-  "fields": {
-   "title": "Synthesis of resource-aware robotic applications", 
-   "url": "https://co-design.science/", 
-   "author": [
-    {
-     "last": "Censi", 
-     "first": "Andrea"
-    }
-   ], 
-   "descicon": "https://censi.science/media/paper-icons/censi15rara.png", 
-   "month": "October", 
-   "year": "2015", 
-   "ignorepdf": "https://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf", 
-   "type": "techreport", 
-   "institution": "Laboratory for Information and Decision Systems/MIT", 
-   "desc": ""
-  }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Synthesis of resource-aware robotic applications.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2015.\n<span class=\"links\"><span class=\"url\"><a href=\"https://co-design.science/\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi15rara,\n    author = \"Censi, Andrea\",\n    title = \"Synthesis of resource-aware robotic applications\",\n    url = \"https://co-design.science/\",\n    month = \"October\",\n    year = \"2015\",\n    ignorepdf = \"https://purl.org/censi/research/201510-monotone/3-ResourceAwareRoboticApplications.pdf\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 48
  }, 
  "censi12cameracalib": {
   "fields": {
@@ -1313,10 +1240,11 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span> and Richard Murray.</span>\n<span class=\"title\">Bootstrapping bilinear models of simple vehicles.</span>\nTechnical Report 2913, Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, 2013.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://purl.org/censi/research/2013-jbds-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"video\"><a href=\"https://vimeo.com/80954603\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"https://purl.org/censi/2013/jbds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"https://purl.org/censi/research/2013-jbds-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@techreport{censi13jbds_sub_nonote,\n    author = \"Censi, Andrea and Murray, Richard\",\n    slideskeynote = \"https://purl.org/censi/research/2013-jbds-slides.key.zip\",\n    title = \"Bootstrapping bilinear models of Simple Vehicles\",\n    url = \"https://purl.org/censi/2013/jbds\",\n    abstract = {Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.},\n    number = \"2913\",\n    slides = \"https://purl.org/censi/research/2013-jbds-slides.pdf\",\n    video = \"https://vimeo.com/80954603\",\n    year = \"2013\",\n    pdf = \"https://purl.org/censi/research/2013-jbds-sub.pdf\",\n    institution = \"Laboratory for Information and Decision Systems, Massachusetts Institute of Technology\"\n}\n\n", 
-  "order": 55
+  "order": 48
  }, 
  "nilsson13rddl": {
   "fields": {
+   "doi": "10.1109/IROS.2013.6696504", 
    "author": [
     {
      "last": "Nilsson", 
@@ -1339,8 +1267,8 @@
    "abstract": "Diffeomorphisms dynamical systems are dynamical systems where the state is an image and each commands induce a diffeomorphism of the state. These systems can approximate the dynamics of robotic sensorimotor cascades well enough to be used for problems such as planning in observations space. Learning of an arbitrary diffeomorphism from pairs of images is a high dimensional learning problem. This paper describes two improvements to the methods presented in previous work. The previous method had required O(\u03c1\u2074) memory as a function of the desired resolution \u03c1, which, in practice, was the main limitation to the resolution of the diffeomorphisms that could be learned. This paper describes an algorithm based on recursive refinement that lowers the memory requirement to O(\u03c1\u00b2) memory and O(\u03c1\u00b2 log(\u03c1)) computation. Another improvement regards the estimation the diffeomorphism uncertainty, which is used to represent the sensor's limited field of view; the improved method obtains a more accurate estimation of the uncertainty by checking the consistency of a learned diffeomorphism and its independently learned inverse. The methods are tested on two robotic systems (a pan-tilt camera and a 5-DOF manipulator).", 
    "desc": ""
   }, 
-  "html_short": "<span class=\"author\">Adam Nilsson and <span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Accurate recursive learning of uncertain diffeomorphism dynamics.</span>\n<span class=\"booktitle\">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. Tokyo, Japan, November 2013.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-diff-rlearn-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/rddl\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@inproceedings{nilsson13rddl,\n    author = \"Nilsson, Adam and Censi, Andrea\",\n    title = \"Accurate recursive learning of uncertain diffeomorphism dynamics\",\n    url = \"http://purl.org/censi/2013/rddl\",\n    booktitle = \"IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\",\n    year = \"2013\",\n    month = \"November\",\n    address = \"Tokyo, Japan\",\n    pdf = \"http://purl.org/censi/research/2013-diff-rlearn-sub.pdf\",\n    abstract = \"Diffeomorphisms dynamical systems are dynamical systems where the state is an image and each commands induce a diffeomorphism of the state. These systems can approximate the dynamics of robotic sensorimotor cascades well enough to be used for problems such as planning in observations space. Learning of an arbitrary diffeomorphism from pairs of images is a high dimensional learning problem. This paper describes two improvements to the methods presented in previous work. The previous method had required O(\u03c1\u2074) memory as a function of the desired resolution \u03c1, which, in practice, was the main limitation to the resolution of the diffeomorphisms that could be learned. This paper describes an algorithm based on recursive refinement that lowers the memory requirement to O(\u03c1\u00b2) memory and O(\u03c1\u00b2 log(\u03c1)) computation. Another improvement regards the estimation the diffeomorphism uncertainty, which is used to represent the sensor's limited field of view; the improved method obtains a more accurate estimation of the uncertainty by checking the consistency of a learned diffeomorphism and its independently learned inverse. The methods are tested on two robotic systems (a pan-tilt camera and a 5-DOF manipulator).\"\n}\n\n", 
+  "html_short": "<span class=\"author\">Adam Nilsson and <span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Accurate recursive learning of uncertain diffeomorphism dynamics.</span>\n<span class=\"booktitle\">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. Tokyo, Japan, November 2013.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"http://purl.org/censi/research/2013-diff-rlearn-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/IROS.2013.6696504\">doi</a></span><span class=\"url\"><a href=\"http://purl.org/censi/2013/rddl\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@inproceedings{nilsson13rddl,\n    author = \"Nilsson, Adam and Censi, Andrea\",\n    doi = \"10.1109/IROS.2013.6696504\",\n    title = \"Accurate recursive learning of uncertain diffeomorphism dynamics\",\n    url = \"http://purl.org/censi/2013/rddl\",\n    booktitle = \"IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\",\n    year = \"2013\",\n    month = \"November\",\n    address = \"Tokyo, Japan\",\n    pdf = \"http://purl.org/censi/research/2013-diff-rlearn-sub.pdf\",\n    abstract = \"Diffeomorphisms dynamical systems are dynamical systems where the state is an image and each commands induce a diffeomorphism of the state. These systems can approximate the dynamics of robotic sensorimotor cascades well enough to be used for problems such as planning in observations space. Learning of an arbitrary diffeomorphism from pairs of images is a high dimensional learning problem. This paper describes two improvements to the methods presented in previous work. The previous method had required O(\u03c1\u2074) memory as a function of the desired resolution \u03c1, which, in practice, was the main limitation to the resolution of the diffeomorphisms that could be learned. This paper describes an algorithm based on recursive refinement that lowers the memory requirement to O(\u03c1\u00b2) memory and O(\u03c1\u00b2 log(\u03c1)) computation. Another improvement regards the estimation the diffeomorphism uncertainty, which is used to represent the sensor's limited field of view; the improved method obtains a more accurate estimation of the uncertainty by checking the consistency of a learned diffeomorphism and its independently learned inverse. The methods are tested on two robotic systems (a pan-tilt camera and a 5-DOF manipulator).\"\n}\n\n", 
   "order": 4
  }, 
  "han10pose": {
@@ -1432,7 +1360,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\n<em>CoRR</em>, 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055v4\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"http://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
   "bibtex": "@article{censi16codesign_sep16,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"http://arxiv.org/abs/1512.08055\",\n    journal = \"CoRR\",\n    volume = \"abs/1512.08055\",\n    year = \"2015\",\n    pdf = \"https://arxiv.org/pdf/1512.08055v4\",\n    nourl = \"https://co-design.science/\"\n}\n\n", 
-  "order": 43
+  "order": 52
  }, 
  "censi09attitude": {
   "fields": {
@@ -1683,7 +1611,7 @@
   }, 
   "html_short": "<span class=\"author\">Luca Carlone, <span class=\"author-ac\">Andrea Censi</span>, and Frank Dellaert.</span>\n<span class=\"title\">Coherent measurements selection via l1 relaxation: an approach to robust estimation over graphs.</span>\n<span class=\"booktitle\">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>. October 2014.</span>\n", 
   "bibtex": "@inproceedings{carlone14coherent_sub,\n    author = \"Carlone, Luca and Censi, Andrea and Dellaert, Frank\",\n    title = \"Coherent Measurements Selection via l1 Relaxation: an Approach to Robust Estimation over Graphs\",\n    abstract = \"\",\n    month = \"October\",\n    year = \"2014\",\n    booktitle = \"IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\"\n}\n\n", 
-  "order": 57
+  "order": 50
  }, 
  "censi13jbds_sub": {
   "fields": {
@@ -1718,7 +1646,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span> and <a href='http://www.cds.caltech.edu/~murray/'>Richard M. Murray</a>.</span>\n<span class=\"title\">Bootstrapping bilinear models of Simple Vehicles.</span>\n<em>International Journal of Robotics Research</em>, 34:1087&ndash;1113, July 2015.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://purl.org/censi/research/2013-jbds-sub.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"doi\"><a href=\"http://dx.doi.org/10.1177/0278364914557708\">doi</a></span><span class=\"video\"><a href=\"https://vimeo.com/80954603\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/video1.png'/> video</a></span><span class=\"url\"><a href=\"https://purl.org/censi/2013/jbds\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"https://purl.org/censi/research/2013-jbds-slides.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@article{censi13jbds_sub,\n    author = \"Censi, Andrea and Murray, Richard M.\",\n    slides = \"https://purl.org/censi/research/2013-jbds-slides.pdf\",\n    doi = \"10.1177/0278364914557708\",\n    slideskeynote = \"https://purl.org/censi/research/2013-jbds-slides.key.zip\",\n    title = \"{Bootstrapping bilinear models of Simple Vehicles}\",\n    url = \"https://purl.org/censi/2013/jbds\",\n    journal = \"International Journal of Robotics Research\",\n    year = \"2015\",\n    month = \"July\",\n    volume = \"34\",\n    video = \"https://vimeo.com/80954603\",\n    pages = \"1087--1113\",\n    sortyear = \"2015\",\n    pdf = \"https://purl.org/censi/research/2013-jbds-sub.pdf\",\n    abstract = {Learning and adaptivity will play a large role in robotics in the future, as robots transition from unstructured to unstructured environments that cannot be fully predicted or understood by the designer. Two questions that are open are how much it is possible to learn, and how much we should learn. The goal of bootstrapping is creating agents that are able to learn \"everything\" from scratch, including a torque-to-pixels models for its robotic body. Systems with such capabilities will be advantaged in terms of being resilient to unforeseen changes and deviations from prior assumptions. The robotics domain is a challenging one for learning, due to the presence of high-dimensional signals, various nonlinearities, and hidden states. There are no formal results, in the spirit of control theory, that could give guarantees. This paper considers the bootstrapping problem for a subset of the set of all robots. The Vehicles, inspired by Braitenberg's work, are idealization of mobile robots equipped with a set of \u201ccanonical\u201d exteroceptive sensors (camera; range-finder; field-sampler). Their sensel-level dynamics are derived and shown to be surprising close. We define the class of BDS models, which assume an instantaneous bilinear dynamics between observations and commands, and derive streaming-based bilinear strategies for them. We show in what sense the BDS dynamics approximates the set of Vehicles to guarantee success in the task of generalized servoing: driving the observations to a given goal snapshot. Simulations and experiments substantiate the theoretical results. This is the first instance of a bootstrapping agent that can learn the dynamics of a relatively large universe of systems, and use the models to solve well-defined tasks, with no parameter tuning or hand-designed features.}\n}\n\n", 
-  "order": 54
+  "order": 47
  }, 
  "censi15powerperf_sub": {
   "fields": {
@@ -1755,7 +1683,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>, <a href='https://lids.mit.edu/people/students/erich-mueller'>Erich Mueller</a>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://vision.ucla.edu/'>Stefano Soatto</a>.</span>\n<span class=\"title\">A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2015.</span>\n", 
   "bibtex": "@inproceedings{censi15powerperf_sub,\n    author = \"Censi, Andrea and Mueller, Erich and Frazzoli, Emilio and Soatto, Stefano\",\n    title = \"{A Power-Performance Approach to Comparing Sensor Families, with application to comparing neuromorphic to traditional vision sensors}\",\n    timestamp = \"2014.09.30\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    urlresolved = \"https://purl.org/censi/web/powerperf\",\n    aurl = \"https://purl.org/censi/2015/powerperf\",\n    apdf = \"https://purl.org/censi/research/2015-powerperf-sub.pdf\",\n    year = \"2015\",\n    owner = \"andrea\"\n}\n\n", 
-  "order": 52
+  "order": 45
  }, 
  "censi15codesign_sub": {
   "fields": {
@@ -1789,13 +1717,42 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>, <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>, and <a href='http://xenia.media.mit.edu/~minster/'>Sawyer B. Fuller</a>.</span>\n<span class=\"title\">On the Optimal Codesign of Vehicle Sensing and Actuation.</span>\nTechnical Report, Laboratory for Information and Decision Systems/MIT, October 2014.\n", 
   "bibtex": "@techreport{censi15codesign_sub,\n    author = \"Censi, Andrea and Frazzoli, Emilio and Fuller, Sawyer B.\",\n    title = \"{On the Optimal Codesign of Vehicle Sensing and Actuation}\",\n    timestamp = \"2014.09.30\",\n    month = \"October\",\n    urlresolved = \"https://purl.org/censi/web/codesign\",\n    aurl = \"https://purl.org/censi/2015/codesign\",\n    apdf = \"https://purl.org/censi/research/2015-codesign-sub.pdf\",\n    year = \"2014\",\n    owner = \"andrea\",\n    institution = \"Laboratory for Information and Decision Systems/MIT\"\n}\n\n", 
-  "order": 53
+  "order": 46
+ }, 
+ "mueller16efficient": {
+  "fields": {
+   "doi": "10.1109/EBCCSP.2015.7300672", 
+   "author": [
+    {
+     "last": "Mueller", 
+     "first": "E."
+    }, 
+    {
+     "last": "Censi", 
+     "first": "A."
+    }, 
+    {
+     "last": "Frazzoli", 
+     "first": "E."
+    }
+   ], 
+   "title": "Efficient high speed signal estimation with neuromorphic vision sensors", 
+   "keywords": "edge detection;feedback;image reconstruction;image sensors;robot vision;asynchronous configuration sensor;dynamical systems;event stream;feedback control;high-speed signal estimation;high-speed signal reconstruction;low-latency high-bandwidth sensing;neuromorphic vision sensors;robotic systems;sensor properties;visual feedback control;Brightness;Neuromorphics;Noise;Robot sensing systems;Sensor systems;Voltage control", 
+   "booktitle": "International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)", 
+   "year": "2015", 
+   "type": "inproceedings", 
+   "pages": "1-8", 
+   "month": "June"
+  }, 
+  "html_short": "<span class=\"author\">E. Mueller, A. Censi, and E. Frazzoli.</span>\n<span class=\"title\">Efficient high speed signal estimation with neuromorphic vision sensors.</span>\n<span class=\"booktitle\">In <em>International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)</em>, 1&ndash;8. June 2015.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/EBCCSP.2015.7300672\">doi</a></span></span>", 
+  "bibtex": "@inproceedings{mueller16efficient,\n    author = \"Mueller, E. and Censi, A. and Frazzoli, E.\",\n    doi = \"10.1109/EBCCSP.2015.7300672\",\n    title = \"Efficient high speed signal estimation with neuromorphic vision sensors\",\n    booktitle = \"International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)\",\n    month = \"June\",\n    year = \"2015\",\n    keywords = \"edge detection;feedback;image reconstruction;image sensors;robot vision;asynchronous configuration sensor;dynamical systems;event stream;feedback control;high-speed signal estimation;high-speed signal reconstruction;low-latency high-bandwidth sensing;neuromorphic vision sensors;robotic systems;sensor properties;visual feedback control;Brightness;Neuromorphics;Noise;Robot sensing systems;Sensor systems;Voltage control\",\n    pages = \"1-8\"\n}\n\n", 
+  "order": 43
  }, 
  "censi17uncertainty": {
   "fields": {
    "title": "Uncertainty in Monotone Co-Design Problems", 
    "url": "https://arxiv.org/abs/1609.03103", 
-   "journal": "Robotics and Automation Letters", 
+   "journal": "IEEE Robotics and Automation Letters", 
    "author": [
     {
      "last": "Censi", 
@@ -1803,15 +1760,15 @@
     }
    ], 
    "descicon": "https://censi.science/media/paper-icons/censi17uncertainty.png", 
+   "month": "February", 
    "year": "2017", 
    "pdf": "https://arxiv.org/pdf/1609.03103", 
    "type": "article", 
-   "institution": "Laboratory for Information and Decision Systems, MIT", 
    "desc": "This paper concerns the introduction of uncertainty in the MCDP framework. Uncertainty has two roles: first, it allows to deal with limited knowledge in the models; second, it also can be used to generate consistent relaxations of a problem, as the computation requirements can be lowered should the user accept some uncertainty in the answer. "
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Uncertainty in monotone co-design problems.</span>\n<em>Robotics and Automation Letters</em>, 2017.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1609.03103\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1609.03103\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@article{censi17uncertainty,\n    author = \"Censi, Andrea\",\n    title = \"Uncertainty in Monotone Co-Design Problems\",\n    url = \"https://arxiv.org/abs/1609.03103\",\n    journal = \"Robotics and Automation Letters\",\n    year = \"2017\",\n    pdf = \"https://arxiv.org/pdf/1609.03103\",\n    institution = \"Laboratory for Information and Decision Systems, MIT\"\n}\n\n", 
-  "order": 41
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">Uncertainty in monotone co-design problems.</span>\n<em>IEEE Robotics and Automation Letters</em>, February 2017.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1609.03103\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1609.03103\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@article{censi17uncertainty,\n    author = \"Censi, Andrea\",\n    title = \"Uncertainty in Monotone Co-Design Problems\",\n    url = \"https://arxiv.org/abs/1609.03103\",\n    journal = \"IEEE Robotics and Automation Letters\",\n    month = \"February\",\n    year = \"2017\",\n    pdf = \"https://arxiv.org/pdf/1609.03103\"\n}\n\n", 
+  "order": 53
  }, 
  "censi13dvsd_sub": {
   "fields": {
@@ -1839,7 +1796,7 @@
   }, 
   "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span> and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>\n<span class=\"title\">Low-latency event-based visual odometry.</span>\n<span class=\"booktitle\">In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. May 2014.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://purl.org/censi/research/2013-dvsd-final.pdf\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://purl.org/censi/2013/dvsd\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span><span class=\"slides\"><a href=\"https://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='/media/slides2.gif'/> slides</a></span></span>", 
   "bibtex": "@inproceedings{censi13dvsd_sub,\n    author = \"Censi, Andrea and Scaramuzza, Davide\",\n    title = \"Low-latency Event-Based Visual Odometry\",\n    url = \"https://purl.org/censi/2013/dvsd\",\n    booktitle = \"IEEE International Conference on Robotics and Automation (ICRA)\",\n    month = \"May\",\n    slides = \"https://purl.org/censi/research/2013-dvsd/201405-icra15-dvsd.pdf\",\n    year = \"2014\",\n    pdf = \"https://purl.org/censi/research/2013-dvsd-final.pdf\",\n    abstract = \"\"\n}\n\n", 
-  "order": 56
+  "order": 49
  }, 
  "censi13joint": {
   "fields": {
