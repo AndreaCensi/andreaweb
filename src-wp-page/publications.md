@@ -29,7 +29,7 @@ Please feel free to ask for a PDF if it is not linked here.
 #### Journal papers
 
 [pub_ref_desc id='censi17uncertainty']
-
+[pub_ref_desc id='censi15monotone']
 [pub_ref_desc id='censi13jbds_sub']
 [pub_ref_desc id='fuller14controlling']
 [pub_ref_desc id='carlone14angular']
@@ -51,9 +51,9 @@ Please feel free to ask for a PDF if it is not linked here.
 [pub_ref_desc id='tani16duckietown']
 
 [pub_ref_desc id='censi15same']
-[pub_ref_desc id='mueller16efficient']
-[pub_ref_desc id='mueller16lowlatency']
 [pub_ref_desc id='singh16stabilization']
+[pub_ref_desc id='mueller16lowlatency']
+[pub_ref_desc id='mueller16efficient']
 
 [pub_ref_desc id='censi15neucontrol_sub']
 [pub_ref_desc id='censi15powerperf_sub']

@@ -335,6 +335,8 @@
  "mueller16lowlatency": {
   "fields": {
    "doi": "10.1109/CDC.2015.7402002", 
+   "title": "Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference", 
+   "booktitle": "IEEE Conference on Decision and Control (CDC)", 
    "author": [
     {
      "last": "Mueller", 
@@ -349,13 +351,12 @@
      "first": "E."
     }
    ], 
-   "title": "Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference", 
-   "keywords": "closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics", 
-   "booktitle": "IEEE Conference on Decision and Control (CDC)", 
+   "descicon": "https://censi.science/media/paper-icons/mueller16lowlatency.png", 
+   "month": "Dec", 
    "year": "2015", 
+   "keywords": "closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics", 
    "type": "inproceedings", 
-   "pages": "992-999", 
-   "month": "Dec"
+   "pages": "992-999"
   }, 
   "html_short": "<span class=\"author\">E. Mueller, A. Censi, and E. Frazzoli.</span>\n<span class=\"title\">Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference.</span>\n<span class=\"booktitle\">In <em>IEEE Conference on Decision and Control (CDC)</em>, 992&ndash;999. Dec 2015.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/CDC.2015.7402002\">doi</a></span></span>", 
   "bibtex": "@inproceedings{mueller16lowlatency,\n    author = \"Mueller, E. and Censi, A. and Frazzoli, E.\",\n    doi = \"10.1109/CDC.2015.7402002\",\n    title = \"Low-latency heading feedback control with neuromorphic vision sensors using efficient approximated incremental inference\",\n    booktitle = \"IEEE Conference on Decision and Control (CDC)\",\n    month = \"Dec\",\n    year = \"2015\",\n    keywords = \"closed loop systems;feedback;image sensors;mobile robots;trajectory control;asynchronous neuromorphic vision sensors;closed loop performance;incremental inference;low-latency heading feedback control;mobile robotic systems;trajectory tracking problem;Brightness;Cameras;Heuristic algorithms;Neuromorphics;Optical sensors;Vehicle dynamics\",\n    pages = \"992-999\"\n}\n\n", 
@@ -536,14 +537,15 @@
    ], 
    "descicon": "https://censi.science/media/paper-icons/censi16codesign.png", 
    "month": "September", 
+   "note": "Submitted and conditionally accepted to IEEE Transactions on Robotics", 
    "year": "2016", 
    "pdf": "https://arxiv.org/pdf/1512.08055", 
    "type": "techreport", 
    "institution": "Laboratory for Information and Decision Systems, MIT", 
    "desc": "This paper introduces a theory of co-design that describes \"design problems\", defined as tuples of \"functionality space\", \"implementation space\", and \"resources space\", together with a feasibility relation that relates the three spaces. Design problems can be interconnected together to create \"co-design problems\", which describe possibly recursive co-design constraints among subsystems. "
   }, 
-  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\nTechnical Report, Laboratory for Information and Decision Systems, MIT, September 2016.\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
-  "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"https://arxiv.org/abs/1512.08055\",\n    month = \"September\",\n    year = \"2016\",\n    pdf = \"https://arxiv.org/pdf/1512.08055\",\n    institution = \"Laboratory for Information and Decision Systems, MIT\"\n}\n\n", 
+  "html_short": "<span class=\"author\"><span class=\"author-ac\">Andrea Censi</span>.</span>\n<span class=\"title\">A mathematical theory of co-design.</span>\nTechnical Report, Laboratory for Information and Decision Systems, MIT, September 2016.\n<span class=\"note\">Submitted and conditionally accepted to IEEE Transactions on Robotics.</span>\n<span class=\"links\"><span class=\"pdf\"><a href=\"https://arxiv.org/pdf/1512.08055\"><img style='border:0; margin-bottom:-6px'  src='/media/pdf.gif'/> pdf</a></span><span class=\"url\"><a href=\"https://arxiv.org/abs/1512.08055\"><img style='border:0; margin-bottom:-6px; height: 17px'  src='/media/web.gif'/> supp. material</a></span></span>", 
+  "bibtex": "@techreport{censi16codesign,\n    author = \"Censi, Andrea\",\n    title = \"A Mathematical Theory of Co-Design\",\n    url = \"https://arxiv.org/abs/1512.08055\",\n    month = \"September\",\n    note = \"Submitted and conditionally accepted to IEEE Transactions on Robotics\",\n    year = \"2016\",\n    pdf = \"https://arxiv.org/pdf/1512.08055\",\n    institution = \"Laboratory for Information and Decision Systems, MIT\"\n}\n\n", 
   "order": 52
  }, 
  "censi11kf": {
@@ -713,6 +715,8 @@
  "singh16stabilization": {
   "fields": {
    "doi": "10.1109/CDC.2016.7798722", 
+   "title": "Stabilization of linear continuous-time systems using neuromorphic vision sensors", 
+   "booktitle": "IEEE Conference on Decision and Control (CDC)", 
    "author": [
     {
      "last": "Singh", 
@@ -736,13 +740,12 @@
      "first": "Emilio"
     }
    ], 
-   "title": "Stabilization of linear continuous-time systems using neuromorphic vision sensors", 
-   "keywords": "H\u221e control;continuous time systems;linear systems;stability;H\u221e controller;LTI system;computer vision algorithms;continuous-time linear time invariant system;linear continuous-time system;neuromorphic vision sensors;quadratic stability;retinal events;robotic applications;stabilization;Cameras;Linear systems;Neuromorphics;Retina;Robot sensing systems;Voltage control", 
-   "booktitle": "IEEE Conference on Decision and Control (CDC)", 
+   "descicon": "https://censi.science/media/paper-icons/singh16stabilization.png", 
+   "month": "Dec", 
    "year": "2016", 
+   "keywords": "H\u221e control;continuous time systems;linear systems;stability;H\u221e controller;LTI system;computer vision algorithms;continuous-time linear time invariant system;linear continuous-time system;neuromorphic vision sensors;quadratic stability;retinal events;robotic applications;stabilization;Cameras;Linear systems;Neuromorphics;Retina;Robot sensing systems;Voltage control", 
    "type": "inproceedings", 
-   "pages": "3030-3036", 
-   "month": "Dec"
+   "pages": "3030-3036"
   }, 
   "html_short": "<span class=\"author\">Prince Singh, Sze Zheng Yong, Jean Gregoire, <span class=\"author-ac\">Andrea Censi</span>, and <a href='http://ares.lids.mit.edu/'>Emilio Frazzoli</a>.</span>\n<span class=\"title\">Stabilization of linear continuous-time systems using neuromorphic vision sensors.</span>\n<span class=\"booktitle\">In <em>IEEE Conference on Decision and Control (CDC)</em>, 3030&ndash;3036. Dec 2016.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/CDC.2016.7798722\">doi</a></span></span>", 
   "bibtex": "@inproceedings{singh16stabilization,\n    author = \"Singh, Prince and Yong, Sze Zheng and Gregoire, Jean and Censi, Andrea and Frazzoli, Emilio\",\n    doi = \"10.1109/CDC.2016.7798722\",\n    title = \"Stabilization of linear continuous-time systems using neuromorphic vision sensors\",\n    booktitle = \"IEEE Conference on Decision and Control (CDC)\",\n    month = \"Dec\",\n    year = \"2016\",\n    keywords = \"H\u221e control;continuous time systems;linear systems;stability;H\u221e controller;LTI system;computer vision algorithms;continuous-time linear time invariant system;linear continuous-time system;neuromorphic vision sensors;quadratic stability;retinal events;robotic applications;stabilization;Cameras;Linear systems;Neuromorphics;Retina;Robot sensing systems;Voltage control\",\n    pages = \"3030-3036\"\n}\n\n", 
@@ -1765,6 +1768,8 @@
  "mueller16efficient": {
   "fields": {
    "doi": "10.1109/EBCCSP.2015.7300672", 
+   "title": "Efficient high speed signal estimation with neuromorphic vision sensors", 
+   "booktitle": "International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)", 
    "author": [
     {
      "last": "Mueller", 
@@ -1779,13 +1784,12 @@
      "first": "E."
     }
    ], 
-   "title": "Efficient high speed signal estimation with neuromorphic vision sensors", 
-   "keywords": "edge detection;feedback;image reconstruction;image sensors;robot vision;asynchronous configuration sensor;dynamical systems;event stream;feedback control;high-speed signal estimation;high-speed signal reconstruction;low-latency high-bandwidth sensing;neuromorphic vision sensors;robotic systems;sensor properties;visual feedback control;Brightness;Neuromorphics;Noise;Robot sensing systems;Sensor systems;Voltage control", 
-   "booktitle": "International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)", 
+   "descicon": "https://censi.science/media/paper-icons/mueller16efficient.png", 
+   "month": "June", 
    "year": "2015", 
+   "keywords": "edge detection;feedback;image reconstruction;image sensors;robot vision;asynchronous configuration sensor;dynamical systems;event stream;feedback control;high-speed signal estimation;high-speed signal reconstruction;low-latency high-bandwidth sensing;neuromorphic vision sensors;robotic systems;sensor properties;visual feedback control;Brightness;Neuromorphics;Noise;Robot sensing systems;Sensor systems;Voltage control", 
    "type": "inproceedings", 
-   "pages": "1-8", 
-   "month": "June"
+   "pages": "1-8"
   }, 
   "html_short": "<span class=\"author\">E. Mueller, A. Censi, and E. Frazzoli.</span>\n<span class=\"title\">Efficient high speed signal estimation with neuromorphic vision sensors.</span>\n<span class=\"booktitle\">In <em>International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)</em>, 1&ndash;8. June 2015.</span>\n<span class=\"links\"><span class=\"doi\"><a href=\"http://dx.doi.org/10.1109/EBCCSP.2015.7300672\">doi</a></span></span>", 
   "bibtex": "@inproceedings{mueller16efficient,\n    author = \"Mueller, E. and Censi, A. and Frazzoli, E.\",\n    doi = \"10.1109/EBCCSP.2015.7300672\",\n    title = \"Efficient high speed signal estimation with neuromorphic vision sensors\",\n    booktitle = \"International Conference on Event-based Control, Communication, and Signal Processing (EBCCSP)\",\n    month = \"June\",\n    year = \"2015\",\n    keywords = \"edge detection;feedback;image reconstruction;image sensors;robot vision;asynchronous configuration sensor;dynamical systems;event stream;feedback control;high-speed signal estimation;high-speed signal reconstruction;low-latency high-bandwidth sensing;neuromorphic vision sensors;robotic systems;sensor properties;visual feedback control;Brightness;Neuromorphics;Noise;Robot sensing systems;Sensor systems;Voltage control\",\n    pages = \"1-8\"\n}\n\n", 
