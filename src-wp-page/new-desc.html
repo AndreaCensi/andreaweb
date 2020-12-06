@@ -1,286 +1,376 @@
-
-
 <meta charset="UTF-8" />
 
 
 <style type='text/css'>
-  body { padding: 2em; margin: 0; background-color: white;}
-  body P, body DL, body UL { max-width: 40em; }
+    body {
+        padding: 2em;
+        margin: 0;
+        background-color: white;
+    }
 
+    body P,
+    body DL,
+    body UL {
+        max-width: 40em;
+    }
+
+    span.author-ac {
+        color: darkblue;
+        font-weight: bold;
+    }
+
+    .opportunity {
+        font-size: 70%;
+        color: darkblue;
+    }
+
+    .email {
+        font-family: monospace;
+    }
+
+    h3,
+    h2 {
+        margin-top: 1.5em;
+    }
+
+    span.comment {
+        color: grey;
+        font-size: smaller;
+        display: none;
+    }
+
+    dl#research-topics dt {
+        font-weight: bold;
+    }
+
+    /* paragraphs for shoutouts */
+    .for {
+        margin-left: 1em;
+        font-size: smaller;
+    }
+
+    p.for-MIT {}
+
+    p.for-non-MIT {}
+
+    p.for-sw-users {}
+
+    p.for-outside {}
+
+    p#quicklinks {
+        text-align: left;
+        margin-top: 4em;
+    }
+
+    p#quicklinks a {
+        font-weight: bold;
+    }
+
+    #newdesc-research {
+        padding-top: 5em;
+    }
+
+
+    /* Side by side */
+    #newdesc-statistics {
+        float: left;
+        clear: left;
+        max-width: 20em;
+        display: block;
+    }
+
+    #newdesc-contact-NO {
+        float: left;
+        max-width: 20em;
+        padding-left: 10em;
+        margin-left: 2em;
+        display: block;
+    }
+
+
+
+    #travel {
+        display: block;
+        float: left;
+        margin-left: 2em;
+    }
+    table {
+        border-spacing: .5em;
+    }
 </style>
 
 
-<style type='text/css'>
-  span.author-ac {
-      color: darkblue; font-weight: bold;
-  }
-</style>
+<div style='float: left; width: 15em;  margin-right: 2em'>
+    <a href="/media/andrea-headshot-autolab.jpg">
+        <img src='/media/andrea-headshot-autolab-small.jpg' style='width: 90%; margin-right: 2em; border: solid 1px #888888;
+        box-shadow: 2px 2px 5px #888888;' />
+    </a>
 
-
-<style type='text/css'>
-.opportunity { font-size: 70%; color: darkblue;}
-.email { font-family: monospace;}
-h3, h2 { margin-top: 1.5em;}
-span.comment { color: grey; font-size: smaller; display: none; }
-
-dl#research-topics dt { font-weight: bold; }
-
-/* paragraphs for shoutouts */
-.for { margin-left: 1em; font-size: smaller; }
-p.for-MIT {}
-p.for-non-MIT {}
-p.for-sw-users {}
-p.for-outside {}
-
-p#quicklinks {
-    text-align: left;
-    margin-top: 4em;
-}
-p#quicklinks a { font-weight: bold;}
-
-#newdesc-research {  padding-top: 5em; }
-
-
-/* Side by side */
-#newdesc-statistics {float: left; clear: left; max-width: 20em; display: block;}
-#newdesc-contact {float: left; max-width: 20em; padding-left: 10em; margin-left: 2em; display: block;}
-
-/* Side by side */
-	#newdesc-whatsnew { clear: left; float: left; max-width: 30em; display: block;}
-#travel {  display: block; float: left; margin-left: 2em;}
-
-</style>
-
-
-<div style='float: left; width: 20em; text-align: center; margin-right: 2em'>
-  <a href="/media/andrea-headshot-autolab.jpg">
-      <img src='/media/andrea-headshot-autolab-small.jpg'
-
-      style='width: 90%; margin-right: 2em; border: solid 1px #888888;
-        box-shadow: 2px 2px 5px #888888;'/>
-  </a>
-
-  <p id='caption1' style='margin-top: 1em; width: 95%'>
+    <p id='caption1' style='margin-top: 1em; width: 95%'>
         Fig.&thinsp;1. Andrea, Dec 2018. <a href="/misc/roboportraits/">Other portraits by or with robots and
             roboticists.</a>
         <!-- a)&nbsp;Aug 2014, at <a href="http://cds20.caltech.edu/">CDS@20</a>. -->
         <!--  individual under inve&shy;sti&shy;ga&shy;tion; -->
-         <!-- In
+        <!-- In
         his na&shy;tu&shy;ral ha&shy;bi&shy;tat, but with a very unusual attire.  -->
-<!--         b)&thinsp;
+        <!--         b)&thinsp;
         <a href="/misc/roboportraits/">Self-portrait </a>
         by robot.
- -->  </p>
+ -->
+    </p>
 
- <p id='quicklinks'>Quick links:<br/>
- <a href="/publications">📝 publications</a>,<br/>
- <a href="/slides">🗣 talks</a>,<br/>
- <a href="https://purl.org/censi/cv">👤 CV</a>
-<!-- (<a href="/misc/short-bio/">short bio</a>)--><br/>
- <a href="http://www.linkedin.com/in/censi">
- <img class='site-icon' src='/media/linkedin.jpg'/></a>
+    <!-- <p id='quicklinks'> -->
+    <!-- Quick links:<br /> -->
+    <!-- <a href="/publications">📝 publications</a>,<br /> -->
+    <!-- <a href="/slides">🗣 talks</a>,<br /> -->
 
- <a href="https://plus.google.com/106839984596770449716">
- <img class='site-icon' src='/media/googleplus.png'/>
- </a>
-</p>
+    <!-- (<a href="/misc/short-bio/">short bio</a>)--><br />
+
+    <!-- <a href="https://plus.google.com/106839984596770449716">
+            <img class='site-icon' src='/media/googleplus.png' />
+        </a> -->
+    <!-- </p> -->
+
+    <div id='newdesc-contact'>
+        <!-- <h3>Contact</h3> -->
+        <?php include('new-desc.contact.html'); ?>
+    </div>
+
 
 </div>
 
 <section style='display: block; float: left; width: 32em; margin-bottom: 3em'>
 
-<p><strong>Andrea Censi</strong></p>
+    <p style='font-weight: bold; font-size: 200%'>Andrea Censi</p>
 
-<section style='width: 60em;'>
-<p>I work in the areas of systems and robotics (embodied artificial intelligence).</p>
-<!--<p>I work in the areas of systems and robotics.</p>-->
- <!-- 🤖 -->
+    <section style='width: 60em;'>
+        <p>I work in the areas of systems and robotics (embodied artificial intelligence).</p>
+        <!--<p>I work in the areas of systems and robotics.</p>-->
+        <!-- 🤖 -->
 
-<p>These days you can find me most often in Zürich&nbsp;<span class='flag'> &#x1F1E8;&#x1F1ED;</span>.</p>
-
-<!-- 
-<p>I divide my time among Zürich&nbsp;<span class='flag'> &#x1F1E8;&#x1F1ED;</span>, 
-Cambridge,&nbsp;MA&nbsp;<span class='flag'>&#127482;&#127480;</span>, and
-Singapore&nbsp;<span class='flag'>&#x1F1F8;&#x1F1EC;</span>. 
-</p>-->
+        <!-- <p>These days you can find me most often in Zürich&nbsp;<span class='flag'>&#x1F1E8;&#x1F1ED;</span>.</p> -->
 
 
-</section>
-<p>
-    This is what I do:</p>
+
+
+    </section>
+    <p>
+        This is what I do:</p>
 
     <style>
-    .flag { font-size: smaller;}
-    ul#special {
-        list-style: none;
-        margin-left: 0;
-        padding-left: 3.5em;
-        /*text-indent: -2em;*/
-    }
+        .flag {
+            font-size: smaller;
+        }
 
-    ul#special li {
-        /*padding-left: 2em;*/
-    }
-    ul#special li:before {
-        content: "►";
-        display: block;
-        float: left;
-        margin-left: -1.8em;
-        font-size: 170%;
-    }
-    ul#special li:nth-child(1):before { content: '👨‍🔬'; }
-   ul#special li:nth-child(2):before { content: '👨‍🏫'; }
+        ul#special {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 3.5em;
+            /*text-indent: -2em;*/
+        }
 
-    ul#special li:nth-child(3):before { content: '👨‍💼'; }
 
+        ul#special li.scientist:before,
+        ul#special li.outreach:before,
+        ul#special li.industry:before {
+            content: "►";
+            display: block;
+            float: left;
+            margin-left: -1.8em;
+            font-size: 170%;
+        }
+
+        ul#special li.scientist:before {
+            content: '👨‍🔬';
+        }
+
+        ul#special li.outreach:before {
+            content: '👨‍🏫';
+        }
+
+        ul#special li.industry:before {
+            content: '👨‍💼';
+        }
     </style>
 
-<ul id=special>
-<li>
-    <img src='/media/ethz-logo.png'
-        style='float: right; width: 11em; margin-right: -11em; '/>
+    <ul id=special>
+        <li class="scientist">
+            <img src='/media/ethz-logo.png' style='float: right; width: 11em; margin-right: -11em; ' />
+
+            <p>I am Deputy Director for the
+                <a href="https://idsc.ethz.ch/research-frazzoli.html"> Chair of Dynamic Systems and Control
+                </a>
+                under Emilio
+                Frazzoli
+                <!-- at the <a href="http://www.idsc.ethz.ch/">Institute for Dynamic Systems and Control</a> -->
+                in the
+                <a href="http://www.mavt.ethz.ch">
+                    Department of Mechanical and Process Engineering
+                </a> at ETH Z&uuml;rich.</p>
 
 
-    <p>I am Deputy Director for the Chair of Dynamic Systems and Control (Emilio Frazzoli being the chair)
-    at the <a href="http://www.idsc.ethz.ch/"><strong>Institute for Dynamic Systems and Control</strong></a>
-    in the 
-<a href="http://www.mavt.ethz.ch">
-Department of Mechanical and Process Engineering
- </a> at ETH Z&uuml;rich.</p>
-<!--
-    <p style='font-size: 70%;clear:right'>(Until early 2017 I was a Research Scientist and PI at <a href="http://lids.mit.edu">
-        LIDS</a> 
-     at MIT.)</p>
--->
-
+            <!-- 
 <p class='opportunity'>The Frazzoli group is looking for exceptional students and postdocs
 in the areas of: autonomy (especially joint learning, inference and control and motion planning),
 mobility-on-demand, system co-design. 
-</p>
+</p> -->
 
-<p class='opportunity'>ETH students: for important administrative requests,
-please cc our lab manager Annina Fattor (<span class='email'>afattor@ethz.ch</span>),
-who will make sure things will be done on time.
+            <p class='opportunity'>ETH students: for important administrative requests,
+                please cc our lab manager Annina Fattor (<span class='email'>afattor@ethz.ch</span>),
+                who will make sure things will be done on time.
 
-</p>
-</li>
-<!--<li>
-    <img src='/media/nuTonomylogo.png'
-    style='width: 7.5em; margin-right: -7.5em; margin-left: 2em; float:right; clear: right; margin-bottom: 1em'/>
+            </p>
+        </li>
 
-    <p>I am Director of Research at <a href="http://nutonomy.com"><strong>nuTonomy</strong></a>.
-<br/>
-    We make self-driving cars 🤖🚗.</p>
 
-<p>
-At nuTonomy, I lead advanced development projects for safety-critical embodied artificial intelligence.
-<br/>
-I serve as liaison with academia, for sponsored research and talent scouting.
-</p>
+        <li class="outreach" style='clear:right'>
+            <img src='/media/duckietown.png'
+                style='width: 4em; margin-right: -5em; float:right; margin-left: 2em;clear: right; margin-bottom: 1em' />
 
-    <p class='opportunity'><a href="http://nutonomy.com/careers">We're hiring in all areas of robotics, both at the
-senior and junior level.</a>
-Feel free to contact me at <span class='email'>andrea@nutonomy.com</span> if you'd like to talk about
-the senior opportunities.
-<br/>For press/media inquiries, please contact <span class='email'>press@nutonomy.com</span>.
+            <p>I am president of <a href="http://duckietown.org/">the <strong>Duckietown Foundation</strong></a>,
+                a robotics education and outreach effort.<br />
+            </p>
+            <!-- 
+            <p class='opportunity'>
+                We are looking for partner universities to make this a shared experience.
+                Please contact me at <span class='email'>andrea@duckietown.org</span> if you are interested in this.
+                <br />Please contact <span class='email'>info@duckietown.org</span> for other inquiries (press etc.)</p>
+ -->
 
-</p>
-</p>
-</li>-->
+        </li>
+        <li class="industry" style='clear:right'>
+            I am founder of <a href="https://www.zupermind.com"><strong>Züpermind</strong></a>, a start-up about
+            computational design. (Currently in stealth mode.)
+        </li>
+    </ul>
 
-<li style='clear:right'>
-    <img src='/media/duckietown.png'
-    style='width: 5em; margin-right: -5em; float:right; margin-left: 2em;clear: right; margin-bottom: 1em'/>
+    <p>I obtained a Ph.D. in <a href="http://www.cds.caltech.edu/">Control &amp; Dynamical Systems</a> from
+        🌴&nbsp;<a href="http://phdmovie.com">Caltech</a>&nbsp;🌴 in 2012 in <a
+            href="http://www.cds.caltech.edu/~murray/">Richard Murray's group</a>.</p>
 
-    <p>I am president of <a href="http://duckietown.org/">the <strong>Duckietown Foundation</strong></a>,
-        a robotics education and outreach effort.<br/>
-</p>
+    <p>I grew up in Italy and obtained an M.Eng. degree in control &amp; robotics from Sapienza University.</p>
 
-	<p class='opportunity'>
-We are looking for partner universities to make this a shared experience.
-Please contact me at <span class='email'>andrea@duckietown.org</span> if you are interested in this. 
-<br/>Please contact <span class='email'>info@duckietown.org</span> for other inquiries (press etc.)</p>
-
-         <!-- Engineering co.</a></p>
-    <p style='font-size: 70%'>
-    FAQ: can we acquire you? Answer: no - this one is a fictional company used for
-    a robotics outreach effort, <a href="http://duckietown.mit.edu/"><strong>Duckietown</strong></a>.</p> -->
-
-</li>
-<li style='clear:right'>
-I am founder of <a href="https://www.zupermind.com"><strong>ZüperMind</strong></a>, a start-up about computational design. (Currently in stealth mode.)
-</li>
-</ul>
-
-<p>I obtained a Ph.D. in <a href="http://www.cds.caltech.edu/">Control &amp; Dynamical Systems</a> from
-    🌴&nbsp;<a href="http://phdmovie.com">Caltech</a>&nbsp;🌴 in 2012 in <a href="http://www.cds.caltech.edu/~murray/">Richard Murray's group</a>.</p>
-
-<p>I grew up in Italy and obtained an M.Eng. degree in control &amp; robotics from Sapienza University.</p>
-
-<p style='margin-top: 3em; font-size:smaller; font-weight: bold;'><em>Last update of bio: July 2019</em><br/><em>Last update of research info: around 2016...</em></p>
+    <p><a href="https://purl.org/censi/cv">👤 CV</a></p>
+    <p style='margin-top: 3em; font-size:smaller; font-weight: bold;'><em>Last update: Dec
+            2020</em></p>
 
 </section>
+<div style='clear:both'></div>
+<section>
+    <table>
+        <tr>
+            <td style='width: 50%;'>
 
-<h4>Bio news</h4>
+                <h3> Supervision </h3>
+                <p><strong>Students</strong> I work with:</p>
+                <ul>
+                    <li> Ezzat Elokda* (karma theories) </li>
+                    <li>Dejan Milojevic (task-driven sensor selection), co-supervised with <a
+                            href="https://www.empa.ch/web/s504/team">EMPA </a></li>
+                    <li>Marco Wiedner (contextual HMI), industrial PhD with Porsche </li>
+                    <li><a href="https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjIxNjc1.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html">
+                    Alessandro Zanardi</a>* (monadic game theory) </li>
+                    <li><a href="https://zardini.science">Gioele Zardini</a> (co-design, mobility) </li>
+                    <li>Julian Zilly (plasticity in deep learning) </li>
 
-<ul>
-<li>As of July 2019, I am working on my own startup (<a href="https://www.zupermind.com">ZüperMind</a>), currently in stealth mode.</li>
-<li> 
+                </ul>
+                <p><strong>Postdocs</strong> I work with:</p>
+                <ul>
+                    <li> <a href="https://lavaei.de">Abolfazl Lavaei</a> (trustworthy autonomy) </li>
+                    <li> <a href="https://lorand.earth"> Jonathan Lorand</a> (applied category theory) </li>
+                </ul>
+                <p>*: co-supervised with <a href="http://people.ee.ethz.ch/~bsaverio/">Saverio Bolognani</a></p>
 
-    <img src='/media/nuTonomylogo.png'
-    style='width: 7.5em; margin-right: -7.5em; margin-left: 2em; float:right; clear: right; margin-bottom: 1em'/>
-As of July 2019, I am not employed anymore with Aptiv / nuTonomy. 
-    <br/><br/>
-    Between 2016 and 2019 I worked for nuTonomy, an MIT self-driving cars startup. Since 2018 I was
-    Director of Research at Aptiv, the company that acquired nuTonomy. 
-    <br/><br/>
-</li>
-<li>As of January 2017, I left MIT to join ETH Zürich.</li>
-</ul>
+            </td>
+            <td style='width: 30%;'>
+                <h3>Misc</h3>
+                <ul>
+                    <li>
+                    Consider attending 
+                    the (now virtual) <a href="https://idsc.ethz.ch/research-frazzoli/autonomy-talks.html">
+<strong>Autonomy Talks</strong>
+
+                    </a> at ETH Zürich (<a href="https://www.youtube.com/channel/UCliyJHlWu5PanFDMDwLb2rA"
+                    >recordings</a>) to get an overview of research in autonomy / automation
+                    at ETH and elsewere.
+                </li>
+                </ul>
+                </td>
+        </tr>
+    </table>
+</section>
+
+<?php include('index-teaching.html'); ?>
+
 
 <div style='clear:both'></div>
-<div id='newdesc-statistics'>
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.statistics.html'); ?>
-</div>
 
-<div id='newdesc-contact'>
-  <h3>Contact</h3>
-  <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.contact.html'); ?>
-</div>
+<table style='width: 100%'>
+    <tbody>
+        <tr>
+            <td>
+
+                <h3>What's new</h3>
+                <?php include('index-whatsnew.html'); ?>
+
+            </td>
+            <td class="width: 30%">
+                <div style='max-width: 25em'>
+                    <h3>Bio news</h3>
+                    <?php include('new-desc.bionews.html'); ?>
+                </div>
+            </td>
+
+        </tr>
+    </tbody>
+</table>
 
 
-<div id="newdesc-whatsnew">
-    <h3>What's new</h3>
-    <?php include('/home/andrea/scm/andreaweb/src-wp-page/index-whatsnew.html'); ?>
-</div>
-
-<div id='travel'>
-    <h3>Upcoming travel</h3>
-    <?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.plans.html'); ?>
-</div>
+<h3>Other cool stuff</h3>
+<p>The Duckumentary of the first edition of the Duckietown class.</p>
+<iframe src="https://player.vimeo.com/video/231688769" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
+<h3>Previous work</h3>
 
-<h2 id="newdesc-research">My research</h2>
+<details style="display: block; clear: both">
+    <summary>
+        Click here to see a summary of my research as of 2016.
+        Nowadays the new content is on students' pages and this part is not updated
+        anymore.
 
-<p>Here's what's up: <a href="https://www.youtube.com/watch?v=7Pq-S557XQU">The robots are coming!</a>
-Please
-  <a href="http://www.npr.org/sections/money/2015/05/21/408234543/will-your-job-be-done-by-a-machine">
-     see here</a> to check the likelihood that your job will be replaced by a machine.
+    </summary>
 
-But don't worry too much; the thing is, we don't really know how to design complex robotic systems,
-despite the headlines.</p>
+    <h2 id="newdesc-research">My research</h2>
 
-<p>I work on the <strong>Science of Embodied Autonomy</strong>. The engineering applications of my work are towards making complex autonomous robotic systems more robust, more efficient, and easier to design. More generally,
-I want to understand what are the principles underlying embodied intelligence, both natural and artificial.
-</p>
+    <p>Here's what's up: <a href="https://www.youtube.com/watch?v=7Pq-S557XQU">The robots are coming!</a>
+        Please
+        <a href="http://www.npr.org/sections/money/2015/05/21/408234543/will-your-job-be-done-by-a-machine">
+            see here</a> to check the likelihood that your job will be replaced by a machine.
 
-<style type='text/css'>
-div.eyes-only { border: solid 1px red; padding: 1em; margin-top: 1em; display: none;}
+        But don't worry too much; the thing is, we don't really know how to design complex robotic systems,
+        despite the headlines.</p>
 
-section.research-topic { margin-top: 2em; margin-left: 2em; width: 100%;}
-</style>
-<?php
+    <p>I work on the <strong>Science of Embodied Autonomy</strong>. The engineering applications of my work are towards
+        making complex autonomous robotic systems more robust, more efficient, and easier to design. More generally,
+        I want to understand what are the principles underlying embodied intelligence, both natural and artificial.
+    </p>
+
+    <style type='text/css'>
+        div.eyes-only {
+            border: solid 1px red;
+            padding: 1em;
+            margin-top: 1em;
+            display: none;
+        }
+
+        section.research-topic {
+            margin-top: 2em;
+            margin-left: 2em;
+            width: 100%;
+        }
+    </style>
+    <?php
   function only_for($filename) {
     if ( is_user_logged_in() ) {
       echo('<div class="eyes-only">');
@@ -291,154 +381,164 @@ section.research-topic { margin-top: 2em; margin-left: 2em; width: 100%;}
 ?>
 
 
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.research.codesign.html'); ?>
+    <?php include('new-desc.research.codesign.html'); ?>
 
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.research.neuro.html'); ?>
+    <?php include('new-desc.research.neuro.html'); ?>
 
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.research.boot.html'); ?>
+    <?php include('new-desc.research.boot.html'); ?>
 
-<?php
-//include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.research.meta.html');
+    <?php
+        //include('new-desc.research.meta.html');
 ?>
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.research.classic.html'); ?>
+    <?php include('new-desc.research.classic.html'); ?>
 
-<!-- php only_for('/home/andrea/scm/andreaweb/src-wp-page/new-desc.group.html');
-php only_for('/home/andrea/scm/andreaweb/src-wp-page/new-desc.collab.html');
-php only_for('/home/andrea/scm/andreaweb/src-wp-page/new-desc.funding.html'); -->
-
-<?php  include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.software.html'); ?>
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.service.html'); ?>
-
-
-
-<!-- <p> <strong>Philosophy:</strong>
-I consider myself primarily an engineer and I work towards solving
-the immediate problems of industry---however, note that these would be
-the problems that are 20 years down the line.
-</p>
- -->
-
-
-
-<!--    <p>
-    Dear colleagues: at the moment I am all booked up. I regret not being able to take additional commitments (like reviews).
-    </p>-->
-
-
-<h2>Personal</h2>
-<!--
-<p> I am originally from Rome, Italy. </p> -->
-
-<ul>
-<li> <a href="/misc/faq/">FAQ</a> </li>
-<li> <a href="/misc/quotes/">interesting quotes</a> </li>
-</ul>
-
-<div class='video-gallery-int' id='video-gallery-personal'>
-
- <div class='video'>
-      <iframe src="https://player.vimeo.com/video/149916365" width="240" height="135"
-              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      <p style="width: 240px"><em>The 2.166 "Autonomous Vehicles" Elves</em> (<a href="https://vimeo.com/149916365/">full screen</a>)</p>
-  </div>
-
-  <div class='video'>
-      <iframe src="https://player.vimeo.com/video/145576514" width="240" height="135"
-              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      <p style="width: 240px"><em>The NERC Experience (robot prom)</em> (<a href="https://vimeo.com/145576514/">full screen</a>)</p>
-  </div>
-
-
-  <div class='video'>
-      <iframe src="https://player.vimeo.com/video/106195684" width="240" height="135"
-              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      <p style="width: 240px"><em>The deadline rush</em>: a bit of performance art
-        in the occasion of the 10th anniversary of my first deadline (<a href="https://vimeo.com/106195684/">full screen</a>)</p>
-  </div>
-
-  <div class='video'>
-    <iframe src="https://player.vimeo.com/video/68463031" width="240" height="135"
-            frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    <p style="width: 240px">Graduation ceremony in first person (Jun 2013) <br/>
-      (<a href="http://www.vimeo.com/68463031">full screen</a>)</p>
-  </div>
-
-  <div style='clear: left'>&nbsp;</div>
-</div>
-
-<h2>The ICRA 2015 trailer </h2>
-<?php include('/home/andrea/scm/andreaweb/src-wp-page/new-desc.icra15trailer.html'); ?>
+    <?php include('new-desc.software.html'); ?>
+    <?php include('new-desc.service.html'); ?>
 
 
 
 
-<!--
+    <h2>Personal</h2>
 
-<div id='widget-gplus'>
-    <h3>Google+ </h3>
-    <a href="https://plus.google.com/106839984596770449716">
-        <img class='site-icon' src='/media/googleplus.png'/>
-        my Google+ profile</a><br/>
-    <div id="gpluswidget" data-id="106839984596770449716" data-key="AIzaSyAmCrdKWfCqbw5eRHwXftqetgnIliTwIcc"
-    data-posts="10" data-lang="yes" data-width="300" data-bkg="transparent" data-padding="10" data-border="f5f5f5"
-    data-radius="0" data-txt="0c0c0c" data-link="36c" data-favicon="yes" data-header="no" data-footer="yes" data-page="no"></div>
-    <script type="text/javascript" src="http://gplusapi.googlecode.com/files/widget0.js"></script>
+    <ul>
+        <li> <a href="/misc/faq/">FAQ</a> </li>
+        <li> <a href="/misc/quotes/">interesting quotes</a> </li>
+    </ul>
+
+    <div class='video-gallery-int' id='video-gallery-personal'>
+
+        <div class='video'>
+            <iframe src="https://player.vimeo.com/video/149916365" width="240" height="135" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p style="width: 240px"><em>The 2.166 "Autonomous Vehicles" Elves</em> (<a
+                    href="https://vimeo.com/149916365/">full screen</a>)</p>
+        </div>
+
+        <div class='video'>
+            <iframe src="https://player.vimeo.com/video/145576514" width="240" height="135" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p style="width: 240px"><em>The NERC Experience (robot prom)</em> (<a
+                    href="https://vimeo.com/145576514/">full
+                    screen</a>)</p>
+        </div>
+
+
+        <div class='video'>
+            <iframe src="https://player.vimeo.com/video/106195684" width="240" height="135" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p style="width: 240px"><em>The deadline rush</em>: a bit of performance art
+                in the occasion of the 10th anniversary of my first deadline (<a
+                    href="https://vimeo.com/106195684/">full
+                    screen</a>)</p>
+        </div>
+
+        <div class='video'>
+            <iframe src="https://player.vimeo.com/video/68463031" width="240" height="135" frameborder="0"
+                webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <p style="width: 240px">Graduation ceremony in first person (Jun 2013) <br />
+                (<a href="http://www.vimeo.com/68463031">full screen</a>)</p>
+        </div>
+
+        <div style='clear: left'>&nbsp;</div>
     </div>
-</div> -->
+
+    <h2>The ICRA 2015 trailer </h2>
+    <?php include('new-desc.icra15trailer.html'); ?>
 
 
-<style type='text/css'>
-#fluid_short_news { height: 35em; width: 100%;}
-#fluid_short_news { clear: left; }
-#fluid_short_news .shortpost { width: 20em;  display: box;}
-#fluid_short_news .shortpost h4 { }
+    <style type='text/css'>
+        #fluid_short_news {
+            height: 35em;
+            width: 100%;
+        }
 
-#fluid_short_news .shortpost {padding: 0.4em; margin-bottom: 2em;}
-#fluid_short_news .shortpost {background-color: #fffafa; }
-#fluid_short_news #shortpost0  { background-color: #ffbbbb; }
-#fluid_short_news #shortpost1  { background-color: #ffcccc; }
-#fluid_short_news #shortpost2  { background-color: #ffdddd; }
-#fluid_short_news #shortpost3  { background-color: #ffeeee; }
-#fluid_short_news #shortpost4  { background-color: #fff7f7; }
-#fluid_short_news #shortpost5  { background-color: #ffeeee; }
+        #fluid_short_news {
+            clear: left;
+        }
+
+        #fluid_short_news .shortpost {
+            width: 20em;
+            /*display: box;*/
+        }
+
+        #fluid_short_news .shortpost h4 {}
+
+        #fluid_short_news .shortpost {
+            padding: 0.4em;
+            margin-bottom: 2em;
+        }
+
+        #fluid_short_news .shortpost {
+            background-color: #fffafa;
+        }
+
+        #fluid_short_news #shortpost0 {
+            background-color: #ffbbbb;
+        }
+
+        #fluid_short_news #shortpost1 {
+            background-color: #ffcccc;
+        }
+
+        #fluid_short_news #shortpost2 {
+            background-color: #ffdddd;
+        }
+
+        #fluid_short_news #shortpost3 {
+            background-color: #ffeeee;
+        }
+
+        #fluid_short_news #shortpost4 {
+            background-color: #fff7f7;
+        }
+
+        #fluid_short_news #shortpost5 {
+            background-color: #ffeeee;
+        }
 
 
-</style>
-<style type='text/css'>
- /*#video-gallery-int{ width: 150%;}*/
+        .video-gallery-int {
+            width: 100%;
+        }
 
-.video-gallery-int { width: 100%;}
-.video-gallery-int .video { }
-.video-gallery-int .video P { font-size: smaller; font-style: italic;}
+        .video-gallery-int .video {}
 
-</style>
+        .video-gallery-int .video P {
+            font-size: smaller;
+            font-style: italic;
+        }
+    </style>
+
+
+</details>
 
 <script type='text/javascript' src="/media/masonry.pkgd.js"></script>
 <script type='text/javascript'>
-$(document).ready(function() {
+    $(document).ready(function () {
 
-    if (false ) {
-        var container = document.querySelector('#fluid_short_news');
+        if (false) {
+            var container = document.querySelector('#fluid_short_news');
 
-        var msnry = new Masonry( container, {
-          // options
-          // columnWidth: 200,
-          itemSelector: '.shortpost',
-          gutter: 10,
-        });
-    }
+            var msnry = new Masonry(container, {
+                // options
+                // columnWidth: 200,
+                itemSelector: '.shortpost',
+                gutter: 10,
+            });
+        }
 
+        /*
     containers = document.querySelectorAll('.video-gallery-int');
-    for(var i = 0; i < containers.length; ++i) {
+    for (var i = 0; i < containers.length; ++i) {
         var container = containers[i];
-        var msnry = new Masonry( container, { columnWidth: 100, itemSelector: '.video' });
+        var msnry = new Masonry(container, { columnWidth: 100, itemSelector: '.video' });
     }
 
     container = document.querySelector('#trailer-gallery-int');
-    var msnry = new Masonry( container, {
-      // options
-      columnWidth: 100,
-      itemSelector: '.video'
+    var msnry = new Masonry(container, {
+        // options
+        columnWidth: 100,
+        itemSelector: '.video'
+    });*/
     });
-});
 </script>

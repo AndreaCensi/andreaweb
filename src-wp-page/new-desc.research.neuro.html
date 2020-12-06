@@ -1,97 +1,111 @@
 <section class='research-topic'>
 
-<h3>3. Neuromorphic / bio-inspired control</h3>
+  <h3>3. Neuromorphic / bio-inspired control</h3>
 
-<p> I'm interested in co-design problems that couple sensing, computation, and actuation in a non-trivial way, especially from the point of view of design minimality and "joint inference and control".
-</p>
+  <p> I'm interested in co-design problems that couple sensing, computation, and actuation in a non-trivial way,
+    especially from the point of view of design minimality and "joint inference and control".
+  </p>
 
-<p>
-In particular, I'm interested in the robotics applications
-of event-based <strong>neuromorphic vision sensors</strong>. These are a new kind of sensor that outputs a low-latency stream of eevents, generated every time there is a change in the local brightness perceived by a pixel, rather than a periodic series of frames.</p>
+  <p>
+    In particular, I'm interested in the robotics applications
+    of event-based <strong>neuromorphic vision sensors</strong>. These are a new kind of sensor that outputs a
+    low-latency stream of eevents, generated every time there is a change in the local brightness perceived by a pixel,
+    rather than a periodic series of frames.</p>
 
-<div style='width: 30em; margin-left: 4em; margin-top: 1em; margin-bottom: 1em '>
+  <div style='width: 30em; margin-left: 4em; margin-top: 1em; margin-bottom: 1em '>
 
-<img style="width: 30%; border: solid 1px black;" src="https://github.com/AndreaCensi/env_dvs/blob/master/l2.aedat.show_simple-0.03.gif?raw=true"/>
+    <img style="width: 30%; border: solid 1px black;"
+      src="https://github.com/AndreaCensi/env_dvs/blob/master/l2.aedat.show_simple-0.03.gif?raw=true" />
 
-<img style="width: 30%; border: solid 1px black" src="https://github.com/AndreaCensi/env_dvs/blob/master/l2.aedat.show_simple-0.001.gif?raw=true"/>
+    <img style="width: 30%; border: solid 1px black"
+      src="https://github.com/AndreaCensi/env_dvs/blob/master/l2.aedat.show_simple-0.001.gif?raw=true" />
 
-<img  style="width: 30%; margin-left: 0; border: solid 1px black;" src="https://censi.science/pub/research/2013-dvsd/events.gif"/>
+    <img style="width: 30%; margin-left: 0; border: solid 1px black;"
+      src="https://censi.science/pub/research/2013-dvsd/events.gif" />
 
-<p style="font-size: smaller; font-family: italic">Events from a neuromorphic sensor, in real time (left) and slowed down 50x (center). On the right, events
-superimposed with a CMOS sensor's output. </p>
+    <p style="font-size: smaller; font-family: italic">Events from a neuromorphic sensor, in real time (left) and slowed
+      down 50x (center). On the right, events
+      superimposed with a CMOS sensor's output. </p>
 
-</div>
+  </div>
 
   <p>My research is guided by the questions:</p>
-    <ul>
+  <ul>
 
-      <li><em>Theory:</em>
+    <li><em>Theory:</em>
 
-          How can we formally say that this sensor class is better than another? For what tasks? In what environments?
+      How can we formally say that this sensor class is better than another? For what tasks? In what environments?
 
-      </li>
+    </li>
 
-      <li><em>Algorithms:</em>
+    <li><em>Algorithms:</em>
 
-          How can we obtain "zero-latency" event-based controllers?
+      How can we obtain "zero-latency" event-based controllers?
 
-      </li>
+    </li>
 
-      <li><em>Systems:</em>
+    <li><em>Systems:</em>
 
-          How can we integrate these sensors in existing control architectures?
-      </li>
+      How can we integrate these sensors in existing control architectures?
+    </li>
 
-    </ul>
-
-
-<div>
-
-[pub_ref_compact id='censi15neucontrol_sub']
-
-[pub_ref_compact id='censi15powerperf_sub']
-
-[pub_ref_compact id='censi13dvsd_sub']
-
-[pub_ref_compact id='censi13dvs']
-
-[pub_ref_compact id='fuller14controlling']
-
-</div>
+  </ul>
 
 
-<p style='margin-top: 1em; margin-bottom: 1em'>
-The world is full of natural robots, which are informally called &ldquo;animals.&rdquo;
-I have worked on the identification of fruit-fly stimulus-elicited behavior, with <a href="">Dickinson</a> and <a href="http://strawlab.org">Straw</a>. This kind of work is interesting for an engineer, because it can be seen as reverse-engineering of an existing solution. Lately, I'm thinking about how to make this duality between analysis (biology) and synthesis (robotics) more formal. I'm very interested in possible collaborations on this topic.
-<!--
+  <div>
+
+    [pub_ref_compact id='censi15neucontrol_sub']
+
+    [pub_ref_compact id='censi15powerperf_sub']
+
+    [pub_ref_compact id='censi13dvsd_sub']
+
+    [pub_ref_compact id='censi13dvs']
+
+    [pub_ref_compact id='fuller14controlling']
+
+  </div>
+
+
+  <p style='margin-top: 1em; margin-bottom: 1em'>
+    The world is full of natural robots, which are informally called &ldquo;animals.&rdquo;
+    I have worked on the identification of fruit-fly stimulus-elicited behavior, with <a href="">Dickinson</a> and <a
+      href="http://strawlab.org">Straw</a>. This kind of work is interesting for an engineer, because it can be seen as
+    reverse-engineering of an existing solution. Lately, I'm thinking about how to make this duality between analysis
+    (biology) and synthesis (robotics) more formal. I'm very interested in possible collaborations on this topic.
+    <!--
 I see the natural robots
 (usually known as &ldquo;animals&rdquo;) are an example of very coupled minimal co-design, created
 by a messy but persistent designer (evolution) that is somehow &ldquo;optimal&rdquo;.
 </p>
  -->
 
-[pub_ref_compact id='censi13saccade']
+    [pub_ref_compact id='censi13saccade']
 
 
 
-<div class='video-gallery-int' style='margin-top: 1em'>
-  <div class='video'>
-      <iframe src="https://player.vimeo.com/video/98832025" width="240" height="135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      <p style="width: 240px">The robot fly was blind but now it sees! (<a href="http://www.vimeo.com/98832025">full screen</a>; <a href="http://rsif.royalsocietypublishing.org/content/11/97/20140281">paper</a>)</p>
+  <div class='video-gallery-int' style='margin-top: 1em'>
+    <div class='video'>
+      <iframe src="https://player.vimeo.com/video/98832025" width="240" height="135" frameborder="0"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p style="width: 240px">The robot fly was blind but now it sees! (<a href="http://www.vimeo.com/98832025">full
+          screen</a>; <a href="http://rsif.royalsocietypublishing.org/content/11/97/20140281">paper</a>)</p>
+    </div>
+
+    <div class='video'>
+      <iframe src="https://player.vimeo.com/video/19194748" width="160" height="135" frameborder="0"
+        webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      <p style="width: 240px">A fruit fly's perspective on the world (<a href="http://www.vimeo.com/19194748">full
+          screen</a>;
+        <a href="https://purl.org/censi/2011/saccade">paper</a>)</p>
+    </div>
   </div>
-
-  <div class='video'>
-  <iframe src="https://player.vimeo.com/video/19194748" width="160" height="135"   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-  <p style="width: 240px">A fruit fly's perspective on the world (<a href="http://www.vimeo.com/19194748">full screen</a>;
-    <a href="https://purl.org/censi/2011/saccade">paper</a>)</p>
-  </div>
-</div>
 
   <p class=recent-workshops style='margin-top: 2em'>Some recent workshops on these topics:</p>
   <ul>
-      <li> <a href="http://innovative-sensing.mit.edu/">ICRA 2015 workshop on Innovative Sensing in Robotics</a></li>
-      <li> <a href="http://www-users.cs.umn.edu/~isler/workshop/active-perception/">
-      ICRA 2015 workshop on Scaling Up Active Perception</a></li>
+    <li> <a href="http://innovative-sensing.mit.edu/">ICRA 2015 workshop on Innovative Sensing in Robotics</a></li>
+    <li> <a href="http://www-users.cs.umn.edu/~isler/workshop/active-perception/">
+        ICRA 2015 workshop on Scaling Up Active Perception</a></li>
   </ul>
 
-  </section>
+</section>

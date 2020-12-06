@@ -24,5 +24,6 @@ header { display: none;}
     render_plus_shortcode('/home/andrea/scm/andreaweb/src-wp-page/new-desc.html');
 ?>
 
+<!-- hello -->
 
 <?php get_footer(); ?>

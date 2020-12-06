@@ -32,8 +32,8 @@ function pub_format_short($entry) {
     $html_short = $entry['html_short'];
     $js = "javascript:$(\"#{$id}\").toggle();";
     $bib = "<a class='pub-ref-bibtex-link' onclick='{$js}' href='javascript:void(0)'>".
-        "bibtex</a><pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>{$bibtex}</pre>";
-    return "<p class='pub-ref-short'>{$html_short}{$bib}</p>";
+        "bibtex</a>\n<pre class='pub-ref-bibtex' id='{$id}' style='display: none;'>\n{$bibtex}\n</pre>";
+    return "<p class='pub-ref-short'>\n{$html_short}\n</p>\n{$bib}";
 }
 
 function pub_ref_page( $atts ) { 
@@ -107,7 +107,7 @@ function pub_ref_desc( $atts ) {
     $desc = indent_div("class='desc'", pub_format_desc($entry));
     $icon = pub_format_descicon($entry);
     $short = pub_format_short($entry);
-    $s = indent_div("class='pub-ref-desc'", "{$icon}\n{$short}\n{$desc}<div style='clear:both'></div>");
+    $s = indent_div("class='pub-ref-desc'", "{$icon}\n{$short}\n{$desc}\n<div style='clear:both'></div>\n");
     return $s;
 } 
 
@@ -151,7 +151,7 @@ add_shortcode( 'pub_ref_compact', 'pub_ref_compact' );
 
 
 function indent_div($attrs, $content) {
-    return indent_content("<div {$attrs}>", $content, "</div>");
+    return indent_content("\n<div {$attrs}>", $content, "</div>");
 }
 function no_markdown($content) {
     return indent_div("markdown='0'", $content);
@@ -188,7 +188,7 @@ function create_pdf_preview($id, $pdf_url) {
 function format_error($f, $id) {
 	file_put_contents('php://stderr', print_r("publication not found: {$f}: {$id}\n", TRUE));
 
-    return "<p style='color: red' class='pub-ref-error'><tt>{$f}<tt>: Could not find publication <tt>{$id}</tt>.</p>";
+    return "<p style='color: red' class='pub-ref-error'>\n<tt>{$f}</tt>: Could not find publication <tt>{$id}</tt>.\n</p>";
 }
 
 function pub_ref_extra($atts) {
